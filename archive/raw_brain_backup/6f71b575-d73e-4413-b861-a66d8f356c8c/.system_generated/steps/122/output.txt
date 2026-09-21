@@ -1,0 +1,95 @@
+
+The command exited with code 1.
+Output:
+Manim Community v0.21.0
+
+manim.exe : 
+At line:1 char:133
++ ... "Machine"); & "C:\Users\renu5\.gemini\antigravity\scratch\manim-proje ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Animation 0: _MethodAnimation(ValueTracker):   0%|          | 0/240 [00:00<?, ?it/s]
+Animation 0: _MethodAnimation(ValueTracker):   1%|1         | 3/240 [00:00<00:08, 26.52it/s]
+Animation 0: _MethodAnimation(ValueTracker):   3%|2         | 7/240 [00:00<00:07, 32.00it/s]
+Animation 0: _MethodAnimation(ValueTracker):   5%|4         | 11/240 [00:00<00:06, 35.16it/s]
+Animation 0: _MethodAnimation(ValueTracker):   6%|6         | 15/240 [00:00<00:06, 35.89it/s]
+Animation 0: _MethodAnimation(ValueTracker):   8%|7         | 19/240 [00:00<00:05, 37.01it/s]
+Animation 0: _MethodAnimation(ValueTracker):  10%|9         | 23/240 [00:00<00:06, 35.81it/s]
+Animation 0: _MethodAnimation(ValueTracker):  11%|#1        | 27/240 [00:00<00:05, 36.44it/s]
+Animation 0: _MethodAnimation(ValueTracker):  13%|#3        | 32/240 [00:00<00:05, 38.12it/s]
+Animation 0: _MethodAnimation(ValueTracker):  15%|#5        | 36/240 [00:00<00:05, 38.62it/s]
+Animation 0: _MethodAnimation(ValueTracker):  17%|#6        | 40/240 [00:01<00:05, 38.20it/s]
+Animation 0: _MethodAnimation(ValueTracker):  18%|#8        | 44/240 [00:01<00:05, 34.31it/s]
+Animation 0: _MethodAnimation(ValueTracker):  20%|##        | 48/240 [00:01<00:05, 35.55it/s]
+Animation 0: _MethodAnimation(ValueTracker):  22%|##1       | 52/240 [00:01<00:05, 34.53it/s]
+Animation 0: _MethodAnimation(ValueTracker):  23%|##3       | 56/240 [00:01<00:05, 34.57it/s]
+Animation 0: _MethodAnimation(ValueTracker):  25%|##5       | 60/240 [00:01<00:05, 34.50it/s]
+Animation 0: _MethodAnimation(ValueTracker):  27%|##6       | 64/240 [00:01<00:05, 35.02it/s]
+Animation 0: _MethodAnimation(ValueTracker):  28%|##8       | 68/240 [00:01<00:04, 34.95it/s]
+Animation 0: _MethodAnimation(ValueTracker):  30%|###       | 72/240 [00:02<00:04, 34.93it/s]
+Animation 0: _MethodAnimation(ValueTracker):  32%|###1      | 76/240 [00:02<00:04, 36.16it/s]
+Animation 0: _MethodAnimation(ValueTracker):  33%|###3      | 80/240 [00:02<00:04, 36.48it/s]
+Animation 0: _MethodAnimation(ValueTracker):  35%|###5      | 84/240 [00:02<00:04, 35.57it/s]
+Animation 0: _MethodAnimation(ValueTracker):  37%|###6      | 88/240 [00:02<00:04, 34.84it/s]
+Animation 0: _MethodAnimation(ValueTracker):  38%|###8      | 92/240 [00:02<00:04, 33.67it/s]
+Animation 0: _MethodAnimation(ValueTracker):  40%|####      | 96/240 [00:02<00:04, 31.82it/s]
+Animation 0: _MethodAnimation(ValueTracker):  42%|####1     | 100/240 [00:02<00:04, 32.44it/s]
+Animation 0: _MethodAnimation(ValueTracker):  43%|####3     | 104/240 [00:02<00:04, 33.01it/s]
+Animation 0: _MethodAnimation(ValueTracker):  45%|####5     | 108/240 [00:03<00:04, 32.44it/s]
+Animation 0: _MethodAnimation(ValueTracker):  47%|####6     | 112/240 [00:03<00:03, 32.40it/s]
+Animation 0: _MethodAnimation(ValueTracker):  48%|####8     | 116/240 [00:03<00:03, 32.07it/s]
+Animation 0: _MethodAnimation(ValueTracker):  50%|#####     | 120/240 [00:03<00:03, 31.42it/s]
+Animation 0: _MethodAnimation(ValueTracker):  52%|#####1    | 124/240 [00:03<00:03, 31.99it/s]
+Animation 0: _MethodAnimation(ValueTracker):  53%|#####3    | 128/240 [00:03<00:03, 31.85it/s]
+Animation 0: _MethodAnimation(ValueTracker):  55%|#####5    | 132/240 [00:03<00:03, 31.11it/s]
+Animation 0: _MethodAnimation(ValueTracker):  57%|#####6    | 136/240 [00:03<00:03, 32.44it/s]
+Animation 0: _MethodAnimation(ValueTracker):  58%|#####8    | 140/240 [00:04<00:03, 31.99it/s]
+Animation 0: _MethodAnimation(ValueTracker):  60%|######    | 144/240 [00:04<00:03, 31.90it/s]
+Animation 0: _MethodAnimation(ValueTracker):  62%|######1   | 148/240 [00:04<00:02, 32.51it/s]
+Animation 0: _MethodAnimation(ValueTracker):  63%|######3   | 152/240 [00:04<00:02, 31.38it/s]
+Animation 0: _MethodAnimation(ValueTracker):  65%|######5   | 156/240 [00:04<00:02, 32.40it/s]
+Animation 0: _MethodAnimation(ValueTracker):  67%|######6   | 160/240 [00:04<00:02, 32.92it/s]
+Animation 0: _MethodAnimation(ValueTracker):  68%|######8   | 164/240 [00:04<00:02, 32.08it/s]
+Animation 0: _MethodAnimation(ValueTracker):  70%|#######   | 168/240 [00:05<00:02, 29.85it/s]
+Animation 0: _MethodAnimation(ValueTracker):  72%|#######1  | 172/240 [00:05<00:02, 30.40it/s]
+Animation 0: _MethodAnimation(ValueTracker):  73%|#######3  | 176/240 [00:05<00:02, 31.53it/s]
+Animation 0: _MethodAnimation(ValueTracker):  75%|#######5  | 180/240 [00:05<00:01, 32.12it/s]
+Animation 0: _MethodAnimation(ValueTracker):  77%|#######6  | 184/240 [00:05<00:01, 32.09it/s]
+Animation 0: _MethodAnimation(ValueTracker):  78%|#######8  | 188/240 [00:05<00:01, 32.00it/s]
+Animation 0: _MethodAnimation(ValueTracker):  80%|########  | 192/240 [00:05<00:01, 32.71it/s]
+Animation 0: _MethodAnimation(ValueTracker):  82%|########1 | 196/240 [00:05<00:01, 33.08it/s]
+Animation 0: _MethodAnimation(ValueTracker):  83%|########3 | 200/240 [00:05<00:01, 34.11it/s]
+Animation 0: _MethodAnimation(ValueTracker):  85%|########5 | 204/240 [00:06<00:01, 33.91it/s]
+Animation 0: _MethodAnimation(ValueTracker):  87%|########6 | 208/240 [00:06<00:00, 34.18it/s]
+Animation 0: _MethodAnimation(ValueTracker):  88%|########8 | 212/240 [00:06<00:00, 32.98it/s]
+Animation 0: _MethodAnimation(ValueTracker):  90%|######### | 216/240 [00:06<00:00, 31.28it/s]
+Animation 0: _MethodAnimation(ValueTracker):  92%|#########1| 220/240 [00:06<00:00, 31.59it/s]
+Animation 0: _MethodAnimation(ValueTracker):  93%|#########3| 224/240 [00:06<00:00, 32.57it/s]
+Animation 0: _MethodAnimation(ValueTracker):  95%|#########5| 228/240 [00:06<00:00, 33.68it/s]
+Animation 0: _MethodAnimation(ValueTracker):  97%|#########6| 232/240 [00:06<00:00, 32.59it/s]
+Animation 0: _MethodAnimation(ValueTracker):  98%|#########8| 236/240 [00:07<00:00, 33.77it/s]
+Animation 0: _MethodAnimation(ValueTracker): 100%|##########| 240/240 [00:07<00:00, 34.40it/s]
+[09/13/26 13:01:57] INFO     Animation 0 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\wal                         
+                             king_main\720p30\partial_                         
+                             movie_files\WalkingLaughi                         
+                             ngStickman\3441284251_393                         
+                             9259330_1839193613.mp4'                           
+                    INFO     Combining to Movie file.  scene_file_writer.py:952
+                    INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\renu5\.gemini\                          
+                             antigravity\scratch\mani                          
+                             m-projects\media\videos\                          
+                             walking_main\720p30\Walk                          
+                             ingLaughingStickman.mp4'                          
+                                                                               
+                    INFO     Rendered WalkingLaughingStickman      scene.py:290
+                             Played 1 animations                               
+                                                                                              
+

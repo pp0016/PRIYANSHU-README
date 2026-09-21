@@ -1,0 +1,105 @@
+
+The command exited with code 1.
+Output:
+<truncated 143 lines>
+02:00.000  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\3d_stickman_frames\0136.png'
+02:00.844  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\3d_stickman_frames\0137.png'
+02:01.625  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\3d_stickman_frames\0138.png'
+02:02.406  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\3d_stickman_frames\0139.png'
+02:03.141  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\3d_stickman_frames\0140.png'
+02:03.891  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\3d_stickman_frames\0141.png'
+02:04.672  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\3d_stickman_frames\0142.png'
+02:05.609  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\3d_stickman_frames\0143.png'
+02:06.484  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\3d_stickman_frames\0144.png'
+02:07.469  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\3d_stickman_frames\0145.png'
+02:08.406  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\3d_stickman_frames\0146.png'
+02:09.234  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\3d_stickman_frames\0147.png'
+02:10.016  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\3d_stickman_frames\0148.png'
+02:10.812  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\3d_stickman_frames\0149.png'
+02:11.672  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\3d_stickman_frames\0150.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+ffmpeg : ffmpeg version 8.0.1-full_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+At line:1 char:87
++ ... tickman.py; ffmpeg -y -r 30 -i "C:\Users\renu5\.gemini\antigravity\sc ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (ffmpeg version ...mpeg developers:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  built with gcc 15.2.0 (Rev8, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect 
+--enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib 
+--enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq 
+--enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 
+--enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc 
+--enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e 
+--enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 
+--enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation 
+--enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun 
+--enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 
+--enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi 
+--enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal 
+--enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame 
+--enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc 
+--enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis 
+--enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr 
+--enable-chromaprint --enable-whisper
+  libavutil      60.  8.100 / 60.  8.100
+  libavcodec     62. 11.100 / 62. 11.100
+  libavformat    62.  3.100 / 62.  3.100
+  libavdevice    62.  1.100 / 62.  1.100
+  libavfilter    11.  4.100 / 11.  4.100
+  libswscale      9.  1.100 /  9.  1.100
+  libswresample   6.  1.100 /  6.  1.100
+Input #0, image2, from 'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\3d_stickman_frames\%04d.png':
+  Duration: 00:00:06.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc, gbr/bt709/iec61966-2-1), 854x480 [SAR 2834:2834 DAR 427:240], 25 fps, 25 tbr, 25 
+tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0000017c1e8f9700] using SAR=1/1
+[libx264 @ 0000017c1e8f9700] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0000017c1e8f9700] profile High, level 3.1, 4:2:0, 8-bit
+[libx264 @ 0000017c1e8f9700] 264 - core 165 r3223 0480cb0 - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - 
+http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 
+psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 
+chroma_qp_offset=-2 threads=15 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 
+constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 
+keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 
+qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 
+'C:\Users\renu5\.gemini\antigravity\brain\6f71b575-d73e-4413-b861-a66d8f356c8c\True_3D_Stickman.mp4':
+  Metadata:
+    encoder         : Lavf62.3.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, unknown/bt709/iec61966-2-1, progressive), 854x480 [SAR 1:1 
+DAR 427:240], q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc62.11.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   52 fps=0.0 q=29.0 size=       0KiB time=00:00:01.66 bitrate=   0.2kbits/s speed=3.27x elapsed=0:00:00.50    
+[out#0/mp4 @ 0000017c1e8e7640] video:107KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing 
+overhead: 2.109987%
+frame=  150 fps=0.0 q=-1.0 Lsize=     109KiB time=00:00:04.93 bitrate= 180.8kbits/s speed=6.23x elapsed=0:00:00.79    
+[libx264 @ 0000017c1e8f9700] frame I:1     Avg QP:14.13  size:  3594
+[libx264 @ 0000017c1e8f9700] frame P:89    Avg QP:19.77  size:   918
+[libx264 @ 0000017c1e8f9700] frame B:60    Avg QP:28.75  size:   387
+[libx264 @ 0000017c1e8f9700] consecutive B-frames: 36.7% 22.7% 22.0% 18.7%
+[libx264 @ 0000017c1e8f9700] mb I  I16..4: 41.8% 32.8% 25.4%
+[libx264 @ 0000017c1e8f9700] mb P  I16..4:  0.2%  1.1%  0.8%  P16..4:  9.8%  1.8%  0.8%  0.0%  0.0%    skip:85.4%
+[libx264 @ 0000017c1e8f9700] mb B  I16..4:  0.0%  0.1%  0.1%  B16..8:  5.9%  1.7%  0.1%  direct: 0.1%  skip:91.9%  
+L0:47.8% L1:46.8% BI: 5.5%
+[libx264 @ 0000017c1e8f9700] 8x8 transform intra:45.3% inter:84.3%
+[libx264 @ 0000017c1e8f9700] coded y,uvDC,uvAC intra: 30.5% 0.0% 0.0% inter: 2.8% 0.0% 0.0%
+[libx264 @ 0000017c1e8f9700] i16 v,h,dc,p: 53% 36%  9%  3%
+[libx264 @ 0000017c1e8f9700] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 34% 11% 41%  2%  2%  2%  2%  6%  1%
+[libx264 @ 0000017c1e8f9700] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 32% 19% 30%  1%  4%  3%  5%  4%  1%
+[libx264 @ 0000017c1e8f9700] i8c dc,h,v,p: 100%  0%  0%  0%
+[libx264 @ 0000017c1e8f9700] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0000017c1e8f9700] ref P L0: 84.6%  2.6%  8.0%  4.9%
+[libx264 @ 0000017c1e8f9700] ref B L0: 81.0% 15.7%  3.3%
+[libx264 @ 0000017c1e8f9700] ref B L1: 97.5%  2.5%
+[libx264 @ 0000017c1e8f9700] kb/s:173.61
+

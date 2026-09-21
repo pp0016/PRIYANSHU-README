@@ -1,0 +1,4 @@
+{"name":"SKILL.md","sizeBytes":"10277"}
+{"name":"portable-core.md","sizeBytes":"1689"}
+
+Summary: This directory contains 0 subdirectories and 2 files.

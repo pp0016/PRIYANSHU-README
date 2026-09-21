@@ -1,0 +1,25 @@
+
+The command exited with code 1.
+Output:
+blender.exe : C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\blender_render.py:15: DeprecationWarning: 
+'Material.use_nodes' is expected to be removed in Blender 6.0
+At line:1 char:1
++ & "C:\Program Files\Blender Foundation\Blender 5.2\blender.exe" -b -P ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\renu5\... in Blender 6.0:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  floor_mat.use_nodes = True
+C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\blender_render.py:23: DeprecationWarning: 
+'Material.use_nodes' is expected to be removed in Blender 6.0
+  cube_mat.use_nodes = True
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+Traceback (most recent call last):
+  File "C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\blender_render.py", line 99, in <module>
+    scene.render.image_settings.file_format = 'FFMPEG'
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: bpy_struct: item.attr = val: enum "FFMPEG" not found in ('AVIF', 'JPEG', 'OPEN_EXR', 'PNG', 'WEBP', 'BMP', 
+'CINEON', 'DPX', 'IRIS', 'JPEG2000', 'HDR', 'TARGA', 'TARGA_RAW', 'TIFF')
+
+Blender quit
+

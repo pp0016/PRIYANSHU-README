@@ -1,0 +1,16 @@
+The following changes were made by the replace_file_content tool to: C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\stickman_agent_2.py. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -52,8 +52,8 @@
+ 
+         head = Circle(radius=1.6, fill_color=WHITE, fill_opacity=1, stroke_width=stroke, stroke_color=BLACK).move_to([0, 2.2, 0])
+ 
+-        eye1 = Sector(outer_radius=0.4, inner_radius=0, start_angle=PI, angle=PI, fill_color=WHITE, fill_opacity=1, stroke_width=stroke, stroke_color=BLACK).shift(LEFT * 0.5 + UP * 2.2)
+-        eye2 = Sector(outer_radius=0.4, inner_radius=0, start_angle=PI, angle=PI, fill_color=WHITE, fill_opacity=1, stroke_width=stroke, stroke_color=BLACK).shift(RIGHT * 0.5 + UP * 2.2)
++        eye1 = Sector(radius=0.4, start_angle=PI, angle=PI, fill_color=WHITE, fill_opacity=1, stroke_width=stroke, stroke_color=BLACK).shift(LEFT * 0.5 + UP * 2.2)
++        eye2 = Sector(radius=0.4, start_angle=PI, angle=PI, fill_color=WHITE, fill_opacity=1, stroke_width=stroke, stroke_color=BLACK).shift(RIGHT * 0.5 + UP * 2.2)
+         pupil1 = Circle(radius=0.08, fill_color=BLACK, fill_opacity=1, stroke_width=0).move_to([-0.5, 2.05, 0])
+         pupil2 = Circle(radius=0.08, fill_color=BLACK, fill_opacity=1, stroke_width=0).move_to([0.5, 2.05, 0])
+         eyebrow1 = Line([-0.9, 2.4, 0], [-0.1, 2.4, 0], stroke_width=stroke, color=BLACK)
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

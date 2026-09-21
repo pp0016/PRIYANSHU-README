@@ -1,0 +1,96 @@
+
+The command exited with code 1.
+Output:
+<truncated 94 lines>
+                             009.mp4'                                          
+                                                                                                    
+Animation 7: FadeIn(Text('Limbs driven by Sine & Cosine functions')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 7: FadeIn(Text('Limbs driven by Sine & Cosine functions')):  33%|###3      | 10/30 [00:00<00:00, 92.46it/s]
+Animation 7: FadeIn(Text('Limbs driven by Sine & Cosine functions')):  67%|######6   | 20/30 [00:00<00:00, 91.16it/s]
+Animation 7: FadeIn(Text('Limbs driven by Sine & Cosine functions')): 100%|##########| 30/30 [00:00<00:00, 83.84it/s]
+                    INFO     Animation 7 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\sti                         
+                             ckman\720p30\partial_movi                         
+                             e_files\StickmanDance\511                         
+                             089603_1081637402_3222494                         
+                             531.mp4'                                          
+                                                                                                                     
+Animation 8: _MethodAnimation(ValueTracker):   0%|          | 0/240 [00:00<?, ?it/s]
+Animation 8: _MethodAnimation(ValueTracker):   4%|4         | 10/240 [00:00<00:02, 98.59it/s]
+Animation 8: _MethodAnimation(ValueTracker):   8%|8         | 20/240 [00:00<00:02, 96.90it/s]
+Animation 8: _MethodAnimation(ValueTracker):  12%|#2        | 30/240 [00:00<00:02, 97.32it/s]
+Animation 8: _MethodAnimation(ValueTracker):  17%|#6        | 40/240 [00:00<00:02, 95.96it/s]
+Animation 8: _MethodAnimation(ValueTracker):  21%|##        | 50/240 [00:00<00:02, 85.13it/s]
+Animation 8: _MethodAnimation(ValueTracker):  25%|##4       | 59/240 [00:00<00:02, 81.82it/s]
+Animation 8: _MethodAnimation(ValueTracker):  28%|##8       | 68/240 [00:00<00:02, 80.61it/s]
+Animation 8: _MethodAnimation(ValueTracker):  32%|###2      | 77/240 [00:00<00:02, 80.30it/s]
+Animation 8: _MethodAnimation(ValueTracker):  36%|###5      | 86/240 [00:01<00:01, 79.62it/s]
+Animation 8: _MethodAnimation(ValueTracker):  39%|###9      | 94/240 [00:01<00:01, 78.39it/s]
+Animation 8: _MethodAnimation(ValueTracker):  42%|####2     | 102/240 [00:01<00:01, 78.57it/s]
+Animation 8: _MethodAnimation(ValueTracker):  46%|####5     | 110/240 [00:01<00:01, 78.77it/s]
+Animation 8: _MethodAnimation(ValueTracker):  49%|####9     | 118/240 [00:01<00:01, 77.74it/s]
+Animation 8: _MethodAnimation(ValueTracker):  52%|#####2    | 126/240 [00:01<00:01, 76.14it/s]
+Animation 8: _MethodAnimation(ValueTracker):  56%|#####5    | 134/240 [00:01<00:01, 76.54it/s]
+Animation 8: _MethodAnimation(ValueTracker):  59%|#####9    | 142/240 [00:01<00:01, 77.52it/s]
+Animation 8: _MethodAnimation(ValueTracker):  62%|######2   | 150/240 [00:01<00:01, 77.06it/s]
+Animation 8: _MethodAnimation(ValueTracker):  66%|######5   | 158/240 [00:01<00:01, 76.63it/s]
+Animation 8: _MethodAnimation(ValueTracker):  69%|######9   | 166/240 [00:02<00:00, 76.76it/s]
+Animation 8: _MethodAnimation(ValueTracker):  72%|#######2  | 174/240 [00:02<00:00, 77.10it/s]
+Animation 8: _MethodAnimation(ValueTracker):  76%|#######5  | 182/240 [00:02<00:00, 77.82it/s]
+Animation 8: _MethodAnimation(ValueTracker):  79%|#######9  | 190/240 [00:02<00:00, 76.52it/s]
+Animation 8: _MethodAnimation(ValueTracker):  82%|########2 | 198/240 [00:02<00:00, 76.98it/s]
+Animation 8: _MethodAnimation(ValueTracker):  86%|########5 | 206/240 [00:02<00:00, 77.86it/s]
+Animation 8: _MethodAnimation(ValueTracker):  89%|########9 | 214/240 [00:02<00:00, 78.00it/s]
+Animation 8: _MethodAnimation(ValueTracker):  92%|#########2| 222/240 [00:02<00:00, 78.17it/s]
+Animation 8: _MethodAnimation(ValueTracker):  96%|#########6| 231/240 [00:02<00:00, 78.73it/s]
+Animation 8: _MethodAnimation(ValueTracker): 100%|#########9| 239/240 [00:02<00:00, 78.90it/s]
+[09/13/26 12:39:15] INFO     Animation 8 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\sti                         
+                             ckman\720p30\partial_movi                         
+                             e_files\StickmanDance\511                         
+                             089603_805981266_42848907                         
+                             38.mp4'                                           
+                    INFO     Animation 9 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\sti                         
+                             ckman\720p30\partial_movi                         
+                             e_files\StickmanDance\511                         
+                             089603_847192958_39154593                         
+                             87.mp4'                                           
+                                                                                              
+Animation 10: FadeOut(VGroup of 6 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 10: FadeOut(VGroup of 6 submobjects), etc.:  17%|#6        | 5/30 [00:00<00:00, 49.40it/s]
+Animation 10: FadeOut(VGroup of 6 submobjects), etc.:  37%|###6      | 11/30 [00:00<00:00, 50.33it/s]
+Animation 10: FadeOut(VGroup of 6 submobjects), etc.:  57%|#####6    | 17/30 [00:00<00:00, 49.52it/s]
+Animation 10: FadeOut(VGroup of 6 submobjects), etc.:  73%|#######3  | 22/30 [00:00<00:00, 49.24it/s]
+Animation 10: FadeOut(VGroup of 6 submobjects), etc.:  93%|#########3| 28/30 [00:00<00:00, 49.89it/s]
+[09/13/26 12:39:16] INFO     Animation 10 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\sti                         
+                             ckman\720p30\partial_movi                         
+                             e_files\StickmanDance\511                         
+                             089603_2296054758_3775549                         
+                             608.mp4'                                          
+                    INFO     Combining to Movie file.  scene_file_writer.py:952
+                    INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\renu5\.gemini\                          
+                             antigravity\scratch\mani                          
+                             m-projects\media\videos\                          
+                             stickman\720p30\Stickman                          
+                             Dance.mp4'                                        
+                                                                               
+                    INFO     Rendered StickmanDance                scene.py:290
+                             Played 11 animations                              
+                                                                                                     
+

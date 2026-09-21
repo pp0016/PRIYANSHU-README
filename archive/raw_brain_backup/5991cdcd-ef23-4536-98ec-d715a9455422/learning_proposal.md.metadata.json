@@ -1,0 +1,6 @@
+{
+  "summary": "Proposal to create a new \"gemini-watermark-remover\" skill that teaches the AI how to properly use the gwr CLI tool, including the hidden flags for low confidence and high bitrate.",
+  "updatedAt": "2026-08-22T22:07:51.354070300Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

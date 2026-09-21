@@ -1,0 +1,6 @@
+{
+  "summary": "Complete 3-part YouTube creator free toolkit:\n\nPart 1: Full free tool stack organized by category (keyword research, competitor analysis, outlier discovery, thumbnails, AI writing, SEO, audience insights) with 20+ tools, URLs, free tier details, and limits.\n\nPart 2: API setup instructions for YouTube Data API v3 (10K units/day free), YouTube autocomplete endpoint (no API key needed), pytrends for Google Trends YouTube data, Gemini API free tier, and Groq. Includes working Python scripts for autocomplete keyword extraction and A-Z expansion.\n\nPart 3: Complete 8-step creator workflow from topic ideation through post-publish analysis, with specific tools mapped to each step. Includes comparison table showing what replaces each vidIQ paid feature.\n\nAlso covers the user's 5-account vidIQ MCP rotation strategy (15 keyword/outlier searches per day across accounts).",
+  "updatedAt": "2026-08-04T12:57:16.004730200Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

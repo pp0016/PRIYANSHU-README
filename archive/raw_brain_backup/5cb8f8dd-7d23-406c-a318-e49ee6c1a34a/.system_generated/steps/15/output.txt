@@ -1,0 +1,71 @@
+
+The command exited with code 0.
+Output:
+Manim Community v0.21.0
+
+Animation 0: FadeIn(Rectangle), etc.:   0%|          | 0/30 [00:00<?, ?it/s]Animation 0: FadeIn(Rectangle), etc.:  50%|#####     | 15/30 [00:00<00:00, 147.57it/s]Animation 0: FadeIn(Rectangle), etc.: 100%|##########| 30/30 [00:00<00:00, 135.17it/s]                                                                                      [09/13/26 12:52:15] INFO     Animation 0 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\sti                         
+                             ckman_agent_2\720p30\part                         
+                             ial_movie_files\StickmanS                         
+                             cene2\2735959858_30388901                         
+                             57_223132457.mp4'                                 
+Animation 1: Create(VGroup of 7 submobjects):   0%|          | 0/60 [00:00<?, ?it/s]Animation 1: Create(VGroup of 7 submobjects):  28%|##8       | 17/60 [00:00<00:00, 165.37it/s]Animation 1: Create(VGroup of 7 submobjects):  57%|#####6    | 34/60 [00:00<00:00, 143.94it/s]Animation 1: Create(VGroup of 7 submobjects):  82%|########1 | 49/60 [00:00<00:00, 145.32it/s]                                                                                              [09/13/26 12:52:16] INFO     Animation 1 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\sti                         
+                             ckman_agent_2\720p30\part                         
+                             ial_movie_files\StickmanS                         
+                             cene2\1602044489_46876406                         
+                             1_3925626769.mp4'                                 
+Animation 2: Create(VGroup of 2 submobjects):   0%|          | 0/45 [00:00<?, ?it/s]Animation 2: Create(VGroup of 2 submobjects):  36%|###5      | 16/45 [00:00<00:00, 158.61it/s]Animation 2: Create(VGroup of 2 submobjects):  71%|#######1  | 32/45 [00:00<00:00, 138.89it/s]                                                                                                                  INFO     Animation 2 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\sti                         
+                             ckman_agent_2\720p30\part                         
+                             ial_movie_files\StickmanS                         
+                             cene2\1602044489_42946536                         
+                             04_2602989332.mp4'                                
+                    INFO     Animation 3 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\sti                         
+                             ckman_agent_2\720p30\part                         
+                             ial_movie_files\StickmanS                         
+                             cene2\1602044489_38809684                         
+                             70_2538666491.mp4'                                
+Animation 4: _MethodAnimation(Sector), etc.:   0%|          | 0/9 [00:00<?, ?it/s]                                                                                  [09/13/26 12:52:17] INFO     Animation 4 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\sti                         
+                             ckman_agent_2\720p30\part                         
+                             ial_movie_files\StickmanS                         
+                             cene2\1602044489_17286815                         
+                             2_2060424574.mp4'                                 
+                    INFO     Animation 5 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\sti                         
+                             ckman_agent_2\720p30\part                         
+                             ial_movie_files\StickmanS                         
+                             cene2\1602044489_84719295                         
+                             8_1442412415.mp4'                                 
+                    INFO     Combining to Movie file.  scene_file_writer.py:952
+                    INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\renu5\.gemini\                          
+                             antigravity\scratch\mani                          
+                             m-projects\media\videos\                          
+                             stickman_agent_2\720p30\                          
+                             StickmanScene2.mp4'                               
+                                                                               
+                    INFO     Rendered StickmanScene2               scene.py:290
+                             Played 6 animations                               
+

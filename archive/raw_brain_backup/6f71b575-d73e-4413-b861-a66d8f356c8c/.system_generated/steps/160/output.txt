@@ -1,0 +1,92 @@
+
+The command exited with code 1.
+Output:
+Manim Community v0.21.0
+
+manim.exe : 
+At line:1 char:133
++ ... "Machine"); & "C:\Users\renu5\.gemini\antigravity\scratch\manim-proje ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Animation 0: FadeIn(VGroup of 25 submobjects):   0%|          | 0/75 [00:00<?, ?it/s]
+Animation 0: FadeIn(VGroup of 25 submobjects):   8%|8         | 6/75 [00:00<00:01, 54.23it/s]
+Animation 0: FadeIn(VGroup of 25 submobjects):  17%|#7        | 13/75 [00:00<00:01, 61.42it/s]
+Animation 0: FadeIn(VGroup of 25 submobjects):  27%|##6       | 20/75 [00:00<00:00, 59.86it/s]
+Animation 0: FadeIn(VGroup of 25 submobjects):  36%|###6      | 27/75 [00:00<00:00, 59.99it/s]
+Animation 0: FadeIn(VGroup of 25 submobjects):  45%|####5     | 34/75 [00:00<00:00, 60.70it/s]
+Animation 0: FadeIn(VGroup of 25 submobjects):  55%|#####4    | 41/75 [00:00<00:00, 61.43it/s]
+Animation 0: FadeIn(VGroup of 25 submobjects):  64%|######4   | 48/75 [00:00<00:00, 59.59it/s]
+Animation 0: FadeIn(VGroup of 25 submobjects):  72%|#######2  | 54/75 [00:00<00:00, 53.32it/s]
+Animation 0: FadeIn(VGroup of 25 submobjects):  81%|########1 | 61/75 [00:01<00:00, 55.55it/s]
+Animation 0: FadeIn(VGroup of 25 submobjects):  89%|########9 | 67/75 [00:01<00:00, 51.84it/s]
+Animation 0: FadeIn(VGroup of 25 submobjects):  97%|#########7| 73/75 [00:01<00:00, 53.67it/s]
+[09/13/26 14:01:09] INFO     Animation 0 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\mat                         
+                             h_portal\480p15\partial_m                         
+                             ovie_files\MathPortal\211                         
+                             8183852_3081989387_223132                         
+                             457.mp4'                                          
+                                                                                              
++--------------------- Traceback (most recent call last) ---------------------+
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\cli\render\commands.py:125 in render                            |
+|                                                                             |
+|   122             try:                                                      |
+|   123                 with tempconfig({}):                                  |
+|   124                     scene = SceneClass()                              |
+| > 125                     scene.render()                                    |
+|   126             except Exception:                                         |
+|   127                 error_console.print_exception()                       |
+|   128                 sys.exit(1)                                           |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\scene\scene.py:259 in render                                    |
+|                                                                             |
+|    256         """                                                          |
+|    257         self.setup()                                                 |
+|    258         try:                                                         |
+| >  259             self.construct()                                         |
+|    260         except EndSceneEarlyException:                               |
+|    261             pass                                                     |
+|    262         except RerunSceneException:                                  |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\math_portal.py:20 |
+| in construct                                                                |
+|                                                                             |
+|   17                                                                        |
+|   18         # 5-15s                                                        |
+|   19         self.play(                                                     |
+| > 20             group.animate.arrange(center=True, grid=True).set_color(GR |
+|   21             run_time=10                                                |
+|   22         )                                                              |
+|   23                                                                        |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\mobject\mobject.py:3458 in update_target                        |
+|                                                                             |
+|   3455                 )                                                    |
+|   3456             else:                                                    |
+|   3457                 self.methods.append(MethodWithArgs(method, method_ar |
+| > 3458                 method(*method_args, **method_kwargs)                |
+|   3459             return self                                              |
+|   3460                                                                      |
+|   3461         self.is_chaining = True                                      |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\mobject\mobject.py:2623 in arrange                              |
+|                                                                             |
+|   2620                     self.add(x)                                      |
+|   2621         """                                                          |
+|   2622         for m1, m2 in zip(self.submobjects[:-1], self.submobjects[1: |
+| > 2623             m2.next_to(m1, direction, buff, **kwargs)                |
+|   2624         if center:                                                   |
+|   2625             self.center()                                            |
+|   2626         return self                                                  |
++-----------------------------------------------------------------------------+
+TypeError: Mobject.next_to() got an unexpected keyword argument 'grid'
+

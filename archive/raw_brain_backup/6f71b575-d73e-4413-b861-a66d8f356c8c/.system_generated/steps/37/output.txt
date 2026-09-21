@@ -1,0 +1,102 @@
+
+The command exited with code 1.
+Output:
+<truncated 515 lines>
+                             ovie_files\BrainNeuralNet                         
+                             work\511089603_1613122952                         
+                             _1662986029.mp4'                                  
+                                                                                                               
+Animation 40: Write(Text('Your Brain:')):   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 40: Write(Text('Your Brain:')):  67%|######6   | 12/18 [00:00<00:00, 114.50it/s]
+                    INFO     Animation 40 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\bra                         
+                             in_scene\720p30\partial_m                         
+                             ovie_files\BrainNeuralNet                         
+                             work\511089603_3276545473                         
+                             _1261677982.mp4'                                  
+                                                                                          
+Animation 41: Write(Text('86 Billion Neurons')):   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 41: Write(Text('86 Billion Neurons')):  40%|####      | 12/30 [00:00<00:00, 102.09it/s]
+Animation 41: Write(Text('86 Billion Neurons')):  77%|#######6  | 23/30 [00:00<00:00, 98.66it/s] 
+[09/09/26 02:09:35] INFO     Animation 41 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\bra                         
+                             in_scene\720p30\partial_m                         
+                             ovie_files\BrainNeuralNet                         
+                             work\511089603_2188575696                         
+                             _2460368125.mp4'                                  
+                                                                                                
+Animation 42: FadeIn(Text('100 Trillion Connections')):   0%|          | 0/24 [00:00<?, ?it/s]
+Animation 42: FadeIn(Text('100 Trillion Connections')):  42%|####1     | 10/24 [00:00<00:00, 91.01it/s]
+Animation 42: FadeIn(Text('100 Trillion Connections')):  92%|#########1| 22/24 [00:00<00:00, 99.31it/s]
+[09/09/26 02:09:36] INFO     Animation 42 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\bra                         
+                             in_scene\720p30\partial_m                         
+                             ovie_files\BrainNeuralNet                         
+                             work\511089603_2643806978                         
+                             _175104222.mp4'                                   
+                    INFO     Animation 43 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\bra                         
+                             in_scene\720p30\partial_m                         
+                             ovie_files\BrainNeuralNet                         
+                             work\511089603_2645707024                         
+                             _3869315438.mp4'                                  
+                                                                                                       
+Animation 44: FadeOut(Mobject), etc.:   0%|          | 0/45 [00:00<?, ?it/s]
+Animation 44: FadeOut(Mobject), etc.:   7%|6         | 3/45 [00:00<00:01, 24.01it/s]
+Animation 44: FadeOut(Mobject), etc.:  13%|#3        | 6/45 [00:00<00:01, 22.04it/s]
+Animation 44: FadeOut(Mobject), etc.:  20%|##        | 9/45 [00:00<00:01, 21.69it/s]
+Animation 44: FadeOut(Mobject), etc.:  27%|##6       | 12/45 [00:00<00:01, 22.02it/s]
+Animation 44: FadeOut(Mobject), etc.:  33%|###3      | 15/45 [00:00<00:01, 21.04it/s]
+Animation 44: FadeOut(Mobject), etc.:  40%|####      | 18/45 [00:00<00:01, 21.09it/s]
+Animation 44: FadeOut(Mobject), etc.:  47%|####6     | 21/45 [00:00<00:01, 21.85it/s]
+Animation 44: FadeOut(Mobject), etc.:  53%|#####3    | 24/45 [00:01<00:01, 20.57it/s]
+Animation 44: FadeOut(Mobject), etc.:  60%|######    | 27/45 [00:01<00:00, 20.82it/s]
+Animation 44: FadeOut(Mobject), etc.:  67%|######6   | 30/45 [00:01<00:00, 20.64it/s]
+Animation 44: FadeOut(Mobject), etc.:  73%|#######3  | 33/45 [00:01<00:00, 20.79it/s]
+Animation 44: FadeOut(Mobject), etc.:  80%|########  | 36/45 [00:01<00:00, 20.65it/s]
+Animation 44: FadeOut(Mobject), etc.:  87%|########6 | 39/45 [00:01<00:00, 21.62it/s]
+Animation 44: FadeOut(Mobject), etc.:  93%|#########3| 42/45 [00:01<00:00, 22.16it/s]
+Animation 44: FadeOut(Mobject), etc.: 100%|##########| 45/45 [00:02<00:00, 22.13it/s]
+[09/09/26 02:09:39] INFO     Animation 44 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\bra                         
+                             in_scene\720p30\partial_m                         
+                             ovie_files\BrainNeuralNet                         
+                             work\511089603_2815108777                         
+                             _2998720680.mp4'                                  
+                    INFO     Animation 45 : Partial    scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\bra                         
+                             in_scene\720p30\partial_m                         
+                             ovie_files\BrainNeuralNet                         
+                             work\511089603_3880968470                         
+                             _631829896.mp4'                                   
+                    INFO     Combining to Movie file.  scene_file_writer.py:952
+[09/09/26 02:09:40] INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\renu5\.gemini\                          
+                             antigravity\scratch\mani                          
+                             m-projects\media\videos\                          
+                             brain_scene\720p30\Brain                          
+                             NeuralNetwork.mp4'                                
+                                                                               
+                    INFO     Rendered BrainNeuralNetwork           scene.py:290
+                             Played 46 animations                              
+                                                                                     
+

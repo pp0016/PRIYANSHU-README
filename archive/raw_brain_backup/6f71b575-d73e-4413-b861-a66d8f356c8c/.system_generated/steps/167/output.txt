@@ -1,0 +1,92 @@
+
+The command exited with code 1.
+Output:
+<truncated 95 lines>
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\mat                         
+                             h_portal\480p15\partial_m                         
+                             ovie_files\MathPortal\366                         
+                             519484_1435098270_2042762                         
+                             35.mp4'                                           
+                                                                             
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:   0%|          | 0/120 [00:00<?, ?it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:   2%|2         | 3/120 [00:00<00:04, 24.39it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:   5%|5         | 6/120 [00:00<00:04, 24.05it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:   8%|7         | 9/120 [00:00<00:04, 24.19it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  10%|#         | 12/120 [00:00<00:04, 23.18it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  12%|#2        | 15/120 [00:00<00:04, 23.13it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  15%|#5        | 18/120 [00:00<00:04, 22.48it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  18%|#7        | 21/120 [00:00<00:04, 22.12it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  20%|##        | 24/120 [00:01<00:04, 22.63it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  22%|##2       | 27/120 [00:01<00:04, 22.90it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  25%|##5       | 30/120 [00:01<00:03, 23.15it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  28%|##7       | 33/120 [00:01<00:03, 23.13it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  30%|###       | 36/120 [00:01<00:03, 23.11it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  32%|###2      | 39/120 [00:01<00:03, 23.08it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  35%|###5      | 42/120 [00:01<00:03, 23.04it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  38%|###7      | 45/120 [00:01<00:03, 21.64it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  40%|####      | 48/120 [00:02<00:03, 22.01it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  42%|####2     | 51/120 [00:02<00:03, 22.47it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  45%|####5     | 54/120 [00:02<00:02, 22.94it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  48%|####7     | 57/120 [00:02<00:02, 22.96it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  50%|#####     | 60/120 [00:02<00:02, 22.84it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  52%|#####2    | 63/120 [00:02<00:02, 22.86it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  55%|#####5    | 66/120 [00:02<00:02, 22.86it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  57%|#####7    | 69/120 [00:03<00:02, 22.78it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  60%|######    | 72/120 [00:03<00:02, 22.87it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  62%|######2   | 75/120 [00:03<00:02, 21.79it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  65%|######5   | 78/120 [00:03<00:01, 21.44it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  68%|######7   | 81/120 [00:03<00:01, 21.79it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  70%|#######   | 84/120 [00:03<00:01, 22.08it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  72%|#######2  | 87/120 [00:03<00:01, 22.41it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  75%|#######5  | 90/120 [00:03<00:01, 22.45it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  78%|#######7  | 93/120 [00:04<00:01, 22.32it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  80%|########  | 96/120 [00:04<00:01, 22.11it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  82%|########2 | 99/120 [00:04<00:00, 22.11it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  85%|########5 | 102/120 [00:04<00:00, 21.95it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  88%|########7 | 105/120 [00:04<00:00, 22.05it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  90%|######### | 108/120 [00:04<00:00, 21.78it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  92%|#########2| 111/120 [00:04<00:00, 21.08it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  95%|#########5| 114/120 [00:05<00:00, 20.44it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.:  98%|#########7| 117/120 [00:05<00:00, 21.26it/s]
+Animation 3: Rotate(VGroup of 25 submobjects), etc.: 100%|##########| 120/120 [00:05<00:00, 21.74it/s]
+[09/13/26 14:01:56] INFO     Animation 3 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\mat                         
+                             h_portal\480p15\partial_m                         
+                             ovie_files\MathPortal\366                         
+                             519484_3215284488_3335220                         
+                             43.mp4'                                           
+                                                                                                      
+Animation 4: FadeOut(VGroup of 25 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: FadeOut(VGroup of 25 submobjects), etc.:  13%|#3        | 4/30 [00:00<00:00, 36.57it/s]
+Animation 4: FadeOut(VGroup of 25 submobjects), etc.:  27%|##6       | 8/30 [00:00<00:00, 35.82it/s]
+Animation 4: FadeOut(VGroup of 25 submobjects), etc.:  40%|####      | 12/30 [00:00<00:00, 34.61it/s]
+Animation 4: FadeOut(VGroup of 25 submobjects), etc.:  53%|#####3    | 16/30 [00:00<00:00, 34.46it/s]
+Animation 4: FadeOut(VGroup of 25 submobjects), etc.:  67%|######6   | 20/30 [00:00<00:00, 34.17it/s]
+Animation 4: FadeOut(VGroup of 25 submobjects), etc.:  80%|########  | 24/30 [00:00<00:00, 34.20it/s]
+Animation 4: FadeOut(VGroup of 25 submobjects), etc.:  93%|#########3| 28/30 [00:00<00:00, 34.34it/s]
+[09/13/26 14:01:59] INFO     Animation 4 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\mat                         
+                             h_portal\480p15\partial_m                         
+                             ovie_files\MathPortal\366                         
+                             519484_644948218_33352204                         
+                             3.mp4'                                            
+                    INFO     Combining to Movie file.  scene_file_writer.py:952
+                    INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\renu5\.gemini\                          
+                             antigravity\scratch\mani                          
+                             m-projects\media\videos\                          
+                             math_portal\480p15\MathP                          
+                             ortal.mp4'                                        
+                                                                               
+                    INFO     Rendered MathPortal                   scene.py:290
+                             Played 5 animations                               
+                                                                                                     
+

@@ -1,0 +1,106 @@
+
+The command exited with code 1.
+Output:
+<truncated 38 lines>
+Animation 2: Create(Ellipse), etc.:  99%|#########8| 74/75 [00:00<00:00, 112.00it/s]
+[09/13/26 12:49:40] INFO     Animation 2 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\mai                         
+                             n_stickman\720p30\partial                         
+                             _movie_files\MainStickman                         
+                             Scene\2233512460_51712610                         
+                             9_1215257577.mp4'                                 
+                                                                                    
+Animation 3: Create(Arc), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 3: Create(Arc), etc.:  47%|####6     | 14/30 [00:00<00:00, 132.22it/s]
+Animation 3: Create(Arc), etc.:  93%|#########3| 28/30 [00:00<00:00, 107.91it/s]
+[09/13/26 12:49:41] INFO     Animation 3 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\mai                         
+                             n_stickman\720p30\partial                         
+                             _movie_files\MainStickman                         
+                             Scene\2233512460_95416046                         
+                             4_1421245340.mp4'                                 
+                                                                                
+Animation 4: Create(Circle), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: Create(Circle), etc.:  47%|####6     | 14/30 [00:00<00:00, 132.74it/s]
+Animation 4: Create(Circle), etc.:  93%|#########3| 28/30 [00:00<00:00, 109.06it/s]
+                    INFO     Animation 4 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\mai                         
+                             n_stickman\720p30\partial                         
+                             _movie_files\MainStickman                         
+                             Scene\2233512460_16983386                         
+                             64_2612778175.mp4'                                
+                                                                                   
+Animation 5: Create(Line), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 5: Create(Line), etc.:  47%|####6     | 14/30 [00:00<00:00, 137.91it/s]
+Animation 5: Create(Line), etc.:  93%|#########3| 28/30 [00:00<00:00, 138.67it/s]
+                    INFO     Animation 5 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\mai                         
+                             n_stickman\720p30\partial                         
+                             _movie_files\MainStickman                         
+                             Scene\2233512460_13710107                         
+                             91_3366087706.mp4'                                
+[09/13/26 12:49:42] INFO     Animation 6 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\mai                         
+                             n_stickman\720p30\partial                         
+                             _movie_files\MainStickman                         
+                             Scene\2233512460_84719295                         
+                             8_4058646570.mp4'                                 
+                                                                                 
+Animation 7: Transform(Line), etc.:   0%|          | 0/3 [00:00<?, ?it/s]
+                    INFO     Animation 7 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\mai                         
+                             n_stickman\720p30\partial                         
+                             _movie_files\MainStickman                         
+                             Scene\2233512460_10333958                         
+                             94_2034713374.mp4'                                
+                                                                         
+Animation 8: Transform(Line), etc.:   0%|          | 0/5 [00:00<?, ?it/s]
+                    INFO     Animation 8 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\mai                         
+                             n_stickman\720p30\partial                         
+                             _movie_files\MainStickman                         
+                             Scene\2233512460_79202958                         
+                             7_2555535927.mp4'                                 
+                    INFO     Animation 9 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\mai                         
+                             n_stickman\720p30\partial                         
+                             _movie_files\MainStickman                         
+                             Scene\2233512460_26457070                         
+                             24_1423956556.mp4'                                
+                    INFO     Combining to Movie file.  scene_file_writer.py:952
+[09/13/26 12:49:43] INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\renu5\.gemini\                          
+                             antigravity\scratch\mani                          
+                             m-projects\media\videos\                          
+                             main_stickman\720p30\Mai                          
+                             nStickmanScene.mp4'                               
+                                                                               
+                    INFO     Rendered MainStickmanScene            scene.py:290
+                             Played 10 animations                              
+                                                                         
+

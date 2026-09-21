@@ -1,0 +1,24 @@
+The following changes were made by the replace_file_content tool to: C:\Users\renu5\.gemini\config\skills\gemini-watermark-remover\SKILL.md. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -8,6 +8,18 @@
+ 
+ This skill teaches how to use the `@pilio/gemini-watermark-remover` CLI tool (`gwr`) correctly, specifically addressing its hidden flags and quality issues on Windows.
+ 
++## Setup / Installation on a New PC
++
++If you are running this on a brand new PC, you must install the tool and its dependencies first:
++
++1. **Install Node.js**: Download and install it from [nodejs.org](https://nodejs.org/).
++2. **Install the Tool**: Open a terminal (Command Prompt or PowerShell) and run:
++   `npm install -g @pilio/gemini-watermark-remover`
++3. **Install Video Dependencies**: To allow video processing, you MUST install Playwright's browser engine by running:
++   `npx playwright install chromium`
++
++Once those three steps are done, the `gwr` command will be permanently available on that PC.
++
+ ## Core Rules
+ 
+ 1. **Always Force Low Confidence:** The `gwr` tool often fails video processing around 12% with a Chinese error about low confidence. You MUST append the hidden flag `--allow-low-confidence` to bypass this error on all video requests.
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

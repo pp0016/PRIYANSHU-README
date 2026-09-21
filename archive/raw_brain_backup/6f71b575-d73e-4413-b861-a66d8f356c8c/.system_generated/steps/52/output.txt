@@ -1,0 +1,107 @@
+
+The command exited with code 1.
+Output:
+<truncated 303 lines>
+Waiting 3:  76%|#######6  | 126/165 [03:34<00:44,  1.14s/it]
+Waiting 3:  77%|#######6  | 127/165 [03:35<00:43,  1.15s/it]
+Waiting 3:  78%|#######7  | 128/165 [03:37<00:43,  1.16s/it]
+Waiting 3:  78%|#######8  | 129/165 [03:38<00:42,  1.18s/it]
+Waiting 3:  79%|#######8  | 130/165 [03:39<00:44,  1.26s/it]
+Waiting 3:  79%|#######9  | 131/165 [03:40<00:41,  1.23s/it]
+Waiting 3:  80%|########  | 132/165 [03:42<00:39,  1.20s/it]
+Waiting 3:  81%|########  | 133/165 [03:43<00:37,  1.18s/it]
+Waiting 3:  81%|########1 | 134/165 [03:44<00:35,  1.15s/it]
+Waiting 3:  82%|########1 | 135/165 [03:45<00:34,  1.14s/it]
+Waiting 3:  82%|########2 | 136/165 [03:46<00:33,  1.14s/it]
+Waiting 3:  83%|########3 | 137/165 [03:47<00:31,  1.13s/it]
+Waiting 3:  84%|########3 | 138/165 [03:48<00:30,  1.12s/it]
+Waiting 3:  84%|########4 | 139/165 [03:49<00:29,  1.13s/it]
+Waiting 3:  85%|########4 | 140/165 [03:51<00:28,  1.13s/it]
+Waiting 3:  85%|########5 | 141/165 [03:52<00:26,  1.12s/it]
+Waiting 3:  86%|########6 | 142/165 [03:53<00:25,  1.11s/it]
+Waiting 3:  87%|########6 | 143/165 [03:54<00:24,  1.12s/it]
+Waiting 3:  87%|########7 | 144/165 [03:55<00:23,  1.11s/it]
+Waiting 3:  88%|########7 | 145/165 [03:56<00:22,  1.11s/it]
+Waiting 3:  88%|########8 | 146/165 [03:57<00:21,  1.11s/it]
+Waiting 3:  89%|########9 | 147/165 [03:58<00:20,  1.11s/it]
+Waiting 3:  90%|########9 | 148/165 [03:59<00:18,  1.12s/it]
+Waiting 3:  90%|######### | 149/165 [04:01<00:17,  1.11s/it]
+Waiting 3:  91%|######### | 150/165 [04:02<00:16,  1.11s/it]
+Waiting 3:  92%|#########1| 151/165 [04:03<00:15,  1.10s/it]
+Waiting 3:  92%|#########2| 152/165 [04:04<00:14,  1.11s/it]
+Waiting 3:  93%|#########2| 153/165 [04:05<00:13,  1.10s/it]
+Waiting 3:  93%|#########3| 154/165 [04:06<00:12,  1.11s/it]
+Waiting 3:  94%|#########3| 155/165 [04:07<00:11,  1.11s/it]
+Waiting 3:  95%|#########4| 156/165 [04:08<00:09,  1.11s/it]
+Waiting 3:  95%|#########5| 157/165 [04:09<00:08,  1.10s/it]
+Waiting 3:  96%|#########5| 158/165 [04:10<00:07,  1.11s/it]
+Waiting 3:  96%|#########6| 159/165 [04:12<00:06,  1.11s/it]
+Waiting 3:  97%|#########6| 160/165 [04:13<00:05,  1.11s/it]
+Waiting 3:  98%|#########7| 161/165 [04:14<00:04,  1.11s/it]
+Waiting 3:  98%|#########8| 162/165 [04:15<00:03,  1.11s/it]
+Waiting 3:  99%|#########8| 163/165 [04:16<00:02,  1.11s/it]
+Waiting 3:  99%|#########9| 164/165 [04:17<00:01,  1.11s/it]
+Waiting 3: 100%|##########| 165/165 [04:18<00:00,  1.11s/it]
+[09/09/26 02:42:59] INFO     Animation 3 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\bra                         
+                             in_3d\720p30\partial_movi                         
+                             e_files\Brain3DRotating\2                         
+                             465325305_1610190144_2397                         
+                             095186.mp4'                                       
+                                                            
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:   0%|          | 0/30 [00:00<?, ?it/s]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:   3%|3         | 1/30 [00:01<00:34,  1.21s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:   7%|6         | 2/30 [00:02<00:32,  1.16s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  10%|#         | 3/30 [00:03<00:30,  1.14s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  13%|#3        | 4/30 [00:04<00:29,  1.14s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  17%|#6        | 5/30 [00:05<00:28,  1.14s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  20%|##        | 6/30 [00:06<00:27,  1.13s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  23%|##3       | 7/30 [00:07<00:25,  1.13s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  27%|##6       | 8/30 [00:09<00:25,  1.14s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  30%|###       | 9/30 [00:10<00:23,  1.13s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  33%|###3      | 10/30 [00:11<00:22,  1.13s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  37%|###6      | 11/30 [00:12<00:23,  1.24s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  40%|####      | 12/30 [00:15<00:28,  1.56s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  43%|####3     | 13/30 [00:16<00:25,  1.50s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  47%|####6     | 14/30 [00:17<00:23,  1.45s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  50%|#####     | 15/30 [00:19<00:20,  1.37s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  53%|#####3    | 16/30 [00:20<00:18,  1.31s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  57%|#####6    | 17/30 [00:21<00:16,  1.27s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  60%|######    | 18/30 [00:22<00:14,  1.24s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  63%|######3   | 19/30 [00:23<00:13,  1.23s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  67%|######6   | 20/30 [00:24<00:12,  1.22s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  70%|#######   | 21/30 [00:26<00:10,  1.20s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  73%|#######3  | 22/30 [00:27<00:09,  1.21s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  77%|#######6  | 23/30 [00:28<00:08,  1.23s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  80%|########  | 24/30 [00:29<00:07,  1.23s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  83%|########3 | 25/30 [00:31<00:06,  1.23s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  87%|########6 | 26/30 [00:32<00:04,  1.23s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  90%|######### | 27/30 [00:33<00:03,  1.23s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  93%|#########3| 28/30 [00:34<00:02,  1.23s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.:  97%|#########6| 29/30 [00:35<00:01,  1.22s/it]
+Animation 4: FadeOut(VGroup of 4 submobjects), etc.: 100%|##########| 30/30 [00:37<00:00,  1.19s/it]
+[09/09/26 02:43:37] INFO     Animation 4 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\bra                         
+                             in_3d\720p30\partial_movi                         
+                             e_files\Brain3DRotating\4                         
+                             068526887_1527518140_3346                         
+                             79978.mp4'                                        
+                    INFO     Combining to Movie file.  scene_file_writer.py:952
+                    INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\renu5\.gemini\                          
+                             antigravity\scratch\mani                          
+                             m-projects\media\videos\                          
+                             brain_3d\720p30\Brain3DR                          
+                             otating.mp4'                                      
+                                                                               
+                    INFO     Rendered Brain3DRotating              scene.py:290
+                             Played 5 animations                               
+                                                                                                    
+

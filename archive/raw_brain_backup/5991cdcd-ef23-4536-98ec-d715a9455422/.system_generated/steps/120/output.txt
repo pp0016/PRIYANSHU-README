@@ -1,0 +1,24 @@
+
+The command exited with code 0.
+Output:
+[video] 4%
+[video] 9%
+[video] 12%
+[video] 13% 4/240 frames (AI 3, reused 1)
+[video] 18% 16/240 frames (AI 15, reused 1)
+[video] 24% 33/240 frames (AI 24, reused 9)
+[video] 29% 45/240 frames (AI 30, reused 15)
+[video] 35% 63/240 frames (AI 39, reused 24)
+[video] 40% 75/240 frames (AI 45, reused 30)
+[video] 46% 93/240 frames (AI 54, reused 39)
+[video] 52% 110/240 frames (AI 63, reused 47)
+[video] 57% 122/240 frames (AI 69, reused 53)
+[video] 63% 140/240 frames (AI 78, reused 62)
+[video] 68% 154/240 frames (AI 89, reused 65)
+[video] 73% 166/240 frames (AI 95, reused 71)
+[video] 79% 183/240 frames (AI 104, reused 79)
+[video] 85% 200/240 frames (AI 113, reused 87)
+[video] 90% 214/240 frames (AI 125, reused 89)
+[video] 96% 229/240 frames (AI 136, reused 93)
+[video] 100% 240/240 frames (AI 141, reused 99)
+

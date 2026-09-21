@@ -1,0 +1,20 @@
+Task: 6f71b575-d73e-4413-b861-a66d8f356c8c/task-160
+Status: DONE
+Log: C:\Users\renu5\.gemini\antigravity\brain\6f71b575-d73e-4413-b861-a66d8f356c8c\.system_generated\tasks\task-160.log
+Log output:
+<truncated 76 lines>
+                                  |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\mobject\mobject.py:2623 in arrange                              |
+|                                                                             |
+|   2620                     self.add(x)                                      |
+|   2621         """                                                          |
+|   2622         for m1, m2 in zip(self.submobjects[:-1], self.submobjects[1: |
+| > 2623             m2.next_to(m1, direction, buff, **kwargs)                |
+|   2624         if center:                                                   |
+|   2625             self.center()                                            |
+|   2626         return self                                                  |
++-----------------------------------------------------------------------------+
+TypeError: Mobject.next_to() got an unexpected keyword argument 'grid'
+
+Last progress: 10s ago

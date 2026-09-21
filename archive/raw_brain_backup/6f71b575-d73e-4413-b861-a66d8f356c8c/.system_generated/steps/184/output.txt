@@ -1,0 +1,15 @@
+Task: 6f71b575-d73e-4413-b861-a66d8f356c8c/task-182
+Status: RUNNING
+Log: C:\Users\renu5\.gemini\antigravity\brain\6f71b575-d73e-4413-b861-a66d8f356c8c\.system_generated\tasks\task-182.log
+Log output:
+C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\blender_render_png.py:15: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if hasattr(floor_mat, 'use_nodes'):
+C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\blender_render_png.py:16: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  floor_mat.use_nodes = True
+C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\blender_render_png.py:24: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if hasattr(cube_mat, 'use_nodes'):
+C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\blender_render_png.py:25: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  cube_mat.use_nodes = True
+00:09.797  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\blender_frames\0001.png'
+
+Last progress: 0s ago
