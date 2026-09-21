@@ -1,0 +1,6 @@
+{
+  "summary": "Phase 2: Complete Pattern Extraction — the HOW-to-write manual for the ai-writing-gaps skill. Extracts 15 mechanisms (11 from the core DNA + 4 new patterns discovered in the convergence/template files) with precise trigger conditions, what-it-looks-like examples, why-AI-can't-do-it root causes, absence-detection tests, and implementation instructions. Each mechanism is quantified with competitor benchmarks. Includes a combined mechanism dependency map showing which patterns enable others, and a proposed Phase 3 implementation plan for building the actual skill.",
+  "updatedAt": "2026-08-17T10:18:05.550724500Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

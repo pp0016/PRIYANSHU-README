@@ -1,0 +1,12 @@
+
+The command exited with code 1.
+Output:
+--- User Prompt ---
+Traceback (most recent call last):
+  File "C:\Users\renu5\.gemini\antigravity\scratch\get_step23.py", line 10, in <module>
+    print(clean)
+  File "C:\Users\renu5\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u060d' in position 4: character maps to <undefined>
+

@@ -1,0 +1,25 @@
+{"name":"agyhub_summaries_proto.pb","sizeBytes":"504074"}
+{"name":"annotations","isDir":true}
+{"name":"antigravity_state.pbtxt","sizeBytes":"948"}
+{"name":"bin","isDir":true}
+{"name":"brain","isDir":true}
+{"name":"browserAllowlist.txt","sizeBytes":"1119"}
+{"name":"browserOnboardingStatus.txt"}
+{"name":"browser_recordings","isDir":true}
+{"name":"builtin","isDir":true}
+{"name":"code_tracker","isDir":true}
+{"name":"context_state","isDir":true}
+{"name":"conversations","isDir":true}
+{"name":"crashes","isDir":true}
+{"name":"html_artifacts","isDir":true}
+{"name":"implicit","isDir":true}
+{"name":"installation_id","sizeBytes":"36"}
+{"name":"knowledge","isDir":true}
+{"name":"mcp","isDir":true}
+{"name":"mcp_config.json"}
+{"name":"playground","isDir":true}
+{"name":"prompting","isDir":true}
+{"name":"scratch","isDir":true}
+{"name":"user_settings.pb","sizeBytes":"53"}
+
+Summary: This directory contains 16 subdirectories and 7 files.

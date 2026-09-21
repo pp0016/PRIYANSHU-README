@@ -1,0 +1,6 @@
+{
+  "summary": "Learning proposal to create a new skill 'nexlev-mcp-caller' that automates NexLev MCP authentication and tool calling via a reusable Python script. This eliminates the painful manual auth flow, dangling process cleanup, and PowerShell JSON escaping issues encountered in this session. Also includes a rule to always check NexLev rate limits before calling tools.",
+  "updatedAt": "2026-08-25T19:26:23.537962600Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

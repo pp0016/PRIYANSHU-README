@@ -1,0 +1,6 @@
+{
+  "summary": "Final compliance audit of the ai-writing-gaps skill against every line of the master prompt. Checks all 5 components (A-E), file structure, trigger phrases, rules compliance, and lists the final status of every requirement. All items pass after fixes.",
+  "updatedAt": "2026-08-17T11:42:01.234667500Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

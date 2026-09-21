@@ -1,0 +1,26 @@
+
+The command exited with code 0.
+Output:
+Tables: [('trajectory_meta',), ('steps',), ('gen_metadata',), ('executor_metadata',), ('parent_references',), ('trajectory_metadata_blob',), ('battle_mode_infos',)]
+
+Table: trajectory_meta
+[(0, 'trajectory_id', 'TEXT', 0, None, 1), (1, 'cascade_id', 'TEXT', 0, None, 0), (2, 'trajectory_type', 'INTEGER', 0, None, 0), (3, 'source', 'INTEGER', 0, None, 0)]
+
+Table: steps
+[(0, 'idx', 'INTEGER', 0, None, 1), (1, 'step_type', 'INTEGER', 1, '0', 0), (2, 'status', 'INTEGER', 1, '0', 0), (3, 'has_subtrajectory', 'numeric', 1, 'false', 0), (4, 'metadata', 'BLOB', 0, None, 0), (5, 'error_details', 'BLOB', 0, None, 0), (6, 'permissions', 'BLOB', 0, None, 0), (7, 'task_details', 'BLOB', 0, None, 0), (8, 'render_info', 'BLOB', 0, None, 0), (9, 'step_payload', 'BLOB', 0, None, 0), (10, 'step_format', 'INTEGER', 1, '0', 0)]
+
+Table: gen_metadata
+[(0, 'idx', 'INTEGER', 0, None, 1), (1, 'data', 'BLOB', 0, None, 0), (2, 'size', 'INTEGER', 1, '0', 0)]
+
+Table: executor_metadata
+[(0, 'idx', 'INTEGER', 0, None, 1), (1, 'data', 'BLOB', 0, None, 0)]
+
+Table: parent_references
+[(0, 'idx', 'INTEGER', 0, None, 1), (1, 'data', 'BLOB', 0, None, 0)]
+
+Table: trajectory_metadata_blob
+[(0, 'id', 'TEXT', 0, '"main"', 1), (1, 'data', 'BLOB', 0, None, 0)]
+
+Table: battle_mode_infos
+[(0, 'idx', 'INTEGER', 0, None, 1), (1, 'data', 'BLOB', 0, None, 0)]
+

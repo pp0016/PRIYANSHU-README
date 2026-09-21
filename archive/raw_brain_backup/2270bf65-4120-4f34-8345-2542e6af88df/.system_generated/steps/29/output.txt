@@ -1,0 +1,22 @@
+
+The command exited with code 1.
+Output:
+  File "<string>", line 5
+    c.execute(" SELECT name FROM sqlite_master WHERE type=table
+              ^
+SyntaxError: unterminated string literal (detected at line 5)
+\)
+print('Tables:', c.fetchall())
+ : The term '\)
+print('Tables:', c.fetchall())
+' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the 
+name, or if a path was included, verify that the path is correct and try again.
+At line:5 char:63
++ c.execute(\"SELECT name FROM sqlite_master WHERE type='table';\")
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (\)
+print('Tables:', c.fetchall())
+:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+

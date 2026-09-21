@@ -1,0 +1,38 @@
+
+The command exited with code 0.
+Output:
+Found b'133e05e6' in steps row 4 col 9
+Context: cde6d57902(
+$123a5a57-a507-48f8-a533-f3877f6d43bb(
+$13223136-cf71-44b0-a0a8-868651295d51(
+$133e05e6-4851-4798-955d-f3be3448d8ee(
+$1354d3af-58ad-4938-85f6-9f3a97799798(
+$1369175c-c5bc-45
+Found b'Researching' in steps row 23 col 9
+Context:  also that can help me out with my goals not like a generic person surface level should be advanced researching for this so I can optimised my work in way faster than anyone . 
+> And now my schedule
+Found b'133e05e6' in gen_metadata row 20 col 1
+Context: 3-f3877f6d43bb","isDir":true}
+{"name":"13223136-cf71-44b0-a0a8-868651295d51","isDir":true}
+{"name":"133e05e6-4851-4798-955d-f3be3448d8ee","isDir":true}
+{"name":"1354d3af-58ad-4938-85f6-9f3a97799798","
+Found b'Clone' in gen_metadata row 20 col 1
+Context: $([math]::Round((($totalOriginal - $totalCompressed) / $totalOriginal) * 100, 2))%"
+})
+{command(git clone https://github.com/mvanhorn/last30days-skill.git "C:\Users\renu5\.gemini\config\skills\last30d
+Found b'Researching' in gen_metadata row 20 col 1
+Context:  also that can help me out with my goals not like a generic person surface level should be advanced researching for this so I can optimised my work in way faster than anyone . 
+474: > And now my sch
+Found b'Clone' in executor_metadata row 0 col 1
+Context: $([math]::Round((($totalOriginal - $totalCompressed) / $totalOriginal) * 100, 2))%"
+})
+{command(git clone https://github.com/mvanhorn/last30days-skill.git "C:\Users\renu5\.gemini\config\skills\last30d
+Found b'Clone' in executor_metadata row 1 col 1
+Context: $([math]::Round((($totalOriginal - $totalCompressed) / $totalOriginal) * 100, 2))%"
+})
+{command(git clone https://github.com/mvanhorn/last30days-skill.git "C:\Users\renu5\.gemini\config\skills\last30d
+Found b'Clone' in executor_metadata row 2 col 1
+Context: $([math]::Round((($totalOriginal - $totalCompressed) / $totalOriginal) * 100, 2))%"
+})
+{command(git clone https://github.com/mvanhorn/last30days-skill.git "C:\Users\renu5\.gemini\config\skills\last30d
+

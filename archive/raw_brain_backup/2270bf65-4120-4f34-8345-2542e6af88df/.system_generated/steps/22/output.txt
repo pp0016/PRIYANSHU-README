@@ -1,0 +1,7 @@
+
+The command exited with code 0.
+Output:
+Found in C:\Users\renu5\.gemini\antigravity\conversations\1682ac12-05ba-422a-a04c-f2d378a84e1d.db
+Found in C:\Users\renu5\.gemini\antigravity\conversations\2270bf65-4120-4f34-8345-2542e6af88df.db
+Done
+
