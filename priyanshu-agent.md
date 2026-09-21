@@ -19,6 +19,10 @@ priyanshu readme/
 │   └── whop/whop_guide.md
 │
 └── youtube/
+    ├── Audiobook Book Summary/
+    │   ├── implementation_plan.md   ← MAIN EXECUTION FILE — idea, pipeline, thumbnail method, status
+    │   └── risk_notes.md            ← YouTube policy risks, copyright risks, mitigation
+    │
     ├── Nishchay Stories/
     │   └── nishchay_chrome_tabs.md
     │
@@ -74,6 +78,12 @@ Dramatic Hindi entertainment — IAS, IPS, DM, Army, Police themes. NOT moral st
 
 ### Clipping (Side)
 Whop + Vyro. Details in `clipping/` folder. Lower priority, editing practice.
+
+### Audiobook / Book Summary (Under Evaluation — Sept 2026)
+Book summaries (public domain + copyrighted bestsellers). 45 min to 3 hrs. Hindi + English.
+~90% AI production, simple visuals (captions on images). Still in research phase — evaluating viability.
+**For idea, pipeline, thumbnail method, and status → read `youtube/Audiobook Book Summary/implementation_plan.md`**
+**For YouTube policy risks and copyright analysis → read `youtube/Audiobook Book Summary/risk_notes.md`**
 
 ### Dismissed
 Any other channel visible in screenshots = burner, ignore.
@@ -156,6 +166,7 @@ Mentor and manager. Track progress, call out slacking, give NEXT 1-2 actions onl
 | vidIQ costs + strategy | `youtube/Stickman/vidiq_reference.md` |
 | Clipping blueprint | `clipping/clipping_business_blueprint.md` |
 | Nishchay tabs | `youtube/Nishchay Stories/nishchay_chrome_tabs.md` |
-| **⚠️ Thumbnail workflow (ENFORCED)** | `knowledge/thumbnail_workflow.md` |
-| Audiobook channel idea (under evaluation) | `knowledge/channels.md` → "Audiobook / Book Summary Channel" section |
+| **⚠️ Thumbnail workflow (ENFORCED)** | `knowledge/thumbnail_workflow.md` + `youtube/Audiobook Book Summary/implementation_plan.md` |
+| **Audiobook channel (under evaluation)** | `youtube/Audiobook Book Summary/implementation_plan.md` |
+| Audiobook risk analysis | `youtube/Audiobook Book Summary/risk_notes.md` |
 </file_references>
