@@ -1,0 +1,6 @@
+{
+  "summary": "Complete handoff prompt for a new Antigravity conversation to execute all file changes: delete 2 files, move 1 to archive, overwrite 2 files with corrected versions, and verify everything. Includes exact source paths, target paths, and verification steps. The new conversation just needs this prompt pasted in and it will do everything.",
+  "updatedAt": "2026-08-07T10:32:41.298404600Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

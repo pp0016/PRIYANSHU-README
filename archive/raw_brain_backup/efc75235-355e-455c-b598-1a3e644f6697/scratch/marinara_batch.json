@@ -1,0 +1,6 @@
+[
+  {"tool": "youtube_channel_videos", "args": {"channel_id": "UCrfgwNVm6qjuRoD4SJS9OAA", "sort_by": "popular"}},
+  {"tool": "get_geography_revenue", "args": {"channelId": "UCrfgwNVm6qjuRoD4SJS9OAA"}},
+  {"tool": "get_channel_analytics", "args": {"channelId": "UCrfgwNVm6qjuRoD4SJS9OAA"}},
+  {"tool": "get_niche_overview", "args": {"channelId": "UCrfgwNVm6qjuRoD4SJS9OAA"}}
+]

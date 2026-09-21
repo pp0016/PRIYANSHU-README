@@ -1,0 +1,4 @@
+- `[x]` Create output folder `16x9`
+- `[x]` Write python script to burn subtitles onto landscape videos
+- `[x]` Run python script to render all 7 clips
+- `[x]` Verify output videos

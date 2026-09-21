@@ -1,0 +1,5 @@
+{
+  "summary": "5 structured Omni Flash JSON video prompts for testing Stikaman channel visual style. One prompt per planned video:\n1. Banned Weapons — crossbow kills knight (action sequence test)\n2. Banned Books — dictionary gets BANNED stamp (comedy/object test)\n3. Dumb War Tactics — Trojan Horse reveal (night scene + multiple figures)\n4. Greek Mythology — Medusa petrification (transformation effect test)\n5. Bullet Types — expanding bullet cross-section (technical diagram + slow-mo)\n\nEach prompt uses SLCT framework + time-indexed action blocks. Includes a testing matrix showing what each prompt validates and fallback plans if Omni Flash fails.",
+  "updatedAt": "2026-08-24T20:12:36.123269600Z",
+  "userFacing": true
+}

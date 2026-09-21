@@ -1,0 +1,19 @@
+
+Encountered error in step execution: context canceled
+Output:
+[2428] Using callback port derived from the server URL: 28085
+[2428] Discovering OAuth server configuration...
+[2428] Discovered authorization server: https://prod.dashboard.nexlev.io
+[2428] [2428] Connecting to remote server: https://prod.dashboard.nexlev.io/api/claude-mcp
+[2428] Using transport strategy: http-first
+[2428] 
+Please authorize this client by visiting:
+https://prod.dashboard.nexlev.io/api/mcp/oauth/authorize?response_type=code&client_id=chatgpt-mcp-client&code_challenge=yBbcAOQrbsH0eDXdL7bgFfTaE6G_Un-4AiLeHwMWd18&code_challenge_method=S256&redirect_uri=http%3A%2F%2F127.0.0.1%3A28085%2Foauth%2Fcallback&state=473e85aa-a418-46f0-aac1-d5a21e90583a&scope=openid+profile+email&resource=https%3A%2F%2Fprod.dashboard.nexlev.io%2Fapi%2Fclaude-mcp
+
+[2428] Browser opened automatically.
+[2428] Authentication required. Initializing auth...
+[2428] Initializing auth coordination on-demand
+[2428] OAuth callback server running at http://127.0.0.1:28085
+[2428] This instance is running the sign-in for this server (callback port 28085)
+[2428] Authentication required. Waiting for authorization...
+

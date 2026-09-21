@@ -1,0 +1,5 @@
+{
+  "summary": "Production-ready prompt for Google AI Studio (Gemini 2.5 Pro) to identify viral podcast clips from uploaded long-form videos. Built from data-backed research on retention science (3-second hook rates, completion thresholds), platform algorithm priorities (YouTube Shorts, TikTok, Reels), 6 viral podcast archetypes, acoustic signal detection (pitch, energy, pauses), and the Opus Clip virality scoring framework. Includes the full copy-paste prompt inside a code fence, plus all supporting research data and sources below it.",
+  "updatedAt": "2026-08-12T20:29:01.215981200Z",
+  "userFacing": true
+}

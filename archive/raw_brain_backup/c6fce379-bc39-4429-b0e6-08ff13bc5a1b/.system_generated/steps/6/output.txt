@@ -1,0 +1,71 @@
+
+The command exited with code 0.
+Output:
+Manim Community v0.21.0
+
+Animation 0: FadeIn(Rectangle), etc.:   0%|          | 0/30 [00:00<?, ?it/s]Animation 0: FadeIn(Rectangle), etc.:  50%|#####     | 15/30 [00:00<00:00, 148.59it/s]Animation 0: FadeIn(Rectangle), etc.: 100%|##########| 30/30 [00:00<00:00, 139.24it/s]                                                                                      [09/13/26 12:50:13] INFO     Animation 0 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\sti                         
+                             ckman_agent_3\720p30\part                         
+                             ial_movie_files\StickmanS                         
+                             cene3\882074544_145482188                         
+                             1_223132457.mp4'                                  
+Animation 1: Write(VGroup of 14 submobjects):   0%|          | 0/90 [00:00<?, ?it/s]Animation 1: Write(VGroup of 14 submobjects):  14%|#4        | 13/90 [00:00<00:00, 120.54it/s]Animation 1: Write(VGroup of 14 submobjects):  29%|##8       | 26/90 [00:00<00:00, 111.73it/s]Animation 1: Write(VGroup of 14 submobjects):  42%|####2     | 38/90 [00:00<00:00, 104.70it/s]Animation 1: Write(VGroup of 14 submobjects):  54%|#####4    | 49/90 [00:00<00:00, 97.38it/s] Animation 1: Write(VGroup of 14 submobjects):  66%|######5   | 59/90 [00:00<00:00, 89.46it/s]Animation 1: Write(VGroup of 14 submobjects):  78%|#######7  | 70/90 [00:00<00:00, 93.32it/s]Animation 1: Write(VGroup of 14 submobjects):  89%|########8 | 80/90 [00:00<00:00, 94.88it/s]                                                                                             [09/13/26 12:50:14] INFO     Animation 1 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\sti                         
+                             ckman_agent_3\720p30\part                         
+                             ial_movie_files\StickmanS                         
+                             cene3\15360612_3551911364                         
+                             _1681714213.mp4'                                  
+[09/13/26 12:50:15] INFO     Animation 2 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\sti                         
+                             ckman_agent_3\720p30\part                         
+                             ial_movie_files\StickmanS                         
+                             cene3\15360612_847192958_                         
+                             2403229536.mp4'                                   
+Animation 3: Transform(VGroup of 3 submobjects), etc.:   0%|          | 0/5 [00:00<?, ?it/s]                                                                                                                INFO     Animation 3 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\sti                         
+                             ckman_agent_3\720p30\part                         
+                             ial_movie_files\StickmanS                         
+                             cene3\15360612_346275525_                         
+                             1852980941.mp4'                                   
+Animation 4: Restore(VGroup of 3 submobjects), etc.:   0%|          | 0/5 [00:00<?, ?it/s]                                                                                                              INFO     Animation 4 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\sti                         
+                             ckman_agent_3\720p30\part                         
+                             ial_movie_files\StickmanS                         
+                             cene3\15360612_858973421_                         
+                             1852980941.mp4'                                   
+                    INFO     Animation 5 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\sti                         
+                             ckman_agent_3\720p30\part                         
+                             ial_movie_files\StickmanS                         
+                             cene3\15360612_2645707024                         
+                             _3295952514.mp4'                                  
+                    INFO     Combining to Movie file.  scene_file_writer.py:952
+[09/13/26 12:50:16] INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\renu5\.gemini\                          
+                             antigravity\scratch\mani                          
+                             m-projects\media\videos\                          
+                             stickman_agent_3\720p30\                          
+                             StickmanScene3.mp4'                               
+                                                                               
+                    INFO     Rendered StickmanScene3               scene.py:290
+                             Played 6 animations                               
+

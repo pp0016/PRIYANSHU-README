@@ -1,0 +1,64 @@
+
+The command exited with code 0.
+Output:
+[12104] Using callback port derived from the server URL: 28085
+[12104] Discovering OAuth server configuration...
+[12104] Discovered authorization server: https://prod.dashboard.nexlev.io
+[12104] [12104] Connecting to remote server: https://prod.dashboard.nexlev.io/api/claude-mcp
+[12104] Using transport strategy: http-first
+[12104] Connected to remote server using StreamableHTTPClientTransport
+[12104] Local STDIO server running
+[12104] Proxy established successfully between local STDIO and remote StreamableHTTPClientTransport
+[12104] Press Ctrl+C to exit
+[12104] [Local→Remote] initialize
+[12104] {
+  "jsonrpc": "2.0",
+  "id": 0,
+  "method": "initialize",
+  "params": {
+    "protocolVersion": "2025-11-25",
+    "capabilities": {},
+    "clientInfo": {
+      "name": "mcp (via mcp-remote 0.14.2)",
+      "version": "0.1.0"
+    }
+  }
+}
+[12104] [Remote→Local] 0
+[12104] [Local→Remote] notifications/initialized
+[12104] [Local→Remote] tools/call
+[12104] [Remote→Local] 1
+[12104] [Local→Remote] tools/list
+[12104] [Remote→Local] 2
+[12104] 
+Shutting down...
+{
+  "description": "Faceless channel analysis for UCyJR4fhuZIk1AD3-BzpQaPw. Result from cache.",
+  "channelId": "UCyJR4fhuZIk1AD3-BzpQaPw",
+  "analysis": {
+    "isFaceless": true,
+    "confidence": 0.98,
+    "confidencePercent": "98%"
+  },
+  "contentClassification": {
+    "tags": [
+      "science",
+      "space & exploration",
+      "history",
+      "travel documentary"
+    ],
+    "primaryCategory": "science",
+    "format": "educational"
+  },
+  "channelInfo": {
+    "language": "eng",
+    "languageDescription": "English",
+    "googleTrendsKeyword": "science facts"
+  },
+  "metadata": {
+    "cached": true,
+    "analyzedContent": "Regular Videos",
+    "timestamp": "2026-09-14T13:29:42.834Z"
+  }
+}
+

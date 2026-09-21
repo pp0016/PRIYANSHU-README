@@ -1,0 +1,4 @@
+[
+  {"tool": "get_geography_revenue", "args": {"channelId": "UCCMbICUS1bJ1viMj-FNE4Bw"}},
+  {"tool": "check_channel_monetization", "args": {"channelId": "UCCMbICUS1bJ1viMj-FNE4Bw"}}
+]

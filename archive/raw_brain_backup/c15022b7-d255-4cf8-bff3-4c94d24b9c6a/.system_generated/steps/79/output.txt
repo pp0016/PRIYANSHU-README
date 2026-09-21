@@ -1,0 +1,37 @@
+The following changes were made by the replace_file_content tool to: C:\Users\renu5\.gemini\antigravity\brain\c15022b7-d255-4cf8-bff3-4c94d24b9c6a\Paintify7_Deep_Breakdown.md. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -327,17 +327,18 @@
+ 
+ ## Data Sources
+ 
+-| Data Point | Tool Used | Credits |
+-|-----------|-----------|---------|
+-| Channel stats (30d + 90d) | vidIQ `channel_stats` | 10 |
+-| Popular videos (long) | vidIQ `channel_videos` | 5 |
+-| Popular videos (short) | vidIQ `channel_videos` | 5 |
+-| Outlier detection | vidIQ `outliers` | 5 |
+-| Visual style analysis | vidIQ `video_watch` | 25 |
+-| Transcript | vidIQ `video_transcript` | 5 |
+-| Similar channels | vidIQ `similar_channels` | 5 |
+-| Earnings estimate | vidIQ `video_earnings_estimate` | 5 |
+-| **Total credits used** | | **65** |
+-| NexLev (channel_about) | ❌ Auth required | 0 |
+-| NexLev (faceless check) | ❌ Auth required | 0 |
++| Data Point | Tool Used | Status |
++|-----------|-----------|--------|
++| Channel stats (30d + 90d) | vidIQ `channel_stats` | ✅ |
++| Popular videos (long + short) | vidIQ `channel_videos` | ✅ |
++| Outlier detection | vidIQ `outliers` | ✅ |
++| Visual style analysis | vidIQ `video_watch` | ✅ |
++| Transcript | vidIQ `video_transcript` | ✅ |
++| Similar channels | vidIQ `similar_channels` | ✅ |
++| Earnings estimate | vidIQ `video_earnings_estimate` | ✅ |
++| Channel profile | NexLev `youtube_channel_about` | ✅ |
++| RPM / Revenue / Demographics | NexLev `get_geography_revenue` | ✅ |
++| Faceless check | NexLev `check_faceless_channel` | ✅ |
++
++🔔 **NexLev usage this session**: `youtube_channel_about` (1/50), `get_geography_revenue` (1/5), `check_faceless_channel` (1/5)
+ 
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

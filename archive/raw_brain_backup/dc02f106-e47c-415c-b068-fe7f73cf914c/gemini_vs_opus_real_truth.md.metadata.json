@@ -1,0 +1,5 @@
+{
+  "summary": "Deep technical investigation into why Gemini 3.1 Pro (High) gives significantly worse results than Claude Opus 4.6 on the same prompts, despite similar benchmark scores. Covers 5 root causes: context slicing/aggressive truncation, the 'Lost in the Middle' problem, lazy default effort level, instruction following gap vs Opus, and the benchmark-vs-reality gap. Includes evidence from Reddit, developer forums, and research papers. Provides 8 practical workarounds and an updated honest model rating that accounts for these real-world failures. Concludes that benchmarks measure ceiling performance, not average daily performance, and that Gemini's real-world instruction following is measurably weaker than Opus.",
+  "updatedAt": "2026-08-27T13:37:29.165079Z",
+  "userFacing": true
+}

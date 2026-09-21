@@ -1,0 +1,75 @@
+
+The command exited with code 0.
+Output:
+[18340] Using callback port derived from the server URL: 28085
+[18340] Discovering OAuth server configuration...
+[18340] Discovered authorization server: https://prod.dashboard.nexlev.io
+[18340] [18340] Connecting to remote server: https://prod.dashboard.nexlev.io/api/claude-mcp
+[18340] Using transport strategy: http-first
+[18340] Connected to remote server using StreamableHTTPClientTransport
+[18340] Local STDIO server running
+[18340] Proxy established successfully between local STDIO and remote StreamableHTTPClientTransport
+[18340] Press Ctrl+C to exit
+[18340] [Local→Remote] initialize
+[18340] {
+  "jsonrpc": "2.0",
+  "id": 0,
+  "method": "initialize",
+  "params": {
+    "protocolVersion": "2025-11-25",
+    "capabilities": {},
+    "clientInfo": {
+      "name": "mcp (via mcp-remote 0.14.2)",
+      "version": "0.1.0"
+    }
+  }
+}
+[18340] [Remote→Local] 0
+[18340] [Local→Remote] notifications/initialized
+[18340] [Local→Remote] tools/call
+[18340] [Remote→Local] 1
+[18340] [Local→Remote] tools/list
+[18340] [Remote→Local] 2
+[18340] 
+Shutting down...
+{
+  "channelId": "UCyJR4fhuZIk1AD3-BzpQaPw",
+  "channelType": "LONG_ONLY",
+  "demographics": {
+    "gender": {
+      "male": 83.4,
+      "female": 16.2,
+      "user_specified": 0.4
+    },
+    "age": {
+      "13_17_years": 0.3,
+      "18_24_years": 3.7,
+      "25_34_years": 12,
+      "35_44_years": 19.5,
+      "45_54_years": 20.4,
+      "55_64_years": 20.7,
+      "65_plus_years": 23.4
+    },
+    "viewership_country": {
+      "United States": 47.3,
+      "India": 23.6,
+      "United Kingdom": 11.2,
+      "Canada": 9.1,
+      "Australia": 8.8
+    }
+  },
+  "revenue": {
+    "month_revenue": 3218,
+    "month_long_revenue": 2650,
+    "month_short_revenue": 0,
+    "short_view_count": 0,
+    "long_view_count": 945620,
+    "channel_category_rpm": 4,
+    "channel_long_rpm": 3.474285714285714,
+    "channel_short_rpm": 0.039882,
+    "channel_language_code": "eng",
+    "weighted_avg_duration": 758.0674305813743
+  },
+  "category": "space & exploration"
+}
+

@@ -1,0 +1,94 @@
+The following changes were made by the replace_file_content tool to: C:\Users\renu5\.gemini\antigravity\brain\c15022b7-d255-4cf8-bff3-4c94d24b9c6a\Paintify7_Deep_Breakdown.md. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -98,20 +98,74 @@
+ 
+ ---
+ 
+-## 4. Revenue Estimate (vidIQ Data)
+-
+-Using the top video as benchmark (Education category):
+-
+-| Metric | Value |
+-|--------|-------|
+-| Top Video Earnings (low) | $2,124 |
+-| Top Video Earnings (mid) | **$5,311** |
+-| Top Video Earnings (high) | $12,745 |
+-| **Estimated Total Channel Earnings** | **~$15,000 – $35,000** |
+-| **Monthly Run Rate** | **~$3,000 – $6,000/month** |
+-
+-> [!NOTE]
+-> Education category RPM is typically $4-8 for English content. With 1M monthly views and long-form only (no Shorts dragging RPM down), this channel likely earns $4,000-8,000/month from just 1 video per month.
++## 4. RPM & Revenue (NexLev — Real Data)
++
++| Metric | Value |
++|--------|-------|
++| **NexLev Category** | **Space & Exploration** |
++| **Channel Type** | **LONG_ONLY** (no Shorts) |
++| **Category RPM** | **$4.00** |
++| **Channel Long-form RPM** | **$3.47** |
++| **Channel Short RPM** | N/A (no Shorts) |
++| **Estimated Monthly Revenue** | **$3,218/month** |
++| **Monthly Long-form Revenue** | $2,650 |
++| **Monthly Shorts Revenue** | $0 |
++| **Monthly Long-form Views** | 945,620 |
++| **Avg Video Duration** | ~12:38 (758 seconds) |
++| **Channel Language** | English |
++
++---
++
++## 5. Total Lifetime Earnings Estimate
++
++| Calculation | Value |
++|------------|-------|
++| Total views | 4,765,708 |
++| Channel RPM | $3.47 |
++| **Estimated total lifetime earnings** | **~$16,551** |
++| Months active | ~10.5 |
++| **Average monthly earning** | **~$1,576/month** |
++| **Current monthly earning** | **$3,218/month** |
++| **Revenue per video** | **~$1,379** |
++| **Views per video** | **397,142** |
++
++> 📈 **Channel is GROWING** — current monthly ($3,218) is **2x the lifetime average** ($1,576). Revenue is accelerating.
++
++---
++
++## 6. Audience Demographics (NexLev — Real Data)
++
++### Gender Split
++| Gender | % |
++|--------|---|
++| Male | **83.4%** |
++| Female | 16.2% |
++| User Specified | 0.4% |
++
++### Age Distribution
++| Age Group | % |
++|-----------|---|
++| 13-17 | 0.3% |
++| 18-24 | 3.7% |
++| 25-34 | 12.0% |
++| 35-44 | 19.5% |
++| 45-54 | 20.4% |
++| 55-64 | 20.7% |
++| **65+** | **23.4%** |
++
++### Top 5 Countries by Views
++| Country | % of Views |
++|---------|-----------:|
++| 🇺🇸 **United States** | **47.3%** |
++| 🇮🇳 India | 23.6% |
++| 🇬🇧 United Kingdom | 11.2% |
++| 🇨🇦 Canada | 9.1% |
++| 🇦🇺 Australia | 8.8% |
++
++> [!TIP]
++> **Tier 1 traffic = 76.4%** (US + UK + CA + AU). This is EXCELLENT for ad revenue. Despite having 23.6% Indian traffic (which drags RPM down), the channel still pulls $3.47 RPM because of the dominant US audience.
++>
++> **Age skew is unusual** — 64.5% of viewers are 45+. This is a mature, high-income demographic that advertisers pay premium CPMs for. The channel benefits from older viewers who watch longer and see more ads.
+ 
+ ---
+ 
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

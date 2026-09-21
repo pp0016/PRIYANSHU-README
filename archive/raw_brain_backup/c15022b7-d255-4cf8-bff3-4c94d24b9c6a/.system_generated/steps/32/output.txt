@@ -1,0 +1,1 @@
+{"mcpJobId":"job_efd8e730-fe30-4787-b1c8-84449895c7ce","status":"inprogress","message":"Submitted. The work runs in the background — poll `vidiq_job_poll` with mcpJobId \"job_efd8e730-fe30-4787-b1c8-84449895c7ce\" to check progress and retrieve the result.","_credits":{"used":25}}

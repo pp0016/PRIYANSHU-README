@@ -1,0 +1,44 @@
+
+The command exited with code 0.
+Output:
+[1016] Using callback port derived from the server URL: 28085
+[1016] Discovering OAuth server configuration...
+[1016] Discovered authorization server: https://prod.dashboard.nexlev.io
+[1016] [1016] Connecting to remote server: https://prod.dashboard.nexlev.io/api/claude-mcp
+[1016] Using transport strategy: http-first
+[1016] Connected to remote server using StreamableHTTPClientTransport
+[1016] Local STDIO server running
+[1016] Proxy established successfully between local STDIO and remote StreamableHTTPClientTransport
+[1016] Press Ctrl+C to exit
+[1016] [Local→Remote] initialize
+[1016] {
+  "jsonrpc": "2.0",
+  "id": 0,
+  "method": "initialize",
+  "params": {
+    "protocolVersion": "2025-11-25",
+    "capabilities": {},
+    "clientInfo": {
+      "name": "mcp (via mcp-remote 0.14.2)",
+      "version": "0.1.0"
+    }
+  }
+}
+[1016] [Remote→Local] 0
+[1016] [Local→Remote] notifications/initialized
+[1016] [Local→Remote] tools/call
+[1016] [Remote→Local] 1
+[1016] 
+Shutting down...
+Error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "channelId"
+    ],
+    "message": "Required"
+  }
+]
+

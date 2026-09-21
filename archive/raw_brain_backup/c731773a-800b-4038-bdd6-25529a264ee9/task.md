@@ -1,0 +1,2 @@
+- `[x]` Update `C:\Users\renu5\.gemini\config\skills\agent-reach-skill\SKILL.md` with new `opencli` instructions.
+- `[x]` Answer user's question regarding screenshots vs `extract`.

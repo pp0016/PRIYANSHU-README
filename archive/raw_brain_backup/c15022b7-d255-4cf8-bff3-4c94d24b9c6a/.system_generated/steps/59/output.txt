@@ -1,0 +1,18 @@
+Task: c15022b7-d255-4cf8-bff3-4c94d24b9c6a/task-57
+Status: RUNNING
+Log: C:\Users\renu5\.gemini\antigravity\brain\c15022b7-d255-4cf8-bff3-4c94d24b9c6a\.system_generated\tasks\task-57.log
+Log output:
+<truncated 6 lines>
+stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+[24340] 
+Please authorize this client by visiting:
+https://prod.dashboard.nexlev.io/api/mcp/oauth/authorize?response_type=code&client_id=chatgpt-mcp-client&code_challenge=NCUwlRwv-lCL9yYEgLjSQjbPd1SpnC4F-VQnelMOCbc&code_challenge_method=S256&redirect_uri=http%3A%2F%2F127.0.0.1%3A28085%2Foauth%2Fcallback&state=1ef90e8d-0549-4851-9e3c-4454bba5a8af&scope=openid+profile+email&resource=https%3A%2F%2Fprod.dashboard.nexlev.io%2Fapi%2Fclaude-mcp
+
+[24340] Browser opened automatically.
+[24340] Authentication required. Initializing auth...
+[24340] Initializing auth coordination on-demand
+[24340] OAuth callback server running at http://127.0.0.1:28085
+[24340] This instance is running the sign-in for this server (callback port 28085)
+[24340] Authentication required. Waiting for authorization...
+
+Last progress: 6s ago

@@ -1,0 +1,1 @@
+{"id":"a407872f-445c-4282-9a00-66d7aeae0901","recipient":"b75d3ef6-c7ea-497e-a92f-fe05edd5e5c3","sender":"b75d3ef6-c7ea-497e-a92f-fe05edd5e5c3/task-523","priority":"MESSAGE_PRIORITY_HIGH","timestamp":"2026-08-23T16:53:50.054561700Z","renderDetails":{"messageTitle":"Subagent timer: Timer has expired"},"content":"Check if both repo audit subagents have responded yet."}

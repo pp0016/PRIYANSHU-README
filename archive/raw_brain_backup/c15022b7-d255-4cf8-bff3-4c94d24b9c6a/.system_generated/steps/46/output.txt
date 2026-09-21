@@ -1,0 +1,1 @@
+{"videoId":"k68J4AxND1k","isShort":false,"durationSeconds":712,"viewCount":1475153,"channelId":"UCyJR4fhuZIk1AD3-BzpQaPw","channelCountry":null,"mainCategory":"Education","categorySource":"video","estimate":{"low":2124.22,"mid":5310.55,"high":12745.32,"currency":"USD"},"_credits":{"used":5}}

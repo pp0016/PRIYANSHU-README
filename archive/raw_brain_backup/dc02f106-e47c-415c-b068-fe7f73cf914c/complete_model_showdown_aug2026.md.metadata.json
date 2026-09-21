@@ -1,0 +1,5 @@
+{
+  "summary": "Complete head-to-head benchmark comparison of all 6 models the user is interested in: OX Alpha, Claude Opus 4.6 (current), Claude Opus 5, Nemotron 3 Ultra 550B, Gemini 3.1 Pro (High), and Claude Fable 5. Covers DeepSWE, SWE-bench Verified, SWE-bench Pro, MMLU-Pro, GPQA Diamond, context windows, pricing, and practical recommendations for which model to use for what task. Includes anti-sycophancy honest verdict.",
+  "updatedAt": "2026-08-27T13:23:32.464414800Z",
+  "userFacing": true
+}

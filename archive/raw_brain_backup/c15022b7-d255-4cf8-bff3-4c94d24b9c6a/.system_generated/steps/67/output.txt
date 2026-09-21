@@ -1,0 +1,48 @@
+Task: c15022b7-d255-4cf8-bff3-4c94d24b9c6a/task-63
+Status: DONE
+Log: C:\Users\renu5\.gemini\antigravity\brain\c15022b7-d255-4cf8-bff3-4c94d24b9c6a\.system_generated\tasks\task-63.log
+Log output:
+<truncated 31 lines>
+wn...
+{
+  "channelId": "UCyJR4fhuZIk1AD3-BzpQaPw",
+  "channelType": "LONG_ONLY",
+  "demographics": {
+    "gender": {
+      "male": 83.4,
+      "female": 16.2,
+      "user_specified": 0.4
+    },
+    "age": {
+      "13_17_years": 0.3,
+      "18_24_years": 3.7,
+      "25_34_years": 12,
+      "35_44_years": 19.5,
+      "45_54_years": 20.4,
+      "55_64_years": 20.7,
+      "65_plus_years": 23.4
+    },
+    "viewership_country": {
+      "United States": 47.3,
+      "India": 23.6,
+      "United Kingdom": 11.2,
+      "Canada": 9.1,
+      "Australia": 8.8
+    }
+  },
+  "revenue": {
+    "month_revenue": 3218,
+    "month_long_revenue": 2650,
+    "month_short_revenue": 0,
+    "short_view_count": 0,
+    "long_view_count": 945620,
+    "channel_category_rpm": 4,
+    "channel_long_rpm": 3.474285714285714,
+    "channel_short_rpm": 0.039882,
+    "channel_language_code": "eng",
+    "weighted_avg_duration": 758.0674305813743
+  },
+  "category": "space & exploration"
+}
+
+Last progress: 21s ago

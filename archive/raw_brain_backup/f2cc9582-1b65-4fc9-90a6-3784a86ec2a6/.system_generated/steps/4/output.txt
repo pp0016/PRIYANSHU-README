@@ -1,0 +1,13 @@
+{"name":"__pycache__","isDir":true}
+{"name":"brain_3d.py","sizeBytes":"5127"}
+{"name":"brain_scene.py","sizeBytes":"8601"}
+{"name":"main_stickman.py","sizeBytes":"7521"}
+{"name":"media","isDir":true}
+{"name":"stickman.py","sizeBytes":"4692"}
+{"name":"stickman_agent_1.py","sizeBytes":"9249"}
+{"name":"stickman_agent_2.py","sizeBytes":"5537"}
+{"name":"stickman_agent_3.py","sizeBytes":"8130"}
+{"name":"stickman_agent_4.py","sizeBytes":"8075"}
+{"name":"venv","isDir":true}
+
+Summary: This directory contains 3 subdirectories and 8 files.
