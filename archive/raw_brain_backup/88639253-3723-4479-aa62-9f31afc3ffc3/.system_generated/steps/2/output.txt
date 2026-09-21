@@ -1,0 +1,13 @@
+{"name":".git","isDir":true}
+{"name":".gitignore","sizeBytes":"139"}
+{"name":"CONTEXT.md","sizeBytes":"762"}
+{"name":"archive","isDir":true}
+{"name":"clipping","isDir":true}
+{"name":"decisions.md","sizeBytes":"259"}
+{"name":"knowledge","isDir":true}
+{"name":"priyanshu-agent.md","sizeBytes":"5771"}
+{"name":"sessions","isDir":true}
+{"name":"work","isDir":true}
+{"name":"youtube","isDir":true}
+
+Summary: This directory contains 7 subdirectories and 4 files.

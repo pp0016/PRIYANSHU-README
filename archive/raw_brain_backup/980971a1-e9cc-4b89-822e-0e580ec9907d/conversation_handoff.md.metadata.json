@@ -1,0 +1,6 @@
+{
+  "summary": "Complete conversation handoff document for starting a new conversation with full context. Contains: chronological log of every user request and agent response, all decisions made, all files created/modified/read with full paths, current workspace state, vidIQ integration findings, thumbnail concepts status, and exact next steps. Not a summary — a detailed context transfer document designed so a new conversation can pick up exactly where this one left off.",
+  "updatedAt": "2026-08-20T08:34:29.746193900Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

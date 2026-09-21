@@ -1,0 +1,106 @@
+
+The command exited with code 1.
+Output:
+<truncated 37 lines>
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\walking_agent_3.p |
+| y:144 in construct                                                          |
+|                                                                             |
+|   141         # Animation sequence                                          |
+|   142         self.play(t_tracker.animate.set_value(2), run_time=2, rate_fu |
+|   143                                                                       |
+| > 144         self.play(                                                    |
+|   145             t_tracker.animate.set_value(4),                           |
+|   146             smile_tracker.animate.set_value(1),                       |
+|   147             run_time=2,                                               |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\scene\scene.py:1207 in play                                     |
+|                                                                             |
+|   1204             return                                                   |
+|   1205                                                                      |
+|   1206         start_time = self.time                                       |
+| > 1207         self.renderer.play(self, *args, **kwargs)                    |
+|   1208         run_time = self.time - start_time                            |
+|   1209         if subcaption:                                               |
+|   1210             if subcaption_duration is None:                          |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\renderer\cairo_renderer.py:118 in play                          |
+|                                                                             |
+|   115             # In this case, as there is only a wait, it will be the l |
+|   116             self.freeze_current_frame(scene.duration)                 |
+|   117         else:                                                         |
+| > 118             scene.play_internal()                                     |
+|   119         self.file_writer.end_animation(not self.skip_animations)      |
+|   120                                                                       |
+|   121         self.num_plays += 1                                           |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\scene\scene.py:1382 in play_internal                            |
+|                                                                             |
+|   1379             self.duration,                                           |
+|   1380         )                                                            |
+|   1381         for t in self.time_progression:                              |
+| > 1382             self.update_to_time(t)                                   |
+|   1383             if not skip_rendering and not self.skip_animation_previe |
+|   1384                 self.renderer.render(self, t, self.moving_mobjects)  |
+|   1385             if self.stop_condition is not None and self.stop_conditi |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\scene\scene.py:1708 in update_to_time                           |
+|                                                                             |
+|   1705             animation.update_mobjects(dt)                            |
+|   1706             alpha = t / animation.run_time                           |
+|   1707             animation.interpolate(alpha)                             |
+| > 1708         self.update_mobjects(dt)                                     |
+|   1709         self.update_meshes(dt)                                       |
+|   1710         self.update_self(dt)                                         |
+|   1711                                                                      |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\scene\scene.py:393 in update_mobjects                           |
+|                                                                             |
+|    390             Change in time between updates. Defaults (mostly) to 1/f |
+|    391         """                                                          |
+|    392         for mobj in self.mobjects:                                   |
+| >  393             mobj.update(dt)                                          |
+|    394                                                                      |
+|    395     def update_meshes(self, dt: float) -> None:                      |
+|    396         for obj in self.meshes:                                      |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\mobject\mobject.py:952 in update                                |
+|                                                                             |
+|    949                 time_based_updater(self, dt)                         |
+|    950             else:                                                    |
+|    951                 non_time_based_updater = cast(_NonTimeBasedUpdater,  |
+| >  952                 non_time_based_updater(self)                         |
+|    953         if recursive:                                                |
+|    954             for submob in self.submobjects:                          |
+|    955                 submob.update(dt, recursive=recursive)               |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\walking_agent_3.p |
+| y:127 in stickman_updater                                                   |
+|                                                                             |
+|   124                 mouth.become(Arc(radius=0.25, start_angle=PI*1.1, ang |
+|   125             else:                                                     |
+|   126                 laugh_height = 0.1 + 0.5 * s                          |
+| > 127                 laugh_mouth = Sector(                                 |
+|   128                     outer_radius=0.25,                                |
+|   129                     angle=PI,                                         |
+|   130                     start_angle=PI,                                   |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\mobject\geometry\arc.py:1043 in __init__                        |
+|                                                                             |
+|   1040     """                                                              |
+|   1041                                                                      |
+|   1042     def __init__(self, radius: float = 1, **kwargs: Any) -> None:    |
+| > 1043         super().__init__(inner_radius=0, outer_radius=radius, **kwar |
+|   1044                                                                      |
+|   1045                                                                      |
+|   1046 class Annulus(Circle):                                               |
++-----------------------------------------------------------------------------+
+TypeError: manim.mobject.geometry.arc.AnnularSector.__init__() got multiple 
+values for keyword argument 'outer_radius'
+

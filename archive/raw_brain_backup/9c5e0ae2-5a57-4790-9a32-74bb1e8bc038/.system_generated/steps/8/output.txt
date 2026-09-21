@@ -1,0 +1,44 @@
+
+The command exited with code 0.
+Output:
+Manim Community v0.21.0
+
+Animation 0: _MethodAnimation(ValueTracker):   0%|          | 0/60 [00:00<?, ?it/s]Animation 0: _MethodAnimation(ValueTracker):  15%|#5        | 9/60 [00:00<00:00, 86.67it/s]Animation 0: _MethodAnimation(ValueTracker):  30%|###       | 18/60 [00:00<00:00, 85.48it/s]Animation 0: _MethodAnimation(ValueTracker):  45%|####5     | 27/60 [00:00<00:00, 82.58it/s]Animation 0: _MethodAnimation(ValueTracker):  60%|######    | 36/60 [00:00<00:00, 82.82it/s]Animation 0: _MethodAnimation(ValueTracker):  75%|#######5  | 45/60 [00:00<00:00, 81.78it/s]Animation 0: _MethodAnimation(ValueTracker):  90%|######### | 54/60 [00:00<00:00, 69.89it/s]                                                                                            [09/13/26 13:03:03] INFO     Animation 0 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\wal                         
+                             king_agent_3\720p30\parti                         
+                             al_movie_files\WalkingAge                         
+                             nt3\1820706820_429372180_                         
+                             3742114486.mp4'                                   
+Animation 1: _MethodAnimation(ValueTracker), etc.:   0%|          | 0/60 [00:00<?, ?it/s]Animation 1: _MethodAnimation(ValueTracker), etc.:  12%|#1        | 7/60 [00:00<00:00, 64.74it/s]Animation 1: _MethodAnimation(ValueTracker), etc.:  25%|##5       | 15/60 [00:00<00:00, 72.31it/s]Animation 1: _MethodAnimation(ValueTracker), etc.:  38%|###8      | 23/60 [00:00<00:00, 72.05it/s]Animation 1: _MethodAnimation(ValueTracker), etc.:  53%|#####3    | 32/60 [00:00<00:00, 76.47it/s]Animation 1: _MethodAnimation(ValueTracker), etc.:  67%|######6   | 40/60 [00:00<00:00, 76.55it/s]Animation 1: _MethodAnimation(ValueTracker), etc.:  80%|########  | 48/60 [00:00<00:00, 68.33it/s]Animation 1: _MethodAnimation(ValueTracker), etc.:  92%|#########1| 55/60 [00:00<00:00, 66.29it/s]                                                                                                  [09/13/26 13:03:04] INFO     Animation 1 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\wal                         
+                             king_agent_3\720p30\parti                         
+                             al_movie_files\WalkingAge                         
+                             nt3\2497925584_441823594_                         
+                             2929820921.mp4'                                   
+Animation 2: _MethodAnimation(ValueTracker):   0%|          | 0/120 [00:00<?, ?it/s]Animation 2: _MethodAnimation(ValueTracker):   8%|7         | 9/120 [00:00<00:01, 81.60it/s]Animation 2: _MethodAnimation(ValueTracker):  15%|#5        | 18/120 [00:00<00:01, 82.17it/s]Animation 2: _MethodAnimation(ValueTracker):  22%|##2       | 27/120 [00:00<00:01, 81.70it/s]Animation 2: _MethodAnimation(ValueTracker):  30%|###       | 36/120 [00:00<00:01, 81.55it/s]Animation 2: _MethodAnimation(ValueTracker):  38%|###7      | 45/120 [00:00<00:01, 73.82it/s]Animation 2: _MethodAnimation(ValueTracker):  44%|####4     | 53/120 [00:00<00:00, 68.72it/s]Animation 2: _MethodAnimation(ValueTracker):  50%|#####     | 60/120 [00:00<00:00, 67.11it/s]Animation 2: _MethodAnimation(ValueTracker):  56%|#####5    | 67/120 [00:00<00:00, 60.66it/s]Animation 2: _MethodAnimation(ValueTracker):  62%|######1   | 74/120 [00:01<00:00, 61.62it/s]Animation 2: _MethodAnimation(ValueTracker):  68%|######7   | 81/120 [00:01<00:00, 62.82it/s]Animation 2: _MethodAnimation(ValueTracker):  73%|#######3  | 88/120 [00:01<00:00, 63.02it/s]Animation 2: _MethodAnimation(ValueTracker):  79%|#######9  | 95/120 [00:01<00:00, 64.61it/s]Animation 2: _MethodAnimation(ValueTracker):  85%|########5 | 102/120 [00:01<00:00, 65.79it/s]Animation 2: _MethodAnimation(ValueTracker):  91%|######### | 109/120 [00:01<00:00, 65.15it/s]Animation 2: _MethodAnimation(ValueTracker):  97%|#########6| 116/120 [00:01<00:00, 65.06it/s]                                                                                              [09/13/26 13:03:06] INFO     Animation 2 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\wal                         
+                             king_agent_3\720p30\parti                         
+                             al_movie_files\WalkingAge                         
+                             nt3\2497925584_1435343906                         
+                             _3738014225.mp4'                                  
+                    INFO     Combining to Movie file.  scene_file_writer.py:952
+                    INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\renu5\.gemini\                          
+                             antigravity\scratch\mani                          
+                             m-projects\media\videos\                          
+                             walking_agent_3\720p30\W                          
+                             alkingAgent3.mp4'                                 
+                                                                               
+                    INFO     Rendered WalkingAgent3                scene.py:290
+                             Played 3 animations                               
+
