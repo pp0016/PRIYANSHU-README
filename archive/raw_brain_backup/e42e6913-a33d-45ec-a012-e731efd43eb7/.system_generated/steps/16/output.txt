@@ -1,0 +1,41 @@
+The search for "YouTube privacy request AI simulated voice face removal copyright 2025 2026" returned the following summary:
+YouTube provides specific procedures for individuals to request the removal of AI-generated or synthetic content that simulates their face or voice[1][2][3]. These protections are part of YouTube's privacy guidelines and are distinct from copyright claims[1][4][5].
+
+### **How to Request Removal**
+If you believe a video on YouTube contains an AI-generated or synthetic version of your face or voice, you can use the platform's **privacy request process**[1][6][7].
+
+1.  **Likeness Detection (For Creators):** If you are a creator (18+), you can set up **Likeness Detection** in YouTube Studio[8][9]. This tool scans newly uploaded videos for your face and provides a dashboard where you can review matches and initiate removal requests[8][9][10].
+2.  **Privacy Complaint Process:** For those not using the automated likeness detection tool, or for concerns regarding voice simulation (which is currently primarily handled via manual reports), you can follow the standard **Privacy Complaint Process**[8][1][10].
+3.  **What YouTube Considers:** When evaluating these requests, YouTube considers several factors[1][4][11]:
+    *   Whether the content is realistic and could be mistaken for the actual person[1][6][12].
+    *   Whether the content is clearly disclosed as AI-generated[4][6].
+    *   Whether the content constitutes parody, satire, or has public interest value[1][6][11].
+    *   Whether the individual is identifiable[1][3].
+
+### **Important Details**
+*   **Response Time:** After a complaint is filed, the uploader is typically given **48 hours** to remove or edit the content (e.g., using blur tools) before YouTube initiates a manual review[4][13][3].
+*   **Not a Copyright Strike:** Privacy violations are separate from Community Guidelines strikes[1][5]. A removal request under the privacy policy does not automatically result in a copyright strike against the uploader, though repeated violations may lead to account-level action[4][14][3].
+*   **Eligibility:** Generally, these are "first-party" claims, meaning the request must be made by the person whose likeness is being simulated (or their legal representative/guardian)[3].
+*   **Transparency Requirements:** YouTube also mandates that creators disclose when they use AI to create "realistic" content that might mislead viewers[12][15][16]. Failing to disclose such content can lead to penalties, including content removal or suspension from the YouTube Partner Program[17][18].
+
+For the most up-to-date options, log in to your **YouTube Studio** dashboard if you are a creator, or visit the **YouTube Help Center** to navigate the specific reporting forms for privacy violations[8][6][10].
+
+Sources:
+[1] [google.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4BlUKzn8ylaBer9VYH8z01aJNCUumVNyTMfUHpXhOCkKy3O00An_g80pQNzTisoFyVS6Xm8YFK-l1gSopInFkK-IofIxMWArTFkKvXZyqDd36PJf2RaODcXazD9q4sarP_lDr5SQ4lhRjNUhx20juM60hYbPB9L5cEh8GZCEqTlty7ErKmFBN5nRU0rCvW9JNschdmYvQUVMyOSbY1gF4R_6ogDM=)
+[2] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrddeupnkCITAu-kWL3idetrEszG7N6hIpRFoqtMvoYYFVqIb7LKdP7B3xiK04VfV0rbVoR6-lZ9_oi_cY_uUnMvYZRD33u7yD9OM37VoqAyHWzejlXkNKJjOaffwVvm4=)
+[3] [musicbusinessworldwide.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqg-rcY4bAHxHsMXPT22eWjlZBPckcTpxN008kCfRRI424xwJdCNODS6heVj73ooBQAS0s9txYfubrM4kL2e0UGHVcL8vRGu4UtqwpVsQyvbT0eyzKGIFxS8vHqwC4JbVsACYjXNlq305cOd8iKeSN1lrpEcBuwIrJ1xAwXJD5n5Xd0pWzDla82HLbZWW-UyFpwRLVEnSqM7uaG4y29dfYFbzwPkyal7E-bcRJZIQN6FjN_HIz42wY9w==)
+[4] [indiatimes.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF73uBRwJxaDomnRNZDCYL1wh7sMna77UQzutsdJ7OF6kCi0qlwWydhPf2YE0R6YgfGgTdL-8DTEjosXl0g2DadGiyL7ZdK7By8JEM_gCrCzVZg7zVrdIYRiB0VoruS0Rs1QxkneRrpnpRU9pMLFmB9sTOyeTBKYXzFE9nHPd09sFWpnq3bNnJKRwP7C_cTeeBeQ3mKUJCyXSQkDaiKO6f64woaUzSHrQk51tbP6HtCZFMsGuRWKZUBF7GQpHr0xSvZxlUp3zAij7Sge_rN6A==)
+[5] [google.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLfqI3e6kPV-zaw5YNxMr9-GAfyDLhy_77iu5YZapML33XdTmHHADl5S9R3bibI8o6ItGSX3VTBtkNEEaNmzSDlJkOJ0cxDbPSwLutwSWXCvJeNOua1jQvCO372d_BNI2pD-UsJJZ7afFGouIR)
+[6] [google.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVziqCSNf1XRXGtUev3IH8khkg9r1JvJ0QLna9o0SpmddzDd5_ePsWZ4PfuHoIvTZE3e8AxNbTM7nREvKTIK2vw15Or9cs-fAaoiuAfeGQQkDGPeB5yJ6LmuxXveBRalp2G_bBR0pNloIcfLY=)
+[7] [shellypalmer.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEG06yYvhu9pfNZfMHyQP1f_MX_udtjyB0iTBC_euGk5L_P8pHRVZv7-_mQ85CD-r2W2YIdGBRiPNE8C4UiBiPu5rPr45EIYwCET_UIjF03_0jhXuvTnWwgG8XtpeiapKfPvYA0OQpvH_fZ6H9YW2bWgVqgbZVwu4iCNYEqVXGfQrBWUrWih5kZ8icLaEmh63CuMdVgCdv9zFqQIKQVdcbQiacfPp1exThzotXCSr4=)
+[8] [google.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLfqI3e6kPV-zaw5YNxMr9-GAfyDLhy_77iu5YZapML33XdTmHHADl5S9R3bibI8o6ItGSX3VTBtkNEEaNmzSDlJkOJ0cxDbPSwLutwSWXCvJeNOua1jQvCO372d_BNI2pD-UsJJZ7afFGouIR)
+[9] [aicopyrightlegal.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmclJLOoEL7zeect9_3Klv72OGrbNUC8ldFWnGGCTSL9h1izC_qHBZVWpIfgqCrH0TpQYpZDWMWcZfwhHrpyiQbLvIYTwGGkjORDpjCdttEjZUyfwLI_BbsyX8OxUQicw8DbrRoY-JjowyS6s7hRQTL5RLFmFL50DEPnUPOcF7DcwCeA==)
+[10] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMo0NKLqGI9590Yw-vSjk92LJ26u5mx_k76nWsUstvY09_zwUWH3mjyaM_vSJUUPO5h_dtpuDYWdo2J7wMeVDEs7JSAR_XV4YFDQ1jjdwT9QlcYml6FQpJO9yyVZGfOA==)
+[11] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrddeupnkCITAu-kWL3idetrEszG7N6hIpRFoqtMvoYYFVqIb7LKdP7B3xiK04VfV0rbVoR6-lZ9_oi_cY_uUnMvYZRD33u7yD9OM37VoqAyHWzejlXkNKJjOaffwVvm4=)
+[12] [blog.youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3BFgi-2mNWJTckXrTVb-ruv-dDStVYukJYo5aKtrdj4R2Ey3hjQ7FIviCvY10e7FTQ4WnaTOflCHQEIxj2u9m4wkPNmdqu1IvKyLU-IVjWXhnQqr_drHO3gfjZrFaJCkLzTeRwQv9AN_vJABp0qiHlQAzVlv2Z3XDsA==)
+[13] [daily.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6XQVkh0yzOfMCc6q3lDhQJ_eVzruG_p1Cx_RL8t-YVAih3V0lbjxR94sWYlSvv0MEnoOhqxGaBWSItYCRUpzcJzbXtX-xKHQBTHWqEMDwiOnUEdO-Ov1qKQbtrjrUxEtUSVRetNhaaKIIgTheq16qnXTIv9a-JkKqQIrwwA0TEpOA2EviAi_ZPAtf1VkprnhW0jsLtu5ok6RMzV4p)
+[14] [indiatimes.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF73uBRwJxaDomnRNZDCYL1wh7sMna77UQzutsdJ7OF6kCi0qlwWydhPf2YE0R6YgfGgTdL-8DTEjosXl0g2DadGiyL7ZdK7By8JEM_gCrCzVZg7zVrdIYRiB0VoruS0Rs1QxkneRrpnpRU9pMLFmB9sTOyeTBKYXzFE9nHPd09sFWpnq3bNnJKRwP7C_cTeeBeQ3mKUJCyXSQkDaiKO6f64woaUzSHrQk51tbP6HtCZFMsGuRWKZUBF7GQpHr0xSvZxlUp3zAij7Sge_rN6A==)
+[15] [upgrowth.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5kJSqwH-trG2covnFA3QbB7SyByOgp_7DhaDOy-wruM5Ka0Wtvfk1KqDxI0RSsiwCKPG-1hHIs77QJN5LFj4_GHHV_NdKTghCcNc0Edcf_QrjpM1Mo-EIre1D1NfHKrlRGyjUq8_j3h6XYoiiCO-VgJLpQ0kWCn1XMAE5MzOzkVcZnyZDA-knqhtkA6WRA6LA)
+[16] [strategyworks.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5BPSPIP4asC4S1hzh9yznpm8n2B5snOIBv3UEE-PyouV14tLEEnr3Xlb8eK0tqNnqUHstT80zFK62V1zTUJyLGC_Reo5yBusXAPt3nktsmoeFZCPbywkkmUxIlTun1pdA5Oe7npni_gdfLx5sLHMsX2tULg==)
+[17] [google.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGowHtbbJey_DqoPuuyT6k1ZBh0o91d1q--PVX89shjt94K65P4C80RkF6giso22jhMiIKfzVZGx5FMLJp5W8Xbcpcu7fCx2j1UTAmEWqcbovQpderZNn2KCsL9XDfIwFQywI3ugH4D40xGVUu87UFLP9pYyPqXFcCMwlAKFyG3Gn2gbEUkqpLC9Q==)
+[18] [ytzolo.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOVNEd-4CZA54Ucovc2xdp2aO7NZB9ek75koIfvcief9MLfsaVdYR3G9U7WxVWS1-IG25EC9f8QNdOwj5Fx0tB5G5H8cYTAWVqlfcClWoZGSWSvLX9eeTwUxZKAdhtxLFebATak1k-F4LhJZQ-EWuDZQYB8s1Hnx_rsUXF)

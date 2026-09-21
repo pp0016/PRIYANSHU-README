@@ -1,0 +1,40 @@
+The search for ""rdma_ctl" macOS recovery thunderbolt" returned the following summary:
+`rdma_ctl` is a command-line utility used in macOS (starting with version 26.2) to enable **Remote Direct Memory Access (RDMA) over Thunderbolt**[1][2]. This feature allows for high-performance, low-latency, peer-to-peer communication between Mac computers equipped with Thunderbolt 5 ports[1][3][4].
+
+### How to Enable RDMA over Thunderbolt
+Because this feature involves direct memory access, it requires a security-conscious setup process via macOS Recovery[3][5]:
+
+1.  **Boot into macOS Recovery:** Shut down your Mac, then hold the power button for 10 seconds until the startup options appear[3]. Select **Options** to enter Recovery mode[3].
+2.  **Open Terminal:** Once in Recovery, go to the top menu bar, select **Utilities**, and open **Terminal**[6][3].
+3.  **Run the Enable Command:** Type the following command and press Enter[7][3]:
+    ```bash
+    rdma_ctl enable
+    ```
+4.  **Reboot:** Restart your Mac to return to the standard macOS environment[1][6].
+
+### Verification and Usage
+*   **Verify Status:** Once back in macOS, you can check if RDMA is enabled by running `rdma_ctl status` in the Terminal[8].
+*   **List Devices:** Use the `ibv_devices` command to see the Thunderbolt interfaces that are ready for RDMA (e.g., `rdma_en2`, `rdma_en3`)[1][6][2].
+*   **Network Configuration:** Simply enabling `rdma_ctl` is often not enough to get clusters working. You must also configure the network interfaces correctly (e.g., assigning IP addresses to the Thunderbolt ports and disabling the default "Thunderbolt Bridge" to prevent network loops or conflicts)[3][9][10].
+
+### Requirements
+*   **macOS Version:** macOS 26.2 or later[1][2].
+*   **Hardware:** Apple Silicon Macs with **Thunderbolt 5** ports (e.g., M4 Pro Mac mini, M4 Max Mac Studio/MacBook Pro, or M3 Ultra Mac Studio)[1][3][11].
+*   **Cables:** You must use cables that officially support Thunderbolt 5[12][3].
+
+This functionality is primarily used by developers and power users for distributed computing tasks, such as running large AI models (e.g., via *exo* or *MLX*) across a cluster of Mac computers by pooling their memory and processing power[7][13][4].
+
+Sources:
+[1] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEchQXbSKke32_U63XGSKxo833LEWolRFROd7Pt5gr7In9Xu1zFBe7Lh4lSyGKwvhVAvbQ7F7wbUpo5CnEQv9EayuRNaIEH6LfJ2Z8YeAH1YK1yXLsY0fDo2B4N2KtLiUBM8jRYZ7L1U8U103JTHBAe-9VJXCvko9AorXr7RjNvjcGlV12qkwB6xzrl-Woy8_nO750zMdttBgH-jvd2lN3EzOFsfbc=)
+[2] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEchQXbSKke32_U63XGSKxo833LEWolRFROd7Pt5gr7In9Xu1zFBe7Lh4lSyGKwvhVAvbQ7F7wbUpo5CnEQv9EayuRNaIEH6LfJ2Z8YeAH1YK1yXLsY0fDo2B4N2KtLiUBM8jRYZ7L1U8U103JTHBAe-9VJXCvko9AorXr7RjNvjcGlV12qkwB6xzrl-Woy8_nO750zMdttBgH-jvd2lN3EzOFsfbc=)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBl4lOekjXZAuHABXhhblRyGFi72sOEqboll9R6jFKChaTo05Og3bRPKsPavErVl2IsZ-P3XE_o-yLwGgsPou-21V4VMMG8YJqOH8190nUu-oQEQ1HGZjp)
+[4] [sean-weldon.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTStaZeZ2hAGDSIjlmR_blO-BRvqit6kaKiOk8HDCGgvPqsdh5a6wtW_IighjYrDoVj99y3f_jYx3jrmlF32bG2RP0p0hD9yL7J7sMhEOwf_5qBaA-G7_DmMAQlC-8_KJBQEFEHMJBlTQ1kOlq-dX5gomd5Z88FO9JcpHnlqGrcmsD1UCErFPDvMHrKEXS5Q8HTvi688G6Yw_WJKK5s1vVT3gY)
+[5] [ycombinator.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy6zIeDxvkGyJNYJDWIlKy2wsTe_rWXCMI08ViiL9BzepKTnIIqY3P7-RtV5ro87CrsF3W46aANHJGIDV0bHk3HYyw01IWb9lfHtrL9fuATyya7dKirBJJTod2mK9lc8lPcLY=)
+[6] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZwpHB2dXcl8HvBz3z7R9WLv7mer3BX7_LXYxfxb-fX_mRN4KdGaubjKuEEe9zTympYWm3D-P1IxCZF0pGau2fFNpm1iSB03XeY6XBfATmRcwXkotHmA0WolglGsODFNndCxzUKX1ndKHwKknL4wd616JwtXxbqKECtCNBO4JrBI4EZXm0wWTDr9_IAJzZEwxadIquUF_jHSf9gTQnePPNHhk3AlKD6--EsZDtUg==)
+[7] [jeffgeerling.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK5MIZoRJ2ptXt2FvWTvjqT23a_59B-G0CW0RUoJFPuxMCkEHrRYHSGcMY_UVAjiYcDUpmIeGZOJ7A6r9MMoQP9zzG9dhinebz1l0OcGaq3sFtOgOco7bf1AXFjKA7Zrtth4FoWyZggQ1zgeDaelWrUtA31k_J8zDzXK4QGCuVOfsDqEJwM6T04zqhK54f)
+[8] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgT4Z8MGRaE4ENlhtZtSClFWhB5uRKUuNLPe2756a85zbKhgdVs498owSgSOZoCBefvLMbZPBsCCyQjFGbzYVMO_YZjS37K5T4pv5oQ7jmcjUA5NOtRxVrPnOCVQ0nEkOJ0HYtOhaMPSA1DRy9vGqfvKN_2PY28b4vSHPwvjUupqaYDAc593pVoheeKlytPJ4pAO_9HOed_PW1q5I=)
+[9] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECLiNu46Ck_jL0CdNDT8-KvW66RYB3-2mZnBMsDVWLvEjgTX4HWEiHNqwuAMeDV8LPtLMaT71c0A0P5EJHP0FNhSWE8V2P38E_Nn_6jNZ4MU7boXDy-O7xlLWxKpX1pOEvRdGY)
+[10] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEchQXbSKke32_U63XGSKxo833LEWolRFROd7Pt5gr7In9Xu1zFBe7Lh4lSyGKwvhVAvbQ7F7wbUpo5CnEQv9EayuRNaIEH6LfJ2Z8YeAH1YK1yXLsY0fDo2B4N2KtLiUBM8jRYZ7L1U8U103JTHBAe-9VJXCvko9AorXr7RjNvjcGlV12qkwB6xzrl-Woy8_nO750zMdttBgH-jvd2lN3EzOFsfbc=)
+[11] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLngxwoxrTd1soLgC4Y1l1a-pkjY9F0TO9-etagRmEeHIYyYT1ZDDskOjl2-K19nuB9AhwkCiPZsFFZx86Y83npHWV6z653jxpAvZvg8OWcgVa44R8D6UTU-oH8uVYJ7wHTXsW)
+[12] [stabilise.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4DIHp1abOHiJYjAV1PhcxaWq7Ur4nwK_nJir3g3UpMbScgql1TMNPFLa1jouOscTJAYT9F-s69N97KX-YZqq3vpLRMwskPtAkXOc-tILjzd4RcTlnt4Ab1BCsNdd9qS8UYxz5loWTrix_qzNCFz6bFN40p8F5uz6bsg3U6FhSwxJ9Lx3Bvh30xmHNz9tVNnFxDQSCYQ==)
+[13] [github.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIr6ZNImdLej3mlBSSTC0hQZqfUi5t5VEkmWzp6ecBPtwqQ9kcYSw4CGTVYRZQgBoGWObF0vUjp0Ny2g0vJ51a2llZGbW8hqS4l-Qo352dCfUQxD1Yngyp_2HaETvyz6GFNj8B0JdJVJJIE-xHZp6IjURBejci_GE=)

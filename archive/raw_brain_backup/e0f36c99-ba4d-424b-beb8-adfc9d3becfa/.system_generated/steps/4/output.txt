@@ -1,0 +1,24 @@
+The search for ""Bark Phone" exact features SOS calls GPS tracking approved contacts browser block" returned the following summary:
+The **Bark Phone** is designed with built-in, tamper-proof parental controls. Below are the details regarding the specific features you requested:
+
+### **SOS Calls**
+*   **Emergency Contacts:** You can designate specific numbers as "Emergency Contacts." These contacts can always reach your child, even during "paused" times or when other restrictions are active.
+*   **Emergency Services:** The phone allows for emergency calls (like 911) as required by standard mobile regulations. While it does not have a dedicated, proprietary "SOS button" like the *Bark Watch*, it supports standard emergency calling functions even when the device is locked or restricted.
+
+### **GPS Tracking**
+*   **Location Features:** The Bark Phone includes GPS-powered location tracking.
+*   **Capabilities:** You can view your child’s location, set up "Favorite locations" to receive automatic alerts when they arrive or leave specific areas (such as home or school), and request check-ins.
+*   **Note:** While it provides robust location tracking, it is generally intended for peace of mind and monitoring; some users note it is not always a "live, moving dot" in real-time in the same way some dedicated GPS trackers operate.
+
+### **Approved Contacts**
+*   **Contact Approval:** You can manage who is allowed to contact your child through the Bark parent app/dashboard. 
+*   **Filtering:** You can set the phone to block calls and texts from any number that you have not explicitly approved. Unapproved contacts typically have their calls sent to voicemail and their messages hidden from the child.
+*   **Management:** You can designate contacts as "Emergency" (always reachable) or "Approved" (reachable based on your set schedules/routines).
+
+### **Browser Blocking**
+*   **Complete Control:** You have the ability to toggle web browsing on or off entirely.
+*   **Customization:** If you enable browsing, you can block specific websites or entire categories of content (such as streaming, gaming, or adult content).
+*   **Plan-Dependent:**
+    *   **Starter Plan:** Web browsing and the app store are typically disabled by default.
+    *   **Advanced Plans:** You can enable or disable browser access, set time limits for browsing, and manage which apps are installed on the device.
+*   **Browser Apps:** When you block web browsing, dedicated browser apps (like Chrome or Firefox) are hidden or removed from the phone, and apps that rely on embedded browsers will also be restricted from accessing the internet.

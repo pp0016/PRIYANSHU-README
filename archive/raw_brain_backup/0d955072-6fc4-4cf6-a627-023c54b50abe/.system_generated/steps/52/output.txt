@@ -1,0 +1,25 @@
+The search for ""parallax-maker" provos github "last updated" OR "README"" returned the following summary:
+The **parallax-maker** repository, owned by **provos** (Niels Provos), is an open-source tool designed to transform static images into 2.5D animations[1][2][3].
+
+### **Repository Information**
+*   **GitHub URL:** [https://github.com/provos/parallax-maker](https://github.com/provos/parallax-maker)[1][3]
+*   **Purpose:** Provides a workflow for image segmentation, depth map generation (using models like MiDaS or DINOv2), inpainting (with support for Stable Diffusion, Automatic1111, or ComfyUI), and 3D scene export to glTF format for use in tools like Blender or Unreal Engine[1][4][5].
+*   **Last Updated:** The repository remains active, with recent maintenance including updates to packaging and dependencies[6][7]. Releases have been documented as recently as June 2025[8][9].
+*   **README:** The project includes a comprehensive `README` (as well as a `CLAUDE.md` file) that covers installation prerequisites (Python 3.10+), setup instructions, and usage for its Web UI[6][4][7].
+
+### **Key Features**
+*   **Segmentation:** Uses the Segment Anything Model (SAM) with point selection[1][4].
+*   **Inpainting:** Supports replacing masked regions via various image generation models[1][5].
+*   **3D Export:** Generates glTF scenes with support for depth displacement[1][4].
+*   **Interface:** Features a Python-based Dash web UI[3][4].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgiWJ6wtGVmd49LChjtZi9Znl4b9Cqd-D9NksrPRfaOKv8VWZgJJryzV8o9FoRrepGhT-aG7IC6qpZQG9li-bohXye_XtV0oi3yISYEsBUjEwJxSFDTci430YGTHBQ)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoSCTCXwugKcK5sO2njJpKb7RYNgetxe8sJqSiw0XNxN12Ksbc33l-4G5tDrV3vsNKtDHja3FF3P_1bxtN7f470G-ZMq1jtj8XMdcI9ZPF)
+[3] [plotly.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm-9X_Jq9Ct7YoeVPathrmgEhBsSgU0J0nJym7ehYaAAhcPEP30vDqJ6nE4vZVXigp7gvAjPm7xd0iHcrk4xDDfZ7CP1w_QnfiQzM07zIeoEn-IcJsJqZZK1YlNY2q4tA0ObAlWJIOAyk4dT6vbntWA-MlmrpnvesCWxdC7vyZaqU=)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENSQ8p7c0WXfzKZ5mghFin8juCgvOuDpwNyTCxczNcLuYDGEs_tmfc9REhD3zh--dtNVme0TAi3KN0mefMayb4R-USB2mBXc7UD8xN6MQifsYcTHUIyHSAct9JbOGbBa-AJoUVtTwA0Xw5bCCLy1_2RO4=)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgiWJ6wtGVmd49LChjtZi9Znl4b9Cqd-D9NksrPRfaOKv8VWZgJJryzV8o9FoRrepGhT-aG7IC6qpZQG9li-bohXye_XtV0oi3yISYEsBUjEwJxSFDTci430YGTHBQ)
+[6] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgiWJ6wtGVmd49LChjtZi9Znl4b9Cqd-D9NksrPRfaOKv8VWZgJJryzV8o9FoRrepGhT-aG7IC6qpZQG9li-bohXye_XtV0oi3yISYEsBUjEwJxSFDTci430YGTHBQ)
+[7] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgiWJ6wtGVmd49LChjtZi9Znl4b9Cqd-D9NksrPRfaOKv8VWZgJJryzV8o9FoRrepGhT-aG7IC6qpZQG9li-bohXye_XtV0oi3yISYEsBUjEwJxSFDTci430YGTHBQ)
+[8] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBxnf85EV5-Ef54B2-rjeaZZ0g3PqcQFIhx_0jH5Y0CluCWNegMFV9BVzHQZZPxGcH5Hx0OvFy0InaJBXDS8uf4H7wbvpwwbHCj24Acw2P--yLETRJgxjwzlQvT3t-2ObVWoJclUlU)
+[9] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBxnf85EV5-Ef54B2-rjeaZZ0g3PqcQFIhx_0jH5Y0CluCWNegMFV9BVzHQZZPxGcH5Hx0OvFy0InaJBXDS8uf4H7wbvpwwbHCj24Acw2P--yLETRJgxjwzlQvT3t-2ObVWoJclUlU)

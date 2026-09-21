@@ -1,0 +1,45 @@
+The search for ""handanim" python github" returned the following summary:
+The **handanim** library is a Python package designed for programmatically creating hand-drawn, sketch-style animations[1][2]. It is particularly useful for generating visual explanations, educational videos, and mathematical illustrations[1][3].
+
+### GitHub Repository
+You can find the project on GitHub under the user **subroy13**:
+*   **GitHub URL:** [https://github.com/subroy13/handanim](https://github.com/subroy13/handanim)
+
+### Key Features
+*   **Programmatic Sketching:** Allows you to animate hand-drawn diagrams, geometric shapes, and handwritten text using Python code[1].
+*   **Math Support:** Includes support for rendering and animating mathematical expressions using TeX notation[4][5].
+*   **Educational Focus:** Designed specifically for online teaching, tutorials, and data storytelling[1][3].
+
+### Getting Started
+To use the library, you generally need to install the package and its system-level dependencies.
+
+1.  **System Dependencies:** You will need `Cairo` and `FFmpeg` installed on your system[4][5].
+    *   **Ubuntu/Debian:** `sudo apt install libcairo2 libcairo2-dev ffmpeg`
+    *   **macOS (Homebrew):** `brew install cairo ffmpeg`
+
+2.  **Installation:** You can install the project requirements via `pip` or `poetry` as provided in the repository's `README.md`[4][5].
+
+3.  **Basic Example:**
+    The library allows you to define a `Scene`, add mathematical primitives, and render them as an animation[4][5]:
+    ```python
+    from handanim.core import Scene, StrokeStyle
+    from handanim.primitives import Math
+    
+    scene = Scene(width=1200, height=800)
+    pythagoras = Math(
+        tex_expression=r"$a^2 + b^2 = c^2$", 
+        position=(600, 400), 
+        font_size=96, 
+        stroke_style=StrokeStyle(color="black", width=2)
+    )
+    # Add to scene and render...
+    ```
+
+For further details, you can view the official documentation at [https://subroy13.github.io/handanim](https://subroy13.github.io/handanim)[2].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGaPb2-7Gyo1K7Upgv-MKq3l0r90arqRh0xwe9PHOAb22p8A5fZ6A9IDE7Ng4xkKWX_Wyo3jeECbZHbDFA2pvDVCT2UPqzo5UnRbYZqvZHEjVNIE5G2nsJ36k=)
+[2] [statwizard.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2zJJ5IrkHC83jPqC2_1gs9kuUS8vDBCY3R6gDeYawb33qvtivYmhihkHYpNpcUHxv6I5-w_gSHBfJyR685iKf1p7uhrs0-K3IO90p9Z72oTP_V0cE4S5nMnJitLs=)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGaPb2-7Gyo1K7Upgv-MKq3l0r90arqRh0xwe9PHOAb22p8A5fZ6A9IDE7Ng4xkKWX_Wyo3jeECbZHbDFA2pvDVCT2UPqzo5UnRbYZqvZHEjVNIE5G2nsJ36k=)
+[4] [context7.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCz30Fpu2yT-EjJnQfTE5oxNpn1qoHC-6NSaEsU0fjEl0ymLzP4KWS4umZXfoxcMFF5iLrJj0-aF1v6vd161vxTEq_FpTthHo7sM4s6isXn5Zml0zojSkzZLuGkA==)
+[5] [context7.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCz30Fpu2yT-EjJnQfTE5oxNpn1qoHC-6NSaEsU0fjEl0ymLzP4KWS4umZXfoxcMFF5iLrJj0-aF1v6vd161vxTEq_FpTthHo7sM4s6isXn5Zml0zojSkzZLuGkA==)

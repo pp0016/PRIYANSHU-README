@@ -1,0 +1,6 @@
+{
+  "summary":  "Production-ready prompt for validating 5 English Tier 1 content types (Horror, Reddit Drama, What If, Unsolved Mysteries, Dark History) for a faceless YouTube channel targeting doom-scroll audiences.\n\nKey improvements over previous prompts:\n- Provides specific niches as INPUTS — no blind discovery phase that wastes time finding economics/finance niches\n- Mandatory channel proofs (Leader + Challenger under 50K) with explicit PROOF FAILED reporting\n- Dedicated AI Voice Viability section — the #1 risk for a non-native English speaker\n- Production format filter — excludes animation-dependent niches, filters for AI photorealistic images + Ken Burns + voiceover\n- Doom-scroller audience definition baked into context\n- Comparison table is mandatory\n- Anti-sycophancy + grounding anchors for Gemini\n- Banned vocabulary enforcement\n- 20+ search query minimum\n\nBuilt with prompt-forge CREATE mode using RISEN template, optimized for Gemini 3.1 Pro (High).",
+  "updatedAt":  "2026-07-15T18:15:00.503806900Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

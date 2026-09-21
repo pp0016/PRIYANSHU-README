@@ -1,0 +1,21 @@
+The search for "open source AI model license restrictions Llama license limitations commercial use 2025 2026" returned the following summary:
+As of September 2026, the Llama model family (including Llama 3 and Llama 4) is classified as **"open weights"** rather than strictly "open source" by most industry and legal experts because its licensing terms do not comply with the Open Source Initiative (OSI) definition of open source.
+
+### Key Licensing Restrictions & Limitations
+While the Llama Community License permits broad commercial use, it includes several specific constraints that distinguish it from standard permissive licenses like Apache 2.0 or MIT:
+
+*   **700 Million MAU Threshold:** If your company or its affiliates have more than 700 million monthly active users (MAU) as of the Llama model's release date, you are **not** permitted to use the Llama materials under the standard Community License. You must request a special, separate commercial license from Meta, which is granted at Meta's "sole discretion."
+*   **Prohibition on Training Competing Models:** You are explicitly restricted from using the Llama materials (or their outputs) to improve or train other large language models (excluding Meta Llama models or their derivatives).
+*   **Naming Requirements:** If you distribute or make available an AI model based on Llama, you must prepend "Llama" to the model's name (e.g., "Llama-MyCompanyModel").
+*   **Attribution:** You are required to prominently display "Built with Meta Llama" (e.g., "Built with Meta Llama 3" or "Built with Meta Llama 4") on any related website, user interface, or product documentation.
+*   **Acceptable Use Policy:** Users must adhere to Meta’s strict Acceptable Use Policy, which prohibits uses such as generating malicious code, facilitating illegal acts, or creating content that violates third-party rights.
+
+### "Open Weights" vs. "Open Source"
+*   **Open Weights:** Llama provides access to the model's trained parameters (weights), allowing developers to run, fine-tune, and integrate the model into products. This is the primary value for most businesses.
+*   **Not Fully Open Source:** Because the license imposes field-of-use restrictions (e.g., the MAU cap, prohibitions on training other models), it fails to meet the "freedom to use" and "no discrimination against fields of endeavor" criteria required for a model to be considered true open source.
+
+### Practical Advice for Businesses
+*   **Evaluate Your Scale:** For most small-to-medium enterprises, the 700M MAU threshold is rarely an issue. However, if your service is at a massive scale, you must consult legal counsel regarding the requirement for a separate Meta agreement.
+*   **Compliance:** Always check the specific license version provided with the model (e.g., Llama 3 vs. Llama 4), as terms can be updated.
+*   **Regulatory Context:** Be aware that the **EU AI Act** (implemented in phases through 2027) may impose additional transparency or risk-management obligations on providers of general-purpose AI models, even those released under "open" licenses.
+*   **Legal Disclaimer:** This information is for educational purposes and does not constitute legal advice. Given that AI licensing law is evolving, you should consult with your own legal counsel before integrating these models into commercial production environments.

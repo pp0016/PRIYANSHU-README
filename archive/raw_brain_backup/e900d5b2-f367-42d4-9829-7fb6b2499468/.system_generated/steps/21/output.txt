@@ -1,0 +1,7 @@
+
+The command exited with code 0.
+Output:
+Found 15 script tags.
+Found 3625 arrays.
+Dumped 18 long strings.
+

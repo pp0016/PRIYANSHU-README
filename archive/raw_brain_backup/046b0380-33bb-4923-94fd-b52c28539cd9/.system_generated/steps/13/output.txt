@@ -1,0 +1,21 @@
+The search for "Qwen 3 235B MoE VRAM requirements local inference active parameters 2025" returned the following summary:
+For local inference of the **Qwen3-235B-A22B** Mixture-of-Experts (MoE) model, it is crucial to understand that **VRAM requirements are determined by the total parameter count (235B), not the active parameter count (22B).**
+
+While the model only activates 22B parameters per token—which significantly boosts inference speed—the entire model (all 235B parameters) must typically be loaded into memory to ensure high-performance, real-time inference.
+
+### VRAM Requirements Summary
+To run the model locally, you must account for the model weights, KV cache (which scales with context length), and system overhead. Estimates for the **Qwen3-235B-A22B** model based on common quantization levels are as follows:
+
+| Quantization | Estimated VRAM for Weights | Recommended Hardware Strategy |
+| :--- | :--- | :--- |
+| **FP16 / BF16** | ~470 GB+ | High-end multi-GPU cluster (e.g., 8x A100/H100) |
+| **FP8 / Q8** | ~235 GB | Multi-GPU setup (e.g., 4x or 8x high-VRAM cards) |
+| **Q4_K_M (4-bit)** | ~117 – 142 GB | Multi-GPU or high-memory workstation/server |
+
+*Note: In addition to the weights, you must allocate extra VRAM for the KV cache. At a 32K–128K context length, this can add significant memory overhead (roughly 15 GB+ for 128K context depending on the serving engine).*
+
+### Key Considerations for Local Inference
+*   **Total vs. Active Parameters:** The "22B active" figure indicates that the model is computationally efficient during generation (speed of a 22B model), but the memory footprint remains that of a 235B model. Relying on active parameter counts for VRAM planning will lead to "Out of Memory" (OOM) errors.
+*   **CPU Offloading:** While you *can* use techniques like partial offloading (e.g., in `llama.cpp` or with `--cpu-offload-gb` in `vLLM`) to spill inactive expert weights to system RAM, this will severely degrade your "Time to First Token" and overall tokens-per-second performance. This is generally only recommended if you do not have sufficient VRAM to hold the full model and are willing to accept slower inference.
+*   **Quantization:** For local setups, 4-bit quantization (such as GGUF Q4_K_M) is the most common approach to balance model fidelity with hardware limitations. Even at 4-bit, you will need a substantial amount of VRAM (128GB+) to host the model effectively.
+*   **KV Cache:** Because this model supports very long context lengths (up to 128K+ with YaRN), the memory dedicated to the KV cache can grow quite large. If you plan to serve multiple concurrent users or use extremely long context windows, you must increase your VRAM budget accordingly.

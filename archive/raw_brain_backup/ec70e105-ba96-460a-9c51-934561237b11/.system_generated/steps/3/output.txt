@@ -1,0 +1,18 @@
+The search for ""Gabb Wireless" purchasing model OR subscription OR retail OR B2C" returned the following summary:
+Gabb Wireless operates as a **B2C (Business-to-Consumer)** provider of kid-safe technology. Its purchasing and service model is structured around a combination of hardware sales and mandatory monthly service subscriptions.
+
+### Purchasing Model
+*   **Device Acquisition:** Customers can purchase Gabb devices (phones and watches) directly through the **official Gabb Wireless website** or via **online marketplaces** such as Amazon and Walmart. 
+*   **Retail Availability:** Gabb devices are available in select retail locations (e.g., Walmart stores), making it easier for families to access their hardware.
+*   **Contract Options:** When purchasing a device, customers generally select a service plan. Contract terms are flexible, often including **month-to-month, one-year, or two-year** options. Some promotional offers may require a multi-year contract term.
+*   **Activation:** Regardless of where the device is bought (online vs. retail), a service plan must be chosen and activated to enable the device’s cellular functionality. There is typically an activation fee associated with starting a new line.
+
+### Subscription & Service Model
+*   **Required Service Plans:** Every Gabb device is a "stand-alone" product that requires its own dedicated line of service. You cannot add a Gabb device to an existing third-party family plan (e.g., your personal Verizon or AT&T plan).
+*   **Recurring Billing:** Once a device is activated, the service plan operates on a recurring monthly billing cycle. 
+*   **Service Add-ons:** Beyond the base service plan, Gabb offers optional or supplementary subscriptions, such as **Gabb Music** or **Gabb Music+**, which can be added to a child's account for an additional monthly fee. 
+*   **Account Management:** Parents manage all billing, subscriptions, and parental controls (such as app management and GPS tracking) through a centralized **Gabb Account** or the **MyGabb app**.
+
+### Key Characteristics
+*   **B2C Focus:** The company’s entire model is built around serving parents who want to provide their children with "tech in steps," focusing on safety features like GPS tracking, no social media, and no internet browser.
+*   **Stand-alone Ecosystem:** Because Gabb uses its own network (which connects via major carriers like Verizon), it functions as a distinct wireless provider rather than an app or an add-on service for other carriers.

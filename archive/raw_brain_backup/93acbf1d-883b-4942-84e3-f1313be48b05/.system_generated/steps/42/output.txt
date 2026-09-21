@@ -1,0 +1,43 @@
+The search for ""Xcode" "distributed build" OR "distributed compilation" OR "remote build" Mac" returned the following summary:
+In modern Xcode versions, the native "distributed builds" feature (which historically used `distcc` to spread compilation tasks across multiple networked Macs) is **no longer supported**[1][2]. While older versions of Xcode provided a preference pane for this[3][4], it was removed years ago and is not functional in current macOS or Xcode environments[1][5].
+
+If you are looking to optimize build times or move build tasks off your local machine, here are the current industry-standard approaches:
+
+### 1. Xcode Cloud
+Apple’s modern solution for remote builds is **Xcode Cloud**[6][7]. It is a continuous integration and delivery (CI/CD) service built directly into Xcode[6][8].
+*   **How it helps:** It offloads build, test, and delivery tasks to Apple's infrastructure, allowing you to keep your local machine free for development[6].
+*   **Integration:** You can configure workflows to trigger builds automatically on code commits, ensuring your local machine doesn't have to handle heavy compilation loads[6][7].
+
+### 2. CI/CD Infrastructure
+Many professional teams use dedicated Mac hardware (such as Mac Minis with Apple Silicon) as build servers[9].
+*   **Tools:** You can use services like **Jenkins, GitLab CI, GitHub Actions, or Buildkite**[9] on your own "headless" Mac hardware or via remote Mac hosting providers[9][10].
+*   **Parallelization:** These systems allow for parallel testing and compilation[6][11]. When running via the command line (`xcodebuild`), you can significantly speed up tasks by utilizing high-performance remote hardware[11].
+
+### 3. Build Optimization Strategies
+If you are struggling with long local compile times, Apple and the community recommend several optimizations that provide significant speedups without needing distributed compilation:
+*   **Compilation Caching:** Recent versions of Xcode have introduced advanced **compilation caching** capabilities[12], which help avoid recompiling unchanged code[12].
+*   **Modularization:** Break monolithic targets into smaller frameworks or libraries[13][14]. By converting rarely-changing code into pre-compiled binary **XCFrameworks**, you can stop Xcode from rebuilding them during every cycle[13][15].
+*   **Incremental Builds:** Ensure your Swift compilation mode is set to "Incremental" (which is usually the default)[13][15].
+*   **Build Timeline:** Use the **Build Timeline** tool in Xcode to identify bottlenecks and targets that are preventing your project from utilizing maximum parallelization[16][17].
+
+### Summary
+Attempting to use legacy tools like `distcc` is generally not recommended as they are incompatible with modern Xcode[5]. For remote building, **Xcode Cloud** or a self-hosted **CI/CD pipeline** are the standard solutions[6][11][7].
+
+Sources:
+[1] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPAbxW-6GxDICeC5J942ROaRa9ziazrq1UeSa5fu6IOctO3x0ofvLvTsUN9nN6b5lZnpBtnfILsbZdH7xqOPE-ZA5a4mAUlwVbfbk97Jqs_7qYLu4QwiC4eNzC1cKpzm4zqukEkFyYxQY8KRBJ-eM3PoZyow6HWGJmxhRNs5VS1s81xFmGuK8TuNFLvRL4_5emmhyULr1AU7vZS-9g)
+[2] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPAbxW-6GxDICeC5J942ROaRa9ziazrq1UeSa5fu6IOctO3x0ofvLvTsUN9nN6b5lZnpBtnfILsbZdH7xqOPE-ZA5a4mAUlwVbfbk97Jqs_7qYLu4QwiC4eNzC1cKpzm4zqukEkFyYxQY8KRBJ-eM3PoZyow6HWGJmxhRNs5VS1s81xFmGuK8TuNFLvRL4_5emmhyULr1AU7vZS-9g)
+[3] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPvka8nQ_axPary4Rko7ZaeWsUdrpXuiI4YWv7w1Fri1kL_iY-kg29xo2FiM5z6IQO_QawtXTubABJ_n2vBOmCzYJ9LI-VvIG8mR_AG5sPxlDDtI_ETFVwDcT4hOfUoyumw2J8dRSPCnvipdeMV23TWqMNCJdX_PR2FFtzlK4TjL6FFAC_gpu1X2oKa58zvCKG7DqI4ThJAoZ2jnb-AyQwqPJEYWjccX0CbEr6wBrOORVkPyp0I1Iit_aLwJvJuWl1vBjJrxsp)
+[4] [intelivita.co.uk](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxRxrAvxVVoxnvttJ6ykQ4uwCYWe-cGFngBuEV8CfNaOrgsl0Sy7V2H3Xfvj_wbkv9Vh_PNxcNNXvfjcvAzcBy-mKS44k5mmIr9Tbzow4F0K9ndXmP32R4buvHGq0=)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiQgMUidglSD-5BxrMhnXHvQViPS8ZLElCwBMVri_uNynmfM_kL7UcIiljVkxCfIvvnNTcicWReo4SQ8v1BEJ9sezQ9pE9CXef1X5BujEo84__a6s3CPRZ7LwVoTQj3s7x)
+[6] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH_G2T4-DX3lJn5V_xA9ENFA77lpMXoZDTOoFO8LyGtFisXpWsZQTNlXrhXtj1EuFcKpIHV4z1YdI_yQVO1yhaNLoH42QlUeI6xLd6dsP9Vg-enjinfQkcEXsPqbJx)
+[7] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnHLobpd_UFVKson6esOOsY3Aimfs2CElSDPoMFnl1yCaHR0zJ4fE2QBGIrGvuB-g-qNhIEwvJC1odP1DGhKJD94XMYUvoit5gDMRCXJPl1odDZfx2VGdMhGPDVMZNCkzvE-r1e-Yiwalm9TfKO3sk6vZJyAzAx4Nku3Zxd2JjNGpuoBwjlbRy00M=)
+[8] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjrDeTRu-D0ASlHY7eqaUIlF-Wh5Ed50XSkfCJo2aylnX3jSIcnPVLtwSQvCbMw9BOG2FqfemRpw7n7-IZYTPnwfSXLaUCrC1ag6-psBk2JMow0W5deymD)
+[9] [myremotemac.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdsVXKJ8h9qAwC7r9ELYcCabMvqnNNu6ePT2HrZiL9ObXg2J3gQQH8wQ9g8kT-pEQ4usFGJz0mABPZfski0FHgFhXQNHg6dOwLeRBkc0LRsFB3pxBL5Jo=)
+[10] [edc.me](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf3Jnjf4sn8IsuQVCjyJFRHZ_SIXXrVGuAOVJaVkMMRq9-mLFRWy7kQ_xFyW_UMpqFvylB_om3mf7-DWMZWKhMF60ivzwfsX6oT7Wxk2K4aZEwu8zwkCZM0WcEoiSqEnatlAu6)
+[11] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESkEMpulOHA7YOJg1L2rtcnSYAaMU85v6BBwHtZr_94D3FXNf1ZX2FAJ5Ip4MCwldzWAdoikYl5Hv020CZONaxXzHvL6RVlK11rYCdDJmFnLBFDFMSHON25B6YpvIULYrCjfVcXHPAkZB8aYUUboX6w9grtImS-tIkzAL3RWMgo3KIrsRXqNlFk7-z0YHhaWaVoFm99n3CgXD5VCtYJA==)
+[12] [bitrise.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsegceWdZxOFuamxmr36bnHmM0IcbeAHxmI6_ukqAJi6QaiqlvXfrLKexHYjfpyqJO0luNV_slRdpUTHnohF5H_CxFQp0AfqX8MQzD_LgMStOK3_zBjjBSW5RpaUuPFloIfucjyQOK9rev0oHjsW_bYczxgNIRLULRuz04dmB-m0GpXYxf_mW1_mTu17KTcB75D02i0w==)
+[13] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_jplX-FpoE2sQb8Ehs1jfWRdDvNlK9uC0pYa1z9vlAc1o0EKKpui6XnrUu2LfYhZAtaSHvpMu4mZiJEFbfqipzdG4uktO_tcAcxV_iE78pPDS-fEXPuAXKdHZPTU70gs8hPkqWZYDeAFJdNBOrTt7ejWjky6dnIK1zZPiXBOGa74iTJdFRKld7LBigWplXodahlqAtVEq6KT7H0pgEg==)
+[14] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHLBq9I66a-gNws2Hhvatf3k2JsoNgmp4IQkenPr0UAI_pXHIdqq2Gh1fYMn1Y_yOaNmoNXvFFmdDpHE8aQMeue72OV8e4BO1oV17LSC4rkvnyJOjPDVbujh7d5PCX98ltxxOcrmk705yuK2p9RFLXNEpf1vQCALdXoFitlYZhONKXqRz3W-VpbVTvz1mYEg==)
+[15] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_jplX-FpoE2sQb8Ehs1jfWRdDvNlK9uC0pYa1z9vlAc1o0EKKpui6XnrUu2LfYhZAtaSHvpMu4mZiJEFbfqipzdG4uktO_tcAcxV_iE78pPDS-fEXPuAXKdHZPTU70gs8hPkqWZYDeAFJdNBOrTt7ejWjky6dnIK1zZPiXBOGa74iTJdFRKld7LBigWplXodahlqAtVEq6KT7H0pgEg==)
+[16] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWsInA0X36q9zFF7ozGURWdZdvfgeG6ToRZzztJ-f12nt7uV-o7IlJFCWK395t80TU8yvvUuzYKSjum3POBqmDSvVhCLQzSvr_C_j2e865j6Eg_KBIe9Cxw5kELiJvlr0H)
+[17] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWsInA0X36q9zFF7ozGURWdZdvfgeG6ToRZzztJ-f12nt7uV-o7IlJFCWK395t80TU8yvvUuzYKSjum3POBqmDSvVhCLQzSvr_C_j2e865j6Eg_KBIe9Cxw5kELiJvlr0H)

@@ -1,0 +1,16 @@
+The search for "site:gist.github.com "remotion" AND "hand" AND "svg"" returned the following summary:
+The search results for `site:gist.github.com "remotion" AND "hand" AND "svg"` do not point to a specific, singular tutorial or project combining these three elements directly.
+
+Instead, the terms appear in separate contexts across various GitHub Gist files:
+
+*   **Remotion:** Frequently appears in lists of starred repositories or project collections related to programmatic video creation with React[1][2][3].
+*   **SVG / Hand:** These terms often appear in lists or documentation related to design tools, icon libraries, or AI-generated artwork (e.g., "SVG & digital art" categories or specific SVG artifact references)[4][5].
+
+There is no specific Gist that integrates all three terms (Remotion, hand-drawn/hand-crafted, and SVG) as a combined topic. It is likely that these keywords appear together only by coincidence in aggregated lists of developer tools or project showcases.
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLpkbo4wBqyZ8mFmquex7-6vhkBZHPzqPQGEAqCfPZj6GyMtL48Yyfvo5gBacHzxdwbBWn5-dujIndCsU3ey1w8IUWSZikv-acQ-oqiloDr-NSQYQgR59ww7Kd8iRx6GZUmFHIiGuOCKMpEjGvxnXBTQrY1CAs)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuFbsX9XWRLK2aBdCXALOBpI1kP0bXWFf42cM3E2InOXV0qHpcGFCcFI8o3Re6c4uEv4VjWwrxkcpzkadJf0yl2n2NYwNNLKmYs4p3Z0PvAJvxy8wM6fOliQ3i4gbOJWIueu2JS7G_T0084MVq1tRqXS3tHgIt)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuktdDfJ3vMzK-AHc0UIoU-0yH71qCcmQWarlFUvAPhB8C43hXJyAo6mf6ziljpkYtpl_HWy2wYTy3dr4K-5hAakJ0fCffWDcf6iFS7WQlReAe6h-sRi2w6_fTcpgYK9D_i6RG1rMMwkFuf5usevzCC8a2gHae7-PZxQ==)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7tyuBrkdDiVNi5EnOwPHpcWB6ZDm1U3DMtf5w0ixBctLZinbFz0oDROIrrliYzSvfTguWY08TyKMtNHNops4lSANjN3DOkFp0CuNQ9RvBkvTlZmFOrMTuckfZ-mUqd0GlBdFLY6_jQJcjUiwlz10UPhNGFA==)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7tyuBrkdDiVNi5EnOwPHpcWB6ZDm1U3DMtf5w0ixBctLZinbFz0oDROIrrliYzSvfTguWY08TyKMtNHNops4lSANjN3DOkFp0CuNQ9RvBkvTlZmFOrMTuckfZ-mUqd0GlBdFLY6_jQJcjUiwlz10UPhNGFA==)

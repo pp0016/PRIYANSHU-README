@@ -1,0 +1,39 @@
+The search for ""MLX" distributed "Thunderbolt" Mac OR "multiple Macs" Apple MLX" returned the following summary:
+Yes, you can run **distributed inference and training** across multiple Macs using the Apple **MLX** framework, leveraging **Thunderbolt** for high-speed inter-device communication[1][2][3].
+
+### Key Capabilities
+*   **Distributed Architecture:** MLX supports scaling workloads—such as large model inference and fine-tuning—across multiple Apple Silicon Macs[2][4][5]. This allows you to run models that are too large to fit into the memory of a single machine[1][6][7].
+*   **Thunderbolt Networking:** High-speed communication between Macs is achieved via Thunderbolt[8][9]. 
+    *   **JACCL (Jack and Angelos' Collective Communication Library):** Introduced in later versions of macOS (e.g., 26.2+), this backend enables low-latency communication via **RDMA (Remote Direct Memory Access) over Thunderbolt**[3][9]. It is designed specifically for high-performance collective operations like tensor parallelism[6][9].
+    *   **Alternative Backends:** Other backends like `RING` (for socket-based communication) and `MPI` are also available, though they may not offer the same low-latency performance as JACCL[8][10].
+*   **Parallelism Strategies:**
+    *   **Pipeline Parallelism:** The model is split by layers across different machines (e.g., machine A handles layers 1–40, machine B handles 41–80)[6][11].
+    *   **Tensor Parallelism:** Operations (tensors) are sharded across the machines, which can provide significant speedups for N machines by enabling faster, concurrent computation[6][7].
+
+### How to Get Started
+1.  **Hardware Setup:** Connect your Macs using Thunderbolt cables[8][12]. You typically need to configure the Thunderbolt bridge or set up isolated local networks for these connections[8][9].
+2.  **Configuration Tools:** Apple provides built-in utilities to simplify this setup:
+    *   `mlx.distributed_config`: A helper script that helps discover the Thunderbolt ring, checks for valid mesh connectivity, and generates the necessary configuration files (e.g., `hostfile.json`)[8][9].
+    *   `mlx.launch`: A CLI tool used to launch distributed programs across the configured cluster[8][10].
+3.  **Software:** You can install `mlx-lm` via `pip` to begin working with distributed inference and fine-tuning examples[13][3].
+
+### Considerations
+*   **Complexity:** While powerful, setting up a multi-node cluster requires manual network configuration (often involving SSH and custom IP subnets over Thunderbolt) to ensure the nodes can communicate effectively[8][9][12].
+*   **Performance:** Performance depends heavily on the communication overhead. While Thunderbolt RDMA is fast, the latency involved in frequent communication (like in tensor parallelism) can impact overall throughput compared to a single, high-memory machine[6][7].
+*   **Alternative Tools:** Projects like **Exo** (an open-source project for distributed AI) have also been used by the community to abstract some of this complexity, providing easier auto-discovery and partitioning of models across Mac clusters[14][11].
+
+Sources:
+[1] [contracollective.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1aszbRNHp-lzjmD1BGyBYuhIzi5PVVPu7J2x_LGph4NlgPeOCAxT_H8mJfeQ8qxUdamAFE-e5-zeYJdDftOZlM6ZZjCAxnrEkv3lzueI-dJGm15xkN-OTCFVUv01gnkk3HUze1tDg-akusq0ct-VL_lpipDIPyhe4XE13BVJL2rA5d2i7Umo8)
+[2] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc3Y6qi6g5Ty6ur6cweVNcpU-U7xNmPBn2jsAMUkuys2Aule1qZN37BEwoRCQIgL1X3hjbd9yapFMOdDhXrTHEH_jttie6-SGpkpsWMFgRlkMO7m7Yht9-6S7g86Kn1gNJ)
+[3] [codersera.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrA7Ja3zF5mei89LMEFncQSx7SCChnC0FLFWvpBklZehXFB6QbrqdT2sxbdn_8Wtdtk4qPL2Mjk8dHh1Fod0Z0n1QRM1zLhbwBSb1-dLYkJZJGdS_PtFj3JrZcTQX90r2xZMBbgtpdjq5mrV27hsSc-mpDnnSAjwY=)
+[4] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0mmyPAlAM8eaYtO5cReYw7N_J5UIYHTC4YheEXY8HHYRiKDjUCnIIa_3vmgt324Fz-_yrTKqmFOgg2QFCLnzYeh3ZfU4E2sWtbUs1Jgav451tXzYoO_xlqK04Jj9py7HTuQcMXfGTQMn-PJkm)
+[5] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc3Y6qi6g5Ty6ur6cweVNcpU-U7xNmPBn2jsAMUkuys2Aule1qZN37BEwoRCQIgL1X3hjbd9yapFMOdDhXrTHEH_jttie6-SGpkpsWMFgRlkMO7m7Yht9-6S7g86Kn1gNJ)
+[6] [ycombinator.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_wdWQySbCoC2pZMr-zwIMMNMfnj7lUX-Wez6u_6QYyEzkZrtTSvl-SirvwR0uVGq469YxpZExkTub5HwjGphCksRV5fZcLZQ3MhUEEU26gTHyK77qAOqP9WUA3wsC-3NEOJE=)
+[7] [contracollective.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1aszbRNHp-lzjmD1BGyBYuhIzi5PVVPu7J2x_LGph4NlgPeOCAxT_H8mJfeQ8qxUdamAFE-e5-zeYJdDftOZlM6ZZjCAxnrEkv3lzueI-dJGm15xkN-OTCFVUv01gnkk3HUze1tDg-akusq0ct-VL_lpipDIPyhe4XE13BVJL2rA5d2i7Umo8)
+[8] [github.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG2UupNjPu31JjdgANwXlOmpoR710yLWzlHYHBs0Ua-A2bsT-oUcoOeoidpvRDqZaYp6rHSpKN_8eLJ7eTZjqxdopThmKUhhyWftsyr3N_hZCyrb1AlDeVnwmU05D0gcJ_0jD-EiAJH3cQl9v73qCOgBXOmOSRSgU=)
+[9] [github.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG2UupNjPu31JjdgANwXlOmpoR710yLWzlHYHBs0Ua-A2bsT-oUcoOeoidpvRDqZaYp6rHSpKN_8eLJ7eTZjqxdopThmKUhhyWftsyr3N_hZCyrb1AlDeVnwmU05D0gcJ_0jD-EiAJH3cQl9v73qCOgBXOmOSRSgU=)
+[10] [github.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG2UupNjPu31JjdgANwXlOmpoR710yLWzlHYHBs0Ua-A2bsT-oUcoOeoidpvRDqZaYp6rHSpKN_8eLJ7eTZjqxdopThmKUhhyWftsyr3N_hZCyrb1AlDeVnwmU05D0gcJ_0jD-EiAJH3cQl9v73qCOgBXOmOSRSgU=)
+[11] [thinkdifferent.blog](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_Q2IBgwAYGErfMRNRVR3dVpK2_mfG4zGFFLbEKb9RsWBhnMC8SfaGHNVyXhPyKu76zLDbaRV91yEEsEdn_KZtYVISA-JQ_n1-Hj_LgHO8j9ZuWTd_86gOuzcuSfukiAdwRF21zS5LhfwCkZs4j8NKlBoMYg9IOYVw7q4PiGcQjJjDWm4BJr0LAn4cRWMl5urbwA==)
+[12] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiq0Gkp6qKxYfyDG9VSue8H9_fXvnHRCx3R2fsbkZxwuavD7gCZldBMizy8Az6RejSOW09gXhuDvpnG8Q7c7aSHSphpbxZTDbPereRuUhwCF72kRP4iybA4sCVaXFUb4w_nJ-m-mSSBIACNOLHlci3qWE7jybxWH8c9TViDBM=)
+[13] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_jKlzJI1cxWfjodUwCp7OBInVg_tRWHyLv-R2vPDoU13hevT2xLjUdohv9Ca6Piflr1rOGKyRd-KkH4sg3FCNYN21RRDPXOMPXIH6u12LiFWAZX-BIsoOLTeTpxkAhAF0q6w4uCLk_GZc14_dri_genSarGh-Hh_lo1Ii4c0f5UIZPGf6hUo_)
+[14] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw7nBZW0ZJb3QrpoeFEDKDi7yC6676L3HTWeWUOsp5mpmBTJwxdmnJc6xrrEdmv4MNLqhMSYTLy9BwFUvrbXfUwwUNKEImvHhPTu5C1YlNvav17lcRRcW4rcQuq6LSaiQOyw7pYq-dJZVHQOwRTVQ1qdFnu1AAnxDRxzGmT1zKr0mIXBtrRlAo_8VCmHZs5Dw-u15ZKpD-hgT5)

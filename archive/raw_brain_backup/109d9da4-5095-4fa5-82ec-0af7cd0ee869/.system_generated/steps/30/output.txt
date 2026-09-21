@@ -1,0 +1,24 @@
+The search for ""Apple Silicon" eGPU external GPU support dropped macOS" returned the following summary:
+Apple Silicon Macs (M1, M2, M3, M4, and newer) **do not support external GPUs (eGPUs) for graphics acceleration**[1][2][3]. 
+
+When Apple transitioned from Intel-based Macs to its own Apple Silicon architecture, it officially dropped support for eGPUs[3][4][5]. Unlike Intel Macs, which utilized Thunderbolt to offload graphics processing to an external card, Apple Silicon's architecture relies on a highly integrated "Unified Memory" system that is not designed to interface with external graphics hardware in the same way[1][6].
+
+### Important Nuance: "Compute" vs. "Graphics"
+In April 2026, there were reports that Apple approved a driver from *Tiny Corp* (the team behind tinygrad) that allows certain AMD and Nvidia eGPUs to be recognized by Apple Silicon Macs[7][8][5]. However, it is critical to understand the limitations of this development:
+
+*   **Compute Only:** This support is strictly for **compute tasks** (such as AI workloads, machine learning, and data processing)[9][8][3].
+*   **No Graphics/Gaming:** The driver does **not** provide graphics acceleration[9][2]. It will not improve performance for gaming, 3D modeling, video editing, or external display output[9][3]. 
+*   **Not a Return to eGPU Support:** This is considered a specialized, narrow implementation for AI/compute rather than a return to the broader eGPU ecosystem that existed for Intel Macs[6].
+
+In summary, if you are looking for an eGPU to boost gaming performance or support additional monitors on an Apple Silicon Mac, there is currently no official or practical solution to achieve this[1][3].
+
+Sources:
+[1] [vagon.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6NOW2Fqg4HPFR0-kXqiCurV-6q3gCqYDosyN7MunGj0uWnZiUJnnO4WOaZcWEsBQtrML1Pkyr2_lZDZ-9NeIqISqIo3zFeH-wba9nihCLLtpv7OrDFI8o-vMkds4Qw0z5XEV8P5LX16cvf2KlMoUpSls2fQ==)
+[2] [gadgethacks.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeTuh_Czrs9xFPMe8F3tboYYfD3Udo9YWcVIP2pbWPw9Sa9Wrc3j0GrjNRDO3mXxw2tS5JfBfw8kfd0Zbpd5-Mklvk1BqGPH_BLVZwZgfQy8AS7QUG8jNOvnOmRk7kGw0l8WRQ1BENx5207L4q1lYwS5STzST1r2jLjar6mPXQye27qVLMonbXbzuLsBqazTPKjjT1GtlMew==)
+[3] [engadget.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH08dOmQ5afzeic4xSnWPh0fRaz2Dw_GOejt8hEtTgiT69-z9gifKNozCjG4yvtGpvAhZRQQJSjiA77Y8H0DrvOF70ighXpKZZZNAUn-qD70WiXxNKBK3WIoyqxWZel_6nY0EgIzxPEwwLtRr1ZWgXt620=)
+[4] [wccftech.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRNWSOxcoUajf4zKW_HLzTKOR_yyRtbdN9PIrhbXy2djpf_kT2SrRaC3n363HEN_FxKwv8qLkR58e5j6nkiOt_Vzo0JCjbbcW6cnkpMHiV5fGTIQrJw7fsSoImfih6Xy2iafRkj-9j7McOt6zv)
+[5] [gadgets360.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOn1ZjSKpnACAgMqY151VV7NEBD6usyvoavSmvhly406z43WIm7w_Agdz23IOMR2gBaSMfNkb3Wj2DmWFq08zRcOIAo3K0IDpTRXdbfrZt9UGLSMukj9uTh22K3mrK5J3xi4DFmh27SOa67lmDnV1BETliiZaedWZ5mpKwoTszpQ7UTif3xLi2tXWDihmjk3dEmyoOfm82bDVfYp0=)
+[6] [gadgethacks.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeTuh_Czrs9xFPMe8F3tboYYfD3Udo9YWcVIP2pbWPw9Sa9Wrc3j0GrjNRDO3mXxw2tS5JfBfw8kfd0Zbpd5-Mklvk1BqGPH_BLVZwZgfQy8AS7QUG8jNOvnOmRk7kGw0l8WRQ1BENx5207L4q1lYwS5STzST1r2jLjar6mPXQye27qVLMonbXbzuLsBqazTPKjjT1GtlMew==)
+[7] [gadgets360.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOn1ZjSKpnACAgMqY151VV7NEBD6usyvoavSmvhly406z43WIm7w_Agdz23IOMR2gBaSMfNkb3Wj2DmWFq08zRcOIAo3K0IDpTRXdbfrZt9UGLSMukj9uTh22K3mrK5J3xi4DFmh27SOa67lmDnV1BETliiZaedWZ5mpKwoTszpQ7UTif3xLi2tXWDihmjk3dEmyoOfm82bDVfYp0=)
+[8] [tomshardware.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU6dxHbU1M_qoQOUC_5m-xUSlYjBTdeehaG0LOrZBwkf0keC0yToeKveuR-jW36cjzfu63VH39UyA5W80wOLeMuFdv5S-RxHl6iCD-YuGLlMUr9pR9MTTFtQRBYYn-MAVdQB2zKYqZMP6AGjkauns8pFPg0RvEuK0wiuCT4dmVEKy_NpayAZIotpZShLtMBXFevKpBqPpjzMNCJikuzbghjq5vftlK7g5hl2bGcSzG_H87_3aZJjr8pzTKYGfVCOTvhd_FiheqAbowFT8m1nme9oX_-Ost12Ak0333accrrcfQUs8J6w==)
+[9] [appleinsider.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbUMD-WjhfDD3iulqMfmNFE7jSTmql4aGKi5tlfaLUgdkSpfC_jCDU76-Y1sM-7YArUl8Wk-D7aOVuCtHimeBYFOthVqD7TcBTUs3CznvgRJIV3kvZnuz5uHscV9PvuQqWaas2WEWCSEvvtpx7LrgFxV3-tzzXvFgfR_C1Y4OjuNe8SXmVKFw32CMvMd7s9qjOqgnPIRkFcdbxTMymHJMwed4vDIDhEAcw-MrATYSBOBgjLHM=)

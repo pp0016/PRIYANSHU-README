@@ -1,0 +1,20 @@
+The search for "Gemini 2.5 Pro MMLU GPQA Diamond benchmark score official" returned the following summary:
+For the **Gemini 2.5 Pro** model, the reported benchmark score on the **GPQA Diamond** dataset is generally cited at **84.0%**[1][2].
+
+### Key Context Regarding Benchmarks
+*   **Official vs. Independent Results:** While 84.0% is the frequently cited figure for Gemini 2.5 Pro[1][2], official benchmarks can vary based on the specific testing harness, prompting techniques, and whether tools (like search or code execution) were permitted[3]. Some independent evaluations have reported slightly lower figures (typically 3–4 percentage points lower) than those reported by Google[3].
+*   **Model Status:** Gemini 2.5 Pro was released in the first half of 2025[4][5] and is now considered an earlier-generation model compared to the current **Gemini 3.x** series (such as Gemini 3.1 Pro or 3.8 Flash), which are currently achieving significantly higher scores on the GPQA Diamond benchmark (often exceeding 94%)[6][7][8].
+*   **Benchmark Difficulty:** GPQA Diamond is a highly challenging "Google-proof" dataset consisting of graduate-level questions in biology, physics, and chemistry[9][10][11]. Because it is designed to be difficult even for human experts (who typically score around 65–70%)[9][10][2], these scores are used as a primary metric for frontier reasoning capabilities[1][2].
+
+Sources:
+[1] [helicone.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmuMWJsPxYmmD2u7CM29lq3K6aqSyohTGRjLDRIE3AY0EZoUv3XEy1RJ_zyojBEl7oK1-EGh2p6MGoDYEFLHXVbU6gy-TNxjJrRfR9-VIfq0We9wy149-XLhD6crg-fXGr_Nr6UQCBIFpZhA5DquXVfw==)
+[2] [facebook.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGef-_sJ5aILE4BJ1UuPTxgftt0aRny9fTHnj62-LqPW8fhJY02uM5khkDx2G_pjSSCRSkbpETnNNkzJ0zhc8Zwx5vnHyrS0_A1T5nI7vqJza1n4v55cdj9O7TM8Oum3v1SJ_Op2JiDUa1uuZR4CTUolxZuV50nL6v3EcESOQ==)
+[3] [google.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGOFB0K02TjY0FIvmtp0hIhhHmJHrxekaz2VNQGfakNHMuk6l6WTIK0t2CScp2uiVSAnmWPjD8OldSLEayr7GlUdYaG02rQuRlGlrZnBNpKv3xCWEu2YOT-GUu5T8o04cqh81kayDtCNFAtlyXmGJM2Tfr9bvPN4ZC)
+[4] [rdworldonline.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvs0inOP1JM6FHEyJCxl8uRF-i0A2w0MNxaAQQubTUaCiSR41RdWRzfsA7sE1pYf9AEOp6MtpVkyuZqIikHECL6qIWspApYKaD1gxlf9ZgXCd1IHfg_D8-aIvPljsMsWiCZ7A0KDf7fdwV4_r948vw_T0UiIrcIEMN_k_cJuiI2JZH5HpiBu34XvR5euGnO_Sy-6VSYD83NYnCwT9PPtYvdOzoVW7ZLWiaMO2jNOdLPAXrcszaMUri5MP_R5uGq9EXts_2AtXbrNRa)
+[5] [twixrsolutions.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6l9ryHHEuVgBzc-0wy-A31J3xBrFNaTYB9kOp7xD6gJEew7yEiEN-PXbUmTKwqtw0CGHAh9XxrzNE5BsmdwQzq4WIDfq1yugKaiHpBDxTRjAu5anZeT7FaiVTWuz8WyDGflL4FH7wAiQ4s0S1QTJlkAKaNQ==)
+[6] [deepmind.google](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1IWI5ytMHOdovpmQ_zgtsUNt3GF3SwFvPfA4hUGpdoP8_kVd6kY69NeNF7X7dRRo-k6xUiU7LjBXq_sDOKwBVpVaUVF1-6VkdvnuI_x4cxvpGPARrOx7YP3IYbg84VQ==)
+[7] [artificialanalysis.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFksiEu_VwE3LPrO32oHgU7cDgbmyKuLRHcrdjMPS2uPnucUgnnq18p7KZWInqmhvpI10WDtx0CxnrmmYs7i7EtIvfE8jKSaFjhX2Zq8urS3K3V7tWwqiy3Hj0EE1qY1uZL4nf3SB80IHR4BQ==)
+[8] [vellum.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkkmhZYy5s1_hRNHkCwYZT7ERvO6LyZzN7vVWLEmUTN_2JIGi6LOHIQE3wCFLs3fm_LLWcecUQMsVmhv2CnzvVEmi2Qr2vAzjc9bJXWoS7efL_bmTcwoLzpZc=)
+[9] [artificialanalysis.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFksiEu_VwE3LPrO32oHgU7cDgbmyKuLRHcrdjMPS2uPnucUgnnq18p7KZWInqmhvpI10WDtx0CxnrmmYs7i7EtIvfE8jKSaFjhX2Zq8urS3K3V7tWwqiy3Hj0EE1qY1uZL4nf3SB80IHR4BQ==)
+[10] [epoch.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmUO-OHxU8AtSAUEVolXLvjXMMrBsTaSmYx_xaY5BJTbpaHxm0TgzLt0KFZFcZdSMAYUO_cHylCi_Wr_kAh0Rw9lVzWHdmR0U-O5Ou00412f_qKzNSkFR8boGtzUA=)
+[11] [epoch.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmUO-OHxU8AtSAUEVolXLvjXMMrBsTaSmYx_xaY5BJTbpaHxm0TgzLt0KFZFcZdSMAYUO_cHylCi_Wr_kAh0Rw9lVzWHdmR0U-O5Ou00412f_qKzNSkFR8boGtzUA=)

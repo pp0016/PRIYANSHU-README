@@ -1,0 +1,36 @@
+The search for "Gemma 3 27B 12B VRAM requirements benchmark local inference Q4 GGUF 2025" returned the following summary:
+To run a 27B parameter model (such as Gemma 3 27B or similar dense models like Qwen 27B/3.8-27B) on a system with 12GB of VRAM, you must use quantization and often rely on CPU offloading.
+
+### VRAM Requirements Summary
+*   **Model Weights:** A 27B model at **Q4_K_M quantization** typically requires approximately **15GB–17GB** of memory just for the weights[1][2][3].
+*   **The 12GB Constraint:** Because the model weights alone exceed 12GB, you cannot fit the entire model into VRAM[4][3].
+*   **Practical Inference:** To run it on a 12GB GPU, you must use inference engines like `llama.cpp` to offload a portion of the model layers to your system RAM (CPU)[4][5][6].
+
+### How to Run on 12GB VRAM
+1.  **Partial Offloading:** Use `device_map="auto"` (in Hugging Face `transformers`) or the `-ngl` (number of GPU layers) flag in `llama.cpp`[4][6]. You will load as many layers as fit into your 12GB of VRAM and keep the remainder in system RAM[4][6].
+2.  **Performance Trade-off:** When layers are offloaded to the CPU, inference speed will decrease significantly (often to 3–10 tokens per second, depending on your CPU and RAM speed)[7][8][6].
+3.  **Quantization Levels:**
+    *   **Q4_K_M (Recommended):** The "sweet spot" for balance between quality and size, though it will require CPU offloading on a 12GB card[2][6].
+    *   **Lower Quants (IQ3/IQ2):** If you are desperate to keep more layers in VRAM, you may experiment with lower quantization levels (e.g., Q3_K_M or IQ2/IQ3), though this will result in a noticeable drop in model intelligence[7][5][9].
+4.  **KV Cache & Context:** Remember that the Key-Value (KV) cache grows with context length[10]. If you run out of memory, reducing the context window (e.g., from 128k to 8k or 32k) is often more effective than lowering the quantization further[7][11][12].
+
+### Recommendations
+*   **Use `llama.cpp`:** It is currently the most robust tool for managing partial GPU/CPU offloading for GGUF models[4][13].
+*   **Monitor VRAM:** Use tools like `nvidia-smi` to ensure you are not exceeding your 12GB limit, which would trigger aggressive swapping and extremely slow speeds[4][6].
+*   **Optimize:** If you have 32GB+ of system RAM, the performance penalty of offloading will be manageable for non-real-time tasks[4][6]. If you require high speed, you may need to look at smaller models (e.g., 12B class) which fit comfortably into 12GB VRAM[10][2][14].
+
+Sources:
+[1] [willitrunai.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlOO6_YG632Hzsa-Q2PIMuPAsdH0HClKWkDXo3iLfBlGpY78HSJwd3KT72nn5BZ2-74hNT5LfKLjl72D1dT3zvz74GM8nvSWPKCI3Yu3ldaAeJfDH5YBGNDtzYPmTbIqKb6HFikZeY7NACKYKeGAqo)
+[2] [willitrunai.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZCSMRdtCTTWzclsg6E5sbYPQ9pO4P_8ybTNkLqSIvSvDOHd5vcsPbCIowwcqbz4NOoby7MXD7PlRmHXV_a3MVnVqiPAC9juTNq0nxvRQ0Ixx9LT0lzJC3gjvffAygNlT7CWyUNv8AH6LZj7hWwNZJ_25oBpsoQvj_PTk=)
+[3] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTkbEmx8WvAVMwYkoUntyKCTOTB5dcJ3Mf4q3q_YhE-zqTV6kZqm_VzYmNUuXpfByK035MtlcfeFb7zN5tbB3JSGm6dpZ-DmaY6yWDORD1-uA-heZeIO9e5_zoOnZwPWkE_FFtcXXAp4TMo7oGw-W03KgMGLXCRN814Jxzpb_WTPewxAuDreZMe1SpGV4VEg0hqd9jeg==)
+[4] [bswen.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5ZKOoy3dzh2PRia0GtxiaIFXsuwlIourVXsyCe-4yxT_jpXRvAwYh0_neDKsYpW_xzp4uFddgu1_qBTFknk20n5V79zslZgDKASbB12_2gohMvKs5DAxjDvEMO_hDfDXUfZ9YFp3_gwY613nbPVEg2Pk=)
+[5] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHga5UBuanpak0Kxf9GZ27SGipqYVCsjE28Ok_1eaH-rHd8NlTdcWLiD11ejbE8sViEHCkeHWm0vlQdtRyK6eKqcrxzoI0gq-JBZ2escQUv9envGtICZZHucBSp_lAr6fyq5u_IFp397lBgjnnGBgScf0ZU6qq-3xb_GBYCkxJLnOuE9xRO92QIrQBnRTx1imn50jmT_mvdS_VGbt4LFkxG5Voffauy7A==)
+[6] [huggingface.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ52p9cdpGGasNzFOtGp56JEcrN6uXVhiOmAiXJf9U6IMyzmlH1u70suvv1_qtvH4AuEX-9gd2mgMJvfC21vy6H_HH6qnS9yxBggiULYb00RwR8GN5vYOJPWjeSp0r_TJneK-FdWBBNdUDhfNq3EIf_uXeJQ==)
+[7] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcmGxwkfkSVumz4NlX87TtCOQCj-gL6ibCcwaYlGTjzyilGrICkf6VexXtu2DZtL_z6Ou50hgOX-_J9FwIGLTnsISmQfyu51m-AYjHCGbvkp8aHK_7AwTYU2Kmo1Qa54oO3ksHzUlyYecrif_JlDnsJM2KlWaewJ95dtBF0hlBea-xFsUA5Lqaji6g4VGJEpEQuBB5T7CUkOPI2VA=)
+[8] [dev.to](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw53uDFNT_9l4GJqyL8Q7sY_Hc5-OmH5KUqrywzvA5tkcxfiU4t8BP6Vl-sjkB7LEOwPvOX4XwM00ZjcDbOcuH-FzEzg0BQDUec6bZHKY45ekl80eMKIqsnMGEOy2pL9kn9vIt6mnixzhtbRhADM8hi4t66mEras9n1SiCL0iUxka4teenGNJ16Okw8vCV1bfff3KWdhook9X2V8JWxoQz)
+[9] [ofox.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCdTfsNYZvPjj0PYOj6IkXQkG4pXDLkjdeYVgkxeOqWq8_2Xbr2sI94fMiNYB83L4PZSNJnvaGkY2m5NBGjhkdv5ftpyJj0-ASf6Y-x71OfZq-viyojYkqCF9GnAWHo-7sTVqvlsse12m47CWiIkR_xAbw)
+[10] [localaimaster.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBQJ-_2UHXTrMaANzUA5R414p6D77sB_KpUE4VUvm4Xusjy7EADK7Y1rjV4CN5F450gBIfOm6EeX1vLZ3ZgKY9yqy2ge4vdejiZC5bQIvfPL17ueFop5ruVIC-567uUCs4KJkjePgE-dQnTIQ=)
+[11] [acecloud.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG34YOnVPFD9wXERjHTS6U_zEV3RjWkT7n5swqOpJXx8KkflVKi29PpfumId3HZJGPhBl41l9YGbnV1PkFrRZJGrRqzYHxgcD0S2wbZw_YxpsKOmPmXtueWuYcG2mbExosb)
+[12] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHefHra7KJVKgey0j7JPWVouIEqSA-hoz_-D8GuQijJ_3xn2MvGSLJwszzaowapgNxbjwmlHXWDY6UmWvdBEsalcpPDPTb51bz8QqNFNmI_UU-ZJ7eIBU-2CLwBB9eWTitZ56V8q9UWZi_jecJ1UzwLKNjoEYRTgSnWIIME1u6RQKDgMbp2dmw2p_wwshAQIfILAkmKOnLsHobN)
+[13] [willitrunai.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5i7mpVpkE-58B8xKzDOA-fCLpyQ4bsKXRv331N0TXn6jYOF8w5T2Zq2vYe0tOiBltoqq4avmBrOUrKBlm0WHfiVSXr3H1-PJIs4p9ZegDJdOoyNbpGTpmvVlKanQnTWwusVLUDJZOGsq_2LtDv_euxw==)
+[14] [llmconfigurator.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1JH71U3qaCWBOOukR0X5xyjbogNkiBGD0_aCJZhMpENvf4Q9Uu2o3xEMoy9JrLsJ2SWR6LJAPGn0-qMuO69awKhxjhBKR-F79PnFc3QBNlt8BKWUR-U7Rnppaa1cNBjVTr1vUqp04_htGDd120Iy-mvQq)

@@ -1,0 +1,45 @@
+The search for ""rezoo/movis" github" returned the following summary:
+https://github.com/rezoo/movis
+
+**Movis** is a Python library designed for programmatic video editing and production[1][2]. It is intended to provide features typically found in proprietary desktop video editing software—such as compositions, keyframe-based animations, and various effects—within a code-based environment[3][4].
+
+### Key Features
+*   **Compositions:** Uses compositions as the fundamental unit, allowing for nested compositions to handle complex editing tasks[3][5].
+*   **Animation & Effects:** Supports keyframe animations, chroma key, drop shadows, and multiple blending modes[3][4].
+*   **Performance:** Includes a caching mechanism to speed up frame rendering[3].
+*   **Use Cases:** Suitable for motion graphics, presentation video generation, shader art, and automated video production (e.g., game commentary or data-driven videos)[1][2].
+
+### Example Usage
+Movis allows you to define video elements and their properties directly in Python[5][6]:
+
+```python
+import movis as mv
+
+# Create a composition
+scene = mv.layer.Composition(size=(1920, 1080), duration=5.0)
+
+# Add a background
+scene.add_layer(mv.layer.Rectangle(scene.size, color='#fb4562'))
+
+# Add text with animation
+scene.add_layer(
+    mv.layer.Text('Hello World!', font_size=256, color='#ffffff'),
+    name='text', offset=1.0)
+
+# Apply effects and motion
+scene['text'].add_effect(mv.effect.DropShadow(offset=10.0))
+scene['text'].opacity.enable_motion().extend([0.0, 1.0], [0.0, 1.0])
+
+# Render the video
+scene.write_video('output.mp4')
+```
+
+For more details, you can visit the [official repository](https://github.com/rezoo/movis) or the [documentation](https://rezoo.github.io/movis/).
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECOARBHa_1tbFAfVWx1ka-YU8jyyTLZJ3Zli30SFTzyuRbc5HyF6y18hYu4VygQmzCw4dBjOe3iVZcvttmytrhmzn9KmmFlNma7nC7XJlEyhm9sQ==)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECOARBHa_1tbFAfVWx1ka-YU8jyyTLZJ3Zli30SFTzyuRbc5HyF6y18hYu4VygQmzCw4dBjOe3iVZcvttmytrhmzn9KmmFlNma7nC7XJlEyhm9sQ==)
+[3] [ycombinator.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoA5m7Dw0mw61x9GTLKAWBQhq24L3uaPYs8QLKTvyG18HttQvLR2Khw8dOpSTXcCfCASVWccP5Tm-hQ7hZj6wT8p9iX1GWKpUrZ_RGySYW3qX8UU8qj8WSFBea5kvluAazuw==)
+[4] [ycombinator.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoA5m7Dw0mw61x9GTLKAWBQhq24L3uaPYs8QLKTvyG18HttQvLR2Khw8dOpSTXcCfCASVWccP5Tm-hQ7hZj6wT8p9iX1GWKpUrZ_RGySYW3qX8UU8qj8WSFBea5kvluAazuw==)
+[5] [medevel.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG57AulvBpNon_HIIwBiKXoDbygDTiHAeGXBUlT1U32PSZoOzKw7b8RzXquBVEPvG9JJmvL87EGo5lh1Gf-nKjO6vnIy6OFlo5E7HyVmV2h)
+[6] [github.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjgvRyFklzgoEYNZWjdmTuuoPaPh5BaG8mKob1D3RnRU1-B_laAjToRIiQ20HU6r4JNwvBltYZxFFkppiIe2Qfz0UH6auwDTApKLHPxZcIXMlcTA==)

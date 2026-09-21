@@ -1,0 +1,5 @@
+{
+  "summary": "Gap analysis comparing the user's prompt-forge skill against Promptive Sentry Chrome extension. Identifies 8 specific gaps (refinement intensity controls, memory block format, multi-platform awareness, automated context extraction, prompt diff preview, token awareness, ADAPT mode details, tone/domain modes), ranks them by priority, acknowledges 7 areas where prompt-forge is already stronger than the extension, and specifies exactly what materials (screenshots, before/after examples, extension source JS files, IDE README, exported memory blocks) are needed for a deeper reverse-engineering analysis.",
+  "updatedAt": "2026-08-24T02:20:53.821462800Z",
+  "userFacing": true
+}

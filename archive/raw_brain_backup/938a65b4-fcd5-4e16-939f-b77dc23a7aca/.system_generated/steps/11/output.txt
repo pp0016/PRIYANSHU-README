@@ -1,0 +1,30 @@
+The search for ""gnipbao/whiteboard-video-engine" github" returned the following summary:
+The **`gnipbao/whiteboard-video-engine`** is a Python-based engine designed for creating whiteboard-style animation videos[1][2].
+
+### Key Features
+*   **Functionality:** It can convert images, SVGs, line art, or scripts into whiteboard hand-drawing animations[1][2].
+*   **Components:** The engine provides the core rendering capabilities, CLI tools, model wrappers, testing, and documentation[1][3].
+*   **Visual Styles:** The engine includes 30 built-in, versioned visual "recipes" or styles that control aspects like stroke detail, line width, fill textures, and drawing order[2][4]. These styles are categorized by levels such as `native`, `adaptive`, and `experimental` depending on their suitability for different types of input content[4].
+
+### Ecosystem
+This engine is often used in conjunction with the **`codex-whiteboard-video-skill`** repository[1][2]. While the engine handles the heavy lifting (rendering, stroke tracing, and composition), the "skill" repository provides the necessary wrapper scripts and integration instructions to allow systems like Codex to call the engine[1][3].
+
+### Installation
+To install the engine, you can use pip directly from GitHub:
+```bash
+python3 -m pip install "git+https://github.com/gnipbao/whiteboard-video-engine.git"
+```
+
+For development purposes, it is recommended to install it in editable mode:
+```bash
+python3 -m pip install -e /path/to/whiteboard-video-engine
+```
+
+For more detailed usage, including CLI commands like `render-photo` and how to integrate it with the Codex skill, you can refer to the official repository documentation[1][5].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdEOt8HEoIROriHoBFZhzUdKVoSN6oOzBOZZUopqGAlSwNtD2R1LTAQmGMQgFOBYVWy8Bj2rc-3C4lwMv-rGW2fI8kdpMDX8hvWv35MRASHNKh2TZUxQcPLLypMOjQC5D-t9No4x-OtTu-95SO-e0hmiQy36FXenExM05XbAfE5TxI66s=)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2g26wRI8-cnu8yzaqLjJPwQy7b4CgXMDa8cZF2iZIHIdNtlbgirtq7NChTaBSrzZLP2bT9zYqYD23XGHHA_wPPdz9mdWtBBH4yTR8hqP1GVWqkQ0xANOOpqKSrk4xq6vfeRMuwxfdi68x3BkD)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6d2Nni7k7mSGa5IYcC5-JAPDsrkvbkJq5pSkJAQvpAotk0ZLY9Bp_rpgaiWx6SP51l-ZTABIOKGQHDkBW93NwaY0hPya3Bj-wtFrixJsZc2QQpjETcAEFSKfimZGorBsQk5fYt6XlSbkndeBQPaPY08gzgEzZVxGuU2oASoyLElk=)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFO2G8fXnvpcaobNcED9dfua798DAil3vNJoy0s7weazt9hMmPZV1n3mDr292LaLnXn3YHM7pd9_koM_qup9DQA-cV3qvO8As3BLZs8VP6q1I2ikBvjdsHkc4HO8UtWILMSxU2vgoR3ZA==)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdEOt8HEoIROriHoBFZhzUdKVoSN6oOzBOZZUopqGAlSwNtD2R1LTAQmGMQgFOBYVWy8Bj2rc-3C4lwMv-rGW2fI8kdpMDX8hvWv35MRASHNKh2TZUxQcPLLypMOjQC5D-t9No4x-OtTu-95SO-e0hmiQy36FXenExM05XbAfE5TxI66s=)

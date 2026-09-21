@@ -1,0 +1,2 @@
+Successfully killed 3 subagent(s) and their descendants.
+Killed roles: Apple reseller deals researcher, Retail and student deals researcher, Student programs and aggregators researcher

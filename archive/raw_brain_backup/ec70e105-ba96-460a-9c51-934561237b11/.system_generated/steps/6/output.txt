@@ -1,0 +1,17 @@
+The search for ""Pinwheel" kid phone purchasing model OR subscription OR retail OR B2C" returned the following summary:
+Pinwheel operates on a **Direct-to-Consumer (D2C)** retail model where you purchase the hardware (the phone) and pay a recurring **subscription fee** for their proprietary parental control software.
+
+### Purchasing Model & Hardware
+*   **Retail:** You buy the phone directly through the Pinwheel website or select retail channels. They offer various smartphone models (such as Google Pixel or Samsung variants) that come with the **Pinwheel OS** (a modified version of Android) pre-installed.
+*   **Carrier Freedom:** Pinwheel phones are "carrier-agnostic," meaning they are unlocked and work with most major cellular providers. You can either use your existing family plan or subscribe to their optional "Pinwheel Wireless" service.
+
+### Subscription Structure
+Pinwheel separates its service costs from cellular connectivity costs:
+1.  **Caregiver Portal Subscription:** This is a mandatory recurring fee (often around $15–$18/month) that covers the parental control software, including the Caregiver Portal, remote monitoring, and ongoing OS maintenance.
+2.  **Cellular Service:** 
+    *   **BYO Carrier:** You can add the phone to your current cellular plan (e.g., Verizon, AT&T, T-Mobile) and pay for that service separately.
+    *   **Pinwheel Wireless:** You can opt to use their own cellular service, which is billed separately from the software subscription. 
+
+### Key Features of the Model
+*   **Remote Management:** Because the phone runs the custom Pinwheel OS, all parental management—such as approving contacts, monitoring texts, setting "downtime" schedules, and curating apps—is handled remotely via the **Caregiver Portal** (web/app).
+*   **No "Bloatware" or Browsers:** The system is designed to exclude standard web browsers, social media, and other apps that are typically blocked for safety, which is why Pinwheel does not allow users to install their own custom OS on third-party devices; the security relies on their specific hardware/software integration.

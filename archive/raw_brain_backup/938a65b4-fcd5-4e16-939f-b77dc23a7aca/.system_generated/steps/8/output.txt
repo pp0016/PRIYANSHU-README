@@ -1,0 +1,15 @@
+The search for "blender whiteboard add-on github" returned the following summary:
+For creating whiteboard-style animations in Blender, the most relevant tools are those that leverage the **Grease Pencil** system to emulate hand-drawn effects.
+
+### Recommended GitHub Add-ons
+*   **[Grease Writer](https://github.com/doakey3/GreaseWriter)**: Specifically designed for this purpose, this add-on enables auto-animating Grease Pencil strokes to emulate hand-drawn text and drawings. It includes features for "decorating" (adding underlines/ellipses) and creating "stipple" effects.
+*   **[Writing Animation](https://github.com/Shriinivas/writinganimation)**: This add-on generates writing animations for selected Bezier curves or text in Blender, which is a core component of the "whiteboard" aesthetic.
+
+### Other Useful Grease Pencil Tools
+While not strictly "whiteboard" specific, these add-ons significantly enhance the workflow for 2D-style animation in Blender:
+*   **[Storypencil](https://www.blender.org/manual/addons/animation/storypencil.html)** (Built-in): Developed by the Grease Pencil team, this is an official add-on (often bundled with Blender) for storyboarding, which uses many of the same techniques required for whiteboard presentations.
+*   **[Grease Pencil Tools (by Pullusb)](https://github.com/Pullusb/greasepencil_tools)**: A collection of extended tools for Grease Pencil that can help with the 2D workflow, including canvas rotation and advanced layer management.
+
+### Tips for Whiteboard Animation in Blender
+*   **Use Grease Pencil**: Blender’s native **Grease Pencil** is the industry-standard way to achieve whiteboard-style animations. You do not always need an add-on; you can achieve the "writing" effect by animating the "Start" and "End" parameters of a Stroke modifier or by using the **Build Modifier** on a Grease Pencil object.
+*   **Build Modifier**: For simple whiteboard text, you can convert text to a curve, then to a Grease Pencil object, and apply the **Build Modifier**. This is a non-destructive way to make it look like the text is being drawn in real-time.

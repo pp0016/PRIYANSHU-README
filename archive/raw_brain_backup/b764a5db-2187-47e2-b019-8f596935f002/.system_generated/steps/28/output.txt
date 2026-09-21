@@ -1,0 +1,1 @@
+Encountered error in step execution: Failed to fetch document content at https://www.apple.com/in-edu/shop/go/product/macbook_pro: failed to get URL https://www.apple.com/in-edu/shop/go/product/macbook_pro: status code 404

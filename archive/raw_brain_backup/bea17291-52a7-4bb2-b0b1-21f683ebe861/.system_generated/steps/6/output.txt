@@ -1,0 +1,24 @@
+The search for ""RAM pooling" multiple Macs OR "distributed shared memory" macOS" returned the following summary:
+For most standard macOS workflows, it is **not possible** to pool the RAM of multiple Macs into a single, unified memory pool that the operating system treats as one machine. Because RAM requires ultra-high-bandwidth, low-latency connections directly to the processor, attempting to "share" memory over standard network or even Thunderbolt connections typically introduces performance overheads that make it impractical for general-purpose computing.
+
+However, depending on your specific goal (such as AI inference, data caching, or distributed computing), there are specific technologies and approaches available:
+
+### 1. RDMA Clustering (For Professional/AI Workflows)
+In recent high-end Apple Silicon hardware (starting with Thunderbolt 5-capable Macs), Apple has introduced support for **RDMA (Remote Direct Memory Access) over Thunderbolt 5**. 
+*   **How it works:** This allows multiple Macs (e.g., Mac Studios) to be clustered together for specific, memory-intensive tasks like distributed AI inference.
+*   **Requirements:** You need specific hardware (Thunderbolt 5-capable Macs) and software stacks that are "RDMA-aware," such as Apple’s **MLX** framework or **JACCL**. 
+*   **Usage:** This is not a "RAM pooling" toggle for the whole OS; it is a specialized workflow used primarily by researchers and developers to scale large AI models across multiple devices.
+
+### 2. Software-Based Distributed In-Memory Stores
+If your goal is to share data across machines without crashing a single device due to RAM limits, you can use **distributed in-memory data stores**.
+*   **MemCloud:** An example of a tool designed to create a peer-to-peer "memory cloud" on a local network. It allows multiple machines to contribute their RAM to a common pool for caching data or streaming logs.
+*   **Use Case:** This is effective for developers or data scientists working on experiments that overflow the RAM of a single machine. It does not allow your OS to treat the remote RAM as local system memory, but it allows your applications to store and retrieve data from other machines with millisecond latency.
+
+### 3. Why You Cannot "Merge" RAM Like Hardware
+*   **Latency & Bandwidth:** The system memory (RAM) in a Mac is physically integrated into the SoC (System on a Chip) to provide massive bandwidth. Standard network protocols (even 10GbE or Thunderbolt) are orders of magnitude slower than the internal memory bus.
+*   **Cache Coherency:** Modern operating systems rely on complex hardware-level cache coherency to manage memory. Attempting to manage this across separate motherboards via software would result in massive performance bottlenecks, essentially making the "pooled" memory unusable for active applications.
+
+### Summary of Alternatives
+*   **If you need more RAM for rendering:** Look into **"Render Farms."** Tools like After Effects or 3D software can often offload tasks to other computers on your network, effectively utilizing their resources without needing to "pool" their RAM.
+*   **If you want to control multiple Macs as one:** Use features like **Universal Control**, which allows you to use one keyboard and mouse across multiple Macs. While this does not pool memory or CPU power, it provides a seamless workflow between separate physical devices.
+*   **If you are doing AI/LLM work:** Research **Distributed Inference** tools (like `exo` or `MLX distributed`), which are designed specifically to split large models across the memory of multiple devices.

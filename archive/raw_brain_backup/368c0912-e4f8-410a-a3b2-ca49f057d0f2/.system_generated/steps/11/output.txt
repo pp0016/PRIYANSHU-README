@@ -1,0 +1,18 @@
+The search for ""masihsultani/whiteboard-animator" hand overlay video" returned the following summary:
+The **`masihsultani/whiteboard-animator`** is an open-source tool designed to automatically convert static whiteboard-style images into hand-drawn reveal animations[1][2][3].
+
+Regarding your query about a **hand overlay**:
+
+*   **Functionality:** This tool works by detecting regions in an image, determining the sequence in which they should be revealed, and animating them to simulate a "drawing" effect[2][3]. 
+*   **Hand Overlay:** The project's primary focus is on the algorithmic "reveal" or sketch animation of the elements themselves[3]. Unlike commercial software such as VideoScribe, Doodly, or Moovly—which often include built-in, customizable "hand" assets that move across the screen to follow the drawing path—`masihsultani/whiteboard-animator` is a lightweight, local-running Python library/CLI tool[3][4][5][6]. 
+*   **Current Status:** As of its recent release (September 2026), the project focuses on the core animation engine[1][2]. If you are looking for a visible hand cursor overlaying the drawing, you may need to:
+    *   **Check the GitHub Repository:** Review the official [masihsultani/whiteboard-animator GitHub page](https://github.com/masihsultani/whiteboard-animator) to see if recent updates have added support for custom hand cursor overlays or if there is an open discussion about it[2][3].
+    *   **Post-Processing:** If the tool does not currently render a hand, many users create this effect by running the generated animation through a video editor (like Adobe Premiere, DaVinci Resolve, or even free tools) and overlaying a transparent "hand" video file (often found in stock libraries or as "green screen" hand overlays) to follow the drawing path.
+
+Sources:
+[1] [xkahn.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAN_BuBiky2Qpyn_tjj98D7bO7U32o8OAWBHsvTsl0U8NziAzzEln-PT7S_OjLR08G_RhvDLgWf0g48YKqKCotnV_xExDcJLM_NWyfzLvRqQk=)
+[2] [ycombinator.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOzPv6HgEuwlyESEwmdLaC_1dp6iJQeDYgr7nJng3vhSJvaky2tL3zkJdmXNEU3L_AjYpsNindoOWiavvx0qtp7GOQwbj2BgWrGBvA6W9jertbrUDgu-Ir5luCn8rUynMCEA==)
+[3] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZododLQLNsc-1vYyXyedYf4-_Tq2fLMZ2zSf2SASIsKzgVNXk8jytEq5N8TI65lQa03iHfNrLH2yd5xjXOsdBqxHqDpH6uewMVs3OZK6vvvk9kdweRiC_qqClU-wQIb3PDzu-nuVSrKmu4aB-BO_95Z6aNesg6EGa80A7c74xxLe0T1gA-R7YEeJ-dW5lRyKVl3YrUIACODIgg7vZxB4u6KSB)
+[4] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzYbPtYP5OoLNJATPWZzQUa0XUVyxZ2oGsCIHD8HnRYY2NNhBvQYiDRq1cVBMUQ_36u7kYca_5A-nrAN-fBXHanW64NJmP_0w3VMXSdGtjitvKSi5fs8NFO-MvIlulMhhR1-0NXO4=)
+[5] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYWRwLMQZRKJYWNUuxYNmtMv5Os0azV-oAMvri7RkCJlvQJZY_mhHwiMflP9sCMS8mg23sQoAY2N3nrDIu6DiyCn54ssZrhZZNJqTslFD6nc9OoNw7NhOHVJgSvCovIq0=)
+[6] [moovly.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhrBopcMGVY4kIg8MOpv6rHzT8JERKYyYGzwkwfiAyl8NHZ0H9SO528hLQwTutYDLY6WZAfgR3DK86r69sSw4jelVg1vhSGCUMa0stvMhgdX-yfrOKmpIRNf50u8tU_NRPU9aFrkOumLbwgMN54lutJUvLslNVKI2L3kWEz4-pxg==)

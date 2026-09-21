@@ -1,0 +1,3 @@
+- `[x]` Subagent 1 (ScriptWriter): Generate the 15-second script and save it.
+- `[x]` Subagent 2 (AudioEngineer): Generate audio from script and place it in the D: drive.
+- `[x]` Subagent 3 (VideoProducer): Call the HeyGem APIs to render the video.

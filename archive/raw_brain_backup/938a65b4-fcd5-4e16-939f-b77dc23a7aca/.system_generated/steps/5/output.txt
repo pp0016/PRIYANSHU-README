@@ -1,0 +1,26 @@
+The search for ""whiteboard animation" "python" site:github.com" returned the following summary:
+For whiteboard animation projects using Python on GitHub, there are several notable repositories and tools that range from automated pipelines to rendering engines:
+
+### Notable Projects
+*   **[storyboard-ai](https://github.com/yogendra-yatnalkar/storyboard-ai)**: An AI-powered pipeline that uses models like Gemini and SAM 3 to generate whiteboard animations from ideas and scripts[1].
+*   **[handanim](https://github.com/subroy13/handanim)**: A Python package designed for programmatic animation with a focus on human-style sketching[2].
+*   **[whiteboard-animator](https://github.com/masihsultani/whiteboard-animator)**: A rendering engine used to turn whiteboard-style images into hand-drawn reveal videos[3].
+*   **[whiteboard-video-engine](https://github.com/gnipbao/whiteboard-video-engine)**: A Python engine that supports rendering, stroke tracing, and video composition for whiteboard animations[4].
+*   **[automated-whiteboard](https://github.com/maksimKorzh/automated-whiteboard)**: A project utilizing Python, OpenCV, and PyAutoGUI for automated animation[5].
+*   **[Virtual-white-board-using-Google-pipeline-and-open-cv](https://github.com/kitmehta/Virtual-white-board-using-Google-pipeline-and-open-cv)**: Focuses on using Computer Vision and Google MediaPipe for automated whiteboard animation[6].
+
+### Useful Resources
+*   **GitHub Topic - [whiteboard-animation-videos](https://github.com/topics/whiteboard-animation-videos)**: You can browse this topic on GitHub to find a collection of repositories, tools, and apps related to creating doodle and whiteboard-style explainer videos[7].
+*   **GitHub Topic - [doodle-animation](https://github.com/topics/doodle-animation)**: A related topic that includes additional AI-powered projects for turning scripts into animated doodle-style videos[8].
+
+Most of these projects rely on core libraries like **OpenCV** for computer vision, **FFmpeg** for video rendering, and various **Generative AI** models for image/stroke generation[5][2][1][3].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3l2C8mY7dCoio5bwGXw2hylg51cHtit8TWjKnBzdvcbuIZFy9jUPenVXk9kQjZuPzI1V1nx61gF8SV1QpBZwv7a5RHnnVz9x0kqj6G_pNr-ZXQyxCEqBgk0jKYHHYDewW92XZGOYqrmU=)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYdYh7MEbiLRDpyDUzm9_SB_23DY9GDB1LxqpFQNWUo7bLtg3DW-5vVkioJpktCxbgEXn4v-Rt3BlZaNch8tIrtmSIcks8AasUfuJum-U5tw7ILVA1aRCO4NM=)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbOm1tCmegkHfJdQqqcNw7tRVsWPD62_r7PYW-cqvv_RzQ6DJzMOkA5fIRyDvKaKn0SZ7YDlBOMTsQ9LrJrrShR9dki96l3wW7A0T7Bl8DpQbHbQSUSDCpXSkRJtHFvj8rXja1LuCvhn4=)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCiNbit-J4YhzyeEnLL1BAgq2ZH2Vi4t6E6j6QnxkDlZZDfixLeSj2w-vCL-CU8e-uMNIQITg3y3XJBdS8JrnqxJuxq0obBKeshnmZyGEw5F0R7c3JJcCoykB3lKQ_MtQR7WVES5kIwZwTncawxmmkL0DYfCAavC3JRGnmaJSAcM6tzdc=)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_ygw_2G4tJ3-BL75XE76kXziCOwsuuRwLcWo_jAsgL5KnUF0xzu4pHUqaPPkJYx-PdA7ZG3ScEUAlKI1KA1geUK0HqYkiDhlpOYIcDsVQQ9PjxuEaDF4kPMvB8hTZop2oUdV_qexHQDo=)
+[6] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErvBOdO2Ic9qYMVdc1EBG5rHWINVjzVHMPtqoAkQ7RISAdJNa95_DsNqf5LF3P5A86Q81Fzgy4nkGymSeBAMiYtB8Q8wTvUwjwCoxybiFGwU9dBsN-ZCeoHLea9y3vrOjiGBpbW1GDIuqpGI0vuwUFLp_op-HZQ2YXn9ceYt8r8G9kT06QdAk=)
+[7] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3DsyjnZSaCUAzEgiDUjNNO0uWUor-mzSsQ5D5MSuyl09IGW9GbfFNxJo-wJYd6PA59f3NC_8xguPTMxfDYtKSchf3kl_2uaGRQFt86OzZbPEqIEp6Y7G0h0EyUxnav_pHm1aw59zqxVQDkg==)
+[8] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBjAVha_iXZ4y_Ljv4rSZ9Z_inFpNIjI3W9WEqdM_2C7yfbx0DPH1byzHCBOOIyl9EMclMwlf2xz6heE10XISnHTAzu_Tu7pKZnQyM8EViUQtMxjtLKk4IE_4TjiVJlTY=)

@@ -1,0 +1,13 @@
+The search for ""Pinwheel" phone exact features SOS calls GPS tracking approved contacts browser block" returned the following summary:
+Pinwheel phones are designed as "kid-safe" smartphones with a focus on parental management and safety. Below are the details regarding the specific features you requested:
+
+### **Key Features**
+*   **Approved Contacts (Safelist):** Pinwheel utilizes a "Contact Safelist" system managed by parents via the Caregiver Portal. You can explicitly approve or reject contacts, ensuring your child can only communicate with people you have vetted. You can also designate specific numbers as "emergency contacts" that remain available at all times, regardless of the phone’s schedule modes.
+*   **Browser Block:** Pinwheel phones do **not** have a web browser. The operating system is modified to remove internet browsing capabilities entirely to prevent access to inappropriate content and social media. Note that while the browser is blocked, certain specific apps (like educational tools) may occasionally require their own built-in, limited web view to function, but general web surfing is restricted.
+*   **GPS Tracking:** The phones include GPS location tracking, allowing parents to see their child's location and recent history through the Caregiver Portal.
+*   **SOS/Emergency Calls:** Pinwheel phones support emergency calling. Depending on the specific hardware, some models may have dedicated settings for emergency functionality. For example, emergency contacts (set in your portal) can be made available even when other parts of the phone are restricted by scheduled "modes."
+
+### **Additional Parental Controls**
+*   **Remote Management:** Through the Caregiver Portal (available via web or app), you can monitor your child’s text message history and call logs, even if messages are deleted on the child's device.
+*   **App Library:** Rather than an open app store, Pinwheel provides a curated, therapist-vetted library of apps. Parents choose which apps to install, and there is no social media access.
+*   **Custom Scheduling:** You can set "modes" (schedules) for the phone, controlling which apps and contacts are available at specific times of the day (e.g., restricting access during school hours or at night, while keeping the phone functional as an alarm clock or emergency communication device).

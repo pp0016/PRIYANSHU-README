@@ -1,0 +1,34 @@
+The search for "Multi-Head Latent Attention MLA DeepSeek KV cache compression technique VRAM savings 2025 2026" returned the following summary:
+**Multi-Head Latent Attention (MLA)** is a memory-efficient attention mechanism introduced by DeepSeek (first appearing in DeepSeek-V2 and utilized in V3 and R1) to solve the "KV cache bottleneck" in Large Language Models (LLMs)[1][2][3].
+
+### How MLA Works: KV Cache Compression
+In standard Multi-Head Attention (MHA), the Key (K) and Value (V) states for every token are stored in VRAM, which grows linearly with sequence length and quickly exhausts GPU memory[1][4]. 
+
+MLA reduces this memory footprint through two primary techniques:
+
+1.  **Low-Rank Key-Value Compression:** Instead of storing large, high-dimensional K and V vectors for every head, MLA projects these into a single, compact **shared latent vector**[1][5][6]. Only this significantly smaller latent vector is stored in the KV cache[5][7].
+2.  **On-Demand Reconstruction (Weight Absorption):** During inference, the model reconstructs the full K and V vectors from the compressed latent state as needed[2][6]. A "weight absorption" trick allows these projection matrices to be folded into other parts of the attention mechanism, minimizing the computational overhead of this reconstruction[5][8][9].
+
+### VRAM Savings and Performance (2025–2026)
+*   **Massive Footprint Reduction:** MLA has been reported to reduce the KV cache size by **up to ~93% to 98%** compared to standard Multi-Head Attention (MHA)[9][10][6].
+*   **Increased Concurrency:** By drastically shrinking the cache, MLA allows for much longer context lengths and higher user concurrency on the same hardware[11][6]. For example, a system that could only handle 1–2 users at a specific context length with GQA (Grouped-Query Attention) may be able to support 8–9 users using MLA with the same memory budget[6].
+*   **Performance vs. GQA:** While GQA is a popular alternative that shares KV heads to save memory, it can sometimes lead to slight degradation in model quality[2][12]. MLA maintains higher modeling performance than MHA while simultaneously achieving superior memory efficiency compared to GQA, making it a highly desirable architecture for modern, long-context LLMs[2][13][14].
+
+### Wider Adoption
+By 2025 and 2026, the success of DeepSeek's models has led to increased interest in migrating other models to this structure[13][10]. Tools and frameworks like **TransMLA** have been developed to convert GQA-based models (like LLaMA or Mistral) into an MLA-compatible format to leverage these VRAM savings and inference speedups[13][10]. Additionally, optimized backends like **vLLM** and **SGLang** have integrated support for MLA to maximize throughput on modern GPUs (such as H200s and Blackwell architectures)[13][11][6].
+
+Sources:
+[1] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQooOb30RuIUsvkcc8Urt3m6OJ6T49Vu7UgHofKMiXmPPdIIfdYQomeAZ7u_BOnASUjjMNe1ISqiShCvBWNOq5P6gWYz-00MNuQHuNJyMo2wssk3jh60Kgjef6rsz2h7LYK23qw5bh5nXDA1gDkcIo09-XI2MmxaqNeeKSaAABRJVCNjjEQfPgvNhNeonObkBqslWEJxNAs7TUPmCC0gxyeX5d-Ob066RIjEMh2gEn7z0WQWlT)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8MQXRp_VwFghYtlUbNkPTrMOltJUenBttaAhaPNiXbnM7nlfZZnYAs-sOwlcoNzuAUZfQZx_WYXltWHgmeBuUGRVeKS63thfOy5vliOdVUMwZcNsNrrr7tGjOcbkEhr94yYeF0WscPAms0dTq_JVPSX39mq8Ln36UbPEYy0Q8Lw==)
+[3] [github.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbKKvQ7ZF8DZiv8Djm12OhkpW5uNg8MoOv_cS4vINB56La3wc3QGqG8TYuIcYTsZer4vphF90an6k3aikk8yCN-KIGYqq-6J7PMdHzxgTbuqrIlSW-CShlhKQ8_k_DmkkzaoJoN9wLzAr2tE_kuLn-bCX-1TIZ)
+[4] [bonginn.me](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKq2bX7nhDUYlwXoFWCLVesL3TZm5vHKxAGJl2whnufoiiRr2Vq4rnFORhGD4-Ak2paNMv0MsqTnHtOYSe97v0s4DZveanDc5ZnqMAcjEmFskkaA==)
+[5] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1-wg51Vbte9c4CFfMgVBmbBAHTyNJPstNq7tdIKQLrezI0DGts1hVYF1Iqc8CPWx2lXOmU5JuPTOtkzfnTAVfNpfxp8glQxXX0N685wlDRNZre5tpkMsOLs2Hua28ivfG)
+[6] [spheron.network](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPhXON5aQZdyOkStuVg3-_jXeiHGy01AYpXQBp2pKvW2GlLxB5XV0tPfM_kbwl6QULG7fJTKVsBb9_Ys_NgQ1Ac-H-38ZFSLrPP_f66-u-6ULYsnqnYmIrhzJTLd_s3aA22V6Ji2uRcRFPcvSQuQf8wKgBfjIkCwcoltY__pDMs2k=)
+[7] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5lCxFL86yKdTW_in0hw1c31xYNuM1KR2ecypffpJuphxdrBp1BTdvsGHTBIZILV1-19yc5jsYH_GXTkfZ3UP51d0bcMhNetlqKA88AWYxo_i4yEUpoNjdLaqabOC7dDNmPkGxh9EcaG1bOv7Uc5GFWeb6Q1_EOvHEAk231j0D)
+[8] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHICMUMUpRAV83brmxlmLJqqhLWLnaQsIqZbNXXDhGLIYhzCLPPyXbwHX8YAeHJHrX_IBGhE60_bJpfL43Dn8Viy--A01IAhGi1URuK8FGRIFti8mzTomk0IaivFLS-_UTfb6WVfd8eunNRGlUhXLAumlCVz2X8x5osKJtgwisGVKPF__jH-XKCWM6cmZ539N8Rij2jjaKmBD_TDufWd927sA==)
+[9] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZ7s4Wd1bfE1N1AeWafQQfEuGyirFnWp10Z9Prr2rJ_0BeEi5IZBenFfddxKtzTD7lGj0FJBjeeHOE3EwpuGUSLtYGyZEey8jjWqtspm39LOvD4o3vo-U6p-Lp5VbrfyZj)
+[10] [arxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-O2HCQFBNtEwkBD9MKuIn7N8D2vECDKiDjeiMUTMbDtXxfz398C30Dl25GBF_Arr0ytRUJhFe8ddQgHTIEFzL_VWQlgFVbx3q9SQsOtWFDVveWMs3Pk6Jjg==)
+[11] [semianalysis.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUbUkKYTfiONY7d30na0tCrT3R1GVucmcb_IJCzg3GDcMQykcyoMSXw_qUkl39Z7vD3j77unrP9nj7pw14g41_3fDUpr8QvyuleVaAxtGoscKJdnDx4XY2NlDBI2SuAOFdXl005Ip14hPoRUvTdIbXZv5ILZtbZjHyquVlvtQ=)
+[12] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8MQXRp_VwFghYtlUbNkPTrMOltJUenBttaAhaPNiXbnM7nlfZZnYAs-sOwlcoNzuAUZfQZx_WYXltWHgmeBuUGRVeKS63thfOy5vliOdVUMwZcNsNrrr7tGjOcbkEhr94yYeF0WscPAms0dTq_JVPSX39mq8Ln36UbPEYy0Q8Lw==)
+[13] [arxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEAPLdQkR5PWXnj6s6Orlc-XSLrkh0Xgg0A0EdmJLzTGHPDEyTklAH5UKDh2kXrRh_Z1BeGYiD2GGAvfixUhDgkY1V-zRrLvAHGM5_HebW9qJ2yVUzOw==)
+[14] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8MQXRp_VwFghYtlUbNkPTrMOltJUenBttaAhaPNiXbnM7nlfZZnYAs-sOwlcoNzuAUZfQZx_WYXltWHgmeBuUGRVeKS63thfOy5vliOdVUMwZcNsNrrr7tGjOcbkEhr94yYeF0WscPAms0dTq_JVPSX39mq8Ln36UbPEYy0Q8Lw==)

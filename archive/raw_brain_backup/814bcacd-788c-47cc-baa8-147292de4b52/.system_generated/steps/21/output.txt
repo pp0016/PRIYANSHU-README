@@ -1,0 +1,20 @@
+The search for "Apple MLX framework LLM performance 2025 2026 unified memory benchmark tokens per second" returned the following summary:
+As of late 2026, the **Apple MLX framework** has established itself as the leading native framework for running Large Language Models (LLMs) on Apple Silicon, largely due to its deep integration with the **Unified Memory Architecture (UMA)**.
+
+### Performance & Benchmarks (2025–2026)
+MLX has matured significantly since its 2023 release, with 2026 benchmarks showing it frequently outperforming other runtimes like `llama.cpp` (Metal backend) on M-series hardware.
+
+*   **Throughput Gains:** On M5-generation chips, MLX is reported to be **30–60% faster** than `llama.cpp` for most workloads and **3–4× faster for prompt processing** (prefill), thanks to its ability to utilize the Neural Accelerators embedded in the M5 GPU cores.
+*   **Decode Performance:** For models in the 14B–32B parameter range, MLX typically provides a **10–20% increase in tokens per second** compared to other backends. On M5 Max hardware, specific tests on sparse models (e.g., 35B-class) have shown decode speeds exceeding **110 tokens per second** (up from ~58 tok/s in less-optimized configurations).
+*   **Efficiency:** Because MLX was designed from the ground up for unified memory, it eliminates the overhead of copying data between CPU and GPU memory pools. This "zero-copy" approach allows developers to run large models (like 70B parameter models at 4-bit quantization) that would otherwise require high-end discrete GPUs with massive dedicated VRAM.
+*   **Scaling:** For smaller models (<14B parameters), MLX leads by margins of **20–87%** in some throughput scenarios. As model size increases beyond 27B–30B, the performance gap between MLX and `llama.cpp` often narrows, as memory bandwidth becomes the primary bottleneck rather than framework optimization.
+
+### Key Drivers of Performance
+1.  **Unified Memory Architecture (UMA):** By sharing a single memory pool across the CPU, GPU, and Neural Engine, MLX avoids the PCIe bus bottlenecks found in traditional discrete GPU setups.
+2.  **Neural Accelerators (M5):** MLX leverages the dedicated matrix-multiplication hardware in M5 chips via Metal 4, which is a major contributor to the gains in "Time to First Token" and prefill speeds observed in 2026.
+3.  **Lazy Evaluation:** MLX uses a lazy computation graph, allowing it to fuse operations and optimize memory usage dynamically before execution, which reduces peak memory footprint and improves inference efficiency.
+
+### Practical Implementation
+*   **Recommended Stack:** For most users, **Ollama (version 0.19+)** is the recommended choice as it now uses an MLX backend by default on Apple Silicon, offering a balance of ease-of-use and high performance.
+*   **Developer Choice:** For maximum performance or custom fine-tuning, developers interact directly with **MLX-LM** (a library built on top of MLX).
+*   **Benchmarks:** You can find comprehensive, up-to-date performance figures (tokens per second) across various M-series chips (M1–M6) and models through community-maintained resources like **llmcheck**, which tracks real-world benchmark data.

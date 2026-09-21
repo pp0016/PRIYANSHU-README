@@ -1,0 +1,62 @@
+
+The command exited with code 1.
+Output:
+============================================================
+  IMAGE POPUP VIDEO GENERATOR v2
+============================================================
+
+[1/4] Segmenting objects...
+  Image size: 1024x571
+  Raw connected components: 57
+  Object 0: area=51193, center=(504,253), size=(312, 571), bbox=(335,0)-(647,571)
+  Object 1: area=39191, center=(779,69), size=(364, 194), bbox=(605,0)-(969,194)
+  Object 2: area=34483, center=(198,124), size=(310, 240), bbox=(57,14)-(367,254)
+  Object 3: area=10274, center=(998,314), size=(77, 249), bbox=(947,190)-(1024,439)
+  Object 4: area=32897, center=(245,333), size=(260, 237), bbox=(114,203)-(374,440)
+  Object 5: area=6360, center=(27,292), size=(89, 174), bbox=(0,223)-(89,397)
+  Object 6: area=43709, center=(816,375), size=(289, 317), bbox=(658,226)-(947,543)
+  Object 7: area=26953, center=(104,508), size=(246, 156), bbox=(0,415)-(246,571)
+  Object 8: area=13974, center=(692,532), size=(275, 130), bbox=(555,441)-(830,571)
+  Object 9: area=3844, center=(331,548), size=(134, 69), bbox=(264,502)-(398,571)
+  Total usable objects: 10
+  Background saved: C:\Users\renu5\.gemini\antigravity\scratch\popup-project\clean_background.png
+  Debug mask saved: C:\Users\renu5\.gemini\antigravity\scratch\popup-project\debug_fg_mask.png
+
+[2/4] Building animation timeline...
+  Objects: 10
+  Duration: 9.3s
+
+[3/4] Generating sound effects...
+
+[4/4] Rendering frames...
+  Frame 0/279 (0.0s)
+  Frame 30/279 (1.0s)
+  Frame 60/279 (2.0s)
+  Frame 90/279 (3.0s)
+  Frame 120/279 (4.0s)
+  Frame 150/279 (5.0s)
+  Frame 180/279 (6.0s)
+  Frame 210/279 (7.0s)
+  Frame 240/279 (8.0s)
+  Frame 270/279 (9.0s)
+
+  Encoding video with MoviePy v2...
+MoviePy - Building video C:\Users\renu5\.gemini\antigravity\scratch\popup-project\popup_animation.mp4.
+MoviePy - Writing audio in popup_animationTEMP_MPY_wvf_snd.mp4
+chunk:   0%|          | 0/206 [00:00<?, ?it/s, now=None]chunk:  51%|#####     | 105/206 [00:00<00:00, 552.25it/s, now=None]chunk:  80%|########  | 165/206 [00:00<00:00, 564.87it/s, now=None]                                                                   MoviePy - Done.
+MoviePy - Writing video C:\Users\renu5\.gemini\antigravity\scratch\popup-project\popup_animation.mp4
+
+frame_index:   0%|          | 0/278 [00:00<?, ?it/s, now=None]frame_index:   2%|2         | 6/278 [00:00<00:04, 59.97it/s, now=None]frame_index:   7%|6         | 19/278 [00:00<00:02, 97.52it/s, now=None]frame_index:  15%|#5        | 42/278 [00:00<00:01, 154.99it/s, now=None]frame_index:  23%|##2       | 63/278 [00:00<00:01, 159.41it/s, now=None]frame_index:  28%|##8       | 79/278 [00:00<00:01, 115.13it/s, now=None]frame_index:  34%|###3      | 94/278 [00:00<00:01, 123.31it/s, now=None]frame_index:  39%|###8      | 108/278 [00:00<00:01, 112.12it/s, now=None]frame_index:  44%|####4     | 123/278 [00:01<00:01, 120.32it/s, now=None]frame_index:  51%|#####     | 141/278 [00:01<00:01, 134.26it/s, now=None]frame_index:  57%|#####7    | 159/278 [00:01<00:00, 143.34it/s, now=None]frame_index:  63%|######2   | 175/278 [00:01<00:00, 145.58it/s, now=None]frame_index:  68%|######8   | 190/278 [00:01<00:00, 142.60it/s, now=None]frame_index:  74%|#######4  | 207/278 [00:01<00:00, 149.96it/s, now=None]frame_index:  80%|########  | 223/278 [00:01<00:00, 149.62it/s, now=None]frame_index:  87%|########6 | 241/278 [00:01<00:00, 156.67it/s, now=None]frame_index:  94%|#########4| 262/278 [00:01<00:00, 171.18it/s, now=None]                                                                         MoviePy - Done !
+MoviePy - video ready C:\Users\renu5\.gemini\antigravity\scratch\popup-project\popup_animation.mp4
+
+============================================================
+Traceback (most recent call last):
+  File "C:\Users\renu5\.gemini\antigravity\scratch\popup-project\popup_video.py", line 390, in <module>
+    build_popup_video(
+  File "C:\Users\renu5\.gemini\antigravity\scratch\popup-project\popup_video.py", line 378, in build_popup_video
+    print(f"  \u2705 DONE! Video saved: {output_path}")
+  File "C:\Users\renu5\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 2: character maps to <undefined>
+

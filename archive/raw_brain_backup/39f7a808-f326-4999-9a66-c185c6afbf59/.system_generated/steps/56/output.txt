@@ -1,0 +1,41 @@
+The search for ""manim" "add_sound" sound effects" returned the following summary:
+To add sound effects to your Manim animations, you can use the `self.add_sound()` method within your `Scene` class[1][2].
+
+### How to use `add_sound()`
+The `add_sound()` method allows you to play audio files (such as `.wav` or `.mp3`) during your animation[3][2].
+
+```python
+from manim import *
+
+class SoundExample(Scene):
+    def construct(self):
+        dot = Dot().set_color(GREEN)
+        
+        # Adds the sound file to the animation at the current time
+        self.add_sound("click.wav") 
+        self.add(dot)
+        self.wait()
+        
+        self.add_sound("click.wav")
+        dot.set_color(BLUE)
+        self.wait()
+```
+
+### Key Details
+*   **File Path:** Manim looks for audio files in your configured `assets_dir`[4][5]. It is common practice to create an `assets/sounds` folder in your project directory and place your audio files there[3].
+*   **Parameters:**
+    *   `sound_file`: The path to your audio file[2].
+    *   `time_offset`: Allows you to shift the start time of the sound relative to the current animation time[2].
+    *   `gain`: Adjusts the volume/amplification of the sound clip[6][2].
+*   **Limitations:** Manim is primarily an animation engine, not a full-featured video editor[7]. The `add_sound` method is designed for simple triggers[6][2]. It does not support advanced audio features like pausing, stopping, or complex mixing[6][2].
+*   **Recommendation:** If you need to perform complex audio editing, syncing, or mixing, it is highly recommended to render your animation without sound in Manim and then add the audio track using dedicated video editing software[8][7].
+
+Sources:
+[1] [manim.community](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrtxoJkxFcYHqsqZ-L9uA40B2DqTw8gPJ9gsIRwcCVUIdwrwzwPAuBGKi7OUbdWoiIGCRUmnjX4t3qi7D1cYR9H2xRXlopyvfUml8NwNpl2Cryt76Sv4J_HYP0xO5ciYW3tYOOyyXEkYiKMmlNMqU46QRyRe6Bx8jZ9Z8SWW69a-a8)
+[2] [manim.community](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6CCovKh7BlPdpCzxDpcbjT5iipzHYkVn-lC5V2I8Mo4a3vrhfKlS1aNXafe_ayTBi9qvHFjuqSyECp5Pabj7Pm5fvn9V8KyhDX2uuKtL9O8pEN3mAAPuWG4qpCinP0BJe1igB4ob7N02zz6YY_Pa9H9FVxukUkNaLJFY=)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaIQGxqEkue4MZT2O5wWXrhIUDB-FhDGYoMpMjp_bLaljg-1i3HJOd8lPRRgYH2GinaKDkE6jmzvpVJskxuf_iaUAgyPmlhNTEj89DN6hCej6bRLkTFzciAQIlwQ4=)
+[4] [manim.community](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqD03ozFumex74gi38Pye_nkQjuFZdn3pRVkGyqpM1MCO4WrjnTBDz_B2Z_BKa6dEY42A8TBFEtdJjENOWFDaP2HWdtov1WgSHQaZQ2Ox1LCohLkbMj-YAY_d8wlTMAq2IkIpVYAEXrHIU0WIl3ewLmc4lRsnu4bVQIJKL)
+[5] [manim.community](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqD03ozFumex74gi38Pye_nkQjuFZdn3pRVkGyqpM1MCO4WrjnTBDz_B2Z_BKa6dEY42A8TBFEtdJjENOWFDaP2HWdtov1WgSHQaZQ2Ox1LCohLkbMj-YAY_d8wlTMAq2IkIpVYAEXrHIU0WIl3ewLmc4lRsnu4bVQIJKL)
+[6] [stackoverflow.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBSO3v6JF5jBnbSPSZD1jEU9Sd3sj_vYMES7ZPSl79hPcSWKb815Sg9J0_YbzOkfQR7Gh5St7TSnh6ZgmC2qnxHzqjyiqcsgJbMcf84MU4vGyFXud0BEfdKhVxTvqtMuswiGh-4Yvd_LYZtw4HoDJv3I7PbdVMC717Qd-pyees6_1SuGWdFqmK)
+[7] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaIQGxqEkue4MZT2O5wWXrhIUDB-FhDGYoMpMjp_bLaljg-1i3HJOd8lPRRgYH2GinaKDkE6jmzvpVJskxuf_iaUAgyPmlhNTEj89DN6hCej6bRLkTFzciAQIlwQ4=)
+[8] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaIQGxqEkue4MZT2O5wWXrhIUDB-FhDGYoMpMjp_bLaljg-1i3HJOd8lPRRgYH2GinaKDkE6jmzvpVJskxuf_iaUAgyPmlhNTEj89DN6hCej6bRLkTFzciAQIlwQ4=)

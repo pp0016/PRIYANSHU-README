@@ -1,0 +1,13 @@
+The search for "site:jeffgeerling.com "1.5 TB of VRAM on Mac Studio"" returned the following summary:
+The blog post titled **"1.5 TB of VRAM on Mac Studio - RDMA over Thunderbolt 5"** was published by Jeff Geerling on **December 18, 2025**[1][2].
+
+In this post, Geerling explores a Mac Studio cluster configured with a total of **1.5 TB of unified memory**[1]. He tests the setup using **RDMA (Remote Direct Memory Access) over Thunderbolt 5**, a feature introduced in macOS 26.2, which allows the cluster of Macs to function as if they share one massive pool of memory[1]. By lowering memory access latency from 300μs to under 50μs, this configuration significantly improves performance for running large AI models[1].
+
+Key details from the project include:
+* **Hardware:** The cluster consisted of four Mac Studios[1]. The two bottom units featured 512 GB of unified memory each, while the two top units had half that amount[1].
+* **Tooling:** He utilized **Exo 1.0**, an open-source private AI clustering tool, to facilitate the testing[1].
+* **Context:** Geerling notes that while the setup is expensive (costing nearly $40,000), it offers a compelling alternative to professional AI hardware solutions from Nvidia or AMD by providing a significantly larger memory pool for local AI inference[1].
+
+Sources:
+[1] [jeffgeerling.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIV7DcudKZjtsiOmKekkGyvb2KorxBNcMRtk-0LKXvT1ovM85obEiNgcon56LRBiJDCBun5fLpd2tzvw8wtpvVPi2yOS1S7ewxcwZa9nIsr8LTmiAIegigVMQr82ueJN_fl6FUNn2OpETge_bSUPZl6e6iuDx7mH3sCwDa-5FJd2iGI10ZEzfpbz19R5Kq)
+[2] [jeffgeerling.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZrQ5NUEN5moxjhjbx3T9XNNNXyxiJBYYH2X2FqyOCuucu3LilrSTwF8B3wjIaV_ZaKzPg2leMqOt6OjynwIPUro0lybM1Yhi_p6GjHHrrzl7Q--s0Wq_TZV6e9F38q5e6364=)

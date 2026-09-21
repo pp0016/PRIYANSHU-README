@@ -1,0 +1,36 @@
+The search for "github "videoscribe" OR "doodly" "react"" returned the following summary:
+If you are looking for open-source alternatives or React-based solutions similar to **VideoScribe** or **Doodly**, there is no single "drop-in" open-source library that perfectly replicates their full GUI-based whiteboard animation experience. However, there are several ways to approach this using React and related animation technologies:
+
+### 1. Programmatic Video Creation (The "React Way")
+If you want to build your own whiteboard-style animation tool using code, the industry standard in the React ecosystem is **[Remotion](https://www.remotion.dev/)**[1][2].
+*   **Why it fits:** It allows you to create videos programmatically using React, CSS, and TypeScript[2][3]. You can control every frame, making it powerful for building custom animation engines[1].
+*   **Use case:** If you are building a platform where users generate explainer videos, Remotion is the primary library used by developers to handle the rendering and composition of these animations[3][4].
+
+### 2. Animation Libraries for Interactivity
+To achieve the "hand-drawn" or "smooth reveal" effects often seen in whiteboard software, you can leverage these React-friendly animation libraries:
+*   **[Framer Motion](https://www.framer.com/motion/):** Excellent for SVG animations, path tracing, and complex transitions[1][5]. Its built-in SVG animation capabilities are often used to simulate drawing effects[1].
+*   **[React Spring](https://www.react-spring.dev/):** A physics-based animation library that is great for creating natural, fluid motion in UI components[4].
+*   **[Lottie (lottie-react)](https://airbnb.io/lottie/):** While not a "whiteboard" tool itself, Lottie is widely used to play high-quality, pre-made vector animations (often created in Adobe After Effects) that can simulate hand-drawn motions[6].
+
+### 3. Relevant GitHub Projects & Discussions
+*   **[Remotion](https://github.com/remotion-dev/remotion):** Widely regarded as the best way to handle video production within the React ecosystem[3][4].
+*   **Community Interest:** Developers frequently discuss building "Doodly/VideoScribe" alternatives on GitHub[7]. While there isn't a dominant open-source competitor, many projects (such as those using Electron + React) are built as custom whiteboard applications[8][9].
+*   **Concept Projects:** Searching GitHub for "Doodly" or "VideoScribe" often surfaces student projects or proof-of-concept whiteboard drawing apps[8][9][10], but these are typically niche applications rather than full-featured professional software suites.
+
+### Recommendation
+*   **If you want to build a tool:** Use **[Remotion](https://www.remotion.dev/)** combined with **[Framer Motion](https://www.framer.com/motion/)** for the animations[1][3]. This stack gives you the programmatic control to build your own "animation timeline" logic.
+*   **If you need a tool for production:** Stick with established software like VideoScribe or Doodly, as they handle the complex vector-path and asset-management requirements that would be extremely time-consuming to build from scratch[11][12].
+
+Sources:
+[1] [geeksforgeeks.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQVZW6zEIr6dQAC8k4Hr4oeClmza5U9fGO6bQpVAINulk1_cpyJpW-U30iWTb00HvSkIvcmIIyj5HUN2QQqncl5ZLGlrcY7Bi7U2rISBN5Yq0YjdcOsXwUUAOtQ3hBRF8mMpytCCghHU0kY4WhN5t689CB4R4SkRyJRSy32g==)
+[2] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8xw7GtlkE7tRlIZpd-Zj_kkNk4f6KvHtiHPtSZtRVNNpDaj2-oml5VVSvajNCSVL5bMww1fvesBcxrk9bKhPlkkqthux0-JqG8g2Ol2PTKG7UQ4CJ9q6-yvDlhxGirTRGlRGOmtoiWrts7zTs79pi610GnfkILFUc7T8-XrITFxXnUlRMiN6Accr5d-n2w==)
+[3] [dev.to](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDeEeBgoEulBF_VREvqY_eGIP_W5gWu_Ci2k76NWLabM7D-j_cBzh39ENTs-b5VTKJdP3fpNPE1bdm87z0AahLKguxbYwQWuw35bHStuS4qmXUMlDYnBRBhcYfkLoKVC1739qhzuMaA0wx1L_Vritix9h4SWbSdUsP9-3SzxKaT1FSS19FgNz4WxueiCjRL9QQR4w=)
+[4] [plainenglish.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyGbBgYkL-rMcsUE5TLDL-YZpL5mnFxzwCXnQwSxQSzR9qLik-BZ_eImpVWrHHFgP5UQQ3escmcNEUHgAQ6ZUFe7k1Q6IfuiiihX4AfxtzmmsLOVf1wXmBUV_MDYdgyvXDtmat5v1lxfCRj0hLnC6rrDUZM9oo4-nq4LmrNpfxqVzah-D5NXIs2A==)
+[5] [motion.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMDXj_II5aCC2z8KtmkFMK_IGTobfvnotVh_J6XcKDp1RUxczXUiKxC5uIpXS1QbkqLvRp-totXs6Quxb3FgVQfs1oXxM8YvPu)
+[6] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDWet9YjgmImTIcGv6h0ZeZwCGNf_qiN4zPx3U4hMgV_RDa-aq4VplHtHTa_6oUPH9PYZDLXH-ryYo41Atmd1DXx56cmqg7jKXs3sHmQQ2KfJNUIBuvOM7gOfeCVAwzu2U)
+[7] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFynUjkEgbNime32ZO0D49-r4D7vb-xU8Si6rO2fJwLwhmbhAbOUUaTpdPYSLmY8z_8HU6IhnW8FrLLvk832JD-H5duBz3OSwYUbp_KrGvbFcphRAmuFVVKafaBAO34iiiTF7anjLEfY3eS_oMPFufD)
+[8] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUECF6Dy7a_82iw3re3IfHUF6Qk6zvcUL-7FMTxs2CVj5rjDio8LD9mkm6L6rGDM4rlUWRt1lkuW7s8kPfg2OeYpi_GJDNEkowcGyB73KwU6M=)
+[9] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsCSOjsvwlD0-2YNtXQmkhXCoftAGYHhP3SMdaoXIN0-3-Wz83lCEMEKdpMQOcxVc4d_Y1My_a6iNG3spTo3IPdxyZsCQj0ao0kMPZDIZOXIpgvqyklBnFh9bzS59-KA==)
+[10] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUW-aRWNEXzTZa5C3u4F-D6ccwjb3Y4de_c9Y_Hf5DJ9ZRTtSmiVKMozfjS1djvvhtn296QiiMVLc-Nx_8UHgR2L7GOIokoiw88yO4UuaXF7-OB-QxOeY=)
+[11] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDTA7bq70bmViHRKOnsmdNYR__u_HhSF-3MyN58kRvkHHxF4EYRHC2O4uyxk3jKIJ3vmTgpEVZCCwJTBvvnbIA90AUoQq_sA9g4z3TOfuQJQRyzBJ4O7PTx-DY6a6yKjhp9xuobLqtQqhOF2l3qZXayOHb24ytVNIHE0Jpf-uJpctSfVMCL2CmHZYniiHpY_d6jFisgdxTTA4DBl0=)
+[12] [magicbell.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW7pt4IJlmdjBpDGKOueYr1T_Y_JIrGp_HlSVXqFajv6Dc46dhY_YTTx6zqd6LcFXYhaEOCVNJH5aroMQeSj8wShZke-eDkJXo2w_CKnaKu-ZHAKhU0Zpwnt9vaGwn_2kZgAKgGm4PYOWb2-Rj2N-eDby4jMY=)

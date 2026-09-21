@@ -1,0 +1,37 @@
+The search for "BitNet b1.58 Microsoft research paper 2025 2026 results benchmark ternary weights" returned the following summary:
+The **BitNet b1.58** architecture, developed by Microsoft Research, represents a significant shift in large language model (LLM) efficiency by using **ternary weights** ({-1, 0, +1}) trained from scratch[1][2][3]. Because three states can be represented by $\log_2(3) \approx 1.58$ bits, this approach is often referred to as "1.58-bit" quantization[2][3][4].
+
+### Key Results and Performance Benchmarks
+
+*   **Performance Parity:** The **BitNet b1.58 2B4T** model (2 billion parameters, trained on 4 trillion tokens) demonstrates performance on par with leading full-precision (FP16/BF16) models of similar size across various benchmarks, including language understanding, mathematical reasoning, and coding[1][5][6].
+*   **Computational Efficiency:**
+    *   **Inference Speed:** Using the `bitnet.cpp` framework, BitNet b1.58 achieves significant speedups compared to full-precision baselines: **2.37x to 6.17x on x86 CPUs** and **1.37x to 5.07x on ARM CPUs**[7][8][9].
+    *   **Energy Savings:** Energy consumption is reduced by **71.9% to 82.2% on x86** and **55.4% to 70.0% on ARM** platforms[7][8][9].
+    *   **Memory Footprint:** The 2B model fits into approximately 700 MB of disk space, offering a 10–15x reduction in memory footprint compared to traditional FP16 models[2][10].
+*   **Scalability:** The architecture has been shown to support massive scales, with researchers demonstrating that a **100B parameter BitNet b1.58 model** can run on a single CPU at approximately 5–7 tokens per second—comparable to human reading speed[2][11][9].
+
+### Important Research & Development Timeline
+*   **Foundational Paper (2024):** The initial research introduced the BitNet b1.58 architecture and the "BitLinear" layer, which replaces standard linear layers to enable native ternary training[12][4][13].
+*   **2B4T Model Release (April 2025):** Microsoft Research released the **BitNet b1.58 2B4T** technical report and open-source weights[1][14]. This model is considered the first official, natively trained 1-bit LLM at the 2B scale[5][9].
+*   **System Advancements (2025–2026):**
+    *   **bitnet.cpp:** The official inference framework has been continuously updated with optimized kernels for ternary matrix operations, GPU support (released May 2025), and further CPU optimizations[12][8].
+    *   **Extended Research:** Recent 2026 developments include advancements like **Sparse-BitNet**, which leverages the natural sparsity of ternary weights (where ~42% of weights are zero) to further boost performance[9].
+
+Unlike post-training quantization, which attempts to compress a model after it is fully trained, BitNet's ternary weights are learned directly during the pre-training process, eliminating much of the accuracy loss typically associated with extreme quantization[5][15][3].
+
+Sources:
+[1] [arxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwHdxy-83NMsaGacgKjJzvSYasdtttHOwWoFdH2MUloTbX_bAM5PLo3mTIj2LLSgS-RUguMFqSEQ0HkPWn2HxJE8FQy-0vl3ra2VDiyzJG9pqnNi41-oK23A==)
+[2] [aratech.ae](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9fjTabjT-DXZD78v-mkUoMnrNbjjJfX_umNwNklAqJKY_ChbtJxyOOfhBCjCmxWfCoTcQFXUWkcVXqfFXa3KLUL3P2SlxeCAeS2tGl5RiDaWHKhg_6E1tgBR3uzL0Bq_azunvhXx_lgj8J8kedQ3pBQQ=)
+[3] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnSdwLutLTXMSmauqLBq0a3Xo1YGf-dymISx3cE424CnaNuMFTYFZgQ_fEvZefuCHd799FRvItqaho5nwEse-JIa5zZvCEfu0-vr6RTabDmTIhbkjbPxpKOuHVjtnD8Eabu6yi-M6V7bAvSSZ6LhP4cPMUwDG3T6KBnlnNDJwfbeQC0fVFqXla4qiepTxKq6uY2oFttHzKscnpWltqjHg=)
+[4] [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEopLTJnzW_GkYyGJirinvEHob5RWCfXWEi-SuPMQllGv5yFswBelauZESyNKbWABE9VjqOUfKHVoUEDXdo8m-Uz46RyUa_pU2YuYK5CMVYQuDCrPbwlaUWSHwccOl6CClPqXXodKNYvMje8bF9MP9eTA==)
+[5] [huggingface.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJTxeINZLa5RDR4kZ2V92B9ydFUz-UbGqFKGsMS0l6ZSg0VRohrEgvowcuKXhmD6TelBfJHZzUxkBJvZiFxi5LU3xkHsalbz4KAtAmxFMo9hGW9oEfqn4wCbuI0tTW65DISgkJ_9yVdvU=)
+[6] [arxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwHdxy-83NMsaGacgKjJzvSYasdtttHOwWoFdH2MUloTbX_bAM5PLo3mTIj2LLSgS-RUguMFqSEQ0HkPWn2HxJE8FQy-0vl3ra2VDiyzJG9pqnNi41-oK23A==)
+[7] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKSWCidiv9mwlyqPoamr2Q0wrCSTdDUhJ_fBcyb-QRtOWnBxl98F0JmkdF2fA8wTLsufIsRid311zDY8dVgTI7KcXu7JIK6-j5as5R7z9vV3CTCRpS1FksyA==)
+[8] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKSWCidiv9mwlyqPoamr2Q0wrCSTdDUhJ_fBcyb-QRtOWnBxl98F0JmkdF2fA8wTLsufIsRid311zDY8dVgTI7KcXu7JIK6-j5as5R7z9vV3CTCRpS1FksyA==)
+[9] [gopubby.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgdwY1XYcXkOYEiP1hyHKz6M-Qn8TDbF6fXnPV1nnNfQLWrr5_BMhv2vYPUCjU9I-Cx1om2q_4l-YH0FG-ikRk5brTU4-SXrm3ZAxHaPrXnezuex6kSTxcVJk2qxJuOONEueH7Ud4jd5t_1ZO0qh81gz-FcPtXMo_yLpRaGn3c)
+[10] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH852Sj0bIwYp0jacacfIjpGltEGBB1kcyTJnV7vDeMwkir-GNJewpQqltyZ55DV6Q4z7ugvwQHvkZ1TO-BnPIW3HkFzuNducGWvohgJ0NQBGvt8pvjRguCjaVeGsGcHo_G-D0z5TdkCSNaghbExamHLWDdnkfVmcDY5j9zLSm9FQLtYEggdcU9-69wwnWkL2665ssnhtemZB21mVY7_zwZrKLlbNN5ste3ShcVBItlWEp5e0sf5BE=)
+[11] [aratech.ae](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9fjTabjT-DXZD78v-mkUoMnrNbjjJfX_umNwNklAqJKY_ChbtJxyOOfhBCjCmxWfCoTcQFXUWkcVXqfFXa3KLUL3P2SlxeCAeS2tGl5RiDaWHKhg_6E1tgBR3uzL0Bq_azunvhXx_lgj8J8kedQ3pBQQ=)
+[12] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKSWCidiv9mwlyqPoamr2Q0wrCSTdDUhJ_fBcyb-QRtOWnBxl98F0JmkdF2fA8wTLsufIsRid311zDY8dVgTI7KcXu7JIK6-j5as5R7z9vV3CTCRpS1FksyA==)
+[13] [jmlr.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoX2CIx0FoBkhtxx2r0nCA8m64rJpAOofIlcGcr7Ch_H2FLd-0QK3_akwT4wv0VkGbYAoQVPMS8AkLVWvzRRyHlb6Yrw5aagMyRZXcPxG6pYwxWTiialwyKwGE0bZ6jJurPQ==)
+[14] [arxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdzbqOSbt_2ENFwQydT3buAulC5TMVZn7HRgM1_VlroQt45P774INVxrlmpYAxZyv4cwsUmk4pN-5C_bXmnd6-V_j8_PZTglnFwoEVMSxNNMBAISu44A==)
+[15] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4_tqlsX9cEvQ6J2cp4H32FSAY9796ZcVJ6bJB6poC1J0PcWwbOzCVAu4ZRG6LC-PdmxMpPCYAHGUIB9tA-KioikTlWAsjDDgbgZk_oMpEPIohaWBtv2BmdeM5ZX8BHbX805S42uQmDyrAI21tWiK4Q6lrYaubN9UzCI_TNQu63Ma5M_Wajxu_TkQT8YuVsUi5ouxRlNzmMps46qua)

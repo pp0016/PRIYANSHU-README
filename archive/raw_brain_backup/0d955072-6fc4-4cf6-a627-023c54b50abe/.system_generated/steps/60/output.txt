@@ -1,0 +1,36 @@
+The search for ""Sketch2Motion" github OR "PhysGen" github" returned the following summary:
+Below are the GitHub repositories and project details for **Sketch2Motion** and **PhysGen**.
+
+### **1. Sketch2Motion**
+There are two distinct projects often referred to by this name:
+
+*   **Sketch2Motion (Animation Tool):** A tool to convert photos or sketches into animated MP4 videos using Manim.
+    *   **GitHub Repository:** [leeyeel/Sketch2Motion](https://github.com/leeyeel/sketch2motion)
+    *   **Description:** This project takes a doodle or photo, converts it into an SVG vector graphic, and renders it into a smooth drawing animation. It includes a Gradio web interface and allows for customizable animation styles and parameters[1][2].
+*   **Sketch2Motion (Research - Skeleton Optimization):** A research project titled *"Sketch2Motion: Text-driven 2D Sketch to 3D Animation via Diffusion-guided Skeleton Optimization."*
+    *   **Details:** This framework uses diffusion models and skeleton optimization to animate 2D sketches. It is associated with researchers Gaurav Rai and Ojaswa Sharma[3][4]. You can find project pages and academic publications via ResearchGate or the authors' personal pages, though the code is often linked within their specific research repository collections[5][4][6].
+
+---
+
+### **2. PhysGen**
+There are also two prominent projects under the name **PhysGen**:
+
+*   **PhysGen (Rigid-Body Physics-Grounded Image-to-Video Generation):**
+    *   **GitHub Repository:** [stevenlsw/physgen](https://github.com/stevenlsw/physgen)
+    *   **Description:** This project (ECCV 2024) focuses on image-to-video generation that is physically plausible. It integrates model-based physical simulation with data-driven video generation to produce videos where objects behave realistically according to forces and torques[7][8][9].
+*   **PhysGen (Physically Grounded 3D Shape Generation):**
+    *   **GitHub Repository:** [kasvii/PhysGen](https://github.com/kasvii/PhysGen)
+    *   **Description:** A framework (CVPR 2026) for industrial design that models geometry and physical properties in a shared latent space to generate 3D shapes that are both aesthetically and physically valid (e.g., aerodynamic cars)[10][11].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9mz4n6vVHDjji2tG6g_KyGVu9jAD80q4De-bxHBCnEDCelpKuMafPsvjFwxCHgQU2DOoeWYu72u3HYyzigrhM1azKWVifBVMSfSDVXqCEQtmeM_M8qIvzWT41Lic=)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF96m0ITT5EBHGQ_UZwiJxs22lZ0hLcSJFyB1_qsmgb_pQFzHmk3sKwgALN0pg0pAweYETp4LLmaEpsEkkWEpSP_i_T0WK_kfz1nkqCflRo)
+[3] [huggingface.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHw7qfx2U4Z4Mo_JCL6YBtZAWQxX_ENU9bGUOh9ucXERhxpMfm3xMxV8EbprutR6V1kzZoaXRcW5cs8aw65pJmSrXOjwYj8Jb7z_oJfkLsTVBfyfzfcumzRE3A9Tdk=)
+[4] [github.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK5uO252Ok3aWgVWTkghRcoMqPCChoyQJHyoRxXj9iPRM5VkJ1Gresxd1RHi23fVmXkKT1n6ybQXEbx0yHoeTlf0qwzDVcAN3UhwwmZSdlgWaCBc_wSQ==)
+[5] [researchgate.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8H5WfOh9drzXMvDXayPmQqAAkjuwNqhMWdivaECGY0buUij8MIQlG5zV60-cnIDLD38hVz92INbJfrJ3-cW9AGZ13Qr137om7hLgfKqc7IcfByYMbylhOeNajykYp0vPuLZgpZrXgxlQqMKxjGEdhBIap7OA_TQzGPpELTml2_JRruBZ-7k4Vft9HAJS_eovHq-TsoLyFmxTmSoxYrDOSga62A8DaxR2S_k720fsbz7iFNlwIPm30fv3ily4kxemWzNMMhjCg)
+[6] [researchgate.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWdvYRPB88N8zbF6sg_t55nOcEmid8vkKvK-xyCrt0kRGppTkBCpeq_mLBMIEYFz5fUdnlqkQI7rvLVzcdMPUzG308a8kDqhihAnSESenW-PdBfsCV4jedys0LDeGXbbvcInay5gZICRqhlFnCaHCuSz1PcoTaRa4VjNl3fQzNfNjKNdaYDF5WyNAjW7ofJnEcXBDA9dICzjVn7NiT5NSmCWs=)
+[7] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVFF13D8LuxT-i_irtw0ixedvguR0UAmnK-Eolb_HD_F9hivpgI43-W0ub3IW-TDoaoWOjqQj5Xs8SCvI68dl3F-CjJgBlQ9KN_Zn5t3pGCmTpqK9X6_Md4Q==)
+[8] [github.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIODSHjbXMVVsoyqeVheUHWX0NiKxGB2n5E4u8Yd6uTtA0JwWkvOSuH2Hrts_-DJuNYL-kG5bREYsqp4bPBeTy04Ovy7z5GT0yQPk0KiyazYw9F-NVL5RS0g==)
+[9] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXHV7Q7obb2XVYGR5uu_nbMHL8qwSDY9KFbLstBNAJlRhQV5DklST1OmF43VEXltILBqQy0OsmTP-kvwZPe0SrJjZ9kiID7_aYxLYLnSM39j8=)
+[10] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFccb4CNh15vFQUMXwwOrHWm6dNq8EGeOtINIf_JjZbrhyxH0E9M1PAjJK90AE9jh-bHFzJEKWuE7fmnU6cVBuSt8dROlCcSKj9yWnlSRy4HnmxsB4Law==)
+[11] [arxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmhzzugZr9A7MAiHEAI6LQIJQllw8pRyZgojOfDXMPhwxo6Gm3WdP8MD3iADco9gDEHIxwIhD6lcSV-aa2EH3DLIyvVJ1C1-PTzXptadm7hGK3ao9Y4qOH)

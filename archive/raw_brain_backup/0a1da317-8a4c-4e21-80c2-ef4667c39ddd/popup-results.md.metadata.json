@@ -1,0 +1,5 @@
+{
+  "summary": "Shows the complete results of the popup animation pipeline: original image, detection mask, clean inpainted background, all 10 extracted object cutouts (character, blobs, stains), and the final popup animation video with sound effects.",
+  "updatedAt": "2026-09-17T02:38:34.860995500Z",
+  "userFacing": true
+}

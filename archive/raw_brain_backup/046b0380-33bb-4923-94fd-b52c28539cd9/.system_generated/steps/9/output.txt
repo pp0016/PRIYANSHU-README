@@ -1,0 +1,35 @@
+The search for "DeepSeek R1 Phi-4 Mistral VRAM requirements quantized local inference 2025" returned the following summary:
+For local inference of **DeepSeek-R1**, **Phi-4**, and **Mistral** models in 2025–2026, VRAM requirements depend heavily on the model's parameter count and the quantization level used (e.g., 4-bit vs. 8-bit).
+
+### **General Rule of Thumb**
+*   **Formula:** $\text{VRAM} \approx (\text{Parameters} \times \text{Bytes per Weight}) + \text{KV Cache} + \text{Overhead}$
+*   **Quantization:** Using **4-bit (Q4_K_M)** quantization typically requires roughly **0.5–0.6 GB per billion parameters**, plus ~2–3 GB for the KV cache and overhead.
+
+---
+
+### **Model-Specific VRAM Estimates**
+
+| Model Family | Variant | Approx. VRAM (4-bit / Q4) | Notes |
+| :--- | :--- | :--- | :--- |
+| **DeepSeek-R1** | 1.5B Distill | ~1-2 GB | Very lightweight; runs on most GPUs. |
+| | 8B Distill | ~6-8 GB | Standard for 8GB VRAM consumer cards. |
+| | 32B Distill | ~18-24 GB | Fits on 24GB cards (e.g., RTX 3090/4090). |
+| | 70B Distill | ~40-48 GB | Requires multi-GPU (2x 24GB) or high-end workstation. |
+| | 671B (Full) | ~350 GB+ | Requires massive multi-GPU/datacenter hardware. |
+| **Phi-4** | 3.8B (Mini) | ~2.5 GB | Highly efficient; works on entry-level GPUs. |
+| | 14B | ~12-14 GB | Balanced for 16GB–24GB VRAM cards. |
+| **Mistral** | 7B | ~6 GB | Accessible for almost all dedicated GPUs. |
+| | 12B (Nemo) | ~8-10 GB | Comfortable on 12GB+ cards. |
+| | 8x7B (Mixtral) | ~24 GB | Requires 24GB VRAM for 4-bit; very popular. |
+| | Large (123B) | ~70 GB+ | High-end workstation/multi-GPU requirement. |
+
+---
+
+### **Key Factors for 2025/2026 Local Inference**
+*   **Quantization (GGUF/EXL2/AWQ):** This is essential for running larger models on consumer hardware. 4-bit quantization is the "sweet spot" for most users, offering a high performance-to-memory ratio with minimal quality loss.
+*   **Context Length (KV Cache):** As context windows grow (e.g., 32k, 128k), the KV cache can consume significant VRAM—sometimes more than the model weights themselves. If you experience "Out of Memory" (OOM) errors, reducing the context length is the first step.
+*   **Unified Memory (Apple Silicon):** Mac users with M2/M3/M4 Max/Ultra chips benefit from Unified Memory, which allows the GPU to share system RAM. This makes running large models (like the 671B DeepSeek-R1) possible without expensive multi-GPU server setups, though inference speeds will be lower than dedicated NVIDIA H100/RTX 4090/5090 clusters.
+*   **Hardware Recommendations:** 
+    *   **Entry Level (8GB VRAM):** Suitable for 7B/8B models (Mistral 7B, DeepSeek 8B).
+    *   **Enthusiast (24GB VRAM - e.g., RTX 3090/4090):** The "gold standard" for local LLMs, capable of running 32B–46B parameter models effectively.
+    *   **Professional/Workstation (48GB+):** Required for 70B+ models or long-context agentic workflows.

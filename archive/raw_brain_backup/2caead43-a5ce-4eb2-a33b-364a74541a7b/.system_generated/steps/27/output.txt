@@ -1,0 +1,27 @@
+The search for ""Pinwheel Plus 6" hardware specifications battery camera RAM" returned the following summary:
+The **Pinwheel Plus 6** hardware specifications are as follows:
+
+*   **RAM:** 4GB[1][2]
+*   **Battery:** 5,000 mAh (with 25W wired charging support)[1][2][3]
+*   **Camera:**
+    *   **Main (Rear) Camera System:** Triple-lens setup featuring a 50 MP main sensor (f/1.8, wide, AF, OIS), a 5 MP ultrawide sensor (f/2.2), and a 2 MP macro lens[1][2][4].
+    *   **Selfie (Front) Camera:** 13 MP (f/2.0, wide)[1][2][4].
+
+### Additional Specifications
+*   **Storage:** 128GB (expandable storage available)[1][2]
+*   **Display:** 1080 x 2340 pixels (~385 ppi density)[1][2]
+*   **Operating System:** Android 15 (with One UI 7)[1][4]
+*   **Processor:** Octa-core CPU[1][4]
+*   **Connectivity:** 5G, Bluetooth 5.3, and NFC compatible[1][2][4]
+*   **Dimensions:** 164.4 x 77.9 x 7.5 mm[1][2]
+
+The Pinwheel Plus 6 is a parent-managed smartphone designed for kids and teens, featuring a custom software layer that provides parental controls, such as app management, contact safelists, and scheduling, without an open web browser or social media access[5][6][7].
+
+Sources:
+[1] [pinwheel.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGppnmhbTMMcokrLLkI5C4ETd8JyMyNb9utnnOkE2f-E8DAw45F7hE6zquOeCFBJxWOzbNGCg6-YE2pbb9QDKuYEuR0AY5AqStsL9dkJHYoygvsVL7wTG2gzlp93cENiW-5yb8g0_WpM0RxMSAwvY8LW-yW-yFpXBuIqJj--ipRbjfnXxdFdcTFt3AeY9f9B0yjHM3oNSOVv_D8wSIPRq81jQ==)
+[2] [pinwheel.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsYqjM6SHIZ4_VHtn111v5Gyn6yV0NXfSsDELSa-SEqZIVJmuVKI1L8zWnuwn6GJdgEWY9z7qCKxQR-7uPBUSvK6xuwTMUMi0lWR3itwDRQYBThI1puuMjCabKmQY236uFSwdUkmN2As801Vbs20r4wseveC5YuopRL9iz6UebPwK14QGNOZZ3ZP3tEoyuaf6AaNpDWuCjb7Cm6udk3KIb_g==)
+[3] [ubuy.co.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa6JryUTN7BNFKjIoZtyrx0tFchTh5N7YibJgsOtMVhicHGDe0cKq8-CSHAQMHws_216z7wxskr8VEUhBiy78dLo46fgosv-Rttyu8RgV8Y1Cr5BIbDI51AOnkpgvjcHsykX6ndOvfNK7EAgAJFeVFnsFFDza3zxPiFK5r4z7_rAhqABez3Ye-sSwB69E2wkvNMqmIoZ-CIGzhvTCjROp0LZLhUj5utp_HgQyK85AAEVcbM9Wgji944d7yAoXm7om0QlIgoKlJf5VwZ9hUTgwb1V8aUTMThTrQn7G1Fw0vhA==)
+[4] [pinwheel.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsYqjM6SHIZ4_VHtn111v5Gyn6yV0NXfSsDELSa-SEqZIVJmuVKI1L8zWnuwn6GJdgEWY9z7qCKxQR-7uPBUSvK6xuwTMUMi0lWR3itwDRQYBThI1puuMjCabKmQY236uFSwdUkmN2As801Vbs20r4wseveC5YuopRL9iz6UebPwK14QGNOZZ3ZP3tEoyuaf6AaNpDWuCjb7Cm6udk3KIb_g==)
+[5] [pinwheel.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUo4IVDyLBSX5WM4hKaUMaPv7HSWGSzycjRCwtFin5j0m3eZAv7ZKld3q3f7JMQZLWoPWHxzHtaA7K24NwTWqkh7XEIIXrKIbFw6B0Ux6tgFfD4fHr)
+[6] [thereviewsmiths.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7L86CU1cy3deqgZxTRFCljiwdf7xFNIaJLFoU7DP-MoPBrjE1x9Mpunh1kJLfrQ8P2hJY99L5SwzpG4fhxhQo8gt70SsqZvpnnzQhnkWe01GGam_uJG6ISklBuGOatEu0svBv515szftNu48CgZ1N)
+[7] [learnofchrist.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzA5kk22N6N6gpLwZxe_58Z6fzfscPnQqxvxx33-__NXfT818T3kZrjNHVYDH1IdyqUIcLomoohirwSb2i2I77Mezvahw_rCQ3DXzcWkB7eSrSuTucB2-5ShhqPV_0jUu3DA==)

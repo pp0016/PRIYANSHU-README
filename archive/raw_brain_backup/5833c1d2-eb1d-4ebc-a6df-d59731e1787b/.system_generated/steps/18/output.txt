@@ -1,0 +1,24 @@
+The search for "github NadirWeb-App/Inkplainer-OS" returned the following summary:
+**Inkplainer-OS** (hosted on GitHub under the repository `NadirWeb-App/Inkplainer-OS`) is a free, open-source, browser-based whiteboard animation maker[1][2].
+
+Despite the "OS" suffix in its repository name, it is **not an operating system**[1][2]. Instead, it is a web application designed to allow users to create hand-drawn explainer videos directly in their web browser without the need for sign-ups, watermarks, or costs[1][2].
+
+### Key Features
+*   **Browser-Based Processing:** All animation, image processing, and video recording are performed locally within the user's browser[3][4].
+*   **Privacy-Focused:** The tool does not use a server to store user content[3]. Images, text, and project data are stored locally in the browser’s `IndexedDB`, meaning user data is never transmitted or collected[3][4].
+*   **Functionality:**
+    *   Converts images and text into hand-drawn animation sequences[1][5].
+    *   Provides various styles for drawings, including edge detection for real-world images and basic styles for charts or icons[6][7].
+    *   Supports exporting animations as MP4 or WebM files[1][8].
+*   **Usage Recommendation:** The developers recommend using the app on a desktop or laptop browser to access the full suite of editing tools, including side panels and drag controls[9].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrQasv7n78aVrkfrzcS8glK29hD5g8Vkp4F_G_RcYBioL2xJAsgRQ_YK6Z-uzTJ0_BSHnZ0qgkyP6_LjF6btIlhXzn9mfnotcEibBJEHXMqDEiq7aT8SXTYWUBQeipbFBZ3g==)
+[2] [pages.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRhax6gXstLrQQJRfw7YlUBGGyw2eczSS6Qgjx0GKCHkazFhZ1TNTqtFCUwAqEu9r3iOjAlv_r3MtOZfxASVggyDYY0bqC4xFBEX4r6hL8bT5k)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiVV55AfaTcx6vgvyXy6ODc1IYTpQ5UNma_fJA_W1yNeZxWiWWlFGTcWvATzbRdbYbS94iYOC2cvXF6If_2RiqZqx1nG78NGdmXbB1OknW_1ya9fYTwno2W83xak4_2VWtT1ddWEoP0QKMlRCaLltYAK8AIiSZzw==)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiVV55AfaTcx6vgvyXy6ODc1IYTpQ5UNma_fJA_W1yNeZxWiWWlFGTcWvATzbRdbYbS94iYOC2cvXF6If_2RiqZqx1nG78NGdmXbB1OknW_1ya9fYTwno2W83xak4_2VWtT1ddWEoP0QKMlRCaLltYAK8AIiSZzw==)
+[5] [pages.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRhax6gXstLrQQJRfw7YlUBGGyw2eczSS6Qgjx0GKCHkazFhZ1TNTqtFCUwAqEu9r3iOjAlv_r3MtOZfxASVggyDYY0bqC4xFBEX4r6hL8bT5k)
+[6] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrQasv7n78aVrkfrzcS8glK29hD5g8Vkp4F_G_RcYBioL2xJAsgRQ_YK6Z-uzTJ0_BSHnZ0qgkyP6_LjF6btIlhXzn9mfnotcEibBJEHXMqDEiq7aT8SXTYWUBQeipbFBZ3g==)
+[7] [pages.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRhax6gXstLrQQJRfw7YlUBGGyw2eczSS6Qgjx0GKCHkazFhZ1TNTqtFCUwAqEu9r3iOjAlv_r3MtOZfxASVggyDYY0bqC4xFBEX4r6hL8bT5k)
+[8] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrQasv7n78aVrkfrzcS8glK29hD5g8Vkp4F_G_RcYBioL2xJAsgRQ_YK6Z-uzTJ0_BSHnZ0qgkyP6_LjF6btIlhXzn9mfnotcEibBJEHXMqDEiq7aT8SXTYWUBQeipbFBZ3g==)
+[9] [pages.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRhax6gXstLrQQJRfw7YlUBGGyw2eczSS6Qgjx0GKCHkazFhZ1TNTqtFCUwAqEu9r3iOjAlv_r3MtOZfxASVggyDYY0bqC4xFBEX4r6hL8bT5k)

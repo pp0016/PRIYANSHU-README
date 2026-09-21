@@ -1,0 +1,49 @@
+
+The command exited with code 0.
+Output:
+Collecting moviepy
+  Using cached moviepy-2.2.1-py3-none-any.whl.metadata (6.9 kB)
+Collecting pydub
+  Using cached pydub-0.25.1-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting opencv-python
+  Using cached opencv_python-5.0.0.93-cp37-abi3-win_amd64.whl.metadata (20 kB)
+Collecting pillow
+  Using cached pillow-12.3.0-cp311-cp311-win_amd64.whl.metadata (9.3 kB)
+Collecting numpy
+  Using cached numpy-2.4.6-cp311-cp311-win_amd64.whl.metadata (6.6 kB)
+Collecting decorator<6.0,>=4.0.2 (from moviepy)
+  Using cached decorator-5.3.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting imageio<3.0,>=2.5 (from moviepy)
+  Using cached imageio-2.37.4-py3-none-any.whl.metadata (9.6 kB)
+Collecting imageio_ffmpeg>=0.2.0 (from moviepy)
+  Using cached imageio_ffmpeg-0.6.0-py3-none-win_amd64.whl.metadata (1.5 kB)
+Collecting proglog<=1.0.0 (from moviepy)
+  Using cached proglog-0.1.12-py3-none-any.whl.metadata (794 bytes)
+Collecting python-dotenv>=0.10 (from moviepy)
+  Using cached python_dotenv-1.2.3-py3-none-any.whl.metadata (29 kB)
+Collecting pillow
+  Using cached pillow-11.3.0-cp311-cp311-win_amd64.whl.metadata (9.2 kB)
+Collecting tqdm (from proglog<=1.0.0->moviepy)
+  Downloading tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+     -------------------------------------- 57.4/57.4 kB 501.3 kB/s eta 0:00:00
+Collecting colorama (from tqdm->proglog<=1.0.0->moviepy)
+  Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Using cached moviepy-2.2.1-py3-none-any.whl (129 kB)
+Using cached pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+Using cached opencv_python-5.0.0.93-cp37-abi3-win_amd64.whl (44.0 MB)
+Using cached pillow-11.3.0-cp311-cp311-win_amd64.whl (7.0 MB)
+Using cached numpy-2.4.6-cp311-cp311-win_amd64.whl (12.6 MB)
+Using cached decorator-5.3.1-py3-none-any.whl (10 kB)
+Using cached imageio-2.37.4-py3-none-any.whl (318 kB)
+Using cached imageio_ffmpeg-0.6.0-py3-none-win_amd64.whl (31.2 MB)
+Using cached proglog-0.1.12-py3-none-any.whl (6.3 kB)
+Using cached python_dotenv-1.2.3-py3-none-any.whl (22 kB)
+Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+   ---------------------------------------- 80.2/80.2 kB 896.9 kB/s eta 0:00:00
+Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Installing collected packages: pydub, python-dotenv, pillow, numpy, imageio_ffmpeg, decorator, colorama, tqdm, opencv-python, imageio, proglog, moviepy
+Successfully installed colorama-0.4.6 decorator-5.3.1 imageio-2.37.4 imageio_ffmpeg-0.6.0 moviepy-2.2.1 numpy-2.4.6 opencv-python-5.0.0.93 pillow-11.3.0 proglog-0.1.12 pydub-0.25.1 python-dotenv-1.2.3 tqdm-4.70.1
+
+[notice] A new release of pip is available: 24.0 -> 26.2.1
+[notice] To update, run: C:\Users\renu5\.gemini\antigravity\scratch\popup-project\venv\Scripts\python.exe -m pip install --upgrade pip
+

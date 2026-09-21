@@ -1,0 +1,18 @@
+The search for ""Claude Mythos" parameter count trillion estimate" returned the following summary:
+Industry estimates and reports indicate that **Claude Mythos** is estimated to have approximately **8 to 10 trillion parameters**[1][2][3].
+
+Key details regarding these estimates include:
+
+*   **10 Trillion Parameter Estimate:** Widely cited in early industry coverage and reports, this figure positioned Claude Mythos as one of the first models to reach or exceed the 10-trillion-parameter threshold[2][4][5].
+*   **8 Trillion Parameter Estimate:** More recent industry reports, such as those referencing Financial Times data, have suggested a figure closer to 8 trillion parameters for the Mythos model, with the related "Claude Fable 5" model estimated at approximately 5 trillion parameters[1][3].
+*   **Architecture Considerations:** Experts note that the model likely utilizes a sophisticated **Mixture-of-Experts (MoE)** architecture[2][4]. While its total knowledge capacity corresponds to the multi-trillion parameter scale, the number of *active* parameters per forward pass is estimated to be significantly lower—often cited in the range of 800 billion to 1.2 trillion—to keep computational costs and inference latency manageable[4][6].
+
+It is important to note that Anthropic has not officially confirmed these specific parameter counts[2][4][6]. These figures are based on independent analysis, industry reporting, and leaks rather than official technical documentation[4][6].
+
+Sources:
+[1] [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJu-GXo8mSPr4gipsDxiQBEUM2t90AuqiZIWt-8oA9cNK0VE92mip8L5JyK0VKDzVrV8dZQxvRq77BFjA815cSg2wNMceDO-gGZLJXOanjpgvWLDFLfPpM3lV2jtRDx5w=)
+[2] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpxTJsEruJOucEdFcJZAdHEPOJILa6dyjE9xXZc6OmqsGWW032PfJ-JN2wET-AQNWO-PggSTApCZKAv16m5ogTy4lh1v44WuEbskq5-pIv62JkV5YbOHQ7QJcya6oGhIBMYT5leTPPmBJcVQjcRIO3RE9DqMgxxEa3TMdFezWL70wJyldpQQScC_nuZ9BtIPwP8_MwQL6tzEA75nCg363yD26Kr-9nvRclPyYKEPZwUZnyF2oQnO-QlvJ7aonVDe_P)
+[3] [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJu-GXo8mSPr4gipsDxiQBEUM2t90AuqiZIWt-8oA9cNK0VE92mip8L5JyK0VKDzVrV8dZQxvRq77BFjA815cSg2wNMceDO-gGZLJXOanjpgvWLDFLfPpM3lV2jtRDx5w=)
+[4] [aimagicx.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFP0tnP6iGqN8MwljiXn8uDfYoFr9S-iirxq0z1dBMsvaOBIXg-su9YCbLAYElhVgCY1aN9uXwOKUrb16ANBZeHHxPxTRbaL7G2-HnnprkG_r83Egq-pagyt9kdog-Yne8ePyk9Z7WsIQcZY9z5nhIGPnu3_AGAD7B-PjhMS7d-1jLnBKOphT6ZzCT6es_T--0=)
+[5] [sleeautomation.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxehw-MQbAOh7ZoflFlDpgJSXPHZWVUSs0PggopEM2enqsNw6tx5y6FlR-ckGi9ORXMgEx7txZsvcWvGMZFfyka2XHtoIMIqxhFwX4QM1PcUVBF_I8CcmHQ38DedB9Lo7mek8hri1OyNAFamIMGoqFp6hDptJRxw-_qkc=)
+[6] [miraflow.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyS7z-lHJjeKdrjSU_s4z7bZSin_QFfhrAtHqXOk3AKedfgP5SmCnHkLd617gHw6Vh6Qa5s6WVMkWt2ElArqQyp88fk6wCrQM4Zdfihz1xDIYgBWkSePbuGPoTw9JBqID_iRQGoySwcCo43XHjHMZDSgq4tRZ-3sW2XCx5LHcdquOAfWS9K04nxGhT4xb7ejntqtj2NUhd43B4)

@@ -1,0 +1,49 @@
+GTU MID-SEM: MISSING THEORY ANSWERS
+===================================
+
+1. THE ROLLING JUSTIFICATION (From Q2b - 3-4 Marks)
+Question: "Rolling process gives better performance for poor/zero lubrication." Justify.
+
+GTU Marking Scheme Answer:
+* The Core Reason (1 Mark): Unlike other forming processes where friction is an enemy, in rolling, friction is an absolute necessity. It is the driving force that physically pulls the metal into the roll gap.
+* The Technical Condition (1 Mark): For the plate to be drawn into the rolls, the coefficient of friction (mu) must be greater than or equal to the tangent of the bite angle (alpha). Formula: mu >= tan(alpha).
+* The Justification (1-2 Marks): If lubrication is "perfect" (meaning zero friction), mu becomes 0. The rolls will simply spin and slip against the surface of the plate without gripping it. Therefore, "poor" or "zero" lubrication (which means HIGH friction) is actually required for the rolls to grip the metal and perform the rolling action. 
+
+
+---------------------------------------------------------
+
+2. TIG VS MIG WELDING (From Q3a - 3 Marks)
+Question: Differentiate between TIG and MIG welding processes.
+
+GTU Marking Scheme Answer (Write any 3-4 points for 3 Marks):
+
+* ELECTRODE:
+  - TIG: Uses a Non-consumable Tungsten electrode.
+  - MIG: Uses a Consumable metal wire electrode.
+* FILLER METAL:
+  - TIG: Must be fed separately by hand (if required).
+  - MIG: The electrode itself melts and acts as the filler.
+* WELDING SPEED:
+  - TIG: Slower (requires two hands, one for torch, one for filler).
+  - MIG: Faster (continuous automatic wire feed).
+* SHEET THICKNESS:
+  - TIG: Best for thin sheets and precision work (aerospace).
+  - MIG: Best for thicker plates and heavy fabrication.
+* SPATTER:
+  - TIG: Almost zero spatter, very clean weld.
+  - MIG: Produces some spatter.
+
+
+---------------------------------------------------------
+
+3. PURPOSE OF ELECTRODE COATING IN DETAIL (From Q3b - 7 Marks)
+Question: Explain the purposes of coating provided on the coated electrode in detail.
+
+GTU Marking Scheme Answer (Write 6-7 points for 7 Marks):
+1. Gaseous Shielding: The coating burns and decomposes to produce protective gases (like CO2 and CO). This gas shield displaces atmospheric oxygen and nitrogen, preventing the weld from becoming porous and brittle.
+2. Slag Formation: The coating melts to form a blanket of liquid slag over the weld pool. This protects the solidifying metal from oxidation and slows down the cooling rate, preventing a brittle joint.
+3. Arc Stabilization: The coating contains chemical compounds (like potassium and sodium silicates) that ionize easily in the heat. This helps to establish and maintain a steady, continuous arc.
+4. Deoxidation: The coating contains deoxidizers (like ferromanganese or ferrosilicon) that actively react with and remove oxygen/impurities already inside the molten weld pool.
+5. Alloying Additions: Specific alloying elements (like Chromium, Nickel, or Molybdenum) are mixed into the coating to transfer into the weld pool, improving the mechanical strength and corrosion resistance of the final joint.
+6. Positional Welding Support: The freezing slag acts as a physical mold or "dam" that holds the liquid metal in place, allowing the welder to weld in vertical and overhead positions without the metal dripping out.
+7. Spatter Reduction: The coating forms a slight cup at the tip of the electrode as it burns, which helps direct the arc precisely and reduces metal spatter.

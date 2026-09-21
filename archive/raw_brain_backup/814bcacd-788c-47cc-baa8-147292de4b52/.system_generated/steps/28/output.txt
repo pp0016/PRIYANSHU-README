@@ -1,0 +1,42 @@
+The search for ""layer dropout" early exit inference speedup LLM 2025 2026 research paper" returned the following summary:
+Recent research in 2025 and 2026 has significantly advanced the use of **layer dropout** (also known as stochastic depth) as a powerful tool for both training efficiency and accelerating LLM inference through early exiting[1][2][3].
+
+### Key Developments (2025–2026)
+*   **"Don't Drop Dropout" (ICML 2026):** A prominent study published in September 2026 re-evaluates the role of layer dropout in large-scale LLM training[2][4]. The authors demonstrate that when modern pre-training recipes are updated with optimal layer distribution, time schedules, and optimizer hyperparameters, layer dropout can:
+    *   **Reduce Training Costs:** Achieve lower or similar validation loss while saving up to **25% of training FLOPs**[1][2].
+    *   **Enable Efficient Inference:** Provide "elastic depth," which makes models robust to post-training optimizations like **early exit**, **intermediate-layer skipping**, and **self-speculative decoding**[5][2][3].
+    *   **Speedup:** These techniques yield up to **1.5x inference speedup** with negligible accuracy loss[1][4].
+
+*   **Advanced Dynamic Skipping:**
+    *   **DASH (2025):** This framework treats layer skipping as a Markov Decision Process (MDP), allowing for input-aware dynamic computation paths that adapt based on the token or input characteristic, further optimizing latency in resource-constrained environments[6][7].
+    *   **DiffSkip (ACL 2025):** This approach introduced "Differential Layer Skipping," which focuses on dynamically skipping Feed-Forward Network (FFN) blocks based on the difference in self-attention blocks, allowing the model to adjust its depth per token during continuous generation[8].
+
+*   **Two-Dimensional Early Exit (2026):** Research from early 2026 introduced a 2D strategy that coordinates both **layer-wise** and **sentence-wise** exiting[9][10]. By processing inputs incrementally, this method achieved additional speedups of 1.4x–2.3x over standard optimal layer-wise early exiting for classification tasks[9][11].
+
+### Summary of Techniques for Inference Speedup
+| Technique | Primary Mechanism | Key Benefit |
+| :--- | :--- | :--- |
+| **Early Exit** | Exiting at intermediate layers to avoid full model compute[12][13]. | Reduced latency for "easy" tokens[12][14]. |
+| **Self-Speculative Decoding** | Using early exits as a "draft" and remaining layers to verify[12][15]. | Parallelizes verification, reducing generation time[12][16]. |
+| **Dynamic Layer Skipping** | Input-aware selection of compute paths (e.g., DASH, DiffSkip)[6][8]. | Efficient resource allocation per token[6][8]. |
+
+These findings collectively challenge the previous industry consensus that dropout was detrimental to large-scale LLM training, proving instead that it is a critical "knob" for building models that are both cheaper to train and faster to deploy[1][17].
+
+Sources:
+[1] [aiweekly.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt0acJIEnbzfcv9Q1aPYDEDVPxQE0dL61TQX7UA_TUOUp_l36h0GG5AvYRw1jUNBoqwMhJP3khQGIbNmqiTYUzQ-RR5aO1CNTZ52d50A4vooFJYnl63iv1AiJbpkxiO36pDJChOtmP5FKQeOHn1wrwc0cYgTYa97UFuXS6ik1crBKtklnTyn0m)
+[2] [alphaxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEmFZ1anJmdlW9_aBGbdIw4FZJyNXCMSvVV_XRV4FicauT-TNsGXT5NEb2wM2MSM-YhdSSShnJozYe0VF4Xru1hpvEi0cMkFnlHJPksfANp4fukxSpTFnp--D0S8o=)
+[3] [arxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYIOYV8c5b5sIQQz7ZqTNo8FQniNk2c2GvO7Tp0IiWWawaf3rJYxil7duzwMt58khMEQfJFVzUm2SAxmpN_qkiqcsfTgsOz3W5DE-7XugzdjkQRSlN_uk0Fw==)
+[4] [arxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-oL8KCm9aJh2Y9NB5aDW3KM8eSpi8NxlGIjTMMts6surztwp2r7ZlOqNWnghmCzMjizhGP54iXLqGUWOrWYX_THZGaoFpNUtwzVU89YvxVoUOfWqfvg==)
+[5] [arxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZmgckQTngw7fb325HWJeYzXuhVXe4wIKB0AVtwFY_9tLizUZohnyIpwA-cPhoEg53ghclkjLWkwUzAQfjDkbv8FRYpd6kLY_8xT7i2ZbUsxvRj49kjA==)
+[6] [arxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6K6AONgW2RXgDqiLsDIp6I0Hnj5LmPOhW8mExBHUwNP8tJpCRUIA4cmnX1BZqSxih_BqfVBEGXjlLgY6tdnDPMRMTBCExXUlo0Ww0mOduQlHp_aioGg==)
+[7] [arxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_q-cBojm-wKqWJdA4WaV9PE3KNI3RFxyXsfbq0_eEd-pbqRofgHqNNuS0MD_T0Sa7wDPyB5PTWUOBU1uAuTXhVqcs-G3I3ZuRBYZlK6vRJ2BtLQvnYnrsKg==)
+[8] [aclanthology.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrdToIdbYflyJLNrUtGSZ0Z00OrnIGV0juv4hwtyUq64X9AdDL6igs878OvVx74EG357YcnAMcq47PqMqC-mqZ2cyYmVjkVQIZUYRB5_6S_TQC3jIF_9u-soqAax7wtlNBPaoLLQ==)
+[9] [researchgate.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNUis8ycUfWFu8VnDHvs28WyjDEwrOaCLvzF9SJ0M0ZHOY_4_Ct_Afk8mgIoMyRdbkMurZIriDAqgaFInZCzEYYrMmD-PvnZi93C4NVs_C0-5RGhkefyUJapIO61r9UcThhhGWDCdZtrYcObkFiW7s1eEB5001SsLDDAE7WnZNbuSKIByTj3G0J51CaR2iG8drwNvjbkkjBEg72VUlU3zg0g==)
+[10] [arxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9mw_66YsG9_NAjNJkC0-E4EVS2H9ib7W8o7KUIbknWoHhp4LXpcV6-0tqq8tAou3-NxmCONZ8KwyKgea77CnA1NXm0E995DKku7y0yGZUyVoz1Sj2lT5hHg==)
+[11] [arxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9mw_66YsG9_NAjNJkC0-E4EVS2H9ib7W8o7KUIbknWoHhp4LXpcV6-0tqq8tAou3-NxmCONZ8KwyKgea77CnA1NXm0E995DKku7y0yGZUyVoz1Sj2lT5hHg==)
+[12] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT0Q8smtB1tT7BVfqLlzoaaoGLK8-SwtjWBQB1sfz73b7JS8Ktwqkhd_RukaSYMTGWI1HBJPo2na0QmaSW4Y8KwIASo7VH7s96kCH8tsCUDQOaqpkIULane4YrNvSwiiiXLD4oNOVRH00drWhr4bb7hKXW9TvOF8YZUdi3Xu_tz7uUn5n-NZn6LQLQdp7rvxIs_5x5-fLqc9prqwR8fE-Rwwpeo7H-YvInkxwf0i8=)
+[13] [meta.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLAg1eQttVkDWGdbnfQEdwQ5iKOaCLa3SADig9wTgEYBXpQeSZY0Vc94xQXHRNIEDaILMVM52I6lfbUZy6MBS9UQI8ctV-rQhPFPdHyXuL4OwsekDRSDlr0gY3wrJqL9_4uy3XMHnB1ViTToDQ1BYRt4gYACDgk2NipvSPXn8GNzp2rWCU0eAql4b1s-poz7FWJN7bS_Nn__mmijgSR_ECjyaD8SDF)
+[14] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT0Q8smtB1tT7BVfqLlzoaaoGLK8-SwtjWBQB1sfz73b7JS8Ktwqkhd_RukaSYMTGWI1HBJPo2na0QmaSW4Y8KwIASo7VH7s96kCH8tsCUDQOaqpkIULane4YrNvSwiiiXLD4oNOVRH00drWhr4bb7hKXW9TvOF8YZUdi3Xu_tz7uUn5n-NZn6LQLQdp7rvxIs_5x5-fLqc9prqwR8fE-Rwwpeo7H-YvInkxwf0i8=)
+[15] [meta.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLAg1eQttVkDWGdbnfQEdwQ5iKOaCLa3SADig9wTgEYBXpQeSZY0Vc94xQXHRNIEDaILMVM52I6lfbUZy6MBS9UQI8ctV-rQhPFPdHyXuL4OwsekDRSDlr0gY3wrJqL9_4uy3XMHnB1ViTToDQ1BYRt4gYACDgk2NipvSPXn8GNzp2rWCU0eAql4b1s-poz7FWJN7bS_Nn__mmijgSR_ECjyaD8SDF)
+[16] [zylos.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGN6yzq8geWMmnneo2QLJy2YUmz1HrMspnBsVEHvWzHwUl1sWQHR1S02STYwYqU4VmGXD92VR7lbVgR5o_4eFSMjQPBrg9Us44486kZ-h-IJCfsJZ70qmhNbdX1umsmxr5wnT5BVDn6CiBaLgUk1HSJgm4XSCk=)
+[17] [aisolutionsnow.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSpR79HYkKLn_GQ4Kt2IMcTKtlpEAAlqPWz52vjMSIrKngqPhkPdzeMtSRb-Tcq8OB-t2Yp4AbmMYijBJjyy3Zhh4fIKO7-XE3NOBzVT7TpzK9fJ51Y4o9UqANaisD2cDl15fFR509D_dExjzDrHDcjEo404AtRSrL9OCbz_0uWXYwkLz750bZlOiVvOp-1k8GHlsH7jyz3-mTlugjnBs9hiK19jaR)

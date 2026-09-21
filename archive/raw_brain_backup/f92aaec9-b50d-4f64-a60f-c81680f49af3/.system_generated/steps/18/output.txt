@@ -1,0 +1,26 @@
+The search for "AI model context window VRAM requirement growing problem local inference scaling 2025 2026" returned the following summary:
+The challenge of scaling AI model context windows for local inference in 2026 centers on the **Key-Value (KV) cache**, which has replaced model weights as the primary bottleneck for long-context tasks. While model weights are static, the KV cache grows linearly (or even quadratically, without optimizations) with the sequence length, often consuming the vast majority of available VRAM in high-context scenarios.
+
+### The Scaling Problem: Why Context "Kills" VRAM
+In 2026, as context windows have expanded to 128K, 1M, and even 10M tokens, the memory overhead has shifted from fixed (model size) to dynamic (context size).
+*   **The KV Cache Bottleneck:** During inference, the model stores key-value vectors for every token in the sequence. For large models (e.g., 70B+ parameters), a long context window can easily require 40–100+ GB of additional VRAM solely for this cache.
+*   **The "Memory Wall":** Once the combined size of model weights and the KV cache exceeds available VRAM, inference speed collapses—often by orders of magnitude—as systems are forced to offload data to system RAM (CPU spill).
+*   **Geometric Cost Escalation:** In production, this problem is compounded by concurrency. If one request at 128K tokens requires 40 GB of cache, serving multiple users simultaneously can quickly exhaust even the most powerful enterprise-grade GPUs (e.g., H100/H200).
+
+### Key Strategies for Local Scaling in 2026
+To manage these requirements, the industry has shifted toward several critical optimization techniques:
+
+| Technique | How It Helps |
+| :--- | :--- |
+| **PagedAttention (vLLM)** | Manages KV cache like virtual memory, reducing fragmentation and waste by 60–80%, allowing for much higher concurrent request capacity. |
+| **KV Cache Quantization** | Reduces the precision of KV cache values (e.g., from FP16 to FP8 or INT8/NVFP4), cutting cache memory usage by 2× to 4× with minimal accuracy loss. |
+| **Attention Compression** | Techniques like GQA (Grouped-Query Attention) and MLA (Multi-Head Latent Attention) drastically reduce the size of the KV cache compared to standard Multi-Head Attention. |
+| **Prefix Caching** | Allows the system to store and reuse the KV cache for common system prompts or documents, preventing redundant recomputation and saving significant memory. |
+| **MoE Architecture** | Mixture-of-Experts models (e.g., DeepSeek, Qwen) reduce the compute load per token by activating only a subset of parameters, though the full model must still reside in VRAM. |
+
+### Practical Guidance for Local Inference
+*   **Budgeting as a Priority:** Treat the context window as a "resource to allocate" before starting a run. Do not blindly set a 128K context window; use the model’s tokenizer to count your prompt length and reserve only what is necessary.
+*   **Hardware Selection:** For consumer-grade local inference, 24 GB (e.g., RTX 3090/4090/5090) remains the "sweet spot" for 70B models with moderate quantization (Q4_K_M). Beyond this, multi-GPU setups (often 2× or more 24 GB cards) are required for comfortable long-context performance.
+*   **Effective Context Window (MECW):** Be aware that while a model may *support* a 1M token window, performance often degrades ("context rot") or plateaus after a certain length. High-quality RAG (Retrieval-Augmented Generation) is often more efficient than attempting to cram massive amounts of raw data into a single, expensive context window.
+
+By 2026, the focus has moved away from simply expanding context windows to **context management**—using caching, tiering, and efficient architecture to maintain performance without requiring unlimited hardware upgrades.

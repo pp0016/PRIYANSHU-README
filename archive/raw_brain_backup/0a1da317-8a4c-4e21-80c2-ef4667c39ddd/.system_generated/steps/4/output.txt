@@ -1,0 +1,1 @@
+Subagent "deep-research-agent" defined successfully. It can now be invoked via invoke_subagent.

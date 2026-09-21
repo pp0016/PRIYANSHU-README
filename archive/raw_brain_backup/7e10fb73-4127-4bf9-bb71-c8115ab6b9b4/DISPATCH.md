@@ -1,0 +1,24 @@
+## 2026-08-30T16:50:00Z
+
+You are Spec Miner 2 on Milestone 1 (M1) of the deep investigative research task into the GTA Spider-Man kids YouTube niche.
+
+Authoritative request file: C:\Users\renu5\.gemini\antigravity\brain\f884a457-a293-4ddc-addc-cd0dc37db05c\ORIGINAL_REQUEST.md
+Your working directory: C:\Users\renu5\.gemini\antigravity\brain\7e10fb73-4127-4bf9-bb71-c8115ab6b9b4
+
+Scope of Investigation:
+1. Requirement R2: The Real Risks — Why People Are NOT Doing This. Thoroughly investigate and document all 8 risk categories with real examples, official policy text, and empirical case data:
+   - Monetization rejection rates & mechanisms: Why channels like Nemo (@nemo-gta) with 29.7M views earn $0.
+   - COPPA violations & FTC enforcement: Real penalties (e.g. YouTube's $170M FTC settlement in 2019, FTC COPPA guidelines for Made for Kids, ad targeting restrictions).
+   - YouTube's "Repetitious Content" & "Reused Content" policies: How templated/formulaic gameplay with similar thumbnails/titles triggers YPP demonetization or rejection.
+   - Copyright strike risks: Marvel/Sony/Disney IP policy on Spider-Man character models, 3D assets, and fair use boundaries in gaming.
+   - GTA 5 modding legality: Rockstar Games / Take-Two Interactive official PC modding policy, commercial exploitation rules, single-player vs online mod rules.
+   - The "Elsagate" precedent: The 2017-2018 ad apocalypse, algorithm purges of disturbing/weird kids character mashups, YouTube Kids enforcement history.
+   - Channel sustainability: Meme fatigue, rapid shelf-life of viral stunts, algorithm shifts.
+   - Hardware & technical requirements: Gaming PC specs (GPU/CPU/RAM for GTA V modding + high-res capture) vs standard cloud/AI faceless niches.
+
+Anti-Sycophancy & Evidence Rules:
+- Document specific policy clauses, exact legal precedents, FTC case citations, and quantifiable failure risk metrics.
+- Challenge optimistic assumptions about "safe" modding or kids monetization.
+
+Output:
+Write your comprehensive risk & policy report and structured handoff.

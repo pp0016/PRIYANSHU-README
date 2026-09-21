@@ -1,0 +1,20 @@
+The search for "site:github.com "popup" ("segmentation" OR "segment") "animation"" returned the following summary:
+For search queries on GitHub involving "popup," "segmentation/segment," and "animation," the results primarily point to curated lists of iOS animation libraries and UI components[1][2][3][4].
+
+### Key Findings
+*   **Curated Lists (Awesome Repos):** Large repositories like `onmyway133/awesome-ios-animation` and `ilyi1116/awesome-ios-ui-1` serve as hubs[1][4]. These lists categorize components—including **Popups** and **Segmented Controls**—that feature custom animations[1][3][4].
+*   **Specific Components & Examples:**
+    *   **Segmented Controls:** Repositories often highlight `PinterestSegment`, which is noted for its "Pinterest-like" masking animation[3][4][5], and `SJFluidSegmentedControl` for interactive animations[3][4].
+    *   **Popups/Menus:** Components like `FTPopOverMenu_Swift` (a pop-over menu) and `PopMenu` (a popup-style action sheet) are frequently referenced for their animation capabilities[5].
+    *   **Sliders:** Some components, such as `Fluid Slider`, combine these concepts by providing a "popup bubble" animation to display values on a slider[4].
+*   **General Web/HTML Snippets:** Occasionally, you may find smaller, individual project snippets—such as an "animated cat loader" that uses segments and gradients to create an animation[6].
+
+If you are looking for a specific codebase, you may want to refine your search by adding the programming language (e.g., `Swift`, `JavaScript`, or `CSS`) to narrow down the results from these general "awesome" lists.
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_gs4T47Z060OwMA4FHCk429c_LLmvqC_-E2Er20g5vJYxkJB3M6eE99J3SzF8xrS7upRIbjeVhp_G1MJJG8x9JypKhgu_-P8KtE6lmsdPji8Hf8o-YvDWtH8aEnqACM7DIQQehUBbVg==)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMXBRCm03Mq1XIG2JqL8JX8jtYnlaY1O-n8k0cDxrNKklZtlwi8wTGY0FMSxkaKTcp1SVWC6Tye1G07ahy0hVKrt9AB7ZSFhVXpf17PfIcOgvI-cb_zwo_mcEk6MwGpRF50ORZGuH00tWc)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR9lNrYyuwLCKNTXWIPT-eQQupPRG9damnF_hmP5lHHjJXIqI299vb_9sEHiOBodR3JPMuntgmfqmiPYVWNcxyZFcg8Z1gavFx2-BEgx5dYk_ivfNTDnY4QUt-W--aZw==)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEG02eKGme5baPBuzyqtTOJgVxiFK9ZiOExLur3xsPzKNF_ydmj7NxGO2oFoj9G35j7mr42Ckz96x_rOan4ZnSkUS2_4EvKAvc1L_Nhab4x4VYk0lwpcNKDpUKsT-VSNcSt)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-l2X97jnyOld5N1ZB1tqz-VTFykr8c2aNSo3UnrC-SkSdLuwDoGPvpNsCsnW3LD2AtWRP_WtnrDIAQHaFA9DOfG5k0Qwn-mAV9Dt_HQue_160onOLha4BL8s7VVQfjT_NTykW1-i1a6zVxtkMw9KhqBBo)
+[6] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTeD_drqXA25vw8U0bPtIncS70uUDySHTZvVQr0WRfSztNDD5NNl08VDlYaP6SSBoN8EMYwnCaXG7te8IRsuOUTXJOWmOgYt7jLnzZP_hntwXCKnKcJ6ftUPruk8gr-8mL6ns=)

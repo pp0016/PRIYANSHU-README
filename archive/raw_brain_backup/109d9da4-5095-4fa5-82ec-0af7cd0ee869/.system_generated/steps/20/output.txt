@@ -1,0 +1,23 @@
+The search for ""CXL.mem" vs "PCIe" DMA "load store" latency comparison" returned the following summary:
+The performance difference between **CXL.mem** and **PCIe DMA** is primarily defined by the access model and the level of coherency supported. While both leverage the same underlying physical layer (PCIe), they are architected for fundamentally different types of data movement.
+
+### Key Latency and Operational Differences
+
+| Feature | PCIe DMA | CXL.mem |
+| :--- | :--- | :--- |
+| **Access Model** | Block-based DMA (transfers large chunks) | Load/Store (byte-addressable) |
+| **Coherency** | None (software-managed) | Hardware-managed cache coherency |
+| **Typical Latency** | Higher (microseconds, due to stack/DMA overhead) | Lower (nanoseconds, near-memory speeds) |
+| **Target Use Case** | Bulk data transfer, I/O, storage | Memory expansion, shared memory pools |
+
+---
+
+### Why CXL.mem Provides Lower Latency
+1.  **Load/Store Semantics:** Unlike PCIe, which typically requires a Direct Memory Access (DMA) engine to move large blocks of data between a device and system memory—involving significant software and driver overhead—CXL.mem allows the CPU to access device memory directly using standard load and store instructions. This eliminates the "block-copy" latency.
+2.  **Hardware Coherency:** CXL protocols include cache coherency mechanisms. By allowing the CPU to cache data residing on a CXL-attached device, the system significantly reduces the number of round-trips to the device for frequently accessed data. PCIe lacks this capability, meaning data must often be explicitly synchronized or copied into local memory before a CPU can safely process it.
+3.  **Protocol Efficiency:** CXL.mem is specifically optimized for short, low-latency data exchanges. While PCIe is highly efficient for bulk throughput (the "highway" analogy), CXL.mem acts as a direct extension of the CPU's memory bus, allowing it to function similarly to a remote NUMA node.
+
+### Performance Context
+*   **Latency Characteristics:** While CXL.mem is significantly faster than PCIe DMA for fine-grained memory access, it is generally slower than local, direct-attached DDR memory. The latency of CXL.mem is typically described as being comparable to a **remote NUMA hop** (often in the range of ~200–600 ns depending on the configuration and switch topology), whereas PCIe DMA overhead is often an order of magnitude higher for small data transactions.
+*   **The "Memory Wall":** CXL.mem is designed to bypass the limitations of traditional memory channels, allowing systems to scale memory capacity without being constrained by the limited number of CPU DIMM slots.
+*   **Trade-offs:** If your workload involves moving massive, sequential blocks of data (e.g., storage I/O or streaming large files), PCIe DMA is highly effective. If your workload requires random, frequent access to a shared pool of memory—such as in-memory databases, AI inference, or heterogeneous computing—the lower-latency, cache-coherent load/store capability of CXL.mem is significantly more efficient.

@@ -1,0 +1,13 @@
+
+The command exited with code 1.
+Output:
+Traceback (most recent call last):
+  File "C:\Users\renu5\.gemini\antigravity\scratch\micro_print_arranger.py", line 320, in <module>
+    arrange_for_microprint(input_path, output_path, flip_type)
+  File "C:\Users\renu5\.gemini\antigravity\scratch\micro_print_arranger.py", line 121, in arrange_for_microprint
+    print(f"\U0001f4c4 Input PDF: {input_pdf_path}")
+  File "C:\Users\renu5\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4c4' in position 0: character maps to <undefined>
+

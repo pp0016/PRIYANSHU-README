@@ -1,0 +1,31 @@
+The search for "NVIDIA RTX 5090 5080 5070 5060 laptop mobile GPU VRAM specs 2025 2026" returned the following summary:
+The NVIDIA GeForce RTX 50 series mobile GPUs, powered by the Blackwell architecture, were introduced in 2025[1][2]. These mobile GPUs feature GDDR7 memory across the lineup[1][3].
+
+Below are the standard video memory (VRAM) configurations for the primary RTX 50 series laptop models:
+
+| GPU Model | VRAM Capacity | Memory Type |
+| :--- | :--- | :--- |
+| **GeForce RTX 5090 Laptop** | 24 GB[4][3] | GDDR7 |
+| **GeForce RTX 5080 Laptop** | 16 GB[4][3] | GDDR7 |
+| **GeForce RTX 5070 Ti Laptop** | 12 GB[3] | GDDR7 |
+| **GeForce RTX 5070 Laptop** | 12 GB[3] | GDDR7 |
+| **GeForce RTX 5060 Laptop** | 8 GB[3] | GDDR7 |
+| **GeForce RTX 5050 Laptop** | 8 GB[3] | GDDR7 |
+
+### Key Details:
+*   **Architecture:** All models in this series utilize the Blackwell microarchitecture, which introduces 5th Generation Tensor Cores and 4th Generation Ray Tracing cores[1][5][3].
+*   **Performance & Usage:** 
+    *   The **RTX 5090** and **5080** are positioned as high-end enthusiast GPUs capable of handling intensive workloads and 4K gaming[1][6].
+    *   The **RTX 5070/5070 Ti** series is generally regarded as the "sweet spot" for 1440p gaming[7].
+    *   The **RTX 5060** is designed for high-performance 1080p and capable 1440p gaming[7].
+*   **Memory:** The transition to GDDR7 provides increased bandwidth compared to the previous generation, supporting faster data access for textures and geometry in modern, demanding titles[1][7][8].
+
+Sources:
+[1] [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqNXgYXqYSVSCT0x9T5qRdWVt6w8MTmCKkoaxVv3ydcfirXQ0BX5oA8VMVl-ZEH6Zf9_fXkPqImU5LS4xrVb2VHOD5wkpi-KL4xbU1O6CWXjJSMLmTVUPQnEQpAkT_owxIabHIyIthd78=)
+[2] [corsair.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwcVkfPOKD4S1BaHhCskEgjPSpxAofUdBSLbhbc4JTDxDcx00WFhmwrIlnmvqbfFQaO1yfSraomhDyPEKvN7wRGRW0ITgWmS9eGLNH3-_xDkqbguOLmZSgf3jXEMLpxwqQCv_VBo-tbHY5BxVZAtXlssg96Oxw77hynxfuXSHQstR-VEG-m5AF8f9B4-l_pR1JJ6vwq40APSsCi4IAAJVF_xKxtQed8uYZ23ftEg==)
+[3] [nvidia.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN2EkZnJcHnoeIFIRWfIOtxryprmY8JTVT1FVIyGGYvvEafEHtgrgAitdz53C8GzPn9ydgNNmr96tpmjU5d4ADR9MUpGE4ImHXiHC401wvSGB3agJrR3RNxEHPLUQQh15AnZ43gzA-pV1KsA==)
+[4] [nvidia.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6YjwaokbdlowQ2ysETQdN8int0l-OVWyehFvwqHbWsT58ERVOup7EqSArR-iLVwjGQ0zcsvcNy3X8rd00X8OpOFAkPdv2G6XO3ibeCzZCT0PDfgtxneVv7YKG0LS2QlCgzpA_f2nq9uZ2kJ7P)
+[5] [nvidia.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTuyoj2k0EEzhnZq8Pqn6WU5W9X-CqBu9pa4GYxOSB0I3D84boQpCsCVhLenIJyodve3QmB_h7GNc8Iw5zGcEC_cPoFmKqfeDyrhSZOxyBTmvhTGDPoUA0_mXcJgiYilvO2rWKutrMXfpZVt4TPbgpzcp0Tg==)
+[6] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVCzoAw-Y2Dj9f4jKR4kuxhUKdKGlf8Srkx4FHUDaMOJx8A5B-dwJ6BKTOgvIKxUIOYH_rgK0cOZjPWQG4dDkjNcYv-bgHichYmYloegDKvCgPPh1oPkYGiF5Y0ijQFUO0)
+[7] [newegg.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-2Sl4vo0Jdx3qJgpYO2fh33mSGaZvxJnIbBvSPUN-NQKhhXH2zyoz-dh4NgzKYL4YpjTe3Hz1aLCjdOHaw48eggl-WQHYRGkXj1eTDuhjk94jcLxBCbQUdeQjvQ-fOmQjbbAZM8JT0wUNiglpkd-0MME1SsD4vddtPmjYNwDvqwC5pZFL-L3VBA==)
+[8] [tomshardware.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEakd-LlJEIcRpDYMEXRmJRpew2jMhjOoGGx88EMXFY0IBfNVe8LKWyJ0J6TWHKmn340bjx3DeqZw56soA5W5uYf3Zp7OvP5TbLQa3SKjdoIX-tSQuTwnLTaPjGcJP_xzjllMvAfpyyZouWwGBpSiRGnWb-DQTiRfv8heizyWhJmc_ZrbvgtQbhVBgqTHKx)

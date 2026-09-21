@@ -1,0 +1,29 @@
+The search for ""subroy13/handanim" hand overlay video" returned the following summary:
+**handanim** (available on GitHub as `subroy13/handanim`) is a Python library designed to programmatically generate **whiteboard-style, hand-drawn animations**[1][2][3].
+
+It is not a "hand overlay" video in the sense of a pre-made stock video file, but rather a **software tool** that allows you to create your own animated videos by writing Python code[1][4].
+
+### Key Features
+*   **Programmatic Animation:** You can animate mathematical expressions (using TeX), geometric shapes (lines, ellipses, polygons), and diagrams by defining them in Python[5][4][6].
+*   **Hand-Drawn Feel:** The library is specifically designed to give output elements a sketch-style, human-like appearance, including options for hatching and scribbles[4][6].
+*   **Educational Use:** It is ideal for creating tutorials, explainer videos, and mathematical illustrations[1][2][7].
+*   **Export Options:** You can export your generated animations as video files (MP4) or vector images (SVG)[4][6].
+
+### How to Get Started
+To use `handanim`, you typically need a Python environment with necessary system dependencies like **Cairo** (for graphics) and **FFmpeg** (for video encoding)[5][8].
+
+*   **GitHub Repository:** [https://github.com/subroy13/handanim](https://github.com/subroy13/handanim)[1][9]
+*   **Documentation:** [https://subroy13.github.io/handanim](https://subroy13.github.io/handanim)[1][9]
+
+If you were looking for a simple overlay video file to place over your own footage, this library might be more technical than expected, as it requires programming to generate the animation[1][4]. However, if you are interested in creating custom, reproducible, and scalable hand-drawn animations for videos, this is the tool intended for that purpose[1][2].
+
+Sources:
+[1] [statwizard.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMdSGKi4GHcfB0Cn_ZKAzynGatybQ-5Dh2yyip4iZEB7wMpys3U4ez6NAdnaZpuetErObFjmvlEfMHoiFlRVfyO48_szWKWRc9uuCV9BGg5uxeQHN5mplivcvvaw==)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIIkIy5oXErTjUMSDyEGwpVRCFFMfQ6y6XMs8jTbesB4XF6Ep3TMTzAm2RYHNbRMJJO-knvaUBgQ96OZRgG77UyVGmKTG2qh_WPLgSA6LlEX_txzY1RSkiOA==)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIIkIy5oXErTjUMSDyEGwpVRCFFMfQ6y6XMs8jTbesB4XF6Ep3TMTzAm2RYHNbRMJJO-knvaUBgQ96OZRgG77UyVGmKTG2qh_WPLgSA6LlEX_txzY1RSkiOA==)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIIkIy5oXErTjUMSDyEGwpVRCFFMfQ6y6XMs8jTbesB4XF6Ep3TMTzAm2RYHNbRMJJO-knvaUBgQ96OZRgG77UyVGmKTG2qh_WPLgSA6LlEX_txzY1RSkiOA==)
+[5] [context7.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHamlt-mY-Q4GY0o7XLQ5oJT3LXjwpry5O2R1DEl8Zvh2T3F5cX8CaO-qpyLzWAuvlfU9R9riN9X6y6lQC9PsBjQ0QkVo062VNj8riNVUE_9OzG83A4m2WpHBr-)
+[6] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIIkIy5oXErTjUMSDyEGwpVRCFFMfQ6y6XMs8jTbesB4XF6Ep3TMTzAm2RYHNbRMJJO-knvaUBgQ96OZRgG77UyVGmKTG2qh_WPLgSA6LlEX_txzY1RSkiOA==)
+[7] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIIkIy5oXErTjUMSDyEGwpVRCFFMfQ6y6XMs8jTbesB4XF6Ep3TMTzAm2RYHNbRMJJO-knvaUBgQ96OZRgG77UyVGmKTG2qh_WPLgSA6LlEX_txzY1RSkiOA==)
+[8] [context7.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHamlt-mY-Q4GY0o7XLQ5oJT3LXjwpry5O2R1DEl8Zvh2T3F5cX8CaO-qpyLzWAuvlfU9R9riN9X6y6lQC9PsBjQ0QkVo062VNj8riNVUE_9OzG83A4m2WpHBr-)
+[9] [statwizard.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMdSGKi4GHcfB0Cn_ZKAzynGatybQ-5Dh2yyip4iZEB7wMpys3U4ez6NAdnaZpuetErObFjmvlEfMHoiFlRVfyO48_szWKWRc9uuCV9BGg5uxeQHN5mplivcvvaw==)

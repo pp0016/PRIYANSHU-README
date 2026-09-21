@@ -1,0 +1,14 @@
+Task: e900d5b2-f367-42d4-9829-7fb6b2499468/task-10
+Status: DONE
+Log: C:\Users\renu5\.gemini\antigravity\brain\e900d5b2-f367-42d4-9829-7fb6b2499468\.system_generated\tasks\task-10.log
+Log output:
+.*? : The term '.*?' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:302
++ ... ; print('OG Title:', re.findall(r'\"og:title\" content=\"(.*?)\"', ht ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (.*?:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+
+Last progress: 6s ago

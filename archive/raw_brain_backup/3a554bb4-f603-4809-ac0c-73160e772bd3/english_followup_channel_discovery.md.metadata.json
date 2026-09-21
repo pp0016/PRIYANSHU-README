@@ -1,0 +1,6 @@
+{
+  "summary":  "Follow-up prompt to paste in the SAME conversation where the English Tier 1 validation was done. Targets the 2 remaining gaps:\n\n1. Find 5-8 mid-tier and small channels per niche (Dark History, Unsolved Mysteries, Horror) that the user can manually watch on YouTube to judge visual quality and production match\n2. Force the researcher to be brutally honest about which of the 3 remaining niches ACTUALLY works for AI images + Ken Burns + voiceover (not animation, not illustration, not face-cam)\n3. Find channels the researcher missed — specifically newer channels (2024-2026) using AI-generated visuals\n4. Produce a final watchlist organized by 'watch these first' priority\n\nDesigned to run in under 8 minutes at moderate depth. Output comes back to this conversation for final analysis.",
+  "updatedAt":  "2026-07-15T20:11:42.027961800Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

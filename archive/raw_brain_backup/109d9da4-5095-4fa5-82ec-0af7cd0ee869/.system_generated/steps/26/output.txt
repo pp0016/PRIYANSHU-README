@@ -1,0 +1,23 @@
+The search for ""Thunderbolt Bridge" ping latency "ms" OR "µs" Mac" returned the following summary:
+Ping latency over a **Thunderbolt Bridge** on macOS is typically measured in **sub-millisecond** values[1].
+
+### Typical Latency Values
+*   **Average Latency:** Approximately **0.3 ms** (or ~300 µs)[1].
+*   **Performance Range:** Reported round-trip times (RTT) for Thunderbolt networking are often in the range of **0.1 ms to 0.5 ms**[1].
+
+### Key Context
+*   **Comparison:** This is significantly faster than standard network connections like Wi-Fi, which often exhibit latencies of 20 ms to 70 ms or higher depending on congestion[1][2].
+*   **Usage:** Because of this extremely low latency, Thunderbolt Bridge is highly effective for tasks requiring fast communication between two Macs, such as distributed computing, high-performance file sharing, or low-latency remote display/control[3][4][1].
+*   **Technical Note:** While standard IP-over-Thunderbolt (Thunderbolt Bridge) provides these low latencies, newer macOS versions (starting with macOS 26.2 on Apple silicon Macs with Thunderbolt 5) also support **RDMA over Thunderbolt**, which can offer even tighter, more direct communication for specialized high-performance clustering tasks[5].
+
+If you are experiencing higher latency, ensure that your network traffic is actually routing through the Thunderbolt interface (you can check your Service Order in **System Settings > Network**) and that you are using a certified Thunderbolt-compatible cable, as some standard USB-C cables may not support the full bandwidth or latency benefits[6][7][8].
+
+Sources:
+[1] [sebastianalexis.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYzXGe_as4tVJKnp36w3ygX371sO0_0g0xbqHmFZBkBu-rwjfk8c1GuIvRxdNCeFkN9rhITYFnsBPg3eWRPXmfz1VFvpN6rp-yZXUrespcJsUbImR5yh6AGvx1QcS-J7ts1FbubDRthDl3QamtQ87CbSF5LRmk0qO6w==)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIkIZTI9t1izkHy3fwnXXzCuKcHnD2JEx-EeHcMbNuJf9YWVLYfmkNreKg6zOlfgmgJNY9mnuR1F7F93WE-rpx85NJs80k7THmKDiJXDtgM3909_fFQNj_eX7arjGbkF2pM0s=)
+[3] [astropad.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoF2UwUi3Y6bEFLHGDzSf-qqf1-Q8Atlx4Ego97_abcsU1LPKDIElgMC73x5sS4ZjPiv2g0KpgupNAK_7k_UmlcoMwZr2gjbgdq0vieAcjUUW9HSRDmUqR7KOlhgjvdHy_vQ==)
+[4] [smolhub.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFARohHjvtY-anBl07p0LA-IoJ49msHTwHKCX-FfaQnGiVjCOU1L1o8R-1uMfb1cX3Icqx4qvwB44EaxgORLBaYs9UHABc8pkcNxrgQaZ45-FUvm3LovWz6eZKhM92YMZNFrm6YkSrib-YFng==)
+[5] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Y1Qv7W57Xk4bwbF_NF8eOH660LknYzGCglf2S4j092lpsyUmVdmO8zK-BLao29hWtG0qnq59DL5SjAbF6SncMX6WowPIgQwfhyni74kw2YRL33ifV8U2QQdl27Zr9S16gOBz-W7otY_DGLcK7Ngqm4LJj2yff4J1u3wU0hFTj1XZTsZYYH-IHQY-fjY28J1brwLFXgtoHsHRWcX6h7a0iN3V_Q==)
+[6] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAa33_H8HUmuEbHGKBosY6qjTBLd2NhdCB3zU7oX2e4TX--8IAVA2tuktEX0UP5L8-AAccHIOh3d6gxp0jjvuyct6HCne0ifrRas7See9AAObe2ouJB45ocFPlrr64Oc_Jucc=)
+[7] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkw_s0agpZzpE-1SSJ1BSoNET0IHDEV9_B4OUbpPX0zkNmeltIp3z6mvh5_1ZVLitn_rckC15hMgo_mXs1PSlMDojjzZ6GNDiRVdCRuMKFjao7QSYUcvlSBdb7gQYokcOthSc=)
+[8] [macdisplay.it](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkWIFogpdkeZ_joqvK-AyuNJ7xXtORTLYdry1_yiNugW_XwjYUej-gAoQxKABiTAqQl-4f_pK9tJjodyP6hF-xk6xoGLDdVTmJUTMUZP3Xtt0tPlIe6GKLmRcaFc5gfr9P0LGmMh5qu7U9S4t-g1zi7ag=)

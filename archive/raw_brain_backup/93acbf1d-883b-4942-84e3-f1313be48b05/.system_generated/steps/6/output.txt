@@ -1,0 +1,45 @@
+The search for "site:support.apple.com "Connect two Mac computers using Thunderbolt"" returned the following summary:
+To connect two Mac computers using Thunderbolt, there are two primary methods depending on your goal: **Target Disk Mode** (for file transfers) or **Thunderbolt Bridge** (for a network connection).
+
+### 1. Target Disk Mode (For File Transfers)
+Target Disk Mode allows you to use one Mac as an external hard drive for another, which is a common and fast way to move large amounts of data.
+
+*   **Requirements:**
+    *   Two Mac computers.
+    *   A Thunderbolt cable.
+    *   **Important:** If either Mac is running macOS Big Sur (11.0) or later, you **must** use a Thunderbolt cable; USB-only cables will not work for this mode[1][2][3].
+*   **How to do it:**
+    1.  Connect the two Macs using the Thunderbolt cable[4][2].
+    2.  If the Mac to be used as the disk is an **Intel-based Mac**:
+        *   Shut down the Mac.
+        *   Turn it on while holding down the **T** key[5][2].
+    3.  If the Mac is an **Apple silicon Mac**, it uses "Mac Sharing Mode," which is accessed via macOS Recovery[2][6].
+    4.  The Mac should appear as an external disk icon on the desktop of the other computer, allowing you to drag and drop files[7].
+
+### 2. Thunderbolt Bridge (For Network Connection)
+If you want to connect two Macs to communicate with each other over a network connection (e.g., for file sharing or other IP-based services), you can use Thunderbolt Bridge.
+
+*   **How to set it up:**
+    1.  Connect both Macs with a Thunderbolt cable[8].
+    2.  On both Macs, go to **System Settings** (or System Preferences) > **Network**[8].
+    3.  Look for **Thunderbolt Bridge** in the list of services[8].
+    4.  Ensure the interface is active[8]. Once connected, the Macs can communicate over this interface as if they were on a local network[9].
+    *   *Note:* Even when physically connected, macOS may sometimes default to Wi-Fi or Ethernet if they are faster or prioritized. Ensure your network settings are configured correctly to prefer the Thunderbolt Bridge if you intend to use it for high-speed transfers[9].
+
+### Summary of Differences
+| Feature | Target Disk Mode | Thunderbolt Bridge |
+| :--- | :--- | :--- |
+| **Primary Use** | Direct file transfers / Migration | Networking / IP communication |
+| **Setup** | Requires booting into a special mode | Runs while macOS is active |
+| **Behavior** | One Mac acts as an external drive | Macs act as two devices on a network |
+
+Sources:
+[1] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSQOtD1uploeRTmhN7py070MUvLE__-5BWev3rRmhFUoVW5Rtt-2sR4c4JXfamVAP5b3qF6czrf6zTCWTNDKb1_1FLy2AoP96XPS9wdUD06EkV6JItrPbrVKPO_2VMYq28kDg=)
+[2] [anyviewer.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNU3VzofoPlLxX99NpAa9UGsVXwrKS67mJyTTI0dh1CVUmrTc_mRrXO0wqx163J5luVIt-ftPxd7hTh_iSGlZQUleb4RANXlDYFPWEDpToK9Ii5eQKuj5PPElZcHB40F62SlxKUj_3kkLMCvYY-8Qh2mdu9pv7YYZ5GofCC0J-UhC5eOhy-H8pa0yk2-5_dhpw53YwF_mtWK_Zpi1rf60=)
+[3] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQrW9yp-rHRfCW79m6IYPnw45dyQkzcSPEPVZvq4HRCUqOoPLm0n2tp59ABHqxF9eR3oZUzyj8oRXFguz2abANnoJwqZWrFNUWP7unVmq9ZhSyQUrqKyf_TTgHxXi9hprBJqY=)
+[4] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8ZLlgQlfdovPHKUMkjQlJr2K7-twjtAq09cxsguzH-y3LbkBAUDKUDZCLfBjVqskHmQoz0RdTztfoi2iqHEJv3XqfIr_wIjahnBM5ZT3X9oCJyYKiecyCHW4b6TSa00ZFxYbh0ZYerk-DoJ_Jh0wQFQ==)
+[5] [graphiteas.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgVO2sTfwkYNAqFnJwcuZTgzd9-YbGUKtGqzJj168YRGi0zCVfLFgWRVokgseiNv1KirCV82JDCNVY6s82Lkd8kQ_xTttTHrLtV3XCKfH2VSBwn55r9Iw5JfjvNa3kOtcpRL4pwJQFnfaTcUO7Fcwz7VfQFwH2JYD23AsLYMcTsJi3VbhsNwNtk2nnM4904Yi0vfN6VK2p)
+[6] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc63PzaTTVZuYKNEhTe1bO7uwGrmRtnyEwAgfJ4MIK0AhFlsJHUfpxprEg8fAH0K4xnQkW0-2Oq09afAD8Z4mQi5Cg4btDVhmRMW5-FpGrUzER2dZQhxx6gm5qh-KJus7dl4Ub-teKegxX0raRP69dhcFceA==)
+[7] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZOYdX8upo7fNsMLUjcmxQNuFsldOBzBZDXN__4jpP1UeXLnE_658MtnxOKyu5b6_yXSQ6X6zDOOVf88Z6e-gBUjru1rSqkMrmYLikBEly5lKUkawiFBftZNENtytT0rN0KpM=)
+[8] [nektony.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMwXqTIfL7Uqo84UIshG2exTt-cCAqpfY0IcvwbVsOE5XoRax0Ju_9WMwCXz2HzBmtJ7EANIR7weq5KWd95OsiUKM9uQiBxOFscT5rUjvyXzVJL9uCsXidIYLGvrwdTFWCAc7HXnI2QhrRXeWI)
+[9] [macrumors.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFybxsmATS6p__S6GTNiTMj4fx8zkMK5h-oAB-xGMo__M1Lo_t93wcHRXH64Th2qOO0ggi80nnIKDitvyyqhEm0c8IjlLUUx4zehVwVpdLGo3xgy87l_gOw_AdqHU7zrhK4tCQMN9TnE6Bs1HNMeIXH_CEQaFkZkNS_u8ScRbwXwoKPr0D8fnOZdOSI90MCx4CeCjmlgYvqBudNXhHqfTH-90ahO3vr1l4fTCTksLRD97IsHrSUnmPgVQlxZVU=)

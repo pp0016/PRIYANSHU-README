@@ -1,0 +1,14 @@
+
+The command exited with code 0.
+Output:
+
+
+    Directory: C:\Users\renu5\.gemini\config\skills\micro-print-arranger
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        08-09-2026  10:36 PM                scripts                                                              
+
+
+

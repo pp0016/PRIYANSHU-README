@@ -1,0 +1,5 @@
+{
+  "summary": "A production-ready prompt to paste into vidIQ AI Coach that reverse-engineers a video's editing style into 10 detailed categories (cut rhythm, typography, transitions, motion, color, overlays, b-roll handling, audio-visual sync, intro/outro, and signature moves). Each category requests exact timestamps, measurements, and Remotion implementation notes. Designed to extract ONLY visual editing DNA — no content, topic, or script copying. Includes next-step instructions for converting the AI Coach's output into reusable Remotion TypeScript code.",
+  "updatedAt": "2026-09-01T21:30:45.718227300Z",
+  "userFacing": true
+}

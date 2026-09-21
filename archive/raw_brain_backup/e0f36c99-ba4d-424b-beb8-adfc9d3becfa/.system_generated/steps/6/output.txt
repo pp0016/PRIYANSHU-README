@@ -1,0 +1,26 @@
+The search for "site:gabb.com "strict feature count" OR "notification" OR "third-party" OR "block"" returned the following summary:
+Gabb provides several layers of parental control and safety features across its devices and services, including spam blocking, app management, and content monitoring.
+
+### **Blocking & Spam Protection**
+*   **Gabb Guard:** This is a built-in spam-blocking technology that automatically identifies and blocks suspected spam calls and texts before they reach the device[1][2]. Unlike strict contact-list filters, it aims to block suspicious activity while still allowing most unrecognized (but legitimate) callers to get through[2].
+*   **Gabb Messenger:** Uses "proprietary smart filtering" to block or flag explicit images, links, and harmful language in messages[3]. If content is blocked or flagged, parents receive a notification via the **Gabb Messenger for Parents** app[3][1].
+*   **Video Calls:** Gabb Messenger features safe video calling. If nudity is detected during a call, the system will end the call, block video calling, and notify the parent[4][5].
+
+### **App Management & Third-Party Apps**
+*   **Strict Approval Process:** Gabb employs a curated, kid-safe app marketplace[6]. Third-party apps undergo a "strict approval process" regarding content, functionality, safety, privacy, and in-app purchase features before they are made available[6].
+*   **Device Limitations:** Certain devices, such as the Gabb Phone 4, have restricted access to apps, while the Gabb Phone 4 Pro on the "Advanced Plan" provides access to a broader library of curated third-party apps[6].
+*   **App Restrictions:** Parents can request new apps through their Gabb account, though not all requests are approved[6]. Users have reported challenges with certain third-party apps that may still allow navigation to unauthorized web content (like Google Search) via links within those apps[7].
+
+### **Notifications & Monitoring**
+*   **Parental Notifications:** Gabb devices and apps are designed to send notifications to the parent's smartphone for various events, including blocked/flagged content[3][1], detected nudity in video calls[4], and certain system-level privacy notifications (e.g., location access)[8].
+*   **Contact Management:** On compatible devices, parents can add, approve, and manage contacts for their child[3]. While watches are restricted to approved contacts, parents have noted that, on some phones, incoming calls from unapproved numbers may still occasionally reach the device despite these settings[3][1].
+
+Sources:
+[1] [gabb.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhN0GeYp1SLAmha0KUD38Q8bdurA7pgaqmDE6mif_levubD_be1OscIri2mjcvYdGIrThdCypz2SWE_peBjWRwxUcLJpg3i7mitVr62jv_KWtod7PP6IPRJ0wLK-A-e7_RrTb5PlAjd-3ghlJtcwgGNEHOxLtC263yGA==)
+[2] [gabb.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWS1vCGUde9ySFVxUYOkkwb3GPWLQRxKUtJXnokXtK3b8yjwAU113O0m3PKzakmrYRqJgOQXs0DmZUPHeXKQAtNs4QyDJved_qqQQ3gPeOnX_6)
+[3] [gabb.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiqPdkbHZWC8Ua2S-IQKSD8-23xtWgyhNQ4_bgg5psXCPNH-9hMciEFDpi52Ir3jPuE2iFVsg_6wddEmOxXBMbc9jUZy56NNpUHyxPE7iCg67uBx9El2m3eskSbqUsb4trMHLH8gMP5XU6w5G_kDQO7g98g-RTsf0akzfdH9-bRv04LVQ6JW7Xs6UReykgSqhb2ie500fZwO31B0Qf10EFeXpXJg==)
+[4] [gabb.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKF_b0GR8G2rb8IZMWjspk-JA_xEdhUBoe7jf8fZv-jYxXpnGuZN4JTa0PhsIZKkt9N-2mJDTYdkSCZ64lsGNRkFlFcNQHK28pIGpavLX2p1Pacml-xiBplItMPebduyeaP-wPE7R8FUKxUmOzw5VS-Z-s3GtGbg-YDIzq4n032VBLuR7C)
+[5] [gabb.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUMZyfwcpTUjm9a8Gq4J5aYegb_P0lXhlaACWzj8yXTEZgPCz1G6VKYxrMPaimThtOBB0buE8Y65nR08_g0UAR8QTXtKUWuUG3uFBeBqafnIUaWb_4KBEPJyQQ12DqgxYexpN4JLroPMrfs3wuVLJCmadn7mc5FwDJ_HMMZ30=)
+[6] [gabb.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIb6VlKA3l3uBw7plAiskeZ01h1rtjwz7oZVhdJKh0TF67NaJ_-_QqxPo8By35WPagZJibryI5rCJtgAH0mttzxqf_CGMEi2VlOI8cAWayoAEmNJ_nFbfTmjd37uz3cx3k5_DDjYQtJgSUtKTnGIfq5kNTPaPHEKGtga6v)
+[7] [gabb.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEh1yAz3BLEqUvRH8npmjNO4JExcct4aI9muKm3C3N7rdmbgKPYxbaANNKUOgQ2afJ3jQPYNiEvNzv3r0xUUpLx-7I6oQEph8kSA-_5fn9pIBlIl8LBWS_Vd9wMsxEG5YxH1iDx3zgUEVwRam9LoUCDovBftc8n5EqhKiUiyX_ko01N4F7JXfS9liyiPAdT)
+[8] [gabb.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEplI-1O4a2FlVT13gsoHsbSeBnBjePQKh0_cFdxb3C2WAmx4rM-XlxmovJFEkV_YG_GnYfhA9iJsK6TqeG97-6d9UWM9kHH2tUL9gKIn8WW9SpeeVUbupW1FKEjswqUwnPRM9bTiOeBLH_l5vcLiDMCfJnCww5kBs3zdZsdw6xkR0nnOHYDo4=)

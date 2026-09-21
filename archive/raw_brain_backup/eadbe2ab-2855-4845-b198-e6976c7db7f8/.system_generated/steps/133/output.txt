@@ -1,0 +1,53 @@
+
+The command exited with code 0.
+Output:
+📄 Input PDF: C:\Users\renu5\Downloads\Assessment Demographic Data.pdf
+📊 Total pages: 17
+📐 Pages after padding (multiple of 8): 24
+🔄 Flip type: Long Edge (Book style)
+📑 Sheets needed: 3
+
+==================================================
+📋 Sheet 1
+  FRONT (TL, TR, BL, BR): P1, P3, P5, P7
+  BACK  (TL, TR, BL, BR): P4, P2, P8, P6
+  ✂️  Cut Results:
+    TL: Front=P1, Back=P2
+    TR: Front=P3, Back=P4
+    BL: Front=P5, Back=P6
+    BR: Front=P7, Back=P8
+
+==================================================
+📋 Sheet 2
+  FRONT (TL, TR, BL, BR): P9, P11, P13, P15
+  BACK  (TL, TR, BL, BR): P12, P10, P16, P14
+  ✂️  Cut Results:
+    TL: Front=P9, Back=P10
+    TR: Front=P11, Back=P12
+    BL: Front=P13, Back=P14
+    BR: Front=P15, Back=P16
+
+==================================================
+📋 Sheet 3
+  FRONT (TL, TR, BL, BR): P17, BLANK, BLANK, BLANK
+  BACK  (TL, TR, BL, BR): BLANK, BLANK, BLANK, BLANK
+  ✂️  Cut Results:
+    TL: Front=P17, Back=BLANK
+    TR: Front=BLANK, Back=BLANK
+    BL: Front=BLANK, Back=BLANK
+    BR: Front=BLANK, Back=BLANK
+
+==================================================
+✅ Output saved to: C:\Users\renu5\Downloads\Assessment Demographic Data_microprint.pdf
+📝 Total pages in output PDF: 24
+
+🖨️  PRINTING INSTRUCTIONS:
+   1. Open Assessment Demographic Data_microprint.pdf in your PDF viewer
+   2. Print → Select 'Multiple pages per sheet' / 'Micro' / '4-up'
+   3. Layout: 2x2 (2 columns, 2 rows)
+   4. Page order: Left to Right, Top to Bottom
+   5. Duplex: ON (Long Edge)
+   6. Print ALL pages
+   7. Cut each sheet into 4 pieces
+   8. Each piece will have correct front-back pages! 🎉
+

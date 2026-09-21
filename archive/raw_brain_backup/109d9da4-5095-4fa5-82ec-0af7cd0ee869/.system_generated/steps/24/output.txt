@@ -1,0 +1,58 @@
+The search for ""Thunderbolt Bridge" "iperf3" Mac bandwidth latency "Gbps"" returned the following summary:
+To test the bandwidth and latency of a Thunderbolt Bridge between two Macs using `iperf3`, you can follow the steps below.
+
+### Expected Performance
+*   **Throughput:** A properly configured Thunderbolt Bridge typically achieves speeds between **15 Gbps and 35+ Gbps**, depending on the Thunderbolt generation (TB3 vs. TB4/USB4) and the specific hardware involved[1][2][3].
+*   **Troubleshooting:** If you see lower-than-expected speeds, it is often due to the OS routing traffic through other network interfaces (like Wi-Fi or Ethernet) instead of the Thunderbolt Bridge[1][4]. Some users report better results by temporarily disabling other network connections during the test[1][5].
+
+---
+
+### Step-by-Step Testing Guide
+
+#### 1. Install iPerf3
+If you do not have `iperf3` installed, the easiest way to get it on macOS is via [Homebrew](https://brew.sh/):
+```bash
+brew install iperf3
+```
+
+#### 2. Configure the Thunderbolt Bridge
+1.  Connect the two Macs using a certified Thunderbolt cable[4].
+2.  Go to **System Settings > Network** on both Macs.
+3.  Locate the **Thunderbolt Bridge** service. Ensure it is "Connected" (green)[1].
+4.  Assign a static IP address to the Thunderbolt Bridge interface on both machines (e.g., `10.0.0.1` on Mac A and `10.0.0.2` on Mac B) to ensure traffic is forced over the bridge[2].
+
+#### 3. Run the iPerf3 Test
+Choose one Mac to act as the **server** and the other as the **client**.
+
+*   **On the Server Mac:**
+    Open Terminal and run:
+    ```bash
+    iperf3 -s
+    ```
+
+*   **On the Client Mac:**
+    Open Terminal and connect to the server's Thunderbolt IP address:
+    ```bash
+    iperf3 -c 10.0.0.1  # Replace with the actual IP of your server Mac
+    ```
+
+#### 4. Advanced Testing Options
+*   **Bidirectional Test:** To test upload and download simultaneously, add the `-d` flag[6]:
+    ```bash
+    iperf3 -c 10.0.0.1 -d
+    ```
+*   **Change Duration:** The default test lasts 10 seconds. Use the `-t` flag to extend it (e.g., for 30 seconds)[2][6]:
+    ```bash
+    iperf3 -c 10.0.0.1 -t 30
+    ```
+
+### Why File Transfers Might Be Slower
+It is common for `iperf3` to report speeds (e.g., 30+ Gbps) that are significantly higher than actual file transfer speeds (SMB/File Sharing)[1][3]. File transfer performance is often limited by the storage drive’s read/write speeds, the file system overhead, and the protocol (SMB) rather than the Thunderbolt link itself[3].
+
+Sources:
+[1] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG15pDf8yFq0zwkJSa1gHWQlJQhiAn_EaUctzEeo0aQj9-OpAi0w-Q0Hm5BUOigjtfyO3dbSGdbPygh8AqU9P5A-f1wwNpv9wXGjCuiF1FurqmTapNWOxKwjH_Uu8fqUmSpCu2k)
+[2] [sebastianalexis.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfeLTg10zP5ACJW9MO2x7ZOKywkGwNj42zLAAKitARAV0xZuBA_F503zxjiympxx0b9TYMT8pVoaewYB-IiKyBKjrRwd14Q1__BJBv0A9O2JH2-G7mU_XsJima33Cyhn1qlY1g28eZ4PPbeUic4lufu3iHH86lG3ZD7LA=)
+[3] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdLHQ215sPYdPG5WtFbEUMtqCCxZNdmhI5-I2PUnhU7fr7MVzHUJj1QY5p2-L8pqUYuWch-glUcCYPHg988lOaXglYVlKZYjch_SOOr_NiVqTEuIDyPdYLfSNr0EHrdfgzRT_bJQ1Sk64SKECjsNSrcqk87QfFZB71SHz57eE7wpwwgQWpI29arFNWO211PamZ1tVI)
+[4] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKqZtuV0dFt5ZX1Tu-5VD5j6XEx8N5mnywwQrFAdcE-6d6zXriOlBhyNsxoyjGb6Mgzm7wRhwixGmawPGnaQ4yQekqBIAd1TPJDS8Wh1P-l5UmX8pTJJ9p4CfEsE6rvtdTRH9Y9gNhZUmBK3FboYWVgXIjDEEP9HMhlAVjz7hl0PG_zo1IZV4zA3Ttb7ufmXZ35WzLgg==)
+[5] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG15pDf8yFq0zwkJSa1gHWQlJQhiAn_EaUctzEeo0aQj9-OpAi0w-Q0Hm5BUOigjtfyO3dbSGdbPygh8AqU9P5A-f1wwNpv9wXGjCuiF1FurqmTapNWOxKwjH_Uu8fqUmSpCu2k)
+[6] [theapplegeek.co.uk](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhrTzN7sU-6yUjqYKqP2U072KhVraKzsNgbsdhVxWKJeEoDo3TT9SJRMUxzAC08hbvIcg50BhaWUmJQ9VRJf2ScenfwbVj9IcW3PcsNLtXQvALdEetj-AXa5phm7e0-ek=)

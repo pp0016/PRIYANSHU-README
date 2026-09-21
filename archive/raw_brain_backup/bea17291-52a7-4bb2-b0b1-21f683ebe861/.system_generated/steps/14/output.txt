@@ -1,0 +1,11 @@
+The search for "site:jeffgeerling.com "rdma" OR "mac" OR "thunderbolt"" returned the following summary:
+*   **1.5 TB of VRAM on Mac Studio - RDMA over Thunderbolt 5** (December 18, 2025): Jeff Geerling explores RDMA (Remote Direct Memory Access) over Thunderbolt 5 on a cluster of Mac Studios. He notes that the technology allows the Macs to share a unified pool of RAM, which is particularly beneficial for running large AI models[1][2].
+*   **Getting 25 Gbps Thunderbolt Ethernet on my Mac Studio** (July 31, 2026): In this post, Jeff discusses his efforts to achieve 25 Gbps speeds on a Mac Studio using a Thunderbolt-to-OCP adapter. He details the hardware setup, including custom cooling, and benchmarks the performance, noting that speeds are somewhat limited by the Thunderbolt connection[3].
+*   **Other Mac-related content:** Jeff Geerling frequently covers Mac hardware, including rackmounting Mac Studios[2], power management and remote access[4], and various performance benchmarks comparing Apple Silicon to other platforms[5].
+
+Sources:
+[1] [jeffgeerling.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmMDWF8nZA7HSbWqFDi_0PUGztH96oEq384KIGUeIPJB7ggTyjlNkzNGbuULqJZNRbxH_3vH2RBfvp3S1mxNHe7kmz5YUvqDpKJgZst3H6m9mUTsVvuLDUWlcIAism1tueTiMIVgnZXRrSp_LyTEpAWfTjb6E3lccBftgWBrUHGIOORAEA1Id0uly40dap)
+[2] [jeffgeerling.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIryc5q6qSdJOlphrW0T7GUuBpADNZSyMVXx_P1gN1b2pgR4SjfYXQ7g6GTcjPyZdTpV20FFhWPZPHHyOey5iElvomePoEOETe76xa-YYDePZVCPgBQqM1nxdqD-_e2BcU6yU=)
+[3] [jeffgeerling.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfq0XEHce6iwYLyvPjb-aVnI1vtwuGh5gEBpLSilP2Ci8NSW6vEqGAstkXZwmQVsLwN4hxM7V-wxqKqnW0yskY816nEQFAYXCkWsnfG_pSaXGyV4aZWoz90xtDqmrsiEw5m859TDf8a2v31ILnfAV7yMwRxNBPnsWg9oJ5ACKlKgR-)
+[4] [jeffgeerling.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc-h9TdadwlDS0xpscUl4Ou0-_IYq6bxOwsnngPIFbLiwVeK0jBul0HEcGsNhQi8sE571AtAxV-mEIx5oA3r0beaPNYOo_3gwkPgRsOQwllIsWDm0pdSVaUlhghZ4HqZiZoc2xBCVLoFWZ9WJZ3nzA6xUCy-aO10Q=)
+[5] [jeffgeerling.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8Q3A-iR6rUMolRVdXxEKPQo3hQnslqmLTEzQSAvWJ4sBe0LkPr9o8t5tBgcUnIZeUqanwbhK0lN6xqX7zANtElJnsZrK_VU6av0HNHme_vxWQKFBCylwvbfi_W31hyRJ151nsUBTr8tKQo56lFCZP88DYgd8LkXru0RR2MJrbTcKsn4eqjVZi)

@@ -1,0 +1,12 @@
+The search for ""geekyutao/Inpaint-Anything" stars github last updated" returned the following summary:
+The GitHub repository **geekyutao/Inpaint-Anything** currently has approximately **7.7k stars**[1][2][3].
+
+Regarding updates, the repository remains active with ongoing development and maintenance[4][2]. Recent activity includes:
+*   **Recent Contributions/Updates:** The repository owner has been actively updating the project, including a recent upgrade to integrate **SAM 3** (Segment Anything Model 3) and support for egocentric video processing[4][2]. 
+*   **Ongoing Activity:** Issues and pull requests are being managed, with recent activity occurring as recently as early 2026 (based on the current date of September 16, 2026)[2][3].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD1M5OL9g1keJdPvDnq8f6PntTuOuUjhci38BqFf4SRbtWn-CJCWqQOvJ_J-yS9ZRXNCTtGuKaOEWQT6Vbi0RBecAIbGJgdn8D4fLqUDudq9x88dMpIb0UU2tvDhUKK1vBPe5D03Db_9YNQaeQlA==)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk61RJAQLewTkQUkZ3b9u7CKempzddSov5Wc4QeoGZkk7BX_mitUuBXMd2_qHpandiRtvDdGmJ5W-asDmBNAHPGRKqs_eB9lkmc6AVuzew2LFSIyzdkIVyLnuepx6hFkIA02v0B5u_VOs=)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6h7IIHKymvoo-7EJtddjMg5WMZWL8TNCyvVxKsdVnQxqNxOAH7ITxItDXFkzca3G5uPpUEE2cyHdmVUd92sbK1W2mp6TNXh_teaso0osrh8ph0VymniQ-U6TUcXWBWlVB5RIBiWYMbQ==)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOlNa9afj0HTn8KHT8fDFkr9bqvtL-dfHIRvqwHlwW7GOjoP7uCnpYFxmTc4n_5viDa23wYJV5Y0s1PV65D2_Seq_Kg-mVv8Ecw31_9ltRjKmTkJMhmUFf-56YhDxDBL-F3A==)

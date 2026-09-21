@@ -1,0 +1,20 @@
+The search for ""RAM disk" Thunderbolt "Target Disk Mode" OR "iSCSI" macOS share RAM" returned the following summary:
+To address your query about sharing a RAM disk between computers via Thunderbolt or iSCSI, here is the breakdown of how these technologies work on macOS.
+
+### RAM Disk and "Target Disk Mode"
+*   **Target Disk Mode (TDM) is for physical storage only:** Target Disk Mode (on Intel Macs) and the newer "Share Disk" (on Apple Silicon Macs) are designed to expose the **physical internal storage** of one Mac to another over Thunderbolt.
+*   **RAM Disks are volatile/logical:** A RAM disk is a virtual volume created in your Mac's system memory. Because it is not a physical partition on a hardware drive, it cannot be "advertised" or exposed through the firmware-level Target Disk Mode.
+*   **Conclusion:** You cannot use Target Disk Mode to share a RAM disk.
+
+### iSCSI as an Alternative
+If your goal is to present a RAM disk (or any virtual storage) to another computer as a "local" drive, **iSCSI** is the standard protocol for this, but it functions differently than TDM.
+
+*   **How it works:** In an iSCSI setup, one computer acts as the **iSCSI Target** (the server providing the storage) and the other as the **iSCSI Initiator** (the client mounting the storage). 
+*   **Sharing a RAM Disk:** You can create a RAM disk on your host Mac and use third-party **iSCSI Target software** to export that RAM disk over your network (or a direct Thunderbolt IP connection). The client machine then connects to this target, and the RAM disk appears as a local block-level device.
+*   **Software requirements:** macOS does not include a native iSCSI Target/Initiator stack. You will need third-party tools to facilitate this (e.g., specialized iSCSI software or virtual SAN solutions).
+*   **Performance:** Using Thunderbolt for iSCSI (via an IP-over-Thunderbolt connection) can provide very high throughput, making it effectively a high-speed "networked RAM disk."
+
+### Critical Warnings
+1.  **No Concurrent Access:** iSCSI is a block-level protocol. **Never mount the same iSCSI volume on two computers simultaneously** unless you are using a clustered file system (like Xsan or similar). Doing so will almost certainly result in severe data corruption.
+2.  **Volatility:** Because the storage is backed by RAM, if the host Mac reboots, crashes, or loses power, the data on the RAM disk is permanently lost.
+3.  **Complexity:** Setting up an iSCSI target on macOS is not natively supported and often requires specialized, sometimes third-party, utilities. Most users find that standard file-sharing protocols (like SMB over Thunderbolt bridge) are significantly easier and more stable for transferring files between two Macs.

@@ -1,0 +1,34 @@
+The search for "Sparse-BitNet 2026 Microsoft Research ternary weight sparsity inference" returned the following summary:
+**Sparse-BitNet** is a research framework developed by Microsoft Research (published in March 2026) that integrates **1.58-bit ternary quantization** with **semi-structured N:M sparsity** to improve the efficiency of Large Language Models (LLMs)[1][2][3].
+
+### Key Concepts
+*   **Unified Framework:** Sparse-BitNet addresses the fact that low-bit quantization (like BitNet b1.58) and N:M structured sparsity have historically been studied as separate efficiency techniques[1][4]. The research demonstrates that 1.58-bit models are naturally more compatible with semi-structured sparsity than full-precision models[1][5].
+*   **Ternary Weights & Sparsity:** The model utilizes ternary weights ({-1, 0, +1}), which inherently incorporate a zero state[6][7]. Sparse-BitNet further applies dynamic N:M sparsification during training to enhance efficiency[1][2].
+*   **Stable Training:** The framework ensures stable training by:
+    *   Allowing gradients to update masked master weights for continuous connectivity revision[8][9].
+    *   Constructing masks from continuous master weights rather than ternary weights to prevent "tie-driven" instability[8][9].
+    *   Enforcing sparsity via a "quant-then-mask" forward pass to generate well-defined sparse discrete weights for inference[8][9].
+*   **Performance:** The research indicates that 1.58-bit BitNet models exhibit smaller performance degradation at high sparsity levels compared to full-precision baselines[1][2]. With custom sparse tensor cores, Sparse-BitNet has demonstrated speedups of up to **1.30X** in both training and inference[1][2].
+
+### Related Microsoft Research Initiatives
+*   **BitNet b1.58:** The foundation for this work, which uses ternary weights to achieve high efficiency while maintaining competitive performance[7][10].
+*   **Bitnet.cpp:** An inference system optimized for running ternary LLMs on edge hardware, providing significant speedups over full-precision baselines[11][12].
+*   **TENET:** A separate Microsoft Research project (c. 2025) focused on a sparsity-aware, LUT-centric architecture specifically for ternary LLM inference on edge devices[13].
+*   **WINA:** A training-free sparse activation framework from Microsoft (2025) that optimizes LLM inference by considering both hidden state magnitudes and weight matrix norms[14][15].
+
+Sources:
+[1] [microsoft.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFALO0qyuTGzNzuN2t8vsUKWjteA58AazGUM6PZ4n8TbX0b6XnKDt7bYWF-smOqhFC2GYcKG4iD4IaTI-RGdjcxXI0rnl-IDOkowIMQXcQ0lv3Qa544E77jWP7oPmQhtoUnDS53oieg-HpV39vr6A9oIUX-qYtEv5xfnECgk9Wv5LfPuWsYfCnGsuTaJJOGHQCERRKLX79cxzMZPsVr5bgGPlG8Whv3TyXyH4G5hmeuiC6XvQBIV-44YQQ=)
+[2] [microsoft.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFALO0qyuTGzNzuN2t8vsUKWjteA58AazGUM6PZ4n8TbX0b6XnKDt7bYWF-smOqhFC2GYcKG4iD4IaTI-RGdjcxXI0rnl-IDOkowIMQXcQ0lv3Qa544E77jWP7oPmQhtoUnDS53oieg-HpV39vr6A9oIUX-qYtEv5xfnECgk9Wv5LfPuWsYfCnGsuTaJJOGHQCERRKLX79cxzMZPsVr5bgGPlG8Whv3TyXyH4G5hmeuiC6XvQBIV-44YQQ=)
+[3] [dong.li](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR4_Us13VpENvsfgz1bmGcJLROZTFucn7JfWV8_lrW-M7HeSbo1-nfPuuzXhgSjlv1j-ifBtNu6ozM0fAB7US70K6DUCM=)
+[4] [arxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs2bdh2slW6FsEd-gAa_WjjTUL2ERulriV2be8Mqu_f8jgHSNYJgdjfw5kmYLZvAFkCPNHEQkyfwTKiMbAJXUSGZ5i2l8hqxrTCK7tIPmAfc-q5ZmZEuiu)
+[5] [arxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY2FeY8odQVnVMT6vCAJiViEjCVBDOvSRNoL5_jiQ5DC_Mut1nPJXUe9txZH03Zec71rO3ZT8a6D-sjSmdGAZ9A_K-195MBegd5f7P1mnssfYKEusU)
+[6] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKkAdRllzfOs8ujuiu1sZWaZ28vmgwr6yHogBnPCuvaZw8l44zIYNZMImRvKX8oiAoQ1S_03XDblIseUP0aUB2xymdw1W0QMy-hAGLz2FvPhsfsBI-GCTk_4S4)
+[7] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1iXhLTqvkQJAYWQ7pxCk_OAUpa48EJ-zpJz_ELcbpYm5KSVh86Jn_by-f8V6pjXV2USv6CbgC3KAyMrytUUTxDPGkfB0yIIzoBQ3t4MqSNy3lI9axp4z30teDi41H9jP5lfw6_alwuHUUMWYOuViEW41qbdhi4aPLOHD8ULdtc-aUx1jidx8io7SMd3uyyFw9FwxTJdB4nXF89Ke8Iiq61GldyhyxFwFL_gZzYjQKuluB1RVmxg==)
+[8] [arxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs2bdh2slW6FsEd-gAa_WjjTUL2ERulriV2be8Mqu_f8jgHSNYJgdjfw5kmYLZvAFkCPNHEQkyfwTKiMbAJXUSGZ5i2l8hqxrTCK7tIPmAfc-q5ZmZEuiu)
+[9] [arxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY2FeY8odQVnVMT6vCAJiViEjCVBDOvSRNoL5_jiQ5DC_Mut1nPJXUe9txZH03Zec71rO3ZT8a6D-sjSmdGAZ9A_K-195MBegd5f7P1mnssfYKEusU)
+[10] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGay1OHmp2i_GMPG_VQv1gQxdlOJBhbmR5Kyodhb67brQlI9pXdnMSSROCC1MxtsAHlQmvlV3GJ1cKMduJGc4Et0-YIGNM3S8nR_ad6Wheg2-aFn6I5p78kF8acnhF7RznSllAC2TgxDCp2aHvCx99ryBr5bBpExnQq3nz4rtM5o6vON2gEHZG9kTzKp_6U_BaGCP048l2jMBurFJ34CH8-a0-GdrxInDb7itaJctfk-sfOIovE8Q==)
+[11] [researchgate.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFC4WyzVSc8LIKjuE36sVH5ImvWHf5kL3DsUFZkHRVu0vaO0vhrRTwZv3U7MRTCOM_PDerDKA6ye7jtHU_xZTiVnCpMAGeQ6vNOj7PCIHBQQJWt7HbFl8gcb_0iFmhHh1IZ6uGol5MW982MRSVdFkhls97c9TD_8e7DQOhbVpWARkUDz3hwdhzjNT9oim5RLOq2trkMN1QYQsjn-A==)
+[12] [aclanthology.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErknbGxenaiPaAtHxHUsI7NWpfhF5iWjTWCidYKx7F-gf2ZoHiv7rYtsJ__KtNjVtWck3PsZ7jpm56cmTY5uG0Z_cf39qoo5X-5xvP1-rbX_Han7JoR-FTJYj6sBB6hI8=)
+[13] [microsoft.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtr-rBxbDspfML1TgFerY_VduHE6MnYUSIYBgQelz-0nWDgc0xm9iefHJ_OYccv0DbZBFUPZ_9NthALe3HxgkwaRRh5Bfh-59tr58wPmkHkzsqmxeqRH55Q2Aw0lRk25VskTOt-6wHI1oz8wnF-qA9JmawBzesvQkMAO3F0q8g_I1Vms1sil0Z7O4sp78hXrMYotOiTY1khcXQSrP7MhLrnIqyHPwisjWMiHxsN59IEPvNF_GBli6Tu_atzXqtGbYrf4nt2_K-NQ==)
+[14] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx-STrTBHX4k_sGo8Pv_9saR7w92Kfm3qqvzTG38W0PfkY_i52oPjyPS2gf36NzVhaXjnyaDD8Qlb68j1pSmH8SpR-9gTA2k8v7LbCEIxwi5GR-LVyeQ==)
+[15] [marktechpost.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbBKYadkdzlI1gRBshzb2NcC34vXBDd5fF2yxAqKtpUwoWjVh_-ICcepnjgW3nEE6__zP9k1Zk1fBDhDJJCirbEOJE9tz3aXsFFq2vgj2zh3050lklsoaSI6cyEytSpEhibz6iKEF_5GBrRNSPmpNl0d3c38qbKvEJYBYCKy-58RQnVybGPW9EYB9Y7NhwB_yxspwD6ZqGZdEXASHm_qdtP6RnbuBKpHxGdoFPBIuFiJOppEJS6bvsCb_UlGtxlzkmOM86ZXXRhqAIJKmMKu3qiO-eGmp_Js15mHlhUoUW_RVdP5c=)

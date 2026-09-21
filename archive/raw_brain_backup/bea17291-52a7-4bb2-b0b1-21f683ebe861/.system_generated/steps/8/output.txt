@@ -1,0 +1,20 @@
+The search for ""Thunderbolt" RDMA macOS "Thunderbolt 5" OR "JACCL" OR "MLX"" returned the following summary:
+RDMA (Remote Direct Memory Access) over Thunderbolt is a feature introduced in **macOS 26.2** that enables low-latency, high-bandwidth communication between Apple silicon Macs equipped with **Thunderbolt 5** ports.
+
+### Key Concepts
+*   **RDMA over Thunderbolt:** This technology allows Macs to bypass the standard OS network stack (TCP/IP), reducing communication latency from ~300μs to under 50μs (with some reports as low as 5–9μs). This is critical for distributed machine learning tasks like **tensor parallelism**, where nodes must frequently synchronize data.
+*   **JACCL (Jack and Angelos' Collective Communication Library):** This is the specialized backend within the **MLX** framework designed to leverage RDMA over Thunderbolt. It acts as the communication layer for distributed MLX workloads, functioning similarly to NVIDIA’s NCCL but optimized for Apple's Thunderbolt-based RDMA transport.
+*   **MLX:** Apple’s open-source machine learning framework. Since macOS 26.2, MLX has included native support for the JACCL backend, allowing developers to scale inference and training across a cluster of Macs by treating them as a unified memory pool.
+
+### Requirements & Setup
+*   **Hardware:** Requires Macs with Apple silicon and **Thunderbolt 5** ports. A full-mesh topology (connecting every Mac directly to every other Mac in the cluster) is recommended for best performance.
+*   **Software:** macOS 26.2 or later.
+*   **Configuration:** Enabling RDMA is a manual process that must be performed in **macOS Recovery**:
+    1.  Reboot into macOS Recovery.
+    2.  Open Terminal and run `rdma_ctl enable`.
+    3.  Reboot back into macOS.
+    4.  Verify the interface using `ibv_devices`.
+*   **Cluster Management:** While tools like `Exo` provide an orchestration layer to simplify cluster setup, the underlying communication is handled by the JACCL/RDMA stack.
+
+### Practical Impact
+The implementation of RDMA over Thunderbolt has transformed Mac clustering for local AI. By enabling fast, direct memory access between nodes, users can run massive, trillion-parameter models that exceed the VRAM capacity of a single machine. Businesses and researchers use this to create cost-effective, high-performance clusters that offer a viable alternative to traditional, expensive data center GPU infrastructure for specific inference and training workloads.

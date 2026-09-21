@@ -1,0 +1,21 @@
+The search for "site:croma.com "MacBook Pro" price" returned the following summary:
+You can find various MacBook Pro models available at Croma with prices varying based on the chip generation (M3, M4, M5), display size, and configuration[1][2][3][4].
+
+Recent pricing examples listed on Croma include:
+
+*   **Apple MacBook Pro (14.2-inch, M5, 16GB, 1TB):** ₹1,89,900.00[2][5]
+*   **Apple MacBook Pro (14.2-inch, M5 Pro, 24GB, 1TB):** ₹2,49,900.00[6]
+*   **Apple MacBook Pro (14.2-inch, M3, 8GB, 1TB):** ₹1,42,994.00[4]
+*   **Apple MacBook Pro (14.2-inch, M3, 8GB, 512GB):** ₹1,09,994.00[3]
+*   **Apple MacBook Pro 2023 (14.2-inch, M3 Max, 36GB, 1TB):** ₹2,59,994.00[2]
+
+Please note that prices and availability can fluctuate based on ongoing deals, specific configurations, and inventory[1][7]. It is recommended to visit the official [Croma MacBook Pro page](https://www.croma.com) for the most accurate, real-time pricing and to view the latest models.
+
+Sources:
+[1] [croma.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKZCdpTlAaZ5sfpVF7QdAds2tKtQsDor-S-zla5nbsEtPZZO_JW_oq1-QivDF7PIRgEcRNLfCIvxqa5TGaGFUtw2XWsPTW0i1aufd0fvrDy1SjNZwFlyjl-Dg=)
+[2] [croma.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBuGWfdsw7WNP7wF_n9VSlLAOBL7OVlBrsASQgas3myvP4uGux3XMMG_9xH9fgwRYsVA9QzlH89LmNwEYvqpAmlnHt8NBPOliMIvX-fxRUrMDEgOJFF_J2014QYlmhF_zvBq2DA4QVcNi2ta-3tA==)
+[3] [croma.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHTxsfbtMG4tfjLy3YWaocF4Ci_5YW0kxu445VaF12YtpLpJMxujRQhbtZTwFK1s64X7SZVnwK1T8jTnygkFXKQl5YKuTdm75RgJ9QwF8zAw5I__6Av_OMfUe3xppb_8BxPoEOiN9b076wEykVQEHDOgBtyJRGwh0=)
+[4] [croma.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGN1INiAUCwf3NKqiKc5Vawmn6E3RxybGYgT82vC6mMAiOTkBijFfrjHywh1H8e8Ko_oL7C2Z85c8gVJeLdO_xIFog8siEROYEojpJq-_CoR5DLhNxCtXl1DgnfrzqCtogPKIKNEjbYBuZ-HvT00TNueUTmltpuSOnAht9iPzb22yWAOQ==)
+[5] [croma.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2TBMDQOXa2MMOqMOfSnLYGu5d3XiYeSbka-yqITjILr-fL1Lppl7ljhFs6MYevMPx_cjtmlruuUwTU0P0Xgl3jI6nuQwyU6pJFlZ5cYHgkHgI4Lm-HKz4A3VNSydq610ai0WtKD-8YWOtl9RXxDQ1gPvqlC-o)
+[6] [croma.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFhq9RkYXKyEuc_sz-iYRy2bpyIfM3VlPNFYwS0HFSjeeLYPt9HFmZELbAAg7RREGbFlPCzdjgtkQNhP84IUPNNKXA5BlXcUTED4pReilTNDfjPfms1TZXeo9GrescleE1lnB1yyJRuLFCbA7Sm0VOdFtg5zZifw==)
+[7] [croma.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrcbXXO8yX_e6GWV0uapaW8Vt6FOr-Y7T4aq8d9hPy37HHOs5cnh1CdocuegCi1obScyExTI2alkv103d4l1WxRYzgNYJsOsd1e1I1jz1gp7cpRn9sNXGDGD2-L-OYsxAwtIJgdA1TmR2g)

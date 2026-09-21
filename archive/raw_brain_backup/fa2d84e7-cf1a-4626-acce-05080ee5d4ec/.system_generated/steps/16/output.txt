@@ -1,0 +1,27 @@
+The search for ""8GB VRAM" enough AI inference 2026 laptop local LLM argument" returned the following summary:
+In 2026, **8GB of VRAM is considered an entry-level specification** for local Large Language Model (LLM) inference. Whether it is "enough" depends entirely on your specific goals: it is highly capable for lightweight tasks and experimentation, but severely limited for complex, agentic, or professional-grade AI workflows.
+
+### The Reality of 8GB VRAM in 2026
+
+*   **What Works Well:** 8GB VRAM is sufficient to run quantized 7B to 9B parameter models (e.g., Qwen 3.5 9B) with good performance. These models are excellent for standard chat, writing assistance, and simple coding tasks when using 4-bit quantization (Q4_K_M).
+*   **The "Hard Ceiling":** The primary limitation is not just the model size, but the **KV cache** and **context window**. While a model may fit in VRAM, adding a large context (e.g., 128k tokens for complex document analysis) will quickly cause "Out of Memory" (OOM) errors or force the system to offload to significantly slower system RAM.
+*   **Performance Penalty:** If a model exceeds your 8GB VRAM, it will "spill" into your system RAM (CPU offloading). This causes inference speeds to drop from a smooth 40–60+ tokens/second to a sluggish 2–10 tokens/second, which is often too slow for practical, interactive use.
+
+### Capabilities and Limitations
+
+| Use Case | Status | Notes |
+| :--- | :--- | :--- |
+| **Simple Chat/Writing** | **Capable** | Works smoothly with optimized 7B–9B models. |
+| **Coding Assistance** | **Limited** | Can handle small snippets; struggles with large, multi-file projects. |
+| **AI Agents/Automation** | **Unreliable** | Frequent loops, context loss, or crashes during complex workflows. |
+| **Complex Reasoning** | **Poor** | Lacks the VRAM headroom for the larger models (24B+) that excel at logic. |
+
+### Recommendations for 8GB Setups
+If you are currently limited to 8GB of VRAM, you can maximize your experience by:
+*   **Selecting Optimized Models:** Prioritize models designed for smaller memory footprints, such as **Qwen 3.5 9B** or specialized **3B–4B models** (e.g., Phi-4 Mini or Gemma 3 4B) for tasks requiring more context.
+*   **Using Efficient Quantization:** Stick to `Q4_K_M` quantization as the "sweet spot" for balancing intelligence and memory usage.
+*   **Software Optimization:** Ensure you are using efficient runtimes like `llama.cpp` or `Ollama`, which are well-optimized for managing limited VRAM.
+*   **The "Mac Advantage":** If you are using an Apple Silicon Mac, the unified memory architecture often allows you to outperform 8GB dedicated GPU laptops because the system can dynamically allocate a larger portion of the total system memory to the GPU.
+
+### Summary
+If your goal is **learning, light inference, or hobbyist experimentation**, 8GB is sufficient. However, if you are looking to build **autonomous agents, perform complex coding tasks across large repositories, or work with massive context windows**, 8GB will consistently feel like a bottleneck. Most power users and developers in 2026 view **16GB–24GB of VRAM** as the minimum for a "genuinely usable" professional local AI experience.

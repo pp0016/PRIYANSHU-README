@@ -1,0 +1,26 @@
+The search for ""Claude Opus 4.6" parameter count OR "Claude 3 Opus" parameter size estimate" returned the following summary:
+Anthropic has not officially disclosed the parameter counts or sizes for any of its models, including **Claude 3 Opus** or **Claude Opus 4.6**[1][2][3].
+
+Because these are proprietary, closed-source models, all figures regarding their parameter counts are third-party estimates or speculations rather than verified technical specifications[4][5][3].
+
+### Summary of Estimates
+*   **Claude Opus 4.6:** Estimates for this model have varied significantly due to its complex, likely Mixture-of-Experts (MoE) architecture[4][6]. Some third-party analyses from early 2026 speculated a total size in the range of **~5 trillion parameters**[4][5], though these numbers are approximations based on inference costs, throughput, and hardware-bottleneck comparisons[6][7][8]. Other, more conservative estimates have suggested much lower figures (e.g., ~100B total parameters)[9].
+*   **Claude 3 Opus:** Prior to the release of the 4.x series, common estimates for the original Claude 3 Opus also fluctuated, with some analyses suggesting it was around **2 trillion parameters**[4][5], while others remained skeptical of such high numbers, noting that "active" parameters (the weights actually used per token) are often a more meaningful metric than total parameter counts for MoE models[6][1].
+
+### Key Context
+*   **Architecture:** Analysts widely believe Anthropic has shifted toward **Mixture-of-Experts (MoE)** architectures for its flagship models[4][9]. In such models, the "total" parameter count (the size of all experts combined) is much larger than the "active" parameter count (the subset of weights used to process any single token)[6][7].
+*   **Official Stance:** Anthropic has consistently maintained that these details are proprietary[1][2].
+*   **Model Lifecycle:** Claude Opus 4.6 is now considered a legacy model, having been succeeded by newer versions such as Claude Opus 5[10][11].
+
+Sources:
+[1] [artificialanalysis.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7U1PSY1dqyb_oMH8QZvapJJ7r7d7zN_xgfW06EcVilicPmj54HNBUsyJpp-sg7Clu8kdvC9w3rrAm_7pZmPaO3j_aMxnuIVP5yMRlQq3ZRUIQ7cffbqlCOx3ra4iAPqTOVCBUQBNZmw==)
+[2] [artificialanalysis.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaIGWydpr93JduIz85RA_P0Cs5bTGZwP4piWUfHr-U5O657RVIja08jD4SzSSUa3GEpPg_Z341meWJyRrh4-ZgGL4ctMv144TjZwYk7qYXhLvugt5BJRYmtI8F7nvzf7vcHPP1rUHwPTUi2-WDk2tS6WT5)
+[3] [apxml.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-Ry_59ZwDk6oDillDOxvov2r_xNV2Bwf1RK3PDVh--yVHTdfFxjTCs4R24IYMeh4TVOTRD30pJtkgEg1qSS8gR4P1qPKMoo87mMW4Cl8U8IIERYH2VF6RjgMNrKA=)
+[4] [buttondown.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8g2VLCE9e7jw-k4kgXS1kmx9uOYacEnV2piAAKBt69LwR_Wm_JkIb5VPF_Js2CLGQjRa-z_2CBXwulNP65z_o0VRYZpVNtO29eMfiv-F0WPKr2VAylbp-x6_xqf3KGFh2bxiOhVNlX1mjYD_BX6bn6jBSG2PZScTAleRo35vRbWZyn5zaEcRclG4jYGiePAyf)
+[5] [holter.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvcd3qZJT5zy5jOhnmojFe08RezegJiHREXwBQMXHtZScNSaUeLeSue05ISKKfZBHqTryC8jA8fcb33CCp3j24FY6kS9ubBGD69f3JFXLFESnlLXJr8Ia3YmoXb3ZS2kKM6MvVwtKEdMyMFDf2o3G7UCM73hg1b7qzXsF9RXY7OD3dKQ==)
+[6] [substack.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1YzL7HTfdAlnaFbj6b1mIFgUzxtltJzY3rIWN4188h7hbQhUqEYDat_kP1i0R3AeHVQpxnCaeteQD5AgnyyTT4BuAx6KoiSpafgaAAeLdHxF23TNdjlrKgCqFXJtg12-XnUGy9yQQSoa510izHiyOI9_mU82n4CDEvOcfIsa77A==)
+[7] [ycombinator.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDMH2LR9HxT1_UVvl0ypm0JBRtTzLmvM-_m24dF6yOAwka17J_kUwxPuRZRrm33MjWo-U35sC1JTxXg8EIj7C1QnZsrza-kXlT-9TXl2C8NJbPkR3IHY3p7ib0Heop5jYIrw8=)
+[8] [substack.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1YzL7HTfdAlnaFbj6b1mIFgUzxtltJzY3rIWN4188h7hbQhUqEYDat_kP1i0R3AeHVQpxnCaeteQD5AgnyyTT4BuAx6KoiSpafgaAAeLdHxF23TNdjlrKgCqFXJtg12-XnUGy9yQQSoa510izHiyOI9_mU82n4CDEvOcfIsa77A==)
+[9] [preprints.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFcJOl_d1anbK6THbms5cQ1JV-_dkyhXhFvpArCKLAdeWTz8KlM_vjhxNo-YWKnbFnmhrWSlIY9H4LHbQL0Nxyrylb8kWwwGdhvR7gOJdI6_mnB1rU3TkfUnmmBMMeuN-kSBiFBjg=)
+[10] [claude.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZOZ95q9JiSd8RWH5BiW6_nXyrQnzygjTFkYhkRhB86PoegmGNpf72zmuB0yDWvMnSIj46eZjt5zGCmzoOpE71cNUvWMWRDWcukJCy20A5HL6onAYv8NLmuOZqzC7HbxAp_siPTEb8xweJJE2aWldZMHQ=)
+[11] [anthropic.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq_YDAfgKV02b39N7c5TKsXPkUw6xt6w2trwVhIflEgtE5dWerp8Tq4bzMnIe7PZeVQejHUf3Fijwp_0wRTjbjyeSculotmLoFdA6328rhayWZ4vAC-GfcHiQX)

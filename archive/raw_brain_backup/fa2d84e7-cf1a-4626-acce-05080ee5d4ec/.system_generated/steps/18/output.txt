@@ -1,0 +1,18 @@
+The search for "Qualcomm Snapdragon X2 Elite laptop AI inference LPDDR5X memory 2026" returned the following summary:
+The **Qualcomm Snapdragon X2 Elite** is a second-generation premium processor for Windows-based Copilot+ PCs, officially released in the first half of 2026. Designed to deliver high-performance, efficient, on-device AI capabilities, it serves as a successor to the first-generation Snapdragon X Elite platform.
+
+### **AI Inference & NPU Capabilities**
+*   **Performance:** The Snapdragon X2 Elite series features an advanced **Qualcomm Hexagon NPU** capable of up to **80 to 85 TOPS** (Tera Operations Per Second) of AI processing, depending on the specific SKU. 
+*   **On-Device AI:** The processor is architecturally optimized for local AI inference, allowing users to run complex tasks—such as multimodal content generation, advanced media editing, and agentic AI workloads—directly on the device. This reduces latency and enhances privacy by keeping sensitive data on the laptop.
+*   **Architecture:** It utilizes a 64-bit NPU architecture that provides increased memory access, which is critical for handling the latest generative AI models efficiently.
+
+### **Memory Support**
+*   **Type:** The Snapdragon X2 Elite platform exclusively supports **LPDDR5X** memory.
+*   **Bandwidth & Speed:** The platform supports memory speeds up to **9,523 MT/s**. Depending on the SKU, the memory subsystem can deliver substantial bandwidth, with top-tier "Extreme" models featuring a 192-bit bus providing up to **228 GB/s** of memory bandwidth, while other variants typically utilize a 128-bit bus with **152.4 GB/s** of bandwidth.
+*   **Unified Memory:** Like other modern SoCs, it employs a unified memory architecture, meaning the CPU, GPU, and NPU share the same high-speed LPDDR5X pool, which helps minimize data copying overhead for AI tasks.
+
+### **Key Specifications for 2026 Models**
+*   **CPU:** Features up to **18-core Qualcomm Oryon CPUs** (third generation), with some models achieving boost clock speeds of up to **5.0 GHz**.
+*   **Graphics:** Equipped with the **Qualcomm Adreno X2** GPU, offering significant improvements in performance-per-watt over the previous generation.
+*   **Manufacturing:** Built on a **3nm process node** (TSMC), contributing to better power efficiency and enabling the "multi-day" battery life marketed for these devices.
+*   **Market Availability:** Laptops powered by the Snapdragon X2 Elite (such as the ASUS Zenbook A16 and HP OmniBook Ultra) began hitting the market in the spring of 2026, with a broader rollout continuing through the year.

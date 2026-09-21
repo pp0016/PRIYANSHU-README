@@ -1,0 +1,13 @@
+The search for ""Tracking-Anything-with-DEVA" github stars last updated" returned the following summary:
+The GitHub repository **hkchengrex/Tracking-Anything-with-DEVA** currently has approximately **1.5k stars**[1][2][3].
+
+Regarding its last update:
+*   The repository continues to see occasional activity[4]. 
+*   While the core research code was released in 2023[5][3], the repository has received updates and maintenance well into 2024 and 2025[1][4].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQw709RhTQ0DxZ1gcZFdhVWhsDkbeNaLK59Qv44wX-LG51Ub4P0F7WaAXZSyTgXnRffR9iVfQHCk18ZiYJOBc0UIimXbudUtj1Zsk3N3S1cVxfvXMGz2mjiePiH2Rf)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQw709RhTQ0DxZ1gcZFdhVWhsDkbeNaLK59Qv44wX-LG51Ub4P0F7WaAXZSyTgXnRffR9iVfQHCk18ZiYJOBc0UIimXbudUtj1Zsk3N3S1cVxfvXMGz2mjiePiH2Rf)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAxbeH-vgy-Wi6czMBRCqWzkmSOXENok32q2xDnlWIjmWECoyPRYSRRWZZo4wbkijW7ecvCW-0IxO6gnOVEFOPPioIF1TkYIhiSE5DToZyYDlpksjL54MaK8deXpfTobu-MiX6WWzn7rEJX96KRBBhFKYRCijAIA==)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjEZ_ZBlBodIpxH611Vo4WrjcoH7JtPhqKY4rOq-Rf6b-M3NAFwYgAuiTDTxagcm_1bL4DrOqQfRETcKMFEPU1ZBdxrmzt2BhUGfYRTl1wABsCZYhpSOj1WyiWTidSqvCpllaF5SKxwA3AWokt-_iXE_XNehw5RenF)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5OFV4Drh92MhXrYbGf2llPy4VQxlxVUAsitX-Y8CqNt_BlF1g4fPoZ7crYB26YuxRaob3zu-J_71Xw9WvwWXQ2Qd-eCtAy_OZaL0s0QIEmTwFZfH8QVU-gI-M1IGlqNuedROZjV6TR_xF4moacA==)

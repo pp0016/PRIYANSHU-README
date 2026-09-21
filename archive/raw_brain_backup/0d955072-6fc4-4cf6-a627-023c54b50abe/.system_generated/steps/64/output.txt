@@ -1,0 +1,12 @@
+The search for ""leeyeel/sketch2motion" stars github" returned the following summary:
+The GitHub repository **leeyeel/Sketch2Motion** currently has **359 stars**[1][2].
+
+Sketch2Motion is an open-source project that converts photos or sketches into animated motion videos[3][4]. It works by transforming an input image into an SVG vector graphic and using the Manim math-rendering engine to create a smooth, hand-drawn animation effect[5][6].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPoyLBND3GZhIuAQnvGEGtSCxwA1si-tqXOzzME4I6KOUfWRan6lgKWQVuoijkD27nkVh7Mtg5_2MlJhx-eRYZzWEpicFAwg50apGr4rIETw==)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPoyLBND3GZhIuAQnvGEGtSCxwA1si-tqXOzzME4I6KOUfWRan6lgKWQVuoijkD27nkVh7Mtg5_2MlJhx-eRYZzWEpicFAwg50apGr4rIETw==)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0kk63a9JSQYCRVEPx4gHJZeExZB2gTC_H2m405AL9uaiNuEWDuHgh4mLwgFLgFHevqTuugOu0pg6FHX5_N2tz8z0V3UOslMHeT99fihLsW9w8g9SxJJMPFV2N1Ohu)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0kk63a9JSQYCRVEPx4gHJZeExZB2gTC_H2m405AL9uaiNuEWDuHgh4mLwgFLgFHevqTuugOu0pg6FHX5_N2tz8z0V3UOslMHeT99fihLsW9w8g9SxJJMPFV2N1Ohu)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0kk63a9JSQYCRVEPx4gHJZeExZB2gTC_H2m405AL9uaiNuEWDuHgh4mLwgFLgFHevqTuugOu0pg6FHX5_N2tz8z0V3UOslMHeT99fihLsW9w8g9SxJJMPFV2N1Ohu)
+[6] [facebook.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVzP3DHpGgUFvAxoAwhF6L2IAqA21ujSbFuAoGba1fMwKpY8xf36Pheb7BMB7VcPWq_JXKPixlCAH3knLklkO8hgDpoNAM7zJAm87ZqlNBrg9sOcF4mBgSO7gmbuPweTo2CTSgyvn_ZdpCSqLEhAxl7mxhXA==)

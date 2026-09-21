@@ -1,0 +1,2 @@
+You have 2 active subagent(s):
+[{"role":"Anime Explainer Researcher 1","type":"research","conversationId":"52f0e131-994e-4eca-a682-a9fd34f766c5","transcript":"file:///C:/Users/renu5/.gemini/antigravity/brain/52f0e131-994e-4eca-a682-a9fd34f766c5/.system_generated/logs/transcript.jsonl","state":"idle"},{"role":"Anime Explainer Researcher 2","type":"research","conversationId":"7bd2e9e0-3f66-410c-87dc-351e84a4feba","transcript":"file:///C:/Users/renu5/.gemini/antigravity/brain/7bd2e9e0-3f66-410c-87dc-351e84a4feba/.system_generated/logs/transcript.jsonl","state":"running"}]

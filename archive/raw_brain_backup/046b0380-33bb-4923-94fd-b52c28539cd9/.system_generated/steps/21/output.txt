@@ -1,0 +1,30 @@
+The search for "Wan 2.1 video generation local benchmark RTX 4090 VRAM generation time 2025" returned the following summary:
+For the **Wan 2.1** video generation model on an **RTX 4090 (24GB VRAM)**, performance depends heavily on the specific variant (1.3B vs. 14B) and your chosen resolution.
+
+### **Quick Summary for RTX 4090**
+*   **1.3B Variant:** Fully accessible and runs well on an RTX 4090. It typically generates a 5-second, 480p video in roughly **4 minutes** without complex optimizations.
+*   **14B Variant (Flagship):** This model is significantly more demanding. 
+    *   **480p:** Possible using **FP8 quantization**, which brings VRAM usage into the 18–22GB range.
+    *   **720p/1080p:** Generating at these resolutions on a single 24GB card is highly challenging or impossible without aggressive offloading techniques (like CPU offloading), which can drastically increase generation time.
+
+---
+
+### **Detailed VRAM & Performance Expectations**
+
+| Model Variant | Resolution | Estimated VRAM Usage | Status on RTX 4090 |
+| :--- | :--- | :--- | :--- |
+| **1.3B** | 480p | ~8.2 GB | **Runs comfortably** |
+| **14B** | 480p | 18–22 GB (FP8) | **Supported with FP8** |
+| **14B** | 720p | 22–26 GB (FP8) | **At limit / Often Fails** |
+| **14B** | 720p+ | 54–65 GB (Full) | **Requires multi-GPU/Cloud** |
+
+### **Optimization & Practical Tips**
+*   **FP8 Quantization:** Using FP8 precision is the most effective way to fit the 14B model onto your 24GB card. It reduces VRAM requirements by approximately 20–40% compared to BF16/FP16 with minimal impact on quality.
+*   **CPU Offloading:** If you exceed 24GB, you can use techniques like GGUF quantization with CPU offloading. While this allows the model to "run," it will be significantly slower, potentially pushing generation times well beyond 15–30 minutes for a single clip.
+*   **Inference Speed:** Real-world benchmarks for image-to-video inference on an RTX 4090 have shown average execution times of over 700 seconds (approx. 12 minutes) depending on the specific pipeline and settings used.
+*   **Workflow Recommendations:**
+    *   **Prototyping:** Use the **1.3B model** for testing prompts and motion. It is fast, efficient, and provides great quality for its size.
+    *   **Final Rendering:** If you require the 14B model's higher fidelity at 720p or 1080p, and your local setup struggles with VRAM, many users opt for cloud GPU providers (like SaladCloud or similar services) to bypass local memory limitations.
+
+### **Important Note on Hardware**
+While the RTX 4090 is one of the most capable consumer cards, Wan 2.1's 14B model is architecturally designed to be very VRAM-intensive because it must maintain temporal consistency across many frames simultaneously. If you find your system consistently crashing, ensure you are using the latest `diffusers` or `ComfyUI` implementations that support **FP8** and **model offloading**.

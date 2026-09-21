@@ -1,0 +1,7 @@
+The search for ""stevenlsw/physgen" github stars last updated" returned the following summary:
+The GitHub repository **stevenlsw/physgen** (PhysGen: Rigid-Body Physics-Grounded Image-to-Video Generation) currently has **353 stars**[1][2]. The repository was last updated on **October 24, 2024**[1][2][3].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-X5Xt0y2PKG7v3m5cgqIzqrR5AOwfwZwauJ3CYr5i12sS4qkgXyqoI3UatAoies5HbgbxmjbNavZPD3LrzzCPaBvL981s5H5XKUjF_oG_nwRfMygIl2Ioo7SX78AqAg==)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-X5Xt0y2PKG7v3m5cgqIzqrR5AOwfwZwauJ3CYr5i12sS4qkgXyqoI3UatAoies5HbgbxmjbNavZPD3LrzzCPaBvL981s5H5XKUjF_oG_nwRfMygIl2Ioo7SX78AqAg==)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-X5Xt0y2PKG7v3m5cgqIzqrR5AOwfwZwauJ3CYr5i12sS4qkgXyqoI3UatAoies5HbgbxmjbNavZPD3LrzzCPaBvL981s5H5XKUjF_oG_nwRfMygIl2Ioo7SX78AqAg==)

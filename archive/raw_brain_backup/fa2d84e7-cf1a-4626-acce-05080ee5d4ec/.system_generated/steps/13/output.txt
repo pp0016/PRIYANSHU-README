@@ -1,0 +1,27 @@
+The search for "shared memory vs dedicated VRAM AI model inference performance comparison laptop 2025 2026" returned the following summary:
+For AI model inference on laptops in 2025–2026, the distinction between **dedicated VRAM** and **shared system memory** is the single most important factor for performance.
+
+### The Performance Gap
+The difference is not just quantitative; it is architectural and often leads to a "performance cliff."
+
+*   **Dedicated VRAM (High-Speed):** This is memory physically soldered onto your GPU (e.g., GDDR6/6X or HBM). It is designed for massive parallel throughput, offering bandwidths typically ranging from **256 GB/s to over 1,700 GB/s**. Because it is located directly on the GPU, it provides the low-latency access required for real-time inference.
+*   **Shared System Memory (Low-Speed):** This is your laptop's standard system RAM (DDR5/DDR4) that the GPU "borrows" over the PCIe bus when it runs out of dedicated VRAM. System RAM is significantly slower for GPU tasks, offering bandwidths generally between **25 GB/s and 100 GB/s**.
+
+### Why "Spilling" Kills Performance
+Inference is primarily **memory-bandwidth bound**. When a model fits entirely within your dedicated VRAM, the GPU can process tokens at maximum speed. 
+
+When a model exceeds your VRAM capacity and begins "spilling" into shared system memory:
+*   **Performance Collapse:** Throughput often drops from hundreds of tokens per second to single digits. This is not a gradual slowdown; it is a dramatic performance "cliff."
+*   **Latency Spikes:** Because shared memory must traverse the system bus (PCIe), the latency for every calculation increases exponentially, making the system feel sluggish or unresponsive.
+*   **Unpredictability:** Relying on shared memory often leads to unpredictable latency spikes and can cause crashes or "Out of Memory" (OOM) errors during intensive tasks like long-context generation or large batch processing.
+
+### Key Takeaways for 2025–2026 Laptops
+*   **VRAM is King:** For local AI, prioritize the amount of dedicated VRAM over almost any other spec. A card that fits your model entirely in VRAM will always outperform a faster card that has to offload parts of the model to system RAM.
+*   **Quantization is Your Friend:** If you cannot fit your desired model into your laptop's VRAM, use quantization (e.g., Q4_K_M). This reduces the model's memory footprint, allowing it to fit into your dedicated VRAM and avoiding the massive penalty of shared memory usage.
+*   **Integrated GPUs vs. Discrete:** Integrated GPUs (iGPUs) rely entirely on shared system memory, which is why they are generally unsuitable for heavy AI inference compared to laptops with discrete GPUs (like the RTX 40-series or 50-series).
+*   **Unified Memory (Apple Silicon):** Note that Macs with Apple Silicon use a "Unified Memory" architecture. While technically shared, it operates with much higher bandwidth than standard PC system RAM and is closer to dedicated VRAM in efficiency for AI tasks, making it a unique exception to the traditional PC "shared vs. dedicated" rule.
+
+**Buying Rule of Thumb for 2026:**
+*   **8GB VRAM:** Entry-level; suitable for light inference and learning.
+*   **12GB–16GB VRAM:** The "sweet spot" for most users, allowing for comfortable local inference of popular models.
+*   **24GB+ VRAM:** Recommended for serious prosumer work, larger parameter models (e.g., 32B+), or if you want to avoid quantization compromises.

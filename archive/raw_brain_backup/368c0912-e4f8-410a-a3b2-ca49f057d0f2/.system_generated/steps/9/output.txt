@@ -1,0 +1,50 @@
+The search for "site:github.com/subroy13/handanim README" returned the following summary:
+The **handanim** repository (by `subroy13`) is a Python library designed to programmatically create whiteboard-style, hand-drawn animations[1][2]. It is primarily used for educational videos, tutorials, and data storytelling[1][3].
+
+### Key Features
+*   **Hand-Drawn Effects:** Draw and animate geometric shapes (lines, ellipses, polygons) with a "hand-drawn" feel[1][4].
+*   **Styling:** Fill objects with sketch-style strokes, such as hatching or scribbles[1][4].
+*   **Text & Math:** Animate handwritten text using custom fonts and render mathematical expressions using TeX notation[1][5].
+*   **Export Options:** Export animations as video (MP4) or vector images (SVG)[1][4].
+*   **API:** Provides an intuitive Python API for defining scenes and timelines[1][4].
+
+### Quickstart & Installation
+The library requires **Cairo** and **FFmpeg** as system dependencies[5]. 
+
+**Installation via Poetry:**
+```bash
+# Requires Python 3.11+
+poetry install
+poetry run python examples/pythagoras.py
+```
+
+**Installation via pip:**
+```bash
+# Using the requirements.txt file
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python examples/pythagoras.py
+```
+
+### Basic Usage Example
+```python
+from handanim.core import Scene
+from handanim.animations import SketchAnimation
+from handanim.primitives import NGon
+
+scene = Scene(width=800, height=608)
+triangle = NGon(center=(400, 304), radius=100, n=3)
+
+scene.add(SketchAnimation(start_time=0, end_time=5), drawable=triangle)
+scene.render("triangle_anim.mp4", fps=30)
+```
+
+For more details, you can visit the [official documentation](https://subroy13.github.io/handanim) or the [GitHub repository](https://github.com/subroy13/handanim)[2].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3utB7GaIQS2dKEkFuxOODoxmD5Z4vLWC4Zfns_OktgOcjgn2q-IqG-zR_9CkixND8Z7sfHcjl86QVZTPaNAwDJLS89duN2J1Ib8z0_fKHzUAE6_hLoOyT_cY=)
+[2] [statwizard.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWVgfjE4lB9ndqkGWFpQCFDGaMUuVGVFWwckoO9aVhhjh1UdUeLM8qQBhoAUPKXvG1tWxxHGdQlka5y4H3w27ANjjlsvJkLg6d1_3gOiWiSUqzg0Y7lZ4iqQ04nSw=)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3utB7GaIQS2dKEkFuxOODoxmD5Z4vLWC4Zfns_OktgOcjgn2q-IqG-zR_9CkixND8Z7sfHcjl86QVZTPaNAwDJLS89duN2J1Ib8z0_fKHzUAE6_hLoOyT_cY=)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3utB7GaIQS2dKEkFuxOODoxmD5Z4vLWC4Zfns_OktgOcjgn2q-IqG-zR_9CkixND8Z7sfHcjl86QVZTPaNAwDJLS89duN2J1Ib8z0_fKHzUAE6_hLoOyT_cY=)
+[5] [context7.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5HXanmuNQ6HooGc43uQOCK8a7l1lVp7H9qI0UzNCui9ZNafMJCyKJN8gp35RNqplq8lreI_wEWN9evSqtS7oDq9jKUzqq6a_2mC0YavQ7vR5Pgn4IDgaTHvbc-w==)

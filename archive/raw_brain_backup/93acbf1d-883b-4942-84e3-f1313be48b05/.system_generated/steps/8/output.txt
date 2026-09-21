@@ -1,0 +1,26 @@
+The search for "site:support.apple.com "Transfer files between two Mac computers using share disk" OR "Share disk to transfer files between two Mac computers"" returned the following summary:
+To transfer files between two Mac computers using Share Disk (specifically when one Mac is in macOS Recovery on Apple silicon), follow these steps[1]:
+
+### Prerequisites
+*   **Hardware:** A USB, USB-C, or Thunderbolt cable to connect the two computers[1].
+*   **Status:** The Mac you wish to share from must be started up in macOS Recovery[1].
+
+### Steps to Share and Transfer Files
+1.  **Connect the Macs:** Connect the two computers using a compatible USB, USB-C, or Thunderbolt cable[1].
+2.  **Start Share Disk:**
+    *   On the Mac you want to share from (in macOS Recovery), choose **Utilities > Share Disk**[1][2].
+    *   Select the volume you wish to share and click **Start Sharing**[1].
+3.  **Access the Disk on the Other Mac:**
+    *   On the other Mac, open a **Finder** window[1].
+    *   Click **Network** in the sidebar under "Locations"[1].
+    *   Double-click the Mac that has the shared disk[3].
+    *   Click **Connect As**, select **Guest**, and then click **Connect**[3].
+4.  **Transfer and Finish:**
+    *   Transfer your files as needed[3].
+    *   Once finished, eject the volume on the second Mac[3].
+    *   On the Mac in Recovery, click **Stop Sharing** in the Share Disk app, then choose **Share Disk > Quit Share Disk**[3].
+
+Sources:
+[1] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIgW39cclxlW65N1YgDo65AHD6pkQU6NFOpDmSGwFrf85KBGB_VA9dtfBWMNNJOYrGqv6bdn0OHujp5_VUc1wmCoIbjP4d3dYPzzcBjETSRDXcPABQI8blLWBVxcHf45N6fKKDDdnCKk6240cuKYQkcgQp0Fs=)
+[2] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIgW39cclxlW65N1YgDo65AHD6pkQU6NFOpDmSGwFrf85KBGB_VA9dtfBWMNNJOYrGqv6bdn0OHujp5_VUc1wmCoIbjP4d3dYPzzcBjETSRDXcPABQI8blLWBVxcHf45N6fKKDDdnCKk6240cuKYQkcgQp0Fs=)
+[3] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIgW39cclxlW65N1YgDo65AHD6pkQU6NFOpDmSGwFrf85KBGB_VA9dtfBWMNNJOYrGqv6bdn0OHujp5_VUc1wmCoIbjP4d3dYPzzcBjETSRDXcPABQI8blLWBVxcHf45N6fKKDDdnCKk6240cuKYQkcgQp0Fs=)

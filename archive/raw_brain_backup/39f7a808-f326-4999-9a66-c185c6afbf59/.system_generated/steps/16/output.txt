@@ -1,0 +1,37 @@
+The search for "moviepy CompositeAudioClip set_start sound effect timing python" returned the following summary:
+To set the timing for a sound effect in MoviePy, you should use the `set_start()` method on your audio clip and then combine it with your main audio using `CompositeAudioClip`[1][2].
+
+### Basic Implementation
+If you have a main video/audio and want to overlay a sound effect at a specific time (e.g., at 3 seconds), use the following pattern:
+
+```python
+from moviepy.editor import VideoFileClip, AudioFileClip, CompositeAudioClip
+
+# Load your video and sound effect
+video = VideoFileClip("video.mp4")
+sound_effect = AudioFileClip("effect.mp3")
+
+# Set the start time of the sound effect (in seconds)
+sound_effect = sound_effect.set_start(3)
+
+# Composite the original audio with the sound effect
+final_audio = CompositeAudioClip([video.audio, sound_effect])
+
+# Set the new composite audio to your video
+final_video = video.set_audio(final_audio)
+
+# Write the result
+final_video.write_videofile("output.mp4")
+```
+
+### Key Points to Remember
+*   **Use `CompositeAudioClip`**: The `set_start()` method effectively defines when a clip begins within a composition. It often has no visible effect unless the clip is included inside a `CompositeAudioClip`[1][2].
+*   **Ordering**: The list passed to `CompositeAudioClip` can contain multiple clips starting at different times[3][1]. For example: `CompositeAudioClip([audio1, audio2.set_start(2), audio3.set_start(7)])`[1].
+*   **Avoid Common Pitfalls**: If you simply use `video.set_audio(sound_effect.set_start(3))`, it may not work as expected because `set_audio` expects a single audio stream[2]. Always wrap multiple audio sources in a `CompositeAudioClip`[2].
+*   **Audio Glitches**: If you notice "clicks" or "glitches" at the start or end of your audio, it is often due to how MoviePy handles audio file loading[4]. A common workaround is to use `.subclip(0, -0.1)` to trim a tiny fraction of silence from the end of the file[4].
+
+Sources:
+[1] [stackoverflow.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWnik5Mu-db-s_8c9OGjse0Z_dKOXrm_aktoQxFIzLZR4CA8dfXaMNOy0ewIiKKPJDUBWApVe4OL6uLyH4SMtqvJOORNV22uKbnBuKdG-0lvaFkSOIthROErskaw8IN9Pih-hu92Sg9H2p1XF8y9LlYedEYmpOYqp0Cpm74XteG927)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuJ77zWf1i348xIwnNrLcu-bfY5szO5vdTv8XkJ8SYdnVGUj4yyYzr7Nmh4EoO_xbCGQMouU-bmWx8YBUp3Vs3Na3UHLmC8XtPEWkT1ruMzP-bfZsydpr9Es1cH1ch2izn)
+[3] [github.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv0n9TPN2QnIS7LrrVDmJgl5YocqxkJAfJpT2Q63VfI-ICigah5JEQPlNJsQJXT0vyZye28YXefrj4kG_HLtJfh3N9zFHYysLinfbEYKNMrVnEO7deyRuvLAcParb46_QNgeXCcEUrx_pzCkZPGhprIEI-TEAAc0kmbgUH5AZ7iUx43rYwJbbhSUOUKKl5Waic6lW5kLdh9w==)
+[4] [stackoverflow.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKV9Dz9D2xNzrXUwZ3ETjji-LCAsC-jMGDri_BHPcH341amuanZjAAaWQw5ehXIgKQXYB0EgttKFaUwy2Wydq5ru3zrvQiO5AwuGj1ikN6qbpTIqcNGmGhtZ360mUKZeWFbYw9gT16V1azw65wFUnjlaqM6R_hy0prVOivLTSXub6X1YVW5JYMYWD-8dIuWZaYk4K7eSbN2J9_7jSQGKzHeg==)

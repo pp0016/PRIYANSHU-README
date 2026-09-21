@@ -1,0 +1,87 @@
+
+The command exited with code 0.
+Output:
+<truncated 1 lines>
+Transradial Route: Patient may ambulate within 1 to 2 hours; avoid wrist flexion, weight-bearing through the hand, and lifting objects over 2 to 3 kg for 48 to 72 hours.
+Inspect the puncture site for active bleeding, expanding swelling/hematoma, or distal pulse loss (dorsalis pedis/radial artery) before initiating mobilization.
+7. Chest X-Ray (CXR)
+Definition
+A chest radiograph is a non-invasive projection transmission image displaying the differential radiodensity of thoracic tissues: air (black/radiolucent), fat (dark gray), water/soft tissue (light gray), and bone/metal (white/radiopaque).
+Standard Projections
+Posteroanterior (PA) View: Gold standard; taken in full upright inspiration with X-ray beam travelling from back to front; minimizes cardiac magnification.
+Anteroposterior (AP) View: Performed at bedside on immobilized or ICU patients; magnifies cardiac silhouette size and limits scapular clearance.
+Systematic Evaluation Approach (ABCDE Method)
+A - Airway: Trachea position (normally midline, vertically oriented over spinous processes).
+B - Breathing / Lung Fields: Vascular markings, lucency, symmetric expansion, pleural spaces.
+C - Cardiac Silhouette & Mediastinum: Cardiothoracic Ratio (CTR) on PA view is normally less than 0.50 (50%); mediastinum shape and borders.
+D - Diaphragm: Both hemidiaphragms rounded, smooth, right sitting 1 to 2 cm higher than left; costophrenic and cardiophrenic angles sharp and clear.
+E - Everything Else / Skeleton: Ribs, clavicles, humeri, subcutaneous tissues, indwelling tubes, catheters, pacing wires.
+Common Pathological Variations on CXR
+Lobular Consolidation (Pneumonia):
+Homogeneous radio-opacity with preservation of lung volume.
+Presence of "Air Bronchograms" (branching lucent tubular airways outlined by fluid-filled alveoli).
+Silhouette sign: Loss of the right heart border indicates right middle lobe consolidation.
+Pleural Effusion:
+Blunting of the costophrenic angle (evident when fluid exceeds 200 mL).
+Meniscus sign: Homogeneous dense opacity with a concave superior border sloping upward toward the lateral chest wall.
+Massive effusion displaces the mediastinum and trachea away from the affected side.
+Pneumothorax:
+Complete absence of lung markings at the peripheral thoracic cavity.
+Visible sharp white visceral pleural line separated from the chest wall by radiolucent air.
+Tension Pneumothorax: Marked tracheal and mediastinal shift toward the contralateral side with flattened/depressed ipsilateral hemidiaphragm.
+Atelectasis (Lung Collapse):
+Opacity accompanied by direct signs of volume loss: tracheal, cardiac, and mediastinal shift toward the side of collapse.
+Crowding of ribs and elevation of the ipsilateral hemidiaphragm.
+COPD / Emphysema:
+Bilateral pulmonary hyperinflation with increased lung field radiolucency.
+Flattened, depressed hemidiaphragms with widened intercostal spaces.
+Elongated, narrow "tubular" heart shadow; enlarged retrosternal clear space on lateral view.
+Pulmonary Edema (Congestive Heart Failure):
+Cardiomegaly (CTR greater than 0.50).
+Cephalization of pulmonary vessels (upper lobe blood diversion).
+Perihilar "Bat-wing" or "Butterfly" alveolar infiltrates.
+Kerley B lines (short, horizontal peripheral lines representing thickened interlobular septa).
+Physiotherapy Implications
+Localizes pulmonary pathologies to specific segments, directly guiding postural drainage positioning.
+Consolidation/Atelectasis confirms the need for thoracic expansion techniques, chest percussion, vibration, and directed autogenic drainage.
+Pneumothorax is a strict contraindication to positive pressure techniques (PEP, IPPB) and vigorous manual chest clapping until an intercostal chest tube (ICD) is placed and underwater seal bubbling stabilizes.
+8. Tests for Peripheral Arterial and Venous Conditions
+Definition
+Clinical and non-invasive diagnostic tests evaluating arterial flow velocity, lumen patency, tissue perfusion, and venous valvular competence in the lower and upper extremities.
+Peripheral Arterial Disease (PAD) Tests
+Ankle-Brachial Index (ABI):
+Definition: Ratio of the highest systolic blood pressure at the ankle to the highest systolic blood pressure in the brachial arteries.
+Procedure: Patient rests supine for 10 minutes. A Doppler ultrasound probe (5 to 10 MHz) and pneumatic cuff measure systolic blood pressure in both brachial arteries and bilateral ankle arteries (Dorsalis Pedis and Posterior Tibial).
+Calculation: \text{ABI} = \frac{\text{Highest Ankle Systolic Pressure (DP or PT)}}{\text{Highest Brachial Systolic Pressure (Right or Left)}}
+Clinical Values and Interpretation:
+1.00 to 1.40: Normal arterial perfusion.
+0.91 to 0.99: Borderline arterial disease.
+0.41 to 0.90: Mild-to-moderate PAD (characteristic intermittent claudication during walking).
+Less than or equal to 0.40: Severe PAD (critical limb ischemia, rest pain, gangrene risk).
+Greater than 1.40: Non-compressible, calcified rigid arteries (commonly seen in diabetes mellitus; requires Toe-Brachial Index).
+Buerger�s Test (Postural Color Changes):
+The patient lies supine; the examiner elevates the lower extremity to 45 to 60 degrees for 1 to 2 minutes.
+Abnormal: Development of marked pallor in less than 60 seconds (positive vascular angle of Buerger less than 20 degrees indicates severe ischemia).
+On returning the leg to a dependent position, a delay in pink reperfusion greater than 15 seconds followed by a dark purplish-red discoloration (Rubor of Dependency) confirms chronic arterial insufficiency.
+Capillary Refill Time (CRT):
+Firm pressure applied to the distal digital pulp/nail bed for 5 seconds until blanched.
+Normal: Color returns in less than 2 seconds; prolonged CRT indicates distal hypoperfusion.
+Peripheral Venous Disease Tests
+Wells Clinical Score for Deep Vein Thrombosis (DVT):
+Stratifies pre-test probability of DVT based on risk factors: active cancer (+1), paralysis/recent plaster immobilization (+1), bedridden over 3 days or major surgery within 12 weeks (+1), localized tenderness along deep venous system (+1), entire leg swollen (+1), calf swelling greater than 3 cm compared to asymptomatic side (+1), pitting edema confined to symptomatic leg (+1), collateral superficial non-varicose veins (+1), alternative diagnosis as likely as DVT (-2).
+Score greater than or equal to 2: DVT likely (urgent Duplex Ultrasound required).
+Homan�s Sign:
+Passive dorsiflexion of the ankle with the knee extended to elicit calf pain.
+Clinical Note: Insensitive, non-specific, and carries a mechanical risk of dislodging an unstable clot. It is no longer recommended in modern clinical guidelines.
+Trendelenburg Test (Brodie-Trendelenburg Test):
+Differentiates saphenofemoral junction incompetence from deep/perforator valvular incompetence in varicose veins.
+Leg is elevated to empty superficial veins; a tourniquet is applied around the upper thigh.
+Patient stands: rapid retrograde filling from above before releasing the tourniquet indicates perforator incompetence; rapid filling from above after tourniquet release confirms saphenofemoral junction valve incompetence.
+Venous Duplex Ultrasound:
+Gold standard non-invasive diagnostic investigation for DVT; evaluates venous compressibility and venous flow patterns.
+Physiotherapy Implications and Precautions
+In Intermittent Claudication (PAD with ABI 0.5 to 0.9): Supervised treadmill walking is the primary conservative therapy. Exercise to moderate-to-strong claudication pain (grade 3 on 4-point scale), rest until pain resolves, and repeat for 30 to 45 minutes, 3 to 5 times weekly.
+In Severe PAD (ABI less than 0.5): High-intensity exercise, leg elevation, and external compression bandages are strictly contraindicated.
+In Acute Confirmed DVT: Hold all ambulation, range of motion exercises, and calf massage until adequate therapeutic anticoagulation is established (typically 24 to 48 hours with Low Molecular Weight Heparin).
+In Chronic Venous Insufficiency: Promote leg elevation above heart level, prescribe graduated compression stockings (20 to 30 mmHg), and prescribe active calf muscle pump exercises./////////
+

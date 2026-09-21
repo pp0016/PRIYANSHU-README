@@ -1,0 +1,36 @@
+The search for ""rdma_ctl enable" Apple developer documentation OR github OR macrumors" returned the following summary:
+The command `rdma_ctl enable` is used on Apple silicon Macs with Thunderbolt 5 ports (running macOS 26.2 or later) to enable **RDMA (Remote Direct Memory Access) over Thunderbolt**[1][2][3].
+
+This feature is designed to allow high-performance, low-latency, peer-to-peer communication between Mac computers, primarily for creating distributed computing clusters for tasks like local AI model inference[1][4][5].
+
+### How to Enable RDMA
+Because this is a specialized, early-stage feature, it must be enabled manually via the macOS Recovery environment[2][6]:
+
+1.  **Enter Recovery Mode:** Shut down your Mac, then hold down the power button for approximately 10 seconds until the boot options menu appears[3][7].
+2.  **Open Terminal:** Select **Options** to enter the Recovery environment, then navigate to **Utilities > Terminal** in the top menu bar[1][3].
+3.  **Run the Command:** Type the following command and press Enter[8][3]:
+    `rdma_ctl enable`
+4.  **Reboot:** Restart your Mac to return to normal operation[8][9].
+
+### Key Details & Caveats
+*   **Requirements:** You must have a Mac with Apple silicon and Thunderbolt 5 ports, running at least macOS 26.2[1][3]. You also need compatible Thunderbolt 5 cables[8][3].
+*   **Verification:** Once back in macOS, you can verify that the RDMA interfaces are active by running the command `ibv_devices` in your Terminal[4][9].
+*   **Network Topology:** There are currently no Thunderbolt 5 switches available[10][6]. To connect a cluster of Macs, you must use a direct, full-mesh cabling configuration[11][10].
+*   **Usage:** This feature is often used in conjunction with distributed AI frameworks like **MLX** (via the JACCL backend) or **Exo** to enable tensor parallelism across multiple Mac machines[2][12][13].
+
+For official technical guidance, refer to **Apple Technote TN3205: Low-latency communication with RDMA over Thunderbolt**[1][9].
+
+Sources:
+[1] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnVjGeZGc91FPL7oxGKl7-SPKqbjDfqaPkIUArFu0OXLsvTyoRC0eGXP2EXVz7GciwPJf_l0gcmQ0I40LBomWQ4a_Ou7Y-cEhW8Z7qTD7rF3JTioWB7ATCoCL6HC_MoJZ2F5j3liJ2aaijmM2uSLyDeE_Q21zjukJOc75_izV2f_q0c5YvsHaE1YhlJNqxGzkwFKaukwhKQMdUObZrN4WxE4h6LQ==)
+[2] [github.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGE1IrHnxCWgZW80wDUg7qtl_gvHSLOvfjNYtquWQYRVp3SLlFTbSAUUss-vM2Vr1rFTC2Fkof7TIuKqmH4uJOU0JW97IrXPK15koCz5rkTKVGtkTL87_xPBOjKI2Zf9XA0gpvk_KhF-xVtu7PHFdTDDk8t-fU3Zw==)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAtKgJLM1rOFhN9FOEduLfvF1re2T9t1QSrIrciPNRW2q17_PXj6aukoxW90VcJYfQsmhqA0-5e95AOPwsTjxGwGbAI7VD53k29u2ZHObSlXj9trHWQK2zcUptraVuAW8zcwqJbl4biqgmpQ==)
+[4] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6_GSyVgDCXh2kcEAs-dzbl1Fs3QRs3K3ZPNKxbjvFvrdj-ZGody7Fme_Mh4Q9g5aL1LPQdetMBQIMFI2u2QPK5fSBGEtFkK8jgOyHUx432JFbcc6kx8IxwNM6zd-PlTCLERqS5pLrmXaWr43Sqxap26ooLb7-mUa-nuBFkAlJZuodpT7ScMIZQ01oPGNWxDTzzOC3oVebDDIFCg5f8Ti7qSzMPvfo6g==)
+[5] [macinchem.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuStG4cYCcDLN3tqO6zxEI_7X8xcWwjF_1Ni000ZH6__BW0ViRCbERxDGEWpVOvBXk1WsvlxApVI4d3l6uem4r4krXwCjmlMSN9EeBwoGtmMeowtoEOjIjAIT9DE7kFSmvaJV-6M26SAwsFxo5JEf7mJ9t5b-eAJv8BS4lHIuQUgNC7IfiE6T3Cw==)
+[6] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHheideWM67UsIMTZR1tbJ88tH6jFo1U0GMPHbYGG1nG3Q8MOrEYin-I016vNr9vbJDm9fvbHyOwsgu1P06Tet-Qz_mTtbLsOiGodplEXJoH89BUbNjbM3ks_Kurw8ZpFAR5NzYu95gz5_M0kH9KVCk8-fgD-fAJhgfyCSnuEYij_HIhk-VlyycAGfphpYY5s3qvkLkoMSr1WO20Zi43a5nCzkPYf4hx95BSKsfaXu-ik4sM3FeE5GbZzmUsz8=)
+[7] [jeffgeerling.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQnsia4the6ehfwviub15ren4oD9DR8ff-thdBZo4ajWN426_haU5yMtWiNEV3Ra-wbawZp1It7MNysXOMIh9ocqtu3UjMKCZQzSp8BviNtfzMqW9W0kHWMJFq4Nvzn6Vzr1wN5WCwueco-2kJR1-ekJjIuATMRY_7snz1kap8JcOgqFdin3R5LAyh5qk=)
+[8] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_kT6uQstrVAqtNe8SM4EyHvj2pOMFznLJm8KG3T0pJPm4zRwpBn-JWsKKQs5ndOrFVM4TONDl1aqkB-g3K3IdvDjyCQVn850jbaQngTRY-h-RzZJmG6qnXlJPF2BfONMTJvkRWE25)
+[9] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnVjGeZGc91FPL7oxGKl7-SPKqbjDfqaPkIUArFu0OXLsvTyoRC0eGXP2EXVz7GciwPJf_l0gcmQ0I40LBomWQ4a_Ou7Y-cEhW8Z7qTD7rF3JTioWB7ATCoCL6HC_MoJZ2F5j3liJ2aaijmM2uSLyDeE_Q21zjukJOc75_izV2f_q0c5YvsHaE1YhlJNqxGzkwFKaukwhKQMdUObZrN4WxE4h6LQ==)
+[10] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfDyJllsnzinngD7pklQGvzd4jxtbd6_7KhTkh_6EGf_Y9jwAKZypwK93ip0bVRCD5zZ4r1F22TzHMZqNBnB8Lj_q9yGxOyZ2SWdanAgCglxomLhvfx69C47Qq9aFc8e7nlcc-Dpduuw7ML7tuS65yIGQyI8_JzVph4H1ycZ-bL5zCng==)
+[11] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF28tNEdst6tiPOHr40o7NcOLAnI2wgrDz6-4T7KrZZVmGxfPq3jgTWKoJlvX99aPtkSOuPQ-v8uZv5IQU91A2a0sz2vgKHlHxQp1XzMh0hnsCzhAm9zykDqJonWXpeCqBti7RTsKo=)
+[12] [devoxx.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnkfo7T92zDT0jEcagSLr8SFhNgeF16KQJBSdHrJgZprCYki2tmhwL_ue_caXXleeHsogLW1Pyzao41oNDaSlj-BuWqe3o4Jr2kFkI3lDMKKd0naV-4tgw-e5pABqVBvev8OJo)
+[13] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ5cLdNftt7UQi-1tV7MntU5zF4n_r4mzzPqKHiFOL1xmjiL8Dcz9Mgj-lsLu-EImBazTRd0gJjFdLTq-Qb8GN3lv6RssyvnJ6BSgLTkHSdM3HydLTXy6mPiIdV49Ec0ZE6VQ=)

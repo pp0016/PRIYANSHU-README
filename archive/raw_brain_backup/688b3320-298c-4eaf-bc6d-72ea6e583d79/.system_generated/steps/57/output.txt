@@ -1,0 +1,12 @@
+The search for "Claude Opus 4 SWE-bench verified score 2025 2026" returned the following summary:
+As of September 2026, the performance of Claude models on **SWE-bench Verified** has evolved significantly, with various iterations of the "Opus" and "Fable" series reaching high resolution rates.
+
+Because "Claude Opus 4" refers to a generation of models released throughout late 2025 and 2026, scores vary by specific version and the evaluation harness used. Key highlights from the 2026 leaderboard data include:
+
+*   **Claude Fable 5:** As of September 2026, this model is a top performer, with reports indicating a SWE-bench Verified score of **95.0%**.
+*   **Claude Opus 4.7:** Released in April 2026, this model reached approximately **87.6%** on SWE-bench Verified and was noted for achieving **64.3%** on the more rigorous **SWE-bench Pro** benchmark.
+*   **Claude Opus 4.5:** Released in late 2025, this model was the first to cross the 80% threshold on SWE-bench Verified, with scores typically cited around **80.9%**.
+*   **Context for "Opus 4":** Earlier models in the 4th generation (such as 4.5 and 4.6) established the foundation for these scores. By mid-2026, the benchmark became increasingly saturated at the top end, leading to a greater industry focus on **SWE-bench Pro**, which tests more complex, enterprise-grade software engineering tasks.
+
+**Note on Benchmark Variability:**
+Scores for AI models on SWE-bench Verified can fluctuate based on the "agentic scaffolding" (the tools and prompt loops) used during evaluation. Because different organizations and leaderboards (e.g., LLM Stats, Scale AI, or independent researchers) may use different agentic setups, it is common to see slight variations in reported percentages for the same model.

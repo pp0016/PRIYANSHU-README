@@ -1,0 +1,43 @@
+The search for "github python whiteboard animation hand draw" returned the following summary:
+For whiteboard-style hand-drawn animations using Python, you can explore several approaches depending on whether you want a programmatic library or a GUI-based automation tool.
+
+### 1. Dedicated Python Libraries
+*   **[handanim](https://github.com/subroy13/handanim):** This is a specialized Python library specifically designed for creating programmatic, whiteboard-style, hand-drawn animations[1][2].
+    *   **Features:** Animates hand-drawn diagrams, geometric shapes, and handwritten text[1][3]. It includes "sketch-style" strokes like hatching and scribbles, and exports to SVG or MP4[1][3].
+    *   **Best for:** Educational videos, tutorials, and data storytelling where you want to script the drawing process[1][3].
+
+### 2. Automation Approaches (Python + OpenCV + PyAutoGUI)
+If you want to automate the process of "drawing" on a digital whiteboard or an image editing application, developers often combine several libraries to mimic human interaction[4][5].
+*   **[automated-whiteboard](https://github.com/maksimKorzh/automated-whiteboard):** This project demonstrates how to create an automated drawing effect by:
+    1.  Extracting edges from a source image using **OpenCV**[4][5].
+    2.  Using a whiteboard application (or canvas) to display the drawing[4].
+    3.  Using **PyAutoGUI** to programmatically mimic mouse movements and clicks to "draw" the lines[4][5].
+*   **[auto-draw](https://github.com/maksimKorzh/auto-draw):** Another similar project by the same developer that focuses on creating "Doodly-like" animations by controlling the mouse[6][7].
+
+### 3. Interactive/Gesture-Based Drawing
+*   **[Virtual-white-board](https://github.com/kitmehta/Virtual-white-board-using-Google-pipeline-and-open-cv):** This uses **OpenCV** and **Google MediaPipe** to track hand gestures via a webcam[8][9]. You can draw on a digital canvas in real-time by moving your index finger, essentially creating a "virtual" whiteboard experience without needing a physical one[8][10][11].
+
+### Summary of Tools
+| Method | Tool | Best For |
+| :--- | :--- | :--- |
+| **Programmatic** | `handanim` | Creating structured, programmatic explainer videos[1][3]. |
+| **Automation** | `PyAutoGUI` + `OpenCV` | Mimicking physical drawing to create "sketchy" videos[4][12]. |
+| **Gesture-Based** | `MediaPipe` + `OpenCV` | Real-time interactive drawing using your own hands[10][11]. |
+
+If you are just starting out and want to build a simple drawing app from scratch, you can also use **Tkinter** (Python's built-in GUI library) to create a basic digital whiteboard where you can manually draw with different colors and sizes[13][14].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNxjdDglfgBmo-rsfgpE9NW6jOlGQwE4C2JIVYc-XVCFHb7HrbgyT-czmo8hc2MYvuPy3w54HRR_xougAzGmEm3cySHIcVY8Dg0Qm7B-s6sIh-H9iMss_5sg==)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNxjdDglfgBmo-rsfgpE9NW6jOlGQwE4C2JIVYc-XVCFHb7HrbgyT-czmo8hc2MYvuPy3w54HRR_xougAzGmEm3cySHIcVY8Dg0Qm7B-s6sIh-H9iMss_5sg==)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNxjdDglfgBmo-rsfgpE9NW6jOlGQwE4C2JIVYc-XVCFHb7HrbgyT-czmo8hc2MYvuPy3w54HRR_xougAzGmEm3cySHIcVY8Dg0Qm7B-s6sIh-H9iMss_5sg==)
+[4] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHJFySuvT9A64Xqc0ktnH1rhJt61PzA8F8WoF9rkHNbaFb_UxoyxaqDVminHfuv_eyXFjCNARWENFTDb5VAW2NIhow7b5HYLQ44R3zxBNuCWJox8H6zgcV-S49Aw0qQ9M=)
+[5] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHJFySuvT9A64Xqc0ktnH1rhJt61PzA8F8WoF9rkHNbaFb_UxoyxaqDVminHfuv_eyXFjCNARWENFTDb5VAW2NIhow7b5HYLQ44R3zxBNuCWJox8H6zgcV-S49Aw0qQ9M=)
+[6] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2jde4SHcdHrw2GipMVby51ArLq2AB-oRitw-3YLsj4KrL3KB6fGO0ngmZ3KzpkJ8adoiyHqGhtzYY4y09sQ2quIigyaT1VceoZpuMA7LhwM3MgZut0P19PI-t1GsjLuk=)
+[7] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2jde4SHcdHrw2GipMVby51ArLq2AB-oRitw-3YLsj4KrL3KB6fGO0ngmZ3KzpkJ8adoiyHqGhtzYY4y09sQ2quIigyaT1VceoZpuMA7LhwM3MgZut0P19PI-t1GsjLuk=)
+[8] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPO8RiQg2Gvt3Gzn1NiDnVUEZrli5uEVELkd86g7LzEXdXPOgRTfUIUCt-w9cEAqDjri3-_3QM6HCy5hovh9ceoYkH0PSBtOmmxpXCdi-Lva4gZPl5i_awYmMsadUwHQWuU3eaVFLdHztuT3cP3QN3rvLjtsSh-3Slt7BEVjT9DEoCjBJ5rA==)
+[9] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPO8RiQg2Gvt3Gzn1NiDnVUEZrli5uEVELkd86g7LzEXdXPOgRTfUIUCt-w9cEAqDjri3-_3QM6HCy5hovh9ceoYkH0PSBtOmmxpXCdi-Lva4gZPl5i_awYmMsadUwHQWuU3eaVFLdHztuT3cP3QN3rvLjtsSh-3Slt7BEVjT9DEoCjBJ5rA==)
+[10] [ijraset.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyQSVW2KblFC2Ob66GQLbu4uSVlMZv1BqWn5rr_q41e7jWXGtNiUBd-5Our0q8HlzuiSKk9mQ3miez9pISnrZ4TDRXDHce213cfSLdXzVl5zRzwQp7Lj6hYNTD3iCB_ZLS_ry4mVy3ZCNcEp8vC3u9NIQ7wDWWdMAv2foEJFOELrlOp4_YtwcMKHarXOlJHg==)
+[11] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3F3pjdTh59yyLANGbAVEBIP28tQ-ZjWaDXKr0bMRQhPSwAesJ7DjZa8g38ZtWSlfMR6Trc8Yz-my7lSztBrQp_IS41FpZHY-wwal9osZJpA_7rELRcF5FGXdM55Ip1FFVf2SSmf0ln5OpbCjfd6RK05wqxNXQ67FlrwxEqwENzraZ_qApRNo3tekXuKCzbYwC1EqHkf8Z6ZE-akldgGMRRCq7Zig7C-KKzngAcMumQ25HPwkGHYD6Lw==)
+[12] [tutorialspoint.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9jBqGPy29YwNQX9-89e702JkAW4al8BOdoUWOfjmv-X47RITbu3xhWdfJqe5XZ5XHESWfS_QI6Bhh9LtlY__fo2jDOdXDppfjU92hhR2KLBZIaaZgHrE9A3iUmO_mQl8RlGWkyVz1zwQmbiHCp65awLAcLBFTbCSSbJBjgYCfhWP1CuMb795WUHbwZx3jy_60cq7wvVVgAoHBgg==)
+[13] [freecodecamp.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXWkGHUvexjrCUlVd5lvhTFwkl3S1oV66pSXafAXMitrldjWQtA3eW44AETMfglM8O2QH1w4fTR4jhgBxVCiBE3D-zFEt_m9LEjZV7OPxfiRzJvXi6sNMYgc7DSeue4RHV6CEmUrY3sQHnuWfuFg==)
+[14] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4_ouP0kCRxfMwmJ0wfU6QdlWzjpYeYaa8dMHI1H2e9jU0DmlaSWBdL7GwJGkzxs3fKSXaZATDQi0GuqpElqGVOoDd03b-_ML8mfdPe-_qwGGo2bCvRkdwP3GFkCuBFEQ=)

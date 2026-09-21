@@ -1,0 +1,38 @@
+The search for ""JACCL" mlx thunderbolt rdma github" returned the following summary:
+JACCL (Jack and Angelos' Collective Communication Library) is an open-source collective communication library integrated into the **MLX** ecosystem, specifically designed to enable low-latency distributed machine learning (training and inference) across Apple silicon Mac clusters using **RDMA over Thunderbolt**[1][2][3].
+
+### Key Information
+*   **Purpose:** It provides high-speed, low-latency communication (sub-50 microsecond latency and 50–60 Gbps throughput) by bypassing the standard network stack, allowing multiple Macs to function as a unified cluster for tasks like tensor parallelism[1][2][3].
+*   **Integration:** It is natively supported in **MLX**[4][5]. You can typically utilize it by setting the backend in distributed configurations, such as `mx.distributed.init(backend="jaccl")` or using the `--backend jaccl` flag with `mlx.launch`[6][7][8].
+*   **Where to find it:** 
+    *   **Core Logic:** JACCL is part of the main **[ml-explore/mlx](https://github.com/ml-explore/mlx)** repository[2][9].
+    *   **Community Resources:** There are several community-maintained repositories and discussions on GitHub related to setting up JACCL clusters, such as [alexziskind1/mlx-jaccl-cluster](https://github.com/alexziskind1/mlx-jaccl-cluster)[10][11].
+    *   **Go Bindings:** A Go-based implementation/wrapper exists at [tmc/gojaccl](https://github.com/tmc/gojaccl)[12][13].
+
+### Troubleshooting & Usage Tips
+*   **RDMA Setup:** RDMA must be manually enabled on macOS (typically via `rdma_ctl enable` in Recovery mode)[14][15].
+*   **Common Pitfalls:**
+    *   **RDMA Interface Ephemerality:** RDMA device names (e.g., `rdma_enX`) can change after reboots, requiring configuration updates[6].
+    *   **Topology:** Ensure all machines in the cluster are properly connected via Thunderbolt 5 cables in a valid topology[15].
+    *   **Lifecycle Issues:** Users have reported issues with consecutive send/recv operations or "session" exhaustion; these are often tracked as issues in the main `ml-explore/mlx` repository[16][17][18].
+    *   **MLX Launch:** Avoid wrapping `mlx_lm share` inside `mlx.launch`, as it has its own built-in launcher[6].
+
+Sources:
+[1] [github.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWtNsbdz2FRmJZs6M-fQsBDgqWgmk6DgrmHjXY2fm5vsiwaDScXxh_Qgb5-J8HrbwLJzUGWGNandZzt6vsZ6x2RTwJvuwJeHKp1qySJRvAUaHQoSl4zUvWYmFJvJzG74mjcso6QgEf39IpTMUYiwyxC27Ebs4gyhA=)
+[2] [byteiota.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL7jCD63x1c-ybFYWjTGdhdAyQhYHtS0PzmEywihfXMUQfKFTmOqeVEBzAGvVNjOfbYghVthAlD6d9PZboN6cuzTa55dnhTtsTGzr78bi9ZcmH9wHpLjw-sj6ejGZv5sXZdMVWcSZmPltGWI0AsQipm07Jsk_8)
+[3] [byteiota.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4cG7JosArkeMF5YFivbOkUZXCcuPPqwTyDQS2k5VYkKIqpaXRZDSDEpfB6JFXdV05aJymJ5hWmRHzWLmf7bx3X90T8zVSUVsEa6HiXjurSXsYTHi1rdqw46Ha6dXn_j5WZkbBe_gSfKoqlZZNve-SzioTyD5J7CTTaXcE33ygcmzn66NGqJEiwMkvGXBaNzo=)
+[4] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHi1djzyI36rkqlw_iyGgoJjIBPNz6ol9vvkwprIysTO0MW7-SknHqAkQpv2hZUbgpLdRIuCQzoQnBVxwW86HgkTHt5CUI5UrV3dpUIgewx0MZSGPsEL1WhEi4eS6aV1q1pi3mphW9X8mCJNBeK7ULragGb2ELlY7H7hgewh1eVmnIPlNNkfvpKnJNIvA6pGuoWtc_PFhKX23_dDiUKAO7vJisK1s=)
+[5] [ollamaherd.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFE8gTYz8jtWe9_u_aGM15ms8o6gVbKSL1Ka3VYRT6s_CsvtF285JIVNCn9QXNYUZu4_oSFWtIuVFa46kxAo-Xm_166O6JmnxsBFuMyqbqcSadx3ak=)
+[6] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqHG-w_DvG0MMM_U4d7mY0VbbIa918o2P9bKmOc2OfblbiVcRnKeKxdrM9wl5rC15JDnh3m2gSjxOVjXRRYvnm3ugkRTatddpFKMbNmcGbfWsCYEIk2AE6SIf0DpyKagfozK3w-A==)
+[7] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFt3ANclKgd__qPPhGvqwB2ILXsIZjNQ7BdxNrc16Bkgl9a7dluNrq49bf9N86w8-5mAvMmf4PtZu0c_w9Lq4rlmV7Qx4o2cUj238f06XiKYOFDBIVc9-MGfQ_rlgZ4741XUg=)
+[8] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOfwSsJiWrMxZ9GPrIulPmkeah4vme0Yz6Kf9wEzTHE2kbofzdM0gisdAApHzjQqDCVGkmYpR3PS7NOvSa35OMhfJ5wdo7541FaEU1yjrCGbeXb0uF_1ye6TO-VM8yhZ05UEo=)
+[9] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYYuufDpZoqdt1kh_04AuxMofuRC6kl2JfIjDF9mIr5i1Yxy9dyySIYcPRVPqXbGydk3ULOq79TZJiht8qPB1KUaIJrsOJHsPoBcy8lxM9uiLWQ_9iNWSQUzOXMrtB_r3xvYgPfib-t5vk3uCmCLLyUK6feK6o5TmE75e2g7P8Bv1rU5K_p2nZ)
+[10] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTA1a-BgpRtCV1BjcU1DqJhn85qaBt_iXZ_5rX0b4BQGkDh59byrzdW0hy1eu9hcGzVKSCYKiIBLc4bRAYbMHSxd0IQWEW6plU0Gp9TBCMa-mOOmMlNKzCnuqfqSEts8lXGBhjmaEW)
+[11] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTA1a-BgpRtCV1BjcU1DqJhn85qaBt_iXZ_5rX0b4BQGkDh59byrzdW0hy1eu9hcGzVKSCYKiIBLc4bRAYbMHSxd0IQWEW6plU0Gp9TBCMa-mOOmMlNKzCnuqfqSEts8lXGBhjmaEW)
+[12] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkZUULSzUSZTfhhR1TrLAZjvynyxRgoZJNn0C8k-qiZr0ZuN8F63uAjrEUavQH_5sgT6l-r8UiTM01FTqPI3VUSpO842OS_DajOrQZyPwolMIY1cE=)
+[13] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkZUULSzUSZTfhhR1TrLAZjvynyxRgoZJNn0C8k-qiZr0ZuN8F63uAjrEUavQH_5sgT6l-r8UiTM01FTqPI3VUSpO842OS_DajOrQZyPwolMIY1cE=)
+[14] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgyOcQCldjiAyU4hyA7wC2eP0Q5ymSiQzO1saupgyKrCu71rpEh7EHhvY54LvcyE5ctwjNgvsj_rhNXQyTzncaV-B-UmqwIduTT4f6S5tDX2LPM9MPqC7fPQv4KxozillBVG01)
+[15] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwgVn0WbYx_keKwSa9jKhvue3jM-PVwhe8N9L6M7pCFBM0aqKOaTYcwqgL0GDSgWOLXa91nbB6hMVJIYXvg2g0OgrDo6-HC6HIxThh4U56Nl3WY6BRAf6D)
+[16] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxHm6t_MtBhUtZc5sphFxMBl7a1ssZDfGHKOiJmdosJL7_zLN5YZXJgbCZsa_oNya-RaNZVe3lwWQ8BganyCqUrpT-yLaZgt1wb0xcvyqlQIfZAG9XQ_9lr1dOJZ4hqja9GGY=)
+[17] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZfVWb-tG2TlqP8LWC2E68u9QNx5vJ15B4S06IcmrU1U1Rx9xdVoLOdAZB0Ine23S4sB26pWezir_GB83tf7ZAPs2Q251cF5xoiNSyYmQ0TotuCP3r8gLhAJug4LnVv3Uouq4=)
+[18] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrV9WNleC1D79q_j81NotskYYUXDqZu9Z5J9HwFudKXa0Xsg5RG1HWzoYyVNs1uqSOzWTtG0RSMvYtswUAdeNRGnruDmpiJHVZJOrO5sxgD-TyQtHPd9-hCX9XjC-4M9R1zpaBDdwXBQ==)

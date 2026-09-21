@@ -1,0 +1,24 @@
+The search for "site:github.com "inpaint-anything" video" returned the following summary:
+The term **"Inpaint Anything"** on GitHub primarily refers to a popular repository that utilizes **Segment Anything (SAM)** and various inpainting models to perform object removal and filling in both images and videos[1][2].
+
+### Key GitHub Repositories
+*   **[geekyutao/Inpaint-Anything](https://github.com/geekyutao/Inpaint-Anything):** This is a primary repository that supports inpainting for images, videos, and 3D scenes[1]. 
+    *   **Video Capabilities:** It integrates methods like STTN (Spatial-Temporal Transformer Network) and ProPainter for video inpainting[1][3].
+    *   **Recent Updates:** The `main_2026` branch includes modernized features, robotics support (such as batch hand removal from egocentric video), and improved video/3D tracking[1].
+*   **[Uminosachi/inpaint-anything](https://github.com/Uminosachi/inpaint-anything):** A user-friendly implementation providing a browser-based UI (Gradio) for image inpainting using SAM masks[2]. There is also an extension version for **AUTOMATIC1111's Stable Diffusion Web UI**[4].
+*   **[zibojia/COCOCO](https://github.com/zibojia/COCOCO):** Focused on "Video-Inpaint-Anything," this project provides code for text-guided video inpainting, leveraging SAM 2 for mask generation to improve consistency and controllability[5][6].
+
+### How it works
+These tools typically follow a two-step process:
+1.  **Segmentation:** Users select an object or region by clicking on it (or using text prompts), and models like **SAM (Segment Anything)** generate a precise mask[1][2].
+2.  **Inpainting:** Once the mask is created, inpainting models (such as Stable Diffusion, LaMa, or video-specific models like STTN) fill, remove, or replace the selected content[1][2].
+
+If you are looking for specific video features, the **geekyutao/Inpaint-Anything** repository is the most comprehensive for general video removal tasks[1], while **COCOCO** is geared toward text-guided, controllable video editing[5][6].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXPM0aQbmxhvMCAPBkoJogLnU4ejG20k7eku6yXqUZljeagsD9rQjMhhnyenxbxnlpgXiNqOwbundl-FSq3EbHwfgRkU1aX45QmqSPbNIKBwdH5-vokleuDLtg5Hy01UMKBTs=)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZR9B5wyt2jpRA9dNItCJIkKSj025BWvng_80rjrxvM_eoTSEY6eaqo_uqRDOhPao0wW7CezvRJ45UFSS6kMYQNjb5Q91h36YpvE7SIQPd3zprmUrK4f51pbnwUpJ6hmkRN_0s)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGryBieRorfxDpGveFnjsqilOP0MehfgoHUjjhZ8ChmqHXkElzfMZTBGRTupwp-bBaAXKYmBiWUSOyI3BFHzTSd1tgohXV0vGoVTEP5XUBU6xFrO_QvYFicG04KV2gW2JJ2b5m7iSMWWnAWA9PkDE-C2d-cA5iXyNtnRyHg)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxBdxGQvCEzlzY2OUBg7Hy_AULX0NWDIvlLVrzTHMAPjilel_dnygqLxzwgGjHwcIjJ12AIMwnd9HONzWWr6P3y8Q_q9SQ0L5bhL1mQOds3NCfESAnPxtxeD0RkMhR-Sela9kGBlMIiogqU3LB)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtPGvlvTE_FgmCZ4QDMjnTQLfPbq906qfSyM3mmR7xIAGWN-P3RuG1srPvFZjhFmf00Co0vrVTPHSOkpcgPtzTvY3EVeuVvwKkZc_OzDi4jQmX5OktmWY=)
+[6] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkHrVxJ_CCYYUXGcRfQZ-UCKEt5Wks3puKBrowNMzK8F12LuZP0c7nAMnb4GBGm0krHbO3tdABV_rlSAcBuaVcSdVGV_uW-HiSVxXMq2oYe9ssGIL0r9NAw2VYt9dHUa0=)

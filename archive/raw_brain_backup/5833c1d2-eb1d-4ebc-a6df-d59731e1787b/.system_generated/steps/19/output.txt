@@ -1,0 +1,22 @@
+The search for "github Vincentwei1021/anything2explainer" returned the following summary:
+**anything2explainer** is an open-source tool and skill designed for **Claude Code** and **Codex** that automates the creation of narrated, motion-graphics explainer videos[1][2].
+
+### Key Features
+*   **Workflow:** You provide a topic, and the tool produces a complete explainer video including a narration script, text-to-speech (TTS) voiceover, subtitles, and a chapter progress bar[1][2].
+*   **Visual Style:** Instead of using stock footage or generative video models, every frame is programmatically drawn using **Remotion** (React + TypeScript)[1][2]. The aesthetic features a black canvas with white line art, bold headlines, and a star-field or dot-field backdrop[2].
+*   **Bilingual Support:** It supports both English and Chinese narration[1][2].
+*   **Pipeline:** The tool handles the full production pipeline: research and scriptwriting, voiceover generation, storyboard creation, parallel shot building, and quality control reviews[2].
+
+### How It Works
+*   **Technology Stack:** It utilizes Remotion for video rendering, Node.js, and various TTS engines (such as `edge-tts` for Chinese and `kokoro` for English)[3][2].
+*   **Installation:** It is designed to be added as a skill for agentic CLI tools like Claude Code or Codex[3][2]. Users typically clone the repository and link it to their local skills directory[1][2].
+*   **License:** The project is released under the **PolyForm Noncommercial license**, meaning it is suitable for personal projects but not for commercial use[4][2].
+
+You can find the project on GitHub under the username **Vincentwei1021**[5].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF321O7a9v4l3L6m3P3EGXVTQZDgEPDUOJyGkPMt_mWY7f3VUquxYUPQsXF6dQWQqd1An-QfB5ZUIffW-aNUAOybTo3Qitm7-w-BBAllEIBDjIEW68QhHvBrb0oxoy0Dv_1Z4gfmtLppdMl)
+[2] [claudemap.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLWSocwIk1eeUfi6esUCKNbla6LaIcXziz_OC9vjKNPsDNybo1jhZb7LFlCjrStxUUvcxXZB_DHNe8gCharX3RIDtDkvbh9NoNZS5OrOr0jFOAz_o-eVCDnSU66WYn_2-i51rpdpd3Oxlx6wkz)
+[3] [agentskillshub.top](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEx9jsC2i-buUwO_-dEwOO5Wt1mmUvhgEUlWu0oBkv2w2a7QYl97h-r3foRYBjfzBQRkVnKEuR1r7UtPAwFPN2TBiwrVM2pyHNVzO1sDXolRe69EVl6oFC6iOeYYg62coPmzbsORRfGT0hXqgmfn0FZy3jCS7xRB1oq)
+[4] [moclaw.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEISjQ4noyCnUHVVDJBkVsFfclVCNpQMOJzErubFAQJWJ6Q6H8vdWEZHhdCAzg_Xu4EVr1aHBVacXW_Y6uDhP8k4INemIwr5L3B5DhrnS3JVtxdLltK3ogjkmtxM70ggg==)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-FYNBraO4HLE1rkIHyFtflikdb561wSoK7EgViT0NyY8nxm3kYjPXVS9UW1_8FiaAjrN6eL5oqyKgaAWZLWIEO6fbRiFQSsxgqHPPenL-RhISDuYjx1D1cP7v9dw3uJDY284vbsdBDs4U2Eqzk74odGI=)

@@ -1,0 +1,11 @@
+The search for "site:github.com "whiteboard" AND "hand" AND "svg" AND "react"" returned the following summary:
+https://github.com/excalidraw/excalidraw[1][2]
+https://github.com/Bowen7/react-rough-fiber[3]
+https://github.com/MolinDeng/roughly[4]
+https://github.com/fskpf/svg2roughjs[3]
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsYwRxoNV8AGIzX8U3M5kFXnMgfBodzNxCnMFVEZMsTmLURCbg5oZwMqftWWDtuBn858upgWF8og8DEuJ5GhZXQrO4npwAn86Q78yrjCU5s3fQkDJ2Kkctf_B4GWvx)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSBH7VYTTuuC9Gu6w9EwO7zWngOJKbe-guydmbD14aR8MWH43WRY7Pqj1AefUee4gb6lFM0PHPGawYREXJ7V3goowwgEpkY8YJwT_nhU86fWRqyfRRUdCKLghSe-ZZMZg7yg==)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEW82CXmbaeqMm41hYorNTqMDkmXoqn5YqIwW6E3H6X5yMquxqBKm5S9Qfce5cC6cw7pNoL6AuySXfOaatQU3Jc6I_Zgpcu2HDtMIbgJsBrJTVmBltfWPV4koE=)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe2MetZK0C5zsQAUvMTFjDWlyzHYYL91b5yhQr2GYS3ZggNH7iJxod2IGEnYGmPzPG1i0wzBJN7eHFt97CTf43PnrfBGLNpQr_bh7ajSKFlOALcuHFsL1F3tA=)

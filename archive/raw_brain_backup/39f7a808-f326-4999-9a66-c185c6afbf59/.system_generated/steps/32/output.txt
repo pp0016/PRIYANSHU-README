@@ -1,0 +1,18 @@
+The search for "site:github.com "provos/parallax-maker"" returned the following summary:
+The repository **provos/parallax-maker** on GitHub is a tool designed to generate images that can be used for 2.5D animation[1][2].
+
+### Key Features
+*   **Workflow:** The tool provides a Dash-based Web UI that assists users in slicing images, inpainting those slices, and exporting them as a glTF scene[3]. 
+*   **Integration:** These exported scenes can be used in software such as Blender or Unreal Engine[3]. The app also supports visualization of the generated scenes directly[3].
+*   **API Support:** It supports Automatic1111 and ComfyUI API endpoints, allowing for remote GPU utilization, which can be useful for higher performance or using specialized inpainting models and workflows (such as those using offset LoRA)[4].
+*   **Tools:** It includes command-line tools for manipulating the state files saved by the application[3].
+
+### Installation
+The project is built with Python and can be installed in development mode using `pip install -e .` within a virtual environment (Python 3.10+)[5].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzWg7W56k0_ZW0fGponMrEoxtlxzojdF1V5MMc1monDGXnFMC4DSVAoJ1SDuaupCPXx09jIbGVZ4GoG20qWo9HAxz1BAg5mn3V9yhRj3LNh3hmJbUBkbfgROOBmC6Z)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzWg7W56k0_ZW0fGponMrEoxtlxzojdF1V5MMc1monDGXnFMC4DSVAoJ1SDuaupCPXx09jIbGVZ4GoG20qWo9HAxz1BAg5mn3V9yhRj3LNh3hmJbUBkbfgROOBmC6Z)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzWg7W56k0_ZW0fGponMrEoxtlxzojdF1V5MMc1monDGXnFMC4DSVAoJ1SDuaupCPXx09jIbGVZ4GoG20qWo9HAxz1BAg5mn3V9yhRj3LNh3hmJbUBkbfgROOBmC6Z)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzWg7W56k0_ZW0fGponMrEoxtlxzojdF1V5MMc1monDGXnFMC4DSVAoJ1SDuaupCPXx09jIbGVZ4GoG20qWo9HAxz1BAg5mn3V9yhRj3LNh3hmJbUBkbfgROOBmC6Z)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzWg7W56k0_ZW0fGponMrEoxtlxzojdF1V5MMc1monDGXnFMC4DSVAoJ1SDuaupCPXx09jIbGVZ4GoG20qWo9HAxz1BAg5mn3V9yhRj3LNh3hmJbUBkbfgROOBmC6Z)

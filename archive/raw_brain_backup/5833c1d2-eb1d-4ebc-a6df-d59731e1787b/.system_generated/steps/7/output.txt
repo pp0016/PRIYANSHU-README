@@ -1,0 +1,39 @@
+The search for "github "Inkplainer-OS"" returned the following summary:
+**Inkplainer-OS** is an open-source, free-to-use whiteboard animation maker that runs entirely within a web browser[1][2].
+
+### Key Features
+*   **Privacy-Focused:** The tool is designed to be private by default. It has no backend or servers; all processing, including image/text uploading and video rendering, happens locally on your device[1][3][4].
+*   **No Sign-up/Cost:** It is free, requires no account, and adds no watermarks to your exports[1][2].
+*   **Animation Modes:**
+    *   **Animation Mode:** A basic hand-drawn style that allows control over direction and hand behavior[3][5].
+    *   **Drawing Mode:** A more advanced mode that redraws images stroke-by-stroke, offering control over outline styles, stroke behavior, and colors[3][6].
+*   **Export Options:** You can export your creations as MP4 or WebM videos (up to 1440p) or as a static PNG of the final frame[1][7].
+*   **Tools:** It includes a "Slicer" tool for cutting images into independent animated layers and a "Coordinate Mapper Tool" to configure hand graphics[1][8].
+
+### Getting Started
+Because it is a static web-based tool, you can run it by cloning the repository and serving the files locally[1][7]:
+
+```bash
+# Clone the repository
+git clone https://github.com/NadirWeb-App/Inkplainer-OS.git
+cd inkplainer
+
+# Serve using a static server (e.g., npx)
+npx serve .
+# Or use Python
+python3 -m http.server 8080
+```
+
+Once running, you can access the interface through your browser at the specified local address (e.g., `http://localhost:8080`)[1][7]. You can find the project on GitHub under the user **NadirWeb-App**[9][10].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFATKL-NxW6-iy5u8lDpmbg9piDImg7mr39A030LxmGwkxxtGmsaGCjAV3hFqNJi1QF1QoJ9JnOQKl9O2QW_Cpkeyqunw1xFTskGr6N1q9n0PuLnPDQPGynKttOuiB-_qlIIno=)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFATKL-NxW6-iy5u8lDpmbg9piDImg7mr39A030LxmGwkxxtGmsaGCjAV3hFqNJi1QF1QoJ9JnOQKl9O2QW_Cpkeyqunw1xFTskGr6N1q9n0PuLnPDQPGynKttOuiB-_qlIIno=)
+[3] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUHatcnnI0ryoZbmFL6RhW0x42UW92HfUYw8WRCTm4oF-h7FWRblSta5kRaYahRJPSbYkWPV-ZuLcfZ-Wp1LKcKqwWDazrCBQ7aB4aJZk7kVyiBqvmfS1Z8G6cIPn3Uti0-siez1zhgGc9YfJ34X1rQdq3e5sKGXkTHIDjvQceQQF8yiEVNlT_HsmpVBXI7EBhXAEVezSDl-MXtFs=)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4DhaH17MDIhKDvfydf4tfhJ_suI5q57dWMMar3CX42tQ6SGU2obZpy6XMLS6f1vD12Gango1yswNCLETBngqc6hxgY3w3BRHrZ1InMwXyOgMhTtA8r5LPs1JHRk8OIm1eeBvoCU3PXF3Gg-3H-GwfQJIK4d5_LXo=)
+[5] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUHatcnnI0ryoZbmFL6RhW0x42UW92HfUYw8WRCTm4oF-h7FWRblSta5kRaYahRJPSbYkWPV-ZuLcfZ-Wp1LKcKqwWDazrCBQ7aB4aJZk7kVyiBqvmfS1Z8G6cIPn3Uti0-siez1zhgGc9YfJ34X1rQdq3e5sKGXkTHIDjvQceQQF8yiEVNlT_HsmpVBXI7EBhXAEVezSDl-MXtFs=)
+[6] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUHatcnnI0ryoZbmFL6RhW0x42UW92HfUYw8WRCTm4oF-h7FWRblSta5kRaYahRJPSbYkWPV-ZuLcfZ-Wp1LKcKqwWDazrCBQ7aB4aJZk7kVyiBqvmfS1Z8G6cIPn3Uti0-siez1zhgGc9YfJ34X1rQdq3e5sKGXkTHIDjvQceQQF8yiEVNlT_HsmpVBXI7EBhXAEVezSDl-MXtFs=)
+[7] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFATKL-NxW6-iy5u8lDpmbg9piDImg7mr39A030LxmGwkxxtGmsaGCjAV3hFqNJi1QF1QoJ9JnOQKl9O2QW_Cpkeyqunw1xFTskGr6N1q9n0PuLnPDQPGynKttOuiB-_qlIIno=)
+[8] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFATKL-NxW6-iy5u8lDpmbg9piDImg7mr39A030LxmGwkxxtGmsaGCjAV3hFqNJi1QF1QoJ9JnOQKl9O2QW_Cpkeyqunw1xFTskGr6N1q9n0PuLnPDQPGynKttOuiB-_qlIIno=)
+[9] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGA31MmeM6AVmD1VmQyyMWfMS0DPl3sI0KFjNZnFpkn5S0c5Iskp8B1E0BIEdMbDVzTkjmTRHQ1wE8KlysMXOZKKe1zqigM5X8ubvuNUXOiICcJuS6S)
+[10] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGA31MmeM6AVmD1VmQyyMWfMS0DPl3sI0KFjNZnFpkn5S0c5Iskp8B1E0BIEdMbDVzTkjmTRHQ1wE8KlysMXOZKKe1zqigM5X8ubvuNUXOiICcJuS6S)

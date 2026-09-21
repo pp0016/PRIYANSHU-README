@@ -1,0 +1,4 @@
+{"name":"SKILL.md","sizeBytes":"1858"}
+{"name":"scripts","isDir":true}
+
+Summary: This directory contains 1 subdirectories and 1 files.

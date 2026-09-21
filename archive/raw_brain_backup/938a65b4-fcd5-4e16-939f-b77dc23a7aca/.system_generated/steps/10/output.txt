@@ -1,0 +1,20 @@
+The search for ""yogendra-yatnalkar/storyboard-ai" github" returned the following summary:
+The **`yogendra-yatnalkar/storyboard-ai`** repository on GitHub is an open-source project designed to automate the creation of whiteboard-style animation videos from simple text prompts[1][2][3].
+
+### Key Features
+*   **Agentic Pipeline:** It utilizes a "Director Agent" that autonomously manages the entire production process, including researching topics, writing scripts, planning storyboards, generating artwork, animating the drawing process, creating voiceovers, and synchronizing subtitles[2][3].
+*   **End-to-End Automation:** The framework handles multimodal asset generation (images, speech, and video)[4]. It can be run in a single-pass mode or via a more advanced multi-pass mode using instance segmentation (SAM 3)[2][5].
+*   **Efficiency:** The project is designed to be cost-effective by dynamically stretching and pacing static line-art animations to match audio narration, which significantly reduces the need for expensive video-generation API calls[6].
+*   **Technical Stack:** The project heavily utilizes tools such as FFMPEG for video stitching, OpenAI's Whisper for subtitles, Stable Diffusion for image generation, and various Python-based automation techniques to synchronize the final output[7][8][3].
+
+You can find the project repository here: **[github.com/yogendra-yatnalkar/storyboard-ai](https://github.com/yogendra-yatnalkar/storyboard-ai)**
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnlWUSq4yorl3VaxaZBCVxkcmwojoHFSG2oEdAN9KiFmOV0vmds9oHK1QeHzVlwnlxnEoRp65ASwPpg_pXHKzemSvJnMs8WyhtEtA20mdpqd8ZhbFEU5I8HicxJLvCvZIjs-rNqVaXMW8=)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnlWUSq4yorl3VaxaZBCVxkcmwojoHFSG2oEdAN9KiFmOV0vmds9oHK1QeHzVlwnlxnEoRp65ASwPpg_pXHKzemSvJnMs8WyhtEtA20mdpqd8ZhbFEU5I8HicxJLvCvZIjs-rNqVaXMW8=)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnlWUSq4yorl3VaxaZBCVxkcmwojoHFSG2oEdAN9KiFmOV0vmds9oHK1QeHzVlwnlxnEoRp65ASwPpg_pXHKzemSvJnMs8WyhtEtA20mdpqd8ZhbFEU5I8HicxJLvCvZIjs-rNqVaXMW8=)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnlWUSq4yorl3VaxaZBCVxkcmwojoHFSG2oEdAN9KiFmOV0vmds9oHK1QeHzVlwnlxnEoRp65ASwPpg_pXHKzemSvJnMs8WyhtEtA20mdpqd8ZhbFEU5I8HicxJLvCvZIjs-rNqVaXMW8=)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnlWUSq4yorl3VaxaZBCVxkcmwojoHFSG2oEdAN9KiFmOV0vmds9oHK1QeHzVlwnlxnEoRp65ASwPpg_pXHKzemSvJnMs8WyhtEtA20mdpqd8ZhbFEU5I8HicxJLvCvZIjs-rNqVaXMW8=)
+[6] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnlWUSq4yorl3VaxaZBCVxkcmwojoHFSG2oEdAN9KiFmOV0vmds9oHK1QeHzVlwnlxnEoRp65ASwPpg_pXHKzemSvJnMs8WyhtEtA20mdpqd8ZhbFEU5I8HicxJLvCvZIjs-rNqVaXMW8=)
+[7] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG11UKP67dMb_06leOAOClb4F10iCyK9HgYUYvoSIaNtjtI2GzP05-bn79bhrvp-bVbV9RMdlG4v_A4mfQ1nJ2l77zXvR7Y8Bnp0hzF2P_kBl45UbHQYrTuOsRsnKvA6muP)
+[8] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG11UKP67dMb_06leOAOClb4F10iCyK9HgYUYvoSIaNtjtI2GzP05-bn79bhrvp-bVbV9RMdlG4v_A4mfQ1nJ2l77zXvR7Y8Bnp0hzF2P_kBl45UbHQYrTuOsRsnKvA6muP)

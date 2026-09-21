@@ -1,0 +1,1 @@
+Encountered error in step execution: Failed to fetch document content at https://www.apple.com/in/legal/warranty/products/mac-english.html: failed to get URL https://www.apple.com/in/legal/warranty/products/mac-english.html: status code 404

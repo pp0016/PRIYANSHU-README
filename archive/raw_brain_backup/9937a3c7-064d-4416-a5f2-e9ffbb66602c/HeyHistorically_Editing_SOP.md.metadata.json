@@ -1,0 +1,6 @@
+{
+  "summary": "Complete editing and animation SOP for cloning @HeyHistorically's video production style. Contains:\n1. vidIQ's raw SOP from video_watch (detailed frame-level animation specs, text animation timing, transition ratios, color hex codes, pacing metrics, sound design values)\n2. My cross-analysis identifying where vidIQ was accurate vs where it missed (software choice, narrator voice, template system, AI tools, time estimate reality)\n3. Comparison table showing where each source won\n4. Revised realistic solo creator workflow with Phase 0 template build (58-83 hrs one-time) + per-video production (55-84 hrs)\n5. Honest assessment of clone feasibility, skill requirements, upload frequency reality, and intelligent corner-cutting strategies\nNexLev video watch failed (burned 1/day limit on error) — documented transparently.",
+  "updatedAt": "2026-09-06T11:49:37.938151600Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

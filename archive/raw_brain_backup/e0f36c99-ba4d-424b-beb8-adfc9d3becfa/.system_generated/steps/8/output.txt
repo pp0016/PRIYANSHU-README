@@ -1,0 +1,29 @@
+The search for "site:bark.us "notification data" OR "block third-party" OR "tamper-proof" OR "spec sheet"" returned the following summary:
+Bark’s safety solutions, particularly the **Bark Phone**, are designed with several layers of security to prevent children from bypassing parental controls[1][2]. Key features related to your query include:
+
+### **Tamper-Proof Controls**
+The Bark Phone is engineered to be tamper-proof, meaning children cannot easily circumvent the restrictions parents set[3][1]. 
+*   **Settings Lockdown:** Kids cannot disable, delete, or work around the monitoring software[1].
+*   **Undeletable Texts:** Parents can choose to prevent their child from deleting text messages, ensuring that conversations remain visible for review[1][2].
+*   **Workaround Prevention:** The device is designed to block the installation of VPNs or other unauthorized tools that might be used to bypass filtering[1][2].
+
+### **Notification Data & Monitoring**
+Bark uses AI-powered monitoring to analyze activity across various platforms[4][1].
+*   **Smart Alerts:** Instead of sending every single text or interaction, Bark’s advanced algorithms scan texts, images, videos, emails, and over 30 social media platforms[4][1].
+*   **Concerns Detected:** Parents receive notifications only when the AI detects potential issues such as cyberbullying, sexual content, depression, drug use, or violence[4][1].
+*   **Personalized Insights:** Alongside alerts, parents receive reports and expert guidance to help them address the specific concerns flagged[4].
+
+### **Blocking & Filtering**
+*   **Third-Party Blocking:** Parents have the ability to approve or deny all app downloads and contacts[3][5][1]. This "closed" environment prevents the installation of unapproved third-party apps[5].
+*   **Website Filtering:** Bark allows parents to block specific websites or entire categories of content (e.g., gaming, sexual content)[6][5].
+*   **Safe Search:** Bark can mandate "Safe Search" on engines like Google and Bing while blocking other search engines that do not support these safety filters[6].
+
+While Bark does not typically provide a traditional "spec sheet" (like those for computer hardware) on its public-facing marketing pages, the information above summarizes the technical capabilities of their flagship device and monitoring service[3][2]. For technical specifications regarding specific phone hardware (such as the Bark Phone Pro), the product pages generally note details like Gorilla Glass, IP68 water/dust resistance, and processor capabilities[3].
+
+Sources:
+[1] [bark.us](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGkVQpK4UTHZepGhO-teojcVh8pNwaPrzSPnZMWgoWem6wGv9YDE0XfcM6a0ESUL347_xSAI_11ti-42t0Qetx2s6cAxPfcvvOeiVPvPv18uomrfKwmtcBNsarXeMY5wya-wxI5W8ZfWnI-g==)
+[2] [bark.us](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHetxp7MCo8pj1uJWw0BaWLjOA3Z4Z03_31DVcv3XtBZ6-wqYnt--JrlXvpijb1Rqg2mfgSXsOx-ZnJu09bqxBRwEVnOtbQDYWgsZkaC3xI6cc94s1euu82dCvxDQXMNw==)
+[3] [bark.us](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENldTEYyAWqg38PVjE-vXksDXahT2NdrzucN2rISlBVA-ecnwfYmwpZJ8gcSgQcl6cL_JxBWZXtO5ZPdJPVGRw3RJUm2PW79y3zunLwmAu6LCSZcBtZ9Fbc1LtIFscLWVhVnJ120c2yHHuOUeiRTUGgqfzabgtRar7hnhr8ZJHjf6yGRHjs9k2)
+[4] [bark.us](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEutJx5jwAyfGAe7XqXtdF-tF5FNbnLAZM2qdfLXMm4RsjqANdr5WKkuI3fWlOPqbG0MBLfA_m2P3DWJzQcaJOtHl37AeP8ZTAEe0KMjXBeq5WgepZ1RbcQt2lrQe8iWrgvIK98hW_U)
+[5] [bark.us](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPTMbUo1yg3BIl4jm72O-HYKNPfmEhdMhfmDf4Celg0_Ib2_n6Z-uFoIdCNJNwP98UYOmfzgt2sBsaPfFIzmfAe9JfL12hJRHeoV_w1faShrnBKL5mjB6GMjLgkPtp0KsmAfo-zBFhQzmWpkhvAQq_brAwiHQsaCUYRkinRz0WezTFM57ucinydA==)
+[6] [bark.us](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbcTlASPBC7jOVZw9q283u88ImirUDLpUW5dbDyp_aiNeRv82oGtfQtaxEy971dCdUZTseEgBryjeIhszqBJjQnzrSOckCad92pa0ylkulraepKpZtLXpmbqqj)

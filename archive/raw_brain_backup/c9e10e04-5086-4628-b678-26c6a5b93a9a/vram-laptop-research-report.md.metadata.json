@@ -1,0 +1,5 @@
+{
+  "summary": "Deep research report on whether to buy high VRAM for open-source AI models on a laptop. Covers current VRAM requirements for LLMs/image/audio/video models, optimization trajectory (quantization, distillation, BitNet, MoE, MLA), laptop GPU hardware landscape (RTX 50-series, Apple M5, AMD Strix Halo, RTX Spark), counter-arguments (cloud pricing, thermal limits, Reddit user regret, regulatory risk), and a specific recommendation for a 5-year laptop purchase. 4 parallel research agents, 24+ cited sources with evidence tiers, consensus map, and provenance tracking.",
+  "updatedAt": "2026-09-10T01:18:01.615044700Z",
+  "userFacing": true
+}

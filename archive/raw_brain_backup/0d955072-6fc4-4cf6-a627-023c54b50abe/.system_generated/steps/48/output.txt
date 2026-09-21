@@ -1,0 +1,24 @@
+The search for ""rezoo/movis" "commit" OR "release" OR "updated"" returned the following summary:
+The **rezoo/movis** repository is a Python library designed for video editing, presentation video generation, motion graphics, shader art coding, and other video production tasks[1][2][3].
+
+### Status and Activity
+*   **Last Major Activity:** The project saw significant activity and public attention around **November 2023**[4][5][6]. This included the release of updates intended to resolve compatibility issues, such as bugs preventing proper operation on Windows[4].
+*   **Current State:** As of recent checks, the repository is still accessible on GitHub[1][7]. While there have been community discussions and bug reports filed in the repository's issue tracker (such as requests for GPU support and custom font handling) throughout 2024 and into 2025[8], the core development appears to have slowed compared to its initial launch phase[5][9].
+*   **Repository Information:** The project is licensed under the **MIT License**[10][11]. It uses a composition-based approach for video editing, allowing users to define layers, animations via keyframes, and various visual effects directly within Python code[11][12][13].
+
+For the most up-to-date information, including the latest commits or open issues, you can visit the official GitHub repository at [https://github.com/rezoo/movis](https://github.com/rezoo/movis)[1][8].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAGBreC_JQAnWtZ3eYUw9wtT4NfGxbs2c3_HTubhP7v3ZdpGhl5RVRvmXtBsqUP-FOUCKKFdLzzn__907JzHGT4Qk0G7Rt6Qub7hzG5SymMmhqll8=)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAGBreC_JQAnWtZ3eYUw9wtT4NfGxbs2c3_HTubhP7v3ZdpGhl5RVRvmXtBsqUP-FOUCKKFdLzzn__907JzHGT4Qk0G7Rt6Qub7hzG5SymMmhqll8=)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAGBreC_JQAnWtZ3eYUw9wtT4NfGxbs2c3_HTubhP7v3ZdpGhl5RVRvmXtBsqUP-FOUCKKFdLzzn__907JzHGT4Qk0G7Rt6Qub7hzG5SymMmhqll8=)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuXqY2vccvPh-hz-7Lu26PtHU1u6UhLTX2ET1nkfAhr38evwj1Ax0F7RZtkXYIpMl0x-_lnad23z2XHvBbABOgGu7m2WgYUDkEny_Ugqh6ycmxGjEp7fuGzWxogPk=)
+[5] [libhunt.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPDhXmFjyDUnF-fukKLrnIqVQJLtVpJ7px871IZDGIC3MRWXr6ker4Oo0C64iwZ93AMugeWNIXjP6y9BXqMSLjo4xpUNddiSY1j8kqDkSHMjrm_Bn_qguc-awsHCVklm08pNpTCAuEZTWL)
+[6] [mstdn.social](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZpAdFA2JJEgHwWCP6SGn9isvoWeske4WghqZch9NmMGQupZXsmFGU-mcZfepc5_2oNooC4feZ93kpHOJHpVme8xMY99kwCA07ePJrYHXE-KqHS_hfrnt8TWf4RixgwJdCUqA=)
+[7] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAGBreC_JQAnWtZ3eYUw9wtT4NfGxbs2c3_HTubhP7v3ZdpGhl5RVRvmXtBsqUP-FOUCKKFdLzzn__907JzHGT4Qk0G7Rt6Qub7hzG5SymMmhqll8=)
+[8] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNnI018eASlZZ6WeNRrpVrTavy9EB3RiImWje-JWNyCb-xn2eU-Xl1RBV3gX0QqDKMGFLvrcUbmhPZcMiTuN6EriIAQBDWwSu0FcdTnHw3D5qa46s-KEcqQMgN)
+[9] [libhunt.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEP7JEOHzMPt6o7sKr_ZrfNMCiZ5ax-WIOwr42mW4ghaHUDP_EGC-_BAAcVwoXL2_kheaLpnR6M4QfxM92kcNvTr2mvzbKHfRzZBmsK_kB9O0boYUb9TAQ57KA90Mvs2SIfhhmertgrQ==)
+[10] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCPeDC0EhBg-hjVVDmCSjCNHlfEAps9coEOYftHAu8ykWRwLoutxUriZHw_PV0oKKF474sM5-C7tQC8jlyTlqNGb5uO05tf8BZ9pQcm1XhmpYH1q_61VItMchrbGetXA1Q7oFjg5VG)
+[11] [medevel.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzgfyqitsaUUfins-bUHJAF6yiIKUD1sha3PtlgORZnvSTJzsq6EzZ94H6QmwmhMbyt4wPoN3zLS5fxuKT8nIJWDpdG31wjz7ZxVPIm6FZ_A==)
+[12] [ycombinator.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiedwB9PqS_CPRj-idLS_QdYZsJQw6NYhaSVmzhLj5fYV_bznEG3ZFxkPINIiwW3bzqsq0lP9KTbgW8YjQuHHKAEhYf3piAEexUKxC-syNzpJem_qzTqrv4sIftkgq2RfSft4=)
+[13] [medevel.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzgfyqitsaUUfins-bUHJAF6yiIKUD1sha3PtlgORZnvSTJzsq6EzZ94H6QmwmhMbyt4wPoN3zLS5fxuKT8nIJWDpdG31wjz7ZxVPIm6FZ_A==)

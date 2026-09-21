@@ -1,0 +1,6 @@
+{"name":"Backup-codes-geminipropp8.txt","sizeBytes":"382"}
+{"name":"New folder","isDir":true}
+{"name":"client_secret_824570815859-70dtplbojuceu2srahi9h8p676bpaegm.apps.googleusercontent.com.json","sizeBytes":"414"}
+{"name":"undo converstion to tell you waht just happend.md","sizeBytes":"47767"}
+
+Summary: This directory contains 1 subdirectories and 3 files.

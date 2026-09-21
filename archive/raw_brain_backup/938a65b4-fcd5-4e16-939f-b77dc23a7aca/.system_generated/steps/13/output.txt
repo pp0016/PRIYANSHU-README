@@ -1,0 +1,25 @@
+The search for ""subroy13/handanim" github" returned the following summary:
+**handanim** is an open-source Python library designed to programmatically generate **hand-drawn, sketch-style animations**[1][2]. It is particularly well-suited for creating instructional videos, educational content, visual explanations, and stylized presentations[1][2].
+
+### Key Features
+*   **Sketch-Style Animation:** Create animations for geometric shapes (lines, ellipses, polygons) that have a natural, hand-drawn feel[3].
+*   **Styling Options:** Supports filling objects with sketch-style strokes, such as hatching or scribbles[3].
+*   **Handwritten Text:** Animates text using custom fonts[3].
+*   **Math Support:** Capable of rendering and animating mathematical expressions using TeX notation[4].
+*   **Export Formats:** Allows for exporting content as vector images (SVG) or video files (MP4)[3].
+
+### Technical Details & Getting Started
+*   **Repository:** [github.com/subroy13/handanim](https://github.com/subroy13/handanim)[1][5]
+*   **Documentation:** [subroy13.github.io/handanim](https://subroy13.github.io/handanim)[1]
+*   **Dependencies:** The library requires **Cairo** (for graphics) and **FFmpeg** (for video encoding) to be installed on your system[4].
+*   **Installation:** It can be installed using `pip` or `poetry`[4].
+
+The project is maintained by Subhrajyoty Roy, who also develops other tools such as `decompy` (matrix decomposition) and `roufcp` (changepoint detection)[1][6]. The author is actively looking for contributions and feedback from the community[1].
+
+Sources:
+[1] [statwizard.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX35gT2n-C8sXqDKbz6_73zYGiWx8zBq2VYhjpnYaq4YEG1Da0JirGXLxtKbsK-j4MizU4mx_X0ZauKVqvsksolYy7lZnYtK5IMjkTHyeHykt8qkpD-yRMEwe4Zyk=)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRr-Qe1ldeczJAHmep_W1MhTrSu1GPNSI3MC2AxTQ1d1aAflJwApobRROUskaA_w2cqIW1Qp7pb00ahiiILwVd-4sCXneosJO5NFkyIuD6FIbI0nFH0goVhX0=)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRr-Qe1ldeczJAHmep_W1MhTrSu1GPNSI3MC2AxTQ1d1aAflJwApobRROUskaA_w2cqIW1Qp7pb00ahiiILwVd-4sCXneosJO5NFkyIuD6FIbI0nFH0goVhX0=)
+[4] [context7.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMqHOAyjxKEPLmJalaCeUe4cU46YiravokeeoHc18iMrsM7KDoEU1d95htygofn9u4TaheNbke_zHiVFsWNqXDq0XDflJDOoe162vobryMeJrGYXK0clZbTZCoew==)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElCMxayL_yGFEm7Ey9bQuIYq4FZu40SyhNUuB0nQNZkr_M5jjF5hcHFZtEbru6w8q4KPglC45YUngPgZcl0BlA7vZDh2k2f3aqQFfUkKANdwt9AZJInDTMaycLglddsDY=)
+[6] [statwizard.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX35gT2n-C8sXqDKbz6_73zYGiWx8zBq2VYhjpnYaq4YEG1Da0JirGXLxtKbsK-j4MizU4mx_X0ZauKVqvsksolYy7lZnYtK5IMjkTHyeHykt8qkpD-yRMEwe4Zyk=)

@@ -1,0 +1,38 @@
+The search for ""Gemini 3.1 Pro" OR "Claude Opus 4.6" benchmark scores SWE-Bench MMLU exact numbers" returned the following summary:
+As of September 2026, **Gemini 3.1 Pro** and **Claude Opus 4.6** are both established frontier models with extensive benchmark documentation[1][2][3]. Please note that benchmark scores can vary significantly depending on the specific testing harness, version (e.g., "Thinking" modes), and date of evaluation[4][5][6].
+
+The following table summarizes notable scores from reports published around the first half of 2026:
+
+### Benchmark Comparison Snapshot
+
+| Benchmark | Gemini 3.1 Pro | Claude Opus 4.6 |
+| :--- | :---: | :---: |
+| **SWE-bench Verified** | ~80.6%[7][8] | ~80.8%[7][9] |
+| **MMLU / MMLU-Pro** | ~92.6%[8] | ~91.1%[10] |
+| **GPQA Diamond** | ~94.3%[7][11] | ~91.3%[7][10] |
+| **ARC-AGI-2** | ~77.1%[7][1] | ~68.8%[7][10] |
+
+*Note: Scores represent reported results from various public evaluations[7][5]. Variations occur due to different prompting techniques and evaluation scaffolds[5][6].*
+
+### Key Considerations for These Models
+*   **Coding (SWE-bench):** Both models were highly competitive in the coding domain at the time of their release[3]. While Claude Opus 4.6 initially held a slight edge in some realistic coding tasks[5], Gemini 3.1 Pro demonstrated strong performance particularly when utilizing its native multimodal capabilities and large context window (1M+ tokens)[8][12][11].
+*   **General Reasoning (MMLU/GPQA):** Gemini 3.1 Pro frequently recorded higher scores on specialized reasoning benchmarks like GPQA Diamond and ARC-AGI-2[4][11][13]. Conversely, Claude Opus 4.6 was often cited by professionals for its strengths in expert-level writing, legal/financial analysis, and nuanced instruction following[14][12][11].
+*   **Model Evolution:** By mid-to-late 2026, newer versions such as **Claude Opus 4.7**, **Claude Opus 5**, and newer iterations of the Gemini series had been introduced, further shifting the leaderboard standings[9][15][16]. Engineering teams typically rely on internal, custom-tailored evaluation sets ("evals") rather than public benchmarks to determine which model performs best for their specific production codebases[11][6].
+
+Sources:
+[1] [datacamp.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFW8Pc9usniebCOAzwcrRXOcUoUqHLljma7UZbBpnJjnXikBf1N87V9xAi-LVlk40OBwfnf6m7xjp9lgGpuBtGyHc87i-R2sxQuoPN0PP6ffV6kCJXVD6P75uSOSs0=)
+[2] [aithinkerlab.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0en7pWCgo36We0y0fr0gm0dM4nAJfIzKA9eJr6O2op_0emC1nyggK0eMzY41d0q-jxZDIxreD3GeqxFXkyThfX8wHJrbj6o7b1stPQ9jbyoAS78xOvCN1F_PGs3e_WEchxzbdaDqmH2VWEhmL2gloS3WD-6eIOSSqlE6BXc5jafpgeRaiQAQmqlvBVbUQhA==)
+[3] [evolink.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJxXfeqQqCBZGPbSikXZAaBJGEGUeqMij25PK8DKhD0KuM_Z9Iuqn3rxE-jH0GFNfKs-LSmoO_ZK1hSjnElrHibQpAYwnesnRShkuTXRR20fdDL3hrHC4zQDpGsmPhWpa6MbJ0Q_Tc_jlAT46TsA==)
+[4] [thesys.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeNRlgyIdFwQ5giOHbtKp4VYKS7_ZyCu6MwkoWhSYxRdjWQemKPHAJRvQ8IdJuR2csLEi2t64kJBU4UQghlctCkVxxirBowkyQ8h14VQ0U4QOWWWwXNi4-CZNeYN7am8Y=)
+[5] [aimagicx.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9zn_Vbvw50it9msnpVph86bxv_EOysBsjZSXV6UQSPdFQtq_w8S08in1M4h6lTml8NbxO3nJM1ujt9RYIELgVXTZ3i9BImrzSdZxoUQMxQn2Qw4nRuXCgmZn3QQgHdQim_kH3Ek9cmWo18X2VLS_Ge0C-H3fBvWNj3FcE6MUhj4ezijGgWg9dlw==)
+[6] [futureagi.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIJdEJRA08JLHRyUTti1K-tjQoaDFlmhkEqEdvcXt4gpkHd5BNgyJIvJ8CdqmdSZu5DZGrCQ0Y1nhJCxK-n8uchysdplSXim0Jub9xAz-_4eiUD0quqU0DsZP3VpjDIgXj4i3koF9knEir6_EwlQ==)
+[7] [deepmind.google](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvRFULQjcY2CxhW2nQ36WbC58KVMjpAatv75IIIT_QRdYkgM_rh3ZNK0mBM6Y_URo_wTp1Xki5m7I_S3B3qdjWkTd0vjLJBvzjolL56VWGPwdE7E0h33YQBCbllRWyQg==)
+[8] [serenitiesai.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBLrp6fOX7NK3fIqSjq-xzZkEmLApEIfUk0nfoJCbNLSd2hL3f-o40loONV9O4gHUBMbaALn4pJVqcMCcnN8wPyiGGzlnNWRsEcvwviYcvpJqo39UohNJKdqlGV6UQh3szbdM4fxJ4WLRfYkn0tJFrn-Cm545uCI1rPnxiuvN4jw==)
+[9] [gitautoreview.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgdjkxUIai-S8km9jztJVyorI5oRGexvQ7qkVuqS-qk35ZqJm5zHQmIkilx7S6Eq-YpOlsmike7uf-H3NXm9rfEhcxiDS2oLJyM_ABS0A4P7xpXpeDztWxTSUhtgKI3pJzuYynDy3MaFpMuM4qYTc=)
+[10] [futureagi.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrEQFHPjYPTiuR4hYWjBH9bsFi4OsNPr1L5LKycUN-SBQTjoomdQHZboxc7bkQ-_RtcYj_s1ICkbu6sKB8-mtp8IMMKJ5J0wN6mwgsF-YMlYVXNd1eFJC3GVB2eg83xjNOnYLi29qaoWH21evXW3UmzNyRuvO3BXE0agsLYP6RDck6aL-JQi_QBanAgQ==)
+[11] [nxcode.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5NU4-rqq7vxEeoqPwXcyr-TkfQjp8HRi2DoYesaifYXrzK66Av6IbopfsS8b9yl5bZyvomV7RyqeXtnTew9Nw5ge6NRRUQgLfaXKNycQO9k6oPMzFQoKkb5U7ip3ubYxLm1UaRxRS8byY9V1EAwPcwIHEdWOfBb6dVaA7dff5tpaya67bKKtz55NAfXUNnqD3f68s)
+[12] [gurusup.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5l6vJhumgvcQGGlGuYsbARnOnpGnpeN2WELr4BcpNFxHkHpxEgMNngC_sKbiuldlYVfIpzxUOif7-N_J5plFFOTDjUas0jTJQtIlnbHZyWdqX2CJnbXULpBOOtJfA)
+[13] [lorka.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdv6ItESf5MPqNIPxUBBlYTjLVg_WQPrK_Uu-SWjfsSVSEHCxW8rEv77GLJHCIRx5rxXWoCw9RD85AztlRUNY0hl0arsM2sWPhypiTfwcwxmA-d9JR-LPBPc87e7dstqKSrM8CZpSSrxK4WU3_xuknORA3)
+[14] [anthropic.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSz10ajP9nkqYPzkJJocLUr5FGJNKCPRLN5a5Mce9zj76AeJlsSS-isODfzao4NdnIOJDCskAUh9n5j_6iySPjFCfT73u9BfGdmI5gcANrVpKlMfDdG7r9vD7boBdkDKrXXYk=)
+[15] [datacamp.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLMPEphYNmRUjmduvNnW_sLvNEMk8mP9vX40B7FZRV3jm_bJUX-CtJSMjqs0c25CGl81jWAr2fteXT_KqK7QiGrS950bL-qFmS38cRI0QquW5nkNXXT2IzuOhJ6IVDqZXrbyek4Jn2BhMME5q53zuyObp8Zg==)
+[16] [cosmicjs.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmgKoWP4leVj40jxSVSZxjNCpOcV_eN2HuX_Bu1rjwYvzmouVsU7Nj_m6RoCaAxFMJWElOSalhPYaRoUFAJf9WfhTmmyUXQ6oRCX9L3PY8eyHUZ-JXRMIjbijvCKQJUd3_Ho7JWC1E-jXSMq58v4DR_KKAn0tj60j0s-XSwlTRSgjPKhrBQb91yQTkXC58GYZN9Rz0vLR9JFXH6A==)

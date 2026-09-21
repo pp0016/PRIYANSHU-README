@@ -1,0 +1,20 @@
+
+The command exited with code 0.
+Output:
+First 200 chars: # Energy Conservation and Management (BE05019021)
+## Complete Study Guide for Mid-Sem (30 Marks)
+### Exam: 10/09/2026 | Chapters 1-3 | All Tier 1, Tier 2, and Key Tier 3 Topics
+
+---
+
+# Chapter 1
+---
+Last 100 chars: : 7%
+- Moisture losses: 0.5%
+- Radiation: 2%
+- Useful heat output: 82-83%
+
+---
+
+*End of Study Guide*
+

@@ -1,0 +1,43 @@
+The search for ""minimum usable" tokens per second LLM local inference user experience 2025" returned the following summary:
+For local Large Language Model (LLM) inference in 2026, the "minimum usable" speed depends entirely on your specific use case, though general consensus has coalesced around several clear tiers[1][2].
+
+### **The "Usable" Tiers**
+*   **< 10 tokens/s (Barely Interactive):** This is generally considered the lower bound for manual interaction[1][3]. It is often acceptable for slow, contemplative reading or tasks where you trigger a prompt and walk away, but it will feel sluggish for most conversational needs[1][4].
+*   **10–20 tokens/s (Genuinely Usable):** Many users find this range to be the "minimum functional" threshold for interactive chat[1][2]. At this speed, the model generates text at roughly the same rate as a human reads, preventing the "waiting for text" frustration[1][2].
+*   **30–40 tokens/s (Comfortable):** This is considered the "sweet spot" for most interactive tasks, including coding assistance and fast-paced Q&A[1][2][4]. It feels snappy and responsive[1][4].
+*   **60–100+ tokens/s (High-Performance/Agentic):** This level of speed is preferred for heavy agentic workflows, rapid coding, or scenarios where you want the model to process large amounts of data without noticeable delays[1][2].
+
+---
+
+### **Why "Tokens per Second" (TPS) Isn't the Only Metric**
+In 2026, experts emphasize that relying solely on TPS is misleading[1][5][6]. A high TPS figure can mask a poor user experience if the model is slow to begin responding[2][7]. You should evaluate three interconnected metrics for a true sense of performance[8][9]:
+
+1.  **Time to First Token (TTFT):** Often more important than raw speed for user perception[5][10]. If this is high (e.g., > 1–2 seconds), the model will feel unresponsive regardless of how fast it generates subsequent text[1][5].
+2.  **Tokens per Second (Generation Speed):** Measures the smoothness of the text stream[11]. This is the "reading speed" experienced during a conversation[11][7].
+3.  **Prompt-Processing (Prefill) Speed:** Crucial if you frequently feed the model large documents or long context windows[1][12]. A slow prefill speed will cause significant "hang time" before the model even begins to think[13][14].
+
+### **Practical Advice for 2026**
+*   **Size Matters:** The most common mistake is running a model too large for your hardware[15]. A smaller, properly quantized model that runs at 40+ tokens/s will almost always provide a better experience than a massive model crawling at 3 tokens/s[15][16].
+*   **Quantization:** Using Q4 (4-bit) quantization is now the industry standard for local inference[17]. It typically offers the best balance between maintaining model "intelligence" and achieving the high memory bandwidth required for fast token generation[17][18].
+*   **Hardware Context:** If you are using CPU-based inference, pay close attention to memory bandwidth (e.g., multi-channel RAM), as this is usually the primary bottleneck for local performance[19][12].
+
+Sources:
+[1] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqArxluL-Zaw_8bhAx_oxuxvAoZNvJWIrM8X_N8WIAUc8NAOB-9LieGzaAQK6WuC2WqIwLrcRX-jnbjwQnXysZsaIvE-gj-id6iiWh_stkbeB2EpKQaj6r3TiA0ir4gqgpSbHzBgrzMsELONyF4xwIIMY_yHYhGlDbbluMt2U6UbsbomdIQpLCr95bly7z45UNg0S8Pr8XCqrR)
+[2] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqArxluL-Zaw_8bhAx_oxuxvAoZNvJWIrM8X_N8WIAUc8NAOB-9LieGzaAQK6WuC2WqIwLrcRX-jnbjwQnXysZsaIvE-gj-id6iiWh_stkbeB2EpKQaj6r3TiA0ir4gqgpSbHzBgrzMsELONyF4xwIIMY_yHYhGlDbbluMt2U6UbsbomdIQpLCr95bly7z45UNg0S8Pr8XCqrR)
+[3] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMtRDmQI4PZ42ktnkBp-XoXqFGHhVVXA5nMIAqFWXXnpb0bl_qIDEeHsX5V9cqzeLpylkWBiT7cz3jQQmimDCwhIBDNAiRQVKvIPlHPte0CfjOgi9enlsnoEX_Sb2P1lMr)
+[4] [ycombinator.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTAX7kSa7R-Bs_Da7AOH6vvxadDk00ufRlHNBMR9TvzJyAKy9v4IQAuuPLT5T0AZ9B1SQixvm5oZugKXPzmx2WXWtzMvYVO3vbI3e92CQhj9E6BbknATiwkXFFySBZebEW0IY=)
+[5] [sambanova.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmNE5jbr0zueyU5c1o23lIKF-k5YRi0DBQ8Ehja1wWy0ryPP8PFfPSj6SDuq3grQBy5tyA5O0VZKzWBunueapO9AIzpWwdl4S0yG1AEXGDglB2Y5O3DMUzkd-_aUdm3Xq-4dUdwdveC0DmYmauqfiXKx8JfQo=)
+[6] [bentoml.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrkAscr_6Ov4B8UCgfGUqRcVrtlyz8S7AmNQ85pgxkA1-QUTVx7_a3wxwy3eFCBeJ0b0YUg3E0NrjKcFy1sw7xZof0uQO-Q-yzVwLY0cON8HkzfQfloeOJLBoqPfEfWNDc-eqrttyqD52txuZwHBxD599mXDDQapznS0ailOMKp1zBSY2J2ErXDR5NpA7NV3nfrb_iDHnORuyg6DQwDrw1zaU=)
+[7] [lancedb.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHrGTxFxjX1Mld5khMw2Gjmf5_XM2tgftQ-rj318K2KRFcjbPN9bTzeKOnyB4NO7e-Qm-7_mcTTqW-qIloPVlbr6NuDHOUG3mieQHYWS-7R1HMZOpFnvE7RANjfFRo6hmy6L_tb7oX4Op0ZA653XCqmQL5lRoOlSY=)
+[8] [lyceum.technology](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6x9129ja3lFteAf__qjFwTkkPnMIS7pTRrWhUW-HXW4w1rN8_Wy5nqeApXl6CRXccn2bQ7uaGxgn0fSBtpiHmFdk2iAnFCYO0a-m09G-HJTF0Cr7kFuy3_wbfimEh__gpsWHjYpcLbdEHtpOFRwU-K7JRgugEX9Hd8usqot3xbn4n_OkNrsTbEQ==)
+[9] [infercom.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQa0TAgzzBllB_qFJO-gdKcRC_izbF_Oxq3uGFobjqFLb1qf45znZdyWZTv67UWF6d2-Gcm2PIzm1tiy0k5r6Rzu_l5mYLOhaacOML3_tqfe0oXEumjhQeKUnLoSr125zkJYePbwtN88Z4rUzx)
+[10] [gmicloud.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETirG6KuhduXw2SFoCcChQhCN6Y0ySgx_SLK_Kbc-AIrdJiH-Z-JIcZlQH3fznpk51TMyJOOosR9FSJZ7YJ7UgOXQDJyAKMgHJ8aU_49xmaE-5G4yyOKQFFxw4QbgvCKBE_pzD2xRCp3jGiVsC9l0gCMRHboGlTL_JIlfeS-1BvAEX4cty4QJg)
+[11] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqdhq2f8YWmnWFDHBPzKMjF1PzjdMcxfyfN2D6OBvTOSc-7smJMK-XpiuYvprhWe3APYfYF-HHSczzeY1-ec_7OGH9LtAS8BxbEyhXzAPc63mz7OAP-2KvsqxPAFD2fyZVf79tMzc3Q_qC20UtCQE-_YxGLVaK6cyT_I2AGovdHJjL6tDlqcqwtuKyO8m_a8TVQiOA)
+[12] [presenc.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH27w0Qpm5ZDLInzy9JjNHIp-NWAHXoGAnfaJ-IQSWfEZSPXKsEzG6lMJh3RMSF1jlHO_BTrhwsVGQeszzQd5vnR_k13ueaTMKhduKfPbN_7q2kPp0xVYTRbhGP4FIqaQbEklAwgcxwaR3UtAX1dkUF2zHGoTNx3FU17rvA7A==)
+[13] [lyceum.technology](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6x9129ja3lFteAf__qjFwTkkPnMIS7pTRrWhUW-HXW4w1rN8_Wy5nqeApXl6CRXccn2bQ7uaGxgn0fSBtpiHmFdk2iAnFCYO0a-m09G-HJTF0Cr7kFuy3_wbfimEh__gpsWHjYpcLbdEHtpOFRwU-K7JRgugEX9Hd8usqot3xbn4n_OkNrsTbEQ==)
+[14] [futureagi.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGROd--Sb0yn3PX2f_vgSzBk-Oiv5aR-7Qjuky6YfVJBpvLJpL1It7m2DYQlMkoKzh0zsQbO5xliO-gzK0z3dgiVeC5T3VbQ2kHUlAQu7DQqZn_3r3K1-oDplDAMW14zVNsvTOBeEGgKF4s-8gI6JVEyx8=)
+[15] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN3OP_RhKgfCennzOsn9XpuLPWo29lJJZvQKKUH6YDn3lJAQwwpOufJJLMuSq-KI7s7csWmIoJeJulanUmpNeVLvJWzxOM1lrpN3O_4i7FJxY3k0ybiKnnKzLycXxej3Dr11GiiRcEVjwj5UChru6Z-CoUX1jlnHNxL_CJTKiq8SRaE0R987tekAyl4aQL1k7Cjb-VifD0pJiaVxIF_nHQOnzadv6X)
+[16] [ai-tldr.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeqbQ7sydQBhNHImGxceTekIR7BRsCGIjUKfrnFklzBF7xi31gfjiaPu56smsIC9iqDuh69WlxsuolxBW-mYnfIxBa2pRXlAbfogdLDLEL4VFOEK19xyAbD46jyHc3x1Flx9qXB60fSQehiWbedzrEnFnvf4TAP6SziBuHIFMKEMSotljCoorKC07fZN8zyQ==)
+[17] [presenc.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH27w0Qpm5ZDLInzy9JjNHIp-NWAHXoGAnfaJ-IQSWfEZSPXKsEzG6lMJh3RMSF1jlHO_BTrhwsVGQeszzQd5vnR_k13ueaTMKhduKfPbN_7q2kPp0xVYTRbhGP4FIqaQbEklAwgcxwaR3UtAX1dkUF2zHGoTNx3FU17rvA7A==)
+[18] [openmetal.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5uTMPZB5HXD6o6VLoavpDHzG9mI0mtEVvjU5hzC8wJPgK1ThPj0Bn4nlihFXbd8HuT_RWU1Pv1ndIDN0pwLZUFf_ZW0JUfp_tnjdMmB9nKAkJRvkZWvSuzmYfvW6r1VW9bdAc9MPQTdFDMLOq0Tw3Z9rcdtomei5KpNzFlu7GYso=)
+[19] [localllm.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPYOkuZoGWrPYD2mRc0bBOj00fXnD1qtrdl7ohlObb52HLAb-zy1TzuRxj7HyfFVgLfQ7dWyslA6sVz4-muxsz3jSFt9oUxIQJTfcu0jMjKRdDiQG0e-bl0KjoCwHAkDSfMGe3jhr-TStEHwUO0Q==)

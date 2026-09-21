@@ -1,0 +1,27 @@
+The search for "site:github.com "segment anything" ("parallax" OR "layered" OR "layers" OR "popup") video" returned the following summary:
+For projects on GitHub that utilize the **Segment Anything Model (SAM)** to create **parallax**, **layered**, or **"popup"** video effects, the following repositories are most relevant:
+
+### 1. Parallax-Maker (`provos/parallax-maker`)
+This project is specifically designed to turn static images into 2.5D parallax animations[1].
+*   **How it works:** It uses depth estimation models (like MiDaS or ZoeDepth) combined with **Segment Anything** to segment the image into distinct layers[1]. 
+*   **Features:** It allows for the direct manipulation of depth values and "cards" (layers), which can be exported as 3D glTF scenes for use in animation or game engines[1].
+*   **GitHub Link:** [provos/parallax-maker](https://github.com/provos/parallax-maker)
+
+### 2. Depth-Based Parallax Effect (`r-gheda/depth-based-parallax-effect`)
+This repository focuses on creating parallax-style videos by decomposing images using SAM and depth maps[2].
+*   **How it works:** It leverages SAM for user-friendly depth map editing, allowing you to segment objects from the background to create distinct layers for a parallax effect[2].
+*   **GitHub Link:** [r-gheda/depth-based-parallax-effect](https://github.com/r-gheda/depth-based-parallax-effect)
+
+### 3. SAM3-Demo (`PRITHIVSAKTHIUR/SAM3-Demo`)
+While more general, this demo includes features for both image and video segmentation that support layering concepts[3].
+*   **Features:** It features an "Image Click Segmentation" tab that generates segmentation layers instantly, which can be useful for isolating objects to create "popup" or layered effects in video post-processing[3].
+*   **GitHub Link:** [PRITHIVSAKTHIUR/SAM3-Demo](https://github.com/PRITHIVSAKTHIUR/SAM3-Demo)
+
+### Summary of Terminology in these Projects
+*   **Parallax/2.5D:** Projects like `parallax-maker` use these terms to describe the effect of moving segmented layers at different speeds to simulate depth[1].
+*   **Layers:** Most of these tools use SAM to generate masks that represent specific "layers" of an image, which are then treated as separate planes or cards in a 3D environment[2][1].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJhJ_6Y3Ps7BZkdJnFzXousd5HTjiD0fOVtz9jSXN58CPbmqrAB1TYC99Z2TVzV72TITbJygKIYFUtcY9PT8SRmivrSbaAovG6g_Jw71jYbqJ3udEsOKbqmPU_qm5_)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEi4i_L-342zo25R0gyr7t342Kye6PNOcCOrAXsMRJtA_zheZqGIgMwqgVBDGeO56VZfpeLmn6rJhbJXY5mGLCaCTg6lXDe9TlLdGoZRdJh5B-RVtHf3PyD02fK3IfsQvui3dxw6ecNAVCXBxY=)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMUG-m7gIlJAf7M1S44yd-kIWUngdvKh9jdEIhOSN-U1kotR9Wj8wAtiVeLG5L7mDZQhkzdyOeH50bJRArGqs6810Pq9XnFlg55QfV3n9Dkr7xwpkSKWiuLVe2itMRuAXC7g==)

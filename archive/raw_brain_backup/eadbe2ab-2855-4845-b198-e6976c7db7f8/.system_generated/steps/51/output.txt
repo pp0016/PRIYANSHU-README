@@ -1,0 +1,18 @@
+
+The command exited with code 0.
+Output:
+Collecting reportlab
+  Using cached reportlab-5.0.1-py3-none-any.whl.metadata (1.6 kB)
+Collecting pillow>=9.0.0 (from reportlab)
+  Using cached pillow-12.3.0-cp311-cp311-win_amd64.whl.metadata (9.3 kB)
+Collecting charset-normalizer (from reportlab)
+  Using cached charset_normalizer-3.5.1-cp311-cp311-win_amd64.whl.metadata (46 kB)
+Using cached reportlab-5.0.1-py3-none-any.whl (2.0 MB)
+Using cached pillow-12.3.0-cp311-cp311-win_amd64.whl (7.2 MB)
+Using cached charset_normalizer-3.5.1-cp311-cp311-win_amd64.whl (206 kB)
+Installing collected packages: pillow, charset-normalizer, reportlab
+Successfully installed charset-normalizer-3.5.1 pillow-12.3.0 reportlab-5.0.1
+
+[notice] A new release of pip is available: 24.0 -> 26.2.1
+[notice] To update, run: C:\Users\renu5\.gemini\antigravity\scratch\micro-print-env\Scripts\python.exe -m pip install --upgrade pip
+

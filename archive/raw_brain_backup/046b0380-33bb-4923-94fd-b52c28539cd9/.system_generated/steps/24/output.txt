@@ -1,0 +1,35 @@
+The search for "Llama 3.3 70B Qwen 2.5 72B VRAM requirements quantized Q4 local inference 2025" returned the following summary:
+For local inference of 70B–72B parameter models using **Q4_K_M quantization**, you should plan for a total VRAM footprint of approximately **42 GB to 50 GB**.
+
+While the model weights themselves typically occupy about **40 GB to 44 GB**, the total requirement depends heavily on your context window (KV cache) and system overhead[1][2][3][4].
+
+### VRAM Breakdown for Q4_K_M Quantization
+
+| Component | Estimated VRAM Usage |
+| :--- | :--- |
+| **Model Weights (Q4_K_M)** | ~40 GB – 44 GB[1][2][5] |
+| **KV Cache & Overhead** | ~5 GB – 10 GB+ (scales with context length)[6][7][3] |
+| **Total Recommended** | **~50 GB – 60 GB**[1][2] |
+
+### Key Considerations for 2025/2026 Local Inference
+*   **Context Window Impact:** The KV cache is not static; it grows significantly with the context window[8][7][4]. If you intend to utilize the full 128K context window supported by these models, your VRAM requirements will increase drastically (potentially exceeding 90 GB)[7]. For standard tasks, limiting the context window (e.g., to 8K or 16K) is the most effective way to keep VRAM usage within a reasonable range[7].
+*   **Hardware Configurations:**
+    *   **Single GPU:** A single 48 GB card (e.g., RTX 6000 Ada or L40S) is often the tightest fit for these models[8][9][5].
+    *   **Dual GPU:** A common and cost-effective local setup is using **2 × 24 GB cards** (e.g., RTX 3090/4090)[8][5][10]. Using tensor parallelism (e.g., via vLLM or llama.cpp) allows you to split the model across two cards, providing sufficient VRAM and significantly faster inference speeds[11][8][12].
+    *   **Unified Memory (Mac):** Apple Silicon Macs with 64 GB or more of unified memory are highly capable of running these models, as the system can allocate a large portion of the unified RAM as VRAM[10][4].
+*   **Performance vs. Precision:** Q4_K_M is widely considered the "sweet spot" for local inference, offering a good balance between maintaining model intelligence and reducing hardware requirements[1][2][5]. If you encounter out-of-memory (OOM) errors, reducing the context length is usually more effective than moving to a lower-quality quantization (like Q2 or Q3), which may significantly degrade model performance[7][13].
+
+Sources:
+[1] [willitrunai.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmN-O2S_BC4bZoEgp_9zPMg6wptAJh3iskkTRhlO8Z19H03XsI2v86lCbw62muFU5Ln1mR09hiDgB5EvMdOISb_nBuRlTrTT8uc7lWv-0eLPH7Ia2WAygSImyEkemSvLTc)
+[2] [willitrunai.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK-cHwwmLGX7maQg1N1PlGjRXCjK27ehUoQxfgmcfWlWBM-B7439LCrqOjxUrAJIiA2h-Qbyl6ZNvHEdARRoCLfbxdP56gRsVWpmLyChMgbdaSvA753rzqV_3kR-TgxJ0=)
+[3] [hostingb2b.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxbxs_PzdaboLoY14pIIPGqXhyUoTey3RSkFcHImOxxmdBJkv1rL3YEIVYAFpVzWl8YH1WFhxkofYhIV9jPd7CX259UgmLnX-LXFzLeTi3ARmfkz8gTWNme_e2UP_UndmqU7Cfr2WTnrp7j60S3crVEGd1EZygm5yjYF05_1KucbyEyOPBKhuRColLkr8wZE7XL1zP)
+[4] [lmsa.app](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoI8ypdZ2c9PkrtttHwKpFoLnREblMeBnXL8puz6tYdFC6x0wxJlDsRKBsX5RUl7hK3lmXcrl1xpm6fahj-gwxgytRUbVuOULv_rk52FJy6Wxo873TIEznN9E-cZbOyLUywRtOVa6yxTtucUiMX5JNCpTAucrykf2myi18WxyNttQn2mFZD7Ul4cfmwvJ4)
+[5] [lyceum.technology](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXYhQ0J0OLE7mUqroeSoqyWObRosMl8Xdl40dQiEEBPK3e0y410wnfIBUIi-LfsNvFnAKXc-8fGUs-4UejBTxBkPZE7iTP2oAheUHvo1QodNQW9tCILblNZ0ZoVMXdiChvkpeOqhbFIt6rLIzpVxtQY3UpjQ==)
+[6] [gigagpu.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4PjM2sS-DAIyesllMxhWO8pf3W6948mqA1299APfSO9Oy5WPo07QBPtMMb5OgIXTRl30AlmkO28tQ8dyn2_MqqC0QHO_Dy6j3YRPO4KGn19a-jOT-fkRIEsUGghEpCbiOvT0=)
+[7] [techcompare.app](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7UJDHzovmE8DWqB2xGI_vWOOf05PCX5ZufNsg3ro6HuJvQNvAsPE7VYdpm3c8cXiwYpQOk2O3yyHifN2M94iS45IGGb1MbXC1gTfPAmBxPReAWRclmqLyj5AjSem7_DOJqUfuiYWpWtm-oP2YGhqSBDmAIQ==)
+[8] [kaggle.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXUc21Nbd8x4yhCUHmRlgLVXCkKLGbzHS3PEi0CMo0EejmMHVvHcxU-6zaaORkNpxdulL-uZF6OJ8rDl91zCEvO_astW8_kt6_NRtgvkIGMdCQ5tDZd3g_7bloszh-oy1HGEafsQo=)
+[9] [lyceum.technology](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2g2eCv-86xz-Q6JLR5-BAU4SsS8GBBfJoIdlQ_gOSqr5QwrmecDbpxTymESCXrbgYLG3-xUhMVXM-ZbBwxzhu9AIaKfevDfrenLpTgkrvaEw_hJXTEdFpsspvjiK7kbeyb_PUy7eLoR1zkYxjPyQMY1tyfEmK)
+[10] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6Ei_Cauw1pbKPPKXfhhX3xC-b6K8W0vGVJF9b-ERV7qFHStiHdDkTIQwkZNJ3Mg3Zjx8zEHFwOO-VzntLxLNHn-WQ5O_YDGnd_d4wyHmeBawID-opUbOoRjXqeXu_0c5YYxBtYPItDBqhvdBuha_BSMPaH-1GpHlosMuQn2gXw8BCMF8gEsEzOc_Uish6H6IfnD0fXHWZ)
+[11] [hivenet.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5cOtgs5I76G6o57kOQRdpNRKgAS6GoOFZvXf-TK2ykOalK69poZpf1I5hnCvQAxJAp9dhZZ_2nRJzv-1IYXdjarZnvEhRBHBxh0POpEHyAjz59un-kAx016yNeFM58pB8MAdakzhGOSH4tZ4HGuk2)
+[12] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEliUH37xDt-CencZ9-bXUPkDMHIkCRIp4QNu7mkk4goCzHIhH4tRlbhICw6FC2INh8uPcaWIw6H8sGe1_wnc8BLykavTcpMcrvmz86GYXF082Y2X8iO8MUFTleXwwk-vz8DopZ80VBh7xEwDOeLYDm7hTlO1EK0qG8N_Xr-3UqQps1eKuGwmcrccjZey3oXQ_7lUerpOs-dA==)
+[13] [willitrunai.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHksxEEEs1HWO1GfEyskRa4tGZCQJezkK4AfuvlrciRvXgGd3HbcuT9xLm3DDwLWs9gYVK6x_-Ys8uQYWzFU3oO2V_VUTKNDIjI56l6N8XBbjDI1TGsFzm4fo9mzmhDhOfQSAgnEMUyJPYvxLIcWVfYlu3a9FO)

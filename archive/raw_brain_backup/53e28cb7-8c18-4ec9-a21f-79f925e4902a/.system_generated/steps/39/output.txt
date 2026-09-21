@@ -1,0 +1,23 @@
+Task: 53e28cb7-8c18-4ec9-a21f-79f925e4902a/task-33
+Status: RUNNING
+Log: C:\Users\renu5\.gemini\antigravity\brain\53e28cb7-8c18-4ec9-a21f-79f925e4902a\.system_generated\tasks\task-33.log
+Log output:
+<truncated 1022 lines>
+amples
+03:13.391  render           | Fra: 146 | Rendering 4 / 4 samples
+03:13.985  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\render_output\frame_00146.png'
+03:13.985  render           | Time: 00:01.34 (Saving: 00:00.33)
+03:13.985  render           | Rendering frame 147
+03:13.985  render           | Start rendering: Scene, ViewLayer
+03:13.985  render           | Engine: EEVEE
+03:14.360  render           | Fra: 147 | Rendering 1 / 4 samples
+03:14.766  render           | Fra: 147 | Rendering 4 / 4 samples
+03:15.282  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\render_output\frame_00147.png'
+03:15.282  render           | Time: 00:01.29 (Saving: 00:00.28)
+03:15.282  render           | Rendering frame 148
+03:15.282  render           | Start rendering: Scene, ViewLayer
+03:15.282  render           | Engine: EEVEE
+03:15.625  render           | Fra: 148 | Rendering 1 / 4 samples
+03:15.953  render           | Fra: 148 | Rendering 4 / 4 samples
+
+Last progress: 0s ago

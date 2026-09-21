@@ -1,0 +1,19 @@
+The search for ""UltraFusion" TSMC "interposer" OR "InFO" OR "bridge" signals "M1 Ultra"" returned the following summary:
+Apple's **UltraFusion** interconnect technology is implemented using **TSMC’s InFO_LI (Integrated Fan-Out with Local Silicon Interconnect)** packaging method[1][2][3].
+
+While there was initial industry speculation that the M1 Ultra might use TSMC’s CoWoS-S (Chip-on-Wafer-on-Substrate with silicon interposer)[1][2], it was later clarified that Apple utilized **InFO_LI** to achieve the necessary chip-to-chip bandwidth at a lower cost and complexity[1][2].
+
+### Key Technical Details:
+*   **Bridge vs. Interposer:** Rather than using a full, large-scale silicon interposer (like in CoWoS-S), UltraFusion utilizes a **passive silicon bridge** (the Local Silicon Interconnect or LSI)[1][3]. This bridge sits beneath the two M1 Max dies to facilitate high-speed, high-density communication[1][2][3].
+*   **How it Works:** The InFO_LI process allows Apple to connect two M1 Max dies so that they function as a single, unified processor[4][5]. This architecture provides 2.5 TB/s of low-latency inter-processor bandwidth[1][4]. 
+*   **Comparison:** This approach is functionally similar to Intel’s **EMIB (Embedded Multi-die Interconnect Bridge)**, as both rely on localized silicon bridges to connect chiplets rather than requiring a single, massive silicon interposer covering the entire package area[1][6].
+*   **Evolution:** The technology continues to be used in subsequent generations, with recent reports indicating that newer iterations (such as the M5 Ultra) utilize nested UltraFusion packaging based on InFO-LSI technology to connect multiple dies[7].
+
+Sources:
+[1] [tomshardware.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpXV6Hse-NprXDvOqxnAQpPNnFD0DdvKpy3QtrXwnWjm6r_TZKDYFoFnHIFlPVKTkuDIh48NFtfJ1ndGoOafnGMfj8FGqkSFGk7A_ytoI6t3Wk49jiIwCiip8JwXtg7hDY7bSBefDnisQXWdPqCYq6zU1eFya9n9vMyhbbkvjErsmex3SkDPvGsPnmKBaYRWPn)
+[2] [wccftech.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-i5eY3OuKFUE3ErFk5GIGwVB0udCG9GktvNVvuODNpwo09wrfX_F7RTIlaLM4jMpybk18Lzz2seQX7FLvd4nxOT0diE-YOwlvdBOAihmn0kTm43cbyEefwdhxfGslVCzTCth3GX9uOBPfMB0nd67oULTEdQgKI5jpwKeiOzEYzP_kJQ==)
+[3] [techinsights.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzUo-Bbpj1d-cMB5exSllh-BVAlhfh-NTBfXyWFcameIFXZtgmC2A2wV9-i4PGyyZ8N2SxQOZjlsDICA2hZYlm8COzJECYMGYihIYYlYI0l1rBKRod8RMpZjayzccmxgHbGydImt2HsuXs5xmeF5ik0xYoZVWCRxY=)
+[4] [techspot.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF88si0SO8lh_wekG2_U-P9De5p2TkoD04FbZA1-WjACBBTnJJwmPtbHv1KC1Uz9x1bHhHjgjwZSByimcOq3Cr2HR1Ya91BkRlUF-XTPmkcL9QmhY7xqIW8C1-RZ5aiEw8eKgNSvdj-aMnPcJe0E-PXNTjxuAFVUSbefCZ_Ts8DESnw6Zzbme6hE90YtOa9)
+[5] [profolus.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFszHklRFnub_51BQDfW315GD2CACx5_IbtTRTHg0FpfEpUYOW1Jega_gFwCRpZKf6_NyIvY6kqb6fIIEbKtPHTeAbaMqA4jaCaUJsVYDul3t3npIDbGK2Mf2uIXLSL_d3ftLeNXh9F1koN5P-6fLZdEVWHftQQimrC2Hc4A_XjgGmySVDYSuPRYA==)
+[6] [tomshardware.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxa5N0dq1zKoj0r6URDcba-Tl4ZQ_CvqYgoZJMZEreATQnEIF1TK6SKoyGFuuo-K161g18heuuOwegF7VRKotjZifJk416iTh6TPvP_slxKoFKhQGYjWkIDO8Qdiu8oQcSn0DpZo89pKGAZTj6xb_xZMhD3OnkAa99X8M=)
+[7] [36kr.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHubVHxnp7--xW-ip8yRbeQSyVN1VWgiob_m4CPJUPYqiF1LIhhFXcpL9eqJjujgCTJv3H5iUF9suqHVD3h-hWO3VNTDRHuXJTAuBc0GK0TS7iWtzuTBffKEBgT8CZ5)

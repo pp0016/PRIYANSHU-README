@@ -1,0 +1,1050 @@
+# BIE Complete Answer Bank — Print & Learn
+### Basic of Industrial Engineering (BE05000321) | GTU Mid-Sem 30 Marks
+### Questions Covered: 25 | Excluded: Therbligs, String Diagram
+
+---
+---
+
+# CHAPTER 1: LOCATION SELECTION AND PLANT LAYOUT
+
+---
+
+## Q1. What are the different types of plant layout? Differentiate between Product and Process layout. [7 Marks]
+
+**Definition:** Plant layout refers to the arrangement of machines, equipment, work stations, storage areas, aisles, and common areas within a factory building to achieve the most efficient flow of materials at the lowest cost.
+
+### Types of Plant Layout:
+
+**1. Product Layout (Line Layout):**
+- Machines and equipment are arranged in the sequence of operations required to manufacture the product.
+- The raw material enters from one end and the finished product comes out from the other end.
+- Used for mass production and continuous production.
+- Example: Automobile assembly line, bottling plant.
+
+**2. Process Layout (Functional Layout):**
+- Machines of the same type or performing the same function are grouped together in one department.
+- The product moves from one department to another according to the sequence of operations.
+- Used for job order production and batch production.
+- Example: Hospital (X-ray dept, Surgery dept, OPD), Machine shop (Lathe section, Milling section).
+
+**3. Fixed Position Layout:**
+- The major product remains in a fixed position and workers, machines, materials, and tools are brought to it.
+- Used when the product is too heavy or too large to move.
+- Example: Ship building, bridge construction, aircraft assembly.
+
+**4. Combination Layout (Group Technology Layout):**
+- It is a combination of product and process layout.
+- Different parts of the plant use different layout types.
+- Used when the product variety is moderate with moderate volume.
+
+### Differentiation — Product Layout vs Process Layout:
+
+| Sr. | Criteria | Product Layout | Process Layout |
+|-----|----------|---------------|----------------|
+| 1 | Arrangement | Machines arranged in sequence of operations | Machines grouped by function/type |
+| 2 | Product variety | Low variety, high volume | High variety, low volume |
+| 3 | Production type | Mass/continuous production | Job order/batch production |
+| 4 | Material handling | Simple, straight-line flow | Complex, backtracking possible |
+| 5 | Material handling cost | Low | High |
+| 6 | Capital investment | High (dedicated machines) | Low (general purpose machines) |
+| 7 | Flexibility | Low — difficult to change | High — easy to change |
+| 8 | Skill of worker | Semi-skilled workers sufficient | Skilled workers required |
+| 9 | Breakdown effect | Entire line stops if one machine breaks | Only that department affected |
+| 10 | WIP inventory | Low | High |
+| 11 | Supervision | Easy, specialized | Difficult, needs broad knowledge |
+| 12 | Example | Car assembly line | Machine shop, Hospital |
+
+---
+
+## Q2. State the objectives of a good plant layout. [3 Marks]
+
+The objectives of a good plant layout are:
+
+1. **Minimum material handling** — Reduce the distance and frequency of material movement to decrease cost and time.
+2. **Effective utilization of floor space** — Make optimum use of available area in all three dimensions (length, breadth, height).
+3. **Smooth and continuous flow of work** — Avoid backtracking and cross-movement of materials.
+4. **Worker comfort and safety** — Provide proper lighting, ventilation, temperature, and safety measures to reduce accidents and fatigue.
+5. **Flexibility** — The layout should be easily adaptable to future changes in product design, volume, or process.
+6. **Minimum investment in equipment** — Reduce duplication of machines and tools.
+7. **Better supervision and control** — Easy visual control and monitoring of production activities.
+8. **Maximum utilization of machines and labour** — Reduce idle time of men and machines.
+
+---
+
+## Q3. Explain Fixed Position Layout. [3 Marks]
+
+**Definition:** In fixed position layout, the major product or component remains stationary at one fixed location. All the workers, machines, tools, materials, and equipment are brought to the product.
+
+**Characteristics:**
+- The product is too heavy, bulky, or fragile to move.
+- Highly skilled labour is required.
+- Material handling is minimum for the product but maximum for tools and workers.
+- Production volume is very low (one or few units at a time).
+
+**Advantages:**
+1. Minimum movement of the product — reduces damage.
+2. Continuity of operations is not affected by breakdown of any one machine.
+3. Greater flexibility — layout can be easily changed.
+4. Personal job satisfaction — worker completes the whole product.
+
+**Disadvantages:**
+1. Requires highly skilled workers.
+2. Movement of workers, tools, and materials is high — increases cost.
+3. Scheduling and coordination is complex.
+4. Large work area is needed.
+
+**Examples:** Ship building, dam construction, bridge building, aircraft manufacturing, boiler manufacturing.
+
+---
+
+## Q4. Discuss the factors to be considered for the location of a new plant. Explain the importance of plant location. [7 Marks]
+
+### Importance of Plant Location:
+
+Plant location is a long-term decision that affects the cost of production, profitability, and competitiveness of the organization. A wrong location decision leads to higher transportation costs, difficulty in getting raw materials and labour, and ultimately business failure. Once a plant is established, it is very costly to change the location.
+
+### Factors to be Considered for Plant Location:
+
+**1. Proximity to Raw Materials:**
+- The plant should be near the source of raw materials to reduce transportation cost and time.
+- Especially important for industries using heavy/bulky raw materials (e.g., cement, steel, sugar).
+
+**2. Proximity to Market:**
+- Being close to the market reduces distribution costs and delivery time.
+- Important for perishable goods (dairy, bakery) and consumer goods.
+
+**3. Availability of Transport Facilities:**
+- Adequate road, rail, water, and air transport is essential for movement of raw materials and finished goods.
+
+**4. Availability of Labour:**
+- Adequate supply of skilled and unskilled labour at reasonable wages is important.
+- Labour-intensive industries prefer locations with large labour pools.
+
+**5. Availability of Power and Fuel:**
+- Continuous and reliable supply of electricity, water, gas, or coal is essential for uninterrupted production.
+
+**6. Availability of Water:**
+- Industries like paper, chemical, textile, thermal power need large quantities of water.
+
+**7. Climate and Geography:**
+- Suitable climate conditions — temperature, humidity, rainfall affect certain industries.
+- Flat terrain is preferred for easy construction.
+
+**8. Government Policies and Incentives:**
+- Tax holidays, subsidies, special economic zones, industrial estates offered by state/central government influence location decisions.
+
+**9. Community and Social Infrastructure:**
+- Availability of housing, schools, hospitals, banks, and recreation facilities for workers.
+
+**10. Waste Disposal Facilities:**
+- Industries producing hazardous waste need proper disposal systems and must follow pollution control norms.
+
+**11. Land Availability and Cost:**
+- Sufficient land at reasonable cost for present use and future expansion.
+
+**12. Competition:**
+- Proximity to competitors may help (shared infrastructure) or hurt (labour poaching, price wars).
+
+---
+
+## Q5. State the specific site selection factors for a Thermal Power Plant / Nuclear Plant / Cement Plant. [7 Marks]
+
+### (A) Site Selection Factors for Thermal Power Plant:
+
+1. **Proximity to coal mines** — Coal is the primary fuel; transporting coal is expensive, so the plant should be near coal fields.
+2. **Availability of water** — Large quantity of water is needed for steam generation and cooling purposes. Plant should be near a river or lake.
+3. **Availability of land** — Large flat area is needed for coal storage yards, ash disposal ponds, and future expansion.
+4. **Transportation facilities** — Rail connectivity is essential for coal transportation in bulk.
+5. **Proximity to load centre** — Plant should be near the area of electricity demand to reduce transmission losses.
+6. **Ash disposal facility** — Huge quantity of fly ash is produced; proper land for ash pond is required.
+7. **Environmental clearance** — Distance from residential areas, pollution control norms must be met.
+
+### (B) Site Selection Factors for Nuclear Power Plant:
+
+1. **Availability of water** — Very large quantity of water is needed for cooling the reactor. Coastal locations or near large rivers are preferred.
+2. **Distance from populated areas** — Must be located far from cities and towns for safety reasons (radiation hazard).
+3. **Geological stability** — Must be in a seismically stable zone (no earthquake-prone area).
+4. **Restricted zone** — A large exclusion zone around the plant is required where no habitation is allowed.
+5. **Transportation of nuclear fuel** — Secure and safe route for transporting radioactive material.
+6. **Environmental clearance** — Strict clearance from Atomic Energy Regulatory Board (AERB).
+7. **Flat terrain** — For construction of containment structures.
+
+### (C) Site Selection Factors for Cement Plant:
+
+1. **Proximity to limestone deposits** — Limestone is the main raw material (60-65% of cement). Plant must be near limestone quarries.
+2. **Availability of coal/fuel** — Large quantity of fuel is needed for the kiln.
+3. **Availability of power** — Cement manufacturing is highly energy-intensive.
+4. **Transportation** — Rail and road connectivity for dispatching cement bags to markets.
+5. **Availability of water** — Required for processing and cooling.
+6. **Availability of land** — For quarry, factory, storage, and township.
+7. **Proximity to market** — Cement is heavy; transporting it is expensive, so being near demand centres helps.
+
+---
+---
+
+# CHAPTER 2: PRODUCTIVITY AND WORK STUDY
+
+---
+
+## Q6. What is Productivity? Define various ways to increase/improve Productivity. [7 Marks]
+
+### Definition of Productivity:
+
+Productivity is the ratio of output produced to the input resources used in the production process.
+
+**Productivity = Output / Input**
+
+Where:
+- Output = Goods produced or services delivered (in quantity or value)
+- Input = Resources used — labour, materials, capital, energy, time
+
+**Types of Productivity:**
+- **Labour Productivity** = Output / Labour hours
+- **Material Productivity** = Output / Material consumed
+- **Machine Productivity** = Output / Machine hours
+- **Capital Productivity** = Output / Capital invested
+- **Total Factor Productivity** = Total output / Total input (all factors combined)
+
+### Ways to Increase/Improve Productivity:
+
+**1. Improved Technology:**
+- Use modern machines, automation, CNC machines, robotics to produce more output per unit time.
+
+**2. Better Methods and Processes:**
+- Apply method study and work study techniques to eliminate wasteful operations and simplify processes.
+
+**3. Training and Skill Development:**
+- Train workers in efficient methods, multi-skilling, and quality awareness to increase their output.
+
+**4. Material Management:**
+- Proper inventory control, reduce material wastage, use better quality raw materials.
+
+**5. Better Plant Layout:**
+- Efficient layout reduces material handling, backtracking, and idle time.
+
+**6. Incentive Schemes:**
+- Wage incentive plans motivate workers to produce more — piece rate, bonus schemes.
+
+**7. Quality Control:**
+- Reduce defects and rework by implementing quality at source, TQM, and SQC.
+
+**8. Maintenance Management:**
+- Preventive and predictive maintenance reduces machine breakdown and downtime.
+
+**9. Working Conditions:**
+- Proper lighting, ventilation, temperature, safety measures reduce fatigue and accidents.
+
+**10. Research and Development:**
+- Develop new products, better designs, and improved processes.
+
+---
+
+## Q7. What is Productivity? Discuss the factors affecting productivity. [7 Marks]
+
+### Definition:
+
+Productivity is the ratio of output to input. It measures how efficiently resources are being utilized to produce goods or services.
+
+**Productivity = Output / Input**
+
+### Factors Affecting Productivity:
+
+**A. Controllable (Internal) Factors:**
+
+1. **Technology and Equipment** — Modern machines produce more output in less time. Outdated equipment reduces productivity.
+2. **Material Quality** — Better quality raw materials lead to less wastage and rework.
+3. **Labour Skill and Motivation** — Skilled, trained, and motivated workers produce more than untrained and demotivated workers.
+4. **Management Efficiency** — Good planning, scheduling, and supervision increase productivity. Poor management leads to chaos and delays.
+5. **Plant Layout** — Efficient layout minimizes material handling and idle time.
+6. **Working Conditions** — Proper lighting, ventilation, noise control, safety, and cleanliness improve worker efficiency.
+7. **Maintenance Policy** — Regular preventive maintenance reduces breakdowns and production loss.
+8. **Quality Control** — Poor quality leads to rework, scrap, and customer rejection — all reduce productivity.
+9. **Inventory Management** — Excess inventory ties up capital; shortage of inventory stops production.
+10. **Process Design** — Simplified and standardized processes increase output rate.
+
+**B. Uncontrollable (External) Factors:**
+
+1. **Government Policies** — Taxation, labour laws, import/export regulations affect production costs.
+2. **Market Demand** — Low demand leads to underutilization of capacity.
+3. **Economic Conditions** — Inflation, interest rates, exchange rates affect input costs.
+4. **Infrastructure** — Power supply, transportation, communication networks.
+5. **Competition** — Forces companies to improve productivity to survive.
+
+---
+
+## Q8. Explain the reasons for the increase and decrease in productivity. [7 Marks]
+
+### Reasons for Increase in Productivity:
+
+1. **Technological advancement** — New machines, automation, and computerization increase output per man-hour.
+2. **Improved work methods** — Elimination of unnecessary motions, better sequence of operations through method study.
+3. **Worker training** — Skilled workers are faster, make fewer mistakes, and produce better quality.
+4. **Better working conditions** — Proper lighting, ventilation, ergonomic workplace design reduce fatigue.
+5. **Incentive schemes** — Monetary and non-monetary incentives motivate workers to increase output.
+6. **Good maintenance** — Preventive maintenance keeps machines running efficiently without unexpected breakdowns.
+7. **Better material quality** — Fewer rejections, less rework, reduced wastage.
+8. **Efficient management** — Proper planning, scheduling, and coordination eliminate bottlenecks.
+
+### Reasons for Decrease in Productivity:
+
+1. **Outdated technology** — Old machines are slower, consume more power, and have higher breakdown rates.
+2. **Poor working conditions** — Bad lighting, excessive noise, poor ventilation increase fatigue and errors.
+3. **Lack of training** — Untrained workers use wrong methods, make more mistakes, produce less output.
+4. **Labour unrest** — Strikes, go-slow, work-to-rule reduce production drastically.
+5. **Absenteeism** — Frequent worker absence disrupts production schedules.
+6. **Poor quality raw materials** — Lead to high rejection rate, rework, and customer complaints.
+7. **Machine breakdown** — Unplanned breakdowns cause production stoppage and idle time.
+8. **Poor management** — Lack of planning, poor scheduling, insufficient coordination.
+9. **Government regulations** — Excessive paperwork, compliance requirements consume productive time.
+10. **Power shortage** — Irregular power supply halts production.
+
+---
+
+## Q9. Which are the various tools and techniques to improve productivity? [7 Marks]
+
+The various tools and techniques used to improve productivity are:
+
+**1. Method Study:**
+- Systematic recording and critical examination of existing methods of doing work to develop easier and more effective methods.
+- Eliminates wasteful operations, simplifies processes.
+
+**2. Work Measurement (Time Study):**
+- Establishes the time for a qualified worker to carry out a specified task at a defined level of performance.
+- Helps set fair work standards.
+
+**3. Production Planning and Control (PPC):**
+- Planning the sequence of operations, scheduling, dispatching, and follow-up to ensure smooth production flow.
+
+**4. Material Handling:**
+- Proper selection of material handling equipment and systems to minimize handling cost and time.
+
+**5. Quality Control:**
+- Statistical Quality Control (SQC), inspection, and quality assurance to reduce defects, rework, and scrap.
+
+**6. Inventory Control:**
+- EOQ (Economic Order Quantity), ABC analysis, JIT (Just-In-Time) to optimize inventory levels.
+
+**7. Value Analysis / Value Engineering:**
+- Systematic approach to identify unnecessary costs in a product and eliminate them without affecting function or quality.
+
+**8. Ergonomics (Human Engineering):**
+- Designing workplace, tools, and equipment to fit the worker — reduces fatigue and increases efficiency.
+
+**9. Plant Layout and Material Flow Optimization:**
+- Designing efficient layout to minimize material travel distance and backtracking.
+
+**10. Incentive Schemes:**
+- Piece rate system, Halsey plan, Rowan plan, Taylor's differential piece rate — motivate workers to produce more.
+
+**11. Automation and Mechanization:**
+- Use of CNC machines, robots, conveyor systems, and automated processes.
+
+**12. Total Quality Management (TQM):**
+- Organization-wide approach to continuous quality improvement involving all employees.
+
+---
+
+## Q10. Explain the principles of motion economy and workplace design. [7 Marks]
+
+### Definition:
+
+Principles of motion economy are a set of rules and guidelines that help in reducing fatigue and increasing efficiency of a worker by minimizing unnecessary motions. These were developed by Frank B. Gilbreth and later refined by Ralph M. Barnes.
+
+### Three Categories of Principles:
+
+### A. Principles Related to the Use of Human Body:
+
+1. Both hands should begin and complete their motions at the same time (simultaneous motion).
+2. Both hands should not be idle at the same time except during rest periods.
+3. Motions of the arms should be made in opposite and symmetrical directions simultaneously.
+4. Hand and body motions should be confined to the lowest classification of motion that is sufficient to perform the task (finger → wrist → forearm → upper arm → shoulder).
+5. Momentum and gravity should be used to assist the worker wherever possible and should be minimized if it must be overcome by muscular effort.
+6. Smooth continuous curved motions of the hands are preferable to straight-line motions involving sudden and sharp changes in direction.
+7. Ballistic (free-swinging) movements are faster, easier, and more accurate than restricted or controlled movements.
+
+### B. Principles Related to Arrangement of Workplace:
+
+1. There should be a definite and fixed place for all tools and materials.
+2. Tools, materials, and controls should be located close to and in front of the operator.
+3. Gravity feed bins and containers should be used to deliver materials close to the point of use.
+4. Drop deliveries (gravity chutes) should be used wherever possible.
+5. Materials and tools should be located to permit the best sequence of motions.
+6. Adequate lighting, comfortable seat height, and proper work surface height should be provided.
+
+### C. Principles Related to Design of Tools and Equipment:
+
+1. Two or more tools should be combined wherever possible (e.g., pencil with eraser).
+2. Handles of tools should be designed so that maximum surface of the hand comes in contact — distributes pressure.
+3. Work should be distributed among fingers according to their inherent capacity — the index finger and middle finger are strongest.
+4. Levers, hand wheels, and crossbars should be positioned so that the operator can use them with least change in body position.
+5. Jigs, fixtures, and foot-operated devices should be used to free the hands.
+
+### Workplace Design:
+
+**Normal Work Area:** The area that can be conveniently reached by the worker while sitting/standing in normal position with arms extended — approximately 40-45 cm radius.
+
+**Maximum Work Area:** The area that can be reached by fully extending the arm from the shoulder — approximately 55-60 cm radius.
+
+All frequently used tools and materials should be placed within the normal work area.
+
+---
+
+## Q11. What is a method study? List the objectives of the method study. [3-4 Marks]
+
+### Definition:
+
+Method study is the systematic recording and critical examination of existing and proposed ways of doing work, as a means of developing and applying easier and more effective methods and reducing costs.
+
+### Objectives of Method Study:
+
+1. To improve the processes and procedures of production.
+2. To improve the layout of the factory, workshop, and workplace.
+3. To improve the design of plant and equipment.
+4. To reduce human effort and fatigue.
+5. To improve the use of materials, machines, and manpower.
+6. To develop a better physical working environment.
+7. To reduce unnecessary material handling.
+8. To standardize the best method of doing work.
+9. To reduce the cost of production by eliminating wasteful and unnecessary operations.
+
+---
+
+## Q12. Write the basic procedure of the method study. [3 Marks]
+
+The basic procedure of method study consists of the following steps:
+
+1. **SELECT** — Select the work or process to be studied. Priority is given to jobs with high cost, high labour content, bottleneck operations, or high rejection rate.
+
+2. **RECORD** — Record all the relevant facts about the existing method using process charts, flow diagrams, and other recording techniques.
+
+3. **EXAMINE** — Critically examine the recorded facts by questioning every detail — What is done? Why? Where? When? Who? How? (Purpose, Place, Sequence, Person, Means).
+
+4. **DEVELOP** — Develop the most practical, economic, and effective method by considering all alternatives. Apply principles of motion economy.
+
+5. **EVALUATE** — Evaluate the new method considering cost-effectiveness, time savings, and feasibility.
+
+6. **DEFINE** — Define the new method clearly in writing so that it can be easily understood and followed.
+
+7. **INSTALL** — Install the new method as standard practice. Train workers in the new method.
+
+8. **MAINTAIN** — Maintain the new method by regular checking to ensure workers follow it correctly and no unauthorized changes are made.
+
+**Memory Aid: S-R-E-D-E-D-I-M (Select, Record, Examine, Develop, Evaluate, Define, Install, Maintain)**
+
+---
+
+## Q13. List the criteria for selecting a particular job for method study. [3 Marks]
+
+The criteria for selecting a job for method study are:
+
+1. **Bottleneck operations** — Jobs that create delays and hold up other production processes.
+2. **High-cost operations** — Jobs that involve high material cost, labour cost, or overhead cost.
+3. **High labour content** — Jobs requiring large number of workers or excessive manual effort.
+4. **Repetitive work** — Jobs that are performed repeatedly — even small improvements save large cumulative costs.
+5. **Jobs involving excessive material handling** — Long distances, frequent movement, heavy loads.
+6. **Jobs with high rejection/scrap rate** — Quality problems indicate process problems.
+7. **Jobs with excessive overtime** — Indicates inefficiency in the current method.
+8. **Jobs with worker complaints** — Fatigue, discomfort, or safety hazards reported by workers.
+9. **Jobs planned for future production** — New products or changed designs need method study before production starts.
+
+---
+
+## Q14. Discuss the Operation Process Chart by considering any appropriate example. [4-7 Marks]
+
+### Definition:
+
+An Operation Process Chart (OPC) is a graphic representation of the sequence of all operations and inspections involved in a manufacturing process. It shows the point of entry of all materials and components into the process.
+
+### Symbols Used:
+
+| Symbol | Meaning |
+|--------|---------|
+| ⭕ (Circle) | Operation — a change in physical or chemical characteristics |
+| □ (Square) | Inspection — checking for quality or quantity |
+
+### Features:
+- Only operations and inspections are recorded (no transport, storage, or delay).
+- Shows the sequence of operations on the main component (right side) and sub-assemblies (left side).
+- Each operation/inspection is numbered serially and described briefly.
+- Time for each operation may be noted.
+- Materials entering the process are shown with horizontal lines from the left.
+
+### Example: Operation Process Chart for Manufacturing a Bolt
+
+**Main Component: Steel Rod (enters from top right)**
+
+| Step | Symbol | Description | Time |
+|------|--------|-------------|------|
+| O-1 | ⭕ | Cut steel rod to required length | 2 min |
+| I-1 | □ | Inspect length | 0.5 min |
+| O-2 | ⭕ | Turn on lathe to required diameter | 5 min |
+| I-2 | □ | Check diameter | 0.5 min |
+| O-3 | ⭕ | Thread cutting on die machine | 3 min |
+| I-3 | □ | Inspect thread with go/no-go gauge | 0.5 min |
+| O-4 | ⭕ | Head forging | 2 min |
+| O-5 | ⭕ | Heat treatment (hardening) | 10 min |
+| O-6 | ⭕ | Surface finishing (zinc plating) | 4 min |
+| I-4 | □ | Final inspection | 1 min |
+
+**Summary Table:**
+
+| Activity | Count |
+|----------|:-----:|
+| Operations (⭕) | 6 |
+| Inspections (□) | 4 |
+| **Total** | **10** |
+
+### Advantages:
+1. Gives bird's eye view of the complete manufacturing process.
+2. Helps identify unnecessary operations for elimination.
+3. Useful for comparison of alternative methods.
+4. Helps in planning the sequence of operations.
+
+*[See Diagram Prompt section at end for visual]*
+
+---
+
+## Q15. Explain the two-handed process chart with a neat sketch. [4-7 Marks]
+
+### Definition:
+
+A Two-Handed Process Chart (also called Left Hand Right Hand Chart or Operator Process Chart) is a process chart that records the activities of the left hand and right hand of an operator in relation to each other. It is used for studying repetitive, short-cycle operations performed at a single workplace.
+
+### Symbols Used:
+
+| Symbol | Meaning |
+|--------|---------|
+| ⭕ | Operation — hand grasps, positions, uses, or releases a tool/object |
+| → | Transport — hand moves to or from the work |
+| D | Delay — hand waits (idle) |
+| ▽ | Hold — hand holds the work piece (no movement) |
+
+### How to Prepare:
+1. Observe the operation several times.
+2. Record what the left hand does and what the right hand does simultaneously.
+3. Each activity is recorded side by side (left column for left hand, right column for right hand).
+4. Activities happening at the same time are written on the same row.
+
+### Example: Two-Handed Process Chart for "Assembling Nut and Bolt"
+
+| Left Hand (LH) | Symbol LH | Symbol RH | Right Hand (RH) |
+|----------------|:---------:|:---------:|-----------------|
+| Reach to bolt bin | → | → | Reach to nut bin |
+| Grasp bolt | ⭕ | ⭕ | Grasp nut |
+| Carry bolt to assembly area | → | → | Carry nut to assembly area |
+| Hold bolt upright | ▽ | ⭕ | Position nut on bolt |
+| Hold bolt | ▽ | ⭕ | Tighten nut (turn clockwise) |
+| Release assembled piece | ⭕ | ⭕ | Release assembled piece |
+| Move to finished bin | → | → | Move to finished bin |
+| Drop assembled piece | ⭕ | D | Wait (idle) |
+
+**Summary:**
+
+| Activity | Left Hand | Right Hand |
+|----------|:---------:|:----------:|
+| Operations (⭕) | 3 | 4 |
+| Transport (→) | 3 | 3 |
+| Delay (D) | 0 | 1 |
+| Hold (▽) | 2 | 0 |
+| **Total** | **8** | **8** |
+
+### Advantages:
+1. Identifies idle time of either hand — helps balance workload.
+2. Helps redesign the workplace to reduce unnecessary movements.
+3. Useful for training new workers in the correct method.
+4. Helps apply principles of motion economy.
+
+*[See Diagram Prompt section at end for visual]*
+
+---
+
+## Q16. Draw and give meanings of symbols used in process charts. [4 Marks]
+
+### Standard Process Chart Symbols (ASME Symbols):
+
+| Sr. | Symbol | Name | Meaning |
+|-----|--------|------|---------|
+| 1 | ⭕ (Large Circle) | **Operation** | An activity that changes the physical or chemical characteristics of an object. It adds value to the product. Example: turning, drilling, welding, painting. |
+| 2 | → (Arrow) | **Transport** | Movement of an object, worker, or equipment from one place to another. Example: carrying material by trolley, conveyor belt. Does NOT include movement that is part of an operation. |
+| 3 | □ (Square) | **Inspection** | Checking or verifying an object for quality (workmanship) or quantity (count). Example: checking dimensions with vernier caliper, visual inspection. |
+| 4 | D (Capital D) | **Delay** | A temporary stoppage in the sequence of events. The object waits and is NOT being worked on. Example: waiting for next operation, waiting for crane. Also called temporary storage. |
+| 5 | ▽ (Inverted Triangle) | **Storage** | An object is kept in a protected location and cannot be removed without authorization. Example: raw material store, finished goods warehouse. This is permanent/controlled storage. |
+| 6 | ⭕□ (Circle inside Square) | **Combined Activity** | When two activities are performed simultaneously. Most common: Operation + Inspection done at the same time. Example: operator checks dimension while turning on lathe. |
+
+*[See Diagram Prompt section at end for visual]*
+
+---
+---
+
+# CHAPTER 3: INDUSTRIAL LEGISLATION
+
+---
+
+## Q17. What is the need and objective of Industrial Legislation in India? [3-4 Marks]
+
+### Need for Industrial Legislation:
+
+Industrial legislation refers to the laws and rules enacted by the government to regulate the relationship between employers and workers, and to ensure fair working conditions in industries.
+
+**Need:**
+
+1. **Protection of workers** — Workers are the weaker party. Without laws, employers may exploit them with low wages, long hours, and unsafe conditions.
+2. **Prevention of industrial disputes** — Clear rules prevent conflicts between employers and workers.
+3. **Ensuring fair wages** — Laws like Payment of Wages Act ensure workers receive minimum wages on time.
+4. **Safety and health** — Factories Act ensures safety equipment, fire exits, cleanliness, ventilation in factories.
+5. **Regulating working hours** — Prevent exploitation through excessive working hours and ensure rest periods.
+6. **Social security** — Provide compensation for accidents, provident fund for retirement, bonus for sharing profits.
+7. **Child and women protection** — Prohibit child labour, restrict women's night work, ensure maternity benefits.
+8. **Maintaining industrial peace** — Settlement machinery (conciliation, arbitration, tribunal) for disputes.
+
+### Objectives:
+
+1. To establish harmonious relations between employers and employees.
+2. To provide safe and healthy working conditions.
+3. To fix minimum wages and ensure timely payment.
+4. To provide social security benefits (PF, gratuity, compensation).
+5. To prevent unfair labour practices by employers and trade unions.
+6. To provide machinery for settlement of industrial disputes.
+7. To regulate the formation and activities of trade unions.
+
+---
+
+## Q18. Explain the provisions related to Health, Safety, and Working Hours under the Factories Act 1948. [7 Marks]
+
+The Factories Act 1948 is the primary legislation governing the health, safety, welfare, and working conditions of workers in factories. It applies to factories employing 10 or more workers (with power) or 20 or more workers (without power).
+
+### A. Health Provisions (Sections 11-20):
+
+1. **Cleanliness (Sec. 11)** — Factory must be kept clean. Floors, walls, and stairs must be washed/painted regularly. Accumulated dirt and waste must be removed daily.
+2. **Disposal of waste and effluents (Sec. 12)** — Effective arrangements for disposal of waste, trade effluents arising from manufacturing process.
+3. **Ventilation and temperature (Sec. 13)** — Adequate ventilation with fresh air circulation. Comfortable temperature must be maintained.
+4. **Dust and fume (Sec. 14)** — Effective measures to prevent accumulation of dust and fumes that are harmful to health. Exhaust appliances must be provided.
+5. **Artificial humidification (Sec. 15)** — In factories where humidity is artificially increased, prescribed standards must be maintained.
+6. **Overcrowding (Sec. 16)** — No room shall be overcrowded. Minimum 14.2 cubic meters of space per worker.
+7. **Lighting (Sec. 17)** — Sufficient and suitable natural or artificial lighting in every part of the factory.
+8. **Drinking water (Sec. 18)** — Wholesome drinking water at convenient points. Marked "Drinking Water" in factories with 250+ workers — cooled water must be provided.
+9. **Latrines and urinals (Sec. 19)** — Sufficient number, properly maintained, cleaned, well-lit, and ventilated. Separate for males and females.
+10. **Spittoons (Sec. 20)** — Sufficient number of spittoons in convenient places. Maintained in clean and hygienic condition.
+
+### B. Safety Provisions (Sections 21-41):
+
+1. **Fencing of machinery (Sec. 21)** — Every moving part, flywheel, and dangerous part of machinery must be securely fenced.
+2. **Work on or near machinery in motion (Sec. 22)** — Only specially trained adult male workers wearing tight-fitting clothing shall examine/lubricate machinery in motion.
+3. **Employment of young persons on dangerous machines (Sec. 23)** — No young person shall work on dangerous machines unless fully instructed and supervised.
+4. **Striking gear and devices for cutting off power (Sec. 24)** — Suitable devices must be provided to cut off power from transmission machinery.
+5. **Self-acting machines (Sec. 25)** — Traversing part of a self-acting machine shall not be allowed to come within 45 cm of any fixed structure.
+6. **Hoists and lifts (Sec. 28)** — Must be of good construction, properly maintained, and examined by competent person every 6 months.
+7. **Pressure vessels (Sec. 31)** — Must be examined by competent person as prescribed.
+8. **Floors, stairs, and means of access (Sec. 32)** — Must be soundly constructed and properly maintained. Handrails must be provided.
+9. **Pits, sumps, and openings (Sec. 33)** — Must be securely covered or fenced.
+10. **Fire safety (Sec. 38)** — Means of escape in case of fire must be provided. Fire extinguishing equipment must be maintained.
+11. **Safety officers (Sec. 40-B)** — Factories employing 1000 or more workers must appoint Safety Officer.
+
+### C. Working Hours Provisions (Sections 51-66):
+
+1. **Weekly hours (Sec. 51)** — No adult worker shall work more than **48 hours** in any week.
+2. **Daily hours (Sec. 54)** — No adult worker shall work more than **9 hours** in any day.
+3. **Interval for rest (Sec. 55)** — No worker shall work for more than 5 hours continuously without a rest interval of at least **30 minutes**.
+4. **Spread over (Sec. 56)** — Work period including rest intervals shall not spread over more than **10.5 hours** in a day.
+5. **Weekly holiday (Sec. 52)** — Every worker is entitled to one day holiday per week (Sunday or substituted day).
+6. **Overtime (Sec. 59)** — Overtime wages shall be paid at **double the ordinary rate** of wages.
+7. **Night shift (Sec. 57)** — Shift shall not change except after a weekly holiday. At least **24 hours rest** before change of shift.
+8. **Women workers (Sec. 66)** — No woman shall be required to work between **7 PM and 6 AM** (night work prohibited for women).
+
+---
+
+## Q19. What are the main objectives of the Industrial Disputes Act 1947? [4 Marks]
+
+### Definition:
+
+The Industrial Disputes Act 1947 is a legislation enacted to provide machinery for investigation and settlement of industrial disputes and to prevent illegal strikes and lockouts.
+
+### Main Objectives:
+
+1. **Settlement of disputes** — To provide a legal framework and machinery for peaceful and amicable settlement of industrial disputes through conciliation, arbitration, and adjudication.
+2. **Prevention of illegal strikes and lockouts** — To regulate the rights of workers to strike and employers to declare lockout, and to prevent illegal/unjustified work stoppages.
+3. **Providing relief to workers** — To provide relief to workers in cases of lay-off, retrenchment, and closure of establishments.
+4. **Promoting industrial peace** — To maintain harmonious relations between employers and employees so that production is not affected.
+5. **Protection against unfair dismissal** — To prevent employers from unfairly dismissing, discharging, or retrenching workers without following proper procedure.
+6. **Collective bargaining** — To promote collective bargaining and negotiation between employers and trade unions.
+
+### Settlement Machinery (under this Act):
+
+| Level | Authority | Nature |
+|-------|-----------|--------|
+| 1 | Works Committee | Bipartite (employer + worker) |
+| 2 | Conciliation Officer | Government appointed mediator |
+| 3 | Board of Conciliation | Board to mediate |
+| 4 | Court of Inquiry | Fact-finding body |
+| 5 | Labour Court | Adjudicates on specific matters |
+| 6 | Industrial Tribunal | Adjudicates on broader disputes |
+| 7 | National Tribunal | For disputes of national importance |
+
+---
+---
+
+# CHAPTER 4: INSPECTION AND QUALITY CONTROL
+
+---
+
+## Q20. Explain the concept of Inspection. Write its functions, types, and objectives. [7 Marks]
+
+### Definition:
+
+Inspection is the process of measuring, examining, testing, or gauging one or more characteristics of a product and comparing the results with specified requirements to determine whether conformity is achieved.
+
+### Functions of Inspection:
+
+1. **Incoming inspection** — Inspect raw materials and purchased components before they enter the production process.
+2. **In-process inspection** — Inspect work-in-progress at various stages of production to detect defects early.
+3. **Final inspection** — Inspect finished products before dispatch to ensure they meet quality standards.
+4. **Tool and gauge inspection** — Check measuring instruments and tools for accuracy and calibration.
+5. **Quality reporting** — Maintain records of inspection results, rejection rates, and defect analysis for management review.
+6. **Salvage and rework** — Decide whether defective products can be reworked, regraded, or must be scrapped.
+
+### Types of Inspection:
+
+**A. Based on Location:**
+
+1. **Centralized Inspection:**
+   - All inspection is done at one central location (inspection room/department).
+   - Advantages: Better instruments, controlled environment, specialized inspectors.
+   - Disadvantages: Material handling cost, delay in detecting defects.
+
+2. **Floor Inspection (Decentralized):**
+   - Inspection is done at the workplace/machine itself.
+   - Advantages: Immediate feedback, no transport of parts, quick defect detection.
+   - Disadvantages: Noise, vibration, and poor lighting may affect accuracy.
+
+**B. Based on Quantity:**
+
+1. **100% Inspection:**
+   - Every single item is inspected.
+   - Used for critical/safety components, expensive items, or small lot sizes.
+   - Disadvantage: Time-consuming, expensive, inspector fatigue.
+
+2. **Sampling Inspection:**
+   - Only a representative sample from the lot is inspected.
+   - If the sample is acceptable, the entire lot is accepted.
+   - Used for large lot sizes, destructive testing, and non-critical items.
+
+**C. Based on Method:**
+
+1. **Visual Inspection** — Using eyes (surface defects, colour, finish)
+2. **Dimensional Inspection** — Using instruments (vernier caliper, micrometer)
+3. **Destructive Testing** — Item is destroyed during testing (tensile test, impact test)
+4. **Non-Destructive Testing** — Item is not damaged (X-ray, ultrasonic, magnetic particle)
+
+### Objectives of Inspection:
+
+1. To detect and remove defective products before they reach the customer.
+2. To prevent defective raw materials from entering the production process.
+3. To reduce the cost of rework and scrap.
+4. To ensure the product meets the specified standards and tolerances.
+5. To provide feedback to production for corrective action.
+6. To build customer confidence in product quality.
+7. To collect quality data for statistical analysis and process improvement.
+
+---
+
+## Q21. Differentiate between Quality Control (QC) and Quality Assurance (QA). What is a Quality Audit? [4 Marks]
+
+### QC vs QA Differentiation:
+
+| Sr. | Criteria | Quality Control (QC) | Quality Assurance (QA) |
+|-----|----------|---------------------|------------------------|
+| 1 | Definition | QC is the process of inspecting and testing products to find and eliminate defects. | QA is the systematic process of ensuring that quality requirements will be fulfilled during the production process. |
+| 2 | Focus | Product-oriented (finding defects in finished products) | Process-oriented (preventing defects from occurring) |
+| 3 | Approach | Reactive — detects defects AFTER production | Proactive — prevents defects BEFORE production |
+| 4 | Responsibility | Done by QC department/inspectors | Responsibility of entire organization |
+| 5 | Goal | Identify and reject defective products | Build quality into the process |
+| 6 | Technique | Inspection, testing, sampling | Auditing, process design, documentation, training |
+| 7 | Nature | Corrective action | Preventive action |
+| 8 | Example | Testing a bulb before packing | Ensuring the bulb manufacturing process follows ISO standards |
+| 9 | Scope | Part of QA | Broader — includes QC within it |
+
+### Quality Audit:
+
+**Definition:** A quality audit is a systematic, independent, and documented examination to determine whether quality activities and related results comply with planned arrangements and whether these arrangements are implemented effectively and are suitable to achieve objectives.
+
+**Types of Quality Audit:**
+1. **Product Audit** — Examines the product for conformance to specifications.
+2. **Process Audit** — Examines the process for compliance with procedures.
+3. **System Audit** — Examines the entire quality management system.
+
+**Purpose:**
+- Verify compliance with quality standards (ISO 9001)
+- Identify areas for improvement
+- Check effectiveness of corrective actions
+- Build customer confidence
+
+---
+
+## Q22. What is Six Sigma? Explain the DMAIC principle and methodology. [4-7 Marks]
+
+### Definition of Six Sigma:
+
+Six Sigma is a disciplined, data-driven approach and methodology for eliminating defects in any process — from manufacturing to transactional and service processes. The goal is to achieve near-perfection by reducing defects to no more than **3.4 defects per million opportunities (DPMO)**.
+
+The term "Six Sigma" refers to 6 standard deviations from the mean in a normal distribution curve, which statistically means 99.99966% of products are defect-free.
+
+**Developed by:** Motorola in 1986. Later adopted by General Electric (GE) under Jack Welch.
+
+### Concept:
+- Sigma (σ) is a measure of variation/spread in a process.
+- Higher sigma level = fewer defects = better quality.
+- 1 Sigma = 690,000 DPMO (31% yield) — very poor
+- 3 Sigma = 66,807 DPMO (93.3% yield) — average
+- 6 Sigma = 3.4 DPMO (99.99966% yield) — near perfection
+
+### DMAIC Methodology:
+
+DMAIC is the core methodology of Six Sigma for improving existing processes. It stands for:
+
+**1. D — Define:**
+- Define the problem, project goals, and customer requirements (CTQ — Critical to Quality).
+- Identify the process to be improved.
+- Create a project charter with scope, objectives, team members, and timeline.
+
+**2. M — Measure:**
+- Measure the current performance of the process.
+- Collect data on defects, cycle time, and key process variables.
+- Establish the baseline sigma level.
+- Tools: Data collection, check sheets, Pareto chart.
+
+**3. A — Analyze:**
+- Analyze the data to identify root causes of defects and process variation.
+- Find the gap between current performance and desired performance.
+- Tools: Cause-and-effect diagram (Fishbone), 5-Why analysis, scatter diagrams, hypothesis testing.
+
+**4. I — Improve:**
+- Develop and implement solutions to eliminate root causes.
+- Design experiments to test proposed solutions.
+- Optimize the process.
+- Tools: Brainstorming, design of experiments (DOE), pilot testing.
+
+**5. C — Control:**
+- Control the improved process to sustain the gains.
+- Implement control charts and monitoring systems.
+- Standardize the new process and document procedures.
+- Tools: Control charts, SOPs, training programs.
+
+### Advantages of Six Sigma:
+1. Reduces defects significantly (3.4 DPMO).
+2. Improves customer satisfaction.
+3. Reduces cost of poor quality (rework, scrap, warranty).
+4. Data-driven decision making — eliminates guesswork.
+5. Creates a culture of continuous improvement.
+
+### Limitations of Six Sigma:
+1. Requires significant investment in training (Green Belt, Black Belt).
+2. Time-consuming — projects typically take 3-6 months.
+3. Not suitable for small organizations with limited resources.
+4. Over-reliance on data — may miss creative solutions.
+5. Resistance to change from employees.
+
+---
+
+## Q23. Explain the concept and objectives of Quality Circles. [4 Marks]
+
+### Definition:
+
+A Quality Circle (QC) is a small group of **6-12 workers** from the same work area who **voluntarily** meet regularly (usually once a week for about an hour) to identify, analyze, and solve work-related quality problems and present solutions to management.
+
+**Originated in:** Japan (1962), introduced by Dr. Kaoru Ishikawa.
+
+### Concept:
+- Workers who do the job daily know the problems best.
+- Voluntary participation — no one is forced to join.
+- The group is trained in problem-solving tools (Pareto chart, cause-and-effect diagram, brainstorming).
+- Solutions are presented to management for approval and implementation.
+- Focus is on quality improvement, cost reduction, safety, and productivity.
+
+### Objectives of Quality Circles:
+
+1. **Improve quality** — Identify and eliminate quality problems at the source.
+2. **Reduce errors and defects** — Workers suggest practical solutions to recurring defects.
+3. **Improve productivity** — Find ways to work more efficiently and eliminate waste.
+4. **Reduce cost** — Lower scrap, rework, and material wastage.
+5. **Develop people** — Enhance skills and knowledge of workers through training and participation.
+6. **Boost morale** — Give workers a sense of ownership and involvement in decision-making.
+7. **Improve communication** — Better understanding between workers and management.
+8. **Create a quality culture** — Build awareness of quality among all workers.
+9. **Promote teamwork** — Workers learn to work together as a team.
+10. **Safety improvement** — Identify and eliminate potential safety hazards.
+
+### Structure of Quality Circle:
+
+- **Members** — 6-12 workers from the same work area
+- **Leader** — Usually the supervisor of the group
+- **Facilitator** — A senior person who provides guidance and training
+- **Steering Committee** — Management team that reviews and approves proposals
+
+---
+
+## Q24. What is Total Quality Management (TQM)? Enlist its core principles. [4-7 Marks]
+
+### Definition:
+
+Total Quality Management (TQM) is a management philosophy and approach that focuses on **continuous improvement of quality** in all aspects of an organization's operations. It involves **all employees** — from top management to the shop floor worker — working together to improve products, services, processes, and the culture of the organization.
+
+**Key Words:** Total (everyone), Quality (meeting customer requirements), Management (systematic approach).
+
+### Core Principles of TQM:
+
+**1. Customer Focus:**
+- The customer (internal and external) defines quality.
+- All activities should aim to meet or exceed customer expectations.
+
+**2. Total Employee Involvement:**
+- Every employee at every level is responsible for quality.
+- Empowerment, training, and teamwork are essential.
+
+**3. Continuous Improvement (Kaizen):**
+- Quality is not a destination but a continuous journey.
+- Use PDCA cycle (Plan → Do → Check → Act) for ongoing improvement.
+
+**4. Process-Centered Approach:**
+- Focus on improving processes rather than blaming individuals.
+- Well-defined processes lead to consistent quality.
+
+**5. Fact-Based Decision Making:**
+- Decisions should be based on data and statistical analysis, not gut feelings.
+- Use SQC tools, Pareto charts, control charts for analysis.
+
+**6. Integrated System:**
+- All departments and functions must work together as a unified system.
+- Break down departmental barriers.
+
+**7. Strategic and Systematic Approach:**
+- Quality improvement must be planned strategically — aligned with the organization's vision and mission.
+
+**8. Communication:**
+- Open and transparent communication at all levels — top-down, bottom-up, and horizontal.
+
+**9. Supplier Partnership:**
+- Build long-term partnerships with suppliers based on trust and mutual benefit.
+- Supplier quality directly affects product quality.
+
+### Benefits of TQM:
+1. Improved customer satisfaction and loyalty.
+2. Reduced costs through fewer defects, less rework and scrap.
+3. Improved employee morale and involvement.
+4. Competitive advantage in the market.
+5. Higher productivity and profitability.
+
+---
+
+## Q25. Write a short note comparing ISO 9000, ISO 14000, and QS 9000. [4-7 Marks]
+
+### ISO 9000 — Quality Management System:
+
+- **Full Form:** International Organization for Standardization — 9000 series.
+- **Purpose:** Provides guidelines and requirements for establishing a Quality Management System (QMS).
+- **Focus:** Ensuring consistent quality of products and services to meet customer requirements.
+- **Key Standard:** ISO 9001 — Requirements for QMS (certifiable standard).
+- **Scope:** Applicable to ANY organization — manufacturing, service, government, education.
+- **Principles:** Customer focus, leadership, process approach, continuous improvement, evidence-based decision making.
+- **Certification:** Third-party audit and certification by accredited bodies.
+
+### ISO 14000 — Environmental Management System:
+
+- **Full Form:** International Organization for Standardization — 14000 series.
+- **Purpose:** Provides guidelines for establishing an Environmental Management System (EMS).
+- **Focus:** Minimizing the harmful effects of an organization's activities on the environment.
+- **Key Standard:** ISO 14001 — Requirements for EMS (certifiable standard).
+- **Scope:** Applicable to ANY organization wanting to improve environmental performance.
+- **Areas Covered:** Air pollution, water pollution, waste management, energy conservation, resource utilization, compliance with environmental laws.
+- **Goal:** Sustainable development and environmental protection.
+
+### QS 9000 — Automotive Quality Standard:
+
+- **Full Form:** Quality System 9000.
+- **Purpose:** Quality management standard specifically developed for the **automotive industry**.
+- **Developed by:** The "Big Three" American automobile manufacturers — General Motors, Ford, and Chrysler.
+- **Focus:** Ensuring quality requirements of automotive suppliers and sub-suppliers.
+- **Based on:** ISO 9001 + additional automotive-specific requirements.
+- **Additional Requirements:** Production Part Approval Process (PPAP), Continuous Improvement, Manufacturing Capabilities.
+- **Note:** QS 9000 has been largely replaced by **IATF 16949** (current automotive quality standard), but GTU still asks about QS 9000.
+
+### Comparison Table:
+
+| Criteria | ISO 9000 | ISO 14000 | QS 9000 |
+|----------|----------|-----------|---------|
+| Focus | Quality Management | Environmental Management | Automotive Quality |
+| Applicability | All industries | All industries | Automotive industry only |
+| Objective | Customer satisfaction | Environmental protection | Automotive supplier quality |
+| Key Standard | ISO 9001 | ISO 14001 | QS 9000 (now IATF 16949) |
+| Certification | Yes (ISO 9001) | Yes (ISO 14001) | Yes |
+| Developed by | ISO (Geneva) | ISO (Geneva) | GM, Ford, Chrysler |
+| Year | 1987 (first published) | 1996 | 1994 |
+
+---
+---
+
+# DIAGRAM PROMPTS
+
+Below are the diagrams you need. Use these prompts to generate clean exam-style diagrams.
+
+### Diagram 1: Product Layout vs Process Layout
+**Prompt:** "Draw a clean engineering diagram showing two factory layouts side by side. LEFT side labeled 'Product Layout (Line Layout)' showing machines arranged in a straight line sequence: Raw Material → Lathe → Milling → Drilling → Grinding → Assembly → Finished Product, with arrows showing one-directional flow. RIGHT side labeled 'Process Layout (Functional Layout)' showing grouped departments: Lathe Section (3 lathes), Milling Section (3 milling machines), Drilling Section (3 drills), Grinding Section (3 grinders), with zigzag arrows showing material moving between departments. Black and white, clean lines, engineering textbook style, labeled clearly."
+
+### Diagram 2: Fixed Position Layout
+**Prompt:** "Draw a clean engineering diagram of Fixed Position Layout. Show a large central product (labeled 'SHIP / AIRCRAFT' or 'MAIN PRODUCT') in the center. Around it show workers, machines, tools, and materials coming TO the product from all sides with arrows pointing inward. Show labels: 'Workers', 'Machines brought to site', 'Raw Materials', 'Tools & Equipment', 'Sub-assemblies' all pointing toward center. Black and white, textbook style."
+
+### Diagram 3: Operation Process Chart (Bolt Manufacturing)
+**Prompt:** "Draw a clean Operation Process Chart (OPC) for manufacturing a bolt. Show a vertical line from top to bottom. On this line, draw alternating circles (operations) and squares (inspections) in sequence: O-1 Cut rod, I-1 Check length, O-2 Turn on lathe, I-2 Check diameter, O-3 Thread cutting, I-3 Inspect thread, O-4 Head forging, O-5 Heat treatment, O-6 Surface finishing, I-4 Final inspection. Label 'Steel Rod' entering from top with horizontal line. Include a summary box showing Operations=6, Inspections=4. Black and white, clean engineering chart style."
+
+### Diagram 4: Two-Handed Process Chart
+**Prompt:** "Draw a Two-Handed Process Chart (Left Hand Right Hand chart) for assembling a nut and bolt. Show two columns — LEFT HAND and RIGHT HAND — with activities listed side by side. Use symbols: circle for operation, arrow for transport, triangle for hold, D for delay. Show 8 steps for each hand. Include a summary table at bottom counting operations, transports, delays, and holds for each hand. Clean black and white, engineering textbook format."
+
+### Diagram 5: Flow Process Chart Symbols
+**Prompt:** "Draw the 5 standard ASME process chart symbols in a clean vertical list. 1) Large circle = OPERATION, 2) Arrow = TRANSPORT, 3) Square = INSPECTION, 4) Capital letter D = DELAY, 5) Inverted triangle (equilateral triangle pointing down) = STORAGE. Also show a combined symbol: circle inside a square = COMBINED ACTIVITY (Operation + Inspection). Each symbol drawn clearly with its name and brief definition next to it. Black and white, engineering reference card style."
+
+### Diagram 6: DMAIC Cycle (Six Sigma)
+**Prompt:** "Draw a circular diagram showing the DMAIC cycle of Six Sigma. Five segments in a circle or pentagon: DEFINE → MEASURE → ANALYZE → IMPROVE → CONTROL, connected by arrows in clockwise direction. Each segment should have 2-3 bullet points: Define (problem, goals, CTQ), Measure (data collection, baseline), Analyze (root cause, fishbone), Improve (solutions, pilot), Control (monitor, sustain). Clean, black and white, textbook style."
+
+### Diagram 7: Quality Circle Structure
+**Prompt:** "Draw an organizational chart showing the structure of a Quality Circle. At top: Steering Committee (management). Below it: Facilitator/Coordinator. Below that: Quality Circle Leader (supervisor). At bottom: 6-12 circle members (workers) shown as small icons in a circle formation meeting around a table. Show arrows indicating flow of ideas upward and decisions downward. Clean black and white, simple organizational chart style."
+
+### Diagram 8: Normal Work Area and Maximum Work Area
+**Prompt:** "Draw a top-view diagram of a worker sitting at a workstation, showing two concentric semicircular arcs. Inner arc labeled 'Normal Work Area' (radius ~40-45 cm, reached by forearm pivot at elbow). Outer arc labeled 'Maximum Work Area' (radius ~55-60 cm, reached by full arm extension from shoulder). Show left hand and right hand arcs overlapping in front. Tools and materials should be placed within normal work area. Clean black and white, ergonomics textbook style."
+
+---
+---
+
+# VERIFICATION CHECKLIST
+
+| # | Question | Chapter | Marks | Tier | Covered? |
+|---|----------|---------|:-----:|:----:|:--------:|
+| 1 | Types of plant layout + Product vs Process differentiation | Ch 1 | 7 | 🔴 T1 | ✅ |
+| 2 | Objectives of good plant layout | Ch 1 | 3 | 🟢 T3 | ✅ |
+| 3 | Fixed position layout | Ch 1 | 3 | 🟢 T3 | ✅ |
+| 4 | Factors for plant location + importance | Ch 1 | 4-7 | 🔴 T1 | ✅ |
+| 5 | Site selection — Thermal/Nuclear/Cement | Ch 1 | 7 | 🟡 T2 | ✅ |
+| 6 | Definition of productivity + ways to improve | Ch 2 | 7 | 🔴 T1 | ✅ |
+| 7 | Factors affecting productivity | Ch 2 | 7 | 🔴 T1 | ✅ |
+| 8 | Reasons for increase and decrease in productivity | Ch 2 | 7 | 🔴 T1 | ✅ |
+| 9 | Tools and techniques to improve productivity | Ch 2 | 7 | 🔴 T1 | ✅ |
+| 10 | Principles of motion economy + workplace design | Ch 2 | 7 | 🔴 T1 | ✅ |
+| 11 | Method study — definition + objectives | Ch 2 | 3-4 | 🟡 T2 | ✅ |
+| 12 | Basic procedure of method study | Ch 2 | 3 | 🟡 T2 | ✅ |
+| 13 | Criteria for selecting job for method study | Ch 2 | 3 | 🟢 T3 | ✅ |
+| 14 | Operation Process Chart with example | Ch 2 | 4-7 | 🟡 T2 | ✅ |
+| 15 | Two-Handed Process Chart with sketch | Ch 2 | 4-7 | 🟡 T2 | ✅ |
+| 16 | Process chart symbols — meanings | Ch 2 | 4 | 🟢 T3 | ✅ |
+| 17 | Need and objective of Industrial Legislation | Ch 3 | 3-4 | 🔴 T1 | ✅ |
+| 18 | Factories Act 1948 — Health, Safety, Working Hours | Ch 3 | 7 | 🟡 T2 | ✅ |
+| 19 | Industrial Disputes Act 1947 — objectives | Ch 3 | 4 | 🟡 T2 | ✅ |
+| 20 | Inspection — functions, types, objectives | Ch 4 | 7 | 🟡 T2 | ✅ |
+| 21 | QC vs QA + Quality Audit | Ch 4 | 4 | 🟡 T2 | ✅ |
+| 22 | Six Sigma — DMAIC principle and methodology | Ch 4 | 4-7 | 🟡 T2 | ✅ |
+| 23 | Quality Circles — concept, objectives | Ch 4 | 4 | 🟡 T2 | ✅ |
+| 24 | TQM — concept, core principles | Ch 4 | 4-7 | 🟢 T3 | ✅ |
+| 25 | ISO 9000 / 14000 / QS 9000 comparison | Ch 4 | 4-7 | 🟢 T3 | ✅ |
+
+**EXCLUDED (as requested):**
+- ~~Therbligs — list, symbols, importance~~ (4 questions skipped)
+- ~~String Diagram — explanation & advantages~~ (1 question skipped)
+
+**Total questions answered: 25 ✅ | Skipped: 5**

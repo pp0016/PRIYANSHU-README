@@ -1,0 +1,42 @@
+The search for ""Gemini 3.1 Pro" vs "Claude Opus 4.6" benchmarks" returned the following summary:
+As of September 2026, **Gemini 3.1 Pro** and **Claude Opus 4.6** are both prominent, highly capable frontier AI models, though they represent distinct approaches to reasoning, coding, and agentic workflows[1][2][3].
+
+### Performance & Benchmarks
+Benchmarks for these models show a tight competitive landscape, with each model leading in different categories[2][3]:
+
+*   **Claude Opus 4.6** is generally recognized for its strength in **coding and agentic tasks**[4][3]. It has performed exceptionally well on benchmarks like **SWE-Bench Verified** (realistic software engineering) and **OSWorld** (GUI automation)[2][3]. Users often cite its reliability in planning, complex refactoring, and sustained agentic workflows[4][5].
+*   **Gemini 3.1 Pro** frequently leads in **multimodal tasks** (processing text, images, video, and audio simultaneously)[6][2], as well as in **math and general knowledge (MMLU)**[2]. It has also shown strong performance on specialized agentic benchmarks like **ARC-AGI-2** and **APEX-Agents**[3].
+
+### Key Differences at a Glance
+
+| Feature | Gemini 3.1 Pro | Claude Opus 4.6 |
+| :--- | :--- | :--- |
+| **Developer** | Google DeepMind[1] | Anthropic[1] |
+| **Primary Strengths** | Multimodal native, Math, Long-context evidence[7][2] | Coding, Agentic tasks, Planning, Computer use[4][3] |
+| **Output Capacity** | 65K tokens[8][3] | 128K tokens[3] |
+| **Context Window** | 1M tokens[8][9] | 1M tokens (beta)[1][3] |
+
+### Which Should You Choose?
+The "better" model often depends on your specific workflow rather than a single benchmark score[9][10]:
+
+*   **Choose Claude Opus 4.6 if:** You are focused on software engineering, complex codebases, or agentic automation that requires high-level planning and interaction with computer interfaces[4][5][3]. It is widely praised for its precision in coding tasks[2][3].
+*   **Choose Gemini 3.1 Pro if:** You require deep multimodal capabilities (e.g., analyzing video or audio alongside text)[11][12], or if your work involves large-scale data synthesis and complex mathematical reasoning[6][2]. It is often noted for being a strong value proposition for enterprise integration[7][3].
+
+*Note: The AI landscape evolves rapidly. By mid-to-late 2026, newer iterations (such as Claude 5/Fable and Gemini 3.8/Flash models) have also been released, which may offer even higher performance depending on your specific needs[13][14][15].*
+
+Sources:
+[1] [gurusup.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEG2yRJcW3_pxrVlo-W8_F9g43LSG_EBZlSng4q0x0gEu4gQRIkwPO-ludBTFphZ13ssgzDvIKzHMs3_jUOsl2ZfCdXEpToeDr8UY2vXcPHE4pklq5FIAQRzHP4dAQ4Hw==)
+[2] [aimagicx.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgiYm9HWVRIC7QQFKNxgXQ7xFF3xNwAQjIu89OibVuyZe8Rdjevzg6gK-CDCaHkHV6hUfYZpl6YLtIruvZ8wX1KORywEm8x5A62PLIIVXUothPXmLxiNFvs18ZxVC5VvqfGz9fnlh_HAVXSyjOXwd6jax0iu1Q5vKU9djlYdqJvxYxvElc8Vu3ODI=)
+[3] [fleeceai.app](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPH4hytasAfwhzODoMZB4OjY31t_M5m-l5PL6-AiCZ3aoCs84DZ9WrcttStaHmSJQYXW9-r4zP_CeQhpXbHDNUEIuakFcx-Ozj-BV3d0CclJYlnDqtcjYalTAJxPPQDfGMWBZMmTmK8mBUZLj-QAomkEuKhIC1eoLEt5yD)
+[4] [anthropic.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgeR1ET3TMxFMvEtO_Y7uwn2IkTpbZPTrvaw_6bN2OvLaSviuRYpCtEI2MSixcCh3_GHe_bJ-OZtOmtNPwdTdmiv6Xk8wjo7J6-yGJSemHmxZ8LaZGgdnj1k6imuiJ2YFnR82i)
+[5] [github.blog](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmBfa6S-UVn-xC_ZxNDbnFCYsa1Z03XSONhSo_IPZIURyf2C6q403JHSHeinuANHz8a34Fp8e8kNxAlzBHqBDtQb_UY8bxGaFgwZ1X9MtfoU2ZG8GqviMUJFZ1fgS4HaoC0TABANSB3OIfw7KrJJ2XO_2kfb4hCZNdlQjR5b8nEZTKtYrC6mhonuZselWHZWnVwvXhcOefLej2B4YI)
+[6] [deepmind.google](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtpkD5OgPezY6ovnAaoJ2hkIf1yg09428NpgqesrhWCJTcylTZwbeF8IQlXw3L6UY0xhvKM-UtqfFFnkUSsenTR-uWKRTftNblaNogVvd7HPrM1ZewZPdCjZu-2806zEyk8JgVRfzmnzT9tPsilw5y)
+[7] [evolink.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiT5qO0uPMHzCEY4xd3R3H2hSEjz-PaS7iM1N4tH11yNaDuIOM7FxCZxSQYFT4DDnVim2o6oZ2MbCAKegAg1IGfB1fJ1U4mg1OZUKcjQ-HzhiJnPVNVpMSluxJ_rU8EMaGEWpdvoYvNO0S_ENElVE=)
+[8] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJ8fWv7dMlwGIWd8j6negJ72vw-cz-dVFuauGAfGsw2gDgEqzAT0eGWDQQMl5E2ycRmM0_0deBUU8NiQSELgUO1rHTh2wKOU_Cwj6OKTsePdpiq3PSxilsfq0fUEbFnR_mL1SpnUmqSDmt2Nro2zRJZHQemuuf)
+[9] [multiple.chat](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9AlPJIsOd0IBFbW___caOZgGVewoyBCSSi9rovAKF1rVaoXU4TR599pzfgsT0QvYseA2jUmrx30Yht8sWw3_a9DGvhgbPugzx6J3zGQIL_rF3AYYu1Q2zVcoFbg==)
+[10] [berkeley.edu](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEB4bMNd55ObatefKtjgsyf01Ye5QEhK73PKlkskl5VRdWbxnEV2nqBNqOn1O9CZ93ZP-BJt0qGTflTM1NmMcgXW2dRQAKJB79O0_4LOR4-UfO_PJXQenuc6jMSe9HhjPF7y03NozrS5RAJBAAt9v8Rzy-TM4_en8j17rHjo_PNpP7uuj_k)
+[11] [google.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGusIcpeK9usUPYr2ZJYfYeba8BbpoXNaHF_96KhaI40TwK9jReWJ4t5weXXU2cDXzbgHCW28yCRiCGCa_-KY34Kuf8Z8p26D02B1tWFl5TxLOpqVe8sxZKYU3F56eKE6HialbxmGJsN73UbLjmF_5LOgkli-sFOp47Qht23waqQM9fEVy4hA7kk80=)
+[12] [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlHfeufDFek6Ov2nPiDUgd9vR0GYJjWpJsP6Zdn_e2cxq69gq40natXpN9TxmKPAT-alCUKKMoAEhSxyTQuHZwJk7-z8Ah6Gt-j5a3RBva7chbOYWdh9zVHgmmMffObbk_)
+[13] [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdEWs1pHZ5P6Nn7RX5cA9HgoERhMIEaV7p_xUEYKRt72aZB-LXaFVX3u3P5L9groPUoxdWi78Rf_SHMTFikxy91Sdv8N3bDS2RmuqZ4IuDgz74fw-4UENvSIf4EzUvYQ==)
+[14] [secondtalent.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpWIXYA7nu2MVwlwdL75xbcrA0oj72ZqTPKElH4rBEfJeW_GYw3moflXnsLJdvqwjzxtd9Ad96eyKP3J5V6NH-bZ9ySI9HUQT-I4ixYsJ63JqXhrsNDvL-oUJUPIgNJftXJdbW42dZWuRO2AXS8JWGdPZ1xGwuWs3bPmKftl-L_ZX-nKAFfQ==)
+[15] [claude.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGC-8nCgbQaTkq9KyuEyz2vM6QZPTqSWO7J8ZeDYJUFDKpKaKsNWaSAgheE-8JstvKja4j-ZIFTs2-SY_1zRVnj6Up7nICje8EIrMcdC2tZoQRdruWjbuakQpn2kW2088R1IEh8pO7WRKU=)

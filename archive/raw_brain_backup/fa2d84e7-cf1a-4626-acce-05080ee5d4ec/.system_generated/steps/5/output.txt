@@ -1,0 +1,28 @@
+The search for "Intel Arc Battlemage laptop GPU VRAM specs 2025 2026" returned the following summary:
+The Intel Arc "Battlemage" (B-Series) GPU lineup, introduced in late 2024 and continuing into 2025/2026, primarily features discrete desktop graphics cards, though the architecture is also designed for mobile/laptop integration[1][2][3].
+
+### VRAM Specifications
+For the initial Battlemage B-Series desktop GPUs, the VRAM configurations are as follows:
+
+*   **Intel Arc B580:** Equipped with **12 GB GDDR6** VRAM on a 192-bit memory interface[4][5][6].
+*   **Intel Arc B570:** Equipped with **10 GB GDDR6** VRAM on a 160-bit memory interface[2][7].
+
+### Note on Laptop/Mobile GPUs
+While the initial launch focused on desktop cards, the Battlemage architecture (Xe2-HPG) is intended for a range of devices, including laptops[1][2]. 
+*   Current laptop offerings from Intel, such as the **Intel Arc 140V** and **130V** (found in modern Core Ultra processors), utilize integrated graphics rather than discrete Battlemage B-series chips[8]. 
+*   As of late 2025, specific discrete Battlemage mobile GPU models with dedicated VRAM continue to be discussed in the context of broader roadmap expansions, but the B580 and B570 remain the primary established configurations for the series[2][9].
+
+Reports regarding future, higher-end Battlemage models (sometimes speculated as B770 or potential "Pro" variants) have suggested possibilities for larger VRAM capacities—ranging from 16 GB to as high as 24 GB for productivity-focused models—though these remain subject to Intel's evolving product strategy[2][9][10][11].
+
+Sources:
+[1] [intel.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkx8wo8xInCRdsNk4sjx7pypCqj0yU4HOwi6uBtLl6RQKkwvgzmD-JjT4WBVzBvGPh6L-b8U4pqLvFy1OAdoexHZgW367-WS0CohklY-2pWRqxZRTDuYgPC29k1lM4EgwU4-0MuvCiL4dXgdOdiRdNVQQvW-lcHkM2XJM09dcEUgNyIM2_Aa5Eh1XJNytGrQ97EMtKtgscyPkF)
+[2] [tomshardware.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3mQ7yJW-G4PVrdp_Ik4PWWXB7n14QyIseJ7fYkzjxEVVpWZml8BBHgHQQ3hppObKTirWMqadwp_GtluUWAuoW6HEZDAG1aBJJvO0ugKdDjiUm2f9Hc7X44-dFo34AIKWD-nqkQ-w6RVwvjG2juW5ememNhfXKdvLQ48159Pggr4cweE9RCICjvb-jPrcgEZxleiJlRJxy1acx)
+[3] [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVi17g0XgXX4tf4rlQc16y3vIiNximMl4evCBJnBsEjBwnZ7aX5g4JwCxZRTBy2PMoOSj-6e4yAc7vXnPv1ik6HrGCiIJEG5H0XGh2KnoDM3fi6LYbS1_WW3WMbw==)
+[4] [techpowerup.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmgV7BsCoqNfum0SSZTRTpSA62qxC9f7rfU2R5OPoKN_jEQv9S7SealHReKwkew171IavXGZuzfZWQsqQexxrv4EjLotnk7g8g5noJPmc-WT3kQm6bR4OTatGUBL7-h9QaA5VAhZRzTRk=)
+[5] [intel.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPm9L9Oe2POrwNKvay9XczkatkYW_b7INIrVW83fTZGV7C8oMCZsjGDkJK-pUbKBmlvfingQD4lwdG_Qhcls1uDJv3LnFF5lxyYO0R3tlHGkFzxyaCCXHCcN2btkPwMHmS50-kwmV_kS3492EF4H5daui1x0VGL57yFqtviN6_-Moxqc44futjl1SyY27WoGRq5lKSN8reJYcpjc0=)
+[6] [intel.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkx8wo8xInCRdsNk4sjx7pypCqj0yU4HOwi6uBtLl6RQKkwvgzmD-JjT4WBVzBvGPh6L-b8U4pqLvFy1OAdoexHZgW367-WS0CohklY-2pWRqxZRTDuYgPC29k1lM4EgwU4-0MuvCiL4dXgdOdiRdNVQQvW-lcHkM2XJM09dcEUgNyIM2_Aa5Eh1XJNytGrQ97EMtKtgscyPkF)
+[7] [intel.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6nDekeIAad7WeAnTNgX49S3YLkTixKqwu1lrOMMyEoKmoJ0F472dInxtQ0Wz6gfXmfx0p8pLei4umTfS9l7VOvtEOGb2V8NhM-8Uxq39E94y7UMiRwdtyF1vf-Sp0hZdMCMRSZLQb2P6RVTkB9rbmCR09RWDIQUlDYuwz_tUSW3Z9xrCaNGjSxgjzk1d76s08dpa6PESxIUDoh4E=)
+[8] [intel.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjHeN9WqQimUOqWNONQFaD_J84tVq64nb4NirQDSqW7ttaEPqJpYkl1SXvcg0-W1irxx1fcOe8fgJ3gEG8Vie6ccbXR7toBp3zJNQ4sdYX9NIMNwLbi4qIscTQVSNBeLgKpsLZhvR7r_heMfJCztONN9vWkEGb7V2eenj3jnOQ6YZp4TSxlIBV_f__Yg==)
+[9] [videocardz.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZLdZ21eCVJZhEhvAkK9160kQPpPkNcW8USV0aNVHomDAzozGP5eTHJ_LHccW2WyEly_0VxrKAQ0XK0mHSbshyKtP4vZ3cg2VCWdt0InRlVF9heY_iqgpqwcDEvD3jJGw=)
+[10] [flowup.shop](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX71iReZM5W7eoN3dD3z3qUfQAs5gZ2ZMx_SElMQxSXz8oTeKOulriDakhMCqZWSGLNkiNYoh-I3WXHFrwipZ80KhjJ164JvmC8us0nwnIpeIJ_5hekXsVaRh_Quu_Yu2r8h2h0R91S3XvwebbSc-7daqlN6nfwMOx78LahXAhK0JadqsWK5s6Uy6pvh30agkTmLftoQEZj22_eYr-jCAhs-PpF_rfdH5zwDQr)
+[11] [tomshardware.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3mQ7yJW-G4PVrdp_Ik4PWWXB7n14QyIseJ7fYkzjxEVVpWZml8BBHgHQQ3hppObKTirWMqadwp_GtluUWAuoW6HEZDAG1aBJJvO0ugKdDjiUm2f9Hc7X44-dFo34AIKWD-nqkQ-w6RVwvjG2juW5ememNhfXKdvLQ48159Pggr4cweE9RCICjvb-jPrcgEZxleiJlRJxy1acx)

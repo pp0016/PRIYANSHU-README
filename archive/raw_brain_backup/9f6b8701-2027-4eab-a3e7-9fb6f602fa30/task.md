@@ -1,0 +1,5 @@
+- `[x]` Phase 1: Account "2017 Priyansu Prajapati"
+  - `[x]` Compare local compressed folder with Google Drive folder
+  - `[x]` Delete matching files from Google Drive
+- `[x]` Phase 2: Account "Education with Toddlers"
+- `[x]` Phase 3: Account "Goal Air Force"

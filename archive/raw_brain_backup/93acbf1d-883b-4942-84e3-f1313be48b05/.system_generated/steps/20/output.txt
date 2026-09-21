@@ -1,0 +1,7 @@
+Title: Compressor User Guide - Apple Support
+
+OG Description: The Compressor User Guide is the official manual covering how to use Compressor, Apple’s audio and video transcoding application for Mac.
+
+The full content of the article at https://support.apple.com/guide/compressor/transcode-batches-with-multiple-computers-cpsr98d89e90/mac has been saved to: C:\Users\renu5\.gemini\antigravity\brain\93acbf1d-883b-4942-84e3-f1313be48b05\.system_generated\steps\20\content.md
+
+You can use the view_file tool to read specific sections if needed.

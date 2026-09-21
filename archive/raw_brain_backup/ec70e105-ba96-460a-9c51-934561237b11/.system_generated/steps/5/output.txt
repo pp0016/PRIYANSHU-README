@@ -1,0 +1,21 @@
+The search for ""Pinwheel" kid phone annual revenue OR profit OR financials OR valuation" returned the following summary:
+It is important to distinguish between two different companies frequently referred to as "Pinwheel":
+
+### 1. Pinwheel (Kids' Phones)
+This company, founded by Dane Witbeck in 2019 and based in Austin, Texas, specializes in smartphones and smartwatches designed for children.
+
+*   **Financial Status:** It is a **privately held company** and is not publicly traded. 
+*   **Profitability:** As of June 2026, the company's CEO, Dane Witbeck, stated that Pinwheel is **profitable** and has been for two years.
+*   **Revenue & Growth:** While exact, up-to-date annual revenue figures are not publicly disclosed, the company has demonstrated significant growth, reporting that its revenues increased by approximately 2.4X over the three years leading up to 2026. It was named to the *Inc. 5000* list of fastest-growing private companies in both 2024 and 2026.
+*   **Funding:** The company is venture-backed. It raised $3.5 million in a seed funding round in 2022.
+
+### 2. Pinwheel (Fintech/Payroll API)
+The other company, often simply called "Pinwheel" or "PinwheelAPI," is a New York-based financial technology company that provides a payroll data connectivity platform.
+
+*   **Financial Status:** It is a **privately held company**.
+*   **Funding & Valuation:** It is a well-funded startup, having raised $84 million in total funding. Its last reported major funding round was a Series B in January 2022. Some market data aggregators (such as Caplight) have estimated its valuation at approximately $500 million, though this figure is an estimate for a private company and not a public market capitalization.
+*   **Business Model:** It is a B2B2C company that provides APIs for payroll and income verification to other financial institutions.
+
+***
+
+**Note:** You may also encounter search results for "PINWHEEL FINANCE LIMITED," which is an unrelated public limited company registered in India. This entity should not be confused with the U.S.-based technology companies mentioned above.

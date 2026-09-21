@@ -1,0 +1,6 @@
+{
+  "summary": "Completely rebuilt vidIQ AI Coach prompt using prompt-forge CREATE mode. This version is OPEN-ENDED — it does NOT feed vidIQ any pre-defined niche list. Instead, it asks vidIQ to use its own data to discover which YouTube topics/content types get abnormally high retention, views, and engagement. Uses one example (ghost caught on camera) only as a reference point for the TYPE of content the user means. Asks vidIQ to think beyond the obvious, include hidden performers, cover Hindi + English + language-agnostic data, flag monetization risk, and output a big discovery list ranked by performance. Costs only 10 vidIQ credits.",
+  "updatedAt": "2026-09-01T21:46:20.147270600Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

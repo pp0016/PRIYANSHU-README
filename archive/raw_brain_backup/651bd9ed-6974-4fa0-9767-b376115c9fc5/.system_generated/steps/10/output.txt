@@ -1,0 +1,109 @@
+
+The command exited with code 1.
+Output:
+<truncated 21 lines>
+|    260         except EndSceneEarlyException:                               |
+|    261             pass                                                     |
+|    262         except RerunSceneException:                                  |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\purpose_manim.py: |
+| 150 in construct                                                            |
+|                                                                             |
+|   147             char.start_walking()                                      |
+|   148                                                                       |
+|   149         # Scene progression (10 seconds total)                        |
+| > 150         self.wait(2)                                                  |
+|   151                                                                       |
+|   152         # Look around (looking up, right, left)                       |
+|   153         self.play(char1.eye_offset.animate.set_value(0.15), run_time= |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\scene\scene.py:1250 in wait                                     |
+|                                                                             |
+|   1247         :class:`.Wait`, :meth:`.should_mobjects_update`              |
+|   1248         """                                                          |
+|   1249         duration = self.validate_run_time(duration, self.wait, "dura |
+| > 1250         self.play(                                                   |
+|   1251             Wait(                                                    |
+|   1252                 run_time=duration,                                   |
+|   1253                 stop_condition=stop_condition,                       |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\scene\scene.py:1207 in play                                     |
+|                                                                             |
+|   1204             return                                                   |
+|   1205                                                                      |
+|   1206         start_time = self.time                                       |
+| > 1207         self.renderer.play(self, *args, **kwargs)                    |
+|   1208         run_time = self.time - start_time                            |
+|   1209         if subcaption:                                               |
+|   1210             if subcaption_duration is None:                          |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\renderer\cairo_renderer.py:73 in play                           |
+|                                                                             |
+|    70         self.skip_animations = self._original_skipping_status         |
+|    71         self.update_skipping_status()                                 |
+|    72                                                                       |
+| >  73         scene.compile_animation_data(*args, **kwargs)                 |
+|    74                                                                       |
+|    75         if self.skip_animations:                                      |
+|    76             logger.debug(f"Skipping animation {self.num_plays}")      |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\scene\scene.py:1331 in compile_animation_data                   |
+|                                                                             |
+|   1328         self.duration = self.get_run_time(self.animations)           |
+|   1329         if len(self.animations) == 1 and isinstance(self.animations[ |
+|   1330             if self.should_update_mobjects():                        |
+| > 1331                 self.update_mobjects(dt=0)  # Any problems with this |
+|   1332                 self.stop_condition = self.animations[0].stop_condit |
+|   1333             else:                                                    |
+|   1334                 # Static image logic when the wait is static is done |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\scene\scene.py:393 in update_mobjects                           |
+|                                                                             |
+|    390             Change in time between updates. Defaults (mostly) to 1/f |
+|    391         """                                                          |
+|    392         for mobj in self.mobjects:                                   |
+| >  393             mobj.update(dt)                                          |
+|    394                                                                      |
+|    395     def update_meshes(self, dt: float) -> None:                      |
+|    396         for obj in self.meshes:                                      |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\mobject\mobject.py:955 in update                                |
+|                                                                             |
+|    952                 non_time_based_updater(self)                         |
+|    953         if recursive:                                                |
+|    954             for submob in self.submobjects:                          |
+| >  955                 submob.update(dt, recursive=recursive)               |
+|    956         return self                                                  |
+|    957                                                                      |
+|    958     def get_time_based_updaters(self) -> list[_TimeBasedUpdater]:    |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\mobject\mobject.py:949 in update                                |
+|                                                                             |
+|    946         for updater in self.updaters:                                |
+|    947             if "dt" in inspect.signature(updater).parameters:        |
+|    948                 time_based_updater = cast(_TimeBasedUpdater, updater |
+| >  949                 time_based_updater(self, dt)                         |
+|    950             else:                                                    |
+|    951                 non_time_based_updater = cast(_NonTimeBasedUpdater,  |
+|    952                 non_time_based_updater(self)                         |
++-----------------------------------------------------------------------------+
+TypeError: KurzgesagtCharacter.walk_update() takes 2 positional arguments but 3
+were given
+cp : Cannot find path 
+'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\media\videos\purpose_manim\1080p60\PurposeScene.mp4' 
+because it does not exist.
+At line:1 char:128
++ ... rposeScene; cp "media\videos\purpose_manim\1080p60\PurposeScene.mp4"  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\renu5\...urposeScene.mp4:String) [Copy-Item], ItemNotFoundExce 
+   ption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+

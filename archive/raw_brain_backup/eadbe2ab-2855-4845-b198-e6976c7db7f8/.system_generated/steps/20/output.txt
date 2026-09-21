@@ -1,0 +1,14 @@
+
+The command exited with code 1.
+Output:
+C:\Users\renu5\.gemini\antigravity\scratch\micro-print-env\Scripts\pip.exe : The term 
+'C:\Users\renu5\.gemini\antigravity\scratch\micro-print-env\Scripts\pip.exe' is not recognized as the name of a 
+cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify 
+that the path is correct and try again.
+At line:1 char:1
++ C:\Users\renu5\.gemini\antigravity\scratch\micro-print-env\Scripts\pi ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\renu5\...Scripts\pip.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+

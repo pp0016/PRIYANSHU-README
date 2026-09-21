@@ -1,0 +1,22 @@
+The search for ""doakey3/GreaseWriter" github" returned the following summary:
+**GreaseWriter** is a Blender add-on created by `doakey3` designed for auto-animating Grease Pencil strokes and emulating the appearance of hand-drawn text[1][2].
+
+### Key Features
+*   **Hand-Drawn Emulation:** The tool creates animations that mimic the natural flow of writing[1][3].
+*   **Reanimation:** It allows you to select existing Grease Pencil objects and automatically animate the strokes in the order they were created[3]. It includes pauses between strokes to make the animation feel more like genuine human writing, distinguishing it from the standard Blender "Build" modifier[3].
+*   **Text Writing:** It features a UI within the scene properties window where you can input text or load a text file and use the "Write" function to generate the writing animation[4].
+
+### Installation
+1.  **Download:** Go to the [GreaseWriter GitHub repository releases page](https://github.com/doakey3/GreaseWriter/releases) and download the latest `.zip` file[5][6].
+2.  **Install in Blender:**
+    *   Open Blender and navigate to **Edit > Preferences > Add-ons**.
+    *   Click **Install...** and select the downloaded `.zip` file[6].
+    *   Enable the add-on by checking the box next to "Grease Writer" and ensure you click **Save Preferences**[6].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNnIfldJL6U04v1pVKu40wnZ2fsTvzhWJnE1Qo19EP3HNGQp1PbC_bqgiOogegtEFKDf1-VPsNluIK_eAVBtAjcZxVgm-9ioA8nCaC3zj-AF7KtHHxxeMguiR6s3Q=)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrf8DXdi5Nj77giPZz3Kn3jpy7g5y5wJu1VmpxJ6fFWRBSfkLO2oCkIv1Q9H1OPQoDdUPbaweVhuPBL0_Dk1dCIgDu8enJW96eqv7s2gFdhHaLW6V3P6sj5xDzktcBlktr6gFJxKfFuVAZfOMXhZKkeddCzLuPfmIw8DnFpw==)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNnIfldJL6U04v1pVKu40wnZ2fsTvzhWJnE1Qo19EP3HNGQp1PbC_bqgiOogegtEFKDf1-VPsNluIK_eAVBtAjcZxVgm-9ioA8nCaC3zj-AF7KtHHxxeMguiR6s3Q=)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNnIfldJL6U04v1pVKu40wnZ2fsTvzhWJnE1Qo19EP3HNGQp1PbC_bqgiOogegtEFKDf1-VPsNluIK_eAVBtAjcZxVgm-9ioA8nCaC3zj-AF7KtHHxxeMguiR6s3Q=)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL1n4nmj4kxpsjz8eXUhTUd3ALHIAArSjVUyALoFEXfAa41362Fnvzqqkd5bcIURjL9rS9_ksH9xLXxjOe7s6ZfFk7D8vUTiU4srPqyB6HFhQqjXcmNTLBJM0F6ickpchcxvcC3XU=)
+[6] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNnIfldJL6U04v1pVKu40wnZ2fsTvzhWJnE1Qo19EP3HNGQp1PbC_bqgiOogegtEFKDf1-VPsNluIK_eAVBtAjcZxVgm-9ioA8nCaC3zj-AF7KtHHxxeMguiR6s3Q=)

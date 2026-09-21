@@ -1,0 +1,33 @@
+The search for ""blender" "grease pencil" "whiteboard" animation script github" returned the following summary:
+For creating whiteboard animations in Blender, you generally do not need a specific "script" from GitHub, as the functionality is built directly into Blender's **Grease Pencil** tool and the **Build Modifier**[1][2][3].
+
+### How Whiteboard Animation is Typically Done in Blender
+The standard professional workflow for this effect involves a few core steps rather than an automated script:
+
+1.  **Grease Pencil Drawing:** You use the Grease Pencil tool to draw your artwork directly in Blender[1][2]. Blender automatically records the timing and order of your strokes[2].
+2.  **Build Modifier:** This is the "secret" to the whiteboard effect[2][3]. By adding a **Build Modifier** to your Grease Pencil object, Blender will automatically animate the drawing process, making the lines appear as if they are being drawn in real-time[2][3].
+3.  **Hand Animation:** To complete the effect, you can parent a small image of a whiteboard marker or a hand to a path that follows your strokes, or simply use the Build Modifier’s settings to control the speed and appearance[2][3].
+
+### Why You Might Not Find a "Script"
+While Blender has a powerful Python API for automation[1][4], most whiteboard animations are highly customized to the specific artwork, making a "one-size-fits-all" script less effective than using the built-in modifiers[2]. 
+
+If you are looking for tools to speed up the process, you may want to look for:
+*   **Storyboarding Add-ons:** Tools like *Storypencil* or other storyboarding add-ons are often hosted on GitHub[5]. These help with the planning phase of your animation but are not specifically for the "whiteboard" effect itself[5].
+*   **Geometry Nodes:** Modern whiteboard-style effects in newer versions of Blender (4.x+) often utilize **Geometry Nodes** to create more complex, procedural drawing effects, which can be shared as `.blend` files rather than Python scripts[6].
+
+### Recommended Learning Resources
+Instead of looking for a script, searching for these tutorial keywords will lead you to the most effective workflows:
+*   *"Blender Grease Pencil Build Modifier tutorial"*[2][3]
+*   *"Whiteboard explainer animation Blender"*[7][8]
+
+If you have a specific technical requirement (such as bulk-converting many images to Grease Pencil strokes), you might search specifically for **"Blender Python image to grease pencil converter"** on GitHub, as that is a common task where a script is actually useful.
+
+Sources:
+[1] [designdirectory.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYSW8WVTYf5lcTszSug5vnNXriNwSHa2_1Yq9rHorbEttAnkluRDqS1H_X_V2FNb3f_gQSSANMgbHATHZiWqBkL66p8TppgAB1H-MV71j-83IGo5GrB2dG-A==)
+[2] [blenderartists.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG50cEeZ2B5Q62p5nKLLCT5wlLoAqcLJzf2cFjELudkhEdodBnPNQ8vyFW8EyjQ7wcmx1PbBpHDRTAjI6HuzrIXj2wB4pWhBhqJInX5Mvv0aq3crrWG0lSsB_7Tax5CaxXydqy8l16m8qH41vzpKwG5xH5pj27O6jY=)
+[3] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQQHH5sS6at9vYyq6bowp-XEkOz3hBpeuCLEK35fSzvo_9TN1Tue2d9jEaZrHHNDMR-FCs98o0vfV8sXT7Sil40U0y-S8dMVFiJfSOm6iZgRSwG0DChR2bcGtB6eOII7E=)
+[4] [designdirectory.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYSW8WVTYf5lcTszSug5vnNXriNwSHa2_1Yq9rHorbEttAnkluRDqS1H_X_V2FNb3f_gQSSANMgbHATHZiWqBkL66p8TppgAB1H-MV71j-83IGo5GrB2dG-A==)
+[5] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpw_dFR_94RyUqJrYCSyOZrJqpmgc_OmxYot8O-PSfo8joLooXrGmpDgscn6Q5o8WDCJAYjxlDbEalUFo7C6IBCObn4JQEzQP5fkhEwBUDJXGlXn1UJbfg2vmR__QH_5U=)
+[6] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_wCdcM1cr5kUzVoc9phy5qCC-cJXnKF4nNV_ANz-KofAAuvguzU3aUJun6cgHCvkAN05Am88GPhPLFFvnHJ8eCGxwl9qZDOpoWOIxjJa7Z-2DaEAn970Kcllk18k2wWg=)
+[7] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4my5JC_kMgBib-lWjyOITmnYLU68ibcQ2VRCnLUFoUf5C0kmaBFbuDnGNq0P5_PHjii4kQz9F23BdnQtD0MjC7liuVKJ-0R3gHR-4mUp8yMOkAcXKQpC2T-nNnKdYGE8=)
+[8] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4i47qQGziETyjXHeaLDPxiWBYCMYJdQoaXSRRTZARbK4XD4_hSlIs6Rnc92SzgK6wFmoM0Yuu-mcxo2vF5TPoCXcx6XR8CFcEzDvGp-pI1UwrYj0VFW3ooOlUD82QDs=)

@@ -1,0 +1,28 @@
+The search for "quantization evolution GPTQ AWQ GGUF BitNet 1-bit models VRAM savings quality loss 2025 2026" returned the following summary:
+The landscape of Large Language Model (LLM) quantization in 2026 is defined by a mature ecosystem of specialized formats and a push toward extreme efficiency with 1-bit models. Quantization has evolved from a niche optimization into an essential "enabling technology" that allows powerful models to run on hardware that would otherwise be unable to support them.
+
+### **Dominant Quantization Methods (2026 Overview)**
+Current quantization methods are generally categorized by their deployment use case rather than just their mathematical approach.
+
+*   **GPTQ (Generative Pre-trained Transformer Quantization):** A mature, CUDA-first approach. It performs one-shot weight quantization using a calibration dataset and second-order information (Hessian matrix) to compensate for errors. It remains a standard for high-throughput server deployments on NVIDIA GPUs.
+*   **AWQ (Activation-aware Weight Quantization):** Known for its superior quality retention (often 95%+ of FP16 quality at 4-bit) by protecting "salient" weights (the ~1% of weights with the highest activation magnitudes). In 2026, it has largely closed the hardware support gap compared to GPTQ and is a preferred choice when quality requirements are stringent.
+*   **GGUF (GPT-Generated Unified Format):** The gold standard for flexibility. It is designed for `llama.cpp` and its ecosystem (Ollama, LM Studio), enabling inference across CPUs, consumer GPUs, and Apple Silicon. It is highly optimized for on-device and local machine use, supporting features like layer-wise CPU/GPU offloading.
+*   **1-Bit Models (BitNet / b1.58):** Represent the "extreme" frontier of research. Unlike traditional methods that compress FP16 to 4-bit, BitNet utilizes ternary weights ({-1, 0, +1}), effectively operating at ~1.58 bits. While they offer massive theoretical savings in VRAM and energy, practical application is still evolving, as these models often require specialized training or fine-tuning from scratch rather than simple post-training quantization.
+
+### **VRAM Savings vs. Quality Loss**
+Quantization offers a massive return on investment, typically trading minor, often imperceptible, quality loss for significant memory efficiency.
+
+| Precision | VRAM Savings (vs. FP16) | Typical Quality Impact | Best Use Case |
+| :--- | :--- | :--- | :--- |
+| **8-bit** | ~50% | Negligible (<1%) | High-accuracy requirements |
+| **4-bit** | ~75% | Moderate (1–5%) | Standard for most local/server inference |
+| **3-bit** | ~80%+ | Noticeable (8–15%) | Extreme memory constraints |
+| **1-bit/2-bit** | ~90%+ | Significant degradation | Research/Highly specific, small-scale tasks |
+
+*   **The "Sweet Spot":** For most users, **4-bit quantization (specifically Q4_K_M in GGUF or equivalent AWQ/GPTQ configurations)** remains the industry sweet spot, providing a near-optimal balance between VRAM savings and model intelligence.
+*   **The Outlier Problem:** Modern research focuses heavily on managing "activation outliers." Because activations change dynamically during inference, simply rounding them often destroys model precision. Advanced techniques (like AWQ) effectively handle these outliers, which is why 4-bit quantization is now often considered "near-lossless" for most general-purpose chat and reasoning tasks.
+
+### **Trends in 2026**
+*   **Beyond Weights:** As context windows grow, the **KV Cache** has become a larger memory bottleneck than the model weights themselves. Modern serving architectures (vLLM, SGLang) now natively support FP8 or INT4 quantization specifically for the KV cache to keep long-context performance stable.
+*   **Hardware-Aware Optimization:** There is a strong trend toward "hardware-matching" kernels. For example, AWQ models using the **Marlin kernel** can achieve significant speedups, while GGUF is favored for its portability across diverse hardware architectures.
+*   **1-Bit Reality Check:** While 1-bit models (BitNet) are highly efficient, they are not yet a direct, drop-in replacement for 4-bit/8-bit models in all scenarios. They are currently challenging the fundamental assumption that models must use floating-point numbers, though they still struggle with the "precision gap" required for complex, precision-heavy tasks like advanced mathematics or specialized translation.

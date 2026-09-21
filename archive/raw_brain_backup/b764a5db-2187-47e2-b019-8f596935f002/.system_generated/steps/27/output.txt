@@ -1,0 +1,1 @@
+Encountered error in step execution: Failed to fetch document content at https://www.apple.com/in/shop/go/product/CWV93HN/A: failed to get URL https://www.apple.com/in/shop/go/product/CWV93HN/A: status code 404

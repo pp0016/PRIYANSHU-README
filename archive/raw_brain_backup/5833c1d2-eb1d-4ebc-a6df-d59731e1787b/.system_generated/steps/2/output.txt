@@ -1,0 +1,25 @@
+The search for "github remotion whiteboard" returned the following summary:
+There is no single official "Remotion Whiteboard" library on GitHub, but Remotion is widely used by developers to build **programmatic whiteboard-style animation pipelines**[1].
+
+If you are looking for resources related to whiteboard animations within the Remotion ecosystem, here is how you can find them:
+
+*   **Custom Implementation:** Most "whiteboard" effects in Remotion are built using custom React components that animate SVG paths[1]. You can achieve this by tracing SVG paths and using Remotion's timing functions to "draw" them over time[2][1].
+*   **Template Repositories:** Several open-source repositories on GitHub provide Remotion templates and components[3]. You can search GitHub for topics like [remotion](https://github.com/topics/remotion) or [whiteboard-animation-videos](https://github.com/topics/whiteboard-animation-videos) to find community-made projects[2][4].
+*   **Agent Skills & Libraries:** Because Remotion is increasingly used with AI coding agents (like Claude Code), many developers are creating "skills" or "templates" that include hand-drawn or whiteboard-style animations[5][6][7]. Projects like `ali-abassi/remotion-templates` contain curated collections of reusable components that may include the styles you are looking for[7].
+
+### How to get started:
+1.  **Explore the Remotion Resources Page:** The official [Remotion Resources](https://www.remotion.dev/resources) page lists many community templates and animation helpers that are excellent starting points for custom graphics[3].
+2.  **Search GitHub Topics:** Use the following links to browse related projects:
+    *   [Remotion GitHub Topic](https://github.com/topics/remotion)[4]
+    *   [Whiteboard Animation GitHub Topic](https://github.com/topics/whiteboard-animation-videos)[2]
+3.  **Build with AI:** If you have a specific whiteboard animation in mind, you can use an AI coding agent to generate the React component for you, as Remotion is highly compatible with AI-assisted development[6][8].
+
+Sources:
+[1] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEljWb5MuM3aLjx1vjDgi5fDNK1_Eq6KFyuXKx3fg6bHO934uWqrE7ChgmSW8k189DjjLqLabdLQ6JjD2ftWQyHNkvz05J8PsHZJACeSTn8j76_E1Iy6a9ZtVqVd6Lwvq24QqCr8PGDGZx0FBcTMsYqxjWtl4ijFyZ6rUEX-WWEa8Wi4eeGTnyyDNk-IJB3DSYe3ECYQG7x)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvVCnlBEeVCicXwYpULMwE-a8Q1svXoF74U83BXoeRtJlN6s4pZpzvscB4xPqVkqyKQ0YZZg3a0lTCoVSpNBBJMhYs6-bIOCzgwZCbvGZcmNL0YsNAAq5aA7hg9JQAnRYKOVwbAH2DpYAmhQ==)
+[3] [remotion.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFi_DwqTpcZL-elhkfCEp6zWIPWhy1TwgO3Yt3-1IiGXbsSMsg9LINkGMoQjzHan3OksP1ACbpjVTa_k3p9-tCAlWJEhjCOiYdm_le18QWnkgT7fZc2X7qwng2Q9G0=)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVgoDvU9mDBWgGV3xni9PjYp5KOkS8ENk3VdB4shSqh6Ubu65yb2U4U0tpfusEjV8pSBr1giHhGFLKwb_HDbwRZBr8-epigaWBexARg-S5ozESQp2EPjgyyaCvi90Zbu37LA==)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8r_eMDLcEyPtpD0MBaQsI4SN0BLUSuUUGkDig23IJNA6CqHsJ5SgrRIPvH21Tx3rwyT-AJ-L0hA4t4t2tGiWrLuTQ6O-K-MziQKW2ckWmIbbMRoo1tBw2wpBuaf90a5uYLr1r6D4=)
+[6] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKngaxFyXyND68C0zg75op7MSRhfKOIXfop6Er8LTnTUHAwx_8-RJeQFikjY3gJw5Kh6vqgSvTEV0BzXEx6kzxwfHhxDUb1-Wkigp2f1Lo9skW1QT053-QfrG-VX7WXSPX)
+[7] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfJE2O4Suz0cJs5EYBUyNDgu2JPp0jR_BYAn_pxhRUJQK4c9stAOJWmdt_tAx3G8LtqXiSJ7x4jbgIcof6KBmaXI7PMrZofnEYslERkv4UNrjgfKQ_wgMMu1wUDJW3tj-g5nFqWEw=)
+[8] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3Mw3pEuilkMzb5l_7lE73vXnWRs156_MUN2lFejy708ysL-fQdlsD9oW-paFk4mCqPZkilqNgo6sJGuGYzKxhLc6eTtdzpfm23ISAy7SvO7ySW_yKaou7eFjSd-T5q8Hk)

@@ -1,0 +1,24 @@
+The search for ""YouTube" "monetization threshold" 8000 watch hours OR doubling" returned the following summary:
+YouTube has announced an update to its **YouTube Partner Program (YPP)** eligibility requirements, which will take effect on **February 1, 2027**[1][2][3].
+
+### Key Changes
+Starting February 1, 2027, new creators applying for the full ad-revenue and Premium revenue-sharing tier of the YouTube Partner Program will face higher thresholds[1][2]:
+
+*   **Watch Hours:** The requirement will increase from 4,000 to **8,000 qualified public watch hours** in the previous 365 days[1][2].
+*   **Shorts Views:** The requirement will increase from 10 million to **20 million qualified Shorts views** in the previous 90 days[1][2].
+*   **Subscribers:** The threshold remains unchanged at **1,000 subscribers**[2][3].
+
+### Important Details
+*   **Grandfathering:** Creators who are already part of the YouTube Partner Program before February 1, 2027, will be "grandfathered in" and will not lose their monetization status due to these higher entry requirements, provided they remain active[1][2][3]. Existing partners must accept the updated terms in YouTube Studio by January 31, 2027[2][3].
+*   **Current Rules:** Until the new policy takes effect on February 1, 2027, the current thresholds of **4,000 watch hours** or **10 million Shorts views** (along with 1,000 subscribers) remain in effect for new applicants[4][5][6].
+*   **Lower Tiers:** The entry thresholds for Fan Funding (e.g., Channel Memberships, Super Chat) and Shopping features remain unchanged[7][2][8].
+
+Sources:
+[1] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEszPqIgd_d9a9EpUnL9X_k3AQvOMt3gd8vGmB8Zc393dvbjZQ1qXQnyBTMN4vhZrNN0Gda6tKZ82SxNM6Lh71gvrV_zMxBbY2xSxCeJkNDPlE4-pxdXATkyOTgU1Chtxc=)
+[2] [forbes.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhj4BvrzjX6UkRv9Kgu-pGXJPXv2mtV2w7w49NJPp-ZFOyY0orIbGB7I8RVQaM1lH0QmYIvWGF_dsdx8rgIDk93Qqb_qfRj7KZssca7Pc1a1a5Lz1di1085wQ0hHECvrYrQf_bbrYTc-0xNPuwd_sVqmMxosXR-Nobq8HHc4W5a6WJ6qj3r6L4mHQ3c4RhI2ve5vY-Tcd0z0lJ_ZmhLTcWxVSBzp_xzhw=)
+[3] [facebook.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1T9M3UnI_abBBb3lX6JL5uQf4A1LBNevfwbwUDlvidUN7AY9I0p_kFoekBr1CAulU52z4Zgw2HbrgszGVPU66kg3IPoXmw_32iDfNwIRUf0IZIXWz9DcXL1lwEvzAtA_S-06F1mCmoSEXD5qPrPTfGsmmEbeK_AEAPUiNHauaiGFkQV1DtrTYrtrInkVdMnk3Ow==)
+[4] [facebook.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6aYPnQTlTP4qQK6LxybwfzfpC6bYI29V9HZGjSwUWZF-qblx9hI0DtMZz8sVv8k0XeOxek4KPiN9RivI9HsqWwfmPhHTlc875_4_wiL8jW_Xv0MXQvIY9KI8-zdZv9Js13rPIHYNVWRdt2KGbaaoQ81mfBgFBAUlBjEzzC2ot014S_2Sr66z98CrcVIaFCDhXZaBSHDkU3UeXUn7PrYA=)
+[5] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE12iWNLZnZJU431zT9kWEUHt-ZUFslwZquGeQDpNMBQWccGMc3X1RRAArlRlHxeJechrUgCBZLAEykoEKj2mu3ihnAcMj7fk2iCalC9tIZoO-CNepU_FTcLhKnuYJrjReJuQimb2ciB8pwEEquvRi4RtorEHJcAXDFED6rz2E01V2TUXhhks9vyGgRuCcNSQcXsTc=)
+[6] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExx6lmyHNRVXKh9jzW12O0Gi5fi-09sN2IW-3qDgLs918tJWviUkw8VqtZ4b5GSHItiDOu1_DM36zqECGI5JgfLOW0Y7Toa_z5gxeax6lChN1FTQgwH5ognTP-x-Nm1ipp)
+[7] [blog.youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjCCjblq7KHb9txXZ10LDXXgOMHeQ9iTMYLQep5ES9zuaba4_vGvPuYxW2snoa_CvDA53eSJco3MtrA3K5LWELvd8AesyGxkUmjAdJjJGW0G_mlXtOQvmEbvYe9tFmqQhqnN2D3B6K1EJFd3ZrQMK3KjkIqL0_MRgn4Gf-T3mK2VnhOWBqfRJb-6HgAC2-x7EZztx8pD2U)
+[8] [blog.youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjCCjblq7KHb9txXZ10LDXXgOMHeQ9iTMYLQep5ES9zuaba4_vGvPuYxW2snoa_CvDA53eSJco3MtrA3K5LWELvd8AesyGxkUmjAdJjJGW0G_mlXtOQvmEbvYe9tFmqQhqnN2D3B6K1EJFd3ZrQMK3KjkIqL0_MRgn4Gf-T3mK2VnhOWBqfRJb-6HgAC2-x7EZztx8pD2U)

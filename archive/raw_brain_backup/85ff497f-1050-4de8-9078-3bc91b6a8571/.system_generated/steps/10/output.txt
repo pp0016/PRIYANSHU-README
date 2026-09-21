@@ -1,0 +1,16 @@
+The search for ""apple.com/in/shop/buy-mac/macbook-pro" "From ₹" OR "₹169,900" OR "₹1,69,900"" returned the following summary:
+The price of a MacBook Pro on the official Apple India website varies based on the configuration, model (14-inch or 16-inch), and chip selection (e.g., M5, M5 Pro, M5 Max)[1][2][3].
+
+While your query mentioned specific price points, current listings for the latest MacBook Pro models show various starting prices, such as:
+
+*   **Financing Options:** Some configurations are listed with monthly installment options starting from approximately **₹80,817.00/mo**[1][4] or **₹90,483.00/mo**[3] depending on the specific model and specs.
+*   **Full Price Examples:** Certain high-end configurations are listed at **₹2,99,900.00**[5].
+
+To see the exact price for your preferred configuration, please visit the official [Apple India MacBook Pro Buy page](https://www.apple.com/in/shop/buy-mac/macbook-pro). You can select your desired chip, memory, storage, and display options there to see the final price in ₹[5].
+
+Sources:
+[1] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs21wEjc8tCIkRVVx9Vdk4q3DkMtWD3rJnye98nbDrE6LY-W7Ujt7QExQF8_WeKj14xhJL4Ew1PFiGHIm5Fg8YSpPki0_Twi_nX6W8wILl0SL9ICbMh3Uak26qFodoEHWF7artKHwwzwGRqWNnrMnwDJwZ7y7uN4Qvg3HWNf539D5qTJBAcXDEBT_D97mvRUPow2vdpe02NWsNrq_ruNu_KOeYcpjbfDRfytfluuQkjoE0zBdTPeFXIbOmoQbeS3pZyPzqTJBplaM=)
+[2] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgMGSqTxI0ZB7jADdP_L-F28yeOFrOHO-hW76bnLsYOpovtR_LjYCQyfNkcrdNTWi8NEligEo5o_4ddEAakJdnK6K2KFoRzz8zl27pDF0eTXvdwqu1ZeOp5-eLDRgEIv56sFizgzK1xUiDJ0squGCtEVVfiYf3EFtFhj9FwGIT749jKz-FicI9C7vA1SLpJhSY7WgO9nzViCJUMrvAhN7hI40-2vHLm32A91bpt9-Ct92pGy2E10mSf98JUV0BUw9u1n0FXSq4x4XTmWHwBQ==)
+[3] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUkTqkpDGG1SiK7toXHDesy8RgFdPAwCKc47DwWfPUpTNxC5eKJUkWH_3aapm_gUC_0TlvflxTBEOzwiYQXJn8CE7Dd4GXP-ACaeFM1ZTVWNPDPANsJ7uQ80D2oJWxFcjcx8k3ZmeHAt-ecT34f3wcBcvW29REoxdcIWMs25y8xSRLaKFfW6dw9odp76KJr0p6sNoz6SoBo-LFPig-rviXy2kW9ArPsEKv9_0XTPDZHIrcZ4LCesye-h6FJMzHIU3Za5rECcGn_EoAfXlY)
+[4] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbsqdlY7kzsPVfEqmw7-Xs-xGAuH8A0U6zKFqoLScqoaTN_qHNhzdyANre8tAbn_EOdbCZkfjbJtA1HwvAbXLRjMkaULTiBim6QdhrwgUeTSeysXqPVkIsDWHxpQiERWj5h0AtBisLFSn4d_4fTZVTW2DXvKknn2xJNJpaGtZxLmFD3Y47XT5HHM5Xb_vkSjfYZCGa3EcfazuqfhP8gJpujq1Y86jpcQ9WCd5QHADe1ez_GcSN9Pnd-7j44asuRHlSKtj632HMCXRuOkFn3g==)
+[5] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2DIr3BvzQM5cwhMX9U5YOxtUVUe9cMowDN7T9nbTFkkNLG5y3JkYIT9bXEBQyuZv3AdbhcqmcTte8CdzUCJm6mgRdGSyUYAh1LYiGm-KncgsaIZqwJWl6vFiuB3i634XH5bgxCE73kKke9HTjq9Bsb_p68X8=)

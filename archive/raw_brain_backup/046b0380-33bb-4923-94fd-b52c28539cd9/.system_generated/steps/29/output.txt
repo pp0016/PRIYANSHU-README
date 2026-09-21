@@ -1,0 +1,26 @@
+The search for "embedding model VRAM requirements local 2025 nomic-embed all-MiniLM RAG pipeline" returned the following summary:
+For a local RAG (Retrieval-Augmented Generation) pipeline in 2025, embedding models like `nomic-embed-text` and `all-MiniLM` are highly efficient and have very modest VRAM requirements compared to the generative LLMs (e.g., Llama 3, Qwen 3) that typically accompany them in the stack.
+
+### VRAM Requirements Summary
+
+| Model | Estimated VRAM Usage | Notes |
+| :--- | :--- | :--- |
+| **`nomic-embed-text`** | **~0.3 GB – 0.5 GB** | Extremely efficient; standard for Ollama-based local RAG. |
+| **`all-MiniLM-L6-v2`** | **~0.1 GB – 0.3 GB** | Very lightweight; can often run on CPU-only systems. |
+
+---
+
+### Key Considerations for Your RAG Pipeline
+
+*   **Embedding vs. Generation:** In a local RAG stack, the "bottleneck" is almost always the generative LLM (e.g., an 8B parameter model), not the embedding model. A typical 8B model at 4-bit quantization (Q4_K_M) requires ~6 GB of VRAM. Because embedding models use a fraction of this, they can comfortably sit alongside your primary model on most consumer GPUs (8 GB+).
+*   **Performance vs. Precision:** 
+    *   `nomic-embed-text` (137M parameters) is widely considered the best-in-class for local RAG via Ollama due to its strong performance and 8,192-token context window.
+    *   `all-MiniLM-L6-v2` is excellent if your hardware is severely constrained (e.g., legacy systems or devices without dedicated GPUs), as it is one of the lightest models available.
+*   **Implementation Tips:**
+    *   **Prefixes:** For `nomic-embed-text`, ensure you use task prefixes (e.g., `search_document:` for indexing and `search_query:` for retrieval). Omitting these will significantly degrade retrieval quality.
+    *   **Context Window:** When using `nomic-embed-text` via Ollama, the default context might be set to 2,048 tokens. You can manually increase this to its native 8,192 tokens by setting `num_ctx` in your API request options.
+    *   **Colocation:** To minimize latency, run both your embedding model and your LLM on the same local instance (e.g., Ollama). This avoids unnecessary network round-trips, which are often the primary cause of slowness in local RAG pipelines.
+    *   **Memory Overhead:** Remember that while the model weights themselves are small (e.g., ~274 MB for `nomic-embed-text`), frameworks like PyTorch or Ollama have an inherent "base" memory overhead (often 0.5 GB – 1 GB) when they initialize CUDA or model loaders. Even so, these models will rarely cause an Out-of-Memory (OOM) error on modern systems.
+
+### Recommendation for 2025
+If you are building a new RAG pipeline, **`nomic-embed-text`** is the recommended baseline. Its balance of performance, support for long contexts (8k), and massive adoption makes it the most robust choice for offline, private document search.

@@ -1,0 +1,7 @@
+{"File":"c:\\Users\\renu5\\.gemini\\config\\skills\\deep-researcher-gemini\\SKILL.md"}
+{"File":"c:\\Users\\renu5\\.gemini\\config\\skills\\prompt-forge\\SKILL.md"}
+{"File":"c:\\Users\\renu5\\.gemini\\config\\skills\\youtube-data-extractor\\SKILL.md"}
+{"File":"c:\\Users\\renu5\\.gemini\\config\\skills\\ai-ad-prompt-guide\\README.md"}
+{"File":"c:\\Users\\renu5\\.gemini\\config\\skills\\ruflo-local-engine\\plugins\\ruflo-metaharness\\scripts\\test-similarity.mjs"}
+{"File":"c:\\Users\\renu5\\.gemini\\config\\skills\\ruflo-local-engine\\plugins\\ruflo-metaharness\\scripts\\test-mcp-tools.mjs"}
+{"File":"c:\\Users\\renu5\\.gemini\\config\\skills\\ruflo-local-engine\\plugins\\ruflo-metaharness\\scripts\\audit-trend.mjs"}

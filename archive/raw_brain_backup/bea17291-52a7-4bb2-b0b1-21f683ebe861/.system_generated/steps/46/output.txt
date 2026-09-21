@@ -1,0 +1,28 @@
+The search for ""Apple" "Xgrid" distributed computing macOS history combine processing" returned the following summary:
+Xgrid was a proprietary distributed computing technology developed by Apple's Advanced Computation Group[1][2]. Introduced in January 2004, it was designed to allow network administrators and researchers to harness the underutilized processing power of multiple Mac computers—turning them into a "virtual" supercomputer or computing cluster[1][3][2].
+
+### How It Worked
+Xgrid functioned on a client-server architecture to combine the processing power of multiple machines across a network[1][4]:
+*   **Controller:** The central "brain" or job scheduler that managed the cluster[1][4]. It received jobs from a client, split them into smaller, manageable "tasks," and distributed these packets to available nodes[1][4].
+*   **Agents (Nodes):** Individual Mac computers on the network that executed the instructions provided by the controller and returned the results[1][4].
+*   **Client:** The interface (command-line or API) used by the user to submit and manage computational jobs[1][4].
+
+The system leveraged technologies like **Bonjour** for automatic discovery of nodes, making it relatively easy to set up ad-hoc clusters[3][2]. It was particularly useful for "embarrassingly parallel" tasks—computations that could be easily divided into independent segments, such as rendering images, scientific simulations (e.g., gene sequencing with BLAST), or mathematical calculations like Mandelbrot maps[1][5][6].
+
+### History and Legacy
+*   **Availability:** Xgrid was integrated into Mac OS X versions 10.4 (Tiger) through 10.7 (Lion)[1]. The Xgrid controller was a feature of Mac OS X Server, though the agent software was included in standard versions of the operating system[1][7].
+*   **Discontinuation:** Apple officially ended support for Xgrid with the release of OS X 10.8 (Mountain Lion) in 2012[1][8]. Apple declined to open-source the technology after its discontinuation[8].
+*   **Modern Resurgence:** While Xgrid is long dead, the concept of clustering Mac hardware for parallel processing persists in niche communities[9][10]. Modern projects—such as those utilizing **MLX** and Thunderbolt networking—have emerged to link powerful, modern Macs (like Mac Studios) for similar distributed computing purposes, effectively reviving the promise of "home-grown" supercomputing[9][11].
+
+Sources:
+[1] [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0iUww1E0FrVv6pXx2h2BFPtCylr6SvTdT_PB-eHyP4RJ0mwr19XOJbXyDZxAHAyZnmo0q6p3FAfoxZkKdIW6SEsqMHSv78NZh5PdibEKMPZBqfl31cyeqMw==)
+[2] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFxoZYgo_WsrIVv-CpCRpNiR5ElIADKxPyw9BM-4718muceUVnWiU_gs6RLhyJxdK_UlZGwfQmVJpxXtCxslhiYWVvFY17bOU_uN16FY6cTVdt7XXAnJ-cYJh_HPOc9soosX-HgX6jAklFoqLps8peUIHtiZY_NTOuSyjnkS4AyL7M)
+[3] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvBPQyAWSZ03Gwmw50hti979RY6NK7Uy6i2E3mPbLe262D9j4Mv-sS8LFcYunLnEuAqScIT_nh3PNokzu2F9hkOTMdZRTELtwsG-Bt26YAdml6zpAUpBNxnalYNAHfTvEfCf8mKmzzqRwv)
+[4] [ituonline.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH63IgQvGSBZcVCCL8xGPdcQhJfYcR7nvk1MqzVJneO3tMD0U_rLZCCDxwSXg70947Cg9UiDArqYFCO8BPiUQFynFxpFWB0COdjbu8k5E0d3eS6oKGQTfoUsFH9rnEzIJvDug==)
+[5] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvBPQyAWSZ03Gwmw50hti979RY6NK7Uy6i2E3mPbLe262D9j4Mv-sS8LFcYunLnEuAqScIT_nh3PNokzu2F9hkOTMdZRTELtwsG-Bt26YAdml6zpAUpBNxnalYNAHfTvEfCf8mKmzzqRwv)
+[6] [r-project.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyyxtQBWoRGFDEHYupnAVEHO_tm14VZD8NjYUqa2OBiTX9jwjPuHGqCS2IuGGSElBXE9-G2tnz8OdTZu6-copWQk9-bRTrJOaJWLI_lH3KlDNg8K0kTr77hQb1suuws3N65JBMLcEzma7BJCz8GioLnmHtlcQNR0E=)
+[7] [pepas.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmP1WUIA0vuczGXBZ5pJoR-CXII-cGvIc1BhREdShxm5riebQi98ePuyl7dIfg-1DEY0eDd9CJNpTgLklCFBr-kQAD8brwacdj0LTCFgHOO8XPIvOXv3r5lg1lk7VvcH132GbVhZ3VG5iGPj4HCdYj2EzKqDcO2oSoXPvFuV-YWsuEZvMetL3Dw9BdVCgwzoAx9tUps5wjyUtA9ewRFFK4Hle4_FykZ2s=)
+[8] [macrumors.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHywljPqQwt6132XOW-AaTgLTR5TSp4WompEtdD5ZLrvUjdSbO5Own4lK8dVQhPax29EzIVuI-SQKmu-arE5yHKaoSMf98PkWypS3mup3jtsjYSGbqhrCBpmluHL1u5Y--gjZKqwJTewD5-n5Cv2KCkZFzkIf6uBhwv)
+[9] [appleinsider.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKvt4zJryBPF2lke7MJ_s8AaJ-VLw9_ZsiK7dTkR9jW-5OcbqkFD7GtxTzX-bi9htbOo2MAOVZFdyG4GqsA3pVvPEI5wfpuhd1sK7VH6CDePkYw1GM_tYtpdO8g8wE-zm5st5Y84o8DODW4Twg_--fXtlXXy2_SWBkAh4WXld3Qt62UBmCNmdJSAVhE6Tb4cOiQeiIvD6R0K4A3h7wnqf691Ltl61nG9phUziy9zpUbUJ0t50EDTC6ZVDzDddXY9O6)
+[10] [appleinsider.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKvt4zJryBPF2lke7MJ_s8AaJ-VLw9_ZsiK7dTkR9jW-5OcbqkFD7GtxTzX-bi9htbOo2MAOVZFdyG4GqsA3pVvPEI5wfpuhd1sK7VH6CDePkYw1GM_tYtpdO8g8wE-zm5st5Y84o8DODW4Twg_--fXtlXXy2_SWBkAh4WXld3Qt62UBmCNmdJSAVhE6Tb4cOiQeiIvD6R0K4A3h7wnqf691Ltl61nG9phUziy9zpUbUJ0t50EDTC6ZVDzDddXY9O6)
+[11] [appleinsider.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKvt4zJryBPF2lke7MJ_s8AaJ-VLw9_ZsiK7dTkR9jW-5OcbqkFD7GtxTzX-bi9htbOo2MAOVZFdyG4GqsA3pVvPEI5wfpuhd1sK7VH6CDePkYw1GM_tYtpdO8g8wE-zm5st5Y84o8DODW4Twg_--fXtlXXy2_SWBkAh4WXld3Qt62UBmCNmdJSAVhE6Tb4cOiQeiIvD6R0K4A3h7wnqf691Ltl61nG9phUziy9zpUbUJ0t50EDTC6ZVDzDddXY9O6)

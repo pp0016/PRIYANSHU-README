@@ -1,0 +1,25 @@
+
+The command exited with code 1.
+Output:
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+  File "C:\Users\renu5\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u25e6' in position 0: character maps to <undefined>
+OSTEOMYELITIS:
+**CO 2,3 //// 1 OSTEOMYELITIS ACUTE AND CHRONIC Definition** Osteomyelitis is a
+destruction of bone and surrounding tissues Acute osteomyelitis Infection of bone of relatively recent onset usua
+ inflammation and systemic manifestations Chronic osteomyelitis Persistent or recurrent bone infection lasting fo
+ disease � Mycobacterium tuberculosis tuberculous osteomyelitis **Etiology / Causes** 1 Hematogenous spread Micro
+equestrum may discharge **Clinical Features Acute osteomyelitis** Local � Severe localized bone pain � Tenderness
+bility � Tachycardia � Loss of appetite **Chronic osteomyelitis** � Persistent bone pain � Recurrent swelling � D
+issue collection � MRI highly sensitive for early osteomyelitis � CT useful for cortical destruction and sequestr
+ Functional disability **Medical Management Acute osteomyelitis** � Hospitalization when clinically indicated � B
+ssary � Treatment of underlying disease **Chronic osteomyelitis** � Long term culture directed antibiotics � Woun
+ent + antibiotics � reconstruction **Conclusion** Osteomyelitis is a potentially destructive bone infection Early
+* Brodies abscess is a localized form of subacute osteomyelitis characterized by a localized intraosseous abscess
+rcoma � Ewing sarcoma � Osteoid osteoma � Chronic osteomyelitis � Bone cyst � Tuberculosis of bone **Complication
+s** � Chronic osteomyelitis � Recurrence � Extension into soft tissues � Path
+s Early diagnosis prevents progression to chronic osteomyelitis --- **3 TUBERCULOUS ARTHRITIS / TB OF SPINE AND M
+

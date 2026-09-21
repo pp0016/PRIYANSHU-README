@@ -1,0 +1,27 @@
+The search for "Intel Core Ultra NPU LLM inference performance TOPS limitation 2025 2026 OpenVINO local models" returned the following summary:
+As of late 2026, the performance of local Large Language Model (LLM) inference on Intel Core Ultra NPUs is characterized by a shift from simple theoretical TOPS metrics toward real-world efficiency and software-driven optimization.
+
+### 1. The TOPS Limitation: Why It’s Not the Full Story
+While NPU "TOPS" (Tera Operations Per Second) are frequently used as a marketing metric for AI PCs, they are **not the primary bottleneck** for local LLM inference speed.
+*   **Theoretical vs. Practical:** TOPS measures peak theoretical compute. However, LLM inference is heavily bound by **memory bandwidth** and the **latency** of moving data between the CPU, GPU, and NPU.
+*   **The "TOPS Myth":** A higher NPU TOPS count does not automatically scale linearly to token-per-second (TPS) performance. Achieving smooth inference requires a balance of NPU compute, efficient model quantization (e.g., INT8/FP8), and optimized memory access.
+*   **Hardware Evolution:** Intel’s Core Ultra generations (from Meteor Lake to Series 3) have progressively increased NPU TOPS (e.g., reaching 45–50+ TOPS in newer chips), but the software stack is what determines whether that hardware can be fully utilized.
+
+### 2. Current Performance Landscape (2025–2026)
+*   **NPU vs. GPU/CPU:** The NPU is designed primarily for **energy efficiency** and sustaining background tasks rather than raw brute-force speed. For high-performance LLM generation, users often find that the integrated Intel Arc GPU or the CPU (using OpenVINO or IPEX-LLM) provides better throughput than the NPU alone.
+*   **Best Use Cases:** The NPU excels in "always-on" AI features and power-efficient inference. For local chatbots or LLM tasks, many users currently see better "Return on Investment" by offloading to the iGPU or utilizing hybrid approaches where the CPU and GPU handle the heavy lifting while the NPU manages lighter, continuous tasks.
+*   **Model Scaling:**
+    *   **4B–8B models:** These are generally considered the "sweet spot" for comfortable local inference on current Core Ultra hardware.
+    *   **14B+ models:** Often act as a "stretch" target. Running these on an NPU typically results in slow performance; it is often more realistic to use CPU+iGPU hybrid configurations for models of this size.
+
+### 3. OpenVINO and Software Optimization
+OpenVINO has become the standard toolkit for optimizing and deploying LLMs on Intel silicon. Key advancements in 2026 include:
+*   **OpenVINO 2026.x Releases:** Recent versions have introduced significant improvements for GenAI, including support for **EAGLE-3 speculative decoding**, **FP8 quantization**, and **Mixture of Experts (MoE) offloading**. These features allow larger, more complex models to run with better performance even on devices with limited RAM.
+*   **Simplified Deployment:** Tools like `openvino-genai` and integrations with frameworks like Google’s LiteRT have made it easier for developers to target the NPU with minimal code changes, abstracting away much of the underlying hardware complexity.
+*   **Continuous Improvement:** Because software support is still maturing, performance for new models (like Qwen 3 or Gemma 4 variants) can vary significantly between OpenVINO versions. Keeping your drivers and OpenVINO toolkit updated is the single most effective way to improve NPU-based inference speed.
+
+### Summary Recommendation
+If you are aiming for the best local LLM performance on an Intel Core Ultra device in 2026:
+*   **Don't chase TOPS:** Do not select hardware solely based on the highest NPU TOPS number.
+*   **Prioritize Software Stack:** Use the latest **OpenVINO GenAI** releases, which provide the most optimized path for Intel hardware.
+*   **Hybrid is Key:** If the NPU alone is not meeting your performance needs, do not hesitate to use the **CPU + iGPU hybrid** mode. This is often the most performant configuration for mainstream Intel AI PCs today.

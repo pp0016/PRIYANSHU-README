@@ -1,0 +1,1 @@
+Encountered error in step execution: Failed to fetch document content at https://www.apple.com/in/shop/refurbished: failed to get URL https://www.apple.com/in/shop/refurbished: status code 404

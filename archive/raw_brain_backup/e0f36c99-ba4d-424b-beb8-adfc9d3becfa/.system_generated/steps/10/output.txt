@@ -1,0 +1,41 @@
+The search for ""Bark Phone" "hardware specs" site:bark.us" returned the following summary:
+The Bark Phone is built on Samsung Galaxy A-series hardware[1][2], with specific specifications depending on whether you choose the standard model or the "Pro" version[3][1].
+
+### **Bark Phone (Standard Model)**
+The current base model for the Bark Phone is the **Samsung Galaxy A16**[1][4]. Previous iterations have utilized other models such as the Samsung Galaxy A14 5G[5] and older A-series devices[6].
+
+**General Specifications (A16 / Recent Models):**
+*   **Operating System:** Android 14[7] (varies by model year).
+*   **Display:** 6.7 inches[7].
+*   **Resolution:** 1080 x 2400[7].
+*   **Processor (CPU):** 2.16 GHz[7].
+*   **RAM:** 4 GB[7].
+*   **Storage:** 128 GB[7].
+*   **Battery:** 4900 mAh (approximate)[7].
+*   **Connectivity:** Supports 4G LTE and 5G (depending on network and signal availability)[8][9].
+
+### **Bark Phone Pro**
+The **Bark Phone Pro** is a more robust device designed for older children and teens who need higher performance[3]. It is based on the **Samsung Galaxy A36 5G**[10][1].
+
+**Key Hardware Highlights:**
+*   **Processor:** Octa-core processor[11] (Qualcomm Snapdragon 6 Gen 3)[10].
+*   **RAM:** 6 GB[11].
+*   **Display:** 6.7-inch screen with a faster refresh rate[10].
+*   **Durability:** Features Gorilla Glass for crack resistance and **IP67 water and dust resistance**[11][1].
+
+***
+
+*Note: Because Bark utilizes specific Samsung Galaxy hardware, technical specs like camera resolution, exact processor model, and battery capacity may vary slightly depending on the specific manufacturing batch or model year provided at the time of purchase[10][7]. Always check the documentation included with your specific device for the most accurate details[8][7].*
+
+Sources:
+[1] [timily.app](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGUPDoAh13Fy079xhhxPrZvv2OBpteVfutto1vjOB_4J-sk7T3fcl0lcVKB28RRIKwpiwmtkg45czgbKHunejB8bv0wGRj7AU5fr776qM_G6lbIg8ZT-P4az3NAoXTr0r2RNQ=)
+[2] [techyassist.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhJH18AQu36oDCSBVjJJ63wqV8x40rprB2Qtx084rHglE-L_WDYoHZbPqUOS-9iVFIPGqw5LIrrjnIbr35CwjKB3GskwbVD29XgtvhdTUmy7k4uXVflVsRHg1_5zar4lj3EGRqiw==)
+[3] [bark.us](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZCXzI00bztvFIBzjshU-1O6wPsmgG5VPddnYjijiy-edBEsRm_eeUFKcDRthhPTJkuyLompWqXRHl7H6_2qClWFWNkytHfhOPh-ivQfPg0GpNO8_qfp37915yuHjBX_V1BY1n8ppF)
+[4] [kidsdeviceguide.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbXBkmou3ewoC2opWhPcDuQ5jUlVNuBPDzqwgWaLSQcEKKc6r2XwzKqslOWbgTLMEY8E3IVlerNb5zCbziEPUVj2LFlRQ7nCPmWegcAsN_fQuwV_kgFg3ggyVif1hvqLSG9A==)
+[5] [androidpolice.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEibcV9cai2X8OTm9N4p9-8wjNBnYJQUvmphn4JVm8Op11D6gbd3wJyqN5AyD4_1jK0THZi_JqGZhEj6_LLh-BGef4LYOrRtzkO2lVzZ8uWXqKfkK8yaJLSc8865KrPzbnKvbkJ1Q==)
+[6] [bark.us](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqZE-KbHLjIpPm58bqHUJuWPRf-DcX-PQxdbqJaSVu-w-dQlF7RWP2ySPDDvAvrUIkUsgc-ac1DYnpVeNioJhWb4lV8iXe1-n4EXG_kRyRdGd2wivSzcskmBQotAVGg8DlMI7i9ammVcNWP1I=)
+[7] [manuals.plus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcyd8aF-Zh3bmOfy-Lk73a2woipWcNN9REAd2nfwQLWS_j7irHH0E863unQHjgV9wX_HGSlKvoYTcWJz55Z5kKUMD-4FuUrAv8vKr1DaH4ssFAIPCKkDM_3Q==)
+[8] [bark.us](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGFSvukg6u5FC4YcVGkIaJeSCEODDZD1ZZjUvsfbPd9-TPg1UxFeEt4kzGy8sWLgz2qhbBA9todxz3rE52JqtYyxGnjJxvwt1WpXXTS37To-2owJjQglN1Ej0EkrShkNYt3Cwq)
+[9] [bark.us](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPk-3UR1m-rkKXS1X77OI13zHkcgXwJK_5r2nAZSMyg35cpaV2VZdIrTsYW4jlhiRjXWGlcSJjiDfux_p1ipOHyEDza-LEM4Etokhcv9VKMvpW1n9IEZS4RH_6agiqvmHbu0ETQKM=)
+[10] [pcmag.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbQnWV1CkJdREqH5uqbUBF_7T75n-rAJ7aXYqqYTV7gqmowEiuKTgaRp1CBleHk_xVyE7S3lXBCPvAjRi034MrgyxEYxda058ctD5iKt6w6BSoydGnay1_JmewbZoa2pQNMYL1USR4s6_619MScX4S9iKBLg==)
+[11] [bark.us](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZCXzI00bztvFIBzjshU-1O6wPsmgG5VPddnYjijiy-edBEsRm_eeUFKcDRthhPTJkuyLompWqXRHl7H6_2qClWFWNkytHfhOPh-ivQfPg0GpNO8_qfp37915yuHjBX_V1BY1n8ppF)

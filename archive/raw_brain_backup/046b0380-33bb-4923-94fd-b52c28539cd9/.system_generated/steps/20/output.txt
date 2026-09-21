@@ -1,0 +1,47 @@
+The search for "SDXL Stable Diffusion 1.5 VRAM requirements 4GB 6GB 8GB minimum 2025" returned the following summary:
+In 2025, the VRAM requirements for running Stable Diffusion models remain highly dependent on the specific model architecture and your chosen workflow[1][2][3].
+
+### **Quick Comparison: VRAM Requirements**
+
+| Model | Minimum VRAM | Practical/Recommended VRAM |
+| :--- | :--- | :--- |
+| **Stable Diffusion 1.5** | **4 GB**[4][5] | **8 GB+**[6][3] |
+| **SDXL (Base)** | **6–8 GB**[7][8] | **12 GB–16 GB**[1][9][3] |
+
+---
+
+### **Stable Diffusion 1.5**
+*   **4 GB (Minimum):** You can run SD 1.5 on 4 GB of VRAM[5][3]. It is lightweight and remains the most accessible model for older hardware[5].
+*   **Performance:** At 4 GB, you may need to use "low-VRAM" or "med-VRAM" optimization flags in your UI (like Automatic1111 or ComfyUI) to prevent out-of-memory errors[10]. 
+*   **Recommendation:** While it *can* run on 4 GB, **8 GB or more** is recommended for a smoother experience, especially if you plan to use multiple LoRAs, ControlNet, or larger batch sizes[6][3].
+
+### **SDXL (Stable Diffusion XL)**
+*   **6–8 GB (Minimum):** SDXL is significantly more demanding than 1.5[11][4]. While it can technically run on 6–8 GB of VRAM, this is often considered the "danger zone"[11][8].
+    *   You will almost certainly need to use memory-saving optimizations (such as `medvram` or `lowvram` modes)[12][8][3].
+    *   Generation will be significantly slower, and you may encounter crashes if you attempt to use the Refiner model, complex ControlNet pipelines, or high-resolution upscaling[7][13][8].
+*   **12 GB–16 GB (Recommended):** This is the "practical floor" for modern SDXL workflows[1][7][3]. 
+    *   **12 GB** allows for a comfortable experience, including the use of LoRAs and single ControlNet passes[7][3].
+    *   **16 GB** is ideal for using the full SDXL refiner ensemble and ensures you won't be constantly fighting memory constraints[9][7].
+
+### **Tips for Limited VRAM (4 GB - 8 GB)**
+*   **Use ComfyUI:** Many users find that ComfyUI is more efficient with VRAM than other interfaces, making it the preferred choice for those on 4 GB–6 GB cards[8][14].
+*   **Optimization Flags:** Always look for and enable memory-saving settings (e.g., `--medvram`, `--lowvram`, or model offloading) in your web UI[15][10][12].
+*   **Precision Matters:** Using models in **FP8** (if supported by your UI/model) instead of FP16 can significantly reduce the VRAM footprint[5][7].
+*   **Cloud Alternatives:** If your hardware is consistently causing errors or taking too long, consider using cloud-based GPU services (like RunPod or similar) where you can rent powerful hardware by the hour[6][3].
+
+Sources:
+[1] [hivenet.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9pd-nGv9o4XDTlnaksVgv4KFnTsS9rxbtuKsd1YVlMAEYQrhFjgHEUmMT93r2O-uAgUto53zhxX1qWDiCMVKli-qkGHM3MDLnImk2swhfhO8xgKWOu_bZM54qZLRFe_HSi-mD5YJF_V7QhK7pJs7OmizatHbuH3ZT63FCLlmtQUiS8utaa2xoqln8R8-Py9u2gQ==)
+[2] [hivenet.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9pd-nGv9o4XDTlnaksVgv4KFnTsS9rxbtuKsd1YVlMAEYQrhFjgHEUmMT93r2O-uAgUto53zhxX1qWDiCMVKli-qkGHM3MDLnImk2swhfhO8xgKWOu_bZM54qZLRFe_HSi-mD5YJF_V7QhK7pJs7OmizatHbuH3ZT63FCLlmtQUiS8utaa2xoqln8R8-Py9u2gQ==)
+[3] [thundercompute.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUbDa3MFaBJq6X0izCB8f0cCb63dOR7zx3kOoij8gAj6GF-wxVG0TxMJ0jgxd8WqyIrDFsBYadwvEXRzM3MzDaiBBa039GcHGzJRNWqxY8iz9jNFk4guMRIdzT8U3GOpvuOU_wh_CBp3DVkAKxuXUpDCydOkI=)
+[4] [gigagpu.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYatIxfUDkiQfNu9-740emKwAEG2JY-o6eUDvnvYYJCD5NKD4lj5rL7XFWne9Azw-0uuepKs7RAEEAyTJIxcgXjW8W7c1r1IeAjvmXPmyrX1CBel18SVbfp1HGiv3TdcUERBSY)
+[5] [willitrunai.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKBksCSiHDm45ZGX-qS4OPsoTsSC-nc8Vk5j8SrZQI5uDtT19dbqz5rNC9npLWbcn4H9nkeEjBTkvyWh3rhMJaumQnc61Jzc0Olp3Hu5L8_x5M1l4rt682qb8il0D0JExu)
+[6] [deploybase.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnEyI4r23EX0dCjTgmu356zW9_5ZcdOTHWcgaKzilnkl8qP5DsIxbR_e01-W2APs1bsD0NshsxdgLPgamvztX4Nx5QsorO_-akuvQIDpZfuCeTogXuTPm7DbDbcQeUaYHY3pbdg4cBmgdgYlQ=)
+[7] [gigagpu.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqt486ZYA8plQ8tajupHO1lllQpA5MMK7L8HETgFczKWUfhT7bOozwjB-kmjtYbsSEWoele7OsLPmYtJPau51dLiR1yh0gRdRWd8DGy1_Vr-Yvp44zf1zV_KTYi_lGiLjuJcg=)
+[8] [stablediffusionxl.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrwVc5sY5C5Dk3PiCXTdXKG6u8bLTG_sbbuIeEoIgK_KedbQIRo5pyk7AjUHqadtSl6MRcgHIqwDSqeBG0xtPxArErMCpM9dJ8o-1k_Y2RaGW2tA4yg0If-zwpjNL936RoSSOU-hOchsZELdKR)
+[9] [stablediffusionxl.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrwVc5sY5C5Dk3PiCXTdXKG6u8bLTG_sbbuIeEoIgK_KedbQIRo5pyk7AjUHqadtSl6MRcgHIqwDSqeBG0xtPxArErMCpM9dJ8o-1k_Y2RaGW2tA4yg0If-zwpjNL936RoSSOU-hOchsZELdKR)
+[10] [zimaspace.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIrWa1F8H6CQ_freSHxqP-pT-OduS4u6p7NG5a4TrAWt64sg1nlMvztNKFbrjJdyAEpaDl0Ate0Vx6MpZ2xrXQxJ23VmhMKisZ1ZRlkAbeYcappgLWRAXlTsrAVgyuszntKuJ_O60HjUSBaNdC2p_Os1LSY6WHrmBexTi0Sg==)
+[11] [qwe.edu.pl](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzaydNMupQtsRsoddkCneIQtsH5k3LXuTg8BcvxjAt1uoQvDzRcCyOuINl3C0L67FHSw5J2Y_UM-G2hsg132Nmq878zQ71pQLj11HtDfaRzgbnbfBXxUH8_U0hsmxv9ih5wjfttEzWR766WJ5A5CJkxezrl-YJ1M8zK0qjrsRBYWY=)
+[12] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeEPuELjK7NcZBAhhro3AgbrDBuCHoLZXovrcHKFsihh6kvWNw7yW4amW-KAKa5uzwpycVjQAKdpNOxLYqem5l09bcaV9tA8k9QX1W0gf85Dy6nyGFkSYfdsAOo04-DHjTdn5c7Mas9N0EWKQxK15bp9CBSlAh7SEIX5BrypEq)
+[13] [bacloud.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHA-N-XhzH29LtW9AER8RxtrcJtkoE-xRJY67jilVoPye3Qb01juPpQfIrgRdap-ChJZ1xkNgTujFNLMLqPsZEj3Lx-Ite7elhdgRaL1ppYgkxmb68oGo7rPT_gqzHzSSs4iWTBs9ByRMkGUNmn0WvgkyETkt88FNPInAZNIGWYFfMcAvs2k1rjSio5wVm2)
+[14] [pixcores.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlgPHkf5Bs6nUVFCfaEJbE23C0YhSnrR-0cvNuSudVxsZgUEScpU6kDazIgey0Eb5orvI0_ljfSgBIrLZKFsbaSNjytNLwUamLBXQzyOpoRF7vNP_ls03kDLFe7KFHDFH56oGrEeDQQp9nPb5opA==)
+[15] [huggingface.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBuOz7zFTxh0NwvadT-8c7g9D32EEtcoh9Ekjja3pplsR5VLRLiZ-6lj8IvwHQqKCgNlYSvHqBcXQVQ-ynz7qgbIvH7BYUUhy41dY6BpgWJrL_hkLd7F4p9k908O3u8YRrumdx-LFnH5LuPA7syM2GPmXOq2s=)

@@ -1,0 +1,21 @@
+
+The command exited with code 1.
+Output:
+
+============================================================
+  MICRO PRINT PAGE ORDER TABLE
+  Total pages: 8 (padded to 8)
+  Flip: Long Edge
+============================================================
+
+  Sheet 1 of 1:
+Traceback (most recent call last):
+  File "C:\Users\renu5\.gemini\antigravity\scratch\micro_print_arranger.py", line 304, in <module>
+    print_order_table(order_only, flip_type)
+  File "C:\Users\renu5\.gemini\antigravity\scratch\micro_print_arranger.py", line 246, in print_order_table
+    print(f"  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510")
+  File "C:\Users\renu5\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 2-40: character maps to <undefined>
+

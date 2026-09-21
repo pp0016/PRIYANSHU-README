@@ -1,0 +1,26 @@
+The search for ""Thunderbolt" latency PCIe DMA microseconds nanoseconds round trip" returned the following summary:
+Thunderbolt latency is typically discussed across different scales depending on whether you are measuring the underlying **PCIe bus transport** or the **end-to-end application latency** (such as in audio interfaces).
+
+### 1. Underlying PCIe/Link Latency (Nanoseconds)
+Thunderbolt functions by "tunneling" the PCIe protocol over an external cable. Because it is effectively a PCIe connection, the raw transit latency of the interface itself is measured in **nanoseconds (ns)**.
+*   **PCIe Bus/Link Latency:** Standard PCIe link latency is typically in the range of **70–100 nanoseconds** depending on the chipset, the number of retimers in the path, and the system architecture.
+*   **Cable/Transceiver Propagation:** Active Thunderbolt cables and their internal transceiver chips add a small amount of propagation delay, often estimated in the **250–500 nanosecond** range per component.
+
+### 2. DMA and System Latency (Microseconds)
+When discussing Direct Memory Access (DMA) and the interaction between a peripheral and the system, measurements move into the **microsecond (μs)** range.
+*   **DMA Efficiency:** Thunderbolt's primary advantage is its ability to use DMA to bypass CPU interrupts, allowing the device to write directly to system RAM. This significantly reduces the overhead compared to protocols that require heavy CPU intervention.
+*   **Bus-Level Latency:** While the physical transit is in nanoseconds, the time it takes for a system to process these DMA transactions and manage the data pipeline is often cited in the **sub-microsecond to low-microsecond** range (e.g., ~0.3 microseconds for a direct PCIe interface).
+
+### 3. Practical Application Latency (Milliseconds)
+For end-users (especially in audio production), "round-trip latency" is almost always measured in **milliseconds (ms)** because it includes factors far beyond the raw bus speed.
+*   **Software/Buffer Latency:** Total round-trip latency in a professional audio context is governed by the **buffer size** set in the software (DAW) and the sample rate.
+*   **Real-World Metrics:** A high-performance Thunderbolt audio interface may achieve a round-trip latency of **under 1 ms** at high sample rates (e.g., 192 kHz) with small buffer sizes (e.g., 64 samples). Without these optimizations, typical buffer-dependent latencies range from **1 ms to 10+ ms**.
+
+### Summary Comparison
+| Measurement Context | Typical Units | Note |
+| :--- | :--- | :--- |
+| **Raw PCIe Tunneling** | Nanoseconds (ns) | ~70–500 ns (link + transceivers) |
+| **DMA/Bus Transactions** | Microseconds (μs) | ~0.3+ μs (for raw bus operations) |
+| **End-to-End/Round Trip** | Milliseconds (ms) | Highly dependent on buffer size and driver overhead |
+
+**Key Takeaway:** If you are analyzing the *physical* performance of the connection, look at **nanoseconds**. If you are analyzing the *system-level* data path, look at **microseconds**. If you are measuring *user-facing* performance (like recording audio), you are measuring in **milliseconds**.

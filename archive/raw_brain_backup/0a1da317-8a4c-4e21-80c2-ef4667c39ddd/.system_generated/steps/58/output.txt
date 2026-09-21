@@ -1,0 +1,10 @@
+
+The command exited with code 0.
+Output:
+
+Name                Length LastWriteTime      
+----                ------ -------------      
+popup_animation.mp4 539594 17-09-2026 08:07:18
+
+
+

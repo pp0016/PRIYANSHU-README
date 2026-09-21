@@ -1,0 +1,33 @@
+
+The command exited with code 0.
+Output:
+📄 Input PDF: C:\Users\renu5\Downloads\Investigations for Musculoskeletal Disorders.pdf
+📊 Total pages: 2
+📐 Pages after padding (multiple of 8): 8
+🔄 Flip type: Long Edge (Book style)
+📑 Sheets needed: 1
+
+==================================================
+📋 Sheet 1
+  FRONT (TL, TR, BL, BR): P1, BLANK, BLANK, BLANK
+  BACK  (TL, TR, BL, BR): BLANK, P2, BLANK, BLANK
+  ✂️  Cut Results:
+    TL: Front=P1, Back=P2
+    TR: Front=BLANK, Back=BLANK
+    BL: Front=BLANK, Back=BLANK
+    BR: Front=BLANK, Back=BLANK
+
+==================================================
+✅ Output saved to: C:\Users\renu5\Downloads\Investigations for Musculoskeletal Disorders_microprint.pdf
+📝 Total pages in output PDF: 8
+
+🖨️  PRINTING INSTRUCTIONS:
+   1. Open Investigations for Musculoskeletal Disorders_microprint.pdf in your PDF viewer
+   2. Print → Select 'Multiple pages per sheet' / 'Micro' / '4-up'
+   3. Layout: 2x2 (2 columns, 2 rows)
+   4. Page order: Left to Right, Top to Bottom
+   5. Duplex: ON (Long Edge)
+   6. Print ALL pages
+   7. Cut each sheet into 4 pieces
+   8. Each piece will have correct front-back pages! 🎉
+

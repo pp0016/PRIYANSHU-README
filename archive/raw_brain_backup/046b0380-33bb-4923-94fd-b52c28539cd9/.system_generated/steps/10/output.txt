@@ -1,0 +1,28 @@
+The search for "reddit "tokens per second" VRAM local LLM benchmark 8GB 16GB 24GB 2025" returned the following summary:
+In 2025 and 2026, local LLM performance is primarily **memory-bandwidth bound** for single-stream generation, meaning your tokens-per-second (t/s) speed is dictated more by your hardware's ability to move data than by raw compute (TFLOPS).
+
+### Typical Performance Benchmarks
+Inference speed is generally calculated as: `Memory Bandwidth ÷ Active Bytes per Token`. Below is a summary of what you can expect across common VRAM configurations when running quantized models (e.g., Q4_K_M).
+
+| VRAM Capacity | Typical Use Case | Expected Tokens/Sec |
+| :--- | :--- | :--- |
+| **8 GB** | 7B–9B models (e.g., Qwen3 8B, Phi-4) | **30–60+ t/s** |
+| **12–16 GB** | 14B–27B models (e.g., DeepSeek-R1 14B) | **20–40 t/s** |
+| **24 GB** | 30B–32B models (e.g., Qwen3 32B) | **30–40 t/s** |
+| **24 GB+** | 70B models (requires offloading/aggressive quant) | **1–10 t/s** |
+
+---
+
+### Key Factors Influencing Speed
+
+*   **Memory Bandwidth is King:** Because generating a token requires reading the entire model (or active experts in MoE models) from VRAM, cards with higher memory bandwidth (like the RTX 3090/4090 or newer 50-series) will always outperform lower-tier cards, even if the model fits in both.
+*   **The "Offloading" Penalty:** If a model is too large for your VRAM and spills into system RAM, performance drops drastically. While GPU speeds are typically **30–80+ t/s**, offloading to CPU/RAM often craters performance to **1–5 t/s**.
+*   **Quantization:** Using Q4_K_M or similar quantization is the industry standard for balancing speed and accuracy. It reduces the "bytes per token," allowing larger models to fit into VRAM and run at higher speeds.
+*   **Context Length (KV Cache):** As context grows, your VRAM usage increases linearly. If your KV cache fills your remaining VRAM, you may experience significant slowdowns even if the model weights fit.
+
+### Practical Recommendations for 2025/2026
+*   **For Coding Agents:** High-end models (27B–35B) are preferred. If you do frequent agentic work, **16 GB VRAM is the practical floor**, and 24 GB is highly recommended to keep the context window large enough for multi-file projects without sacrificing speed.
+*   **Value Strategy:** Many users find that **dual RTX 3060 12GB cards** (providing 24GB total VRAM) offer an unmatched price-to-performance ratio for home setups, often hitting ~30 t/s on 27B–30B models.
+*   **Check Your Ceiling:** You can estimate your performance using the formula:
+    $$\text{Tokens/sec} \approx \frac{\text{Memory Bandwidth (GB/s)}}{\text{Model Size (GB)}}$$
+    *Real-world performance usually lands at 50–80% of this theoretical ceiling.*

@@ -1,0 +1,45 @@
+The search for ""Compressor" "Transcode batches with multiple computers" Apple Support" returned the following summary:
+To transcode batches with multiple computers in Apple Compressor, you use **distributed processing**. This feature allows you to decrease transcoding time by sharing the workload across multiple Macs on your network[1][2].
+
+### Requirements
+*   **Software:** All computers must have the same version of Compressor installed and be running the same version of macOS[1][3].
+*   **Network:** All computers must be on the same network[1].
+*   **Status:** Compressor must be open and running on every computer in the group[1][3].
+
+### Step 1: Make Computers Available for Sharing
+On each Mac you intend to use as a "node" (a computer that will help process the files):
+1.  Open **Compressor**.
+2.  Choose **Compressor > Settings** (or Preferences)[1][4].
+3.  Select the **My Computer** tab[1][5].
+4.  Check the box for **"Allow other computers to process batches on my computer"**[1][5].
+5.  *(Optional)* Select **Require Password** if you want to control access with a password[1][5].
+
+### Step 2: Create a Shared Computer Group
+On the main Mac you are using to control the batch:
+1.  Go to **Compressor > Settings** and select the **Shared Computers** tab (or similar "Shared" section)[6].
+2.  Click the **add button (+)** to create a new group[6].
+3.  Name the group (e.g., "Rendering Cluster")[6].
+4.  In the list of available computers on the right, select the checkboxes for all the Macs you want to include in this group[6].
+
+### Step 3: Run the Batch
+1.  Set up your transcoding job in the **Batch** pane as you normally would[6][7].
+2.  Before clicking **Start Batch**, look for the **"Process on"** pop-up menu at the bottom of the batch area[6][3].
+3.  Choose the **shared computer group** you created[6][3].
+4.  Click **Start Batch**[6][3]. Compressor will now distribute the files in your batch among the selected computers[1][2].
+
+### Troubleshooting
+*   **If you cannot see other computers:** Ensure they are all on the same network and that Compressor is actively open on those machines[1].
+*   **macOS Permissions:** If you are having trouble on newer macOS versions (like Catalina or later), ensure you have granted the necessary network/folder access permissions in **System Preferences > Security & Privacy > Privacy**[8][9].
+*   **Additional Instances:** Within the **Advanced** settings of Compressor, you can also "Enable additional Compressor instances" to further utilize your computer's own processing cores, which can be used in tandem with distributed processing[6][10][4].
+
+Sources:
+[1] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbxszUmzW-CQzjM8VpMOjbEGPcmfepGsbWmTEQ7mlio1C61GssWEgu32EpaqCsn5u2fFgQB6bEtuPJPFP9aQXBh93yKLbJ6zTB2rd2JtyEzr95WWdW0MY-7wf2Qd63BfJXLF4Vlr4Dj6Vnyxe52z6sbLqy74Lz)
+[2] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHP76WB3wqUU63mUMmNgCkXSTRr9qcVzKsp1P_o-r5GjJLWWSdfgxD2UlXFEUezERTY52tBflLphDFbIAgNIFBl7j7Ow3cGMLe_Ap5vT4hbxWQaY9npANqRA6-EZrBLkPBLY4432RmbqFCFKQu7w8e7Yc5qyTG4EnrrLaHE4Nvh3yQQrwP5_xUNjodNrfYCQ-F-Q==)
+[3] [larryjordan.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvLj4w0movB1UpmIyS7o3JoD99XXZ6LQjZzEZmGw5P2vewjNyaBSdPkrDpo5oCgueGvD2Ag2UBa3ehbnGMMA6Cv-KNNwUvGzylkzDZ8o2BOMxWcgk8hAuQEeIgEUlSeKCyAfxsXgwOCnAPyN9PnNshAY-E7E6CtA9eY62h18xp2-oM8KAWXYGOVgI=)
+[4] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrWV8__3PetLixtWnhkXzVhagZiWuPByxhnj0UzrAgtQRpi3moZL9EpTjFLDo5Z3hb1NRT6IuL38p4wmh1cmELiFqcl8V88W5k3D43vMP5bGupIYhIO5INbVKIO79UwneZFdlJvk807vXr79C0V870GNbwyb0_8Lj8Aw==)
+[5] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHP76WB3wqUU63mUMmNgCkXSTRr9qcVzKsp1P_o-r5GjJLWWSdfgxD2UlXFEUezERTY52tBflLphDFbIAgNIFBl7j7Ow3cGMLe_Ap5vT4hbxWQaY9npANqRA6-EZrBLkPBLY4432RmbqFCFKQu7w8e7Yc5qyTG4EnrrLaHE4Nvh3yQQrwP5_xUNjodNrfYCQ-F-Q==)
+[6] [alex4d.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0AL0SOlsOBKzOLUviRMSrq8ljwInZCRIzMq9x_ZWrMq0sNxcsUUHvr1XkfDoqTjZR_RUN3a6FNMaU_8n8zk3d4Oy8q5r8k7f4FzrIgxR7hrn9nzTEA8T7kKWEZpIizXj-2k2UovQHpf2-K1UKAyNqZQRKnQ==)
+[7] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEon7Qu_NZPtrRlEgidshYfV1uXnZ0FmU10KNaa5fdR4oscTsGUys2rN2l3pI1KPrgjuqPaHzupvQ4HLveVKlyc2HK-sZvv4QVWdAURQyFMzLuTmSTIFuis8RWM_cG3na3ZVGMpWEmZaL6coxj31JUOT5Tf_wRS_HdWRdTd40-d4y0WyKw73VBFxiSDcSBgkeE=)
+[8] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4U2Pu97oz0WvLAgg7KD8EvAWsq1HOxWKbXp2bHsu4dLsBY-iLmphRFuh5hfnEJ8iTck4TRCP-Ak6I9g1WyyrTXJ3dcpJKbjbcr9ORcAUK0KlabhUyPwTyKyWw)
+[9] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4U2Pu97oz0WvLAgg7KD8EvAWsq1HOxWKbXp2bHsu4dLsBY-iLmphRFuh5hfnEJ8iTck4TRCP-Ak6I9g1WyyrTXJ3dcpJKbjbcr9ORcAUK0KlabhUyPwTyKyWw)
+[10] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd7XGD5z8eY99b5TaEIQCb24lEI5vKilW-XxBc4knomw8yYLKvqpic3UeTFi35i53zEqBu_Y7IEab63pOYEt2C4QyRsZ9ZJEq99XKoC_iXfyoKwmnBG0M51IBco--G1U-Q4RcSjoulvXGAl5YtUIzGQ5acjC7-TGdc38RBRtQtgvpI)

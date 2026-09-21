@@ -1,0 +1,8 @@
+
+The command exited with code 0.
+Output:
+Titles: ['\u200eGemini - direct access to Google AI']
+OG Title: ['\u200eGemini - direct access to Google AI']
+OG Desc: ['Created with Gemini']
+Dumped 30 strings.
+

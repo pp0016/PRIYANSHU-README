@@ -1,0 +1,26 @@
+The search for "site:support.apple.com "Universal Control: Use a single keyboard and mouse between Mac and iPad" OR "Universal Control"" returned the following summary:
+Universal Control allows you to use a single keyboard, mouse, or trackpad to control up to two other nearby Mac or iPad devices[1][2]. You can move the pointer, type, and copy content seamlessly between these devices[1][3].
+
+### **Key Features**
+*   **Seamless Interaction:** Each device maintains its own screen and apps, but you can control them as if they were a single system[1].
+*   **Copy and Paste:** You can copy content from one device and paste it into another[1][3].
+*   **Comparison to Other Features:**
+    *   **Sidecar:** Use your iPad to extend or mirror your Mac’s desktop[1][2].
+    *   **iPhone Mirroring:** Use your Mac to interact with your iPhone[1].
+    *   **Mac Virtual Display:** Use your Mac keyboard and trackpad to work on your Mac within Apple Vision Pro[1].
+
+### **How to Set It Up**
+1.  **System Requirements:** Ensure all devices are signed in with the same Apple Account, have Bluetooth and Wi-Fi turned on, and that Handoff is enabled[1][2].
+2.  **Enable on Mac:**
+    *   Go to **System Settings** (or System Preferences) > **Displays**[1].
+    *   Click **Advanced** and turn on **"Allow your pointer and keyboard to move between any nearby Mac or iPad"**[1].
+3.  **Enable on iPad:**
+    *   Go to **Settings** > **General** > **AirPlay & Continuity** (or AirPlay & Handoff)[1].
+    *   Turn on **Cursor and Keyboard**[1].
+4.  **Connect:** Place devices near each other (awake and unlocked) and move your pointer past the edge of the screen toward the other device to link them[1][4].
+
+Sources:
+[1] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHe2VUqLGmrInwr7kGZRu_RI_QKgd-F2S8AHl3H25iQgmk7OaAmW5N3Zzo1OeqHctvbTiU18L5q8K1NYbCQmZPDQxTFoXZV3QmVoyl6QnUU3QmDCqxt_4HScADRIw==)
+[2] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKboHOy9uWtT_-yf3a_H0SCKGoaZPL57I-u_eDCC88jFYJeJ3-uGuocCBMXKLbynDqlvg_xJ5WhaHe21Tya18tBlP7nOqVmlgL15T_AaEojSa8sywoMCSBIwaxoJ4PjHM1xQUxc_VOws_GskSTxZN_Crek4PuAhA==)
+[3] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5L9Qq9sul7fHTH5Z_8bHADaJu0P4QbukLXQDA5xcbJSYGAOwszU-CCAwTv21pLJp3EZMMbnRjU5YWCwwCMUfFOaSFmhdYjyzs1Xv_Q3mz2PNej5m9o9HqZCUTli_M3ZfMDs1X_MfPwJLeK6tW7T3MyJ-UTec=)
+[4] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEk1_abmA-pmWnrzJGGMwWwvlcD97aucbX77PyJQAQLcaro96FNOkgOt-baXuZ_fNTlerMCpTZBeN2_5S4o_dVOu2Bg5P_7WLu3iDD6xbCRv-u2UJoLcKE7HMy0BCjzerPhIoaMDXpyjlfA0uO9U6i0y6n53w=)

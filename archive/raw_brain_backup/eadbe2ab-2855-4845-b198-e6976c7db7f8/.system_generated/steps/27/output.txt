@@ -1,0 +1,12 @@
+
+The command exited with code 0.
+Output:
+Collecting PyPDF2
+  Using cached pypdf2-3.0.1-py3-none-any.whl.metadata (6.8 kB)
+Using cached pypdf2-3.0.1-py3-none-any.whl (232 kB)
+Installing collected packages: PyPDF2
+Successfully installed PyPDF2-3.0.1
+
+[notice] A new release of pip is available: 24.0 -> 26.2.1
+[notice] To update, run: C:\Users\renu5\.gemini\antigravity\scratch\micro-print-env\Scripts\python.exe -m pip install --upgrade pip
+

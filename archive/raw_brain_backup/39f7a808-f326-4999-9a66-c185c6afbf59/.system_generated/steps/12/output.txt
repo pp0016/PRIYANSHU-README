@@ -1,0 +1,50 @@
+The search for ""Grounded-Segment-Anything" OR "Grounding DINO" SAM segment objects automatically python" returned the following summary:
+The **Grounded-Segment-Anything** pipeline (often referred to as **Grounded SAM**) is a powerful combination of two state-of-the-art models: **Grounding DINO** for zero-shot object detection (using text prompts) and the **Segment Anything Model (SAM)** for high-precision pixel-level mask generation[1][2][3].
+
+By chaining these models, you can automatically detect and segment objects described by text (e.g., "a red car") without manual annotation[1][4].
+
+### Key Concepts
+*   **Grounding DINO:** Accepts a text prompt and returns bounding boxes for the requested objects[1][5][3].
+*   **SAM / SAM 2:** Takes the bounding boxes from Grounding DINO as "prompts" and generates accurate segmentation masks[1][4][6].
+*   **Automatic Pipelines:** You can also use models like **BLIP** or **RAM** (Recognize Anything Model) in the pipeline to automatically identify objects and generate tags, making the entire detection and segmentation process fully automated without manual text input[2][7][8].
+
+### How to Get Started
+
+#### 1. Official Repository
+The core implementation is maintained by IDEA-Research on GitHub. This repository contains the most up-to-date code for combining these models[9][10][11].
+*   **GitHub:** [IDEA-Research/Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything)
+
+#### 2. Recommended Tutorials & Notebooks
+If you are looking for practical code examples to run in a Python environment (like Google Colab), the following resources are highly recommended:
+
+*   **Roboflow Automated Annotation Notebook:** This is one of the most popular tutorials for using Grounding DINO + SAM to automatically annotate datasets for training other models (like YOLO)[12][13][14].
+    *   [Access on Google Colab](https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/automated-dataset-annotation-and-evaluation-with-grounding-dino-and-sam.ipynb)
+*   **Hugging Face Transformers Integration:** If you prefer using the `transformers` library, there are simplified implementations that require fewer lines of code to load and run these models[4].
+    *   [Example Notebook](https://github.com/huggingface/transformers-tutorials/blob/master/Grounding%20DINO/GroundingDINO_with_Segment_Anything.ipynb)
+*   **Grounded SAM 2:** For more recent applications, including video object tracking, look for the **Grounded SAM 2** repository, which integrates the updated SAM 2 architecture[15][16][3].
+
+### Basic Workflow
+1.  **Setup:** Install required dependencies (`torch`, `transformers`, `supervision`, `opencv-python`)[5][4].
+2.  **Detection:** Pass an image and a text prompt (e.g., "chair") to Grounding DINO to obtain bounding box coordinates[1][5][4].
+3.  **Segmentation:** Pass the image and the bounding boxes from Step 2 into the SAM/SAM 2 `SamPredictor` to generate the final segmentation masks[17][4][6].
+4.  **Post-Processing:** Use libraries like `supervision` to visualize the results, save the masks as files (e.g., COCO or Pascal VOC format), or use them for downstream tasks like inpainting or data augmentation[5][12][18].
+
+Sources:
+[1] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVj5pJPkIKcNfGDTD2bvPvBCkC7RjDkMbkoHVCOBfGCzBlOh9uUwQEJfKQK0CqnhyvAzvKhZC-fO4kxPQ3p3C6HKcHcPiwkM9MIRcME3cY1LLDReh0JGAmKQXsc5gKG7NNTxNuc9S9MsBqXFTM9yXYdlEqci7gp0DmbmD4-Q81_Yy7yJgoOffwcsYoXAjZoBdPxQ14Ks0MXjc3F_F-MWen6DwIa_66kdQpVAU=)
+[2] [huggingface.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFO1Z1grnQwLRZlCmI4V1FBOH2bc7AystX2xckBpWDCIhGtScI9pGifJ9E4LKsI625eaqihYzYyDn5V-eyM431E8Gx63jYekfxcmXiaiRfTawU6l2yx1JEqHf1PHGw2ePBWJg0q_dwQgYO4oZHTzfSC8KxrbxLp8Nz9Z_ub6tA6I8cP)
+[3] [pyimagesearch.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJMZnc0C0ARWHKj41jGJHt-R9REHIoO8Sx2AuEiULW2wN4Pds1z0mwS-dRgkZzGl0B1gdkmIbFxIYhzimPmoXPzL3VOCmfB1vmrCN8P-SBPrSv0IlGmD1lb7vejPwzKcSCff7X5m-ITZsuw1UunCF-9oQ-m9CZF-BCt5x1gX4REoe4EK24DNB49uZQWJgAiBH4S_4aRCvRAJpWJC-99Wg=)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYbcfsxsbLvdA-D50cf5OPtXpock5y5DYUr1puTWwp3R5dSeyKUkVS1aXSsTZq42jNDEFp57LrpfYPbU-Bfo8gvaqNI0YkXHC280SiXCeOP4miN0RfxO757liOWYjU6VAazNI6XcOBb4287k7Buvkr6m6YMA4jTuXPioLcdopa6gwXSHmmwybQN1beHrqpGaJ6cwYMyQp9KQQwaUU1nN1XqS0hZodVgfT4CV3UaQ9lbyE=)
+[5] [google.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-AU9o8NOn8kPAGrufv93C_74frVFhMOzM1eNgkojyAfyfwPeFiyTTjX776l4Y9gxSDUVq9unH89fMVJbLMIFKSFc0AaYH47xecaUBpnxyk893qyRT4w9-D7QGxqWywyWPQnoqhplm7tzdtEoj4SjpSjNdZ20qwvnTGfjq2GF60P9SOaj-9wuqtVp8uwdDMQcYHN5alU8-0PqkG2AAAzTF101nB4RXgbdMhpasUBPpiRqKUt776cOyAF1detYeosCVaVjhyX7hcqkMsUHY8KDC4jrV6Eal87s=)
+[6] [kaggle.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGn2zdPpryuS0LcWgSQXV4eJk7valQLZDoqI6GXqYtE1cVcA_v5KqFen0iysvcXC2to1xzIoxtBajxz_baZxrG2GKwMocUnVeLmsvI0RWNUu2-veaGASQHq69NKXXtV5Qx1esbCDMfsn8zUAqIQkX7brTkO1F4FA6UkO52L2f4VEDdlGl5OpP8iATOB-BDz280zaZ5Doe6C)
+[7] [huggingface.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFO1Z1grnQwLRZlCmI4V1FBOH2bc7AystX2xckBpWDCIhGtScI9pGifJ9E4LKsI625eaqihYzYyDn5V-eyM431E8Gx63jYekfxcmXiaiRfTawU6l2yx1JEqHf1PHGw2ePBWJg0q_dwQgYO4oZHTzfSC8KxrbxLp8Nz9Z_ub6tA6I8cP)
+[8] [codesandbox.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHd7ygNnzlYQ2YyH9NzcFEm5rmVtSXs8kjL8bcpgbqOpPvpB6OIdXRWAjAU3dMx4EliedEL-Mz8o_1l2X6dQy3a08nVlsw-0rtbHOvrQx68E0yrGJHMcTUTzz3hozZfjj_bN957ytzOK26iUrr-XRsUbr7cmlpamPUreg_qTwsLL48qeTzSQ==)
+[9] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKAItjpp9xUcPWc1UUsJkZiuim-OtdaMCf1qUaH2SBKsOYrGwEovYXLnIeYriTnrgVSXGlynxMfDpejFnMMvqMNfR7zyGzWry8KK6TrIJB2PT0A15yQmNDhIoYfocyDlM8a2fIM46YtwPNLx_G2RDp)
+[10] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKAItjpp9xUcPWc1UUsJkZiuim-OtdaMCf1qUaH2SBKsOYrGwEovYXLnIeYriTnrgVSXGlynxMfDpejFnMMvqMNfR7zyGzWry8KK6TrIJB2PT0A15yQmNDhIoYfocyDlM8a2fIM46YtwPNLx_G2RDp)
+[11] [huggingface.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFO1Z1grnQwLRZlCmI4V1FBOH2bc7AystX2xckBpWDCIhGtScI9pGifJ9E4LKsI625eaqihYzYyDn5V-eyM431E8Gx63jYekfxcmXiaiRfTawU6l2yx1JEqHf1PHGw2ePBWJg0q_dwQgYO4oZHTzfSC8KxrbxLp8Nz9Z_ub6tA6I8cP)
+[12] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF58P9bfytxXjD3mLM2q7bxODsGZBGGkPtQ9XGaIAfr1-C3rPRINLM0-97umWczo9QALaoEZCpIMSNkEldeIZvPJwamCPFCaYQitnFwlcO1NyznxgSdDHYNN84zydZe9fW)
+[13] [google.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvL3vyGklmMtvWq9KkVsRyRAoptSNs8vaDbQnKFy8GWMe8jDhEX52HUFohzMs8SP6cz2j1-mpj7rRWTCCSpvZBd4cdfs_P5X_Sqp18kcZjq8fsa9b01gr7JE6cLCOLTy63twVH5BWIuCbiSkQxXlaM6RbToEIA8JDbfhzEiYAKjDYDzXbrSYjcdeObRASULcWtZw4AlbGg0rYXPHR2oVGdf9CmN0WYRg9KGT9DkwadN6131JCE2hfFxMUg1JR_HBBqZytpbCXCRq_U4A_7ZFSxGQuPtzTgxA==)
+[14] [classcentral.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-HYSHeEAAk8IFLQofPCUni1DYVI7Co0UVk176mSLV_EDr4-oSXLWAQLFVi-JGFBTkFQCsaYWIQPQFz570neKyej8QM8EWGLUcq3MgnBF38-lckoB4MsgdWK2KIZWnask5ZMniVHRHIszAl5OkLU9PiQ2cmhTxXSfBopTtMUc1WZTqQDYxYD13tglFUOkIkhYhRiJ5VrWGc9tHmzw7G8eaclgDXO12w_O9KWWYnpmdPw==)
+[15] [pyimagesearch.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJMZnc0C0ARWHKj41jGJHt-R9REHIoO8Sx2AuEiULW2wN4Pds1z0mwS-dRgkZzGl0B1gdkmIbFxIYhzimPmoXPzL3VOCmfB1vmrCN8P-SBPrSv0IlGmD1lb7vejPwzKcSCff7X5m-ITZsuw1UunCF-9oQ-m9CZF-BCt5x1gX4REoe4EK24DNB49uZQWJgAiBH4S_4aRCvRAJpWJC-99Wg=)
+[16] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKtf4atYpmdpYIJdhbn9YqwUDazbP5G9gcHiI0Q0lLxM0zhqW_qmamTXSwrVWCmjtFyiKQMoyKPQkfrUF3twnH1ydleCYfenXY9xdY1XmcyzeTLTR4ueUy_mE4ggrTvwOn23sUsg==)
+[17] [plainenglish.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRcH2EpV0QOmG_Bk349XgZQ4Ad-pmWzmJelsLnO27j9qtdy9w2_IuTza7UHMJSy9YdFqgfTNVku4dyap5tcKk90tUdnYEw2r5-7tUFWV75zqIUR6W6ZUcK-aw2j37aCpLGniW32k9uYqV1ZXH2HhxfwR3RAg5euwBZU8vlgjp9ZeSoU3ps_srXviUG1bhnXGs=)
+[18] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFW6yEulx-8GuBoDZxgcttXINDlCKbzUTCZNi0LQhHfhgcBFH3MHwRbVgcP4Lx3jW2BOGtKEvmwfmzVkx4F3_HvYXr4R30CoQYRq9qH8LE8MxamgRF1avlQAsV2HftrfaqDvJLlxwjr8Uiy1lxG6bj63JWYc69Tdb8jG5lWV0XvNLNjT78GzY3m6qb8TFlH0dAuJzEhDEPPFkXKhKIBg-6x7AS6k4cQ)

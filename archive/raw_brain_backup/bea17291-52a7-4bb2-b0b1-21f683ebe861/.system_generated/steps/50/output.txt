@@ -1,0 +1,33 @@
+The search for ""exo-explore" OR "exo" cluster "Mac Mini" "MacBook" distributed inference" returned the following summary:
+**Exo** (often associated with the GitHub organization **exo-explore**) is an open-source framework designed to enable **distributed inference** by clustering multiple consumer devices—such as Mac Minis, MacBooks, and other Apple Silicon Macs—into a single, unified AI inference engine[1][2][3].
+
+### Key Concepts of Exo
+*   **Distributed Inference:** Exo allows you to run large language models (LLMs) that are too big to fit into the memory (VRAM) of a single machine by splitting the model layers across multiple devices in your local network[4][5][2].
+*   **Automatic Discovery:** The framework features peer-to-peer (P2P) device discovery, meaning you do not need to perform complex manual configurations to connect your Mac Mini and MacBook[4][6][3].
+*   **Topology-Aware Partitioning:** It automatically analyzes the memory and network latency of each connected device to determine the most efficient way to partition the model[4][6][3].
+*   **Performance Optimization:** 
+    *   **MLX Backend:** It is optimized for Apple Silicon, utilizing the MLX framework for high-performance inference[7][6][2].
+    *   **Tensor & Pipeline Parallelism:** By sharding models, Exo can achieve significant speedups (e.g., up to 3.2x on 4 devices)[7][6][8].
+    *   **RDMA over Thunderbolt:** For newer hardware (e.g., devices with Thunderbolt 5), Exo supports Remote Direct Memory Access (RDMA) to drastically reduce latency between cluster nodes[6][9][2].
+*   **API Compatibility:** It provides a ChatGPT-compatible API, allowing it to act as a drop-in replacement for existing AI tools, agents, and local AI workflows[4][2][3].
+
+### Practical Setup
+*   **Hardware:** You can mix and match Apple Silicon devices (M1/M2/M3/M4 series)[7][9]. While high-speed connections like Thunderbolt are recommended for best performance, the cluster will also work over standard Ethernet or Wi-Fi[7][10][11].
+*   **Software:** Exo runs as a background app on macOS (or from source)[12][7]. Once installed on all nodes in your network, they automatically pool their collective memory to run frontier models[1][7][5].
+
+By using Exo, developers and researchers can effectively build their own "AI supercomputer" at home or in an office, bypassing the need for expensive, single-unit high-end hardware by leveraging the combined resources of the machines they already own[7][5][13].
+
+Sources:
+[1] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmy3TpHCEEOgnnKAwA0gixSSwBw1B1q9da0cJcknO1ppnAjll3I2kbKrJAq03FX8hqMzfSgLVPl1YCj6rpCnjukHUtF-Y94Jjicqoxwv0iz4UlWMPyFI_N2cE5wTfLsgMqnNf4CVgJ_FsuB8chaJ0775RQOIgYSrdpL9uZhqQ=)
+[2] [promptquorum.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2u8wTTNB6PO5jb2fJqQoqjNVV5ClFvUvH92RguMI0Wjxuw09CibHg0WRuuebkdS7yE84iAl-mAIbipZ6mi2PkZ5tpfZciCa6YA6IL2G43IWuWmC0CUh5TcAYkGsTBA5St_0jd9IbmgirXL0lw)
+[3] [jimmysong.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF0T28C4GK7A3T8GKxws0FdASYoH9dF4zkDZAFBrs9jonwnqSfnvlZbcHLT12v-ONU0eY00uikdt1UcsL0_6bXxYu-1iMdze6eK_PBqDQH5qfp39E6Tzhdlgl6UEHf6VqLdg==)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-F9PbfNqH7uaUZSsRI8Jc_mCg6BQAfZobfddC_81-WZq2p6t4MCWfQkccfBaBR3CbNFqHt75UsS-4Av3JAWmQLT39wp3L4vEDZc2G5eSyKRPqJ94LaipJQRVr)
+[5] [lobsterpack.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkDtykSHkefu4i6iCShDe5GUk9DxBljn9k-f2fUeG4PLqGJHFtOobtVRtxik4YtEIKupAoeUrOaV6LXw_F_68nBn3Bph9YtOMvc87qZPftL9P78U8BuIzM_wZaj0ekDlrvIap7R2861PM9oxjAq_UoN8Z3dc-Lbw==)
+[6] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5UIbNoOTQgkVKH7XPW1s7CU7wGwE5dtoKZ3CS3-hRu6tNknHxMrX5-Uytz4yFQJxTTeRum3NKKSssArKsjWzzy8BB1jBwMDsc7NrFuWq2NnlqtdzGZ24Y)
+[7] [devoxx.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCkv1lqT0RDVKfnz-kB67qNqeecsldFzqOxApq3BQvA5nIcCCB-zop19lauDlrwuFkQGRPPeLl_UuQiXuUSR4xF9jA83T-m-_OGP1KjsryMq3TGRORWlFN-bv1BpUI8v3DCBYtbw==)
+[8] [devoxx.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCkv1lqT0RDVKfnz-kB67qNqeecsldFzqOxApq3BQvA5nIcCCB-zop19lauDlrwuFkQGRPPeLl_UuQiXuUSR4xF9jA83T-m-_OGP1KjsryMq3TGRORWlFN-bv1BpUI8v3DCBYtbw==)
+[9] [exolabs.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9hnt7_g4w2Zf8W7HEI1DvAz5FkfQvc24gCsgJp1uIsjkkNIlytPJsR21l4xIBnNEUSHB8_TuqzMhtH1dVwB9pLQyrevMU84FtLw==)
+[10] [substack.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMMfY-ArpnyI52xg0ChnxfLzyrK6sxDwFpCvEo7jGEKnSWkF1UR8tRB2AUSXPEzgGi7oeOy_SMBwfDDZhYl-_-oPrUqAs6Ic_xuMZa1TpGHjzC8nG3lCNGeMDZ9BjaRrc_osmSKdXUdIjiDsAOJ5XGKuxFg5GxbreiFbhebwiA)
+[11] [devoxx.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCkv1lqT0RDVKfnz-kB67qNqeecsldFzqOxApq3BQvA5nIcCCB-zop19lauDlrwuFkQGRPPeLl_UuQiXuUSR4xF9jA83T-m-_OGP1KjsryMq3TGRORWlFN-bv1BpUI8v3DCBYtbw==)
+[12] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5UIbNoOTQgkVKH7XPW1s7CU7wGwE5dtoKZ3CS3-hRu6tNknHxMrX5-Uytz4yFQJxTTeRum3NKKSssArKsjWzzy8BB1jBwMDsc7NrFuWq2NnlqtdzGZ24Y)
+[13] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDMtOXRzWcJEtrZq_yyy5NuGeXK1YJ6UR5GdF6ajwmSFD0Lp-g7iNw8diT4T6HdOgi7y5yRwkX-dBQWX1iwjE4efkHMx-9j04DxWE3ea2KDfTOMt60lLQC9M8b-UNGv-QT)

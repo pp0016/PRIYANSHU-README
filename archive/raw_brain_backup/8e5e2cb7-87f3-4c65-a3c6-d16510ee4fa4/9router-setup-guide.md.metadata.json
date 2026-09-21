@@ -1,0 +1,5 @@
+{
+  "summary": "Complete step-by-step guide for using 9Router to access Opus 4.5 and all available AI models. Covers: how 9Router works as a local proxy, connecting providers (Claude Code OAuth, Anthropic API key, free providers, and other API key providers), getting your endpoint/API key, configuring coding tools (Antigravity, Claude Code CLI, Cursor), and advanced features like Round Robin, Token Saver, Auto-Fallback, and Quota Tracking.",
+  "updatedAt": "2026-08-26T09:41:49.400206800Z",
+  "userFacing": true
+}

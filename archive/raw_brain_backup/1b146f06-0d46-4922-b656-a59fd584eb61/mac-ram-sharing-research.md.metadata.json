@@ -1,0 +1,5 @@
+{
+  "summary": "Comprehensive deep research report on whether you can connect a Mac Mini to a MacBook Pro to combine RAM and processing power. Covers: (1) Why hardware RAM merging is physically impossible due to Apple Silicon's unified memory architecture, bandwidth gaps (100+ GB/s local vs 3-8 GB/s Thunderbolt), and lack of cache coherency; (2) Official methods that work — Screen Sharing, SSH, Apple Compressor distributed processing, headless AI server; (3) Hacker/unconventional methods — RDMA over Thunderbolt 5, Exo distributed LLM clusters, llama.cpp RPC, MLX JACCL; (4) Methods that are dangerous — network swap (kernel panics), RAM disk over iSCSI (slower than local SSD); (5) Practical recommendations for the user's 16GB MacBook + 32GB Mac Mini setup.",
+  "updatedAt": "2026-09-19T19:17:02.888709300Z",
+  "userFacing": true
+}

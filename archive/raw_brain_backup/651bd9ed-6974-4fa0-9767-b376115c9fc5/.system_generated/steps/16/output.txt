@@ -1,0 +1,16 @@
+Task: 651bd9ed-6974-4fa0-9767-b376115c9fc5/task-14
+Status: RUNNING
+Log: C:\Users\renu5\.gemini\antigravity\brain\651bd9ed-6974-4fa0-9767-b376115c9fc5\.system_generated\tasks\task-14.log
+Log output:
+<truncated 12 lines>
+  [09/13/26 14:34:05] INFO     Animation 1 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\pur                         
+                             pose_manim\1080p60\partia                         
+                             l_movie_files\PurposeScen                         
+                             e\4234509111_3285383915_2                         
+                             230982107.mp4'                                    
+Animation 2: _MethodAnimation(ValueTracker):   0%|          | 0/30 [00:00<?, ?it/s]Animation 2: _MethodAnimation(ValueTracker):  13%|#3        | 4/30 [00:00<00:00, 29.96it/s]Animation 2: _MethodAnimation(ValueTracker):  27%|##6       | 8/30 [00:00<00:00, 28.93it/s]
+Last progress: 0s ago

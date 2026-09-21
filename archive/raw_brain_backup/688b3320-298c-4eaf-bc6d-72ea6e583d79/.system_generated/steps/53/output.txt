@@ -1,0 +1,22 @@
+The search for ""Mythos" AI model parameters" returned the following summary:
+Anthropic has not officially disclosed the exact parameter count for the **Claude Mythos** model series. However, industry reports and expert estimates frequently characterize it as a **~10 trillion parameter model**[1][2][3].
+
+Key details regarding its scale and architecture include:
+
+*   **Estimated Scale:** Most industry analysis and reports place the total parameter count at approximately **8 to 10 trillion**[4][1][5][6]. 
+*   **Mixture of Experts (MoE):** It is widely believed that Mythos utilizes a **Mixture of Experts (MoE)** architecture[7][2][6]. This allows the model to possess a massive "knowledge capacity" while maintaining greater computational efficiency, as only a fraction of its total parameters are active during any single forward pass[2][6]. 
+*   **Active Parameters:** While the total parameter count is estimated at 10 trillion, researchers have suggested that the number of active parameters per token is significantly lower—likely in the range of **800 billion to 1.2 trillion**—to manage inference latency and compute requirements[2].
+*   **Comparison:** For context, this scale represents a significant leap from previous generations of frontier models, such as Claude Opus (often estimated in the 1–2 trillion range)[7][3].
+
+Because Anthropic maintains the model as a proprietary, restricted-access system (often deployed through programs like Project Glasswing), these figures remain based on independent estimates and leaked information rather than official technical specifications[4][8][9].
+
+Sources:
+[1] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOD-4FV6GtknnDrLA8cf1HvwHMMzMood3eWMeQFFqqrZLtmhrgVtXr651hYNWOk3c-_KIcnG15_FnVq1UnAZCXBhyc-Qmdeki0SMqYYV0xMqGQBiBrIWbLMUpWlqIkN1QDQUsOglgyOOvtAx7WMtywnQlDFovOPa_Bx_cu14XEChbFQf82gpd6kb0Pk16qfmVTBBksNPtW2jlxuPJI52Up5aV0C8mCSZhGatOAK-JlU4DHxYA1SBTgvX7jQ9EndevK_g==)
+[2] [aimagicx.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCpZoaovrxx0ObVMT0WX2R_6PL3pBveyVgKTMfBIstVCvocXdXX_IHO5j7s-zUSnLLWWoQ9IRXn1FwsJ8DBkE7SgiQsd4_N7o3z7mp0HLlVwG9Q1kFF8LvxfeR2lwyUeue9Fp1VHk0E_i8hmjkZsrp1maHAWJ3YF6vwDCGgS1B04DknrTVrABjVt_PzHC9EPIr)
+[3] [buildfastwithai.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_Hks1sDCwMwioYUYgPZvQq1EQfaSNw3v2PU61XyK3OmFPo1PG9fWn-L63IRl6M3FAVRpL7XdxX9Msi7JLNJ4NJTfas3CjCfB1aePKwVHwIawW6pLRA3HArZ3p5yY_SBHbnfBncKjzQjt5kq22MwiBUk5mApFHRA==)
+[4] [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEixx5XFqwcpjN8U10W9uxWtdq5JwnVFqQByOinJlOAM4ko7dpDT_74-yCWc02GDMpILgUMQ4SKqMU-wdrRJbvK-8k_pVRTQi20kzGFBahtJisnwXDE7jF7hTHF3XFD4b5k)
+[5] [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEixx5XFqwcpjN8U10W9uxWtdq5JwnVFqQByOinJlOAM4ko7dpDT_74-yCWc02GDMpILgUMQ4SKqMU-wdrRJbvK-8k_pVRTQi20kzGFBahtJisnwXDE7jF7hTHF3XFD4b5k)
+[6] [daily.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZjx6MqJx-J5mRdtrIQdx9JeWPHxFIYELY738aTMAVfB5p_klaOtI1YoBzUU3UxHfYerA_RVFNOmI0DWtwT11N7wtUXSe3uFt44rtpdhB7RXdG2IyLWMVBGmI6Jc2-cueO9yVPFPjEc9kIVlAf6zRCwl4g6LkQKlGfa1W8ygtmvcRYXa8UPAU-5MyROuTI)
+[7] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG6M6VqD3RHbqpdEiZhcKJ-pXmvAsg_SpE0o0mih9Dmj9pI6KyqOni-lrP7Ep3H9b3SPAwsG1Z8_JxbkLQs-G-AOBwsNNkeRVTf9VVemf6bt1bBBosq1PIzZIb7CXH-6HSmPM-n1jATBoxBxcykS7IghjLYZfjxuxSNfHKHRpHym54VVWM_WtLu_CUGaZin5I1h0NcQSqB)
+[8] [anthropic.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmg8pJmaGfr5hmSd20_KEPwE9nOna9BjtjuNp9Y7swnxzhqqxrAEH9TWvSegoNERcbTCrvjROxOEXRLy2C6rOej8uMulWghFoOODTEzGTXavOiYK5Rgu0I0eTqlV5fn6Ggi6t76lWwn3jOeno=)
+[9] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOD-4FV6GtknnDrLA8cf1HvwHMMzMood3eWMeQFFqqrZLtmhrgVtXr651hYNWOk3c-_KIcnG15_FnVq1UnAZCXBhyc-Qmdeki0SMqYYV0xMqGQBiBrIWbLMUpWlqIkN1QDQUsOglgyOOvtAx7WMtywnQlDFovOPa_Bx_cu14XEChbFQf82gpd6kb0Pk16qfmVTBBksNPtW2jlxuPJI52Up5aV0C8mCSZhGatOAK-JlU4DHxYA1SBTgvX7jQ9EndevK_g==)

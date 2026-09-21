@@ -1,0 +1,19 @@
+The search for "site:github.com/masihsultani/whiteboard-animator README" returned the following summary:
+The `whiteboard-animator` project by **masihsultani** is an open-source tool designed to transform whiteboard-style images into hand-drawn reveal animations[1][2]. 
+
+### Key Features
+*   **Local Execution:** The tool runs locally on your CPU and does not require any API keys[3][4].
+*   **Functionality:** It detects regions within an image, determines the optimal reveal order, and simulates the sketching process of a hand[3][4].
+*   **Versatility:** It is provided as both a Python library and a command-line interface (CLI)[5][4].
+*   **Licensing:** The project is MIT licensed[5][4].
+*   **Best Use Cases:** It works most effectively with clean drawings on white backgrounds[5][4].
+*   **Context:** It serves as the render engine behind **Kinoslide**[1][2].
+
+You can access the project repository and its documentation on GitHub at: [https://github.com/masihsultani/whiteboard-animator](https://github.com/masihsultani/whiteboard-animator)
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK9zU8Mugu2_uGCYYFjWpZWgVZ477gSttQynBlgQfJ9-GkdEpcvAqiLhMVK1GxCxbs120mZTYkTrEexohPJzL8ELNDanWZMUNQvciNCxtMRHkjrEsOT5iN-EmC_sSv5r9_9qzj0F64MBmbNT2cnge89lRlCpF0JEgsnkp6kg==)
+[2] [xkahn.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuvSyfV-GAmT3w3YdXql6fRUGuZlySLDplkI8b_wZ1gjXy1qZk4zwV73VDllnFl1NX5ZToIgbApLbX65f6PkCIjDDCtG4okvKjri0PfeWDX6La)
+[3] [ycombinator.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtPo6qpefce-AULY3oHULqhGgU1dXKInZChjMiGxKrVUjtrJGU-ch8hud-UxDcVXf69Atcvynai65X5Gb6gXOOPlN9SfzchyONczrfmlH6_D-DW53ksq1-q2hPrW5mk3hkJJ0=)
+[4] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk47oCySuZPn74NjtCJQtSR5FT5Q1K7q8fTc4cBQCipI4T3YMEEggtaZW_FSCz83cDVAjE1WbJy2ZexMYJ215eKdpsfxoOfLY5BKn43jOplIGEYMZAiDBSBXl8nC8ZIDZY1EoJiCJGC0eP8urZoSURSZ6opuPiSHtka9nSLVYKG8YqpdsMtmEph7uFlKlnYW2zG1RLJVqV9zVmWQy9cD4v7gY9Gg==)
+[5] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk47oCySuZPn74NjtCJQtSR5FT5Q1K7q8fTc4cBQCipI4T3YMEEggtaZW_FSCz83cDVAjE1WbJy2ZexMYJ215eKdpsfxoOfLY5BKn43jOplIGEYMZAiDBSBXl8nC8ZIDZY1EoJiCJGC0eP8urZoSURSZ6opuPiSHtka9nSLVYKG8YqpdsMtmEph7uFlKlnYW2zG1RLJVqV9zVmWQy9cD4v7gY9Gg==)

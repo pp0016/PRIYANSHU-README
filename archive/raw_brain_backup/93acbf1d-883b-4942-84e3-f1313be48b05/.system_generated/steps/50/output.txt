@@ -1,0 +1,16 @@
+The search for ""macOS Sequoia" OR "macOS 15" "share RAM" OR "combine RAM" OR "share memory" OR "distributed computing"" returned the following summary:
+The terms "share RAM," "combine RAM," and "share memory" in the context of macOS Sequoia (macOS 15) and Apple Silicon Macs generally refer to **Unified Memory Architecture (UMA)** rather than the ability to combine physical RAM across multiple separate computers.
+
+### Unified Memory (Internal Sharing)
+Apple Silicon Macs (M1, M2, M3, M4, etc.) use a **Unified Memory Architecture**, which is a core feature for macOS Sequoia. 
+*   **What it does:** It allows the CPU, GPU, and Neural Engine to access the same pool of memory directly. Because they all share this single pool, the system does not need to copy data between separate CPU and GPU memory buffers, which improves performance and efficiency, especially for AI workloads and large language models (LLMs).
+*   **Not "Combining" RAM:** This does not mean you can add two Macs together to double your RAM. Each Mac operates with its own independent pool of unified memory.
+
+### Distributed Computing (External Linking)
+There is no native macOS feature that allows you to "link" two Macs together to physically pool their RAM into a single usable workspace (e.g., to run a single application that requires more RAM than one Mac has). 
+*   **Distributed Computing:** You can set up distributed computing environments (using tools like Celery, Docker, or specialized rendering farms) where tasks are split across multiple computers, but these remain separate machines that communicate over a network rather than sharing a single memory address space.
+*   **Resource Pooling:** While you can use features like "iPhone Mirroring" to control an iPhone from a Mac, or file sharing to move data between computers, these do not involve sharing physical RAM for processing tasks.
+
+### Summary for AI and Heavy Workloads
+*   **RAM Requirements:** For memory-intensive tasks in macOS Sequoia—such as running local AI models or large-scale video rendering—it is recommended to have 16GB of unified memory or more. Some advanced AI features in macOS (like Predictive Code Completion in Xcode) may require 16GB or higher to function effectively.
+*   **Performance Bottlenecks:** Because the GPU shares the same memory as the CPU, heavy GPU usage (like high-resolution rendering or running large AI models) will reduce the amount of memory available for system processes and applications. If you exceed the available unified memory, the system will use "swap" space (writing data to the SSD), which can significantly slow down performance.

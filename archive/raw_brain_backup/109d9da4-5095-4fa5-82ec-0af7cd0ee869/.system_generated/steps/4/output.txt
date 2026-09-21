@@ -1,0 +1,33 @@
+The search for ""Apple Silicon" memory bus width LPDDR5 "M1 Pro" "M1 Max" "M1 Ultra" "UltraFusion" bandwidth" returned the following summary:
+The memory architecture of the M1 Pro, M1 Max, and M1 Ultra chips in the Apple Silicon family utilizes LPDDR5 memory[1][2][3] with distinct bus widths to achieve their respective memory bandwidths.
+
+### **Memory Specifications**
+
+| Chip | Memory Bus Width | Memory Bandwidth |
+| :--- | :--- | :--- |
+| **M1 Pro** | 256-bit[1][4] | Up to 200 GB/s[1][5] |
+| **M1 Max** | 512-bit[1][4] | Up to 400 GB/s[6][5] |
+| **M1 Ultra** | 1024-bit (aggregate)*[7] | Up to 800 GB/s[8][7] |
+
+*\*Note: The M1 Ultra is essentially two M1 Max dies interconnected[9][10], effectively doubling the memory bus width and bandwidth of a single M1 Max[7].*
+
+### **Key Architectural Details**
+*   **Memory Type:** The M1 Pro, M1 Max, and M1 Ultra use **LPDDR5** memory[1][2]. (The original M1 used LPDDR4X[11][12]).
+*   **UltraFusion:** This is Apple's custom packaging architecture used to connect two M1 Max dies to create the M1 Ultra[9][13]. It provides a massive **2.5 TB/s** of low-latency inter-processor bandwidth[7][13][14], allowing the two dies to communicate and access unified memory as a single SoC[14]. 
+*   **Unified Memory:** Because these chips use a unified memory architecture, the high bandwidth is shared between the CPU, GPU, and Neural Engine[9][2]. This design is a significant factor in the performance of Apple Silicon, as it provides GPU-level memory bandwidth to the entire system[2][5].
+
+Sources:
+[1] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH76NUUI-qX7i3sPHkJ3y-sOEeDW4rQ17cwuTFR-CB1aiq4pzgFYSIIUj4qT248ZvmK5FIbLqP7J45H9y36UgpTuaHdJWVZmIjkQ41oNBOaKJXGYTAssXL4YNjnH_RqmS5Nd5jAwDDe_uTsL7GzT77taQXH57VWZPXe)
+[2] [ycombinator.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUBunamK0Nt4BrHmHkSiZwsM8IcaojQhbz5l6OYfC_Ft50Q5tLvycxxnkQSbDVy1r0rc7H6OF-loUzj0YGLjwDihXIPRb7mBofFiuGx8HvYfssrqBpUE26WXxazx6N4EPVFXw=)
+[3] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpSlDtvDKWQ91OtqtWuCrt2dOVqE0gIfjZqCZPhdp2wvWnLme2qruMtaHVgev7q9JKG2QSL6YAO3sCYpCSvh2BGtkpEc7yD7Yv7sSxQnJD0jW3AI1MTlqwPZCQ2ZXU611wfNnxdS9ok3LlNgaP8aNwlgJ-ObDtpQSDPzB2PU8=)
+[4] [techradar.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjecIRFG7gQb93xboZMmHmCUnPqJzQ1zyPjn6infRq88-gDGCsvqaLoeDJGUbOpdPW9LDTqJcHSJpSaiVcS1h73OzvLd_OvVipqER6G_jcmSFJwMJiCw2hBIkfj91kGeWG4EqMQw==)
+[5] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEpn0fHA79CwsLCUARybwrVpzDlM7TMnEubw2tQz_vxF6iKFdfmvcpDSfO9TZbR8xkMPpzIAwq8Uv25VzviGmS39NQa0h_UsEkkKYn0DXX1L_UoQXVRB47H-8HdjKv56q6ctVVPkuc8ZhFmPVMDqj_RZlDLuhmWBm9J7ee_OpkP0vS4wiL5cNsokRUkmKrFZYApSxZOjXE7BLKiGuFfs0kBdv9M2isLhQ7b8M=)
+[6] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxwxqUl0Vf5Roo06Q22o2h7GZyneN2hHHJmOXsw8lMKLYeb1di41SlvbCh2eO9u-a-P9cBvIJSsR8ER6V_Cx2H9qJ-AZRZ572soc-y7241nB_Q9HMg7310q38Iqg==)
+[7] [digitaltrends.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOELC908SWVNZy0UteyUytCH0BJ8Ol8nWoVDbk3OZAyAT6ITy1ta2yiFfCTey65msogHFSzdM0brTcNVwPOvCQ4MZiC5J3bjA6Oj8l-UMKIbY5NHkRt8YDeRexDFADCoAl6sCx815FKB0pOki17OPOO7aw9cjd-PC8DI4YawXtlKw=)
+[8] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELDS8eAgqJewqzB8AnZX8tsLj6x5ifPvi9qS-fIYCSGW3qEXXzqB4iILqSKJJAQXFTMXy3XuCpYoK-H7XBYM1UgUj5lZ5gsASvUHTTS8wWylzTry6x1TeY-OVHsw==)
+[9] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFNlWJNnZQ7rLkg9UorrPuL5Iozzzwszg8iUprdxxHmqsdyTNlCo_Q7MmPLAxvFCIz8a3Dy9W3smX0EaIOiUtHMzMTzKliJCx6zXZKqQzO5dildN8jj4qiYNfhHnsmyh2PzOz-x_I47KSn10jBXXqfsTXeOIusV2nCzwqTtGbw2j532CUV9K2Z3zZqjvzYN2FK-6Eymg6s0vexkvuUQgx6il_Jy0vFbON-ao0YSw==)
+[10] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFNlWJNnZQ7rLkg9UorrPuL5Iozzzwszg8iUprdxxHmqsdyTNlCo_Q7MmPLAxvFCIz8a3Dy9W3smX0EaIOiUtHMzMTzKliJCx6zXZKqQzO5dildN8jj4qiYNfhHnsmyh2PzOz-x_I47KSn10jBXXqfsTXeOIusV2nCzwqTtGbw2j532CUV9K2Z3zZqjvzYN2FK-6Eymg6s0vexkvuUQgx6il_Jy0vFbON-ao0YSw==)
+[11] [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyOgvVr81JX5EEHkAMY2QQHMyunXPee84WydrHdfOU8LLL0qNxbPv065HmjRVK5qmkzQ_MrMhnsZFXCF9Fphp6wDvjrd3Ib7kpeRLXJP2qoibZumUuZ7S0Jxo7yw==)
+[12] [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyOgvVr81JX5EEHkAMY2QQHMyunXPee84WydrHdfOU8LLL0qNxbPv065HmjRVK5qmkzQ_MrMhnsZFXCF9Fphp6wDvjrd3Ib7kpeRLXJP2qoibZumUuZ7S0Jxo7yw==)
+[13] [3dincites.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoYhpp7DL_C2TWi7GhSZ4_vCvroT8L5t-Q54cWxI1jd8Kck0pxk6MATw0549k0qNwhFF276JQEVGeDeMi2fHptoicUQwn-XalcAhmAadTaX6F7dvHD0E-RbVvwUzhZO9QmngMaM5xl9IU462g-YIebKyT1astEznedwWf_O5edtHPB)
+[14] [petapixel.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhvKkzKli1hgZsjy3o5kdgh9A4VwkuuPk_sVB85ZGqM8EeS6AJkAu-bCErvU5KpQUmAYDuE_x9ARpH9vcf3nPJ5gzS3nK3zmuBZo-gcXdom0qXQry5Z23DZmjXP2wZhcCzxc-_3Y4D6kccw6hN_eQ-hrb0C8azu_e2_LyUKW_SM__F5Rblp3otGRDe05T3Sg==)

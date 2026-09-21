@@ -1,0 +1,128 @@
+
+Encountered error in step execution: context canceled
+Output:
+<truncated 263 lines>
+03:56.282  render           | Time: 00:06.59 (Saving: 00:00.22)
+03:56.282  render           | Rendering frame 30
+03:56.282  render           | Start rendering: Scene, ViewLayer
+03:56.282  render           | Engine: EEVEE
+03:56.532  render           | Fra: 30 | Rendering 1 / 64 samples
+03:58.875  render           | Fra: 30 | Rendering 25 / 64 samples
+04:01.250  render           | Fra: 30 | Rendering 50 / 64 samples
+04:02.578  render           | Fra: 30 | Rendering 64 / 64 samples
+04:03.032  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\render_output\frame_00030.png'
+04:03.032  render           | Time: 00:06.75 (Saving: 00:00.25)
+04:03.032  render           | Rendering frame 31
+04:03.032  render           | Start rendering: Scene, ViewLayer
+04:03.032  render           | Engine: EEVEE
+04:03.328  render           | Fra: 31 | Rendering 1 / 64 samples
+04:05.594  render           | Fra: 31 | Rendering 25 / 64 samples
+04:07.938  render           | Fra: 31 | Rendering 50 / 64 samples
+04:09.328  render           | Fra: 31 | Rendering 64 / 64 samples
+04:09.782  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\render_output\frame_00031.png'
+04:09.782  render           | Time: 00:06.74 (Saving: 00:00.23)
+04:09.782  render           | Rendering frame 32
+04:09.782  render           | Start rendering: Scene, ViewLayer
+04:09.782  render           | Engine: EEVEE
+04:10.047  render           | Fra: 32 | Rendering 1 / 64 samples
+04:12.344  render           | Fra: 32 | Rendering 25 / 64 samples
+04:14.828  render           | Fra: 32 | Rendering 50 / 64 samples
+04:16.203  render           | Fra: 32 | Rendering 64 / 64 samples
+04:16.641  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\render_output\frame_00032.png'
+04:16.641  render           | Time: 00:06.85 (Saving: 00:00.24)
+04:16.641  render           | Rendering frame 33
+04:16.641  render           | Start rendering: Scene, ViewLayer
+04:16.641  render           | Engine: EEVEE
+04:16.922  render           | Fra: 33 | Rendering 1 / 64 samples
+04:19.235  render           | Fra: 33 | Rendering 25 / 64 samples
+04:21.750  render           | Fra: 33 | Rendering 50 / 64 samples
+04:23.172  render           | Fra: 33 | Rendering 64 / 64 samples
+04:23.610  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\render_output\frame_00033.png'
+04:23.610  render           | Time: 00:06.97 (Saving: 00:00.23)
+04:23.610  render           | Rendering frame 34
+04:23.610  render           | Start rendering: Scene, ViewLayer
+04:23.610  render           | Engine: EEVEE
+04:23.891  render           | Fra: 34 | Rendering 1 / 64 samples
+04:26.203  render           | Fra: 34 | Rendering 25 / 64 samples
+04:28.641  render           | Fra: 34 | Rendering 50 / 64 samples
+04:30.094  render           | Fra: 34 | Rendering 64 / 64 samples
+04:30.688  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\render_output\frame_00034.png'
+04:30.688  render           | Time: 00:07.07 (Saving: 00:00.34)
+04:30.688  render           | Rendering frame 35
+04:30.688  render           | Start rendering: Scene, ViewLayer
+04:30.688  render           | Engine: EEVEE
+04:31.094  render           | Fra: 35 | Rendering 1 / 64 samples
+04:33.938  render           | Fra: 35 | Rendering 25 / 64 samples
+04:36.438  render           | Fra: 35 | Rendering 50 / 64 samples
+04:37.828  render           | Fra: 35 | Rendering 64 / 64 samples
+04:38.391  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\render_output\frame_00035.png'
+04:38.391  render           | Time: 00:07.69 (Saving: 00:00.32)
+04:38.391  render           | Rendering frame 36
+04:38.391  render           | Start rendering: Scene, ViewLayer
+04:38.391  render           | Engine: EEVEE
+04:38.719  render           | Fra: 36 | Rendering 1 / 64 samples
+04:41.282  render           | Fra: 36 | Rendering 25 / 64 samples
+04:43.907  render           | Fra: 36 | Rendering 50 / 64 samples
+04:45.313  render           | Fra: 36 | Rendering 64 / 64 samples
+04:45.860  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\render_output\frame_00036.png'
+04:45.860  render           | Time: 00:07.47 (Saving: 00:00.28)
+04:45.860  render           | Rendering frame 37
+04:45.860  render           | Start rendering: Scene, ViewLayer
+04:45.860  render           | Engine: EEVEE
+04:46.188  render           | Fra: 37 | Rendering 1 / 64 samples
+04:48.578  render           | Fra: 37 | Rendering 25 / 64 samples
+04:51.125  render           | Fra: 37 | Rendering 50 / 64 samples
+04:52.516  render           | Fra: 37 | Rendering 64 / 64 samples
+04:53.047  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\render_output\frame_00037.png'
+04:53.047  render           | Time: 00:07.17 (Saving: 00:00.30)
+04:53.047  render           | Rendering frame 38
+04:53.047  render           | Start rendering: Scene, ViewLayer
+04:53.047  render           | Engine: EEVEE
+04:53.344  render           | Fra: 38 | Rendering 1 / 64 samples
+04:55.766  render           | Fra: 38 | Rendering 25 / 64 samples
+04:58.266  render           | Fra: 38 | Rendering 50 / 64 samples
+04:59.750  render           | Fra: 38 | Rendering 64 / 64 samples
+05:00.282  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\render_output\frame_00038.png'
+05:00.282  render           | Time: 00:07.23 (Saving: 00:00.30)
+05:00.282  render           | Rendering frame 39
+05:00.282  render           | Start rendering: Scene, ViewLayer
+05:00.282  render           | Engine: EEVEE
+05:00.578  render           | Fra: 39 | Rendering 1 / 64 samples
+05:03.032  render           | Fra: 39 | Rendering 25 / 64 samples
+05:05.625  render           | Fra: 39 | Rendering 50 / 64 samples
+05:07.297  render           | Fra: 39 | Rendering 64 / 64 samples
+05:07.985  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\render_output\frame_00039.png'
+05:07.985  render           | Time: 00:07.71 (Saving: 00:00.39)
+05:07.985  render           | Rendering frame 40
+05:07.985  render           | Start rendering: Scene, ViewLayer
+05:07.985  render           | Engine: EEVEE
+05:08.438  render           | Fra: 40 | Rendering 1 / 64 samples
+05:11.047  render           | Fra: 40 | Rendering 25 / 64 samples
+05:13.844  render           | Fra: 40 | Rendering 50 / 64 samples
+05:15.391  render           | Fra: 40 | Rendering 64 / 64 samples
+05:16.000  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\render_output\frame_00040.png'
+05:16.000  render           | Time: 00:08.00 (Saving: 00:00.33)
+05:16.000  render           | Rendering frame 41
+05:16.000  render           | Start rendering: Scene, ViewLayer
+05:16.000  render           | Engine: EEVEE
+05:16.360  render           | Fra: 41 | Rendering 1 / 64 samples
+05:19.157  render           | Fra: 41 | Rendering 25 / 64 samples
+05:22.125  render           | Fra: 41 | Rendering 50 / 64 samples
+05:23.641  render           | Fra: 41 | Rendering 64 / 64 samples
+05:24.203  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\render_output\frame_00041.png'
+05:24.203  render           | Time: 00:08.21 (Saving: 00:00.30)
+05:24.203  render           | Rendering frame 42
+05:24.203  render           | Start rendering: Scene, ViewLayer
+05:24.203  render           | Engine: EEVEE
+05:24.532  render           | Fra: 42 | Rendering 1 / 64 samples
+05:27.203  render           | Fra: 42 | Rendering 25 / 64 samples
+05:29.969  render           | Fra: 42 | Rendering 50 / 64 samples
+05:31.563  render           | Fra: 42 | Rendering 64 / 64 samples
+05:32.219  render           | Saved: 'C:\Users\renu5\.gemini\antigravity\scratch\render_output\frame_00042.png'
+05:32.219  render           | Time: 00:08.01 (Saving: 00:00.37)
+05:32.219  render           | Rendering frame 43
+05:32.219  render           | Start rendering: Scene, ViewLayer
+05:32.219  render           | Engine: EEVEE
+05:32.610  render           | Fra: 43 | Rendering 1 / 64 samples
+05:35.391  render           | Fra: 43 | Rendering 25 / 64 samples
+

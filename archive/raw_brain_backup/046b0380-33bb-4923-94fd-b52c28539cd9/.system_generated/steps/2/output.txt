@@ -1,0 +1,50 @@
+The search for "VRAM requirements Llama 4 Qwen 3 Gemma 3 open source LLM 2025 quantized GGUF" returned the following summary:
+To estimate the VRAM requirements for running open-source LLMs in 2026, you must account for the model's **total parameters**, the **quantization level** (e.g., Q4_K_M), and the **context length** (KV cache)[1][2][3].
+
+### General VRAM Estimation Formula
+A reliable "back-of-the-envelope" formula for total VRAM is:
+**Total VRAM ≈ (Model Weights) + (KV Cache) + (Overhead)**[3]
+
+1.  **Model Weights:** Roughly `Parameters (in Billions) × (Quantization Bits / 8)` GB[4][3].
+    *   *Example:* A 27B model at 4-bit (4 bits/8 = 0.5 bytes per parameter) requires ~13.5 GB for weights alone[3].
+2.  **KV Cache:** Scales linearly with context length and batch size[5][3]. For long-context models like those in the Llama 4 or Qwen 3 families, this can become a significant portion of VRAM[6][1][3].
+3.  **Overhead:** A buffer of 10–20% is recommended for activations and framework operations[4][3].
+
+---
+
+### Model Status & VRAM Profiles (2026)
+
+| Model Family | Status | Typical Sizes | VRAM Considerations |
+| :--- | :--- | :--- | :--- |
+| **Llama 4** | Released April 2025[7] | 17B (Scout/Maverick)[6] | Scout (17B) runs on single high-end GPUs at 4-bit; context window is massive (10M tokens), which requires careful KV cache management[6][8]. |
+| **Qwen 3** | Released 2025[9] | 4B, 27B, 235B[9] | Diverse sizing. The 27B variant is a popular choice for local hardware[10]. Newer MoE variants (like Flash-Next) are optimized for efficiency[11]. |
+| **Gemma 3** | Released March 2025[12] | 1B, 4B, 12B, 27B[13] | Designed for efficiency; scales well from edge devices to high-end workstations[13][14]. |
+
+---
+
+### Practical Tips for GGUF/Quantized Models
+*   **Use Calculators:** Because architecture (especially Mixture-of-Experts) and context length drastically change memory usage, use community-maintained tools like the [Hugging Face GGUF VRAM Calculator](https://huggingface.co/spaces/DavidAU/GGUF-Model-VRAM-Calculator)[15][3].
+*   **The 4-bit Sweet Spot:** Most "Q4_K_M" (4-bit) quantizations offer the best balance of performance and memory savings, allowing you to run much larger models than FP16 would permit[16][17].
+*   **Context Management:** If you are running long-context models (e.g., Llama 4 Scout), your KV cache may exceed your weight memory if you use a large context window[6][1]. If you run out of VRAM, reduce the `n_ctx` (context size) in your software (e.g., llama.cpp, Ollama) rather than the quantization level[18][3].
+*   **GPU Offloading:** GGUF is specifically designed to allow "partial offloading." If your model is slightly too large for your VRAM, you can offload as many layers as fit to the GPU and keep the remainder on system RAM (though this will be slower)[19][18].
+
+Sources:
+[1] [spheron.network](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEA15AA6i7oOwyKzyMztNPoZ77OyFxycsWvfJvY944SCvLzulF5XCVf0Daexehrivyw4DWdHsd1H1orqjU7kG-_oRD1no5FkGrutdaYnbP3toZQgAMOtaNLT-ll8cxE9RY0pvwjmqUO3PxnVXcAlR9PYvhZ)
+[2] [spheron.network](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEA15AA6i7oOwyKzyMztNPoZ77OyFxycsWvfJvY944SCvLzulF5XCVf0Daexehrivyw4DWdHsd1H1orqjU7kG-_oRD1no5FkGrutdaYnbP3toZQgAMOtaNLT-ll8cxE9RY0pvwjmqUO3PxnVXcAlR9PYvhZ)
+[3] [netraruntime.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd2JISeZAwBVFTsTYw5hnSWBWS0ijdOGCTMo-yXkF3qWjwMI6VefgTTOL-UpRFA5bvec3RzEC7zNLLuBWhbK3mBsiLaSjiDvvMT0qFtiTvVWNvOjUAWlLVeKj6645iv3cfXH73k2OwYhQbRJk=)
+[4] [modal.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe0JN18hXgWyDA3wa_4bNhtw09Kw8xX7cCoQjGvieg97Y4T2K2hPiwteEDnIQ7rNIkI9LaCbXOyb3l0K0YOQTczbxpP08fhtdL6TI61q9BxNdXIwBBz_PzXIcqb0Ai--n38fjo48M1knY=)
+[5] [apxml.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy5CNRitHE-eeDXthDc6laUMN-7akzyDLJ1MEmIQVs6Mko8hw-aaurKjhqHRI5tWsNhEgMrP39uYlFsAr4TilKmAr1K9ucjeercT4cqLapoZo0MGkbs6cbA8Ul3L8=)
+[6] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSl4eSauJJGYm7hb1UAHC_f2ruXJ6-nLbkHjSW15e3jMnCbDsekWzhMTDZELm3ZPLLhE0x03R17m84ARvRoXPuGp2l-5vU4-qnS6quwhn0CeepHo9OX2lRd235BRE7St6h-bkBQE81O8CfpR1rjkpltCMIgPmY0IC28XTE-0ff-Ro2bBEmCo1pORcqsDqInL6puqYFONM=)
+[7] [techtarget.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjFhzpK4pZg4SVwRlpcCv-J1wYOBaT1w2ucr3XsmUGmoG0lZLIpDb-OblL4PgJViIff9_2n-E1H2colqW4TkH4AHRmdmwauFQ-v_LicqKGycpsX2URhyVJFoaxzDK-utOXDjmbdOlBHVzu8ZW89qv15Na4lIjEM48DVz9SLWUdPOH8UqUWQF6zZHgBgLCAbyeqdA==)
+[8] [explainx.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGbRmB2nFiYGnjQX9c76agOeottgQVLqNLGSjZklK0QxtoRm7jUYqZnr6NDpKr-9JcH1sUtzu-tggAnsWGfSt-X-J4lKrVyuKexax_E9sryW_zqPaH6AdhH6gjXlK1DOEZkx2iOQYcymWQIQP4SSfZW-YHRAYFX913)
+[9] [github.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4-fveA08M0dI3S5xqomcCUiOAOEXcOZg2PNjSlnDX7fUmliAgDEbo9C1uHkqZAQI_Bz8c_ovXIGbp_XcZkk0dWwQolmF23yVUDtpZDpOGpIC-f2SIodZRmPE=)
+[10] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYlbCHCewq9tttNviIxehpATyfZbrzah3siMf1JYUT0JX2EyAvERbLtrmkca6f5ZgEikNWa0wY_1pMm8Z47LCmkTXWGXCnN-q9x4uqC51poA64EDm30EXty7iFxsATYcrnED4Pch15JibkicSgCDllWencr9epCoAavJqIG4rwuK2WU8pjQbncpIoEDMtykXpmg8q6c852X9oiLClj2w21Kuou_pdo0k9HoioZfAkq7Nw=)
+[11] [orcarouter.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEg7adGNXe1Jy3W91qrrJn9gx_JB_dg7UBbEmkWIjUGPBrLU1zAVINT7y329BKMyzNJgNSIu5R4NuMQlHMt09OfMMaECJ3nyB9DcO69YSjZpYpIt6I0QJkruk2A5ssEcPTJlwsIAL9y-sgS1WO-)
+[12] [aireleasetracker.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpT5zBctCo1NU9g5QM4hYVLWR-jUWryx99Z1msg7R8J921ZG__-G-MOifYxT6AJVKXPpNbHk8vAPTo7t78nwVPRFfFUxHKZp-8ycEv38zei8SMzfJGHY_YC0BYf23u3ORcYYo4zjQS)
+[13] [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIzi_REK6abFOoit0xil3g0b9iKPHf62LJrk5hR9ukv-Qym136CxSjU_GVHe-1mzpoxSEeQVg7flxxpVfSigYQ0-GVJDJhgGot_q41pFRfH4QpyES0Vg2q7miNSSanaZML1z1zAhDyCf05)
+[14] [deepmind.google](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-PPVuq6X-KYB32U8EftRJAFIGmCqrsVsJHc0WNCk0m_ASfNVPrZjGcAfGKF9RWEXOHsz8VGZByYrFoCMh5hU9k2YfPoLTnoUDdypVozMET9RFDu_4thfXI7UV)
+[15] [huggingface.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuMnSpSgFO5wavTuRDa--_PEr178N6phbh39VnkF8LBZ5_L30iS_ePH9dtLlCJHPOzcbNYma5dUxi7fpX4aUbY6Q4bp9YLQqjKSo8Nut1KIdU_MBsnDAr0b_tUBlkfFrA0-Zv0psQmsHT0IJt3KTMzc_0jf7Iw)
+[16] [branch8.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCmzIeXhIFpPksS8B9eU-OCcj58ZvBldCnCPQWiQmao3P0LJf5zZ2Tq9l8woYyGaU1e-g_qPGpvxGEO5lDq18evYqMQijj_0QqEhCGKGTn4oYsRiXE1hlqZ-AUxl0Lg5dKRWyzodBpcc3bvH2p4Wg8kd2HGllRQycNMtkSONN5jzz4VZHiGvk=)
+[17] [apxml.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7oimK0iaWYBMCzdy8KsV6UZUhWFZZ9gUYJp1vSTl9ziCo5lvjJ97UmvwqyKQbMKDjJWvGtgxUHUCoflLCaKvBrtOZ-3Afg1V4ruqTkx_IJn_r0U_69HQjmNdlKXBjVMHhArSlg2PpPb7Pq5TOn2ULvvrMT1vdyQpMVQrBiLrZlggy9Ybm7e5f0pTvAnMj3izvrqBDlIOovAc8Q7K5TsosjlYYK2-DKqN93SLnb_1III09pQSCn74yd9923QYXHSAksIe5_yYJ9IJ2)
+[18] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrrMdpQB4Nj_0jvKDnspNquKPb2C7t8fvJ8Dn07eYboXihv3kDrNzgr-f6YuP16T-RsCEM9rsxIATzZ_GTqbI1fNx3p80dmdXoDvBq4uA9fyTGZe1ycVsuXOiZwKRj1MNY93I8x9BuEcx7cRjt7o_MbTKSR4LqZSjS5oedesqmnZYbI1VVD-utiQ88ICBUhMBl1riDgOAfkS_l0hs=)
+[19] [mistral.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_XQeB9frFl79xJyLKLgFVnOkGcsLrb130SnLGZxrTRmQGI_A1LkfwEeRCG-2iYriOimyK8vXiZLyslh4I8p3sRIA7rvHzp0wb6act65zTVFZQumqkHv7nJ96Xp2ZBxVe8Bpxrc7KZRN8uh6ek18sv1Gwxr8ksOT1oyc2JGNOFvEa3YvtKGsesKCorNPU=)

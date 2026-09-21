@@ -1,0 +1,20 @@
+The search for "github "remotion" "whiteboard" OR "videoscribe"" returned the following summary:
+While there is no single "official" Remotion-based VideoScribe clone, the GitHub ecosystem contains several projects and templates that combine **Remotion** with **whiteboard/hand-drawn animation** capabilities.
+
+### Key GitHub Projects & Resources
+*   **[story-handdrawn-studio](https://github.com/DingYi1024/story-handdrawn-studio)**: A repository focused on creating, resuming, validating, and rendering hand-drawn story videos using Remotion as an agent skill.
+*   **[anything2explainer](https://github.com/Vincentwei1021/anything2explainer)**: A highly relevant project that turns any topic into a "black-canvas" motion-graphics explainer video. It uses Remotion to programmatically draw every frame, including TTS voiceovers and progress bars.
+*   **[SceneDirector](https://github.com/ytrofr/claude-remotion-editor)**: An interactive hand-path editor for Remotion compositions, allowing you to draw and save animation paths (useful for mimicking the "whiteboard" effect).
+*   **[whiteboard-animation-engine](https://github.com/haseebuchiha/whiteboard-animation-engine-first-video)**: A programmatic engine specifically for hand-drawn explainer video generation, though implemented in Python (often used in conjunction with automation pipelines).
+
+### Related Approaches
+If you are looking for "whiteboard-style" automation using Remotion, the community often follows these patterns:
+*   **Vanta ([itsjwill/vanta](https://github.com/itsjwill/vanta))**: A comprehensive, open-source AI video engine built on Remotion. It integrates various tools for video editing, including vector graphics and motion graphics, and is often used as a full-stack alternative to paid animation tools.
+*   **"Vibe Coding" / Agent Skills**: Many developers now use Remotion with coding agents (like **Claude Code**) to generate whiteboard-style videos. You can find "skills" in the [remotion-dev/skills](https://github.com/remotion-dev/skills) repository that help automate the drawing and layout process programmatically.
+*   **General Whiteboard Topic**: You can track new developments in this space by checking the [whiteboard-animation-videos](https://github.com/topics/whiteboard-animation-videos) topic on GitHub.
+
+### Recommendation
+If you want to build a VideoScribe-like tool:
+1.  **Start with the [anything2explainer](https://github.com/Vincentwei1021/anything2explainer) architecture** if you want a code-first, explainer-style output.
+2.  **Use [SceneDirector](https://github.com/ytrofr/claude-remotion-editor)** if your primary need is the ability to manually draw or define the "hand-path" for animations.
+3.  **Explore [Vanta](https://github.com/itsjwill/vanta)** if you want a complete, production-ready pipeline that handles the complexity of assets, rendering, and integration without needing to build everything from scratch.

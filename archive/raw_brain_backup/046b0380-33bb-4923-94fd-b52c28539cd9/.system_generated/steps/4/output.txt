@@ -1,0 +1,38 @@
+The search for "Whisper TTS open source voice model VRAM requirements local 2025" returned the following summary:
+It is important to clarify that **Whisper** is an Automatic Speech Recognition (ASR) model (Speech-to-Text), not a Text-to-Speech (TTS) model.
+
+If you are looking to build a local voice pipeline in 2026, you will need to pair a transcription model like Whisper with a separate, dedicated TTS model.
+
+### 1. Whisper (ASR) VRAM Requirements
+Whisper is designed for speech-to-text. The VRAM requirements depend on the model size you choose:
+
+| Model Size | Parameters | Required VRAM (Approx.) |
+| :--- | :--- | :--- |
+| **Tiny** | 39 M | ~1 GB |
+| **Base** | 74 M | ~1 GB |
+| **Small** | 244 M | ~2 GB |
+| **Medium** | 769 M | ~5 GB |
+| **Turbo** | 809 M | ~6 GB |
+| **Large (v3)** | 1.55 B | ~10 GB |
+
+*   **Optimization Tip:** Using `faster-whisper` can significantly improve performance (3–4x faster) compared to the standard OpenAI implementation while maintaining accuracy.
+
+---
+
+### 2. Open Source TTS Models (VRAM Requirements)
+For the Text-to-Speech (TTS) side of your pipeline, the landscape in 2026 offers several high-quality, local-friendly models. VRAM needs vary based on the model's architecture and whether it supports voice cloning or streaming.
+
+| Model | Approximate VRAM Usage | Notes |
+| :--- | :--- | :--- |
+| **Kokoro-82M** | < 2–3 GB | Excellent for speed; runs on CPU or low-VRAM GPUs. |
+| **Chatterbox (Turbo)** | ~2–4 GB (Est.) | Highly efficient; optimized for low-latency voice agents. |
+| **Zonos-v0.1** | ~6 GB+ | Strong performance with emotional control and voice cloning. |
+| **VoxCPM2** | ~6 GB+ | High-fidelity (48kHz) output; supports voice design/cloning. |
+| **XTTS v2** | ~8 GB+ | Popular, though generally outperformed by newer models in 2026. |
+
+---
+
+### Summary for Local Deployment (2026)
+*   **For Low-End Hardware (e.g., 8GB VRAM):** You can comfortably run **Whisper Small/Medium** and a lightweight TTS model like **Kokoro-82M** or **Chatterbox**. An RTX 3060 Ti (8GB) is widely considered sufficient for these setups.
+*   **For High-Performance/Production:** If you require real-time, low-latency performance with advanced features like voice cloning (e.g., **VoxCPM2** or **Zonos**), a GPU with **12 GB to 24 GB of VRAM** (such as an RTX 3090, 4090, or 5090) is recommended to handle the combined load of the transcription and speech synthesis engines.
+*   **Engineers' Tip:** Always account for your "KV Cache" and model overhead when calculating VRAM. Even if a model's weights fit, you need additional VRAM (typically 1–2 GB) for the inference engine (e.g., SGLang, vLLM, or llama.cpp) to process requests efficiently.

@@ -1,0 +1,27 @@
+The search for ""Gabb Phone 4 Pro" specifications hardware battery camera RAM" returned the following summary:
+The **Gabb Phone 4 Pro** is a specialized, kid-friendly smartphone that is effectively a highly modified **Samsung Galaxy A15 5G**[1][2]. Because it is built on this hardware foundation, it offers more advanced specifications compared to the standard Gabb Phone 4[1][3].
+
+### **Key Specifications**
+
+*   **Hardware Foundation:** The device is built using the Samsung Galaxy A15 5G[1][2]. It runs a customized version of Android 14 with Gabb’s proprietary safety and parental control software[1][2].
+*   **Camera:** 
+    *   **Rear:** Triple-camera system featuring a **50MP** main sensor, a 5MP ultra-wide lens, and a 2MP macro lens[1][4].
+    *   **Front:** 13MP camera for video calls and selfies[1][4].
+*   **Battery:** It is equipped with a high-capacity battery that typically provides all-day performance, often lasting 1–2 days depending on usage[5][1].
+*   **RAM & Storage:**
+    *   **Storage:** 128GB of internal storage[4].
+    *   **RAM:** While official documentation often focuses on the user experience, as a Samsung Galaxy A15 derivative, it typically features 4GB or more of RAM (standard for that hardware configuration)[5].
+
+### **Safety & Usage**
+The Gabb Phone 4 Pro is designed for older teens (ages 13–18)[1][3]. Unlike standard smartphones, it does not have a traditional app store, social media access, or an open internet browser[6][1][2]. Instead, it allows parents to selectively enable specific, Gabb-approved third-party apps[7][3][8]. It also features robust parental controls, including real-time GPS tracking and AI-powered content filtration for messaging[6][1][9].
+
+Sources:
+[1] [pcmag.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF61bpvst8Mcs6RecJzyTkXRX5L7XgZ6uW8EaLXQ_FO2iQbGlJYp1ti0CC3kHxNnN1afnz9F6ZUCFBXmNkPhJlzvBMC6Xvphne818J_V2weAmA8UHkhlVfRuoCTo111tAResTw5OC36l4ieTHUIiyMurw==)
+[2] [pcmag.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNcruLwFKAYnGyyQ6IfwnXLqtelaCXAmk7a0lclg1ejkvB6WJ4bZ-9LTAGmftxQxW_JycEWFmUibhDXC78HaXiI6JovI_iCmGDK2IzjVBf1FCzRvBqaG0f_Ed418Y97xB3Wk4=)
+[3] [safewise.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZXsrvBXdBZFvW-oQxip40l_5d1LQWxXkuHthQXFcWff4v65h8DrF-iDyp2llytWamvurKot6ByiH3bgriE_KWhDFxJ35cxQRPo43T0d2BXdECKA_E_WMeQkLjSV1TUPDg9p0iMc9415BWjtImOAS9a8U=)
+[4] [safewise.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZXsrvBXdBZFvW-oQxip40l_5d1LQWxXkuHthQXFcWff4v65h8DrF-iDyp2llytWamvurKot6ByiH3bgriE_KWhDFxJ35cxQRPo43T0d2BXdECKA_E_WMeQkLjSV1TUPDg9p0iMc9415BWjtImOAS9a8U=)
+[5] [kidsdeviceguide.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHVDYkaWMD5rCvoZubwy2ESYo_b9Sh-dyIF2GqG6o3tt5WEH99H-qFIfbZmX9GvmKg44rtXlNNZhFheur2JlgCc8briLk6D7IiXL9qJBWFSA0tcfpoYN98qk9kPGeOk0VeYfQOwjSlUHrIVuM=)
+[6] [gabb.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHEb-yNUcXz8XSa7Z3A070Xge_JxFkSQJqzk-OZ-Fw4_JDJQBor5B_dULQuLhY1LIFBCcyxbxcVgvi2BpfZR6sgZ29TzAnEFpYNhpvA2TXO1k=)
+[7] [gabb.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIUKxmsivTgx7STu0k1VaHeXrXQMJ1Y3fGrOltH1wfUBo2Ak-opQjMe9HXSaN9hY9ByMudzabisW1q4Dh96VV8AF76RRjjfqKsmjExICLfsu0OFUi644xuwUEuB2eAwlNmo2feb_uM3ZyFTUMRPiAlvpzvwlC0eb0SYPk8er3Z4lAWZEs=)
+[8] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSXtzH7nJJJQU1lo-E7dSVO9QDpvmeKsiaYxJ4Nx5B2TPgVQck7goMFhGP4cyxJYnu7LmRe8fr9eHEXSoxqGCkSmzFN59A7BKWGhDdpAmYZYj3nM0Rkx3QMrqbtu_t4mZ3rr7A4SIj54zYADaPZuhG9e397JSkVZOwAvY=)
+[9] [businesswire.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtUoXKIXOzLu7zlklbjkBLvPTAxwGvi87nVHS0a2O3wy6dR0WjalIRt-tg1Z5XvGwzhy--5QKtVn37cpDwizeNcC2E-pscqJSKqKmZCiTgICzJns1rs7rqiILRZQNw8EatNx_B4xEiKTxG4Bib05iQh0zQ9gBXT0YHDHFzC56BMXXn0oS2u2UiM36fwc-FZZCdq3HMsu79YYz5R87YlJfvV75CD99PaeiA0ygBjA==)

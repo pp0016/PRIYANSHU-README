@@ -1,0 +1,16 @@
+The search for ""ml-explore/mlx" "jaccl" OR "RDMA" "Thunderbolt"" returned the following summary:
+**JACCL** (Just Another Collective Communications Library) is a distributed communication backend for the **MLX** framework, specifically designed to enable low-latency **RDMA** (Remote Direct Memory Access) over **Thunderbolt** connections on Apple Silicon Macs.
+
+### Key Aspects of JACCL and RDMA on MLX:
+
+*   **Purpose:** It is used to facilitate high-performance distributed machine learning workloads, such as tensor parallelism, by allowing multiple Mac systems to communicate with each other over Thunderbolt 5 (or earlier) links with extremely low latency and high bandwidth.
+*   **Performance:** By leveraging RDMA, JACCL bypasses traditional network stack overheads, achieving speeds significantly higher than standard network-based backends (like TCP-based Ring). It has been reported to reach 50–60 Gbps with sub-50 µs latency on compatible hardware.
+*   **System Requirements:** 
+    *   It requires **macOS 26.2** or later.
+    *   It is optimized for systems with **Thunderbolt 5** hardware.
+    *   Enabling the functionality typically requires administrative steps, such as enabling RDMA via macOS Recovery (`rdma_ctl enable`).
+*   **Usage in MLX:** In the MLX distributed API, users can specify `--backend jaccl` when running distributed programs. It is a critical component for scaling large models (like Mixture of Experts or large LLMs) across a cluster of Mac Studios or other Apple Silicon machines by sharding weights and computation across nodes.
+*   **Known Limitations & Challenges:** 
+    *   **Hardware Limits:** Users have noted potential bottlenecks, such as a limit on the number of Memory Regions (MRs) in the `AppleThunderboltRDMA` driver, which can constrain scaling for very large clusters.
+    *   **Complexity:** As an experimental/advanced feature, setting up a "full mesh" Thunderbolt topology across multiple Macs can be technically demanding and sensitive to hardware configuration (e.g., port availability and cable quality).
+    *   **Specific Use Cases:** While primarily intended for tensor operations during training and inference, the community has also explored using JACCL for high-speed file transfers between connected Macs, though this often requires specific workarounds (such as scheduling operations on the CPU stream to avoid Metal command buffer timeouts).

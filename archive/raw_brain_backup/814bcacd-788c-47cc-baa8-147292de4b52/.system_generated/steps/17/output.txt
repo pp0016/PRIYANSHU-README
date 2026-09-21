@@ -1,0 +1,33 @@
+The search for "Qwen3 Llama 4 model size VRAM requirements quantized local inference 2025 2026" returned the following summary:
+As of September 2026, both the **Llama 4** and **Qwen3** model families are established in the open-weights ecosystem, featuring complex architectures (primarily Mixture-of-Experts) that significantly impact VRAM requirements.
+
+### **Quick Reference: VRAM Requirements (4-bit Quantization)**
+For local inference, the VRAM needed is determined by the **total parameter count** (all weights must be loaded into memory) rather than the active parameter count, plus additional headroom for the KV cache.
+
+| Model | Total Parameters | Est. VRAM (4-bit Quant) |
+| :--- | :--- | :--- |
+| **Llama 4 Scout** | 109B | ~55 GB |
+| **Llama 4 Maverick** | 400B | ~200 GB |
+| **Qwen3.8 27B** | 27B | ~16–19 GB |
+| **Qwen3.8-Flash-Next** | ~180B | ~250 GB (FP8/4-bit mix) |
+
+---
+
+### **Key Considerations for Local Inference**
+
+#### **1. Total vs. Active Parameters (MoE Architecture)**
+Both Llama 4 and newer Qwen3 models utilize **Mixture-of-Experts (MoE)** architectures. 
+*   **The Trap:** While a model like Llama 4 Maverick may only use 17B active parameters per token (making inference fast), it has 400B total parameters. **You must have enough VRAM to hold the entire 400B weight set.**
+*   **Hardware Planning:** Always calculate VRAM needs based on the total parameter count to avoid out-of-memory (OOM) errors.
+
+#### **2. Quantization and Context Window**
+*   **4-bit Quantization (e.g., INT4, GGUF, AWQ):** This is the industry standard for consumer local inference. It generally requires ~0.5 GB of VRAM per 1 billion parameters.
+*   **KV Cache:** This is the "hidden" memory consumer. As you increase the context window (e.g., Llama 4 Scout’s 10M token capability), the KV cache can grow from a few gigabytes to hundreds of gigabytes depending on the length and concurrent requests. For long-context tasks, memory requirements will scale far beyond the base weight size.
+
+#### **3. Deployment Strategies**
+*   **Consumer Hardware:** High-end consumer cards (RTX 3090/4090 with 24GB VRAM) are excellent for models up to 27B–32B. Running larger models (100B+) locally often requires multi-GPU setups (e.g., 4x or 8x H100s for production-grade inference) or significant usage of system RAM via Unified Memory architectures (e.g., high-capacity Mac Studios).
+*   **Inference Engines:** Tools like `vLLM`, `llama.cpp`, and `Unsloth` are critical in 2026 for managing memory fragmentation and enabling quantization formats that make these large models accessible on less-than-enterprise-grade hardware.
+
+### **Summary of 2026 Landscape**
+*   **Llama 4** launched in 2025, with **Scout (109B)** and **Maverick (400B)** as the primary open-weight variants. They are designed for high-end research and production use cases rather than typical consumer desktop hardware.
+*   **Qwen3 (specifically Qwen3.8)** is the latest major release (August 2026). It offers a range from smaller dense models (27B) to massive MoE variants (2.4T parameters) that require cluster-level hardware to host.

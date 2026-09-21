@@ -1,0 +1,19 @@
+The search for "llama.cpp GGUF optimization progress 2025 2026 CPU GPU offloading performance improvements" returned the following summary:
+In 2025 and 2026, **llama.cpp** has undergone significant architectural improvements, focusing on multi-GPU scalability, hardware-specific kernel optimization, and advanced inference techniques like Multi-Token Prediction (MTP).
+
+### Key Performance & Optimization Progress (2025–2026)
+
+*   **Multi-GPU Enhancements:** The introduction of `--tensor-split` and improved `split-mode` logic allows for efficient layer distribution across heterogeneous hardware. This enables users to run models that exceed the VRAM of a single GPU by chaining multiple devices, which has become a standard feature for production-grade deployments in 2026.
+*   **Architecture-Specific Kernel Rewrites:**
+    *   **NVIDIA Blackwell/Ada Lovelace:** April 2026 updates introduced major CUDA kernel rewrites that significantly improved throughput on high-end hardware like the RTX 5090 and H100, specifically targeting Q4_K_M quantization workloads.
+    *   **AMD ROCm:** Extensive optimization efforts, including upstreaming work in July 2025, have improved wavefront utilization and overall throughput, making AMD hardware highly competitive for open-source AI.
+*   **Multi-Token Prediction (MTP):** The integration of MTP has been a breakthrough for local inference. By using a built-in "draft head" to guess multiple tokens ahead of time, models can verify batches of tokens in a single forward pass. This has provided substantial speedups (up to 65% in some dense model configurations) without requiring external drafter models.
+*   **Unified Memory and Offloading:**
+    *   `GGML_CUDA_ENABLE_UNIFIED_MEMORY=1` has become a critical flag for preventing OOM errors, allowing VRAM overflow to tap into system RAM more gracefully.
+    *   **Granular Offloading:** Advanced users are now utilizing `--override-tensor` (`-ot`) to offload specific sub-layers (like FFNs) while keeping attention/KV operations on the GPU. This strategy minimizes PCIe bottlenecking, which is crucial when models are split between CPU and GPU.
+
+### Best Practices for 2026 Inference
+*   **Flash Attention:** Ensure the binary is built with `-DGGML_CUDA_FA_ALL_QUANTS=ON` to avoid catastrophic prefill slowdowns when using quantized KV caches.
+*   **Threads:** For hybrid CPU/GPU setups, setting `--threads` to 4–8 (regardless of total core count) is generally recommended to avoid contention.
+*   **Validation:** Use `llama-bench` to determine the "speed cliff" of your hardware, particularly when using unified memory, as performance can degrade rapidly once the system begins relying heavily on system RAM.
+*   **VRAM Planning:** Modern recommendations emphasize planning for the **KV cache** and system buffers, not just the model weights. The 2026 ecosystem standard assumes larger context windows (e.g., 32k+), which significantly increases VRAM requirements beyond the raw weight size.

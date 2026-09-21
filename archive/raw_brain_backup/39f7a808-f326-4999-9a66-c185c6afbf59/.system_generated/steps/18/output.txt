@@ -1,0 +1,53 @@
+The search for "manim ImageMobject animate popup bounce reveal" returned the following summary:
+To create a "popup," "bounce," or "reveal" effect for an `ImageMobject` in Manim, you can combine standard animation classes with custom `rate_func` functions or method animations.
+
+### 1. Popup Effect (Scale Animation)
+A common "popup" effect involves scaling the image from 0 to its original size, often using a "bouncy" easing function to make it feel more dynamic.
+
+```python
+from manim import *
+
+class ImagePopup(Scene):
+    def construct(self):
+        image = ImageMobject("your_image.png")
+        # Start scaled at 0
+        image.scale(0)
+        
+        # Use rate_func=there_and_back or bounce-like functions
+        self.play(
+            image.animate.scale(1),
+            run_time=1,
+            rate_func=ease_out_bounce  # Adds a bouncy reveal
+        )
+        self.wait(1)
+```
+
+### 2. Bounce Effect (Pulsating)
+If you want the image to "bounce" (pulsate) after it has already appeared, you can use a loop with `.animate.scale()`.
+
+```python
+# Create a pulsating/bouncing effect
+for _ in range(3):
+    self.play(image.animate.scale(1.05), run_time=0.3)
+    self.play(image.animate.scale(0.95), run_time=0.3)
+```
+
+### 3. Reveal Effect (Fade or Sweep)
+To "reveal" an image, you can use `FadeIn` or, for a more custom reveal, a `Circumscribe` or a sliding rectangle mask.
+
+*   **Standard Reveal:**
+    ```python
+    self.play(FadeIn(image, shift=UP)) # Fades in while moving up
+    ```
+
+*   **Advanced Reveal (Wipe/Mask):**
+    You can create a `Rectangle` that acts as a mask, or simply animate the position of the image from behind another object. For more complex physics-based movement, consider the `manim-physics` plugin, which allows for realistic object collisions and bouncing.
+
+### Summary of Techniques
+| Effect | Implementation Strategy |
+| :--- | :--- |
+| **Popup** | `image.scale(0)` followed by `self.play(image.animate.scale(1), rate_func=ease_out_bounce)` |
+| **Bounce** | Loop `image.animate.scale()` with alternating factors (e.g., 1.05 and 0.95) |
+| **Reveal** | `FadeIn(image, shift=...)` or `LaggedStart(FadeIn(image))` |
+
+**Pro Tip:** If you need highly realistic physics (like an image falling and bouncing off the floor), the `manim-physics` plugin is the best tool for the job, as it handles gravity and collisions automatically for you.

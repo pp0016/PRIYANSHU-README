@@ -1,0 +1,9 @@
+The search for ""AnandTech" "Apple M1" "latency" "nanoseconds" DRAM OR L1 OR L2 OR SLC" returned the following summary:
+In its deep-dive analysis of the Apple M1 chip, AnandTech measured the memory latency to be approximately **96 nanoseconds** at a 128MB full random test depth[1][2]. 
+
+This measurement was noted as being higher (i.e., slower) than the latency observed in contemporary x86 counterparts, such as the AMD Ryzen 9 5950X, which AnandTech measured at roughly 78.8ns in the DRAM region[1][2]. The analysis highlighted this performance characteristic as a point of comparison when evaluating Apple's unified memory architecture against traditional desktop processor designs[3][1].
+
+Sources:
+[1] [ycombinator.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEozCOoxxdFZr4BH8SlPRStsoQYKAvumeXMz8AKfrRTQ3hvthABDKf7b-nvY_5O3ixH7YQLwDLp6fcG_KbQwZDUm7qrq-kd5TehajOAOPqwB1Si5fdWrMhN6e6nyZzSzbtNZyg=)
+[2] [ycombinator.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd3wh-Yavv3yTXnvnHnfmflY6QEtXuX1sgOKO4yJp45HYCIh91vOt6RJ76i51qvma0x3IFxpM2-v-bGZ2RSkJ_pF8tVYqksafSJnfSShBLL9y8e9UuTAekfGZOJrmOj5_TZ_Y=)
+[3] [macrumors.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG9WmzCdt7ia5_kQb-L4zDeBR2m9CMdCycJmZPjND-oL-ScoBo6pkfTwWVLv2JGj8mxEWbrtukiqgkijli4ofKSOd4AjEUyJS_lT_jDf6hCGYVrkMk3dUHb5sM8ANr1EqdaBaQFksnjV9Aq7UlUTIeAttkNSkJrpHJUN86MBir93Ys8_qc4iWWZA==)

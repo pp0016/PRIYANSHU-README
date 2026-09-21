@@ -1,0 +1,36 @@
+The search for ""whiteboard-animator" python github" returned the following summary:
+The term **"whiteboard-animator"** refers to an open-source Python project designed to convert static whiteboard-style images into hand-drawn animation videos[1][2].
+
+### **Key Project: `masihsultani/whiteboard-animator`**
+This is the most prominent repository associated with this name[1][3].
+*   **GitHub Repository:** [masihsultani/whiteboard-animator](https://github.com/masihsultani/whiteboard-animator)[4][1]
+*   **Functionality:** It takes a static image and simulates the process of it being drawn by a human[1][2]. It automatically identifies text, strokes, and color fills, ordering them in a logical drawing sequence[1][2].
+*   **Features:**
+    *   **Runs Locally:** Operates on your CPU without requiring external API keys[4][2].
+    *   **Interface:** Provides both a Python library and a Command Line Interface (CLI)[4][2].
+    *   **Audio Sync:** Supports syncing the drawing rhythm with narration audio[1][5].
+    *   **Use Case:** Ideal for creating educational videos, tutorials, or product explainers from static sketches[2][6].
+
+---
+
+### **Other Relevant Python Tools**
+If you are looking for programmatic ways to create whiteboard-style animations, several other projects exist:
+
+*   **[subroy13/handanim](https://github.com/subroy13/handanim):** A Python library specifically built for creating hand-drawn, sketch-style animations programmatically[6]. It is well-suited for mathematical illustrations and geometric diagrams[6].
+*   **[maksimKorzh/automated-whiteboard](https://github.com/maksimKorzh/automated-whiteboard):** An older approach that uses OpenCV and PyAutoGUI to simulate mouse movements for drawing, useful for automating the "drawing" process on a screen[7][8].
+
+### **How to get started**
+If you want to use the most recent `whiteboard-animator` project:
+1.  Visit the [GitHub repository](https://github.com/masihsultani/whiteboard-animator)[4].
+2.  Ensure you have Python installed.
+3.  Install the package (typically via `pip`) and follow the documentation to run the `whiteboard-animate` command on your image files[1].
+
+Sources:
+[1] [trendshift.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJeDUw-AwSDmwLyBJrzW1S_2lVnG-w2hXWFfaYzMS-fLMutAfEre3nVOvya8LhVEoCCqycMha_3diuyfjfaEnsRBLA4inJkazcyQYl0HREf_jNrEKl01jnHh4p7hzAzQ==)
+[2] [toutiao.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy_k4uxoJLEc9JI1XkhReNkXKgmGY3zrMA0XhMqdm6mDVoTrLITmhKZPewrTrBE1my_tcr-QklrPpjgpXOptZAfnOWj9KT4_WhUKAw4o6L58HTMGi5Fy_I8sNlFZExw7kI)
+[3] [tgmeng.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5wslGAyN7MNwPTMzRecUQQPSB7u4zaaNBRrveYsbSYdufVnd9DfDggiSSQOFe_4gynEwiVDb72X0bGOZKBxSoT4XW8OrldCIOdQ1Lv4TCPrkMQy6cpzb7wVophg==)
+[4] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaatCaHVxlGbQV4-Gpipff9X6ZynfRnBIocYHXIP_AL9nliLGfv09kFQRGZV7M6mvWsx-rtpkesImb9MslfVo71obINuynLyFf6aoECBxm0rJiAzj1YlnOz5CU6xOUn6iptmkJWeQwH9e2PAGqJiqu4oZBfZ85NCwHqAZLZkTlK53uk98YdneUwOKhqElhUtRNMcEHPWWvhgN8DcCXzBZc6VPZUA==)
+[5] [tau-home.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_9nU1WkL8nsupNi_FimFRQmCRmXBwNjxyKvsswjE46DdZ4_tZ5G8PfFkSz8qlSrS4fT_Xk72tmhYV43nJgRIKOM30vFt5stvr5y_lcygJgPFV_xrrvXYfTa4=)
+[6] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHns054THPDcSRTzl0z_3_ZjfSlZhTMNp-casdJKfbZQxiYYe_0703gcCKLT3N2pIg9ndu-iJ1s-kzFs7S_F48aCz66tl7VV3D32y1tSXgJ1Z5vEcyNzT0Lnn8=)
+[7] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1aKSydOguZg-fijitPqzjlPuQPQC4aP8n434egYB0FCRPfwkfqdpn8VrhVeoDHGaJfXgJU1g01YS6-heNenI6MtfXDKpSXxwXIf5JPnM0R6vHMIipYwKDitbqz5eQCZcU)
+[8] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOvh24hfyf2OJG0qkGNy1nfSg-9PTmSL_YFj0JrSkJZQiUyVaFilz5C2cU7mrTsmjjN8G7h9XrVjgmU6BIawKMF2bSnGGDXsoWoLIu0GgWuUpvSRMLAybwkZET6IVpm5jCyf-8qZkFBao=)

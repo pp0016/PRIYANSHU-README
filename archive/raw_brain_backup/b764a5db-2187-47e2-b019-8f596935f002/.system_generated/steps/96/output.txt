@@ -1,0 +1,2 @@
+Successfully killed 3 subagent(s) and their descendants.
+Killed roles: Refurbished MacBook India researcher, AppleCare refurbished eligibility researcher, Discount deals aggregator researcher

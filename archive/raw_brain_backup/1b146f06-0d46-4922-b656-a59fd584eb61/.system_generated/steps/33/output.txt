@@ -1,0 +1,31 @@
+The search for "Apple Mac Studio Mac Pro Mac Mini complete lineup prices India 2025 2026 all models RAM options" returned the following summary:
+As of September 2026, Apple has refreshed its desktop lineup in India with the latest M5-series and M6 chips. Below are the details regarding the models, starting prices, and memory configurations available.
+
+### **Mac mini (2026)**
+The new Mac mini features the 2nm M6 chip for standard tasks and the M5 Pro chip for professional workloads.
+*   **Starting Price:** ₹99,900
+*   **Chip Options:**
+    *   **M6 Chip:** Base model for everyday computing.
+    *   **M5 Pro Chip:** Starts at ₹2,09,900; suitable for video production, 3D work, and larger AI models.
+*   **RAM Options:**
+    *   **M6 Model:** Starts with 16GB of unified memory, configurable up to 32GB.
+    *   **M5 Pro Model:** Configurable up to 64GB of unified memory.
+
+### **Mac Studio (2026)**
+The Mac Studio is designed for professional workflows, offering significant upgrades in AI performance, graphics, and memory bandwidth.
+*   **Starting Price:** ₹2,79,900
+*   **Chip Options:**
+    *   **M5 Max:** Starts at ₹2,79,900.
+    *   **M5 Ultra:** Starts at ₹6,29,900.
+*   **RAM Options:**
+    *   **M5 Max Model:** Configurable up to 128GB of unified memory.
+    *   **M5 Ultra Model:** Scales up to 512GB of unified memory.
+
+### **Summary Table**
+
+| Model | Chip Options | Starting Price (India) | Max RAM Configuration |
+| :--- | :--- | :--- | :--- |
+| **Mac mini** | M6, M5 Pro | ₹99,900 | Up to 64GB (M5 Pro) |
+| **Mac Studio** | M5 Max, M5 Ultra | ₹2,79,900 | Up to 512GB (M5 Ultra) |
+
+*Note: Pre-orders for these models opened in late August 2026, with sales and shipping beginning on September 22, 2026. Pricing may vary based on specific custom configurations (SSD, RAM, etc.) chosen at the time of purchase via the official Apple India store or authorized resellers.*

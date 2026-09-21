@@ -1,0 +1,5 @@
+
+The command exited with code 0.
+Output:
+Ch1: 11123 chars, Ch2: 18686 chars, Ch3: 14457 chars
+

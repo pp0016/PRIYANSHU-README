@@ -1,0 +1,8 @@
+The search for ""Grounded-Segment-Anything" github stars last updated" returned the following summary:
+The **Grounded-Segment-Anything** repository (IDEA-Research/Grounded-Segment-Anything) currently has approximately **17.7k stars**[1][2].
+
+As of September 2026, the repository remains active, with recent issues being opened and tracked by the community throughout 2025[2].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjoxHMr2khcsDuJa3brXOzAqtTTGUvinNcy7k9q2NGBn_af-1GUyIzkHS5yoLMt64TKet6iiHlUcYeiugwJAGZ9XOSMfi4kB4l-YtIIvLOs_ZU5Rzl_wln6N4T3Qz8ENV6mVOilOJJTYN8qnEKc7i4jXvbPX6Kiq2tCYHu)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1XRlLWXtn_PBl01Dmdqbo4HfWxNxMAmQe_Np_qtN9qmSaffjKr4qSenASEQAnQVZuDnpGW7HVFIvvVj9mcVYSjq0QJMo6KoBDL5ZncSPtDJ9qhWHx--h2GjaP_IrIg5fJPVw90BncEzL4N3qPJdXbRDMKfFh9_Q==)

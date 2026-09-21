@@ -1,0 +1,28 @@
+The search for "KV cache quantization FP8 INT4 VRAM savings long context inference 2025 2026" returned the following summary:
+As of late 2026, KV cache quantization has become a critical optimization for managing the "memory wall" in long-context LLM inference. Because the KV cache grows linearly with sequence length, it often consumes 70–90% of available GPU VRAM at context windows of 1M+ tokens, making it the primary bottleneck for production deployments.
+
+### VRAM Savings and Performance
+Quantization strategies effectively reduce the memory footprint by lowering the precision of stored key and value vectors:
+
+*   **FP8 (e4m3/e5m2):** Widely supported on modern architectures (e.g., Hopper, Blackwell). It typically provides **~2× memory savings** compared to FP16/BF16 with minimal impact on model accuracy. Frameworks like vLLM have matured their FP8 support, including fixes for Flash Attention backends to ensure efficient performance.
+*   **INT8:** A mature, widely compatible alternative. It also offers **~2× memory savings** and is often preferred for older hardware (e.g., A100) where FP8 might require emulation, potentially causing performance overheads.
+*   **INT4 / 4-bit:** Emerging as a standard for more aggressive compression, offering **up to 4× memory reduction** over FP16. Recent innovations, such as OpenVINO 2026.2, have introduced INT4 KV cache support, allowing for significantly higher concurrency or longer supported contexts within the same hardware budget.
+*   **Advanced Methods (2-bit and beyond):** Cutting-edge research in 2026 (e.g., KIVI, TurboQuant, and mixed-precision approaches) has pushed beyond standard INT4, with some methods achieving **6× to 8×+ compression** with near-zero quality loss, often by utilizing techniques like per-channel quantization or progressive mixed-precision strategies to protect sensitive transformer blocks.
+
+### Key Optimization Trends in 2026
+The industry has moved toward a "stack" approach where multiple techniques are combined to compound savings:
+
+*   **Combined Techniques:** Practitioners often pair quantization with **PagedAttention** (for memory efficiency), **prefix caching** (to reuse common prompt computations), and **architectural optimizations** like GQA (Grouped Query Attention) or MLA (Multi-Head Latent Attention, popularized by DeepSeek).
+*   **Production Readiness:** 2026 standards emphasize "fused" kernels. Dequantization is now typically performed within the attention operation itself; backends that fail to support this fused approach may see throughput degradation that offsets the VRAM gains.
+*   **Newer Approaches:** Techniques like **TurboQuant** (Google Research, ICLR 2026) and **PM-KVQ** (Progressive Mixed-Precision) are setting new benchmarks by focusing on minimizing the cumulative errors that arise when aggressively quantizing long-context sequences.
+
+### Summary Table: Typical VRAM Impact (Baseline: FP16)
+
+| Precision | Memory Savings | Best Use Case |
+| :--- | :--- | :--- |
+| **FP8** | ~2x | Modern GPUs (Hopper/Blackwell), balanced accuracy/speed |
+| **INT8** | ~2x | Universal compatibility (A100+), production stability |
+| **INT4** | ~3–4x | High-density long-context, memory-constrained environments |
+| **Advanced (2-3 bit)** | 5–8x+ | Extreme context lengths; research/specialized applications |
+
+*Note: Always verify backend support (e.g., vLLM, SGLang, TensorRT-LLM) for the specific quantization format, as improper kernel selection can negate throughput benefits.*

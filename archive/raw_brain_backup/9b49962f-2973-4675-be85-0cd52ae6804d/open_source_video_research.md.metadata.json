@@ -1,0 +1,5 @@
+{
+  "summary": "Deep research report comparing the best open-source AI video generation models (Wan 2.2, LTX-2.5, HunyuanVideo, Mochi, CogVideoX) as free alternatives to Google Flow/Veo. Includes quality rankings, hardware requirements, free cloud GPU options (Colab, Kaggle), and how Remotion + FFmpeg complete a zero-cost video production pipeline.",
+  "updatedAt": "2026-08-24T23:36:30.800736800Z",
+  "userFacing": true
+}

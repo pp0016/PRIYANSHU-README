@@ -1,0 +1,7 @@
+
+The command exited with code 1.
+Output:
+OSError: Python file "C:\Users\renu5\.gemini\antigravity\scratch\-c" could not be opened: No such file or directory
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+Unrecognized command: "import bpy; print('Samples property:', dir(bpy.context.scene.eevee))"
+

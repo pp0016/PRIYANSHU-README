@@ -1,0 +1,5 @@
+- `[x]` Write the execution script to perform the deletion.
+- `[x]` Ensure the script strictly checks each file exists in Path 1 before deleting from Path 2.
+- `[x]` Execute the deletion script.
+- `[x]` Verify the script only deleted files from Path 2 and left Path 1 untouched.
+- `[x]` Create a walkthrough report of the results.

@@ -1,0 +1,18 @@
+The search for "site:myimaginestore.com "MacBook Pro" price inr" returned the following summary:
+At the Imagine Store, MacBook Pro pricing varies by model and configuration[1]. As of the latest available information:
+
+*   **14-inch MacBook Pro (M5 Max chip):** Listed with a regular price of **₹499,900**, with an offer price starting at **₹474,905**[1][2].
+*   **Other Models:** Several configurations, including the 14-inch (M5, M5 Pro) and 16-inch (M5 Pro, M5 Max) models, are currently listed as **out of stock**[1][2].
+
+**Education/Student Offers:**
+For eligible students and faculty, the store provides specific education pricing[3]:
+*   **14-inch MacBook Pro (M5):** MRP of ₹2,39,900, with a net effective price of **₹2,08,107** (after education discount and applicable cashback)[3].
+*   **16-inch MacBook Pro (M5 Pro):** MRP of ₹3,59,900, with a net effective price of **₹3,19,707** (after education discount and applicable cashback)[3].
+
+Please note that inventory and promotional offers can change; it is recommended to check the [official Imagine Store website](https://www.myimaginestore.com) or contact their support team at +91-82874-82874 for the most up-to-date availability[1][4].
+
+Sources:
+[1] [myimaginestore.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1fVtf5PRsr0S1iulUBkrikB1tsKtDJuXCKiGP7Fu78PQF7g2M9rrWU3_fSwEADKmxpDntgm5228ZjCM-9wif873D8liaiaJPRtswY4wEm4tB-DBMFEJvb7MOZorqfTyYCLyg=)
+[2] [myimaginestore.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1fVtf5PRsr0S1iulUBkrikB1tsKtDJuXCKiGP7Fu78PQF7g2M9rrWU3_fSwEADKmxpDntgm5228ZjCM-9wif873D8liaiaJPRtswY4wEm4tB-DBMFEJvb7MOZorqfTyYCLyg=)
+[3] [myimaginestore.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqzkBayB-HFU3c7KmONaXsKXM4oLhgZn0Jb6bwkAhmwbcsYdhzcOaRjfLGAWeQLW-OUkoilekrmONY_KKq_nhjIHQposIiLDGpkHP96i65W9zSyhKAyKswBemxb66M-Le9)
+[4] [myimaginestore.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqzkBayB-HFU3c7KmONaXsKXM4oLhgZn0Jb6bwkAhmwbcsYdhzcOaRjfLGAWeQLW-OUkoilekrmONY_KKq_nhjIHQposIiLDGpkHP96i65W9zSyhKAyKswBemxb66M-Le9)

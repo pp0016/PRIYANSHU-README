@@ -1,0 +1,49 @@
+The search for "LLM tokens per second benchmark VRAM 8GB 12GB 16GB 24GB RTX 2025 llama.cpp Ollama" returned the following summary:
+For running LLMs locally with tools like **llama.cpp** and **Ollama**, VRAM is the most critical hardware constraint[1][2]. It acts as a hard limit: if a model and its required context (KV cache) do not fit entirely into VRAM, performance drops significantly as the system spills over into slower system RAM[1][3].
+
+### **VRAM Capacity & Model Capability (2025/2026 Standards)**
+The following table summarizes the general capacity of RTX-class GPUs to handle models (typically using **Q4_K_M quantization**, which is the industry standard for balancing speed, quality, and memory)[4][5][6].
+
+| VRAM | Typical Use Case | Recommended Models |
+| :--- | :--- | :--- |
+| **8GB** | Entry-level / Baseline | 7B–9B parameter models (e.g., Llama 3.1 8B)[1][4][7] |
+| **12GB** | Balanced / Good for 14B | 7B–14B models (e.g., Qwen 2.5 14B)[1][4] |
+| **16GB** | Prosumer / Developer | 14B–20B models; comfortable context for 8B models[1][7] |
+| **24GB** | High-end Consumer | 30B–35B models; 8x7B MoE models[1][4][5] |
+
+---
+
+### **Performance Expectations (Tokens Per Second)**
+Tokens per second (TPS) during "decode" (generation) is primarily **memory bandwidth-bound**[8][9]. Higher-end cards with more bandwidth (e.g., RTX 3090/4090 vs. 4060) will naturally yield higher TPS[10][11].
+
+*   **8GB VRAM (e.g., RTX 4060):** You can expect roughly **20–30 TPS** on 8B models[12].
+*   **16GB VRAM (e.g., RTX 4070 Ti Super / 4080):** Often reaches **50–80+ TPS** for 8B models due to higher bandwidth[13][12].
+*   **24GB VRAM (e.g., RTX 3090 / 4090):** These cards are the "sweet spot." An RTX 4090 can achieve **100+ TPS** on 8B models and remains performant for much larger models[9][12].
+*   **Next-Gen (e.g., RTX 5090):** Benchmarks show significant gains (up to 200+ TPS for 8B models) primarily due to superior memory bandwidth (GDDR7)[9][6].
+
+### **Key Factors Affecting Performance**
+*   **Quantization:** Using **Q4_K_M** is highly recommended[1][5]. It provides a 75% reduction in VRAM usage compared to FP16 with minimal quality loss[5].
+*   **Context Window:** The KV cache (memory required to remember the conversation) grows linearly with context length[6]. If you increase context to 32K or 64K tokens, your VRAM requirements will increase by 1–2+ GB, which may force you to use a smaller model or higher quantization[1].
+*   **Inference Engine:** 
+    *   **llama.cpp** and **Ollama** share the same core engine, so performance is nearly identical when configured with the same settings[14][15]. 
+    *   If you require high-concurrency (serving many users at once), tools like **vLLM** are generally faster, but for single-user local chat, the difference between these runners is negligible compared to hardware limits[16][14].
+*   **The "Rule of Thumb":** If it fits in VRAM, it runs fast. If it doesn't fit, it runs on the CPU/RAM, which will result in "crawling" speeds (often < 1–5 TPS)[1][17][3].
+
+Sources:
+[1] [localllm.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXGR_mlhLzyWhnY7473P0VS-wPZ0hCSHWz3-2iHyro61ls5R4bOY0nqsA3I8G6R6iDG0xCzch0oU_vhi3AzlLPXDkFjXD8aooB7nRMmUQIc7LqgtJndiXHAxMgNSncl4Jjqm0zLbZwI0-c2bhna5LrYhyu9tasGA==)
+[2] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDDFWq0ZH0C2iNZIjUDfWMFhkcTHumch51GZpz0Kvbr9Inx4pTHpJN9_3YyJPJJWN3a7EBsB8wOMbNjORMfo7CZigczFAQSpYlz-j__Mfu-Qur4C9FdPo4LfFijsO73XPWHNiG3Z-xlv8vdaFlRHgO86Yh4xGed41D2YgksO_qAwunRJfU06t0mf-Uesl2ZGo9B1KHx8tILAY=)
+[3] [spheron.network](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbTdSLcy8sCCCFiFe1sjRWsOgmW5LdT9pZt1R_8y6vgOURgphb_m_FRSVwqrkUoovmJtXZp_crSHKTkgEOTQ2wulgE4hJaHo7xlYPYnM1RiSW2s_CNiwWm6WxD5OFieFaErjbMYv72F6qO9kJfB7TxZx4=)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbMRjJGLr7oCbVo1wmFaYVNpAA_JF-PWfrBs-jgaXFEj3tyIKPDQiOXmreaqxWaSm59NRirPcZRI7jsyIHp9bmkJJkCuDLKrfvb-MoK7F-54wmUUJ4pkNNA5YkEfkCBUzvZBiQVGiDHec=)
+[5] [localllm.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJjj98d12blz2Mv1oxEdcPpT27QmmICVQ1EzD2ojPBLHUT3gH5kcwgl2XOFjYFTaReJkC4MUwItNanxErneG8e0GxUvBXWwACJ5qYFCoXERntNAUX9nEk_2UAoDAyVR1igIW2pP8WkJW0SMhqsIeDRzLjbiwE=)
+[6] [localllm.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBYtU6CeWh3UYZWKPtW7ratDr-6nq4g97eor8ySGA9mjO3CH08PDRqiUeWYXgJ7_Y1niM-fKHE5GpHmJEJtdDSTDZUmJCsBGNTkuti6ErIP3aTYOxtc365nffRcN2bTgOpYTc3izsBlqzA)
+[7] [facebook.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBoFh2J6Zz03XS5d_95nn0XNdhlIpUSIb2qDwHmN4JcJEyz4xsxwz11mamvjwf11hMKbnJzM-iwM0L5XdPOcBc5nt3PcquI65_kjgFvAh3zc6vv9RZrvtzQ0QJQAKeEJ1T1C48gtomPNQXt5pke5QWti666_S0O3ZEFryQbh0z9zwruiiYeQGtTRDb2aTvD_tn_tV99us9viOI5nEmJx6eQneOoyVumKVJFvd1_kUs_6UOH3nvgqcDJrp31i85zs5WyapE)
+[8] [inventivehq.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnqwRyZf1xd2hd-T2EZ8nO4NfapPMvWH97AuGkqlO7NHfAX54NARzjtFyrIU7F6cWhlsXilnOLN-nOLYHEfOY1sAzlSd6iO0OSLgKbf9qFBM4X8PBFAWWIt9L6hwJsLm2pIJvlne-xJnzCUzjmA06dHULsJinp)
+[9] [neevcloud.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6hyliNSOf8O9cuWGgeGQZxIb_nhRO2dVPUe-ZVLp1DPYB3j-4gATy7ONPDJU2LGvDCaYZ_Ghu2lhYreVam0SR5AH5bgQl3_yegJ3EMDL0Q6oYMjPSxSzWrdpAaYKsP7FoXubGv-quaXMRM0ep2Q4ill0JL3yx1Pgm7lcXODOMIQ==)
+[10] [pugetsystems.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyZGB9o753S_s5R4hIGSX0ZzRZZRwzutrcrPMBKBjMQNJ16yPL2pK1z6AGGwYFMEZ-iTW3fCWIT_gQUB33JYWVOamB00rdYJ8MGwIBZbO5wtr-aRZipad68EpGDhv_-4tSax__QKIhl2GYCixgsZdr8wLM13aJ1CUTYkMHPQ0TBplYFOAp2Fw=)
+[11] [inventivehq.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP0hrA32ygAjz7F4a6yUD5Llhbe-XUfOleAQ5uWsy5DIc8BItdPi0XFFTTxVbnIczfdllzOJ_NTOTAPR9-B8v_lZYaFwVp44r_8-s1-ktuP394g_wht5cg74W-BpUQifqqwEV7enuCIbfzQ8SgMRrgYFQtv35CH7Pdq2Q=)
+[12] [gigagpu.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5sFa9OrK3vmIINty0XSAHj0UDgCyGTgrnD2a4qM2-PWue33EEwBBG0AbmHJ0kkuUk2ysYyD2_TXCESuZz4ZUa-CFtVeBylcONZ74l0GGJyyIWOWS-bdM6jS10dcnvT8GNe6dz)
+[13] [kunalganglani.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvjIKaWC945zFK2tkxQkeJmhva5kVJDb9IsePHa4c4UAHMUURtqUZlSbJwG0WBIhCdQOyCvlO_iFDCglQ7xPrmYiSrtxqx6Icz1k2KCH1l1vT0_Mr7kXBgri0xvJP90aXd)
+[14] [inventivehq.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDU6nBo5xPvLrMU754DyKaB4MPsWFQ895kmE__sMv1Hg2YQ7ObgApy3z7lgl0SkfIsr2YS_5_gCTH6xhHtRDY0zRI8fLHZLqjJglkjPp7FKC0lytATv9ols-7NCQiWCXltBr1uz9zjfULOofBcKzWeeY7yGuDTJfdtbmUP)
+[15] [lumadock.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHArltfUmbM3VltjTS_33j8wgjpXlOYZ0t0S5nHLCHFrdhkXIe4y-KExJy8wummPiRHw_olBWJm6SWEoKVgJQxYCTk_ehOuqGKTfLAIhTC04L1AneUG6m3lkizA9E9pEKIkrH-mgN8)
+[16] [gigagpu.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYD4gMyHDxbHk236p9atlMpECEUmP4BQaJhM8syFKeHYOsdE5V9l7bAhIEq_jGSGKjCkOA08VI84ZtGxe_TtrbzCKIxlIgUeqEyf3DBUudi9fQeCHFdOlBbwV0xduuP6P7ENc4btcYO1s=)
+[17] [localllm.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJjj98d12blz2Mv1oxEdcPpT27QmmICVQ1EzD2ojPBLHUT3gH5kcwgl2XOFjYFTaReJkC4MUwItNanxErneG8e0GxUvBXWwACJ5qYFCoXERntNAUX9nEk_2UAoDAyVR1igIW2pP8WkJW0SMhqsIeDRzLjbiwE=)

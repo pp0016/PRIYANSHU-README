@@ -1,0 +1,49 @@
+The search for "ICLR NeurIPS ICML 2025 2026 papers model compression VRAM reduction efficient inference breakthroughs" returned the following summary:
+Recent research presented at top AI conferences like **ICLR, NeurIPS, and ICML (2025–2026)** has significantly advanced model compression and efficient inference, shifting the focus toward minimizing the "memory bottleneck" caused by Key-Value (KV) caches and enabling high-performance inference on consumer-grade hardware[1][2].
+
+### Key Breakthroughs & Research Directions (2025–2026)
+
+#### 1. KV Cache Compression & Memory Management
+The KV cache is a primary constraint on VRAM and throughput, especially for long-context models[1][2]. Recent developments aim to mitigate this without significant performance loss:
+*   **TurboQuant (2026):** Uses a two-step approach combining PolarQuant vector rotation and the Quantized Johnson-Lindenstrauss method to achieve ~5x compression of the KV cache[2].
+*   **Dynamic Cache Eviction:** Research has shifted toward "value-aware" and "redundancy-aware" strategies. Studies such as *R-KV* (2026) and *IndexMem* (2026) focus on learned or significance-based eviction to prune less important tokens from the cache during inference[3].
+*   **System Co-design:** Tools like **DuetServe** (ICML 2026) and **QServe** (MLSys 2025) demonstrate that harmonizing prefill/decode phases and using adaptive GPU multiplexing are essential for maximizing hardware utilization[4][5].
+
+#### 2. Advanced Quantization Techniques
+Quantization remains the cornerstone of model compression, with a move toward ultra-low precision (e.g., 4-bit, 2-bit) and tuning-free methods[5][6].
+*   **OSTQuant & SpinQuant (ICLR 2025):** These papers introduced advanced rotation and scaling transformations to ensure better distribution fitting, improving accuracy for highly quantized models[5].
+*   **GPTAQ (ICML 2025):** Focuses on efficient, finetuning-free quantization for asymmetric calibration, allowing for rapid deployment of models without the cost of retraining[5].
+*   **Security Concerns:** A notable trend in 2025–2026 is the emergence of "quantization attacks." Research like *Exploiting LLM Quantization* (NeurIPS 2024/2025) highlights how malicious actors can hide adversarial behavior in full-precision models that only manifests after quantization[7][8].
+
+#### 3. Architectural Efficiency & Neural Architecture Search (NAS)
+Instead of just compressing existing models, there is a push to design more efficient architectures from the ground up:
+*   **NVIDIA’s Nemotron-51B (2026):** An example of using NAS to derive a highly efficient model from a larger predecessor (Llama-3.1 70B), achieving 22x faster inference on a single H100 GPU while maintaining accuracy[9].
+*   **Sparse Attention & MoE:** Techniques like **HySparse** (2026) utilize hybrid sparse attention and oracle token selection to drastically reduce the computational overhead of large-scale models[10].
+
+### Summary of Major Conferences
+| Conference | Key Focus Areas (2025-2026) |
+| :--- | :--- |
+| **ICLR** | Quantization-aware training (QAT), weight rotation, and learned cache eviction[11][5]. |
+| **ICML** | System-level co-design, sparse attention, and optimal budget allocation for reasoning[4][12]. |
+| **NeurIPS** | Security of quantized models and large-scale model efficiency[13][7]. |
+
+### Practical Implications
+*   **On-Device Deployment:** Compression frameworks now enable models that were once cloud-exclusive to run on laptops and phones with high efficiency[14][15].
+*   **Cost Reduction:** Businesses are increasingly adopting these "compression tricks" to lower the massive VRAM costs associated with constant inference, often reducing infrastructure expenses by 50–80%[1][14].
+
+Sources:
+[1] [substack.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLJPwOXdGkIvtU1HddBma6yjBJAEVjO2aCsTeq0cf9ixZRYLSPXhxPQ7GduSJyBiZr5ZUBxBP_KZW9iFsIvQBD-7rNeECEtf1oc5asZ333onp83mONmgUKZPp_JsyvpGpjeQqpbhS0NL8jIW1xK1r9M7cP-eBzV8ybe-paGcQkmA==)
+[2] [devflokers.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhIOPn4YKoLpwoS__49kT2az8EwVlR3E_P9-7DaXdsOE-wz8XvYhuX77Tfbb-qQo8xgFnjZfrLnbH0oe-QHNWpHw_UtmQxhoOXcp6-J6Fe3Gqtu2JX9mScmprwXpomKPHoBgmYJ02smxj7aUmE4Ak9oXTuu4uInnq7bZKw80XXVGE1)
+[3] [alphaxiv.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGADQo2zdCA1tse8UaXrIllF9oJ3hy4MWD-dLydAcdI4CfwrzVcOqknMPUulK1AwP1TxDIfj34wvbrcDml3MiJg6N8rHoaTe9XF6-llX47IdbENn1uRjygYPrbMVkY=)
+[4] [icml.cc](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCXIzn3D2tH0nwKiG05W_5P_RZkTzqoGgc3txWLAuYooYdOYDlTxlKASlrlNlgjhpj52u0DsXhY1-oV6o776dTSddFBAWex_-eQweyJ56lauK5eEKgq2GSVXNOPudy)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXZqD5EhSx-G5TRvXKEWiunpt6o3yF6EyZNm2wilHCPLbliTWp-xRJX-qyn41N_NpMSnCtyBbPTV084l3p2QycWQMh-w_JiYwDS5tq_nXJlSRxlZ8YsoQlChz_ztfclzNa8IHe4lkNdes=)
+[6] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHLgutrc-o4wqIsJYUd_P7K7bIKm7hUVLrmb1byfypx1qNzemW-36Gnod2E9Qg1--58OmPNqN9y6BW3fustEz2XChN_NoEeb9vJpt0U5mVHH0B3PtD1lO29RnNw7rkxT2B-DvKCxPLv4FZiBwfZpwoQWIza4iX0Ls72u7pYPM3VWxsKzpgWnxEi9Yn_ZsykJYq1BJOCdjW_52OlnPM7XZUpvRgy1CZzT9y8RY=)
+[7] [neurips.cc](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRwfAnBeGW5Si6ZBFnf0Q_QeqGjBM3sT9rerJjOaiQJsIrdLOFjZ0itEUEHx6STwROaHHBOdu9PEPBSKfaA6InkjxRkD3smrk7G3eER8G-b6OtRGskl60hJYBOKUPdY1VtjT2h52hJx5k7mMbSXSZ-tpvjXxrUAq5eFa5gECkKDrTsnCs3gyrL9LZ8sk-cTmzFpqDIMNclMW5CXtPM98KOkGOJIRlgxweyEw==)
+[8] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHknrhbH0aqM0vdLAUrSSt5ZetZS53OPyW-yIgNsTl3jeFvXiksfK9_GMRp1qbDm2nSBpWbhm0Q8cCMT5dJn9tk-gw_ZU4OwwIFrIRt4lPFEUudV-I2hcjNTX6Vg9ANPX8a1HOKT3oOdQ==)
+[9] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5E52YAS2htwvcGa1liUP-LrYG5sLIPOMHKXaQBrRXiZDDw3ugh7RdVxye1Bwq3Xmuuu-qY9blvPFgnfUhJD53Z_QGnTLF7Bog4Zgp9VBk9iAdHOFUN4xVja5Vbc-t2Axi7l1hPlSQjoRxgWyowC5b56kWi5XgXYmzk_m9yXB8-yoDLL5BFb96JnGTRtDJ)
+[10] [xiaomi.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgujlcWid_6nMHDl3bX3EA0SG1i7o3bBkj7mORgWDfW9eJp0p6TaNsMvT7-_mutrmLk4D9RKgjzkmWdnDncR6y5mZD46ks6PiMrv5EPUo=)
+[11] [iclr.cc](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIzB8tlxboXJILga83F5ifYYOyiTwwDv1xfu1u4aug1l59t-y_UWKlc5wSQ91u2w6AB1VzMZL_w-o8UQOHM1grKvLpSY3SSV8XujqWIe_Kn_uMGatzTiK5YARsXd3V)
+[12] [icml.cc](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCXIzn3D2tH0nwKiG05W_5P_RZkTzqoGgc3txWLAuYooYdOYDlTxlKASlrlNlgjhpj52u0DsXhY1-oV6o776dTSddFBAWex_-eQweyJ56lauK5eEKgq2GSVXNOPudy)
+[13] [neurips.cc](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-OF3Q4veAzS2XCaHoTvs3CaSimZz1hY4pRt_64eT-Lx95QbNztrEUWQowj89PUdmwS2Fe-bYcqR0a0yXpDHbT_zJGbCt56hCyIB86Sg-hc09IzRmIY8o=)
+[14] [multiversecomputing.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjY-l5xgOAFLjqWO5g0uh8otLTWE9fwBUhfJY8-0dk0GNUnti5moqn5Hx21J3EaAY0E8PTj09UR-b5QNST8pnxaCDcChjkyBY8l_Hzox50vIgph1N44Q==)
+[15] [deepmind.google](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7dvSLycQnUM_W_i7BP2R6RDGrYrjLHVGiebRhm0Amjqggjt5QFE3WaIGlSEy34T1NLrjLc5ZGA6_ort0k3FoD3a3f15is2OGpyPFBYfqIRF_4km8fp_3FdE_g)

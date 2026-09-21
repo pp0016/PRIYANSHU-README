@@ -1,0 +1,62 @@
+The search for "remotion image object reveal animation spring pop up" returned the following summary:
+To create a spring pop-up animation for an image in Remotion, you primarily use the `spring()` function to calculate a scale value based on the current frame, which is then applied to the image’s CSS style[1][2].
+
+### Core Concept
+Remotion animations are frame-based rather than timeline-based[3]. You use `useCurrentFrame()` to track time and `spring()` to generate a physics-based value (typically from 0 to 1) that creates a natural "bouncy" effect[4][3][2].
+
+### Implementation Steps
+
+1.  **Get the Current Frame**: Use the `useCurrentFrame()` hook to know which frame the animation is on[1][2].
+2.  **Get Video Metadata**: Use `useVideoConfig()` to access the `fps` (frames per second)[1][2].
+3.  **Apply the `spring()` Function**: Pass the `frame` and `fps` to the `spring()` function[1][2]. You can customize the bounce by adjusting the `stiffness`, `damping`, and `mass` parameters in the `config` object[1][5].
+4.  **Style the Component**: Apply the returned value to the `transform: scale()` CSS property of your image container[2].
+
+### Example Code Snippet
+
+```tsx
+import { AbsoluteFill, spring, useCurrentFrame, useVideoConfig } from 'remotion';
+
+export const PopUpImage = () => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+
+  // Create a spring value that goes from 0 to 1
+  const scale = spring({
+    frame,
+    fps,
+    config: {
+      stiffness: 100, // Higher = more rigid
+      damping: 10,    // Lower = more bouncy
+      mass: 1,
+    },
+  });
+
+  return (
+    <AbsoluteFill style={{ justifyContent: 'center', alignItems: 'center' }}>
+      <img
+        src="your-image-url.png"
+        style={{
+          transform: `scale(${scale})`, // Apply the spring value to scale
+        }}
+        alt="Pop up"
+      />
+    </AbsoluteFill>
+  );
+};
+```
+
+### Pro-Tips for Better Animations
+*   **Spring Playground**: Use the [Remotion Spring Editor](https://springs.remotion.dev/) to visualize and tweak your `stiffness`, `damping`, and `mass` settings in real-time before adding them to your code[6][7].
+*   **Delaying**: If you want the animation to start later, you can pass `frame - delay` (e.g., `frame - 20`) to the `spring()` function[1][2].
+*   **Overshoot Clamping**: If you want the animation to reach the target value without bouncing past it, set `overshootClamping: true` in your spring config[1][5].
+*   **Fixed Durations**: If you need the spring to finish at an exact time, you can use the `durationInFrames` property within the `spring()` config, which will automatically stretch or compress the animation curve to fit[1][8][5].
+
+Sources:
+[1] [remotion.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqMxEyO5ghR9oMHvyyzbINm7niFasI_AeCFLic5YQHGstp-zKjj494PHnGroqLCRi5t5gZf841ARGiZuLFY_3bo2g5OG00BvHRMNb-ZtIItY2o-2sMA57IeFU=)
+[2] [plainenglish.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfgAI6Th9rr4nHywH3Ah3eOm9eYGltWJmCkqWI6nLfV4D8e6P1QuoxvILP9y5r1UoDZNiVg0_9MQAuPdxiPHGs74NwpiVfqS1pKfCFbJ55mnxkzywd9N45iZr6ng9dyeV5ZqaviJxqjRZVGcNZOye8-Ci4qsgikZ0T3pqBiPgPBAygnIrUuaYnLnxR4hsXDifx76aOxw7PnJi7jikg)
+[3] [mindstudio.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg-TllnnNNTgAY7cECg1zCTvf58p3HsVZHc0avkKK98AZ0Z6Tv3DHFTe58YTm9OE3i05QSxNbYJzgzubu2bsMOuu8l6eMncmjpLf4H_C6f_pMAY3KWLsO9nDgNeZrcUOiZxqf-EvLP8p5rjOAjbrlum2_i6OnXVps1y9cKtR3NSdzg04GDJHn-CWFWrzxYKw==)
+[4] [plainenglish.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfgAI6Th9rr4nHywH3Ah3eOm9eYGltWJmCkqWI6nLfV4D8e6P1QuoxvILP9y5r1UoDZNiVg0_9MQAuPdxiPHGs74NwpiVfqS1pKfCFbJ55mnxkzywd9N45iZr6ng9dyeV5ZqaviJxqjRZVGcNZOye8-Ci4qsgikZ0T3pqBiPgPBAygnIrUuaYnLnxR4hsXDifx76aOxw7PnJi7jikg)
+[5] [remotion.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqMxEyO5ghR9oMHvyyzbINm7niFasI_AeCFLic5YQHGstp-zKjj494PHnGroqLCRi5t5gZf841ARGiZuLFY_3bo2g5OG00BvHRMNb-ZtIItY2o-2sMA57IeFU=)
+[6] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGKo1xAgP1-OoaV4_TtrDE4GJdf1ZggtlBA-k1DfOnxrZgMlZIz65W9m6aBIAB_fuMVWvq1UXOtam4y-haGmvVRDOL5oBvRCSwWehdP-y_MtghQkP9wajSK6u1L20aTKIo)
+[7] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGKo1xAgP1-OoaV4_TtrDE4GJdf1ZggtlBA-k1DfOnxrZgMlZIz65W9m6aBIAB_fuMVWvq1UXOtam4y-haGmvVRDOL5oBvRCSwWehdP-y_MtghQkP9wajSK6u1L20aTKIo)
+[8] [remotion.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuD5X52w2fLQdbBEtijY5P8hVcJLh7pBd7bGWOqK7BqCi9-niA0NK_RIJnIBT50MGtfjhiGcNvYpjcqqrGSYMOd4iDO8JJ3wDb-fOmkdir_hGAAxwSpQ4=)

@@ -1,0 +1,44 @@
+The search for "Stable Diffusion 3.5 Flux VRAM requirements 2025 image generation GPU memory" returned the following summary:
+For running Stable Diffusion 3.5 and Flux.1 locally in 2026, VRAM requirements depend heavily on the model variant and the use of quantization (such as FP8, GGUF, or NF4)[1][2]. 
+
+### **Stable Diffusion 3.5 VRAM Requirements**
+*   **SD 3.5 Medium:** Designed to be more accessible, it requires approximately **9.9 GB of VRAM** for full performance (FP16)[3]. With GGUF quantization, it can run on GPUs with less VRAM[4].
+*   **SD 3.5 Large:** This is a much heavier model (8B parameters)[5]. While it can technically run on lower-VRAM cards using techniques like offloading or quantization, it generally requires **~18 GB of VRAM** for standard FP16 inference[6][7]. Users on cards with 16 GB or less may experience significantly slower performance if the system resorts to offloading to RAM[8][9].
+
+### **Flux.1 VRAM Requirements**
+Flux.1 is more memory-intensive than previous Stable Diffusion models due to its DiT (Diffusion Transformer) architecture[10].
+*   **Full Quality (FP16):** Requires **18–24 GB of VRAM**[1][10]. An RTX 4090 (24 GB) is widely considered the gold standard for running these models without compromise[10].
+*   **Quantized (FP8/NF4/GGUF):** 
+    *   **FP8:** Typically requires **13–15 GB**[1][2].
+    *   **NF4/GGUF (Q4):** Can run on as little as **6–10 GB of VRAM**, making them accessible to common mid-range cards like the RTX 3060 (12 GB) or 4060 (8 GB), though generation speed and quality will vary based on the level of compression[1][11][10].
+
+### **Summary Table**
+
+| Model | Precision/Format | Approx. VRAM Needed |
+| :--- | :--- | :--- |
+| **SD 3.5 Medium** | FP16 | ~10 GB[3] |
+| **SD 3.5 Large** | FP16 | ~18 GB[6][7] |
+| **Flux.1 Dev/Schnell** | FP16 | 18–24 GB[1][10] |
+| **Flux.1 Dev/Schnell** | FP8 | 13–15 GB[1][2] |
+| **Flux.1 Dev/Schnell** | NF4/GGUF (Q4) | 6–10 GB[1][10][2] |
+
+### **Recommendations for 2026**
+*   **The Practical Floor:** For a modern workflow that includes ControlNet, LoRAs, and higher resolutions, **12 GB to 16 GB of VRAM** is the recommended minimum[12][13].
+*   **Professional/High-Res Work:** **24 GB or more** is strongly recommended to handle heavy extension stacks, batch generation, and full-precision model inference without needing to rely on slow CPU offloading[12][14][13].
+*   **Workflow Tip:** Using **ComfyUI** is highly recommended as it handles model offloading dynamically and supports GGUF/quantized formats that allow these large models to run on consumer-grade hardware that would otherwise be insufficient[5][4][2].
+
+Sources:
+[1] [gigagpu.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzXL2o_hlvMf2pWEV1Z7FTuUDQDtrBMa7tsRofl4uSCXIx3DOyAgSirDiQ0DgaC-e5qA_YnG7cUkdC5iVzvji7AFikhclYoKKArXOkrhrGII3cXI1X5qDfC0ltQhsj_rCq)
+[2] [gigagpu.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE76noifGafgGqJa3N0B2gL7gQYxfpSnbS4BTkmMtxU_K7r7LFCpN-QfWRBVaNSrH2ogo1J29Uh8uYJ8VhdadYQq4DrEQenfuACPNkqS_vzAVtNu34Qe99-dNGVHOfdub5wGfk=)
+[3] [stability.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfd3LNn_pGeZi65bTMIxW1tSWBCFqUCiDVM1OlLMQ2k5PaOOyqOMHbXUx7BjDMoFAkVuxD0uWrmev5dkKvsaV1D3Khebwf-y_JyjaytCtONJbBJzMANjhR0kgGha2YXnsttJmnLV3RRghH521rD_EoGpItxqTPrg==)
+[4] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqUyphNUok9zYdwZjLcwR_EKNvXLCIKRK1_m1Fb642hMyRh-xP1LNyMWqsBxFv0R55d2j9C2zMzij3gJ0YM1cS2DGEsMaPp0mTMuWSc7ZvPdwM_yJXsyyneThQncxxRtg=)
+[5] [civitai.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGNBXCfmTfredzj4yk22LBh4jC7DZVOGmF7NovuUfMuzw58huRxVIPuhOBvRzS0NRsWAvNEA131SujtxYI9m9rJg6AennqlNVK_KHRgF7VIf4LIUD63DF9Q1MHHhcpep5h45QtBDi7ZyRgi0dEgsbWi5grveLoC9SD8-b3RA==)
+[6] [spheron.network](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5qBUZ5TqX7t0GNPoY7Yor8BNcHXqUtIleA8QCQwWZa_PzCq4X-DH4NxpO5kvQMn6kY1XJ4Lhg9hb6-hqz3DDhcHhbSp7kS-P47Bb7A7BP1R2_w7VSFiWkB5TzoQgt9j16pGZ52uJNLTc03kBi0U7IxJF-U3yo8JVlEZX3KseD7GnQOs00Aiz100pDhw_J)
+[7] [tweaktown.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEewhqFrjnufyaSFY2h2AlAMU4VmRgUxpPfOp8EmkUXHErrI7AV37tuQyDwkZeT9X8kk-0wNmyHwQBWmLcN-a1Yl7ZAlkLOMuoMtSw1LI1zX8HfWAVdUPSCLd-KaTdKgwBk6XK-Y8ifzNiRCRxoX-ZMloBDGqMt8ICxsFe6Bl8Huz0D6EuTitxA5LA6VlBPdtPdjrncezJS248OcBIUpxa6K_eoLLEyI47Qr8OwmJzHmObUfaPCR-JdYzc=)
+[8] [huggingface.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDuBhiG4UoS01HSEyqJ3EOKtzxrgJzBxeLmx0-M_EQ1gMFambW7qommd-j8UTaAAcFvI8wZHiUMa9cd6XSj_04tOGuRholQ-Ythb33T1PlYt8CsPLt_vlpt48KVRkBCb5GpdZaND97eZeufFm7qZ2WaJil05OFcmKFIaIrdtZ5RCo=)
+[9] [huggingface.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDuBhiG4UoS01HSEyqJ3EOKtzxrgJzBxeLmx0-M_EQ1gMFambW7qommd-j8UTaAAcFvI8wZHiUMa9cd6XSj_04tOGuRholQ-Ythb33T1PlYt8CsPLt_vlpt48KVRkBCb5GpdZaND97eZeufFm7qZ2WaJil05OFcmKFIaIrdtZ5RCo=)
+[10] [jarvislabs.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqnWPgI85obq_Yah5TrdPu2VlPUw6tbgJIRhgdtpL7gMWzo8DBIlw9XolMG8MlzvD12RV75muTzZZbyFt7dhYBEbWbAa3InOQ7BH8r-VrUq9cLT-cDPtIJSWpo8dygqWFAM9uC)
+[11] [localaimaster.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELsp4iL9VxFJSIZanS9qXFd-1hC4u28-KvuZykJ-RNbJ9SsBY7Bx1Kz1Y3q07u36uW9VYEvRl9Zd3Yk1V9AjIZDyG8TXZXoFaNr9aS5YAxVhnF8gkZ0ha9Ab7VgN7XtHFqd08_XvpmJCbbQ0YPt4s=)
+[12] [hivenet.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZVm6S8KhNtGIsa7CMVjC1NLqfHwFXNH0v4iXPEg2GkLochLL7ZQbRNn9Cci3CYqjUOOtuVOXTNOQWO4ZyhN39BXjVAo9oG-cLKmybWkBA9AJz8PAfR1JDOqjJ7_QX49hTrYhjt4wu8t6JBVoYcToN-TYMlV62RiJv2m4pwcyoav-HzUn1XknSYzqjw3202xZg)
+[13] [hivenet.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZVm6S8KhNtGIsa7CMVjC1NLqfHwFXNH0v4iXPEg2GkLochLL7ZQbRNn9Cci3CYqjUOOtuVOXTNOQWO4ZyhN39BXjVAo9oG-cLKmybWkBA9AJz8PAfR1JDOqjJ7_QX49hTrYhjt4wu8t6JBVoYcToN-TYMlV62RiJv2m4pwcyoav-HzUn1XknSYzqjw3202xZg)
+[14] [spheron.network](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm0sjEyl5Q5wbEitMUNlc-Ybg2KRhJ01EZ_wWZ-3ka2JNfWaMqsitGSBc-FBp8XQuFBUMGzTh3FhRfpeKUlIAaLZAHKO9U5EPazC3tDBNq9GQq-QuI9nP2tsLOepZ1I-8MKt1Q6k_aG4WF-UmjYDkIjVoukuBUlVE=)

@@ -1,0 +1,24 @@
+The search for ""Gabb Phone" exact features SOS calls GPS tracking approved contacts browser block" returned the following summary:
+Gabb phones and watches are specifically designed as "kid-safe" devices with built-in parental controls. Below is a breakdown of how the features you mentioned function across their devices:
+
+### **Browser Block**
+*   **No Web Browsers:** Gabb devices do not have an open web browser. They are "locked down" to prevent access to the internet, social media, and open app stores. 
+*   **System Design:** Because there is no browser or app store, children cannot browse the web. On models that support limited, parent-approved third-party apps, those apps are vetted, and any internal links or hidden browsers are typically blocked by the system's security framework.
+
+### **GPS Tracking**
+*   **Active GPS:** All Gabb phones and watches come equipped with active GPS tracking.
+*   **MyGabb App:** Parents can monitor the device's location in real-time through the **MyGabb app** on their own smartphones. 
+*   **Safe Zones:** Parents can set up "Safe Zones" (geofencing) and receive notifications when the device enters or leaves these designated areas.
+*   **Find My Phone:** The app includes a "Find My Phone" feature that allows you to track the device’s location or trigger a sound if it is misplaced.
+
+### **Approved Contacts**
+*   **Parent-Managed:** Parents can manage the contact list through the Gabb Messenger Parent app (or the MyGabb app, depending on the device/model).
+*   **Restriction Options:**
+    *   **Gabb Watches:** Generally restricted to only calling and texting approved contacts.
+    *   **Gabb Phones:** Parents can choose to enable "parent-managed" mode, which limits communication to only those in the approved contact list, or allow the child to manage their own contacts. 
+    *   **Blocking:** You can block specific numbers or contacts directly through the parent management tools.
+
+### **SOS Calls**
+*   **SOS Feature:** Gabb devices include an SOS feature, but it is important to note the distinction regarding emergency services:
+    *   **Not 911:** On most Gabb devices (particularly watches), the SOS button is designed to call a **designated emergency contact** set by the parent, not 911. This is an intentional design choice to prevent accidental calls to emergency services by younger children.
+    *   **Gabb Phones:** While some documentation notes that Gabb phones *can* call 911, the primary "SOS" button feature on their wearable devices is specifically configured to alert a parent or guardian. Always verify the specific behavior for the exact model (e.g., Gabb Phone 4 vs. Watch 3e) you are considering.

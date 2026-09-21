@@ -1,0 +1,42 @@
+
+The command exited with code 0.
+Output:
+<truncated 66 lines>
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\pur                         
+                             pose_manim\1080p60\partia                         
+                             l_movie_files\PurposeScen                         
+                             e\4234509111_914419797_16                         
+                             03536558.mp4'                                     
+Animation 8: Write(Text('Looking for Purpose...')):   0%|          | 0/60 [00:00<?, ?it/s]Animation 8: Write(Text('Looking for Purpose...')):   5%|5         | 3/60 [00:00<00:03, 18.25it/s]Animation 8: Write(Text('Looking for Purpose...')):   8%|8         | 5/60 [00:00<00:03, 17.89it/s]Animation 8: Write(Text('Looking for Purpose...')):  12%|#1        | 7/60 [00:00<00:03, 17.47it/s]Animation 8: Write(Text('Looking for Purpose...')):  15%|#5        | 9/60 [00:00<00:03, 16.98it/s]Animation 8: Write(Text('Looking for Purpose...')):  18%|#8        | 11/60 [00:00<00:02, 16.36it/s]Animation 8: Write(Text('Looking for Purpose...')):  22%|##1       | 13/60 [00:00<00:02, 16.04it/s]Animation 8: Write(Text('Looking for Purpose...')):  25%|##5       | 15/60 [00:00<00:02, 15.86it/s]Animation 8: Write(Text('Looking for Purpose...')):  28%|##8       | 17/60 [00:01<00:02, 15.75it/s]Animation 8: Write(Text('Looking for Purpose...')):  32%|###1      | 19/60 [00:01<00:02, 15.84it/s]Animation 8: Write(Text('Looking for Purpose...')):  35%|###5      | 21/60 [00:01<00:02, 16.24it/s]Animation 8: Write(Text('Looking for Purpose...')):  38%|###8      | 23/60 [00:01<00:02, 16.69it/s]Animation 8: Write(Text('Looking for Purpose...')):  42%|####1     | 25/60 [00:01<00:02, 16.62it/s]Animation 8: Write(Text('Looking for Purpose...')):  45%|####5     | 27/60 [00:01<00:02, 16.42it/s]Animation 8: Write(Text('Looking for Purpose...')):  48%|####8     | 29/60 [00:01<00:01, 16.04it/s]Animation 8: Write(Text('Looking for Purpose...')):  52%|#####1    | 31/60 [00:01<00:01, 15.99it/s]Animation 8: Write(Text('Looking for Purpose...')):  55%|#####5    | 33/60 [00:02<00:01, 15.50it/s]Animation 8: Write(Text('Looking for Purpose...')):  58%|#####8    | 35/60 [00:02<00:01, 15.69it/s]Animation 8: Write(Text('Looking for Purpose...')):  62%|######1   | 37/60 [00:02<00:01, 16.18it/s]Animation 8: Write(Text('Looking for Purpose...')):  65%|######5   | 39/60 [00:02<00:01, 16.63it/s]Animation 8: Write(Text('Looking for Purpose...')):  70%|#######   | 42/60 [00:02<00:01, 17.91it/s]Animation 8: Write(Text('Looking for Purpose...')):  73%|#######3  | 44/60 [00:02<00:01, 15.65it/s]Animation 8: Write(Text('Looking for Purpose...')):  77%|#######6  | 46/60 [00:02<00:00, 15.10it/s]Animation 8: Write(Text('Looking for Purpose...')):  80%|########  | 48/60 [00:02<00:00, 15.02it/s]Animation 8: Write(Text('Looking for Purpose...')):  83%|########3 | 50/60 [00:03<00:00, 14.87it/s]Animation 8: Write(Text('Looking for Purpose...')):  87%|########6 | 52/60 [00:03<00:00, 14.35it/s]Animation 8: Write(Text('Looking for Purpose...')):  90%|######### | 54/60 [00:03<00:00, 14.69it/s]Animation 8: Write(Text('Looking for Purpose...')):  93%|#########3| 56/60 [00:03<00:00, 14.90it/s]Animation 8: Write(Text('Looking for Purpose...')):  97%|#########6| 58/60 [00:03<00:00, 15.39it/s]Animation 8: Write(Text('Looking for Purpose...')): 100%|##########| 60/60 [00:03<00:00, 16.26it/s]                                                                                                   [09/13/26 14:34:32] INFO     Animation 8 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\pur                         
+                             pose_manim\1080p60\partia                         
+                             l_movie_files\PurposeScen                         
+                             e\4234509111_3417532583_2                         
+                             268209807.mp4'                                    
+Waiting 9:   0%|          | 0/60 [00:00<?, ?it/s]Waiting 9:   5%|5         | 3/60 [00:00<00:02, 24.46it/s]Waiting 9:  10%|#         | 6/60 [00:00<00:02, 22.46it/s]Waiting 9:  15%|#5        | 9/60 [00:00<00:02, 21.98it/s]Waiting 9:  20%|##        | 12/60 [00:00<00:02, 21.54it/s]Waiting 9:  25%|##5       | 15/60 [00:00<00:02, 21.07it/s]Waiting 9:  30%|###       | 18/60 [00:00<00:02, 20.68it/s]Waiting 9:  35%|###5      | 21/60 [00:01<00:01, 20.19it/s]Waiting 9:  40%|####      | 24/60 [00:01<00:01, 20.09it/s]Waiting 9:  45%|####5     | 27/60 [00:01<00:01, 19.91it/s]Waiting 9:  50%|#####     | 30/60 [00:01<00:01, 20.15it/s]Waiting 9:  55%|#####5    | 33/60 [00:01<00:01, 20.38it/s]Waiting 9:  60%|######    | 36/60 [00:01<00:01, 20.52it/s]Waiting 9:  65%|######5   | 39/60 [00:01<00:01, 20.78it/s]Waiting 9:  70%|#######   | 42/60 [00:02<00:00, 20.75it/s]Waiting 9:  75%|#######5  | 45/60 [00:02<00:00, 19.35it/s]Waiting 9:  78%|#######8  | 47/60 [00:02<00:00, 17.82it/s]Waiting 9:  82%|########1 | 49/60 [00:02<00:00, 18.23it/s]Waiting 9:  87%|########6 | 52/60 [00:02<00:00, 17.83it/s]Waiting 9:  92%|#########1| 55/60 [00:02<00:00, 18.96it/s]Waiting 9:  95%|#########5| 57/60 [00:02<00:00, 18.94it/s]Waiting 9: 100%|##########| 60/60 [00:02<00:00, 20.93it/s]                                                          [09/13/26 14:34:35] INFO     Animation 9 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\pur                         
+                             pose_manim\1080p60\partia                         
+                             l_movie_files\PurposeScen                         
+                             e\4234509111_3483195821_4                         
+                             188645350.mp4'                                    
+                    INFO     Combining to Movie file.  scene_file_writer.py:952
+[09/13/26 14:34:36] INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\renu5\.gemini\                          
+                             antigravity\scratch\mani                          
+                             m-projects\media\videos\                          
+                             purpose_manim\1080p60\Pu                          
+                             rposeScene.mp4'                                   
+                                                                               
+                    INFO     Rendered PurposeScene                 scene.py:290
+                             Played 10 animations                              
+

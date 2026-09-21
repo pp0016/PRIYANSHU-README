@@ -1,0 +1,38 @@
+The search for "llama.cpp partial GPU offload performance penalty tokens per second mixed CPU GPU 2025" returned the following summary:
+In `llama.cpp`, partial GPU offloading—where a model is split between GPU VRAM and CPU system RAM—incurs a significant performance penalty because the inference process becomes bottlenecked by the relatively slow memory bandwidth of the system (DDR4/DDR5) compared to the extreme high-speed bandwidth of GPU VRAM.
+
+### The Performance Penalty: The "Bandwidth Cliff"
+*   **Memory Bandwidth Bottleneck:** Inference speed is generally dictated by how fast model weights can be moved into compute units. When parts of the model (or the KV cache) reside in system RAM, every token generated requires transferring data across the PCIe bus and through the CPU, which is orders of magnitude slower than VRAM[1][2].
+*   **The "Cliff" Effect:** Many users experience a "bandwidth cliff" where adding even a few layers of CPU offload causes total tokens per second (TPS) to collapse[3][2]. Performance is not just incrementally slower; it often drops drastically as the bottleneck shifts from compute-bound (GPU) to memory-bound (System RAM)[1][4].
+*   **Prompt Processing vs. Generation:** 
+    *   **Prompt Processing (Prefill):** Highly parallelizable and benefits immensely from keeping as much as possible on the GPU[5][6].
+    *   **Token Generation (Decode):** Sequential and latency-sensitive. This is where the penalty of offloading is most noticeable, as the system must wait for data from the slowest tier in the chain[6][7].
+
+### Optimization Strategies (2025–2026)
+To mitigate these penalties, advanced users in 2025 and 2026 employ several strategies beyond simple `–n-gpu-layers` settings:
+
+*   **Targeted Tensor Offloading (`-ot` / `--override-tensor`):** Instead of using standard layer offloading, which can move entire transformer blocks (including KV cache) to the CPU, you can use the `-ot` flag to offload only specific, non-latency-critical sub-layers (like certain FFN experts in MoE models) while keeping attention and KV cache on the GPU[8][9]. This keeps the "hot path" in VRAM and reduces PCIe traffic[10][9].
+*   **KV Cache Management:** The KV cache is a major "VRAM eater." If your cache spills into system RAM, performance tanks. Ensure you have enough VRAM headroom for the context size you are using, or reduce the context window to keep the cache entirely on the GPU[1][3].
+*   **"Always Active" Priority:** For Mixture-of-Experts (MoE) models, prioritize offloading "always active" parameters (Attention and Shared FFN layers) to the GPU, while offloading routed expert layers to the CPU[8][11].
+*   **Batch Size Tuning:** Adjusting the physical micro-batch size (`-ub`) can help optimize throughput. Larger batch sizes can improve prompt processing speed, though they require more VRAM, forcing you to move more layers to the CPU—a trade-off you must balance based on your specific workload[5].
+*   **Automated Allocation:** Newer versions of `llama.cpp` include automation features that perform virtual test allocations to help fit models across multiple GPUs or mixed GPU/CPU setups more efficiently than manual guessing[12][13].
+
+### Summary Recommendation
+*   **Avoid the "Spill":** If possible, use smaller quantization (e.g., Q4_K_M) to fit the *entire* model into VRAM rather than running a larger, higher-precision model that requires partial CPU offload[3][14]. 
+*   **Benchmark:** Use `llama-bench` to test your specific hardware configuration. Because the bottleneck is often the memory bus, your specific CPU, RAM speed (DDR4 vs DDR5), and PCIe generation will significantly change how much of a penalty you experience[5][1][7].
+
+Sources:
+[1] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGE1lT1MGlaCwu-MRG7Ae1XrXLbe-nGt3KvM6ZvTfntYRDRXLBE7S_eh4x3kBwRnMbchuyfxH16-qbc3ydcBF9v8kQYLF9TUTyJ6bVXjLhzDGjheyPmAxEfbrzYfb25nTvBu9D9T6UC0bNljCC1AgHb9OamnibTUFx9zvbRaPdxWXtOkj0fKL0gxNjF92ep67oDeeAnPyaDN0eGAxBmSNH-iEK2cK5939kJw4_C5uIEtO_QNwm2I4eecW1Edb5FBLk=)
+[2] [sergiiob.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRGpiH05jT-kYnEM_iHcf3z7UsbDPo8gAAH-Kzx_0rqsKx9NH1oRHB5UylgtLMXGnfaF6ATNDINfsKU2WDpN7qL9mvoTP1Rnizg2aVwcRbobOa1G17Y3RHjLKcv_m0rf8gb96DXheSkGvPgkMjyNElQCF8erIzEzZ0Ew==)
+[3] [sergiiob.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRGpiH05jT-kYnEM_iHcf3z7UsbDPo8gAAH-Kzx_0rqsKx9NH1oRHB5UylgtLMXGnfaF6ATNDINfsKU2WDpN7qL9mvoTP1Rnizg2aVwcRbobOa1G17Y3RHjLKcv_m0rf8gb96DXheSkGvPgkMjyNElQCF8erIzEzZ0Ew==)
+[4] [sergiiob.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRGpiH05jT-kYnEM_iHcf3z7UsbDPo8gAAH-Kzx_0rqsKx9NH1oRHB5UylgtLMXGnfaF6ATNDINfsKU2WDpN7qL9mvoTP1Rnizg2aVwcRbobOa1G17Y3RHjLKcv_m0rf8gb96DXheSkGvPgkMjyNElQCF8erIzEzZ0Ew==)
+[5] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8F4qHW8G89iWVHE-w5UN0DoKnUDb_pHLFZB-Q6cvEk3byGXsZBGGMnkXdZ8BZ1ZPWXG93nsYykBbGPLmZbiKLTLiJy78y3qYukkfiL8zyujpQ3_d4kfoLafwSd5pMxK2SjRaw7nx8368i1Vj_lmBpZej4E5tSUTWz2piU0tEue0PAvdV6ZPFyidPUPurS-GWrijjaDFeY8x7eLw==)
+[6] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEntvYliXg5O4nldrlmgHbvXPtTxh7nqnYdwqkWpgJWLp-HTh6MuznxrEk0SFWRtll0oT0SaEfdFa5lI68H9mVBX6A5LgUpnxccsATfth2klXNDrQKCScXAIEa84n_2RL00pc6biGZd95Hi99bilCokQReIzV0hT3kU7rN6EV-HNgDaqYi87DzF-xF-hOrAzhymOS8_ZvU=)
+[7] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESsUBBoT0TO87xT1kBQXREGFavkCTsuTZLhD50lkxlZLiF_ckXxRaPWhDzhCka7vfxVvbUV6QZRu5AcvMCoZlTah3gT7nEdW6aZz_ElQVq-zJqesV_fwwtBbhVLNMm0Ddz1hLYZtFNRU336nMb9HJ9ReumZ8YTpCXzsadodb0dzZYk-o5uipFfHUagOnf2LhX-VRAobX7XSUnSjg==)
+[8] [huggingface.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWfNnqxSw3PivgmGdj6Km5xOzd8I6gZP87JMCTNouKvFCrOIVDoTa7Pep3n1hl5l79qnnnJIH7Ygh298o24LQKskRevAQLI8dIWrqwfzymmEzMGvD-hNBGWnzZEW5cZ-_PDpt_ERvt7IEZd3rxrLc80wd-H0mUMzcCcK4=)
+[9] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW5GFnsHGU8ekllSxajFTJDIhNwTjriUSNfvaT_SPZxXWcfWKWU0OSVJkC72Bdt99JONsdhSGxtEy3I-zsXftTrfMt1gS30H9wdt-_EKgq4eZKWh_cPcBWhvjBOxML5IcjMcxnde9uA53ba8BbblJ4VOoZc172RuyBwSqOIVmvxmqCoSrNs3SGE7tgDQ==)
+[10] [huggingface.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWfNnqxSw3PivgmGdj6Km5xOzd8I6gZP87JMCTNouKvFCrOIVDoTa7Pep3n1hl5l79qnnnJIH7Ygh298o24LQKskRevAQLI8dIWrqwfzymmEzMGvD-hNBGWnzZEW5cZ-_PDpt_ERvt7IEZd3rxrLc80wd-H0mUMzcCcK4=)
+[11] [huggingface.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWfNnqxSw3PivgmGdj6Km5xOzd8I6gZP87JMCTNouKvFCrOIVDoTa7Pep3n1hl5l79qnnnJIH7Ygh298o24LQKskRevAQLI8dIWrqwfzymmEzMGvD-hNBGWnzZEW5cZ-_PDpt_ERvt7IEZd3rxrLc80wd-H0mUMzcCcK4=)
+[12] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUPc4NCpPa-6th3glav3XOazFuXUxPL0d-mo8AC6xee_bhZ4gFuCaFJHb_45O7DHu0kWq_Sj07luQZvnM--4okK8-C1YSouB_4pDNSQefHKB4Axb-M9CFMU1C-Jk2gsg8Uf1AtCRNWM7VHav6E)
+[13] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9CWNIhs9nh1iU6XYN3PFteLkKgP8jtxDBD5WRKYFoqTdUdES8ossO19lotbb9xWpvptWvTOhPrpEkg44BeMwO7ODm4Qzpwg48FtXKzht8n3hii3fQ_yTTkZUxh-22Ukood7G28Jj7JSDjf-GppQ7jP4HAbrY9ChKgTfjGbiGMuWcj218HQGfE3W5iCdvip-kF-ThwhT0N4h0V7w==)
+[14] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGE1lT1MGlaCwu-MRG7Ae1XrXLbe-nGt3KvM6ZvTfntYRDRXLBE7S_eh4x3kBwRnMbchuyfxH16-qbc3ydcBF9v8kQYLF9TUTyJ6bVXjLhzDGjheyPmAxEfbrzYfb25nTvBu9D9T6UC0bNljCC1AgHb9OamnibTUFx9zvbRaPdxWXtOkj0fKL0gxNjF92ep67oDeeAnPyaDN0eGAxBmSNH-iEK2cK5939kJw4_C5uIEtO_QNwm2I4eecW1Edb5FBLk=)

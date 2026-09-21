@@ -1,0 +1,7 @@
+
+The command exited with code 0.
+Output:
+C:\Users\renu5\.gemini\antigravity\scratch\extract4.py:43: DeprecationWarning: invalid escape sequence '\9'
+  s = s.encode('utf-8').decode('unicode_escape') if '\\' in s else s
+Dumped 31 strings.
+

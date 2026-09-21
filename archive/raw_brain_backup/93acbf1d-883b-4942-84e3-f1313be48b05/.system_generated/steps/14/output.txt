@@ -1,0 +1,20 @@
+The search for "site:support.apple.com "Screen Sharing" "High Performance" macOS" returned the following summary:
+High Performance Screen Sharing is a feature in macOS that provides improved responsiveness and supports advanced workflows such as HDR video reference modes, stereo audio, 4:4:4 chroma subsampling, and high frame rates (30 or 60 fps)[1][2].
+
+### Requirements and Limitations
+*   **Hardware & Software:** Both the controlling Mac and the remote Mac must be Apple silicon models running macOS Sonoma 14 or later[1][2].
+*   **Network:** Requires high bandwidth (recommended 75 Mbps for a single 4K display) and consistent low network latency[1][2]. A wired network connection is recommended[1][2].
+*   **Connectivity:** Both computers must be able to communicate over UDP ports 5900, 5901, and 5902[1][2].
+*   **Session Limits:** Only one High Performance session can be active on a Mac at a time[1][2].
+*   **Display:** The maximum supported resolution for a virtual display is 4K[1][2].
+
+### Key Behaviors
+*   **Privacy:** If you sign in using the user account currently logged into the target Mac, the hardware displays connected to that Mac will be blanked, ensuring privacy[1][2]. This also prevents anyone else from using the target Mac while the session is active[1][2].
+*   **Ending Sessions:** If you are controlling a Mac with Screen Sharing turned on, you can end the session by pressing the Escape key on a keyboard connected to the remote Mac (this does not apply when using Remote Management)[1].
+*   **Configuration:** High Performance mode leverages the Mac's media engine to provide a fluid experience, making it suitable for tasks like scrubbing through video or working on complex 3D models[3][4].
+
+Sources:
+[1] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVH33G0r2s1EF3iJN11sYFTXmxKTaGWyBrm88vW6Drnu8prdefxA_Pmgz2dinCDY9EwBKyaAUzu4ZV6F6auD16q_3bjQDkHn-orunXJzKGgxCeUeHjeNhXR8YC7UbI8IwsqvChDPPI7rnMC84dt-6bbjbLRiY=)
+[2] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpjWg1_56JOpunO0CvmfE6XeBzx8o9ZYM6_Dg-qRJ7nXRek9hdDqXZHpvVvGeKSfMLu-S6ZGIgOKh1X0DSOG-ktiLa9Ds_3nUMBNzL5aHRTjfGk7ObNjzsvc-FCUorOyHChFb4X-ErZSqa-AeA0fYV_by4P4GYV0X9sSE=)
+[3] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMAqPWmBQvk96KSCE1dv_qkhYC4a8TBB_YuJfo8OUH8v52keLKWezAB74dFnZloSQHkshm--y3GCz58F6HJoNM8ssY8rhZ64zkwwx4WzRETNxqDlN9T4OyuT6oWN-sMQEIMshfAMvSAxBirh9AFpzhHAVmfoRNUw==)
+[4] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiTj0SYIVQw0-8vcwQZRZeXPcHVZQFI_GGqHe4-aHOvRUulFyctc90k8zxnrjEArKKwS7wWCrYfV2yPeaR1thbKhRtEvE_1KYLgL-MGeRqmI-eWoh-eUWJHvGQE47nlCAltQoT_NVOWN9Z-IhyBZG1Lzk-gdpDXA==)

@@ -1,0 +1,23 @@
+The search for "RTX 5090 RTX 4090 local LLM benchmark tokens per second comparison 2025 Qwen Llama" returned the following summary:
+For local LLM inference, the **NVIDIA GeForce RTX 5090** (released January 2025) offers a substantial performance lead over the RTX 4090, primarily driven by its 32GB of GDDR7 memory and significantly higher memory bandwidth (1,792 GB/s vs. 1,008 GB/s).
+
+### Performance Comparison: RTX 5090 vs. RTX 4090
+In LLM inference, memory bandwidth is typically the primary bottleneck. As a result, the RTX 5090 consistently outperforms the 4090, with gains scaling based on model size and the complexity of the workload.
+
+| Model / Workload | RTX 4090 (approx.) | RTX 5090 (approx.) | Performance Gain |
+| :--- | :--- | :--- | :--- |
+| **Llama 3.1 8B (Q8/FP16)** | ~165 t/s | ~213 t/s | ~29% |
+| **Qwen 3 14B** | ~98 t/s | ~148 t/s | ~51% |
+| **Qwen 3 32B (Q4)** | ~45 t/s | ~61 t/s | ~36% |
+
+*Note: Benchmarks reflect typical findings from 2025–2026; results can vary based on the inference engine (e.g., vLLM, llama.cpp), quantization level, and system configuration.*
+
+### Key Differences for LLM Users
+*   **VRAM Capacity:** The move from 24GB (RTX 4090) to 32GB (RTX 5090) is arguably the most impactful upgrade. It allows users to run larger models (such as 32B parameters) at higher precision (e.g., Q4_K_M) without needing extreme quantization that degrades output quality.
+*   **Throughput & Concurrency:** When using engines like **vLLM** for high-concurrency tasks (serving multiple users or multi-agent pipelines), the RTX 5090 typically delivers **35% to 60% higher throughput** compared to the 4090.
+*   **Architectural Advantages:** The RTX 5090 utilizes the **Blackwell architecture**, which includes support for newer data formats like **FP4**. This provides a massive advantage for memory-constrained workloads that can leverage 4-bit precision, offering speed increases that exceed simple bandwidth scaling.
+*   **Power & Thermal Constraints:** The RTX 5090 is more power-hungry, with a rated maximum draw of ~575W compared to the 4090’s ~450W. Sustained inference loads on a "warm" card can see slightly lower peak performance than on a "cold" card due to these thermal and power management realities.
+
+### Verdict for 2026
+*   **Upgrade to 5090 if:** You require the 32GB VRAM buffer for larger models (30B+), need maximum throughput for multi-user/API hosting, or utilize advanced inference formats like FP4.
+*   **Stick with 4090 if:** You primarily run smaller models (sub-13B), are budget-conscious, or are satisfied with current tokens-per-second performance for local prototyping, as the 4090 remains a highly capable and cost-effective card for many individual developers.

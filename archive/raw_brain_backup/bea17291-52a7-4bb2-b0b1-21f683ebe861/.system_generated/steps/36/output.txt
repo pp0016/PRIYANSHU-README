@@ -1,0 +1,14 @@
+The search for ""RoCE" OR "RDMA" macOS "Mellanox" OR "Chelsio" OR "DriverKit"" returned the following summary:
+Native support for **RoCE (RDMA over Converged Ethernet)** or traditional **RDMA** over Ethernet network adapters (such as those from Mellanox or Chelsio) is **not available in macOS**.
+
+### Key Points regarding RDMA/RoCE on macOS:
+
+*   **No Native RoCE/RDMA Support for Ethernet NICs:** While vendors like Chelsio provide macOS drivers for their 10/25/40/100GbE adapters, these drivers are limited to standard Layer 2 NIC functionality. They do not include the RDMA/iWARP or RoCE offload capabilities found in their Windows, Linux, or FreeBSD counterparts. Similarly, NVIDIA/Mellanox does not provide macOS-compatible drivers for their Ethernet adapters to support RDMA/RoCE.
+*   **RDMA over Thunderbolt:** Apple introduced a new, proprietary **RDMA over Thunderbolt** capability in **macOS 26.2** for Macs equipped with Apple silicon and Thunderbolt 5. This feature allows low-latency communication between Macs by bypassing the standard networking stack. It is exposed via the `rdma_thunderbolt` kernel extension and `Network.framework` APIs, but it is distinct from standard Ethernet-based RoCE.
+*   **DriverKit and System Extensions:** While Apple’s **DriverKit** framework allows developers to create user-space drivers (replacing traditional kernel extensions), it is primarily used for device control and peripheral communication. It does not provide an "RDMA-over-Ethernet" stack for macOS, and there is no evidence of third-party efforts using DriverKit to successfully implement full-stack RoCE support for standard HCA/NIC hardware.
+*   **Experimental/Community Projects:** There have been some experimental, community-led projects (such as `MCDMA` for certain Mellanox cards or Rust wrappers for `rdma-core`) aimed at bringing limited RDMA functionality to macOS. However, these are niche, experimental in nature, and not supported by hardware vendors or Apple.
+
+### Summary for your hardware:
+*   **Mellanox/NVIDIA:** No macOS drivers for Ethernet RDMA/RoCE.
+*   **Chelsio:** High-performance macOS drivers exist for their T6 adapters, but they lack RDMA/iWARP support.
+*   **DriverKit:** While it is the modern standard for macOS drivers, it has not been leveraged to provide mainstream RDMA/RoCE support for Ethernet adapters.

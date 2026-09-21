@@ -1,0 +1,25 @@
+The search for "EU AI Act open source model restrictions regulatory risk 2025 2026" returned the following summary:
+The EU AI Act, which entered into force on August 1, 2024, establishes a risk-based regulatory framework that includes specific provisions for open-source AI. As of September 2026, the following regulatory landscape applies to open-source models:
+
+### **1. The Open Source Exemption**
+The Act explicitly recognizes the value of open-source innovation, providing partial exemptions for models released under **free and open-source licenses**. To qualify for these exemptions, a model must generally meet all of the following criteria:
+*   **Licensing:** Released under a free and open-source license.
+*   **Accessibility:** The model’s parameters (including weights), architecture, and usage information must be publicly available, allowing for access, usage, modification, and distribution.
+*   **Limitations:** If a model is deemed to have **"systemic risk"**—typically defined by high compute thresholds (e.g., training compute exceeding $10^{25}$ FLOPs)—the exemption is voided, and the provider must comply with all obligations applicable to standard General-Purpose AI (GPAI) models.
+
+### **2. Compliance Obligations**
+Even for open-source models that qualify for exemptions, there are "non-negotiable" requirements:
+*   **GPAI Models:** All providers (including open-source) must establish a policy to comply with EU copyright law and publish a sufficiently detailed summary of the content used for training.
+*   **Transparency (Article 50):** As of August 2, 2026, transparency obligations are fully enforceable. These require that users be informed when they are interacting with an AI system or when content is AI-generated (e.g., deepfakes, synthetic content). These obligations apply to all AI systems used in specific scenarios, regardless of their open-source status.
+*   **High-Risk Systems:** If an open-source model is integrated into a "high-risk" AI system, the developer and deployer must adhere to rigorous compliance standards, including conformity assessments, technical documentation, and human oversight. The open-source exemption does not apply to high-risk or prohibited AI practices.
+
+### **3. Key Deadlines and Risks for 2025–2026**
+*   **August 2, 2025:** Rules and obligations for providers of GPAI models (such as technical documentation and copyright policies) became applicable.
+*   **August 2, 2026:** This was a major compliance milestone. It marked the enforcement of broader transparency obligations (Article 50) and the requirement for Member States to establish at least one AI regulatory sandbox.
+*   **Regulatory Risk:** The primary risk for open-source developers is the **extraterritorial reach** of the Act. The regulations apply to any entity placing AI models on the EU market or whose AI outputs are used within the EU. Non-compliance can result in severe financial penalties, reaching up to €35 million or 7% of total worldwide annual turnover.
+
+### **Strategic Considerations**
+*   **"Systemic Risk" Monitoring:** Developers must track their compute usage. If a model crosses the systemic risk threshold, the regulatory burden increases significantly, requiring adversarial testing, incident reporting, and cybersecurity protections.
+*   **Guidance and Evolution:** The European AI Office has issued ongoing guidelines to clarify the scope of these obligations. Given that the legal landscape is still evolving (e.g., through the "AI Omnibus" package), organizations are encouraged to monitor updates from the AI Office and participate in relevant regulatory sandboxes to ensure compliance as they scale.
+
+***Disclaimer:** This information is for educational purposes and does not constitute legal advice. Organizations should consult with legal counsel to assess their specific compliance obligations under the EU AI Act.*

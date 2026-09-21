@@ -1,0 +1,15 @@
+The search for ""VjiaoBlack/layercake" OR "LayerCake" "SAM 2" "layers"" returned the following summary:
+The term **"LayerCake"** refers to two distinct technical projects, which may be causing confusion due to the shared name:
+
+*   **`VjiaoBlack/layercake` (SAM 2):** This is a tool designed to process photos using Meta's **Segment Anything Model 2 (SAM 2)**[1][2]. It segments an image into depth-ordered, transparent PNG layers, allowing for CSS compositing or other layered graphical editing[1][2].
+*   **"LayerCake" (LLM Research):** A separate and unrelated project titled *"LayerCake: Token-Aware Contrastive Decoding within Large Language Model Layers"* (referenced in academic literature around 2025)[3][4][5]. This research focuses on decoding-time strategies for Large Language Models to improve factual reliability and efficiency by leveraging layer-level signals[3][6].
+
+If you are looking for the image segmentation tool, you can find the repository under **`VjiaoBlack/layercake`** on GitHub, where it is described as a utility for converting photos into depth-ordered transparent layers using SAM 2[1][2].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd4IYpwmxlUvHRdEivpMiz06-Qswwgd7dqYGNEuv3WBdxMlHOKKKkwtE71EhrbIRCXGpN1Va92jFk5Gq7Ts4WsDfxFgr3kJVLzYPooeyW__anoy-Zs52YuTgZEjW0=)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd4IYpwmxlUvHRdEivpMiz06-Qswwgd7dqYGNEuv3WBdxMlHOKKKkwtE71EhrbIRCXGpN1Va92jFk5Gq7Ts4WsDfxFgr3kJVLzYPooeyW__anoy-Zs52YuTgZEjW0=)
+[3] [mpg.de](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyutape7tDNVRjj3VsBMFSkSJasAy9sgz8BVO9S3raoncRYwD5dI06XAAOo1sp-H5KdHmmbw7kzNtAJHGTW0_Bf1thQobyvm-hVtBNtazJ9JjHiLfcWKT7yTVdF2c5YI8JeMCbIM9zl21QIAZDwVQn8FKyGbidbrn1GCKyqvNWsMmY3B7U52SxqMKk8Vpz7GAJi9U=)
+[4] [sebastianraschka.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmp15LWtsIXjU3ib6b9I18I82Cb2rz4WibS0rmi3ETtW1yxV1G27OOOmotdMVO5lScH8vM83vXgPmbn_cYzxomBADTpjbUVPDyDtaarIDiigmKxOJMUU5b-wo3pjhH7ePdZqZKlh3mHYs_4IP1uAN3UfufVP8HcDYWxM_H)
+[5] [fugumt.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW3fvk_F2db2AKFKWhNa7vjJBB_ShKPjTLcU3HWTek519J-Emw_KXo61LC5nQVpTUF-XAf3mw_vgiIyOWIaT-KtVp4npE2NYPTvIpOZUYa7cdEHZtwpP0kwmJkHmP571iotdo0UOQ_mcKRpg_6_XQ=)
+[6] [mpg.de](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBMcfbLxI-Q2-DvtyS2CSUx1srluPxttEFdhqPFSfLP1XE-tkdqBVstnE78lzypsk4IP6pi1Y15H5VIzF-XN-4nF3OgaEr78whM2ZZTqXen7Xffo_OnJHXRk6MNODJInqh5dABA1jXGnonNtSEiV6S4qPxA2ou778EOKZtE6f73PV2d9INMY3JnrQWoKiovKE1qqrUe3dqhqUEhSQPQOkRiBf_52l4LvQj7fW70s43)

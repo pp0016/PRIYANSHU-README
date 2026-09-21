@@ -1,0 +1,5 @@
+
+The command exited with code 0.
+Output:
+C:\Users\renu5\AppData\Local\Programs\Python\Python311\python.exe
+

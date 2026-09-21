@@ -1,0 +1,28 @@
+The search for "Qwen 3 4B 8B 14B 32B VRAM GGUF Q4_K_M benchmark tokens per second 2025" returned the following summary:
+The Qwen3 model series, released in April 2025, includes a range of dense and Mixture-of-Experts (MoE) models. Below is the information regarding their VRAM requirements and performance expectations for GGUF Q4_K_M quantization.
+
+### VRAM Requirements (GGUF Q4_K_M)
+Memory usage is primarily determined by the number of parameters and the size of the KV cache (which grows with context length). For Q4_K_M quantization, estimated VRAM requirements for the dense models are as follows:
+
+| Model Size | Approx. Weight VRAM (Q4_K_M) | Recommended Total VRAM (inc. Context) |
+| :--- | :--- | :--- |
+| **Qwen3-4B** | ~2.5 GB | 4–6 GB |
+| **Qwen3-8B** | ~5.0 GB | 8–10 GB |
+| **Qwen3-14B** | ~9.0 GB | 12–16 GB |
+| **Qwen3-32B** | ~19.5 GB | 24–32 GB |
+
+*Note: These are estimates. Larger context windows (e.g., 32K or 128K) will significantly increase the KV cache VRAM requirement beyond these base figures.*
+
+### Tokens Per Second (TPS) Benchmarks
+Tokens per second are heavily dependent on your specific hardware (memory bandwidth is the primary bottleneck for inference speed). As of 2025–2026, general performance trends for Q4_K_M models on consumer hardware include:
+
+*   **Memory Bandwidth Bound:** Inference speed is typically limited by how fast your hardware can move weights from VRAM to the compute units. Consequently, high-end GPUs (e.g., RTX 4090/5090) or unified memory systems (Apple Silicon) achieve significantly higher speeds.
+*   **Performance Ranges:**
+    *   **High-end GPUs (e.g., RTX 5090):** Typically achieve **60–100+ t/s** for mid-sized models (8B–32B) at Q4_K_M.
+    *   **Mid-range/Laptop GPUs:** Often see **20–50 t/s**, depending on the model size and thermal headroom.
+    *   **Unified Memory (Apple M-series):** Performance is highly competitive, often ranging from **30–70 t/s** depending on the specific chip (Max/Ultra) and model size.
+
+### Key Considerations for 2025/2026
+*   **Model Existence:** Qwen3 models (0.6B, 1.7B, 4B, 8B, 14B, 32B, and MoE variants like 30B-A3B and 235B-A22B) are officially released and widely available on platforms like Hugging Face.
+*   **Optimization:** For best results, use `llama.cpp` or engines like `vLLM` or `Ollama`, which support GGUF quantization. If you encounter memory bottlenecks, you can reduce your context window size to free up VRAM, which often improves tokens per second by preventing offloading to system RAM.
+*   **Hardware:** Because these models are memory-bandwidth bound, prioritize GPUs with higher memory bus speeds (e.g., GDDR6X) or integrated systems with high-bandwidth memory (HBM/Unified Memory) if you are targeting consistent high-speed throughput.

@@ -1,0 +1,28 @@
+The search for ""Distributed Shared Memory" "macOS" OR "OS X" OR "Mach" OR "TreadMarks"" returned the following summary:
+Distributed Shared Memory (DSM) is a technique that allows multiple computers in a cluster to share a single, coherent memory address space[1][2].
+
+### TreadMarks and Distributed Shared Memory
+*   **TreadMarks** is a well-known software-based **Distributed Shared Memory (DSM)** system developed at Rice University in the 1990s[3][4].
+*   It was designed to run on standard Unix workstations (such as those running SunOS or Ultrix) without requiring modifications to the operating system kernel[3][5][6].
+*   It achieves the appearance of shared memory by using virtual memory hardware to detect access to shared pages and by employing a consistency model called **Lazy Release Consistency (LRC)** to manage updates across the network[3][5][6].
+
+### Mach, macOS, and Shared Memory
+*   **Mach Kernel:** The Mach microkernel, which is the foundation of Apple's **XNU kernel** (used in **macOS**), was designed with support for distributed systems and advanced virtual memory features[7][8][9]. While Mach pioneered concepts like memory objects and inter-process communication (IPC) that facilitate sharing memory between tasks, it does not natively provide "Distributed Shared Memory" across multiple physical computers[7][8].
+*   **macOS/OS X Shared Memory:** In macOS, shared memory is primarily a mechanism for local inter-process communication (IPC) on a single machine[10][11]. It allows multiple local processes to map the same physical memory pages into their own address spaces[10]. This is commonly achieved using POSIX or System V IPC standards, rather than the distributed, network-transparent shared memory model provided by systems like TreadMarks[11].
+
+### Summary of Relationship
+There is no direct integration of a system like TreadMarks into the macOS or Mach kernel[5][7]. TreadMarks operated as a **user-level** library that enabled parallel computing on clusters by sitting *on top* of standard Unix operating systems[3][5][6]. Modern macOS and the Mach-based XNU kernel focus on efficient local memory sharing and IPC rather than providing a global, cluster-wide distributed shared memory abstraction[7][12][11].
+
+Sources:
+[1] [mit.edu](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5-4sqi1dNogA-F1FUlt97WDOPvUs4xqQnUEq_w8P7GyCmnhQrEYprN5uuoQE6iCV6y0OUImyi1uiFEqOH7z4pioWSb1i1NA59xNJhiY-JGJS8ZWy-WHCWXmBMPlDH9pFmjHUV4WevKpc1qf_V-eFZad8zTOtFk4xMttbDLNqGtSzvmN8FRZDhcJNC56gclJmKPNEVg0eb8egamtzTf7c2htLBOeFasYYGhKL5vByTSoYqgBAr6XYAYUBdW34=)
+[2] [scribd.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwscvfi0UZHl_9jK4xkru8R5fjw4fLxvQ1ueNcNBUMuFW98kNDklmNJ8b6s51VUO5jNbzvQ4x5ynpLxYjI6NpaEV31BH9zga6gL_npGPtwSmN53gJ-8qGjUAIm-O5GaDJyExHXEGUf8uIkDdAbQaE7endfFYh4r36dmwi_gA==)
+[3] [usenix.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB-FFHo6T5T-HrzSwooOZiPge12cU-D8uVdADADI4ZStrjiolMhvA_8qiLTyFhzgws2m-NO8IBY8oXm81I2Em6KkSMcGjsLigAzUe67FDXT2Ed0q1VjgbgWMTv-m9kuHy7ao1Mml8kelp6JEy0_N8XA4T-KhmvUZ8WQafGziDJv62TU2jjjFhE7u53nEWg03gDcwbBoJJzJ9cARydeowgI47NZOtNigPBr1vjFyCQ=)
+[4] [researchgate.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFsG8j6zMT2FGU9VSSM6tjfz0zWTbb9I3QjaM90aB_wt-gyYDPxY2VIST2QCWip_H2d2nYFS1lB5XX9mok4lSk_llJwejsVNzwFPISkl6gaEwQ3sf5XmmacDEX0G6BXV2G0oza5hYtwOJMFsguADdDrj2IcSZAzHKHLN0YNbjltHb4Kvt1a84cUZo9CG5UyokcVssQpH_vl9HiMh1nGPOn7h_vT05F4YB3QqXBZu5x1kv27Ew2Zj65wqg_)
+[5] [wisc.edu](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9nSkgjXReHAz9MgKyJtPLJa1ERyzJxS2OHTR3XQbDYx4UD2Z0JPuszIYowKi3np7nviDNOshTg_d951fKDyIqrZZgPH2qAgNTiklMNNnESa_525QDotJJAENOXIa4fliPy0Yu-WM78hi0N77clzVk_q2cCmWYH9oQUPmyaWg=)
+[6] [semanticscholar.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_Bb9hNboojWFZHCQs_nvHvC2jFpg8XonouZ_DJVhOF-vr1fsGY7MHkNwZLCyiIZ3fwUQ5CddWWL5UcM7WA0eG2uJOCm1894ZZrfU5bmxiTNbOi0DJYtm3w-RA8p2l4iT1hY-eaLZlYqk1zI8itri1y5IkdOjsOtXmNWvyy-lBMfX_po0=)
+[7] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYVYJR-coBkADWX80GjYspS71rjtsb5PJMfOE7aJB4KiKXrYUMi37ZX7DHItMFw_bOJEE04vuR1fmR5gLd8JUetF_ZlElDtlFL0d5lXnJv1IDf8EiUsF0Yv8K4VdOSD0TAahrYYzXOz1tkyFg6a43S77YNkg4JDrMVep0ogIINMChdHIZk0MIHQqBGNV2zS6ivszOm-wiX6AAcWdoAk4MjXu8=)
+[8] [cdk5.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESRtQN6JKnHnXD6vvDLEXPhLKrjVJ6J4ODPvokIua5PIr4uxjLTsme6zxaToDplHxj-iE__MpyQnsd9IGIux_yRRv8OdoLqhrRfF9VdbWeN4DaGn6QfZptfRrh)
+[9] [pranavramjoshi.me](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsHNoGHrms2APJs9H2bxeCwQ2VMzWBJx2HDxdYyl8BZPcqa4S-73BDVkjpWr59kTONTKNCjAZulNkW9u10uhG2y1hfck7Wp0Tr27otTckdl7y5WFg6J-_PJ0yE5xht7rc8X_fEyQ96ZqXL3Q==)
+[10] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSkn61JTYUgxJITLZrNtguHiuag1g5SvHFP4ch5sURXK0OCEb-8wBLKLU4rtywXkmfY_mLLG7UGIqPo_OymuJEc_VOoTh1H94ulFfNe-5munnquihX5Fq9GV1mpVWOFQBvYdsxhdjGiD17s8TEAoXXuNzzappFWDFe5gfOZLk3ebTtVBfcPXAqDpW3PHKV-_JGHUE_bE2KTdwjba2umQ==)
+[11] [deepanseeralan.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJUbzJA0ZKNEtEHtW6PTKGwJHulF9fVz2yT_rhX_HbbzJ__cxsOuQDUrOPvl4w6FM5Jx2VcvQv1Gr465S4MHzXR7DHp26GidpJgvr21I-OEH_hZKY7PMnfQuUTqb0y3IZdFl9cE1XNMua6ui_Ia3cfAA==)
+[12] [hacktricks.wiki](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYvrBKeyV5CH39DLQa7cgM4nGEvqp-o_EVkJJPGHMFhwCMLqq3PSnqt1wsfLeBaYLKIvRj-zB4ZReY07Q__YPVw89eqJqs7Ic1bMgdS7EI7ojm4epdjaJHg-_VSNi5dUeUXvHwbumqjy7xQ1fpknu3JFdAZ7gT0qnD0_EbdYh4Pvir-MOWoSoxyQaCTH9ua8SKIUPy9E882UeEnbWfyx2VVymRv_Rj_g==)

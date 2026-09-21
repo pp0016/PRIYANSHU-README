@@ -1,0 +1,586 @@
+PREDICTED ADDITIONAL EXAM QUESTIONS — BEYOND TIER 1
+====================================================
+(Everything NOT already in Tier1_EasyWins_CheatSheet or Missing_Theory_Answers)
+
+
+=====================================================================
+HIGH PROBABILITY — TIER 2 (Asked 3-4 times in old papers)
+=====================================================================
+
+
+---------------------------------------------------------
+1. PROPERTIES OF MOULDING SAND (4-7 Marks)
+Asked: 3/9 papers
+---------------------------------------------------------
+
+Question: Explain the properties of moulding sand.
+
+Answer (Write 6-7 properties for 7M, any 4 for 4M):
+
+1. Permeability: The ability of moulding sand to allow gases and steam to pass through it during pouring. If permeability is low, gases get trapped and cause blow holes in the casting.
+
+2. Flowability (Plasticity): The ability of sand to flow around the pattern and take the exact shape of the mould cavity. Better flowability = better reproduction of fine details.
+
+3. Collapsibility: The ability of the mould to collapse (break down) easily after the casting solidifies. If sand does not collapse, the casting cannot shrink freely and internal stresses or cracks develop.
+
+4. Cohesiveness (Strength): The ability of sand grains to stick together. Without cohesiveness, the mould walls will crumble when molten metal is poured.
+
+5. Refractoriness: The ability of sand to withstand high temperatures of molten metal without fusing or melting. Silica sand has high refractoriness (~1700 deg C).
+
+6. Green Strength: The strength of the mould in its wet (green) condition before drying. Must be enough to hold its shape during handling and core setting.
+
+7. Adhesiveness: The ability of sand to stick to the walls of the moulding flask. Without this, the sand falls away from the flask during mould handling.
+
+
+---------------------------------------------------------
+2. WELDING DEFECTS — CAUSES AND REMEDIES (4-7 Marks)
+Asked: 3/9 papers
+---------------------------------------------------------
+
+Question: Explain various welding defects with their causes and remedies.
+
+Answer (Write 5-6 defects for 7M):
+
+1. POROSITY (Gas Holes)
+   Cause: Gases trapped in the weld pool due to moisture, grease, or contaminated electrode.
+   Remedy: Clean the base metal properly. Use dry electrodes. Ensure proper shielding gas flow.
+
+2. UNDERCUT
+   Cause: Excessive welding current or too high arc length. A groove forms along the weld toe.
+   Remedy: Reduce current. Use correct arc length. Use proper weaving technique.
+
+3. INCOMPLETE PENETRATION
+   Cause: Low welding current, too fast travel speed, or too large root gap.
+   Remedy: Increase current. Reduce travel speed. Use proper joint design with correct root gap.
+
+4. SLAG INCLUSION
+   Cause: Slag from the previous pass is not cleaned before the next pass is deposited.
+   Remedy: Thoroughly chip and wire-brush slag between every pass.
+
+5. SPATTER
+   Cause: Excessive current, long arc, or wrong polarity.
+   Remedy: Reduce current. Shorten arc length. Use correct polarity for the electrode type.
+
+6. CRACK (Hot or Cold)
+   Cause: Hot cracks — high sulphur/phosphorus in base metal. Cold cracks — hydrogen embrittlement, rapid cooling.
+   Remedy: Use low-hydrogen electrodes. Pre-heat the base metal. Control cooling rate.
+
+7. LACK OF FUSION
+   Cause: Low heat input, wrong electrode angle, or oxide layer on the surface preventing fusion.
+   Remedy: Increase current. Maintain proper electrode angle. Clean the joint surface.
+
+
+---------------------------------------------------------
+3. CLASSIFICATION OF WELDING PROCESSES (3-4 Marks)
+Asked: 3/9 papers
+---------------------------------------------------------
+
+Question: Classify welding processes with a neat chart.
+
+Answer (Draw this tree):
+
+WELDING PROCESSES
+|
+|--- FUSION WELDING (No pressure applied)
+|    |--- Gas Welding (Oxy-Acetylene)
+|    |--- Arc Welding
+|    |    |--- Shielded Metal Arc Welding (SMAW)
+|    |    |--- TIG (GTAW)
+|    |    |--- MIG (GMAW)
+|    |    |--- Submerged Arc Welding (SAW)
+|    |--- Thermit Welding
+|
+|--- PRESSURE WELDING (Pressure applied)
+|    |--- Resistance Welding (Spot, Seam, Projection)
+|    |--- Forge Welding
+|    |--- Friction Welding
+|    |--- Explosive Welding
+|
+|--- ALLIED PROCESSES
+     |--- Brazing
+     |--- Soldering
+
+Note: Draw this as a neat tree diagram. GTU examiners give 1-2 marks just for the diagram being clean.
+
+
+---------------------------------------------------------
+4. CORE TYPES, CORE MAKING, CORE PRINTS, CHAPLETS (4 Marks)
+Asked: 3/9 papers
+---------------------------------------------------------
+
+Question: Explain types of cores with a sketch. / What are core prints and chaplets?
+
+Answer:
+
+WHAT IS A CORE:
+A core is a pre-formed body of sand placed inside a mould cavity to create internal holes, passages, or hollow sections in the casting.
+
+TYPES OF CORES (based on position):
+1. Horizontal Core — Placed horizontally across the mould cavity.
+2. Vertical Core — Placed vertically, supported by core prints in cope and drag.
+3. Balanced Core — Supported at only one end (cantilevered). Used for blind holes.
+4. Hanging Core — Suspended from the cope (top half). Used for large cavities open at the bottom.
+5. Drop Core — Placed below the parting line, extends into the drag.
+
+CORE PRINT:
+A core print is an extra projection on the pattern that creates a seat or recess in the mould. The core sits in this recess. The core print does NOT appear in the final casting — it only holds the core in position.
+
+CHAPLET:
+A chaplet is a small metallic support placed inside the mould to hold the core in position when core prints alone are not sufficient. Chaplets are made of the same metal as the casting so they melt and fuse into the casting. They are used when the core is very heavy or long and might shift during pouring.
+
+Diagram: Draw a mould cross-section showing a core sitting on core prints, with chaplets supporting it from below.
+
+
+---------------------------------------------------------
+5. SAND CASTING STEP-BY-STEP PROCEDURE (3-4 Marks)
+Asked: 4/9 papers
+---------------------------------------------------------
+
+Question: Explain the sand casting process with steps.
+
+Answer (8 steps in order):
+
+1. PATTERN MAKING: Create a pattern (replica of the casting with allowances) from wood, metal, or plastic.
+2. MOULD PREPARATION: Place the pattern in a moulding flask. Pack moulding sand around it. Remove the pattern to create the cavity.
+3. CORE SETTING: If internal holes are needed, place the pre-made sand cores inside the cavity using core prints.
+4. MOULD CLOSING: Place the cope (top half) on the drag (bottom half). Align using pins. Clamp or weight down.
+5. POURING: Pour molten metal through the gating system (pouring basin -> sprue -> runner -> gate -> cavity).
+6. SOLIDIFICATION: Allow the metal to cool and solidify inside the mould.
+7. SHAKEOUT: Break the mould to remove the casting. Destroy the sand mould (sand casting = expendable mould).
+8. CLEANING AND FINISHING: Remove gates, risers, fins, and sand. Inspect the casting.
+
+
+=====================================================================
+MEDIUM PROBABILITY — TIER 3 & BORDERLINE
+=====================================================================
+
+
+---------------------------------------------------------
+6. CASTING DEFECTS (3-7 Marks)
+Asked: 5/9 papers (Borderline because not explicitly named in syllabus but implied)
+---------------------------------------------------------
+
+Question: Explain various casting defects with causes and remedies.
+
+Answer (Write 5-6 for 7M):
+
+1. BLOW HOLES
+   Cause: Moisture in sand, low permeability, excessive gas generation.
+   Remedy: Use dry sand. Improve venting. Increase permeability of moulding sand.
+
+2. MISRUN (Incomplete filling)
+   Cause: Pouring temperature too low, thin sections in casting, improper gating.
+   Remedy: Increase pouring temperature. Redesign gating system to ensure proper flow.
+
+3. SHRINKAGE CAVITY
+   Cause: Insufficient molten metal to feed the casting during solidification. No riser or riser is too small.
+   Remedy: Use adequately sized risers. Place risers at the last point to solidify (hot spot).
+
+4. HOT TEARS (Hot Cracks)
+   Cause: The casting cannot shrink freely because the mould or core is too rigid (poor collapsibility).
+   Remedy: Improve collapsibility of sand. Add proper fillets at corners. Avoid sharp changes in section thickness.
+
+5. COLD SHUT
+   Cause: Two streams of molten metal meet but do not fuse because they have cooled too much.
+   Remedy: Increase pouring temperature. Pour faster. Redesign gating to avoid divided flow.
+
+6. METAL PENETRATION
+   Cause: Sand grains are too coarse. Molten metal seeps between sand particles.
+   Remedy: Use finer sand. Apply mould wash/coating on the cavity surface.
+
+7. WARPAGE / DISTORTION
+   Cause: Uneven cooling of different sections of the casting.
+   Remedy: Design uniform wall thickness. Use distortion allowance in pattern.
+
+
+---------------------------------------------------------
+7. GATING SYSTEM ELEMENTS (3-4 Marks)
+Asked: 5/9 papers (Borderline)
+---------------------------------------------------------
+
+Question: Explain the elements of a gating system with a sketch.
+
+Answer:
+
+A gating system is the network of channels that delivers molten metal from the ladle to the mould cavity.
+
+ELEMENTS (in order of metal flow):
+1. POURING BASIN: A funnel-shaped cup at the top where molten metal is first poured. Reduces turbulence and prevents slag from entering.
+2. SPRUE: A vertical tapered channel that carries metal downward from the pouring basin. Tapered (narrow at bottom) to prevent air aspiration.
+3. SPRUE WELL: A small reservoir at the base of the sprue. Absorbs the kinetic energy of falling metal and reduces turbulence.
+4. RUNNER: A horizontal channel at the parting line that distributes metal from the sprue to the gates.
+5. GATE (INGATE): The final opening through which metal enters the mould cavity. Controls the flow rate and direction of metal entry.
+6. RISER: A reservoir of molten metal connected to the casting. Feeds extra metal to compensate for shrinkage during solidification. Last to solidify.
+
+Diagram: Draw a cross-section of a mould showing all 6 elements connected in sequence from top to bottom. Label each clearly.
+
+
+---------------------------------------------------------
+8. STRAIN HARDENING / WORK HARDENING (3 Marks)
+Asked: 2/9 papers
+---------------------------------------------------------
+
+Question: Explain strain hardening with its effects.
+
+Answer:
+
+DEFINITION: When a metal is plastically deformed at a temperature below its recrystallization temperature (cold working), its strength and hardness increase while its ductility decreases. This phenomenon is called strain hardening or work hardening.
+
+MECHANISM: During cold working, dislocations (defects in crystal structure) multiply rapidly. These dislocations pile up and block each other's movement, making further deformation harder. More deformation = more dislocations = harder metal.
+
+EFFECTS ON PROPERTIES:
+- Tensile strength: INCREASES
+- Hardness: INCREASES
+- Yield strength: INCREASES
+- Ductility: DECREASES
+- Elongation: DECREASES
+
+HOW TO REVERSE IT: By annealing (heating above recrystallization temperature), new strain-free grains form, and the metal becomes soft and ductile again.
+
+
+---------------------------------------------------------
+9. ROLLING MILL TYPES / ARRANGEMENTS (3-4 Marks)
+Asked: 6/9 papers (but only "list and sketch" format)
+---------------------------------------------------------
+
+Question: Discuss various types of rolling mill arrangements.
+
+Answer (Draw neat sketch for each):
+
+1. TWO-HIGH MILL (Non-Reversing)
+   Two rolls rotating in one fixed direction. Workpiece passes in one direction only. Must be returned to the entry side for next pass. Slow.
+
+2. TWO-HIGH REVERSING MILL
+   Same as above but roll direction can be reversed. Work passes back and forth. Eliminates return time. Used for blooming/slabbing.
+
+3. THREE-HIGH MILL
+   Three rolls stacked vertically. Metal passes forward between bottom and middle rolls, then backward between middle and top rolls. No reversing needed. Faster than two-high.
+
+4. FOUR-HIGH MILL
+   Two small-diameter work rolls (in contact with metal) backed by two large-diameter backup rolls. Small work rolls reduce the required rolling force. Used for rolling thin sheets and strips.
+
+5. CLUSTER / SENDZIMIR MILL
+   Each small work roll is backed by TWO or more backup rolls. Used for very thin foil rolling (aluminum foil, etc.). Very high rigidity.
+
+6. TANDEM / CONTINUOUS MILL
+   Multiple two-high or four-high stands arranged in a line. The workpiece passes through all stands in one continuous pass. Each stand reduces thickness progressively. Used for high-volume production (steel strips).
+
+
+---------------------------------------------------------
+10. INGOT, BLOOM, BILLET, SLAB DEFINITIONS (3 Marks)
+Asked: 4/9 papers (Borderline)
+---------------------------------------------------------
+
+Question: Define ingot, bloom, billet, and slab.
+
+Answer:
+
+INGOT: The first solid form of metal cast from molten metal in a mould. It is a large, heavy block and is the starting material for ALL rolling operations.
+
+BLOOM: When an ingot is rolled, the first product is a bloom. Cross-section is SQUARE, typically larger than 150mm x 150mm.
+
+BILLET: A bloom is further rolled to produce a billet. Cross-section is also SQUARE but smaller than 150mm x 150mm. Billets are used to make rods, bars, and wire.
+
+SLAB: When an ingot is rolled into a RECTANGULAR cross-section (width much greater than thickness), it is called a slab. Slabs are used to make plates, sheets, and strips.
+
+THE CHAIN: Ingot -> Bloom (square, large) -> Billet (square, small) -> Rods/Bars/Wire
+            Ingot -> Slab (rectangular) -> Plates/Sheets/Strips
+
+
+=====================================================================
+LOW PROBABILITY — ZERO PYQ BUT IN YOUR SYLLABUS (Prof could surprise you)
+=====================================================================
+
+
+---------------------------------------------------------
+11. CO2 MOULDING PROCESS (3-4 Marks)
+Never asked in old papers but explicitly in new syllabus
+---------------------------------------------------------
+
+Question: Explain the CO2 moulding process.
+
+Answer:
+
+PRINCIPLE: Sodium silicate (water glass) is mixed with sand as a binder. When CO2 gas is passed through this sand mixture, it reacts chemically to form silica gel, which instantly hardens the mould.
+
+CHEMICAL REACTION: Na2SiO3 + CO2 -> Na2CO3 + SiO2 (gel)
+
+PROCESS:
+1. Mix silica sand with 3-5% sodium silicate (liquid binder).
+2. Pack the sand mixture around the pattern in the flask.
+3. Pass CO2 gas through the sand using a CO2 gun/nozzle for 30-60 seconds.
+4. The sand hardens almost instantly (no baking needed).
+5. Remove the pattern. The mould is ready.
+
+ADVANTAGES: Very fast hardening (seconds vs hours for baking). Good dimensional accuracy. No need for oven drying.
+DISADVANTAGES: Poor collapsibility (hard to break the mould after casting). Difficult to reclaim the sand.
+
+
+---------------------------------------------------------
+12. SHELL MOULD CASTING (7 Marks)
+Asked: 2/9 papers
+---------------------------------------------------------
+
+Question: Explain the shell mould casting process with a neat sketch.
+
+Answer:
+
+PRINCIPLE: A thin, hard shell of sand (6-10mm thick) bonded with thermosetting resin is used as the mould instead of a full sand mould.
+
+PROCESS:
+1. A metal pattern (usually cast iron or steel) is heated to 200-300 deg C.
+2. The heated pattern is clamped to a dump box containing sand mixed with thermosetting resin (phenol-formaldehyde).
+3. The dump box is inverted. Sand falls onto the hot pattern. The resin melts and bonds the sand grains nearest to the pattern surface, forming a thin shell (6-10mm).
+4. After 30-60 seconds, the dump box is turned upright. Unbonded sand falls away.
+5. The shell (still on the pattern) is placed in an oven at 300-350 deg C for 1-2 minutes to fully cure (harden) the resin.
+6. The hardened shell is stripped from the pattern using ejector pins.
+7. Two shell halves (cope and drag) are clamped or glued together.
+8. The shell mould is placed in a flask supported by metal shot or sand, and molten metal is poured.
+
+DIAGRAM: Draw 4 stages: (1) Pattern on dump box, (2) Box inverted, shell forming, (3) Box upright, loose sand falling, (4) Cured shell removed.
+
+ADVANTAGES: Excellent surface finish. Good dimensional accuracy. Thin walls possible. Less sand used.
+DISADVANTAGES: Limited to small-medium castings. Resin-bonded sand is expensive. Not suitable for very large castings.
+
+
+---------------------------------------------------------
+13. PERMANENT MOULD CASTING (3-4 Marks)
+In syllabus, asked occasionally
+---------------------------------------------------------
+
+Question: Explain permanent mould casting.
+
+Answer:
+
+PRINCIPLE: Instead of a sand mould (which is destroyed), a reusable metal mould (usually cast iron or steel) is used. The mould is called a "die" and can produce hundreds to thousands of castings.
+
+PROCESS:
+1. Preheat the metal mould to 150-200 deg C.
+2. Apply a refractory coating (mould wash) on the cavity surface to prevent sticking and control cooling rate.
+3. Close the two halves of the mould. Set cores if needed (metal or sand cores).
+4. Pour molten metal by gravity (no external pressure).
+5. Allow solidification. Open the mould and eject the casting.
+6. Clean and reuse the mould.
+
+ADVANTAGES: Reusable mould (low cost per piece for high volumes). Good surface finish. Uniform grain structure. Fast production.
+DISADVANTAGES: High initial mould cost. Only for low melting point metals (aluminium, zinc, magnesium — NOT for steel). Limited to simple shapes (undercuts are difficult).
+
+
+---------------------------------------------------------
+14. SLUSH CASTING (3 Marks)
+Never asked but in syllabus
+---------------------------------------------------------
+
+Question: Explain slush casting.
+
+Answer:
+
+Slush casting is a variation of permanent mould casting used to produce HOLLOW castings without using a core.
+
+PROCESS:
+1. Pour molten metal into a preheated permanent mould.
+2. Allow a thin layer of metal to solidify against the mould walls.
+3. Before the entire metal solidifies, INVERT the mould and pour out the remaining liquid metal.
+4. The result is a hollow casting with a thin wall.
+
+APPLICATIONS: Decorative items, lamp bases, statues, toys, ornamental objects.
+LIMITATION: Wall thickness is not uniform and cannot be precisely controlled.
+
+
+---------------------------------------------------------
+15. VACUUM CASTING (3 Marks)
+Never asked but in syllabus
+---------------------------------------------------------
+
+Question: Explain vacuum casting.
+
+Answer:
+
+PRINCIPLE: Molten metal is drawn into the mould cavity using vacuum (suction) instead of gravity.
+
+PROCESS:
+1. A thin-walled ceramic shell mould is prepared (similar to investment casting).
+2. The bottom of the mould is dipped into a crucible of molten metal.
+3. A vacuum pump creates negative pressure (suction) inside the mould.
+4. Atmospheric pressure pushes the molten metal upward into the mould cavity.
+5. After solidification, the vacuum is released and the mould is removed.
+
+ADVANTAGES: Produces castings with very low porosity (no trapped gas). Excellent for reactive metals (titanium, superalloys). Clean, oxide-free castings.
+APPLICATIONS: Aerospace components, gas turbine parts, medical implants.
+
+
+---------------------------------------------------------
+16. PLASTER AND CERAMIC MOULD CASTING (3-4 Marks)
+Never asked but in syllabus
+---------------------------------------------------------
+
+Question: Explain plaster mould casting and ceramic mould casting.
+
+PLASTER MOULD CASTING:
+- Mould is made from Plaster of Paris (gypsum/calcium sulphate) mixed with water.
+- The plaster slurry is poured over the pattern and allowed to set (harden).
+- Pattern is removed. Mould is baked to remove moisture.
+- Molten metal is poured into the plaster mould.
+- Advantages: Very smooth surface finish. High dimensional accuracy.
+- Limitation: ONLY for low melting point metals (aluminium, zinc, magnesium, copper alloys). Plaster cannot withstand the temperature of steel or iron.
+- Maximum temperature plaster can handle: ~1200 deg C.
+
+CERAMIC MOULD CASTING:
+- Similar to plaster mould but uses a ceramic slurry (zircon, alumina, fused silica) instead of plaster.
+- Advantage over plaster: CAN handle high melting point metals (steel, iron, titanium).
+- Used for precision parts in aerospace and defence.
+
+
+---------------------------------------------------------
+17. SAND TESTING METHODS (3-4 Marks)
+Never asked but explicitly in new syllabus
+---------------------------------------------------------
+
+Question: Explain sand testing methods.
+
+Answer:
+
+1. GRAIN FINENESS NUMBER (GFN) TEST:
+   A weighed sample of dry sand is placed on a stack of standard sieves (arranged coarsest on top to finest at bottom). The stack is shaken for 15 minutes. The sand retained on each sieve is weighed. GFN is calculated using a formula. Higher GFN = finer sand.
+
+2. MOISTURE CONTENT TEST:
+   A known weight of sand is heated in an oven at 110 deg C until all moisture evaporates. The weight loss gives the moisture percentage. Ideal moisture: 2-8%.
+
+3. CLAY CONTENT TEST (Clay Washer):
+   Sand is washed repeatedly with water and a dispersing agent (NaOH) in a clay washer. Clay particles are washed away. The remaining sand is dried and weighed. Weight loss = clay content. Ideal clay: 5-20%.
+
+4. PERMEABILITY TEST:
+   A standard cylindrical sand specimen (50mm dia x 50mm height) is prepared. 2000 cc of air is passed through it at a pressure of 10 g/sq.cm. The time taken for air to pass through is measured. Permeability Number = (V x H) / (P x A x T) where V=volume, H=height, P=pressure, A=area, T=time.
+
+
+---------------------------------------------------------
+18. WELDING POSITIONS (3 Marks)
+In syllabus, rarely asked directly
+---------------------------------------------------------
+
+Question: Explain various welding positions.
+
+Answer:
+
+1. FLAT POSITION (1G/1F): Weld is on the top of the joint. Gravity helps the molten metal stay in place. Easiest position. Highest deposition rate.
+
+2. HORIZONTAL POSITION (2G/2F): Weld axis is horizontal but the weld face is on a vertical surface. Molten metal tends to sag downward. Requires more skill than flat.
+
+3. VERTICAL POSITION (3G/3F): Weld axis is vertical. Metal tends to flow down due to gravity. Can weld uphill (bottom to top) or downhill (top to bottom). Uphill is stronger.
+
+4. OVERHEAD POSITION (4G/4F): Weld is on the underside of the joint. Most difficult position. Metal tends to drip down. Requires highest skill, lowest current, and shortest arc length. Slag helps hold the metal in place.
+
+Note: G = Groove weld, F = Fillet weld. The number indicates the position.
+
+
+---------------------------------------------------------
+19. GAS CUTTING PROCESS (3 Marks)
+In syllabus, rarely asked as standalone
+---------------------------------------------------------
+
+Question: Explain the gas cutting process.
+
+Answer:
+
+PRINCIPLE: Metal is heated to its ignition temperature using an oxy-acetylene flame, then a jet of pure oxygen is directed at the heated spot. The oxygen reacts with the hot metal (rapid oxidation), and the metal oxide (which has a lower melting point) is blown away by the force of the oxygen jet, creating a cut.
+
+PROCESS:
+1. The preheating flame (oxy-acetylene) heats the metal surface to about 870 deg C (cherry red for steel).
+2. A high-pressure jet of pure oxygen (99.5% purity) is released through the central hole of the cutting torch.
+3. The oxygen reacts with the hot iron: 3Fe + 2O2 -> Fe3O4 + Heat (exothermic reaction).
+4. The iron oxide (slag) melts and is blown away by the oxygen jet.
+5. The torch is moved along the desired cutting line.
+
+CONDITION: Gas cutting works ONLY on metals whose oxide melting point is LOWER than the metal's melting point. Works for: Carbon steel, low-alloy steel. Does NOT work for: Stainless steel, aluminium, copper (their oxides have higher melting points or form protective layers).
+
+
+---------------------------------------------------------
+20. MIG WELDING — FULL PROCESS (7 Marks)
+In syllabus, asked 2/9 papers
+---------------------------------------------------------
+
+Question: Explain MIG welding process with a neat sketch.
+
+Answer:
+
+FULL NAME: Metal Inert Gas welding (also called GMAW — Gas Metal Arc Welding).
+
+PRINCIPLE: An arc is struck between a continuously fed consumable wire electrode and the workpiece. The arc and weld pool are shielded by an inert gas (Argon or Helium) or active gas (CO2) flowing through the torch nozzle.
+
+EQUIPMENT:
+1. Welding gun/torch with nozzle
+2. Wire feed unit (automatic continuous feed)
+3. Power source (DC, usually DCRP)
+4. Shielding gas cylinder (Argon, Helium, or CO2)
+5. Control unit
+
+PROCESS:
+1. The consumable wire electrode is fed continuously from a spool through the welding gun.
+2. DC power (usually DCRP) is applied. An arc forms between the wire tip and workpiece.
+3. The wire melts and deposits as filler metal into the joint.
+4. Shielding gas flows through the nozzle, surrounding the arc and weld pool.
+5. The welder moves the gun along the joint.
+
+DIAGRAM: Draw a cross-section of the MIG torch showing: wire electrode coming from spool through the center, shielding gas flowing around it through the nozzle, arc at the tip, and weld pool on the workpiece.
+
+ADVANTAGES: High welding speed. Continuous wire = no stopping to change electrodes. Can weld in all positions. Clean (no slag to remove). Good for thin and thick plates.
+DISADVANTAGES: Equipment is expensive. Not suitable for outdoor use (wind blows away shielding gas). Requires clean base metal surface.
+
+
+---------------------------------------------------------
+21. TIG WELDING — FULL PROCESS (7 Marks)
+In syllabus, asked 1/9 papers
+---------------------------------------------------------
+
+Question: Explain TIG welding process with a neat sketch.
+
+Answer:
+
+FULL NAME: Tungsten Inert Gas welding (also called GTAW — Gas Tungsten Arc Welding).
+
+PRINCIPLE: An arc is struck between a NON-consumable tungsten electrode and the workpiece. The tungsten does NOT melt. Filler metal (if needed) is fed separately by hand. The arc and weld pool are shielded by inert gas (Argon or Helium).
+
+EQUIPMENT:
+1. TIG torch with ceramic nozzle
+2. Non-consumable tungsten electrode (melting point ~3400 deg C)
+3. Filler rod (fed manually by the welder's other hand)
+4. Power source (AC or DC depending on metal)
+5. Shielding gas cylinder (Argon or Helium)
+6. Foot pedal for current control
+
+PROCESS:
+1. The tungsten electrode is fitted in the TIG torch.
+2. Shielding gas starts flowing.
+3. Arc is struck (using high-frequency start or scratch start).
+4. The arc melts the base metal.
+5. The welder manually feeds the filler rod into the weld pool with one hand while holding the torch with the other.
+6. The torch is moved along the joint.
+
+WHICH CURRENT TO USE:
+- DCSP (Straight Polarity): For steel, copper, nickel. Deep penetration.
+- AC: For aluminium and magnesium. The reverse polarity half-cycle breaks the oxide layer (cleaning action).
+
+DIAGRAM: Draw a cross-section showing: tungsten electrode (non-melting) at center, ceramic nozzle around it, shielding gas flowing out, arc, weld pool, and separate filler rod being fed by hand from the side.
+
+ADVANTAGES: Highest quality welds (no spatter, no slag). Excellent for thin materials. Works on almost all metals. Very precise control.
+DISADVANTAGES: Slowest welding process. Requires high skill (two-handed operation). Expensive. Not economic for thick plates.
+
+
+---------------------------------------------------------
+22. MATERIALS USED FOR PATTERNS (3 Marks)
+In syllabus, occasionally asked
+---------------------------------------------------------
+
+Question: List and explain materials used for making patterns.
+
+Answer:
+
+1. WOOD (Most common): Teak, pine, mahogany. Easy to work with, cheap, lightweight. But absorbs moisture, warps, and wears out quickly. Used for low-volume production.
+
+2. METAL: Aluminium, cast iron, brass. Durable, does not absorb moisture, gives accurate dimensions. But expensive and heavy. Used for high-volume production.
+
+3. PLASTIC: Epoxy resin, polyester. Lightweight, does not absorb moisture, good surface finish. Moderate cost. Used for medium-volume production.
+
+4. WAX: Used specifically for investment (lost-wax) casting. Low melting point. Burns out cleanly leaving no residue.
+
+5. POLYSTYRENE (Expanded): Used for full mould (evaporative pattern) casting. The pattern vaporizes when molten metal contacts it.

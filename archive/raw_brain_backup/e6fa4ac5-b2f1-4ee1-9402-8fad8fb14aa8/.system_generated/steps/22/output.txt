@@ -1,0 +1,14 @@
+The search for "site:maplestore.in "new" macbook pro" returned the following summary:
+The Maple Store website primarily lists pre-owned Apple devices[1][2][3], including various models of the **MacBook Pro**[4][3].
+
+While the site features sections for "New" arrivals or collections[5], its inventory for MacBook Pro models is typically categorized under pre-owned, verified devices[1][2][3]. You can browse their current stock of MacBook Pro models directly on their website to check for specific configurations or availability[4].
+
+If you are looking for a brand-new MacBook with a full factory warranty, the Maple Store also offers information and comparisons between various models, including newer devices like the "MacBook Neo"[6][3], and discusses the differences between purchasing new versus pre-owned units[2][6].
+
+Sources:
+[1] [maplestore.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjG6TLU6JLLnVyqF-66H8TH5gaKekU3M1r-OpreFAu7nkA7i7swuM45VnizRdqt_glujGDwRm7haNZ4EacbjBgJnKxZar3bB_Kj9uLq4AyKu7ee6fGNG6wYQwQZJ7o1ECGqfKP3JirBDh4E6uiv70aVa4U_uuxSaSISowEJ4lm8AIWhFov4HaYgTEaf96m1IeVHzL5n7rbSTU=)
+[2] [maplestore.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEG6-7faJZrG7owHLVw-rg26_9PLP3Wd178D4H0FnegDFvZ40BApYRXy8cNV2If5FWZ_Mslfmhj20uGJjicM5RGrZK-lhQVj5AsikaytJSBVbIj2pi3au11tro02ZOTF9EQFHpn_XU3Znrb23DjPFoO6PwMfR3z9FHFS3ypmtkY6cMAz4vpslBhMdRMCM58hQ==)
+[3] [maplestore.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFdpmVtCRJROzNG3YFfRQ2DXRVaNC28zlZUsIVqhaVEgCqzIAO63vzJHyT9dDWP8yIjd6oiUIkJ0sZQYlvM7FqSeKPRPRCv-9c8E-ifMtVdVm-0CBstVcY1DCT1CnHWcJk0WBlEgg4kRmLA4WlrzlWO3msSVeKa2t3A_tFpaRZEiEXHGbppoVb)
+[4] [maplestore.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWhAEVINJVP9w7L-xm-3PgHice0D3S-lcAqE4RohV6BV1cPOat3lC2N4hFbXWMINizZtRK1qBP2v_gea4JHWtpGPY0hQWFGLjjr-VKyPFOvjIsVl1uLAVIP9XNc-Nh81UGp86j_mQ=)
+[5] [maplestore.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMzNMCnrH7PLJ-AagoBy0si-6GoZfOqn4XbyVPjM3jFTwK4VlosOHZcTCFmug4jHSRQX1hDo2k-L9qRCESAtLwvESm8NoxR8dxyPqw1Xg0kqahPkSOXBDf9wdtg_dwzycMQLB9W5hoZGVdUwrBEgk=)
+[6] [maplestore.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFh8OeOpuIWG0PORWEORd28Ttpk_SxW5OJEfdFb4MXtfFV9XOjt3SHKR3_hiZNbc2igccHEjfDxhIf1Yq6UbRNX8vYUsfrsEqZMvn_dQemQmFqAIiNlDaZs_kTnla5iMg3Na3rqi8hKSTtMPTkqU7qs_kh-Ze1ia0XNY0f4FA==)

@@ -1,0 +1,22 @@
+The search for ""1.5 TB of VRAM on Mac Studio" "jeff geerling"" returned the following summary:
+Jeff Geerling's content regarding "1.5 TB of VRAM" on the Mac Studio refers to an experimental AI cluster setup rather than the specifications of a single machine[1][2].
+
+### Summary of the Project
+*   **The Concept:** In December 2025, Jeff Geerling published a video and blog post titled *"1.5 TB of VRAM on Mac Studio - RDMA over Thunderbolt 5,"* where he demonstrated a cluster of four Mac Studio units[1][3].
+*   **How it Works:** By using **RDMA (Remote Direct Memory Access) over Thunderbolt 5**, the cluster allowed the four connected Mac Studios to share their unified memory, effectively creating a single, massive pool of 1.5 TB of memory for running large-scale AI models[1][2].
+*   **The Hardware:** The cluster consisted of:
+    *   Two high-end Mac Studios (each with 512 GB of unified memory)[1][2].
+    *   Two Mac Studios (each with 256 GB of unified memory)[2].
+    *   The total cost of this four-node setup was just under $40,000[1][2].
+*   **The Software:** The setup utilized **Exo 1.0**, an open-source AI clustering tool, and macOS 26.2, which introduced support for RDMA over Thunderbolt to reduce memory access latency[1][2].
+
+### Important Context
+*   **Unified Memory vs. VRAM:** Because Apple Silicon uses "Unified Memory," the CPU and GPU share the same memory pool. When Geerling refers to "1.5 TB of VRAM," he is highlighting that the entire 1.5 TB of unified memory across the cluster becomes accessible for AI model weights, which is a major advantage for running large models locally[1][4].
+*   **Future Rumors:** As of late 2026, there have been separate industry rumors concerning a future Apple "M7 Ultra" chip that might support up to 1.5 TB of unified memory in a **single** workstation, though this is distinct from the multi-device clustering project Geerling tested[4][5].
+
+Sources:
+[1] [jeffgeerling.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbZVwlnhJ6cFRB8P3UWqfjnR3So1aOrnMT6yw0yrojoZNm1Lonin6sKBmW_yJwMnesPb-9a86awj_2zb6t9VvwaPdNFzZVE9KlBBvbFrfwk0lL0DSczNHMsjkHntljo7IjfOMoHqwVWJqmBzkUsz3ss7rjJ4FsEEUuDN83j4NrMdrz5X-dXU4wT4ns8rol)
+[2] [gigazine.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5mEFhyWjmk9HkC6C1iajLcwfbk3OTY3IUwEwk5-q4FwESQghxHEp5vjvtt2WSmnrJEaaPHCzoeH3UI8k_LjMxRikSmhB92NIH6gONKqmEznIOX2_57iNhIJNkIcUocMJf05xBTatBq2dSfH5c3sTzKOSajCCrZRksgGCSia0h5Q==)
+[3] [daily.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeqxeVsMVcGbDjw9_GA9qYVcv90qvA00JNiYwR28X0sOU9aYIJYgJ7ebBBLBn1A6VaccqoIIf_Fz-s6Eo3xZqknS51WX8Tk099IeJ8q8Ga6-rb6ZOhHx6wfXcE47gMbuZVgdCODknu0OduJykyy8rj2AANjsFzJ5tDGVGOHs5JveEP4Fv5c9p0DJYNp6S7)
+[4] [daily.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQGMHM9_Dcot3Wm3R8UCAZrR6S3ab5UcWMdZgmvVApkCh7-SpFejc__4YeQMAO5gJCSlylzbqwfWOrchbKRnY6VoZVTy0pH-M8e1mCGxajHXJItBdzP8EmYYpkkKQ_VVFYi8h9B0KdsJFT3PrNi5N66Hx1LYdFMpsSDUs9oSmLd8ugpbP7kq2PbVNHQ2xAobqaaztfg5j7flE2TWc61Q9bh2tRSP9Y)
+[5] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwyth2AyhKlLYG1iewP1HDvBKKXSRrCuiyB2ye7Z4O_fmPGvjY3ORvNSJJIrosyGwLpw-DhUT1MNb4SlpfI4ONqK3lzr6aSDTRPAq-JH-RdpeoWRNvnwcB-2m_yslQgw==)

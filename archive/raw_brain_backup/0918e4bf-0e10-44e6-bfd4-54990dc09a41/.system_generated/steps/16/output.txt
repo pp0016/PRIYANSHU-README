@@ -1,0 +1,1 @@
+{"type":"limited","totalCredits":410,"renewableCredits":150,"maxRenewableCredits":150,"renewableResetsAt":"2026-10-09T18:25:04.898630Z","addOnCredits":260,"maxAddOnCredits":260,"_credits":{"used":0}}

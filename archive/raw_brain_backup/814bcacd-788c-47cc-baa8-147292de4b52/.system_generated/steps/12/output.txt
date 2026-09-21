@@ -1,0 +1,35 @@
+The search for "DeepSeek V3 V4 MoE architecture active parameters VRAM local inference efficiency 2025 2026" returned the following summary:
+As of September 2026, the DeepSeek V4 series is the current generation, having superseded DeepSeek V3. Below is the technical breakdown of their architectures, parameters, and VRAM efficiency considerations for local inference.
+
+### **DeepSeek Architecture Comparison**
+
+| Metric | DeepSeek-V3 | DeepSeek-V4-Flash | DeepSeek-V4-Pro |
+| :--- | :--- | :--- | :--- |
+| **Total Parameters** | 671B | 284B | 1.6T |
+| **Active Parameters** | 37B | 13B | 49B |
+| **Context Window** | 128K | 1M | 1M |
+| **Key Architecture** | MoE, MLA | Hybrid (CSA+HCA), MoE | Hybrid (CSA+HCA), MoE |
+
+### **1. Architecture & Active Parameters**
+*   **DeepSeek-V3:** Utilizes the **DeepSeekMoE** architecture and **Multi-head Latent Attention (MLA)** to maintain high performance with a 671B total / 37B active parameter split. It is designed for efficient training and inference via auxiliary-loss-free load balancing.
+*   **DeepSeek-V4 Series:** Represents a significant leap in long-context efficiency. Both V4-Flash and V4-Pro employ a **hybrid attention system** combining **Compressed Sparse Attention (CSA)** and **Heavily Compressed Attention (HCA)**. 
+    *   **mHC (Manifold-Constrained Hyper-Connections):** A key innovation in V4 that allows for more efficient long-range dependencies and improved memory handling across million-token sequences.
+    *   **Scaling:** V4-Pro scales to 1.6T total parameters (49B active), while the "Flash" variant is optimized for practicality, balancing a 284B total / 13B active footprint.
+
+### **2. VRAM Requirements & Local Inference**
+Local inference for these models depends heavily on whether you are running the **Flash** or **Pro** variant and your quantization strategy.
+
+*   **DeepSeek-V4-Flash (The "Self-Hostable" Choice):**
+    *   **VRAM Target:** Realistically requires **~170–175 GB VRAM** for native FP4/FP8 precision (e.g., 2× H200s or 4× A100 80GB GPUs).
+    *   **Quantized:** Community INT4 versions can run on **~90–100 GB VRAM** (e.g., 4× RTX 4090s).
+    *   **Note:** Always account for the **KV Cache**, which can dominate memory at the full 1M-token context length.
+*   **DeepSeek-V4-Pro (Datacenter/Workstation Class):**
+    *   **VRAM Target:** Generally requires **1 TB+ of VRAM**. It is not intended for single-workstation deployment and typically requires multi-node or enterprise-grade server clusters.
+    *   **Quantization:** Even with aggressive quantization (2-3 bit), you are looking at 250–450 GB+ of VRAM requirement.
+
+### **3. Inference Efficiency Tips**
+*   **Speculative Decoding:** DeepSeek-V4 models often ship with **DSpark** (speculative decoding module) integrated into the checkpoint, which significantly improves token generation speed by using smaller drafts to predict future tokens.
+*   **Hybrid Attention:** The CSA/HCA mechanism is specifically designed to reduce KV cache size (by up to 90% compared to previous architectures) and FLOPs, making million-token contexts feasible where they were previously prohibitive.
+*   **Deployment Frameworks:** Tools like **SGLang** and optimized `vllm` configurations are recommended for managing the specific expert-parallelism and tensor-parallelism requirements needed to run these MoE models efficiently. 
+
+*Disclaimer: As of September 2026, the ecosystem is rapidly evolving; always check the latest Hugging Face model card or GitHub documentation for specific quantization requirements, as these change frequently with new community-led optimizations.*

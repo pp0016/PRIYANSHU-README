@@ -1,0 +1,33 @@
+The search for "Llama 4 Scout Maverick VRAM requirements local inference quantized GGUF 2025" returned the following summary:
+Running **Llama 4 Scout** and **Llama 4 Maverick** locally requires accounting for their Mixture-of-Experts (MoE) architecture, where the total parameter count is high, but the active parameters per token remain 17B[1][2][3]. Because every expert’s weights must reside in VRAM to be available, memory requirements are determined by the total parameter size rather than the active parameter count[1].
+
+### VRAM Requirements Summary
+Quantized GGUF versions significantly reduce these requirements compared to full-precision weights[4]. Below are the approximate VRAM needs for common quantization levels.
+
+| Model | Total Params | 1.78-bit (IQ1_S/M) | ~2.4-bit (IQ2_XXS) | ~4-bit (Q4_K_XL) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Llama 4 Scout** | 109B[4][5] | ~34 GB[4][2] | ~39 GB[4] | ~66 GB[4] |
+| **Llama 4 Maverick** | 400B[4][5] | ~122 GB[4][2] | ~140 GB[4] | ~200 GB+[2] |
+
+*Note: These estimates are for model weights; additional VRAM is required for the KV cache, which scales with your context length[1].*
+
+---
+
+### Key Considerations for Local Inference
+
+*   **Scout (109B):** Can be run on high-end consumer hardware with quantization[4][6]. The 1.78-bit GGUF versions can fit into ~34 GB of VRAM, making them potentially runnable on dual 24GB GPU setups (like 2x RTX 4090s)[4]. 
+*   **Maverick (400B):** Requires significantly more substantial hardware[7]. To run quantized Maverick (e.g., 1.78-bit or 2-bit), you generally need a multi-GPU setup with at least **128GB+ of combined VRAM/RAM**[4][8]. 2x 48GB GPUs (or 4x 32GB/40GB cards) are commonly suggested for efficient local execution[4][8].
+*   **Dynamic GGUFs:** Unsloth provides "dynamic" GGUF files that selectively quantize layers (e.g., keeping attention layers at 4-bit or 6-bit while using lower bits for MoE layers)[4]. This approach is highly recommended to maintain better performance and accuracy than standard uniform quantization[4][8].
+*   **Context Window:** While Scout supports a 10M token context window, running at this length locally is extremely memory-intensive[1][9]. The KV cache size will increase drastically with context; if you encounter "Out of Memory" errors, reducing the effective context length is the first step[1].
+*   **Hardware Choice:** Apple Unified Memory (Mac Studio/Pro) is often a viable alternative for these models due to the large memory capacity available compared to traditional multi-GPU PCIe configurations[8].
+
+Sources:
+[1] [spheron.network](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNewzbtNTNP20P1KJlEMknFWLADVBmzT_3CV5e9ZCQ0Ne7UqJ8A-uXhhjvPP39HNppU0Vuann4GzdfeaAytiyIzzaF09ti9sc71u3f-D93iz2MTr_uaZHt9S0dJk2x44-kWM3IV7erXu2JvsFqUE8jOnWU)
+[2] [spheron.network](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl91aPv9AVWhtwFayvtFDFQpliDjZcHZMS3T2ogxMrV44AY6PbkAEati55kr4Zuyi1DW0RQ1RQnsR9zGe-sDAaWouCxegkK8yviupRxpJ2rqNuP6rxhoQFppFHpzYaiCZyEO1SeN6B2mY10JjPSj2y)
+[3] [huggingface.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGogT8Y7i7cR2WjKq7UKPs8uhnqgiYPqtlvtcE4ClAKJ5MpUyPAR-Kb54_ZSKTVVVlXDbv0yVkwsSAshJC_8QWS4Rc5uwMqXwOyx0WdQCfJUtHuINpDCXGwf6q0Xo7GIhuQPyislvxrUC_nv49mzCqtvRs=)
+[4] [unsloth.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERCXkOdis2coQ6cmG-IDusWVWFL8wtXPG2KRi48BvvLiwvl_8kvQLkWl-zjNA-Lw633qFdzqHchg7-vmjdeI14IaDL72KI268vHH20l31wN--LBpaiGrTn1zLL8162x6mUZuKIuzxpHuLMU_LzPLSezoI5eSOzH8XVbAyVejnG)
+[5] [medium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdHEkd3NVyaDE0sXadb2N96Dh96--cjXFLhwCEIhzwSOwoOcMpg2GA-UlCu14U-tYBUn_KZ_kbXIif4a6VtFl5GPY3iDzdfXkP8Al_VEJhIlTYQ9BWqpru-TAc4K614yO2wEWTjuA5dx37HofOG-sFQKpNSlrpJYIPD60Emmk1a4xzVtZC3aGS2dvi3S3NEE8U9vYgVo6I6c4NBZZvoSQRqQzKWFWm54kYKA==)
+[6] [substack.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5-bob9UYI-Zkxu0_yW74P6LWseLU9jvD8K6NMPfkEBd1DrQBg2xRQF6S4UIhwpZbQHdRX3j-KARKX24PalhQE1igaRGQ3oFypjCvtQDAEt7CsvCf8TUPb0nHwUuQdPmaovho2YnwmnqfHTPVZsQSFmoFpdM6OUk92)
+[7] [explainx.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEciawhfUg5BKywzLTNYqfQby_JEtIgTDs5R1Cb77vWiXWTRPmg-h2xJDCnAB_l6QlhS5bvXzOMEYbLmRfjn23I158aYovfE-RuiLK-G69-8Hozcfp3qP9lotp3s-fG7xXKle02j38cu8DDI6OTV8m1_nbL59WsPvaF)
+[8] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFzfuJAAFAxtT1ohOBR8IaWePKl1OfnfRg7j-Ga_8pklre-D6aOdp9zQXpyEVf5MqxQTZ1jIwQJ1YxEFQvGw8asfOAyMJAFx2uYemUb0SfaVlhBLUGlfWp-BAZegLIOpBGL5939bBfDthC4KS9XrV-0On5zyh9FLI7S5HlftvfeYTCz2GsFoEWimHBQkL-6rkc-zF-CKPr9A==)
+[9] [codersera.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT8Vy2gQS53QZxSny3EPeb3TC_UrK6qfF1gGVynGfRwYl4kF2aQ0ogHtfVdih29G8rR2DFg6VaTai7Fs5C_plhXYVmnnOQK8e75OIXfNQVlNH2ZzmI2YB7WUki2YPLQ2G7Xwsi0h3ZoSnhsxgopHj6czkhxJgkSvmrrsxn88fO4xTF4Kl0hkZW4Y9OzgnIAQ==)

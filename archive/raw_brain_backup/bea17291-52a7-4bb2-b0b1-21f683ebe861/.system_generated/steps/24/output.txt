@@ -1,0 +1,17 @@
+The search for "macOS network swap remote memory NFS swap partition another Mac" returned the following summary:
+It is **not possible** to use a remote network share (via NFS or any other protocol) as a swap partition on macOS.
+
+### Why This Is Not Possible
+*   **System Architecture:** macOS swap is managed by the kernel's virtual memory system, which requires high-speed, low-latency, and persistent block-level access to a physical disk. Network file systems like NFS are designed for file-level sharing and introduce significant latency and potential connection instability. If the network were to drop, or if latency were to spike, the operating system would crash or become unresponsive because it would be unable to read/write its memory pages.
+*   **Performance:** Even on a very fast local network (e.g., 10Gbps Ethernet), the performance of a network-mounted drive is significantly lower than that of an internal NVMe SSD. Using it as swap would result in extremely poor system performance, stuttering, and beachballing whenever the system attempted to access memory stored on that "remote swap."
+*   **No Native Support:** macOS does not provide a mechanism to designate a network volume as a swap device. Swap files are managed automatically by the system and are restricted to internal, locally-attached storage volumes.
+
+### Recommended Alternatives
+If you are running out of RAM and facing performance issues, consider these alternatives instead:
+
+1.  **Close Memory-Intensive Apps:** Use **Activity Monitor** (Energy and Memory tabs) to identify apps consuming large amounts of RAM and close them when not in use.
+2.  **Optimize Storage:** Ensure your local startup disk has plenty of free space. macOS needs available local disk space to create swap files effectively.
+3.  **Upgrade RAM:** If your workflow consistently requires more memory than your Mac has, hardware upgrades (if possible) or moving to a machine with more unified memory is the only reliable solution.
+4.  **Use Network Storage for Files, Not Memory:** While you cannot use a remote Mac for *swap*, you **can** use it for offloading large files, projects, or data archives via NFS or SMB. This frees up space on your local internal SSD, allowing macOS to use that reclaimed space for its own internal swap management.
+
+**Summary:** Do not attempt to configure remote network storage as a swap partition; it will not function and could lead to system instability or data loss.

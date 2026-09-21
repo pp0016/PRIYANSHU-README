@@ -1,0 +1,45 @@
+The search for "multimodal vision model VRAM requirements local 2025 LLaVA Qwen-VL Gemma 3 multimodal" returned the following summary:
+Running multimodal vision models locally in 2025 and 2026 requires balancing model parameters, quantization, and the additional memory overhead inherent to vision-language models (VLMs).
+
+### **VRAM Requirement Basics**
+A multimodal model consists of three distinct parts that consume VRAM:
+1.  **Vision Encoder:** Typically a Vision Transformer (e.g., CLIP/SigLIP) that processes images. This usually adds **0.5 GB – 1.5 GB** of VRAM overhead on top of the base language model.
+2.  **Language Model:** The primary driver of VRAM usage, scaled by parameter count and quantization level (e.g., 4-bit, 8-bit).
+3.  **KV Cache & Context:** Memory reserved for the conversation history. High-context windows (e.g., 128K tokens) can consume significant VRAM if not managed with optimizations like Flash Attention or KV cache quantization.
+
+---
+
+### **Model-Specific VRAM Guidelines**
+
+#### **Gemma 3 (Multimodal)**
+Google’s Gemma 3 family is designed for efficient local deployment, often using Quantization-Aware Training (QAT) to keep footprints small.
+*   **Gemma 3 4B:** A popular "sweet spot" for many users. At **4-bit quantization (Q4_K_M)**, it requires approximately **2.2 GB – 3 GB** of VRAM, making it very accessible for entry-level GPUs (8GB+ VRAM).
+*   **Gemma 3 12B:** Requires ~6.7 GB at Q4 and ~12.6 GB at Q8. A **16GB – 24GB GPU** is recommended for comfortable operation with long context.
+*   **Gemma 3 27B:** Demands ~15.1 GB at Q4. While it can run on a 24GB card (like an RTX 3090/4090), you will need to be mindful of context length. 
+
+#### **Qwen-VL / Qwen3-VL**
+The Qwen vision-language series varies widely by size, from small variants to massive, high-capability models.
+*   **Qwen3-VL 4B:** At Q4_K_M, it typically requires **~2.5 GB – 3 GB** of VRAM. It is highly efficient and runs well on almost any modern consumer GPU (4GB+).
+*   **Qwen3-VL 8B:** A common choice for 16GB cards. Weights (~4.7 GB) plus the vision tower (~1.1 GB) and KV cache fit comfortably within **16 GB** for medium-length contexts (8K–32K). 
+*   **Larger Variants (e.g., 27B+):** These models often require **24 GB – 48 GB+** of VRAM. Using multi-GPU setups or high-memory unified systems (like Mac Studio) is often necessary for these scales.
+
+#### **LLaVA (Large Language and Vision Assistant)**
+LLaVA models (e.g., 1.5/1.6 series) generally follow the VRAM profile of their underlying backbone (Llama/Mistral) plus the vision encoder.
+*   **LLaVA 7B:** At 4-bit, expects **~5 GB – 6 GB** of VRAM.
+*   **LLaVA 13B:** At 4-bit, expects **~8 GB – 10 GB** of VRAM.
+*   **LLaVA 34B:** Requires **~19 GB+** at 4-bit, pushing the limits of single 24GB consumer cards.
+
+---
+
+### **Summary Table: Estimated VRAM for Q4 (4-bit) Quantization**
+
+| Model Size | Approx. VRAM (Q4) | Recommended GPU Tier |
+| :--- | :--- | :--- |
+| **~4B Params** | 2.5 – 4 GB | Entry (e.g., RTX 3060 / 4060) |
+| **~8B–12B Params** | 6 – 9 GB | Mid-Range (e.g., RTX 4070 / 4080) |
+| **~27B–34B Params** | 15 – 20 GB | High-End (e.g., RTX 3090 / 4090) |
+
+### **Optimization Tips for Local Inference**
+*   **Quantization:** Always use `GGUF` or `EXL2` formats (Q4_K_M is the industry standard for balancing quality and memory).
+*   **Flash Attention:** Ensure your inference engine (Ollama, vLLM, llama.cpp) has Flash Attention enabled; it significantly reduces the memory footprint of the KV cache.
+*   **Unified Memory:** If you are hitting VRAM limits on dedicated GPUs, Apple Silicon (M-series Macs) with large unified memory pools is an increasingly popular alternative for running larger models locally.

@@ -1,0 +1,1 @@
+Encountered error in step execution: Failed to fetch document content at https://sahivalue.com/categories/293890000000138215/apple-macbook: failed to get URL https://sahivalue.com/categories/293890000000138215/apple-macbook: status code 404

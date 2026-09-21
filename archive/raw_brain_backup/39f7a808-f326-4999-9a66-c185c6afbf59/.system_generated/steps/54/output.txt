@@ -1,0 +1,36 @@
+The search for ""manim" rate_func ease_out_bounce OR ease_out_back" returned the following summary:
+In Manim, `ease_out_bounce` and `ease_out_back` are built-in rate functions used to control the speed and easing behavior of animations[1][2][3].
+
+### How to use them
+You can apply these functions by passing them to the `rate_func` argument within your `self.play()` method[1][3]:
+
+```python
+from manim import *
+
+class EasingExample(Scene):
+    def construct(self):
+        circle = Circle().shift(LEFT * 3)
+        square = Square().shift(RIGHT * 3)
+        
+        # Using ease_out_bounce
+        self.play(circle.animate.shift(RIGHT * 6), rate_func=ease_out_bounce, run_time=2)
+        
+        # Using ease_out_back
+        self.play(square.animate.shift(LEFT * 6), rate_func=ease_out_back, run_time=2)
+```
+
+### Key Differences
+*   **`ease_out_bounce`**: Creates a "bouncy" effect as the animation reaches its end, simulating an object hitting a surface and bouncing[1][3].
+*   **`ease_out_back`**: Creates a slight "overshoot" effect at the end of the animation, where the object moves slightly past its destination before settling back into position[1][3].
+
+### Notes
+*   **Availability**: These functions are exported by default in Manim, so you can use them directly without needing to prefix them with `rate_functions.`[4][5].
+*   **Customization**: If you ever need to use a standard easing function that isn't exported directly, you can access it via the `rate_functions` module (e.g., `rate_func=rate_functions.ease_in_sine`)[4][6].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoQDUqji_mXMEca4xhzeDipEnrwv0UAJMjOteYAw__3DCgGHt7oFTPxOI-HIVouKnn5VeHMrwLh-lxCE8phRjAFd1CjrEeVb4Fx5Qw_hj-dDy16ThRagmJVJtf_SZAMCyGxXL1OuS6wU_O1-V2ZzGeUNjYMedRUYK6Nx9riCtwDILmJcM_MwXANV_W_7ID3QO6U_sJjl1Z1w==)
+[2] [manim.community](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEorTxAKYI9YzpZElr6kxtUWr6WsMiVreZON8ZTy7ckpQqpv8OnMBfvGcPjm2S8bN18Dqf5nXVglWXO5gBhEEUtV7heoxnF70nc2EA4shybS9lf6aZQ3CckxumAU75Kibt2CPAHwy8RnGO)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoQDUqji_mXMEca4xhzeDipEnrwv0UAJMjOteYAw__3DCgGHt7oFTPxOI-HIVouKnn5VeHMrwLh-lxCE8phRjAFd1CjrEeVb4Fx5Qw_hj-dDy16ThRagmJVJtf_SZAMCyGxXL1OuS6wU_O1-V2ZzGeUNjYMedRUYK6Nx9riCtwDILmJcM_MwXANV_W_7ID3QO6U_sJjl1Z1w==)
+[4] [manim.community](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk7FflDRKNFK1N2T-SdVZfb1vA-mEidCpqXsB2BW27vUSotZXC_j-EZXTbeKx9Eg2rGzuI2Q7j32M-OLjHuQZSF7zTQ9ai4f7G9P1ylg7NqWt_aHlPRs2HyY6XNmWreX3maTbJzUuurVr6d46aBBO1Kt0OKiuWZJVhHdoY_snFOSzbwwqITw==)
+[5] [manim.community](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk7FflDRKNFK1N2T-SdVZfb1vA-mEidCpqXsB2BW27vUSotZXC_j-EZXTbeKx9Eg2rGzuI2Q7j32M-OLjHuQZSF7zTQ9ai4f7G9P1ylg7NqWt_aHlPRs2HyY6XNmWreX3maTbJzUuurVr6d46aBBO1Kt0OKiuWZJVhHdoY_snFOSzbwwqITw==)
+[6] [manim.community](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLH3sMM5n7cHzM5rYQ2Ni6y1uX3ZAdknZHVho5e02786bdAjIUARQnIdwGh1H1qU0OC3fCOrc5gY6peZoPRQAipB40fj2xggSMZLgQ9NRa5Ndyi9Bwv1Scow5tPlhIBUcbV32XutlDFbdaN3llw6Iu4d7UMYBALeLgha1AjiezjOt1Blrw)

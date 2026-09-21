@@ -1,0 +1,32 @@
+The search for "github open source videoscribe alternative JS" returned the following summary:
+For open-source, browser-based alternatives to VideoScribe that utilize JavaScript, you may want to explore the following projects found on GitHub:
+
+### Top Open-Source Recommendations
+*   **[Inkplainer-OS](https://github.com/NadirWeb-App/Inkplainer-OS)**: A free, open-source whiteboard animation maker that runs entirely in your browser. It allows you to compose SVG and text graphics, animate them stroke-by-stroke, and export the result as an MP4 or WebM file without needing any sign-up or installation[1].
+*   **[OpenDoodler](https://github.com/Rsverma/OpenDoodler)**: An open-source desktop application (built with .NET/C#) designed for whiteboard and doodle animation. It supports SVG/text composition, timeline-based scene editing, voiceover integration, and MP4 export[2].
+*   **[ai-img2sketch](https://github.com/daslearning-org/ai-img2sketch)**: A project that focuses on generating whiteboard sketch animation videos from uploaded images using Python, NumPy, and OpenCV. While not a full-featured editor like VideoScribe, it provides a functional pipeline for creating sketch-style animations[3].
+
+### JavaScript Animation Frameworks
+If you are a developer looking to build your own custom whiteboard animation tool, you can leverage robust JavaScript animation libraries that provide the underlying "motion" capabilities:
+
+*   **[Motion (formerly Framer Motion)](https://github.com/motiondivision/motion)**: A production-grade, open-source animation library for JavaScript/React that is highly performant and offers declarative syntax for complex sequences[4][5].
+*   **[Anime.js](https://github.com/juliangarnier/animejs)**: A lightweight, popular library excellent for animating SVGs, CSS, and DOM attributes, making it a great candidate for building custom drawing or "scribing" effects[6][7][8].
+*   **[Theatre.js](https://github.com/theatre-js/theatre)**: A powerful animation library that includes a professional motion design toolset, useful for creating more complex, cinematic, or timeline-based animations in the browser[9].
+*   **[Etro](https://github.com/etro-js/etro)**: A TypeScript framework specifically for programmatically editing videos, allowing you to composite layers (text, video, image) and apply hardware-accelerated effects using JavaScript and GLSL[10].
+
+### Summary of Approaches
+*   **For Immediate Use:** Use **Inkplainer-OS** if you want a browser-based, "ready-to-go" tool that mimics the core features of VideoScribe (whiteboard style, stroke-by-stroke animation)[1].
+*   **For Custom Development:** If you are building a custom solution, **Motion** or **Anime.js** are the industry-standard libraries for handling the complex timing and sequence animations required for whiteboard-style effects[11][7][5].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFldJwsM6Ttra5_nYMnwutZQBXu-9-dotrzZWZVGoFdZ6al4a2nRqoWPC1uzvj35OiQpjXoM1w7S98OnRcORDGw_MeQZV8QwS9VJcr_oWqWQR9k9jqpZt96dWI5Az9ZV8YJ5Lg=)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm8g4zNFhHftoSfksJ8ab2u8dT8Mr5SYMIl9ToWNqMRVRy9gzouAfXUGKfecgGS-J1QVy2Y3VBRIpS0w0TFBNEa__fpidFe5gLIq-rNv12YQx6fM1c9rrrgbG9zQ==)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2YhV52B52GDJPD1T9I23GGcMe3SGr4YLPrqYkevFpxPE4iDM2py_Vs305AXOGyq_A2Lzj6X9QLb5myGsOLKNuPhLQ-UX2MGqtnH9Ilmo57Y9OUqWS-uM_Vo0K64w0vSKYAVTclfU=)
+[4] [motion.dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW68PgKZ2wLTDcQWOhr6mtJkPeADvn7KNfOOUkwCzbJpsBOsE46LqVZmiZeStAig40EIJcJ_k3huGxJVVz1-FUA2B8GZz4dfWn)
+[5] [framer.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVb3CPFERS3CnuuJ7WAWfZlTorznHWBfpb2tn2W3jb1wakUxTVYZacSesjM6VtxuIaHa6TqKsDX75Y09FSPfjdIMQczbvdzUsHPJVDUn0DCi5_xfzbvQERT_lLYCta5kaSuVKgMus=)
+[6] [animejs.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXBL2WQ5EwvLP9IGKdnOHAAavETu0HeSmzIpY0PNS413grj9dD6sHsYsPsXJkBsstvRSSjWaqW3g1qmlMR4Gefv8qreu-F3AdK_g==)
+[7] [arcitech.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxSmv4y6_7JZPAMEnKb_CsdW3kQ3zmO6cBneBrHEVtuB7yTbQgMdeGYaxIo7AXM-b5omHVzfjOY60Wbribir8dDYkmZRTLLucIqLtYaaFBky6xyPESpOrwLo0hMyf8ZC45yziwYkT0xJSplsyo5gnsb8juBzTvfOIOlJ02e99DUmaUOvk=)
+[8] [tutsplus.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-nWRJ-AC6E9xaq4Q0au4CoJLwgpmeHMV7yHlCobQmfDIBDLBdHtesw7HpctdjCFxSW7YR0gMJLbLGqn64P3h9nZl3s4s0uQpd8ujxV5tAZHpEzNfZsN8lsXTAOxzQs8PHIGN2A2Qf2TSFOKMaX03ASKONaggechlsnD1m6nnfQ1QszSvQBFHkO2kppkuOydcBP5As2OBGsng=)
+[9] [theatrejs.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQg90DW3CYYj3nk90_ld9zNH1LXMdOKAksofXuXmpqjGTGQX_UuW4scOwMVPHTvkwFi__JzOzH37-I0M3eOZ_izK-gbitmz-DKcwTpvk8FCQ==)
+[10] [medevel.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWnkqWkh2FiWMeMpRK2wdM7jjEOAe7JjQHLsM37UWl3iYs-qdUHsbKT1KApz83emdv06gePgp6LmxjTqx5sjke6ZspGoFIE1VNZ_wmBr3e22ti_Xs7xDgGFye4QbwLUvC8P5SOZuDQddkY0ss=)
+[11] [dev.to](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6MIxlLKJ3YIxsFkeOJqbN_-7tY_R3-azFhbxZrab-qp7Sb-_Y2R8ZlABArDyQGLDabD508hko62BM167W0S_sxow8IlFI7TUFBI9Ll_Nn5h7h-qynhwWOxq8deWDZ9cO0b8eUAfsdewCVLbZDhwtLN-H-nL0iFg==)

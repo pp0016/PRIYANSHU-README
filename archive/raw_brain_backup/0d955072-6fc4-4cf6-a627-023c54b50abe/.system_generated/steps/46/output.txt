@@ -1,0 +1,9 @@
+The search for ""rezoo/movis" stars github" returned the following summary:
+The GitHub repository **rezoo/movis** currently has approximately **482 to 485 stars**[1][2].
+
+Movis is a Python library designed for video production tasks, including video editing, motion graphics, presentation video generation, and shader art coding[1][3].
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEddLdWRVDfwXwLojGnN3uldtkqTQekXYPfx7DXnVl0O3kF2YYPNhxBAFu2z4V_4fskmeNJWB2wUeiuneHHb_Yv5OK2T256L3lDxqtA6LIO2c4-iWQ=)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCjHzo35CJNe4xheFmOpdGzW-9TJNvT4ojTKk6_nb17Rtfcq4DEFGzLalWGa9ialoQc1X90tcr4DXV7TCXcLP06s2uVDNzpmBuJUWR7Ny_DFh99ebrtmr9ixds7k_GJn3RqnzhB5zJ3yfugpsXz8xoclBo1Xon2Q==)
+[3] [github.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEt4-HjNR444ztcW31b5q4kiInJP9ey_ksBAEmAenbg6gqpkOM_nOLsmFoW1E7AKbMHtuS6cZ5xaXeR4j87k7ytjKCiMVgqmKsIrsiiL64y_xvsGdY=)

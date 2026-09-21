@@ -1,0 +1,34 @@
+The search for "python "simple-lama-inpainting" OR "lama_cleaner"" returned the following summary:
+The search results confirm that both **`simple-lama-inpainting`** and **`lama-cleaner`** are Python-based tools used for image inpainting (object removal), but they serve different purposes and offer different levels of functionality.
+
+### **1. `simple-lama-inpainting`**
+*   **What it is:** A lightweight, easy-to-use Python library designed for programmatic integration.
+*   **Use Case:** Best if you are a developer looking to embed LaMa (Large Mask Inpainting) directly into your own Python scripts or AI pipelines with just a few lines of code.
+*   **Key Features:**
+    *   Simple API: `from simple_lama_inpainting import SimpleLama`
+    *   Accepts `PIL.Image` or `numpy` arrays.
+    *   Best for automated batch processing or specific tasks within a larger machine learning workflow.
+*   **Installation:** `pip install simple-lama-inpainting`
+
+### **2. `lama-cleaner`**
+*   **What it is:** A comprehensive, feature-rich, open-source application (and library) designed as an end-to-end tool.
+*   **Use Case:** Best for users who want an interactive, "out-of-the-box" experience, including a graphical user interface (GUI) to manually brush out objects, text, or watermarks. 
+*   **Key Features:**
+    *   **Interactive Interface:** Provides a web-based GUI to upload images and brush over unwanted areas.
+    *   **Multiple Models:** Supports various State-of-the-Art (SOTA) models, including LaMa, LDM, ZITS, MAT, and Stable Diffusion (for replacing objects).
+    *   **Built-in Plugins:** Includes additional tools for face restoration (GFPGAN), super-resolution (RealESRGAN), and background removal.
+    *   **Self-Hostable:** Can be run as a server locally, on Docker, or via the command line.
+*   **Installation:** `pip install lama-cleaner`
+
+---
+
+### **Summary Comparison**
+
+| Feature | `simple-lama-inpainting` | `lama-cleaner` |
+| :--- | :--- | :--- |
+| **Primary Goal** | Programmatic/Developer API | Interactive Inpainting App |
+| **GUI** | No (Code only) | Yes (Web-based GUI) |
+| **Complexity** | Minimal, low overhead | High, feature-rich |
+| **Best For** | Scripts, pipelines, research | Manual editing, quick cleanup |
+
+If you are building an automated system, **`simple-lama-inpainting`** is likely the better choice. If you are looking to remove objects from photos manually, **`lama-cleaner`** is the standard and more robust solution.

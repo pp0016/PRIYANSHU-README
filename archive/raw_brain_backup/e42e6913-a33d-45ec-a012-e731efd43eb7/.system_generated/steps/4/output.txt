@@ -1,0 +1,32 @@
+The search for "YouTube "altered or synthetic content" label requirement policy demonetization AI" returned the following summary:
+YouTube’s policy on **"altered or synthetic content"** focuses on transparency and preventing the spread of misleading information. Here is the breakdown of the requirements and how they relate to demonetization.
+
+### 1. The Disclosure Requirement
+YouTube requires creators to disclose when they use generative AI or other tools to create or meaningfully alter content that appears **realistic**—meaning a viewer could easily mistake it for a real person, place, scene, or event.
+
+*   **What you MUST disclose:**
+    *   Replacing a person’s face with another's (e.g., deepfakes).
+    *   Synthetically generating a person’s voice to narrate a video.
+    *   Altering footage of real events or places (e.g., making a real building appear to catch fire).
+    *   Generating realistic scenes that did not actually occur (e.g., a realistic depiction of a fictional major event).
+*   **What you do NOT need to disclose:**
+    *   Clearly unrealistic or animated content (e.g., a flying cartoon unicorn).
+    *   Content using AI for production assistance, such as scriptwriting, brainstorming, or generating content ideas.
+    *   Minor edits like beauty filters, color correction, or general special effects that do not deceive viewers.
+
+### 2. Does Labeling Affect Monetization?
+**No, the act of labeling itself does not limit your audience or impact your eligibility to earn money.** Using the disclosure tool is a transparency measure, not a penalty.
+
+### 3. The Relationship with Demonetization
+While disclosing AI content will not get you demonetized, **failing to disclose** or abusing AI tools can lead to serious consequences. YouTube’s demonetization risks related to AI generally fall into these categories:
+
+*   **Failure to Disclose:** If you repeatedly fail to disclose realistic AI/synthetic content, YouTube may take action. This can include applying labels automatically, removing the content, or suspending your channel from the YouTube Partner Program (YPP). 
+*   **"Inauthentic" or "AI Slop" Content:** YouTube has increased enforcement against mass-produced, low-effort, or repetitive content. Even if you disclose your use of AI, you can still face demonetization if your channel is flagged for:
+    *   **Repetitive or "Template" Content:** Uploading mass-produced videos that lack unique human value or distinctiveness.
+    *   **Misleading Content:** Using AI to deceive viewers or violate Community Guidelines (e.g., impersonation or spreading harmful misinformation).
+    *   **Policy Violations:** Content that is "off-putting," emotionally manipulative, or discusses sensitive topics (health, finance, elections) using AI personas in a way that violates advertiser-friendly guidelines.
+
+### Summary for Creators
+*   **Be Transparent:** Always use the "Altered Content" disclosure checkbox in YouTube Studio if your video contains realistic AI-generated elements.
+*   **Focus on Value:** YouTube rewards content that is original and provides value. Using AI as a tool to enhance your creative process is generally safe, but relying on it to mass-produce content ("AI slop") carries a high risk of demonetization.
+*   **Stay Compliant:** If YouTube's systems detect undisclosed realistic AI content, they may label it for you. You generally cannot remove these labels if the system is confident in its detection.

@@ -1,0 +1,13 @@
+The search for ""Logic Node" Apple deprecated OR removed Logic Pro" returned the following summary:
+Logic Node, the feature that allowed users to distribute audio processing across multiple networked Mac computers, has been **discontinued**[1][2].
+
+It was effectively removed from Logic Pro when the application moved past the era of Logic Pro 9[2]. The technology is no longer a part of the modern Logic Pro workflow[1][2].
+
+### Important Distinction
+Please be careful not to confuse the discontinued "Logic Node" (the networking feature) with **automation nodes**[3]. Automation nodes are the points you place on automation curves to adjust volume, pan, or effects parameters over time[3]; these remain a core, active part of Logic Pro and are frequently discussed in user forums[4].
+
+Sources:
+[1] [logicprohelp.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv6jD7H2h2mOEU8rBUoR8JkT71zdKreLZeBWqOyR810i4sGdU09La9zfY4vG_u1GlRYbsuolYtqeqreDv1_-Fgv33Mpbaj_NeLIptaxONLLK6X6TFJ6Ye6x4ejx-EAdNaEHyQ3tCjv8DVq2EQZAr1uAxc5mGdAItg=)
+[2] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNgNzDjOcRCziu-Z3uqlIC48nHoSQ2XXIBP2zomsViNiKSJ0-hLYJzkjoOBThfk34fWEhpJSjMahx5nt8egRxW3RkqWUv-G9m_Ag7hkWJdul1-AO6xMjApsaAc8eGBxxmQV_aTV3CgXUoXOPeFNsCR694oYaJUd5sYCuskhHKcZrdeY2nXCs3kSmdRv1dafaS-Mj1K1SL3FI8xgeRnXy-GLWo=)
+[3] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy8aqvdbnv2eO_BSUQeoc2B_hNK0erei3O4oro3zXfM-KF6kfuKIOB3oSmXhTQReQopBCNJcPA7XJXHttRWM1hYiKpETB3WtkHzxqedY4hG4J4iJzPDV5sN00wnUHfDqZ9)
+[4] [facebook.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAX3D_9toqcnFR6m2e-4RTfbjMFR8iLebd8rgGtkjfZCg79ITAj9bjgmmDOWejulioM7p6YqI_mXapAfi7RF7FD0AqngKif9nldiq7QGi_4IbuMYxCsM2VMEQ9vGqVri3kbIftooiYzICAOTjjQb6AFr1KQYEXsWLbuZIvGqE=)

@@ -1,0 +1,1 @@
+Encountered error in step execution: Failed to fetch document content at https://www.apple.com/legal/sales-support/applecare/applecareplus/docs/applecareplus_in_en.html: failed to get URL https://www.apple.com/legal/sales-support/applecare/applecareplus/docs/applecareplus_in_en.html: status code 404

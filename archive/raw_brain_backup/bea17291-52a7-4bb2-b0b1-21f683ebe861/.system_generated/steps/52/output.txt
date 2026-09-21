@@ -1,0 +1,48 @@
+The search for ""llama.cpp" "rpc-server" OR "rpc" "Mac Mini" "MacBook"" returned the following summary:
+To use `llama.cpp` in a distributed setup across multiple Apple Silicon Macs (or a mix of Mac and PC), you can utilize its **RPC (Remote Procedure Call) backend**[1][2]. This allows you to split a large language model (LLM) across machines, effectively pooling their memory and GPU resources[1][3].
+
+### How the RPC Setup Works
+*   **Master Node:** The machine that runs your primary application (e.g., `llama-cli` or `llama-server`). It handles model metadata, tokenization, and orchestration[1][2].
+*   **Worker Node(s):** The machine(s) running the `rpc-server`. These machines contribute their RAM and GPU (Metal on Mac, CUDA on Nvidia) to process specific layers of the model[1][4].
+
+### Step-by-Step Setup
+1.  **Build with RPC Support:**
+    On both your primary (Master) and worker (Mac Mini/MacBook) machines, you must compile `llama.cpp` with RPC support[2][5].
+    ```bash
+    git clone https://github.com/ggerganov/llama.cpp
+    cd llama.cpp
+    cmake -B build -DGGML_METAL=ON -DGGML_RPC=ON
+    cmake --build build --config Release -j
+    ```
+    *Note: Use `-DGGML_METAL=ON` for Macs and `-DGGML_CUDA=ON` for Nvidia PCs[1][5].*
+
+2.  **Start the Worker (Mac Mini/MacBook):**
+    On the worker machine, launch the `rpc-server`[1][4]:
+    ```bash
+    ./build/bin/rpc-server -p 50052 -H 0.0.0.0
+    ```
+    *Ensure the machine's IP address is reachable from the master node and that the port (50052) is open in your firewall[4].*
+
+3.  **Run Inference from the Master:**
+    When running your model, use the `--rpc` flag to point to your worker node(s)[5]:
+    ```bash
+    ./build/bin/llama-cli -m your_model.gguf --rpc 192.168.1.50:50052 -ngl 99
+    ```
+    You can provide multiple comma-separated IP addresses if using more than one worker[5].
+
+### Important Considerations
+*   **Performance Bottleneck:** The primary limitation of this setup is network latency[6][3]. While local RAM is very fast, moving data between machines over standard Ethernet or Wi-Fi is significantly slower[7][2]. A 10GbE (10 Gigabit Ethernet) connection or a Thunderbolt bridge is highly recommended for better throughput[7][6].
+*   **Apple RDMA:** As of recent `llama.cpp` updates (v0.4.0+), if you are connecting two Macs via **Thunderbolt 5**, you can utilize RDMA (Remote Direct Memory Access) for much higher speeds by bypassing the standard TCP network stack[8][9][10].
+*   **Alternative (Exo):** If you find the manual RPC setup too cumbersome, tools like **[exo](https://github.com/exo-explore/exo)** are designed specifically to "auto-discover" other Macs on your network and handle the partitioning of models with almost zero configuration[6][3].
+
+Sources:
+[1] [theaiserver.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_2KKjLfILP0MpXm8JGjlOVnZ3yxWtc_I9xLhCXm1fbq7gIWSnX1lJmLxBlTmr_-bDOrona_30pm7szBoeaBi4A1vwKT7IlWdi4EYh4gCKSzr1aMgCSP5e77huejsJ62-ztYTTym0DzhgK56WfBvEcUBg=)
+[2] [sharedllm.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKaNLdIteiRJBgtoZuHsESTzjLEL_utOgaGZJEC7ZG4SdUaylxbi8B8UPglyt7d3x8mKPsTqNT04X6tD0wm_XvFxn8i7nFH7aqWU9s2VraF-STR6IsoQ9OCOrbNr5ia_YCxIvhjRMxF1ZS3g==)
+[3] [thinkdifferent.blog](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCkta52QqlX5abosmsVBYb4zY02OLeAv0TFZrV3NGUMtrmyyYLOr_hyQB_uSnaw46hghXTZ5O2T_fRxU2dOUgZfdiCYsYArHVC2wr5Sktuas9U6Yby5AV5pdU98S-_QncNujD1HDqAH1EaRkbltzRn9EsDSlsfVNgIkt9SeZrZnezlsPcl2XumYiL_1jBu7arQ)
+[4] [theaiserver.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_2KKjLfILP0MpXm8JGjlOVnZ3yxWtc_I9xLhCXm1fbq7gIWSnX1lJmLxBlTmr_-bDOrona_30pm7szBoeaBi4A1vwKT7IlWdi4EYh4gCKSzr1aMgCSP5e77huejsJ62-ztYTTym0DzhgK56WfBvEcUBg=)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERgMYzmzx1UTSYgLh60Qjch6et86v9AKoidppIVxxQ9yCMO2TOvqelVMwTO9snaJ8axdQAAHPPGTRMcE1fDueBVj_FVJTQQmmCYhye5dzQP860hJKVXBKhl4uKWCZyZugE4ms-GWa3FO_KQIZqu-Xw-wkAcb0er9e5IYFJxUI=)
+[6] [thinkdifferent.blog](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCkta52QqlX5abosmsVBYb4zY02OLeAv0TFZrV3NGUMtrmyyYLOr_hyQB_uSnaw46hghXTZ5O2T_fRxU2dOUgZfdiCYsYArHVC2wr5Sktuas9U6Yby5AV5pdU98S-_QncNujD1HDqAH1EaRkbltzRn9EsDSlsfVNgIkt9SeZrZnezlsPcl2XumYiL_1jBu7arQ)
+[7] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6U6KyYTy1z4dfX4max9gv313V8qF5fElyKB-ZHEwAnT_hvCsrL3UpgT7nwkim-yaj5kX6MHRtR2h9yyA9LJ1xlbeVNtlawKzpEdAETDuHdiweWFMCmEfwFPru1e6LdRa8BSQt1VQjecQzgmnQSOSyNw==)
+[8] [modelfit.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEQyYk_kFEE9kt4Artcz-HoFX_QKtCdA_TggzGHnfHYKaJNl6yv4ekZVbSEmaP8DYlxoOXhJ2Gk0YaIEjaMv3O80uQqZM1hcUeDVGljr1h-afghi83FOHs0FR_JoFUlTe2woJKdS7j-b3siDlLb6wPhuefP7h4dktnPRv6F2L_dq9mtnYV8UBf)
+[9] [modelfit.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEQyYk_kFEE9kt4Artcz-HoFX_QKtCdA_TggzGHnfHYKaJNl6yv4ekZVbSEmaP8DYlxoOXhJ2Gk0YaIEjaMv3O80uQqZM1hcUeDVGljr1h-afghi83FOHs0FR_JoFUlTe2woJKdS7j-b3siDlLb6wPhuefP7h4dktnPRv6F2L_dq9mtnYV8UBf)
+[10] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERgMYzmzx1UTSYgLh60Qjch6et86v9AKoidppIVxxQ9yCMO2TOvqelVMwTO9snaJ8axdQAAHPPGTRMcE1fDueBVj_FVJTQQmmCYhye5dzQP860hJKVXBKhl4uKWCZyZugE4ms-GWa3FO_KQIZqu-Xw-wkAcb0er9e5IYFJxUI=)

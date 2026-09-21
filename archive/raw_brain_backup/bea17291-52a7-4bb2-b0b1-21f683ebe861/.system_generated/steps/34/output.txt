@@ -1,0 +1,26 @@
+The search for ""RDMA over Thunderbolt" "Thunderbolt 4" OR "Thunderbolt 3" macOS" returned the following summary:
+RDMA (Remote Direct Memory Access) over Thunderbolt is a feature introduced in **macOS 26.2** that enables high-performance, low-latency, peer-to-peer communication between Mac computers[1][2].
+
+### Key Compatibility and Requirements
+*   **Hardware Requirement:** RDMA over Thunderbolt is specifically designed for and restricted to **Thunderbolt 5** hardware[1][3][4]. 
+*   **Thunderbolt 3/4 Support:** There is **no official support** for RDMA over Thunderbolt on Thunderbolt 3 or Thunderbolt 4 controllers[5][6]. Users attempting to use this feature on M3-series or other devices equipped with Thunderbolt 4 controllers have reported that the necessary kernel extensions and interfaces (such as `rdma_en*` devices visible via `ibv_devices`) do not load or function[7][6].
+*   **Software Requirement:** The feature requires **macOS 26.2 or later**[1][3].
+
+### How it Works
+*   **Purpose:** The technology allows Macs to bypass the standard networking stack (TCP/IP), enabling direct memory access between connected computers[2][4]. This significantly reduces latency—reportedly dropping from ~300 microseconds to under 10 microseconds—and is primarily used to enable memory pooling and tensor parallelism for distributed AI workloads using frameworks like MLX[8][9][4].
+*   **Enabling the Feature:** On supported Thunderbolt 5 hardware, the feature must be enabled via macOS Recovery mode by running `rdma_ctl enable` in the Terminal[1][3]. Once enabled, compatible interfaces can be verified using the `ibv_devices` command[1][10].
+
+### Summary for Users
+If you are looking to cluster Macs for high-performance tasks like local AI inference, this feature is currently exclusive to Apple Silicon Macs equipped with **Thunderbolt 5** ports[1][4]. Attempting to use this on Thunderbolt 4 systems will not yield the expected RDMA functionality[5][6].
+
+Sources:
+[1] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO17EIZnPZ6FP8BvzqNmeLQMWH6hClGQBVDC8CMVM5YySFflkbHGcQHnzGdwfabjVYUHP4qqGhYw4ECajLy6rhAprOyA39zpJ-83Ok88Sc1c9_-EFZVTVw8NmwiemmlHd2a7rktwcm9pmFoTPKICmCWljuGmVq3RFJdAMmw8rpe5Axj9awQCiIZiNSGjOwy8TCDJSP_nQIOfdU8pZTZbxLbxt_QA==)
+[2] [ubos.tech](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzbQ1F7A6FcVijE189aHnlZarez0GgjmcMfuH6w_ZgEysytnQ3_4pSeaHG1rYVZ7TFr6BoamTpyNPUIavKNoQzQdgvbUsnnLF3Cf6vfCXIYjxeJRo8_AhRNxcEtTiHNoxAwPtcpPqxXwSJVv-84WlvHd4W7qP6e8ywUO91hwamCs7V3p5ycFvBJeUl-Uxh3m8W-Kv6nw==)
+[3] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO17EIZnPZ6FP8BvzqNmeLQMWH6hClGQBVDC8CMVM5YySFflkbHGcQHnzGdwfabjVYUHP4qqGhYw4ECajLy6rhAprOyA39zpJ-83Ok88Sc1c9_-EFZVTVw8NmwiemmlHd2a7rktwcm9pmFoTPKICmCWljuGmVq3RFJdAMmw8rpe5Axj9awQCiIZiNSGjOwy8TCDJSP_nQIOfdU8pZTZbxLbxt_QA==)
+[4] [sean-weldon.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFo884D4QsjizDaTfo4y-i3We6_OYYpMBF3jxoSo_rzpJxsHR5suz6EiEAsZNTT3KFykKey-wTnm0Zq2YCr8e2SDPE2AAWdIGh_3yck-_IDbiCMiv9Xv0bLMpvFtd9yii7TOzGbfp6OKQmQkLmfsj-CGI5kfVbs_veoVMtQ2HU1GjdN4x5Zn20wbk8Vizl4v4Uqvce81yaE0RTaLGwHuG_mEQ8=)
+[5] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpEWIVEJ4lJ42V_qN24pGwEsJ3km5wJ1vBAvZWvGU9zL5kH0bCEzPERe6dXESM1SMppsrCLAo1YZRYCCq2pd7AqXHx2wmpl-r0rJHHZ8FC41ZjXFw5N5RimDi04OyKlLa5GwQ=)
+[6] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwBPd3_XG2mWuTwMPTdcbMeeEoXMQArAc2905jzRG7bF3EszGtUmLmvcj_FbBdN1yksazysd9QNHnhtqfWItor3R1frpajGCBae0qM7Ri9li9ue7op8mMfwFdELiriHWjxHiQ=)
+[7] [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpIj3uz4r2InULWkgNb0dtmv-6HasH9uCswuntQYPvZhycBh5miI-7YQS8VTPtzWT4pcqkrkha3g8zk-BftZX8L6cTj4vB7hDqtR-kKaVf_-nIUnYNSoVtA-xti7-gIBL50WDu0wTwFUyCfcbB-QQUz080GGVbuKrGixVZ11F966vMINdeAD9VkgwrCtBH8xqF6s1jO0STplHpZw==)
+[8] [gitconnected.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEF2QhsMskJLKRjxyPGoQZp7wLwHMC3HJjYum-VEj_xpV-lRb2fBb1sLyDXD58SqbAbm8ODTCAtKnpByU2wDIpFBoJLfbxjgtRyZUbw2pT5dWOIiBlFlyVooh3eaOPiauUx902ohiZNKwlIIYlV3G3fDHN8P5bTS_j4sY67NcFUNHgx62kzyg2ZJQbTF4hBeiThZwqmub2bQTOL09Cdr8mIVp9SYGcB0LRC1CIQMA==)
+[9] [stabilise.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhonxuwWurCgvLpP82AfzVP7UN7tfdL_uPCxXQJwhpaBqDF0OwuofNR3-JD9KW0in912qoiKd2OXvLNnOXrIl7JhHHXVTz-qX9kpQOCTzDyGU-56iNoPWw13uomoxaSc5VSbomONTcqwVdIa5BvJq05y3BECJwJk_gGtftcgDphg9Tb3X8MSMQiF7QiIzMAT7MZCKN)
+[10] [apple.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO17EIZnPZ6FP8BvzqNmeLQMWH6hClGQBVDC8CMVM5YySFflkbHGcQHnzGdwfabjVYUHP4qqGhYw4ECajLy6rhAprOyA39zpJ-83Ok88Sc1c9_-EFZVTVw8NmwiemmlHd2a7rktwcm9pmFoTPKICmCWljuGmVq3RFJdAMmw8rpe5Axj9awQCiIZiNSGjOwy8TCDJSP_nQIOfdU8pZTZbxLbxt_QA==)

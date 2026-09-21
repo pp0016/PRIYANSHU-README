@@ -1,0 +1,74 @@
+
+The command exited with code 1.
+Output:
+Manim Community v0.21.0
+
++--------------------- Traceback (most recent call last) ---------------------+
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\cli\render\commands.py:125 in render                            |
+|                                                                             |
+|   122             try:                                                      |
+|   123                 with tempconfig({}):                                  |
+|   124                     scene = SceneClass()                              |
+| > 125                     scene.render()                                    |
+|   126             except Exception:                                         |
+|   127                 error_console.print_exception()                       |
+|   128                 sys.exit(1)                                           |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\scene\scene.py:259 in render                                    |
+|                                                                             |
+|    256         """                                                          |
+|    257         self.setup()                                                 |
+|    258         try:                                                         |
+| >  259             self.construct()                                         |
+|    260         except EndSceneEarlyException:                               |
+|    261             pass                                                     |
+|    262         except RerunSceneException:                                  |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\purpose_manim.py: |
+| 135 in construct                                                            |
+|                                                                             |
+|   132         self.add(mountain2, mountain1, mountain3, ground)             |
+|   133                                                                       |
+|   134         # Characters                                                  |
+| > 135         char1 = KurzgesagtCharacter(["#FF4081", "#3F51B5"]).move_to(D |
+|   136         char2 = KurzgesagtCharacter(["#00BCD4", "#FFC107"]).move_to(D |
+|   137         char2.scale(0.9)                                              |
+|   138         char3 = KurzgesagtCharacter(["#4CAF50", "#E91E63"]).move_to(D |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\purpose_manim.py: |
+| 55 in __init__                                                              |
+|                                                                             |
+|    52         self.leg_r = RoundedRectangle(corner_radius=0.1, height=1.5,  |
+|    53         self.leg_r.next_to(self.torso, DOWN, buff=-0.1).shift(RIGHT*0 |
+|    54                                                                       |
+| >  55         self.foot_l = Sector(outer_radius=0.25, angle=PI, start_angle |
+|    56         self.foot_l.next_to(self.leg_l, DOWN, buff=-0.05)             |
+|    57         self.full_leg_l = VGroup(self.leg_l, self.foot_l)             |
+|    58                                                                       |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\mobject\geometry\arc.py:1043 in __init__                        |
+|                                                                             |
+|   1040     """                                                              |
+|   1041                                                                      |
+|   1042     def __init__(self, radius: float = 1, **kwargs: Any) -> None:    |
+| > 1043         super().__init__(inner_radius=0, outer_radius=radius, **kwar |
+|   1044                                                                      |
+|   1045                                                                      |
+|   1046 class Annulus(Circle):                                               |
++-----------------------------------------------------------------------------+
+TypeError: manim.mobject.geometry.arc.AnnularSector.__init__() got multiple 
+values for keyword argument 'outer_radius'
+cp : Cannot find path 
+'C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\media\videos\purpose_manim\1080p60\PurposeScene.mp4' 
+because it does not exist.
+At line:1 char:128
++ ... rposeScene; cp "media\videos\purpose_manim\1080p60\PurposeScene.mp4"  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\renu5\...urposeScene.mp4:String) [Copy-Item], ItemNotFoundExce 
+   ption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+

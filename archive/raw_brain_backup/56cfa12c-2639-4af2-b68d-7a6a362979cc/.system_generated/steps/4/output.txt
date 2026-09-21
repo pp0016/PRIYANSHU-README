@@ -1,0 +1,1 @@
+Encountered error in step execution: files must be written to the correct artifact directory: C:\Users\renu5\.gemini\antigravity\brain\56cfa12c-2639-4af2-b68d-7a6a362979cc

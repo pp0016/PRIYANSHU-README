@@ -1,0 +1,17 @@
+The search for "AMD Strix Halo laptop GPU shared memory RDNA 4 AI inference VRAM 2025 2026" returned the following summary:
+The **AMD Strix Halo** (marketed under the **Ryzen AI Max+** series) is a high-performance, monolithic APU platform designed to bring workstation-class AI inference and graphics to laptops and compact workstations.
+
+### **Key Architecture & AI Inference Capabilities**
+*   **Unified Memory (VRAM):** Strix Halo’s defining feature is its **unified memory architecture**. It pairs up to **128 GB of LPDDR5X-8000** memory on a 256-bit bus, providing approximately **256 GB/s** of memory bandwidth.
+*   **Shared Memory Pool:** Unlike traditional laptops where the GPU has a small, dedicated pool of VRAM, Strix Halo allows the integrated RDNA 3.5 GPU to access the vast majority of the system's unified RAM. Users can configure **Variable Graphics Memory (VGM)** to allocate large portions (up to ~96 GB) of this system memory as VRAM, enabling the local execution of massive models (e.g., 70B+ parameter LLMs) that would normally require expensive, high-VRAM discrete desktop GPUs.
+*   **GPU Architecture:** The integrated GPU features **40 RDNA 3.5 Compute Units**. While often compared to mid-range discrete laptop GPUs, its true strength in AI lies in its direct access to high-capacity system memory, eliminating the "VRAM wall" for large models.
+*   **NPU Integration:** The chip includes an **XDNA 2 NPU** providing over 50 TOPS for background AI tasks (such as noise reduction or image preprocessing), complementing the GPU's compute power.
+
+### **RDNA 3.5 vs. RDNA 4**
+*   **Strix Halo uses RDNA 3.5:** Despite launching in the 2025–2026 timeframe, Strix Halo utilizes the **RDNA 3.5** architecture. It is **not** based on RDNA 4.
+*   **Future Context:** RDNA 4 is featured in AMD's dedicated Radeon RX 9000 series desktop graphics cards. While some future mobile platforms (such as the rumored "Medusa Point" with Zen 6) are expected to incorporate an "RDNA 4m" variant for integrated graphics, Strix Halo remains firmly on RDNA 3.5.
+
+### **Performance in 2025–2026**
+*   **Local AI Workflows:** Strix Halo has become a preferred platform for local AI development because it offers a "workstation-in-a-box" experience. Because it supports massive memory, it is capable of running complex generative AI, LLM inference, and multi-step agent workloads (like OpenClaw) without cloud dependency.
+*   **Comparison:** While it may not match the raw peak performance of top-tier discrete desktop GPUs (like an RTX 5090) in pure gaming or brute-force compute, it significantly undercuts the cost of high-memory Mac Studio or professional workstation alternatives while providing comparable or superior model-size capacity for local inference.
+*   **Software Ecosystem:** Performance is heavily dependent on software stack optimizations. While official AMD ROCm support is available, many advanced users utilize specialized toolkits (such as `llama.cpp` with custom kernels or `vLLM`) to maximize tokens-per-second and efficiency on the 256-bit memory bus.

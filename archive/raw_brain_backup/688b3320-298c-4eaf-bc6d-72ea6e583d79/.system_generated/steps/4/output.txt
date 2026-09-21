@@ -1,0 +1,6 @@
+{"name":"SPOONY","isDir":true}
+{"name":"SPORTS","isDir":true}
+{"name":"VANLYNK","isDir":true}
+{"name":"learning started.md","sizeBytes":"21152"}
+
+Summary: This directory contains 3 subdirectories and 1 files.
