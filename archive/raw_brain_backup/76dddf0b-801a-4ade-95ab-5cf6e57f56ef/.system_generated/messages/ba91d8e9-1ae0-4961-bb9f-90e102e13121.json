@@ -1,0 +1,1 @@
+{"id":"ba91d8e9-1ae0-4961-bb9f-90e102e13121","recipient":"76dddf0b-801a-4ade-95ab-5cf6e57f56ef","sender":"76dddf0b-801a-4ade-95ab-5cf6e57f56ef/task-117","priority":"MESSAGE_PRIORITY_HIGH","timestamp":"2026-09-15T21:51:26.609310500Z","renderDetails":{"messageTitle":"Schedule git check: Timer has expired"},"content":"Check if git packing has finished and push if it has"}

@@ -1,0 +1,13 @@
+
+The command exited with code 0.
+Output:
+warning: garbage found: .git/objects/ee/tmp_obj_nE4h3n
+count: 12728
+size: 460.74 MiB
+in-pack: 277
+packs: 6
+size-pack: 105.84 MiB
+prune-packable: 0
+garbage: 1
+size-garbage: 836.00 KiB
+

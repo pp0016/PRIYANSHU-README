@@ -1,0 +1,13 @@
+
+The command exited with code 1.
+Output:
+remote: error: Trace: a0860dc1c1c0968d30a8ff9bc2af063bf3561d750512a8fe177f0dea67a3e78b        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File youtube/mainim/ffmpeg/ffplay.exe is 202.76 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: File youtube/mainim/ffmpeg/ffmpeg.exe is 201.31 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: File youtube/mainim/ffmpeg/ffprobe.exe is 201.13 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To https://github.com/pp0016/PRIYANSHU-README.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/pp0016/PRIYANSHU-README.git'
+

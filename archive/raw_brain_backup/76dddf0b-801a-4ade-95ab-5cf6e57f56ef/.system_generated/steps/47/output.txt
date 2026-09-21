@@ -1,0 +1,11 @@
+
+The command exited with code 1.
+Output:
+At line:1 char:11
++ git add . && git commit -m "backfill: initial knowledge extraction"
++           ~~
+The token '&&' is not a valid statement separator in this version.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvalidEndOfLine
+ 
+

@@ -1,0 +1,46 @@
+
+The command exited with code 1.
+Output:
+Auto packing the repository for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+[main 5e00b95] chore: push the remaining missing chats and scrub GCP tokens
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+remote: error: GH013: Repository rule violations found for refs/heads/main.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— GCP API Key Bound to a Service Account ————————————        
+remote:        locations:        
+remote:          - commit: 0e8bd32ad923e075536f5a5178c024463dd02ee5        
+remote:            path: archive/past_chats/9b49962f-2973-4675-be85-0cd52ae6804d.md:138        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/pp0016/PRIYANSHU-README/security/secret-scanning/unblock-secret/3JdgDAAfZSa9JQF0Yn3xz7sllkO        
+remote:             
+remote:             
+remote:       —— GCP API Key Bound to a Service Account ————————————        
+remote:        locations:        
+remote:          - commit: 0e8bd32ad923e075536f5a5178c024463dd02ee5        
+remote:            path: archive/past_chats/294de91b-96ee-4dd8-a251-293eb7aa59a8.md:1143        
+remote:          - commit: 0e8bd32ad923e075536f5a5178c024463dd02ee5        
+remote:            path: archive/past_chats/294de91b-96ee-4dd8-a251-293eb7aa59a8.md:1153        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/pp0016/PRIYANSHU-README/security/secret-scanning/unblock-secret/3JdgD9OO2PRMMFTqnEFxDbfihEv        
+remote:             
+remote: 
+remote: 
+To https://github.com/pp0016/PRIYANSHU-README.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/pp0016/PRIYANSHU-README.git'
+

@@ -1,0 +1,6 @@
+
+The command exited with code 0.
+Output:
+Scrubbed 294de91b-96ee-4dd8-a251-293eb7aa59a8.md
+Scrubbed 9b49962f-2973-4675-be85-0cd52ae6804d.md
+

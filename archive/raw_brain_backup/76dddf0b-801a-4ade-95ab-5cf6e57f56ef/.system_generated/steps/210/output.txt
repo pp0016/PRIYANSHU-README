@@ -1,0 +1,56 @@
+
+The command exited with code 1.
+Output:
+Auto packing the repository for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+[main 5c452a8] chore: backup 173 historical chat sessions
+ 1 file changed, 7234 insertions(+)
+ create mode 100644 work/backfilled_chats_summary.md
+remote: error: GH013: Repository rule violations found for refs/heads/main.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— Groq API Key ——————————————————————————————————————        
+remote:        locations:        
+remote:          - commit: 5c452a834c460ad62542484974741d6adf13e011        
+remote:            path: work/backfilled_chats_summary.md:703        
+remote:          - commit: 5c452a834c460ad62542484974741d6adf13e011        
+remote:            path: work/backfilled_chats_summary.md:5622        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/pp0016/PRIYANSHU-README/security/secret-scanning/unblock-secret/3JNp3n444mI0wKmdl4NKl7GNn1u        
+remote:             
+remote:             
+remote:       —— GitHub Personal Access Token ——————————————————————        
+remote:        locations:        
+remote:          - commit: 5c452a834c460ad62542484974741d6adf13e011        
+remote:            path: work/backfilled_chats_summary.md:3591        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/pp0016/PRIYANSHU-README/security/secret-scanning/unblock-secret/3JNp3q5u3iXV6icSGQnqJCOrP4X        
+remote:             
+remote:             
+remote:       —— GitHub Personal Access Token ——————————————————————        
+remote:        locations:        
+remote:          - commit: 5c452a834c460ad62542484974741d6adf13e011        
+remote:            path: work/backfilled_chats_summary.md:3605        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/pp0016/PRIYANSHU-README/security/secret-scanning/unblock-secret/3JNp3oXxHmBf21JFJoeQ2Xoxsyp        
+remote:             
+remote: 
+remote: 
+To https://github.com/pp0016/PRIYANSHU-README.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/pp0016/PRIYANSHU-README.git'
+

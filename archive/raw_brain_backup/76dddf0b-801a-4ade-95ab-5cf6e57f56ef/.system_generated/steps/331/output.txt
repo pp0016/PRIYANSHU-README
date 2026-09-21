@@ -1,0 +1,115 @@
+
+The command exited with code 1.
+Output:
+<truncated 262 lines>
+ create mode 100644 archive/past_chats/c9feef40-7b82-417a-b950-ee4ca59877a9.md
+ create mode 100644 archive/past_chats/ca2e45bd-ef0c-47f8-a420-4964dc3c3518.md
+ create mode 100644 archive/past_chats/ca7f62d2-8be2-4415-9fe8-ae223abd7a47.md
+ create mode 100644 archive/past_chats/ca906185-9672-4050-abd9-067ac5171abe.md
+ create mode 100644 archive/past_chats/cc5ae5f0-3c52-483a-b0d6-e323018f022c.md
+ create mode 100644 archive/past_chats/cc73663d-dfdc-40ee-ba7c-4eee3ba71757.md
+ create mode 100644 archive/past_chats/cd2d3809-ff96-486a-8ef7-da72972143bc.md
+ create mode 100644 archive/past_chats/cd7d33f3-75ba-4b5b-9616-d4291ccd83a8.md
+ create mode 100644 archive/past_chats/cdac960e-12e1-4eb1-8559-41b068631255.md
+ create mode 100644 archive/past_chats/ce0c473f-f210-43f0-a5be-3090258b0b56.md
+ create mode 100644 archive/past_chats/ce2533ac-5c24-4351-a625-dcd82d4834a4.md
+ create mode 100644 archive/past_chats/ce69cc81-e0ae-4743-b5fd-b5683ef66bbe.md
+ create mode 100644 archive/past_chats/ced661f0-0909-491b-adae-84faf43538a0.md
+ create mode 100644 archive/past_chats/cf0b36a8-31c9-4c03-afc1-803c399d2d36.md
+ create mode 100644 archive/past_chats/cf80382d-1bf0-455f-a395-91346912fc9c.md
+ create mode 100644 archive/past_chats/d176c90f-1f79-4419-85a7-14ac079b3d33.md
+ create mode 100644 archive/past_chats/d4099455-a113-4884-8749-c4b67a90ae35.md
+ create mode 100644 archive/past_chats/d498d556-2705-4e47-975d-cdc5fdc802f5.md
+ create mode 100644 archive/past_chats/d622759b-b37e-4089-8c14-f480e5803cd0.md
+ create mode 100644 archive/past_chats/d63b28e2-bd96-4161-8bbc-3d66d073620a.md
+ create mode 100644 archive/past_chats/d6a5d708-d4b7-4d51-bd3e-54edf87c3889.md
+ create mode 100644 archive/past_chats/d6caf5ac-aaa0-40d2-b553-e2fa680d4050.md
+ create mode 100644 archive/past_chats/d7764ba8-4c8f-437d-815c-70314703bd99.md
+ create mode 100644 archive/past_chats/d973d230-345d-4839-8875-914f06f7fd4c.md
+ create mode 100644 archive/past_chats/db7b5eb3-0d79-44e1-a070-3264bffe5ca7.md
+ create mode 100644 archive/past_chats/dcc6dae1-a695-4b5e-91d9-9f588e67b6e8.md
+ create mode 100644 archive/past_chats/ddcdbdd0-e5ff-45ba-96d4-a0f605574380.md
+ create mode 100644 archive/past_chats/de5bbde9-73e2-4dae-a2f3-26c48b02f7d4.md
+ create mode 100644 archive/past_chats/df3cc87f-e59d-4adf-91f9-873c1e2b8c5e.md
+ create mode 100644 archive/past_chats/df845668-d79a-4453-b79e-193e765a77ca.md
+ create mode 100644 archive/past_chats/e0f36c99-ba4d-424b-beb8-adfc9d3becfa.md
+ create mode 100644 archive/past_chats/e15e92ac-a923-4c24-9f60-98385e58e861.md
+ create mode 100644 archive/past_chats/e26e1ecb-ec47-4be6-be76-27d5de22b4f3.md
+ create mode 100644 archive/past_chats/e2879a16-e9df-4965-b359-011a2d7c0cbf.md
+ create mode 100644 archive/past_chats/e293708c-85ff-4585-8238-63e95b518583.md
+ create mode 100644 archive/past_chats/e3512982-b20d-41ac-ba9e-7c41c23ccaef.md
+ create mode 100644 archive/past_chats/e364abe0-bce1-41d9-b227-52fc0551b34c.md
+ create mode 100644 archive/past_chats/e420cda5-873c-4481-b3bd-7f103e1ac934.md
+ create mode 100644 archive/past_chats/e42e6913-a33d-45ec-a012-e731efd43eb7.md
+ create mode 100644 archive/past_chats/e51a59b2-4467-4069-a9cf-32b8495a6b8e.md
+ create mode 100644 archive/past_chats/e54a707f-16a5-488a-bdc4-abb1bcc8e897.md
+ create mode 100644 archive/past_chats/e5565314-d240-4602-b9b7-3432c915dbc7.md
+ create mode 100644 archive/past_chats/e5db259b-2ce0-4176-b477-0bb83c257e96.md
+ create mode 100644 archive/past_chats/e6fa4ac5-b2f1-4ee1-9402-8fad8fb14aa8.md
+ create mode 100644 archive/past_chats/e7ee7248-b8a8-4ca7-a4e7-88c8dac3df84.md
+ create mode 100644 archive/past_chats/e900d5b2-f367-42d4-9829-7fb6b2499468.md
+ create mode 100644 archive/past_chats/e9e5fe1b-5bcf-4993-95b1-89d16fcd0020.md
+ create mode 100644 archive/past_chats/eadbe2ab-2855-4845-b198-e6976c7db7f8.md
+ create mode 100644 archive/past_chats/eb01bbd6-d369-45ca-8e65-f63bc02cccb2.md
+ create mode 100644 archive/past_chats/eb200595-f941-4384-9c1b-15968d55e26b.md
+ create mode 100644 archive/past_chats/ebb008b8-1efe-41be-914e-b6b8f739a61d.md
+ create mode 100644 archive/past_chats/ec19a860-a1ae-48e2-a8c0-0ef8abf1e03e.md
+ create mode 100644 archive/past_chats/ec320dce-1706-4cc5-afd5-c896c6b9ce0e.md
+ create mode 100644 archive/past_chats/ec70e105-ba96-460a-9c51-934561237b11.md
+ create mode 100644 archive/past_chats/ec8d7f62-a8a9-4b3c-8806-358405ced097.md
+ create mode 100644 archive/past_chats/ecc25303-76aa-4469-ad54-a220262dd1c9.md
+ create mode 100644 archive/past_chats/eecf7876-433b-49ae-b113-7a73ed12b86e.md
+ create mode 100644 archive/past_chats/f0b37a00-38fd-415d-9295-9ee7f1418bc8.md
+ create mode 100644 archive/past_chats/f0d78f6d-13d8-4394-8eab-4b50083a9b55.md
+ create mode 100644 archive/past_chats/f4fdf50f-a272-4250-9c7c-83a0891cd70a.md
+ create mode 100644 archive/past_chats/f5435b36-2591-4655-9288-ea8541adf73c.md
+ create mode 100644 archive/past_chats/f6c0db14-67d8-4e57-b273-f4b432bf5af0.md
+ create mode 100644 archive/past_chats/f7611e54-c971-48b3-99b1-433526ccee52.md
+ create mode 100644 archive/past_chats/f884a457-a293-4ddc-addc-cd0dc37db05c.md
+ create mode 100644 archive/past_chats/f92aaec9-b50d-4f64-a60f-c81680f49af3.md
+ create mode 100644 archive/past_chats/f9ff18eb-e676-420d-afbd-c015bab26bc7.md
+ create mode 100644 archive/past_chats/fa04c4ac-90bc-46ca-90d2-31fb67f41946.md
+ create mode 100644 archive/past_chats/fa0b9e9a-5ef6-40d0-906a-ae96bd85e5c9.md
+ create mode 100644 archive/past_chats/fa1b1897-231d-4b72-b32d-1b687a3ba964.md
+ create mode 100644 archive/past_chats/fa2d84e7-cf1a-4626-acce-05080ee5d4ec.md
+ create mode 100644 archive/past_chats/fbee5dcf-95e7-482b-9868-a0dea42a5a72.md
+ create mode 100644 archive/past_chats/fe7f59b7-7851-41b8-a7fd-ba738855b015.md
+ create mode 100644 archive/past_chats/ff0b7138-eaff-42be-a1a9-e01e8bdc700b.md
+remote: error: GH013: Repository rule violations found for refs/heads/main.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— GCP API Key Bound to a Service Account ————————————        
+remote:        locations:        
+remote:          - commit: 0e8bd32ad923e075536f5a5178c024463dd02ee5        
+remote:            path: archive/past_chats/9b49962f-2973-4675-be85-0cd52ae6804d.md:138        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/pp0016/PRIYANSHU-README/security/secret-scanning/unblock-secret/3JdgDAAfZSa9JQF0Yn3xz7sllkO        
+remote:             
+remote:             
+remote:       —— GCP API Key Bound to a Service Account ————————————        
+remote:        locations:        
+remote:          - commit: 0e8bd32ad923e075536f5a5178c024463dd02ee5        
+remote:            path: archive/past_chats/294de91b-96ee-4dd8-a251-293eb7aa59a8.md:1143        
+remote:          - commit: 0e8bd32ad923e075536f5a5178c024463dd02ee5        
+remote:            path: archive/past_chats/294de91b-96ee-4dd8-a251-293eb7aa59a8.md:1153        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/pp0016/PRIYANSHU-README/security/secret-scanning/unblock-secret/3JdgD9OO2PRMMFTqnEFxDbfihEv        
+remote:             
+remote: 
+remote: 
+To https://github.com/pp0016/PRIYANSHU-README.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/pp0016/PRIYANSHU-README.git'
+

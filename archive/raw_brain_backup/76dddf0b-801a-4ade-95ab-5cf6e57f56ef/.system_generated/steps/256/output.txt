@@ -1,0 +1,12 @@
+
+The command exited with code 1.
+Output:
+Compress-Archive : The path 'C:\Users\renu5\Desktop' either does not exist or is not a valid file system path.
+At line:1 char:1
++ Compress-Archive -Path "archive\past_chats\*" -DestinationPath "$env: ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (C:\Users\renu5\Desktop:String) [Compress-Archive], InvalidOperationExc 
+   eption
+    + FullyQualifiedErrorId : ArchiveCmdletPathNotFound,Compress-Archive
+ 
+

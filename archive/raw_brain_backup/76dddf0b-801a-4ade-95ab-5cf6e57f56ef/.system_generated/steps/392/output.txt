@@ -1,0 +1,11 @@
+Task: 76dddf0b-801a-4ade-95ab-5cf6e57f56ef/task-366
+Status: RUNNING
+Log: C:\Users\renu5\.gemini\antigravity\brain\76dddf0b-801a-4ade-95ab-5cf6e57f56ef\.system_generated\tasks\task-366.log
+Log output:
+<truncated 230 lines>
+.libs\libgcc_s_seh-1-4c0a762e4178b574f72d1ef1f8bb5fc9.dll: 'utf-8' codec can't decode byte 0x90 in position 2: invalid start byte
+Failed to clean c:\Users\renu5\Downloads\priyanshu readme\archive\raw_brain_backup\4f46c5d7-aaf4-4f5d-a8ca-eac2a671a001\scratch\manim_venv\Lib\site-packages\av.libs\libiconv-2-6ce5f4ff92ada49d6f23a8e413455502.dll: 'utf-8' codec can't decode byte 0x90 in position 2: invalid start byte
+Failed to clean c:\Users\renu5\Downloads\priyanshu readme\archive\raw_brain_backup\4f46c5d7-aaf4-4f5d-a8ca-eac2a671a001\scratch\manim_venv\Lib\site-packages\av.libs\libmp3lame-0-da02696cc34a9bbc1d1d4f67a85cfbef.dll: 'utf-8' codec can't decode byte 0x90 in position 2: invalid start byte
+Failed to clean c:\Users\renu5\Downloads\priyanshu readme\archive\raw_brain_backup\4f46c5d7-aaf4-4f5d-a8ca-eac2a671a001\scratch\manim_venv\Lib\site-packages\av.libs\libopencore-amrnb-0-b8933128305cd084d40426d0d2c0d9ef.dll: 'utf-8' codec can't decode byte 0x90 in position 2: invalid start byte
+
+Last progress: 0s ago

@@ -1,0 +1,6 @@
+{"name":"archive","isDir":true}
+{"name":"clipping","isDir":true}
+{"name":"priyanshu-agent.md","sizeBytes":"5771"}
+{"name":"youtube","isDir":true}
+
+Summary: This directory contains 3 subdirectories and 1 files.

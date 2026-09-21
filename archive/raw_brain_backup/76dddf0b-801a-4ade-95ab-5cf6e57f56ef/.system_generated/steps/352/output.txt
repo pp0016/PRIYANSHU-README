@@ -1,0 +1,22 @@
+Task: 76dddf0b-801a-4ade-95ab-5cf6e57f56ef/task-350
+Status: DONE
+Log: C:\Users\renu5\.gemini\antigravity\brain\76dddf0b-801a-4ade-95ab-5cf6e57f56ef\.system_generated\tasks\task-350.log
+Log output:
+<truncated 28 lines>
+mote:       —— GCP API Key Bound to a Service Account ————————————        
+remote:        locations:        
+remote:          - commit: 0e8bd32ad923e075536f5a5178c024463dd02ee5        
+remote:            path: archive/past_chats/294de91b-96ee-4dd8-a251-293eb7aa59a8.md:1143        
+remote:          - commit: 0e8bd32ad923e075536f5a5178c024463dd02ee5        
+remote:            path: archive/past_chats/294de91b-96ee-4dd8-a251-293eb7aa59a8.md:1153        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/pp0016/PRIYANSHU-README/security/secret-scanning/unblock-secret/3JdgD9OO2PRMMFTqnEFxDbfihEv        
+remote:             
+remote: 
+remote: 
+To https://github.com/pp0016/PRIYANSHU-README.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/pp0016/PRIYANSHU-README.git'
+
+Last progress: 12s ago

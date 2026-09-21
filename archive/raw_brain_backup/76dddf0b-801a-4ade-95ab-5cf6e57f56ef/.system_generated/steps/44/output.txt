@@ -1,0 +1,11 @@
+{"name":"Screenshot 2026-09-05 234528.png","sizeBytes":"24082"}
+{"name":"_toolkit","isDir":true}
+{"name":"archive","isDir":true}
+{"name":"implementation_plan.md","sizeBytes":"10157"}
+{"name":"niche_research","isDir":true}
+{"name":"projects","isDir":true}
+{"name":"remotion-main","isDir":true}
+{"name":"stikaman-test","isDir":true}
+{"name":"vidiq_reference.md","sizeBytes":"11550"}
+
+Summary: This directory contains 6 subdirectories and 3 files.

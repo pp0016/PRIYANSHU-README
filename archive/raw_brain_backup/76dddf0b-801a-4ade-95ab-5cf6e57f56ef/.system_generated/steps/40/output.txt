@@ -1,0 +1,13 @@
+Task: 76dddf0b-801a-4ade-95ab-5cf6e57f56ef/task-28
+Status: RUNNING
+Log: C:\Users\renu5\.gemini\antigravity\brain\76dddf0b-801a-4ade-95ab-5cf6e57f56ef\.system_generated\tasks\task-28.log
+Log output:
+<truncated 3123 lines>
+he working copy of 'youtube/Stickman/remotion-main/packages/docs/src/theme/Footer/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/theme/Layout/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/theme/MDXComponents.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/theme/RawMarkdownCarrier/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/static/experimental_new/frame.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/static/img/background-hire-page.svg', LF will be replaced by CRLF the next time Git touches it
+
+Last progress: 1s ago

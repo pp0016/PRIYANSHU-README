@@ -1,0 +1,93 @@
+
+The command exited with code 0.
+Output:
+<truncated 26 lines>
+warning: in the working copy of 'youtube/Stickman/niche_research/archive/key_channels_analysis.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/niche_research/final_analysis_and_launch_plan.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/niche_research/final_audit.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/niche_research/gap_analysis.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/niche_research/niche_research/EverythingProfessor_channel_report.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/niche_research/phase1_part1_topics_1_to_10.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/niche_research/phase1_part2_topics_11_to_20.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/niche_research/phase2_pattern_extraction.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/niche_research/strategy_audit.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/niche_research/top_20_video_topics.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/niche_research/vidiq_data_aug19.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/niche_research/vidiq_data_part1_launch_prep.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/niche_research/walkthrough.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/projects/01_banned_weapons/omni_flash_test_prompts i have created vidos too in burner mail.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/projects/01_banned_weapons/project_brief.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/projects/01_banned_weapons/research_notes.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/projects/01_banned_weapons/session_summary_aug22 - Copy.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/projects/01_banned_weapons/thumbnial/video1_thumbnail_prompts_v2.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/projects/02_banned_books/project_brief.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/projects/03_dumb_war_tactics/project_brief.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/projects/04_greek_mythology_monsters/project_brief.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/projects/05_bullet_types/project_brief.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/vidiq_reference.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/mainim/latex-guide-for-creators.md', LF will be replaced by CRLF the next time Git touches it
+Auto packing the repository for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+[main (root-commit) c4a042c] backfill: initial knowledge extraction
+ 59 files changed, 8596 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 CONTEXT.md
+ create mode 100644 archive/youtube_creator_free_toolkit.md
+ create mode 100644 clipping/clipping_business_blueprint.md
+ create mode 100644 clipping/clipping_overview.md
+ create mode 100644 clipping/removal_log.md
+ create mode 100644 clipping/vyro/campaigns.md
+ create mode 100644 clipping/watch_list.md
+ create mode 100644 clipping/whop/whop_guide.md
+ create mode 100644 decisions.md
+ create mode 100644 knowledge/adhd_system.md
+ create mode 100644 knowledge/channels.md
+ create mode 100644 knowledge/core_rules.md
+ create mode 100644 knowledge/identity.md
+ create mode 100644 knowledge/workflow_and_schedule.md
+ create mode 100644 priyanshu-agent.md
+ create mode 100644 sessions/2026-09-16-session-persistence-setup.md
+ create mode 100644 work/.keep
+ create mode 100644 youtube/Nishchay Stories/nishchay_chrome_tabs.md
+ create mode 100644 youtube/Stickman/Screenshot 2026-09-05 234528.png
+ create mode 100644 youtube/Stickman/_toolkit/toolkit.md
+ create mode 100644 "youtube/Stickman/archive/7-Day Checklist \342\200\224 Aug 8-14.md"
+ create mode 100644 youtube/Stickman/archive/full_audit_and_calendar.md
+ create mode 100644 youtube/Stickman/archive/goal_and_criteria.md
+ create mode 100644 youtube/Stickman/archive/video_list_analysis.md
+ create mode 100644 youtube/Stickman/implementation_plan.md
+ create mode 100644 youtube/Stickman/niche_research/archive/channel_matrix.md
+ create mode 100644 youtube/Stickman/niche_research/archive/key_channels_analysis.md
+ create mode 100644 youtube/Stickman/niche_research/final_analysis_and_launch_plan.md
+ create mode 100644 youtube/Stickman/niche_research/final_audit.md
+ create mode 100644 youtube/Stickman/niche_research/gap_analysis.md
+ create mode 100644 youtube/Stickman/niche_research/niche_research/EverythingProfessor_channel_report.md
+ create mode 100644 youtube/Stickman/niche_research/phase1_part1_topics_1_to_10.md
+ create mode 100644 youtube/Stickman/niche_research/phase1_part2_topics_11_to_20.md
+ create mode 100644 youtube/Stickman/niche_research/phase2_pattern_extraction.md
+ create mode 100644 youtube/Stickman/niche_research/strategy_audit.md
+ create mode 100644 youtube/Stickman/niche_research/top_20_video_topics.md
+ create mode 100644 youtube/Stickman/niche_research/vidiq_data_aug19.md
+ create mode 100644 youtube/Stickman/niche_research/vidiq_data_part1_launch_prep.md
+ create mode 100644 youtube/Stickman/niche_research/walkthrough.md
+ create mode 100644 youtube/Stickman/projects/01_banned_weapons/omni_flash_test_prompts i have created vidos too in burner mail.md
+ create mode 100644 youtube/Stickman/projects/01_banned_weapons/project_brief.md
+ create mode 100644 youtube/Stickman/projects/01_banned_weapons/research_notes.md
+ create mode 100644 youtube/Stickman/projects/01_banned_weapons/session_summary_aug22 - Copy.md
+ create mode 100644 youtube/Stickman/projects/01_banned_weapons/thumbnial/video1_thumbnail_prompts_v2.md
+ create mode 100644 youtube/Stickman/projects/01_banned_weapons/videos/Bullet_impacting_ballistic_gel_202608271710.mp4
+ create mode 100644 youtube/Stickman/projects/01_banned_weapons/videos/Dictionary_stamped_as_banned_202608271710.mp4
+ create mode 100644 youtube/Stickman/projects/01_banned_weapons/videos/Medusa_turning_warrior_to_stone_202608271710.mp4
+ create mode 100644 youtube/Stickman/projects/01_banned_weapons/videos/Trojan_horse_soldiers_opening_gates_202608271710.mp4
+ create mode 100644 youtube/Stickman/projects/02_banned_books/project_brief.md
+ create mode 100644 youtube/Stickman/projects/03_dumb_war_tactics/project_brief.md
+ create mode 100644 youtube/Stickman/projects/04_greek_mythology_monsters/project_brief.md
+ create mode 100644 youtube/Stickman/projects/05_bullet_types/project_brief.md
+ create mode 100644 youtube/Stickman/vidiq_reference.md
+ create mode 100644 youtube/mainim/ffmpeg/ffmpeg.exe
+ create mode 100644 youtube/mainim/ffmpeg/ffplay.exe
+ create mode 100644 youtube/mainim/ffmpeg/ffprobe.exe
+ create mode 100644 youtube/mainim/idea to use in video.txt
+ create mode 100644 youtube/mainim/latex-guide-for-creators.md
+

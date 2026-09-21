@@ -1,0 +1,69 @@
+
+The command exited with code 1.
+Output:
+<truncated 11013 lines>
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/db/get-object-from-db.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/db/open-db.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/db/put-object.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/delete-model.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/download-model.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/download-whisper-model.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/get-available-models.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/get-loaded-models.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/get-model-url.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/index.module.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/index.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/load-mod/load-mod.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/log.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/mod.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/print-handler.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/resample-to-16khz.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/result.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/simulate-progress.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/to-captions.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/transcribe.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/src/transcription-speed.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/whisper-web/tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types-v3/.npmignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types-v3/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types-v3/bundle.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types-v3/eslint.config.mjs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types-v3/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types-v3/src/index.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types-v3/src/z-color.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types-v3/src/z-matrix.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types-v3/src/z-textarea.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types-v3/tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types/.npmignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types/bundle.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types/eslint.config.mjs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types/src/index.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types/src/z-color.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types/src/z-matrix.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types/src/z-textarea.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/zod-types/tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/pre-commit.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/publish.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/scripts/repro-docs-build-oom.sh', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/set-version.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/turbo.json', LF will be replaced by CRLF the next time Git touches it
+error: 'youtube/Stickman/stikaman-test/' does not have a commit checked out
+error: unable to index file 'youtube/Stickman/stikaman-test/'
+fatal: adding files failed
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'renu5@PRIYANSHU.(none)')
+

@@ -1,0 +1,14 @@
+
+The command exited with code 0.
+Output:
+### dY` You
+<USER_REQUEST>
+does  this cna work i grabed it and her is the api keys : [REDACTED_GCP_TOKEN] and is it can realy make video exacly like omini flah give me promt i will give it to flow to text for comperison do it 
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-08-25T04:42:03+05:30.
+</ADDITIONAL_METADATA>
+
+---
+
+

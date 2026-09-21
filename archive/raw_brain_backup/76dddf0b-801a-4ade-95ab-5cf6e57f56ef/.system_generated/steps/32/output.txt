@@ -1,0 +1,13 @@
+Task: 76dddf0b-801a-4ade-95ab-5cf6e57f56ef/task-28
+Status: RUNNING
+Log: C:\Users\renu5\.gemini\antigravity\brain\76dddf0b-801a-4ade-95ab-5cf6e57f56ef\.system_generated\tasks\task-28.log
+Log output:
+<truncated 865 lines>
+the working copy of 'youtube/Stickman/remotion-main/packages/compositor-linux-x64-musl/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/compositor-linux-x64-musl/index.mjs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/compositor-linux-x64-musl/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/compositor-win32-x64-msvc/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/compositor-win32-x64-msvc/.npmignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/compositor-win32-x64-msvc/README.md', LF will be replaced by CRLF the next time Git touches it
+
+Last progress: 0s ago

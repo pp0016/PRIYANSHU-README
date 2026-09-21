@@ -1,0 +1,53 @@
+
+Encountered error in step execution: context canceled
+Output:
+<truncated 3080 lines>
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/about/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/ai-embed.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/ai.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/contact/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/design/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/experimental_new/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/experts/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/lambda/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/player/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/prompts/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/prompts/show.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/prompts/submit.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/showcase/add.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/showcase/header.module.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/showcase/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/showcase/styles.module.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/styles.module.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/pages/templates/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/raw-markdown/replace-components.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/remotion/AllTemplates.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/remotion/Article.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/remotion/Expert.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/remotion/Root.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/remotion/Template.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/remotion/entry.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/remotion/font.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/test/elements.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/test/middleware.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/test/raw-markdown-carrier.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/test/replace-raw-markdown-components.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/test/shape-component-drag-data.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/test/showcase.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/test/system-prompt.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/test/upload-element-preview.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/theme/BackToTopButton/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/theme/DocBreadcrumbs/icons.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/theme/DocBreadcrumbs/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/theme/EditThisPage/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/theme/Footer/Layout/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/theme/Footer/Links/MultiColumn/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/theme/Footer/Links/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/theme/Footer/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/theme/Layout/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/theme/MDXComponents.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/src/theme/RawMarkdownCarrier/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/static/experimental_new/frame.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/docs/static/img/background-hire-page.svg', LF will be replaced by CRLF the next time Git touches it
+

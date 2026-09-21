@@ -1,0 +1,9 @@
+
+The command exited with code 0.
+Output:
+Auto packing the repository for optimum performance.
+See "git help gc" for manual housekeeping.
+Nothing new to pack.
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+Already up to date.
+

@@ -1,0 +1,13 @@
+Task: 76dddf0b-801a-4ade-95ab-5cf6e57f56ef/task-28
+Status: RUNNING
+Log: C:\Users\renu5\.gemini\antigravity\brain\76dddf0b-801a-4ade-95ab-5cf6e57f56ef\.system_generated\tasks\task-28.log
+Log output:
+<truncated 831 lines>
+ng: in the working copy of 'youtube/Stickman/remotion-main/packages/compliance/a11y/studio/VPAT-2026-04-14.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/compositor-darwin-arm64/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/compositor-darwin-arm64/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/compositor-darwin-arm64/index.d.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/compositor-darwin-arm64/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'youtube/Stickman/remotion-main/packages/compositor-darwin-arm64/index.mjs', LF will be replaced by CRLF the next time Git touches it
+
+Last progress: 0s ago

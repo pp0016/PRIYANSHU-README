@@ -1,0 +1,24 @@
+Task: 76dddf0b-801a-4ade-95ab-5cf6e57f56ef/task-210
+Status: DONE
+Log: C:\Users\renu5\.gemini\antigravity\brain\76dddf0b-801a-4ade-95ab-5cf6e57f56ef\.system_generated\tasks\task-210.log
+Log output:
+<truncated 36 lines>
+
+remote:        https://github.com/pp0016/PRIYANSHU-README/security/secret-scanning/unblock-secret/3JNp3q5u3iXV6icSGQnqJCOrP4X        
+remote:             
+remote:             
+remote:       —— GitHub Personal Access Token ——————————————————————        
+remote:        locations:        
+remote:          - commit: 5c452a834c460ad62542484974741d6adf13e011        
+remote:            path: work/backfilled_chats_summary.md:3605        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/pp0016/PRIYANSHU-README/security/secret-scanning/unblock-secret/3JNp3oXxHmBf21JFJoeQ2Xoxsyp        
+remote:             
+remote: 
+remote: 
+To https://github.com/pp0016/PRIYANSHU-README.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/pp0016/PRIYANSHU-README.git'
+
+Last progress: 6s ago

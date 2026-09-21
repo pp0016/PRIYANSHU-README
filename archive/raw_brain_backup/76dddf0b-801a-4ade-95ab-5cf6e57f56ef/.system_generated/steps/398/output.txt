@@ -1,0 +1,11 @@
+Task: 76dddf0b-801a-4ade-95ab-5cf6e57f56ef/task-366
+Status: RUNNING
+Log: C:\Users\renu5\.gemini\antigravity\brain\76dddf0b-801a-4ade-95ab-5cf6e57f56ef\.system_generated\tasks\task-366.log
+Log output:
+<truncated 1781 lines>
+\manim_venv\Lib\site-packages\numpy\_core\__pycache__\_exceptions.cpython-311.pyc: 'utf-8' codec can't decode byte 0xa7 in position 0: invalid start byte
+Failed to clean c:\Users\renu5\Downloads\priyanshu readme\archive\raw_brain_backup\4f46c5d7-aaf4-4f5d-a8ca-eac2a671a001\scratch\manim_venv\Lib\site-packages\numpy\_core\__pycache__\_internal.cpython-311.pyc: 'utf-8' codec can't decode byte 0xa7 in position 0: invalid start byte
+Failed to clean c:\Users\renu5\Downloads\priyanshu readme\archive\raw_brain_backup\4f46c5d7-aaf4-4f5d-a8ca-eac2a671a001\scratch\manim_venv\Lib\site-packages\numpy\_core\__pycache__\_methods.cpython-311.pyc: 'utf-8' codec can't decode byte 0xa7 in position 0: invalid start byte
+Failed to clean c:\Users\renu5\Downloads\priyanshu readme\archive\raw_brain_backup\4f46c5d7-aaf4-4f5d-a8ca-eac2a671a001\scratch\manim_venv\Lib\site-packages\numpy\_core\__pycache__\_string_helpers.cpython-311.pyc: 'utf-8' codec can't decode byte 0xa7 in position 0: invalid start byte
+
+Last progress: 0s ago
