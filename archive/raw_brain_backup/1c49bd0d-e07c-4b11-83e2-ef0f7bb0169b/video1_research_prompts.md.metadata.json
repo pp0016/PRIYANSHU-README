@@ -1,0 +1,6 @@
+{
+  "summary": "Two production-ready prompts for Video 1 source research:\n\n**Prompt B (vidIQ - execute FIRST):** A 5-part question for vidIQ web app asking for reference videos to study, overused angles to avoid, fresh angles nobody covers, primary source documents, and current events tie-ins. Costs ~5 credits.\n\n**Prompt A (New AI Conversation - execute SECOND):** A full Opus Task Brief for Claude Opus 4.6 in a new Antigravity conversation. Tells the agent to read 4 context files, search the web for sources, compile a weapon longlist, recommend 12-15 weapons for the final video, identify overused facts and fresh angles, and save everything to research_notes.md in the project folder. Includes stop conditions, scope locks, and output format.\n\nIncludes instructions on execution order and what to do after both prompts are complete.",
+  "updatedAt": "2026-08-21T16:57:06.063519200Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

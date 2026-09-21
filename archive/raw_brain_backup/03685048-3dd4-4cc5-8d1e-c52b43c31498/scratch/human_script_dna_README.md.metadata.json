@@ -1,0 +1,4 @@
+{
+  "summary": "Complete project folder for the Human Script DNA extraction system. Contains the full workflow: (1) Select 5-8 top competitor videos, (2) Use Groq API with Whisper to transcribe audio, (3) Extract structural patterns (hooks, narrative bridges, source citations, emotional pacing), (4) Build a reusable 'script DNA template' that captures what makes human-written scripts feel human, (5) Apply /humanizer skill to strip AI tells, (6) Optionally test against vidIQ Script Writer to see if the system improves or degrades scripts. Designed to be handed off to a separate conversation for execution.",
+  "updatedAt": "2026-08-13T16:45:40.586266900Z"
+}

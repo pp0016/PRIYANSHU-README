@@ -1,0 +1,6 @@
+{
+  "summary": "Implementation plan for absorbing the massive Human Script DNA deliverables (187KB+ across 6 key .md files + 9 analysis reports + 9 transcripts) into a single, usable production prompt for script writing. The plan divides the work into 3 phases: (1) Digest and compress all DNA files into a compact 'Script DNA Cheatsheet' that fits in a conversation context, (2) Build the actual production prompt that combines the cheatsheet with topic selection, Remotion/Nano Banana visual planning, and ElevenLabs voice direction, (3) Create the script-writing skill so any new conversation can use it without re-reading 187KB of files. End goal: a single prompt you paste into a new conversation that produces a production-ready script on the first try.",
+  "updatedAt": "2026-08-17T08:56:45.321589800Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

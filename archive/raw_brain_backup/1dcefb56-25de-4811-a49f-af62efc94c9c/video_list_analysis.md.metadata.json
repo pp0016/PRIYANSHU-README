@@ -1,0 +1,5 @@
+{
+  "summary": "Updated video watch list organized by processing method. Videos split into 4 categories: (1) NotebookLM/Audio tier for strategy/talking-head content you can listen to during gym, (2) Gemini 2.5 Visual Analysis tier for tutorials where value is in what you see, (3) Practice tier for follow-along tutorials where you screen-record yourself doing it, (4) Skip/Delete for entertainment and duplicate videos. Each video has its priority week (1-4) assigned. Also includes a section on which videos to process through vidIQ web app features (Daily Ideas, Learn section). Total actionable videos reduced from 80+ to 22.",
+  "updatedAt": "2026-08-05T13:13:16.206135Z",
+  "userFacing": true
+}

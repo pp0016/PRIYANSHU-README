@@ -1,0 +1,5 @@
+- [x] Fix broken file paths and links
+    - [x] Build map of all `.md` files and their new absolute paths
+    - [x] Update broken links inside `.md` files to point to their new absolute paths
+- [x] Verify 0 broken links remain
+- [x] Provide walkthrough of changed files

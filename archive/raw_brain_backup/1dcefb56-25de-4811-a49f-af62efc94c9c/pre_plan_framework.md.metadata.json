@@ -1,0 +1,6 @@
+{
+  "summary": "Comprehensive pre-plan framework for the user's content creator journey. Contains:\n\n1. An honest audit of their current situation — 80+ queued videos (content hoarding), 2 channels splitting focus, ADHD-suspected brain patterns\n2. The 3-Tier Processing System refined for their specific tools: NotebookLM for text-heavy content, Gemini 2.5 for visual videos, screen recording for practice tutorials\n3. A full AI tool stack mapping with exact use cases (NotebookLM, Gemini, Antigravity/Opus, vidIQ MCP, ElevenLabs, Remotion)\n4. Schedule analysis: wake 8-9 PM, gym 6:30-9:30, sleep 1 AM — identifies only 4-6 real productive hours\n5. 13 critical questions the user MUST answer before the plan can be built\n6. Strategic recommendations: pick ONE primary channel for 90 days, use gym time for NotebookLM audio, batch content in groups of 3\n7. Recommends using /grill-me slash command next to lock down decisions interactively",
+  "updatedAt": "2026-08-05T10:59:41.986476Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

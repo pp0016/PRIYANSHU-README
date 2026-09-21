@@ -1,0 +1,6 @@
+{
+  "summary": "Top 20 video topics for the Stikaman channel ranked by a weighted composite score of keyword competition (lower = better, 40% weight), proven breakout multiplier from small channels (higher = better, 35% weight), and recency/trending signal (25% weight). Each topic includes the specific evidence: which small channel broke out, their sub count at the time, how many views they got, the breakout multiplier, and the keyword competition score. Topics span dark history, mythology, military/weapons, psychology, science, and nature — all using the 'Every X Explained' format. Designed for Priyanshu to pick his first video.",
+  "updatedAt": "2026-08-13T16:43:48.325477400Z",
+  "requestFeedback": true,
+  "userFacing": true
+}
