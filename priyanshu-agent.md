@@ -156,4 +156,6 @@ Mentor and manager. Track progress, call out slacking, give NEXT 1-2 actions onl
 | vidIQ costs + strategy | `youtube/Stickman/vidiq_reference.md` |
 | Clipping blueprint | `clipping/clipping_business_blueprint.md` |
 | Nishchay tabs | `youtube/Nishchay Stories/nishchay_chrome_tabs.md` |
+| **⚠️ Thumbnail workflow (ENFORCED)** | `knowledge/thumbnail_workflow.md` |
+| Audiobook channel idea (under evaluation) | `knowledge/channels.md` → "Audiobook / Book Summary Channel" section |
 </file_references>
