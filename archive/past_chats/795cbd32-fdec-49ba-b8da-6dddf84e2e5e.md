@@ -1,6 +1,6 @@
 # Chat Session: 795cbd32-fdec-49ba-b8da-6dddf84e2e5e
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 This is a side question from the user. You MUST answer directly in a single response. Your tools are disabled. You cannot read files, write files, run commands, search, or take any actions. You must complete your response in a single turn with no follow-up turns. Only use information already in the conversation context or your own knowledge. Never promise to take action or say "let me check...". Here is the question: now use only [hyperresearch](slashCommand;hyperresearch) [/goal](slashCommand;goal)  [last30days](slashCommand;last30days) so you can do it and answer of 1st i want both i want to cover all the nishe form low rpm to high and higher vides to to lower all about stikman so i have full prove dedicated report of 10 to 30 pages
 </USER_REQUEST>

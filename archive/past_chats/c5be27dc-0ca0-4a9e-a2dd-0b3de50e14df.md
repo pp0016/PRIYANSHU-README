@@ -1,6 +1,6 @@
 # Chat Session: c5be27dc-0ca0-4a9e-a2dd-0b3de50e14df
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 "C:\Users\renu5\Downloads\cliping first video\TNE with Louisa Nicola, Keith Rabois episode (1).mp4" convert this video into 3 parts and each of them should be under 400 MB use the FFmpeg. /video-compressor you don't have to compress the video as per the skill. Don't compress. There is a video format starting with H which allows every player to wath video just uset that format 
 </USER_REQUEST>
@@ -19,7 +19,7 @@ The user changed setting `Model Selection` from None to Gemini 3.1 Pro (High). N
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 "C:\Users\renu5\Downloads\nishe found\ffmpeg" use this continue 
 </USER_REQUEST>
@@ -29,7 +29,7 @@ The current local time is: 2026-08-13T01:42:58+05:30.
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Continue
 </USER_REQUEST>
@@ -68,7 +68,7 @@ You can now use these clips as needed! Let me know if there's anything else you'
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Who can do it better? You or Google AI studios or you can say Gemini website who can watch video perfectly and tell me for clipping like a human using eyes which content how much seconds can go viral on tell me very bulntly /anti-sycophancy /deep-researcher so i can use any of them and its capablities 
 </USER_REQUEST>
@@ -109,7 +109,7 @@ Go to **aistudio.google.com**, create a new prompt using **Gemini 1.5 Pro**, upl
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 canot the 3.1 pro can watch video better than 1.5 pro give rason yes or no 
 </USER_REQUEST>
@@ -136,7 +136,7 @@ This "yes" strictly applies to using the model inside **Google AI Studio** where
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 giveme one prompt which i can use for gemii 3.1pro not for 1.5 and waht are the factor required to make find a viral clip resrach and give the data as a prompt which i can use in aistudio of google /deep-researcher and find it out 
 </USER_REQUEST>
@@ -155,7 +155,7 @@ The user changed setting `Model Selection` from Gemini 3.1 Pro (High) to Claude 
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 giveme one prompt which i can use for gemii 3.1pro not for 1.5 and waht are the factor required to make find a viral clip resrach and give the data as a prompt which i can use in aistudio of google /deep-researcher and find it out and i want more than 20 sec video clip so do include it 
 </USER_REQUEST>
@@ -211,7 +211,7 @@ The prompt is ready in the artifact above. Here's what you need to know:
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 you have to use main video again for segment cutting becuse its still huge are you ready 
 </USER_REQUEST>
@@ -239,7 +239,7 @@ Once you give me the target, I'll run the FFmpeg script to cut the original 1.2 
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 tehse are the timing TOPICS DISCUSSED [00:00](https://www.youtube.com/watch?v=-zripXb3QRE) Intro: Stress, VO₂ Max, and the Traits of Elite Performers [00:35](https://www.youtube.com/watch?v=-zripXb3QRE&t=35s) Why Keith Rabois Treats Himself Like a Professional Athlete [03:18](https://www.youtube.com/watch?v=-zripXb3QRE&t=198s) Why VO₂ Max Predicts How Long You'll Live [05:06](https://www.youtube.com/watch?v=-zripXb3QRE&t=306s) Performance Medicine vs Traditional Medicine [08:34](https://www.youtube.com/watch?v=-zripXb3QRE&t=514s) The Biomarker Every Founder Should Track [09:52](https://www.youtube.com/watch?v=-zripXb3QRE&t=592s) Creatine, Omega-3s, and the Supplements That Actually Matter [12:02](https://www.youtube.com/watch?v=-zripXb3QRE&t=722s) Red Light Therapy, Cryotherapy, and Recovery [13:45](https://www.youtube.com/watch?v=-zripXb3QRE&t=825s) Why Better Health Makes Better Investors [15:35](https://www.youtube.com/watch?v=-zripXb3QRE&t=935s) The Habits Shared by Elite Performers [18:15](https://www.youtube.com/watch?v=-zripXb3QRE&t=1095s) Sleep, Resistance Training, and Cognitive Performance [22:44](https://www.youtube.com/watch?v=-zripXb3QRE&t=1364s) Reading the Encyclopedia Cover to Cover [26:00](https://www.youtube.com/watch?v=-zripXb3QRE&t=1560s) Why Every Successful Person Makes Time to Read [27:42](https://www.youtube.com/watch?v=-zripXb3QRE&t=1662s) How Keith Evaluates Talent [29:30](https://www.youtube.com/watch?v=-zripXb3QRE&t=1770s) Learning to Assess People in Minutes [33:02](https://www.youtube.com/watch?v=-zripXb3QRE&t=1982s) Spotting the DoorDash Founder Early [36:15](https://www.youtube.com/watch?v=-zripXb3QRE&t=2175s) What Makes Someone a "Barrel" [39:02](https://www.youtube.com/watch?v=-zripXb3QRE&t=2342s) Why Exercise Improves Decision Making [42:04](https://www.youtube.com/watch?v=-zripXb3QRE&t=2524s) The "No Days Off" Philosophy [43:46](https://www.youtube.com/watch?v=-zripXb3QRE&t=2626s) Why Keith Refuses Elective Brain Implants [50:28](https://www.youtube.com/watch?v=-zripXb3QRE&t=3028s) The Science Behind Embracing Stress [54:36](https://www.youtube.com/watch?v=-zripXb3QRE&t=3276s) Building High-Performance Teams [57:08](https://www.youtube.com/watch?v=-zripXb3QRE&t=3428s) Why Criticism Should Sometimes Be Public [59:00](https://www.youtube.com/watch?v=-zripXb3QRE&t=3540s) Optimizing Time by Combining Work and Relationships [01:01:24](https://www.youtube.com/watch?v=-zripXb3QRE&t=3684s) The Habit That Finally Made Him Quit Diet Coke [01:03:03](https://www.youtube.com/watch?v=-zripXb3QRE&t=3783s) Why Luck Is Really Preparation Meeting Opportunity
 </USER_REQUEST>
@@ -274,7 +274,7 @@ These file sizes are incredibly lightweight and will upload to Google AI Studio 
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 do you used main big video or 3 cliped videos one line asnwer
 </USER_REQUEST>
@@ -289,7 +289,7 @@ I used the main big video.
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 I'm facing a problem with AI Google Studios. What should I do now? I am uploading the video and it's not uploading inside because of the long videos. They are uncountable even though I have created them in very, very few parts. 
 </USER_REQUEST>
@@ -338,7 +338,7 @@ Once AI Studio gives you those timestamps (for example, "from 15:30 to 16:15"), 
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 
 Here are the 7 most viral-worthy segments from the video, ranked from highest to lowest virality score based on your strict criteria.
@@ -384,7 +384,7 @@ The current local time is: 2026-08-13T02:35:03+05:30.
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 
 be real and brutal cheak based on you intelegence to for audit and /teamwork-preview and i am going to give you videos list her it is : Here are the 7 most viral-worthy segments from the video, ranked from highest to lowest virality score based on your strict criteria.
@@ -500,7 +500,7 @@ Please review the draft above. If it looks good, just say **"Go"** or **"Run it"
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 just give me full with videos use the srt files too and use aikeys of groq for best wisper modle not local 
 </USER_REQUEST>
@@ -528,7 +528,7 @@ They have already spawned their internal orchestrator and are now actively build
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 waht the fuck is gooing on man i am giving ulimited permisions its always allow why cannot it just do it i have give more than 50 times do it by yourself and do all work fast 
 </USER_REQUEST>
@@ -556,7 +556,7 @@ Please **paste your Groq API key here** (it starts with `gsk_...`), and I will i
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 use it man where ever it is present i forgot it use it i have made it for you dont worry and soit fast so i can exprot it caption in capcut
 </USER_REQUEST>
@@ -584,7 +584,7 @@ Please, **just paste the `gsk_...` key right here in the chat**. The second you 
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 "C:\Users\renu5\Downloads\cliping first video\viral_pipeline\Clip 6.mp4" this video some early seconds are not present peron is ansdwring but question is not asked i want this clip properly read aorund the timing of this clip 6 and make what is the question cover it inshort so viewer can stop so start api keys are here : [REDACTED_GROQ_KEY] 
 </USER_REQUEST>
@@ -612,7 +612,7 @@ You are fully ready to drag these into CapCut and start exporting! Let me know i
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 why one agent is runnning what is its work sotop and give me reson 
 </USER_REQUEST>
@@ -635,7 +635,7 @@ There are zero subagents running and zero background tasks running. The system i
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 can you do face treacking of clip 1 and zoom as per requirement for 9:16 foramt or you need remotion or you can watch it and do it tell me 
 </USER_REQUEST>
@@ -645,7 +645,7 @@ The current local time is: 2026-08-13T03:30:15+05:30.
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 can you do face motion treacking of clip 1 and zoom as per requirement for 9:16 foramt or you need remotion or you can watch it and do it tell me 
 </USER_REQUEST>
@@ -699,7 +699,7 @@ Let me know if you need any other clips converted to vertical format or if you'r
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 It is not very smooth man. It's like walking like images. Images are going. I want keyframes to be very smooth for that. Its look will be professional. Do it again and do it fast. 
 </USER_REQUEST>
@@ -733,7 +733,7 @@ Take a look at it! The camera movements will now ease gently between points of i
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 This one is okay. I just want you to do it for all the videos that you have. The most important thing you have to do is click one again because you didn't show the speaker's face. I want the speaker's face always on the screen too. Both are present and face motion tracking is not working properly then you can go towards the speaker. We need multiple agents to do the work, like six to seven as per the clips count, and do this work properly. Go on to look at the previous one. We'll start now. /grill-me or better execution 
 </USER_REQUEST>
@@ -799,7 +799,7 @@ Let me know if there's absolutely anything else you need!
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Make these videos in a seperate folder of 9:16. 
 </USER_REQUEST>
@@ -821,7 +821,7 @@ This folder contains exactly what you need to drag straight into CapCut.
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 i have use the first video clip iwant to uplaod now watch the video content and give me the title and discirption and all the stuff by wathing it and thenuse vidiq for asking based on this content waht we should write all these hastaga and all the suff while uploading a youtube video 
 </USER_REQUEST>
@@ -844,7 +844,7 @@ Please check out the [youtube_upload_package.md](file:///C:/Users/renu5/.gemini/
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 This is the list of things the main creator, for whom I am doing the clipping, said in his campaign. What do I have to do and is there any mention of a platform I should use? Should I use Twitter only or can I upload it anywhere? Tell me very precisely. Here is the text.                          Locked for submissions
 This campaign is nearing the end of its budget. At this time, this campaign is locked for submissions. Please check back soon as the status may change.
@@ -956,7 +956,7 @@ To get approved and paid ($1.50 per 1,000 views, max $1,000 per post), you must 
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 So should I set up a computer for this person just telling is it wort it becuase new tiwter acoount can get views or not /deep-researcher and tell me 
 </USER_REQUEST>
@@ -981,7 +981,7 @@ I have drafted a Deep Research Plan. Please review the [implementation_plan.md](
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 proceed make multiple agents
 </USER_REQUEST>
@@ -1021,7 +1021,7 @@ If you are willing to pay $8 for **X Premium (Twitter Blue)** on that new accoun
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Open the Twitter website. We will create a new account and you will follow the most emerging pages on the internet so that my viewers can watch my videos too. use /agent-reach-skill so start you wrok 
 </USER_REQUEST>
@@ -1052,7 +1052,7 @@ Take a quick look. If you have already created the account and are logged into X
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Just open the Twitter from your site. I will log in to it. Everything I will do and from where you can take control of finding the pages to find based on my clipping I have done so we can upload it. 
 </USER_REQUEST>
@@ -1078,7 +1078,7 @@ Take your time getting the account set up and completing the CAPTCHAs. Just send
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Do once again open the Twitter. I will login. I have created the account and it's showing blank now. Do it fast. 
 </USER_REQUEST>
@@ -1100,7 +1100,7 @@ I am waiting for you to complete the login process! Reply back when you are read
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 I'm done with it and whatever it requires: research on the internet and watch and follow what other things will make my video the first video recommendation and can get impressions to it. I have opened the Twitter. 
 </USER_REQUEST>
@@ -1127,7 +1127,7 @@ Did you accidentally close the window or hit stop on your end? No worries if you
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Give me the direct links of the profiles. I will one by one follow all of them. 
 </USER_REQUEST>
@@ -1137,7 +1137,7 @@ The current local time is: 2026-08-13T14:22:14+05:30.
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Continue but give me this. Rather than this that you have, give me all that.  Give me the direct links of the profiles. I will one by one follow all of them. 
 </USER_REQUEST>
@@ -1171,7 +1171,7 @@ Just click through those, hit follow, hit the bell icon, and your new account wi
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 i have followed them can you just help me what to do now , and can you comment them or just can ty to comment on each of them so i can get reach do it by using /agent-reach-skill 
 </USER_REQUEST>
@@ -1216,7 +1216,7 @@ Your computer and account are perfectly set up. All 7 cinematic videos are in yo
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 the ting is i dont want these clips in 9:16 now i want in land scape the above clips we created can you rememver them and can you help me out in detial 
 </USER_REQUEST>
@@ -1226,7 +1226,7 @@ The current local time is: 2026-08-14T17:34:21+05:30.
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 the ting is i dont want these clips in 9:16 now i want in land scape the above clips we created can you rememver them and can you help me out in detial 
 </USER_REQUEST>
@@ -1243,7 +1243,7 @@ Take a look at the [implementation_plan.md](file:///C:/Users/renu5/.gemini/antig
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 do it
 </USER_REQUEST>
@@ -1274,7 +1274,7 @@ Let me know if you need anything else to get this Vyro campaign finished!
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 I want one video. Use ffmpeg to just clip it out randomly. I just want to use power shell terminal. Anything, can you use it or not? Just do it. 
 </USER_REQUEST>

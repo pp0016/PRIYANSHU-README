@@ -1,6 +1,6 @@
 # Chat Session: b75d3ef6-c7ea-497e-a92f-fe05edd5e5c3
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 "C:\Users\renu5\Downloads\Camera" Find out how many files are present over here in this camera folder and compress all of them, even images and videos, anything. Do it fast and tell me how much storage it is and how much it will be after using this skill.  /video-compressor 
 </USER_REQUEST>
@@ -19,7 +19,7 @@ The user changed setting `Model Selection` from None to Gemini 3.1 Pro (High). N
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 "C:\Users\renu5\Downloads\Camera" Find out how many files are present over here in this camera folder and compress all of them, even images and videos, anything. Do it fast and tell me how much storage it is and how much it will be after using this skill.  /video-compressor use FFmpeg. 
 </USER_REQUEST>
@@ -49,7 +49,7 @@ I'll notify you as soon as the compression finishes and report the exact amount 
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Do compress all the camera folders I have given you in the downloads path above. Bulk compressing. Don't leave anything. Do it fast by making 
 </USER_REQUEST>
@@ -82,7 +82,7 @@ The compressed files are located in a new `Compressed` folder within your `C:\Us
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Hi, find out which one is not compressed and which one is compressed. Replace the compressed one with the original one and delete the original files. The original files' names should be the same, which has been compressed even after they are compressed. This means the original name should be present when you move the folder to the original place. Do you understand or ask me? 
 </USER_REQUEST>
@@ -105,7 +105,7 @@ Your `Camera` folder now contains your **527 files**, retaining their original n
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 And you didn't give me any failed file names. How many files were failed? Tell me that too. What did you do with them? 
 </USER_REQUEST>
@@ -128,7 +128,7 @@ Since there were absolutely no failed files by the end of the second pass, I was
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Check it out. The deleted folder is not taking up any space in my storage or not. Delete from everywhere. the files which are the main and we have the compressed one so delete all the main files so don't take it does not take my storage in my disk 
 </USER_REQUEST>
@@ -149,7 +149,7 @@ Your disk has successfully and permanently reclaimed those 4 gigabytes of storag
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 "C:\Users\renu5\Downloads\New folder\Instagram" do same for this file compress in bulk and tell me how much GB are they and how much sorry how many failed so do it again if they failed after the compression and the name should be exactly same after creating compressed one create a new file of Instagram compressed inside the new folder and then after doing I will ask you or you can do it: how much failed and how much done. Based on that we will move and replace the main folders just do it now. 
 </USER_REQUEST>
@@ -173,7 +173,7 @@ After that, we can decide when to replace the original folder. I'll message you 
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 After each of the three minutes, give me the update on how much work is done. Do not interrupt the compress Instagram. Just you can find it out and tell me. Don't disturb the work. 
 </USER_REQUEST>
@@ -251,7 +251,7 @@ I'll continue waiting quietly in the background. You'll get your next update sho
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Complete the ongoing but I want you to create another agent which does your work of compression instagram.ps1. Another sub-agent that helps whenever you are starting the compression with a new one because it's taking a lot of time, do it and ask me only one time, allow permission, and do your work. 
 </USER_REQUEST>
@@ -278,7 +278,7 @@ I'll stay out of your way while the compression keeps running. See you in a few 
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Are you working with true sub-agents or not? If not, do it as I have told you above man. 
 </USER_REQUEST>
@@ -301,7 +301,7 @@ We can completely leave it alone now and do anything else you need!
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 You should have two sub-agents to do the work first. Are you doing it or not? 
 </USER_REQUEST>
@@ -342,7 +342,7 @@ However, because you already gave *me* permission to do this ("allow permission,
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 stop subagent continue with one agent only my loptop is hangiging
 </USER_REQUEST>
@@ -352,7 +352,7 @@ The current local time is: 2026-08-23T18:36:31+05:30.
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 I stopped the sub-agent. Now I want you to continue with only one sub-agent because my laptop is hanging a lot. How much is done and how much is left? Based on that start working. Don't leave anyone, check it out and start your work. 
 </USER_REQUEST>
@@ -378,7 +378,7 @@ It's running quietly in the background right now on those last 251 files. Becaus
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 After three minutes each, give me an update on  how much hair has done 
 </USER_REQUEST>
@@ -433,7 +433,7 @@ I will send another update in exactly 3 minutes.
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Do it a bit faster. 
 </USER_REQUEST>
@@ -484,7 +484,7 @@ I will be back in 3 minutes with another update.
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Do it a little bit faster. 
 </USER_REQUEST>
@@ -532,7 +532,7 @@ I will be back in 3 minutes with another update.
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 What happened to you man? 
 </USER_REQUEST>
@@ -551,7 +551,7 @@ I have already revived the sub-agent and kicked the compression back into gear f
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Are you continuing with 5 files as I have told you? 
 </USER_REQUEST>
@@ -604,7 +604,7 @@ I'll send the next update in exactly 3 minutes.
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 You are not showing up here in the chat. How much is done
 </USER_REQUEST>
@@ -728,7 +728,7 @@ Since everything was a complete success, **do I have your permission to overwrit
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Check it out: how much is done, how much failed, all of the things properly. 
 </USER_REQUEST>
@@ -753,7 +753,7 @@ Everything was completed flawlessly. Do I have your permission to overwrite the 
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Now delete the main original files, not the compressed file, by checking as you have checked. Delete the original files and replace with the new compressed file as they should have the same name. 
 </USER_REQUEST>
@@ -774,7 +774,7 @@ You have successfully reclaimed over **12 GB** of permanent storage space on you
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 ::{20D04FE0-3AEA-1069-A2D8-08002B30309D}\\\?\usb#vid_22d9&pid_2764#78a3c45d#{6ac27878-a6fa-4155-ba85-f98f491d4f33}       what is this? Is this the part of my phone? 
 </USER_REQUEST>
@@ -796,7 +796,7 @@ So whenever you see that exact string, it is literally just your OPPO/BBK phone 
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Can you find which folder is taking how much GB or MB so I can watch it out? 
 </USER_REQUEST>
@@ -833,7 +833,7 @@ If you'd like to dive into any of these (like that `recyled` or `Wan2GP` folder)
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 What is the work of Wan2GP 
 </USER_REQUEST>
@@ -859,7 +859,7 @@ If you are actively generating AI videos locally on your laptop using Wan2.2, yo
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Try to generate one video of a character IPS who is threatening the vegetable vendors and beating them. Tell me how many seconds does it support? 
 </USER_REQUEST>
@@ -881,7 +881,7 @@ If you'd like to get the software fully installed and working for a different, n
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Try to generate a 5-second video, as I told you, of Vendor and IPS. By using X-quad video content generating skill 
 </USER_REQUEST>
@@ -902,7 +902,7 @@ If you have a different scenario in mind that doesn't involve violence—such as
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 You can't generate a vendor return but you can give a prompt to the one to point two. It can generate it or generate a simple one IPS roaming around the Indian market just it. 
 </USER_REQUEST>
@@ -930,7 +930,7 @@ If you ever want to change the camera movement, just change the first sentence. 
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Now use wan one to create this video. 
 </USER_REQUEST>
@@ -952,7 +952,7 @@ You can just take the exact prompt I gave you above and copy-paste it directly i
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Do the full setup and start making the video as I told you and you created the prompt for it. Just do it fast. 
 </USER_REQUEST>
@@ -975,7 +975,7 @@ If you just want the video instantly without dealing with a 5GB installation, I 
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 What is going on? Are you downloading? What is going on? I can't understand. 
 </USER_REQUEST>
@@ -999,7 +999,7 @@ Take the prompt I wrote for you (the one about the IPS officer) and copy it. Go 
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Jimmy Kling Website 
 </USER_REQUEST>
@@ -1018,7 +1018,7 @@ Just click that link, sign up for a free account, and paste the prompt I wrote f
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Can my laptop be able to handle wan-2 GP and I've given you this insert in which my laptop's full specs are present. It tells me, before downloading, whether my laptop can handle it or not because I need a minimum of half an hour of clips because I'm making a short movie of 15 to 30 minutes tell me, should I use father models or should I download it? 
 </USER_REQUEST>
@@ -1032,7 +1032,7 @@ You can embed this image in an artifact if you need the USER to review it.
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Can my laptop be able to handle wan-2 GP and I've given you this insert in which my laptop's full specs are present. It tells me, before downloading, whether my laptop can handle it or not because I need a minimum of half an hour of clips because I'm making a short movie of 15 to 30 minutes tell me, should or should I download it? 
 </USER_REQUEST>
@@ -1064,7 +1064,7 @@ To make your 15-30 minute short movie, you should definitely use cloud-based AI 
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 C:\Users\renu5\Downloads\find-skill-repo\all github repos watch out all the tithag repos I have and tell me which one is not even worth it on a laptop because my laptop can't support it yet. And one question: how are all the lithographs downgraded with all of them? How do they work? Read all of the reading and tell me in one to two months what it works. Find out from the internet why people use them and which lithographs are the same. They may all just read fast. 
 </USER_REQUEST>
@@ -1074,7 +1074,7 @@ The current local time is: 2026-08-23T22:09:00+05:30.
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 C:\Users\renu5\Downloads\find-skill-repo\all github repos watch out all the tithag repos I have and tell me which one is not even worth it on a laptop because my laptop can't support it yet. And one question: how are all the lithographs downgraded with all of them? How do they work? Read all of the reading and tell me in one to two months what it works. Find out from the internet why people use them and which lithographs are the same. They may all just read fast. Make multiple agents to build first the required part on zones with a whole bit of repose. I'm keeping the size of the bit of repose and tell me if the remotion main folder is required or not because when I was using it, it was written We just have to use npx create-video@latest this only does not require any downloading of skill 
 </USER_REQUEST>
@@ -1117,7 +1117,7 @@ Would you like me to help you delete those heavy folders (`Wan2GP`, `unsloth`, `
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Ok first check it out, the general response and audit. Should I do it or not? Give me short perspectives of each of the answers Gemini gave for audit. Is it everything correct? What is not correct? In the end you can tell me a recommendation on what to do. 
 </USER_REQUEST>
@@ -1178,7 +1178,7 @@ Check the full report for the detailed breakdown and my final delete/keep recomm
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Give me a list of which one to delete as from above reported. 
 </USER_REQUEST>
@@ -1208,7 +1208,7 @@ Would you like me to go ahead and run the commands to automatically delete these
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 ok deltete them 
 </USER_REQUEST>
@@ -1231,7 +1231,7 @@ That will instantly clear out the 2.6 GB of unusable files for you!
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 go on 
 </USER_REQUEST>
@@ -1255,7 +1255,7 @@ Which path would you like to take to get started on the movie?
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 delte them now 
 </USER_REQUEST>
@@ -1277,7 +1277,7 @@ I'm fully caught up. Let me know what you'd like to work on next!
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 give me the list of skill which are not registered in slash and skill name so i can use them which are left but present in skill here is here is path of all tell me : "C:\Users\renu5\.gemini\config\skills\accidental-data-loss-prevention"
 "C:\Users\renu5\.gemini\config\skills\Agent-Reach"
@@ -1384,7 +1384,7 @@ Your `C:\Users\renu5\.gemini\config\skills\` folder should strictly be for AI sk
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 delete the first whole list airi (This is an AI VTuber app)
 comfyui (This is an AI image generation app)
@@ -1412,7 +1412,7 @@ I specifically left the three duplicates (`Agent-Reach`, `last30days-skill`, and
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 /agent-reach-skill is this the main skill that has connections then delete Agent-Reach if it doesnot have or tell me which on to delte 
 </USER_REQUEST>
@@ -1441,7 +1441,7 @@ I just went ahead and **deleted `Agent-Reach`** for you!
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 /last30days chaeckh for this too 
 </USER_REQUEST>
@@ -1464,7 +1464,7 @@ Your active `last30days` skill is perfectly intact, and your skills folder is no
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 /agent-skill-creator /skill-creator how many diffrences in both and which one is real skill 
 </USER_REQUEST>
@@ -1499,7 +1499,7 @@ You can easily keep both! But if you just want to write a quick skill for this s
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 other things about /agent-skill-creator top other 3 things that i have to know before deltein g
 </USER_REQUEST>
@@ -1531,7 +1531,7 @@ If you want to share a skill with your coworkers, it has a built-in engine to au
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 /agent-skill-creator delte this skill 
 </USER_REQUEST>
@@ -1554,7 +1554,7 @@ You're all set to just use the standard `/skill-creator` from now on. Is there a
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 waht are the cloud skills that are not required which are not made by me and they always come automaticlly give me the reason why they come and how to stop and give me the list to delete and read before giving me answe by multiple agents and i am a content creator so not other skill be thouched
 </USER_REQUEST>
@@ -1653,7 +1653,7 @@ Would you like me to go ahead and run the command to delete all 24 of these fold
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 delete them and tell me how they came and how can i fix so they donot caome again as i asked you inshort and donot thouch other skills only these : bigquery-ai-ml
 bigquery-bigframes
@@ -1698,7 +1698,7 @@ Your workspace is now completely clean and optimized purely for your YouTube con
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 "C:\Users\renu5\.gemini\config\skills\.datacloud_skills_manifest"    waht is this
 </USER_REQUEST>
@@ -1729,7 +1729,7 @@ Your environment is now 100% permanently optimized for a YouTube Content Creator
 
 ---
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 "C:\Users\renu5\.gemini\config\skills\accidental-data-loss-prevention"
 "C:\Users\renu5\.gemini\config\skills\managing-python-dependencies"

@@ -1,0 +1,26 @@
+# Chat Session: 8aa9bbc8-11eb-4ae4-afd7-3c10ae615a0e
+
+### 🧑 You
+<USER_REQUEST>
+You are a highly precise text formatting assistant. Read the PDF 'C:\Users\renu5\Downloads\PFDP 3 Cervical Special Tests .pdf' using view_file. Extract all the medical/special tests and their contents. STOP before any 'REVISION TABLE' or 'QUICK REVISION TABLE' or summary section at the end. Do not include page numbers. Format the extracted text into a highly condensed, punctuation-free, continuous block of text exactly following these rules:
+1. Single continuous block of text with single spacing. No newlines.
+2. Make all main topics and test names bold.
+3. Keep all numbers and bullet points (•) inline.
+4. Use exactly three dashes (---) as a divider before each main test/topic.
+5. NO PUNCTUATION: Remove all periods, commas, colons, semicolons, exclamation marks, question marks, brackets, hyphens in words, and apostrophes. Only numbers, bullets (•), dash dividers (---), and slashes (/) are allowed.
+6. Do NOT summarize or alter words.
+Output ONLY the formatted string.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-09-14T15:26:02+05:30.
+</ADDITIONAL_METADATA>
+
+---
+
+### 🤖 Antigravity
+**CERVICAL SPECIAL TESTS** --- **1 Spurlings Test /Foraminal Compression Test/** **PURPOSE** To assess cervical nerve root compression /cervical radiculopathy/ **PROCEDURE** • Patient sits comfortably • Extend laterally flex and rotate the head towards the affected side • Apply gentle downward compression on the head **POSITIVE SIGN** Radiating pain numbness or tingling into the upper limb **INDICATES** • Cervical nerve root compression • Cervical radiculopathy --- **2 Cervical Distraction Test** **PURPOSE** To assess cervical nerve root compression **PROCEDURE** • Patient lies supine • Therapist gently grasps the head and applies an upward traction force **POSITIVE SIGN** Relief of neck or arm pain **INDICATES** • Cervical radiculopathy • Foraminal compression --- **3 Upper Limb Tension Test /ULTT/** **PURPOSE** To assess neural tissue mobility and detect peripheral nerve or cervical nerve root involvement --- **ULTT 1 /MEDIAN NERVE BIAS/** **Procedure** • Depress the shoulder • Abduct the shoulder to 110 • Supinate the forearm • Extend the wrist and fingers • Externally rotate the shoulder • Slowly extend the elbow • Finally side flex the neck away if required **Positive Sign** • Pain tingling or numbness along the median nerve distribution • Difference in symptoms compared to the opposite side **Indicates** • Median nerve tension • Cervical radiculopathy --- **ULTT 2A /MEDIAN NERVE BIAS/** **Procedure** • Shoulder depression • Elbow extension • External rotation of shoulder • Forearm supination • Wrist and finger extension **Positive Sign** Reproduction of median nerve symptoms **Indicates** Median nerve irritation --- **ULTT 2B /RADIAL NERVE BIAS/** **Procedure** • Shoulder depression • Internal rotation of shoulder • Elbow extension • Forearm pronation • Wrist finger and thumb flexion with ulnar deviation **Positive Sign** Pain or tingling along the dorsolateral forearm and hand **Indicates** Radial nerve tension --- **ULTT 3 /ULNAR NERVE BIAS/** **
+<truncated 1677 bytes>
+ • The position places tension on the cervical nerve structures **POSITIVE SIGN** • Reproduction of the patients radiating pain/paresthesia into the upper limb **INDICATES** Possible cervical nerve root or brachial plexus involvement --- **3 PINCH GRIP TEST** **PURPOSE** To assess the function of the anterior interosseous nerve /AIN/ and flexor pollicis longus/index FDP function **PROCEDURE** • Ask the patient to make a pinch/OK sign by touching the tip of the thumb to the tip of the index finger • Observe the shape of the circle formed **POSITIVE SIGN** • Patient cannot make a proper round OK circle • Instead the pinch becomes flattened/pulp to pulp **INDICATES** Anterior interosseous nerve palsy/dysfunction --- **4 CARPAL COMPRESSION TEST** **PURPOSE** To assess for carpal tunnel syndrome due to median nerve compression **PROCEDURE** • Patients wrist is in a neutral position • Examiner applies direct pressure over the carpal tunnel with the thumbs/fingers • Maintain pressure for approximately 30 seconds **POSITIVE SIGN** • Reproduction of • Pain • Tingling • Numbness • Paresthesia in the median nerve distribution **INDICATES** Carpal Tunnel Syndrome / median nerve compression --- **5 HAND ELEVATION TEST** **PURPOSE** To assess for carpal tunnel syndrome/median nerve compression **PROCEDURE** • Patient raises both hands above the head • Maintain the elevated position for approximately 1 2 minutes • Ask the patient about symptoms **POSITIVE SIGN** • Reproduction of pain numbness or tingling in the median nerve distribution **INDICATES** Possible Carpal Tunnel Syndrome --- **6 FROMENTS SIGN** **PURPOSE** To assess the ulnar nerve particularly the function of adductor pollicis **PROCEDURE** • Ask the patient to hold a piece of paper between the thumb and index finger • Examiner attempts to pull the paper away **POSITIVE SIGN** Patient compensates by • Flexing the IP joint of the thumb using flexor pollicis longus **INDICATES** Ulnar nerve palsy/weakness of adductor pollicis
+
+---
+

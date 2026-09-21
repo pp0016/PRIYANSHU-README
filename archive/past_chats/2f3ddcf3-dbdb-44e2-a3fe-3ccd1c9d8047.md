@@ -1,6 +1,6 @@
 # Chat Session: 2f3ddcf3-dbdb-44e2-a3fe-3ccd1c9d8047
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 You need to restructure `c:\Users\renu5\Downloads\priyanshu readme\priyanshu-agent.md` to make it lightweight. Here's the EXACT new content for the entire file. Overwrite it completely.
 

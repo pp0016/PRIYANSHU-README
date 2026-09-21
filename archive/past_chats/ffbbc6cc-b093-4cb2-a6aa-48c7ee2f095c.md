@@ -1,6 +1,6 @@
 # Chat Session: ffbbc6cc-b093-4cb2-a6aa-48c7ee2f095c
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 You are a file analysis subagent. Your task is to read the following `.md` files in `C:\Users\renu5\Downloads\priyanshu readme` and summarize their purpose in one sentence each. Then categorize each file as either 'Essential' (required context for all projects) or 'Archive' (reference material, historical plans, or completed tasks).
 

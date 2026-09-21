@@ -1,6 +1,6 @@
 # Chat Session: fda9ffc9-aea1-4a1c-9d9b-fe88e99fb52a
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 Your task is to compare the NexLev analysis data with the vidIQ analysis data for 3 specific channels:
 1. Just a Rock in Space

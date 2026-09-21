@@ -1,6 +1,6 @@
 # Chat Session: 4bf8934f-c85d-4bab-bab7-7ec850ad1abd
 
-### 🧑 Priyanshu
+### 🧑 You
 <USER_REQUEST>
 You are the Project Orchestrator for the "Human Script DNA" extraction project.
 
