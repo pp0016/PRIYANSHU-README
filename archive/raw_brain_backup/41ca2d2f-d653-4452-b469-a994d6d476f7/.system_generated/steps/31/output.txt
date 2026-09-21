@@ -1,0 +1,45 @@
+The following changes were made by the replace_file_content tool to: C:\Users\renu5\.gemini\antigravity\brain\41ca2d2f-d653-4452-b469-a994d6d476f7\audiobook_niche_prompt_review.md. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -140,6 +140,28 @@
+ 
+ ---
+ 
++### Question 6 — TOP CHANNELS
++> *"Give me the top 5 Hindi and top 5 English audiobook/book summary channels right now (outside of my list below)"*
++
++Your given channels are the ones that motivated you — but they might be outliers. By asking for the TOP channels outside your list, you see the full competitive landscape. If the top channels are massive (1M+ subs, consistent views), the niche is proven. If even the top channels are struggling, it's a red flag.
++
++> *"I need this to judge if this niche is actually worth entering"*
++
++Tells the AI WHY you're asking — so it picks channels that actually represent niche health, not random small ones.
++
++---
++
++### Question 7 — FORMAT REPLICABILITY
++> *"Look at @EnglishAvenuee — this channel uses a simple format: real human voiceover + captions on whiteboard/background images"*
++
++This is your key insight. EnglishAvenuee proves that minimal production can earn big IF the format is right. The channel is human-made, not AI — but the format is so simple that AI could replicate it.
++
++> *"Can I replicate this exact simple format using AI tools and still get monetized without being flagged?"*
++
++This is the real question you're trying to answer with this entire research. Everything else (keywords, RPM, copyright) is secondary to this: "Can I build a channel this simple with AI and make money?"
++
++---
++
+ ### CHANNELS TO ANALYZE
+ > *"@SoulArcStudios, @LifeUpgrade27..."*
+ 
+@@ -146,7 +146,7 @@
+ 
+-> *"@EnglishAvenuee — this one looks like standard AI-generated content but appears monetized. Why hasn't it been flagged?"*
+-
+-This is your most important question buried in the channel list. By flagging it specifically, you force the AI to address the contradiction: "if AI content gets flagged, why is THIS channel fine?"
++> *"@EnglishAvenuee — this is NOT AI-generated. It's human voiceover with simple captions on background images."*
++
++Corrects the AI's assumption before it happens. Without this clarification, vidIQ will assume it's AI content and give you a wrong risk analysis. By telling it upfront "this is human-made but looks simple," you get an honest answer about whether AI replication of this format would survive.
+ 
+ > *"For each channel: subscribers, total views, upload frequency, average views per video, and estimated RPM range."*
+ 
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

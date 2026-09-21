@@ -1,0 +1,9 @@
+Created the following subagents:
+{
+  "conversationId": "e42e6913-a33d-45ec-a012-e731efd43eb7",
+  "logAbsoluteUri": "file:///C:/Users/renu5/.gemini/antigravity/brain/e42e6913-a33d-45ec-a012-e731efd43eb7/.system_generated/logs/transcript.jsonl",
+  "workspaceUris": [
+    "file:///c%3A/Users/renu5/Downloads/priyanshu%20readme"
+  ]
+}
+The subagents will send you a message when they have completed their task or require guidance. There is no need to poll for their responses.

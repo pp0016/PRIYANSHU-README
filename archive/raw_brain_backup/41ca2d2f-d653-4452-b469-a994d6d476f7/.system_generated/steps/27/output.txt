@@ -1,0 +1,34 @@
+The following changes were made by the replace_file_content tool to: C:\Users\renu5\.gemini\antigravity\brain\41ca2d2f-d653-4452-b469-a994d6d476f7\audiobook_niche_prompt_review.md. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -39,7 +39,7 @@
+ - Monetization: AdSense + book affiliate links + sponsorships
+ - Expansion: Spotify audio distribution if YouTube works
+ 
+-ANSWER THESE 5 THINGS:
++ANSWER THESE 7 THINGS:
+ 
+ 1. VIABILITY: Is the audiobook summary niche growing or saturated in 2025-2026? Give me realistic monthly search volume and competition level for keywords: "book summary", "audiobook summary", "audiobook full", "[popular book] summary" — check both Hindi and English.
+ 
+@@ -50,6 +50,10 @@
+ 
+ 5. HINDI vs ENGLISH: Based on current keyword data, which language has better growth potential for audiobook summaries? Consider: competition density, audience size, RPM, and number of existing channels.
+ 
++6. TOP CHANNELS: Give me the top 5 Hindi and top 5 English audiobook/book summary channels right now (outside of my list below). For each: subscribers, monthly views, upload frequency, average views per video, and estimated RPM. I need this to judge if this niche is actually worth entering.
++
++7. FORMAT REPLICABILITY: Look at @EnglishAvenuee — this channel uses a simple format: real human voiceover + captions on whiteboard/background images. Very minimal production. It's NOT AI-generated, it's human-made. Yet it earns extremely well. My question: Can I replicate this exact simple format using AI tools (AI voiceover instead of human, same caption-on-background style) and still get monetized without being flagged? What's the risk?
++
+ CHANNELS TO ANALYZE (these motivated me — check their performance, upload frequency, growth trajectory, and estimated RPM):
+ - @SoulArcStudios
+ - @LifeUpgrade27
+@@ -56,7 +56,7 @@
+ - @SwaroopSinghRajput
+ - @Antidote_thechannel
+ - @Elite_Audiobooks
+-- @EnglishAvenuee — this one looks like standard AI-generated content but appears monetized. Why hasn't it been flagged?
++- @EnglishAvenuee — this is NOT AI-generated. It's human voiceover with simple captions on background images. Very low production effort but high earnings. Analyze why this format works and whether I can replicate it with AI tools.
+ 
+ For each channel: subscribers, total views, upload frequency, average views per video, and estimated RPM range.
+ ```
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

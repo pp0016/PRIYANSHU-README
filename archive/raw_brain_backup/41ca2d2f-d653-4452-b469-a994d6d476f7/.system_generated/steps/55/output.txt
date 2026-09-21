@@ -1,0 +1,16 @@
+The following changes were made by the replace_file_content tool to: c:\Users\renu5\Downloads\priyanshu readme\CONTEXT.md. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -3,8 +3,9 @@
+ Master index of Priyanshu's workspace.
+ 
+ - **Identity**: Content creator using AI, focusing on YouTube and Clipping. See [knowledge/identity.md](knowledge/identity.md).
+-- **Channels**: Stickman (primary), Nishchay Stories (secondary), Clipping (side). See [knowledge/channels.md](knowledge/channels.md).
++- **Channels**: Stickman (primary), Nishchay Stories (secondary), Clipping (side), Audiobook/Book Summary (under evaluation). See [knowledge/channels.md](knowledge/channels.md).
+ - **Workflow & Schedule**: Priyanshu's daily schedule, task prioritization, and role of the agent. See [knowledge/workflow_and_schedule.md](knowledge/workflow_and_schedule.md).
+ - **ADHD System**: Rules and structure for managing ADHD and keeping Priyanshu on track. See [knowledge/adhd_system.md](knowledge/adhd_system.md).
+ - **Core Rules**: Non-negotiable session persistence and git rules. See [knowledge/core_rules.md](knowledge/core_rules.md).
++- **Thumbnail Workflow**: ENFORCED rule — always reverse-engineer outlier thumbnails via vidIQ before generating any thumbnail. See [knowledge/thumbnail_workflow.md](knowledge/thumbnail_workflow.md).
+ 
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

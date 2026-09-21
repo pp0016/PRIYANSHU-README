@@ -1,0 +1,35 @@
+
+The command exited with code 0.
+Output:
+Manim Community v0.21.0
+
+Animation 0: _MethodAnimation(ValueTracker), etc.:   0%|          | 0/180 [00:00<?, ?it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:   2%|1         | 3/180 [00:00<00:06, 27.26it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:   4%|3         | 7/180 [00:00<00:05, 29.67it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:   6%|6         | 11/180 [00:00<00:05, 30.56it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:   8%|8         | 15/180 [00:00<00:05, 30.41it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  11%|#         | 19/180 [00:00<00:05, 32.10it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  13%|#2        | 23/180 [00:00<00:04, 32.40it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  15%|#5        | 27/180 [00:00<00:04, 31.92it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  17%|#7        | 31/180 [00:00<00:04, 32.50it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  19%|#9        | 35/180 [00:01<00:04, 32.76it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  22%|##1       | 39/180 [00:01<00:04, 32.74it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  24%|##3       | 43/180 [00:01<00:04, 32.16it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  26%|##6       | 47/180 [00:01<00:04, 28.97it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  28%|##8       | 51/180 [00:01<00:04, 30.64it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  31%|###       | 55/180 [00:01<00:04, 31.21it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  33%|###2      | 59/180 [00:01<00:03, 32.31it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  35%|###5      | 63/180 [00:01<00:03, 32.64it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  37%|###7      | 67/180 [00:02<00:03, 32.99it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  39%|###9      | 71/180 [00:02<00:03, 33.82it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  42%|####1     | 75/180 [00:02<00:03, 34.02it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  44%|####3     | 79/180 [00:02<00:03, 32.08it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  46%|####6     | 83/180 [00:02<00:02, 33.89it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  48%|####8     | 87/180 [00:02<00:02, 34.76it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  51%|#####1    | 92/180 [00:02<00:02, 36.13it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  53%|#####3    | 96/180 [00:02<00:02, 36.65it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  56%|#####5    | 100/180 [00:03<00:02, 36.56it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  58%|#####7    | 104/180 [00:03<00:02, 36.47it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  61%|######    | 109/180 [00:03<00:01, 37.84it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  63%|######2   | 113/180 [00:03<00:01, 37.52it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  65%|######5   | 117/180 [00:03<00:01, 36.93it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  67%|######7   | 121/180 [00:03<00:01, 37.56it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  69%|######9   | 125/180 [00:03<00:01, 32.00it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  72%|#######1  | 129/180 [00:03<00:01, 31.61it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  74%|#######4  | 134/180 [00:04<00:01, 34.53it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  77%|#######7  | 139/180 [00:04<00:01, 36.31it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  79%|#######9  | 143/180 [00:04<00:01, 36.30it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  82%|########2 | 148/180 [00:04<00:00, 38.19it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  84%|########4 | 152/180 [00:04<00:00, 37.07it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  87%|########6 | 156/180 [00:04<00:00, 34.90it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  89%|########8 | 160/180 [00:04<00:00, 32.60it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  91%|#########1| 164/180 [00:04<00:00, 31.26it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  93%|#########3| 168/180 [00:04<00:00, 33.19it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  96%|#########5| 172/180 [00:05<00:00, 34.93it/s]Animation 0: _MethodAnimation(ValueTracker), etc.:  98%|#########7| 176/180 [00:05<00:00, 36.06it/s]Animation 0: _MethodAnimation(ValueTracker), etc.: 100%|##########| 180/180 [00:05<00:00, 36.03it/s]                                                                                                    [09/13/26 13:04:06] INFO     Animation 0 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\wal                         
+                             king_agent_1\720p30\parti                         
+                             al_movie_files\WalkingAge                         
+                             nt1\98658533_768246656_23                         
+                             83403990.mp4'                                     
+[09/13/26 13:04:07] INFO     Animation 1 : Partial     scene_file_writer.py:192
+                             movie file written in                             
+                             'C:\Users\renu5\.gemini\a                         
+                             ntigravity\scratch\manim-                         
+                             projects\media\videos\wal                         
+                             king_agent_1\720p30\parti                         
+                             al_movie_files\WalkingAge                         
+                             nt1\3017413088_2186781363                         
+                             _3557283775.mp4'                                  
+                    INFO     Combining to Movie file.  scene_file_writer.py:952
+                    INFO                              scene_file_writer.py:1103
+                             File ready at                                     
+                             'C:\Users\renu5\.gemini\                          
+                             antigravity\scratch\mani                          
+                             m-projects\media\videos\                          
+                             walking_agent_1\720p30\W                          
+                             alkingAgent1.mp4'                                 
+                                                                               
+                    INFO     Rendered WalkingAgent1                scene.py:290
+                             Played 2 animations                               
+

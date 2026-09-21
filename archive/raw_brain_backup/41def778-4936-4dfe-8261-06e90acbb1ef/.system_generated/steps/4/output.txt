@@ -1,0 +1,11 @@
+
+The command exited with code 1.
+Output:
+mkdir : An item with the specified name C:\Users\renu5\.gemini\antigravity\scratch\manim-projects already exists.
+At line:1 char:1
++ mkdir -p C:\Users\renu5\.gemini\antigravity\scratch\manim-projects
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\renu5\...\manim-projects:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+ 
+

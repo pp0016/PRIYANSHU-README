@@ -1,0 +1,27 @@
+The following changes were made by the replace_file_content tool to: C:\Users\renu5\.gemini\antigravity\brain\41ca2d2f-d653-4452-b469-a994d6d476f7\audiobook_niche_prompt_review.md. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -164,6 +164,21 @@
+ 
+ ---
+ 
++### Question 8 — OTHER NICHES
++> *"What are 5-10 other YouTube niches where this same low-effort format works"*
++
++This is your escape hatch. If audiobook summaries turn out to be too risky or saturated, you need backup niches that use the SAME production pipeline (AI voice + captions + simple images). By asking for 5-10 alternatives, you're not locked into one niche.
++
++> *"AI voiceover + simple visuals (captions over images, whiteboard style, or static backgrounds) + minimal editing = good earnings"*
++
++This description is extremely specific about what "simple format" means. Without it, the AI might suggest niches that need fancy 3D animation or face-on-camera — useless to you.
++
++> *"I want niches where the content itself carries the value (not fancy visuals)"*
++
++This is the key filter. In audiobooks and educational content, people listen — they don't watch. The audio IS the product. This line forces the AI to only suggest niches where that's true.
++
++---
++
+ ### CHANNELS TO ANALYZE
+ > *"@SoulArcStudios, @LifeUpgrade27..."*
+ 
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

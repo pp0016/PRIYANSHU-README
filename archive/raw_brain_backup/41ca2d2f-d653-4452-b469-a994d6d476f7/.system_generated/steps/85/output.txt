@@ -1,0 +1,18 @@
+The following changes were made by the replace_file_content tool to: c:\Users\renu5\Downloads\priyanshu readme\priyanshu-agent.md. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -75,6 +75,12 @@
+ ### Clipping (Side)
+ Whop + Vyro. Details in `clipping/` folder. Lower priority, editing practice.
+ 
++### Audiobook / Book Summary (Under Evaluation — Sept 2026)
++Book summaries (public domain + copyrighted bestsellers). 45 min to 3 hrs. Hindi + English.
++~90% AI production, simple visuals (captions on images). Still in research phase — evaluating viability.
++**For idea, pipeline, thumbnail method, and status → read `youtube/Audiobook Book Summary/implementation_plan.md`**
++**For YouTube policy risks and copyright analysis → read `youtube/Audiobook Book Summary/risk_notes.md`**
++
+ ### Dismissed
+ Any other channel visible in screenshots = burner, ignore.
+ </channels>
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

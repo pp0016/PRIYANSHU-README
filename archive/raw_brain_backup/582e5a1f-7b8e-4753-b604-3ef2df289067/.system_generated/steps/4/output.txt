@@ -1,0 +1,53 @@
+
+The command exited with code 1.
+Output:
+Manim Community v0.21.0
+
++--------------------- Traceback (most recent call last) ---------------------+
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\cli\render\commands.py:125 in render                            |
+|                                                                             |
+|   122             try:                                                      |
+|   123                 with tempconfig({}):                                  |
+|   124                     scene = SceneClass()                              |
+| > 125                     scene.render()                                    |
+|   126             except Exception:                                         |
+|   127                 error_console.print_exception()                       |
+|   128                 sys.exit(1)                                           |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\scene\scene.py:259 in render                                    |
+|                                                                             |
+|    256         """                                                          |
+|    257         self.setup()                                                 |
+|    258         try:                                                         |
+| >  259             self.construct()                                         |
+|    260         except EndSceneEarlyException:                               |
+|    261             pass                                                     |
+|    262         except RerunSceneException:                                  |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\walking_agent_5.p |
+| y:56 in construct                                                           |
+|                                                                             |
+|    53                                                                       |
+|    54         smile = Arc(radius=0.4, start_angle=5*PI/4, angle=PI/2, color |
+|    55                                                                       |
+| >  56         laugh_mouth = Sector(outer_radius=0.4, angle=PI, start_angle= |
+|    57         laugh_mouth.stretch(0.7, dim=1)                               |
+|    58         laugh_mouth.set_opacity(0)                                    |
+|    59                                                                       |
+|                                                                             |
+| C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Lib\site-pac |
+| kages\manim\mobject\geometry\arc.py:1043 in __init__                        |
+|                                                                             |
+|   1040     """                                                              |
+|   1041                                                                      |
+|   1042     def __init__(self, radius: float = 1, **kwargs: Any) -> None:    |
+| > 1043         super().__init__(inner_radius=0, outer_radius=radius, **kwar |
+|   1044                                                                      |
+|   1045                                                                      |
+|   1046 class Annulus(Circle):                                               |
++-----------------------------------------------------------------------------+
+TypeError: manim.mobject.geometry.arc.AnnularSector.__init__() got multiple 
+values for keyword argument 'outer_radius'
+

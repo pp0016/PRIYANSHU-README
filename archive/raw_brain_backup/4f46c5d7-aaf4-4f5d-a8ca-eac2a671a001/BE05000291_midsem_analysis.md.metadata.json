@@ -1,0 +1,6 @@
+{
+  "summary": "Complete forensic PYQ analysis for Heat Transfer (BE05000291) mid-sem exam (30 marks). Covers:\n\n1. Syllabus boundary verification — exactly what's IN scope across CO-1 (Conduction + Fins), CO-2 (Convection), CO-3 (Radiation)\n2. Six danger zones of OUT-of-scope topics that appear heavily in PYQs (transient conduction, heat exchangers, boiling/condensation, radiation shields, Blasius, thermometer well)\n3. Topic frequency tables for all three COs with Tier 1/2/3 classification based on 9 PYQ papers (W22-W25, S22-S26)\n4. Strategy A (20/30 marks, ~6-8 hours) — Tier 1 theory + one derivation + critical radius/composite wall\n5. Strategy B (25/30 marks, ~12-15 hours) — adds fin numericals, Buckingham π, radiation laws, convection numericals\n6. 27 key formulas organized by CO\n7. Honest risk assessment of where the analysis could be wrong\n8. Coaching transition for active recall drilling",
+  "updatedAt": "2026-08-30T11:29:28.533801300Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

@@ -1,0 +1,23 @@
+The following changes were made by the replace_file_content tool to: C:\Users\renu5\.gemini\antigravity\brain\41ca2d2f-d653-4452-b469-a994d6d476f7\audiobook_niche_prompt_review.md. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -39,7 +39,7 @@
+ - Monetization: AdSense + book affiliate links + sponsorships
+ - Expansion: Spotify audio distribution if YouTube works
+ 
+-ANSWER THESE 7 THINGS:
++ANSWER THESE 8 THINGS:
+ 
+ 1. VIABILITY: Is the audiobook summary niche growing or saturated in 2025-2026? Give me realistic monthly search volume and competition level for keywords: "book summary", "audiobook summary", "audiobook full", "[popular book] summary" — check both Hindi and English.
+ 
+@@ -54,6 +54,8 @@
+ 
+ 7. FORMAT REPLICABILITY: Look at @EnglishAvenuee — this channel uses a simple format: real human voiceover + captions on whiteboard/background images. Very minimal production. It's NOT AI-generated, it's human-made. Yet it earns extremely well. My question: Can I replicate this exact simple format using AI tools (AI voiceover instead of human, same caption-on-background style) and still get monetized without being flagged? What's the risk?
+ 
++8. OTHER NICHES WITH THIS FORMAT: Beyond audiobook summaries, what are 5-10 other YouTube niches where this same low-effort format works — meaning: AI voiceover + simple visuals (captions over images, whiteboard style, or static backgrounds) + minimal editing = good earnings? For each niche, give me: one example channel that's doing well, their estimated RPM, and why this simple format works in that niche. I want niches where the content itself carries the value (not fancy visuals), so AI voice + basic captions is enough.
++
+ CHANNELS TO ANALYZE (these motivated me — check their performance, upload frequency, growth trajectory, and estimated RPM):
+ - @SoulArcStudios
+ - @LifeUpgrade27
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.
