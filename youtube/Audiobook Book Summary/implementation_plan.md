@@ -49,9 +49,12 @@ Step 1: BOOK SELECTION
     → Check if public domain or copyrighted (changes approach)
 
 Step 2: SCRIPT (Day 1)
-    → AI generates summary draft
+    → Pull transcripts from 5-10 top competitor videos on the topic
+    → Have AI extract the most engaging/high-retention lines from all of them
+    → Drop these lines into a proven script structure/format
+    → Have AI write new connecting lines for flow and engagement
+    → **MANDATORY HUMAN ELEMENT:** Add a "crazy example story" or personal take related to the book to force originality
     → YOU read and quality-check the script manually
-    → Rewrite hook, transitions, add your own takes
     → Run through /humanizer + /ai-writing-gaps + /stop-slop
     → Save as script_v1.md in project folder
 

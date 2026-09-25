@@ -8,3 +8,4 @@ Master index of Priyanshu's workspace.
 - **ADHD System**: Rules and structure for managing ADHD and keeping Priyanshu on track. See [knowledge/adhd_system.md](knowledge/adhd_system.md).
 - **Core Rules**: Non-negotiable session persistence and git rules. See [knowledge/core_rules.md](knowledge/core_rules.md).
 - **Thumbnail Workflow**: ENFORCED rule — always reverse-engineer outlier thumbnails via vidIQ before generating any thumbnail. See [knowledge/thumbnail_workflow.md](knowledge/thumbnail_workflow.md).
+- **Scripting Workflow**: ENFORCED rule — 5-10 transcript aggregation + Opus 4.6 + crazy story injection. See [knowledge/scripting_workflow.md](knowledge/scripting_workflow.md).

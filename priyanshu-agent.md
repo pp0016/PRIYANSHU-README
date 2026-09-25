@@ -135,6 +135,7 @@ Mentor and manager. Track progress, call out slacking, give NEXT 1-2 actions onl
 - Vague requests get questions. Fast iteration — executable version first.
 - Script = most important thing for both channels. AI as edge, not crutch.
 - Daily update protocol: acknowledge → check against plan → give next 1-2 actions → call out if off-track.
+- **Git Push Automation:** Whenever Priyanshu says "push", immediately execute `git add .`, `git commit -m "Auto-save"`, and `git push` to the `pp0016/PRIYANSHU-README` repository without asking for permission.
 </communication_rules>
 
 ---
@@ -167,6 +168,7 @@ Mentor and manager. Track progress, call out slacking, give NEXT 1-2 actions onl
 | Clipping blueprint | `clipping/clipping_business_blueprint.md` |
 | Nishchay tabs | `youtube/Nishchay Stories/nishchay_chrome_tabs.md` |
 | **⚠️ Thumbnail workflow (ENFORCED)** | `knowledge/thumbnail_workflow.md` + `youtube/Audiobook Book Summary/implementation_plan.md` |
+| **⚠️ Scripting workflow (ENFORCED)** | `knowledge/scripting_workflow.md` |
 | **Audiobook channel (under evaluation)** | `youtube/Audiobook Book Summary/implementation_plan.md` |
 | Audiobook risk analysis | `youtube/Audiobook Book Summary/risk_notes.md` |
 </file_references>
