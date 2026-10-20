@@ -267,3 +267,129 @@
 - **spy_competitor.py**: Your custom script for YouTube competitor analysis — channel tracking, outlier detection, keyword gap analysis. Check if it still runs; dependencies and API keys may need refreshing.
 - **Grok**: X/Twitter's AI. Used in 3-model council for script generation as a third opinion alongside Gemini and Claude.
 - **google-genai**: Gemini Python API. Direct video analysis, transcript processing, and programmatic AI calls from scripts.
+
+## new find 2026-10-07: `google-genai` (Python SDK)
+
+**What it is:** The official Python SDK for Google's Gemini models. Unlike standard web interfaces, this is a programmatic "factory engine" that allows AI agents to build multi-step, autonomous content pipelines, bypass manual copy-pasting, and avoid web app crashes.
+
+### 🧠 Core Capabilities
+1. **Data Synthesis (Structured Outputs):** Uses Pydantic schemas (`response_schema`) to force the AI to return strict JSON data instead of conversational text. Perfect for converting messy research outputs into clean data variables.
+2. **Function Calling (Tool Binding):** Connects to existing CLI commands. The AI can decide *when* to trigger research scripts based on the context of the prompt.
+3. **Orchestration Dependency:** The SDK is just the brain client. True multi-agent pipelines require wrapping these SDK calls inside an external framework like `ruflo`.
+
+---
+
+### 🚀 Content Creator Automation Pipelines (Use Cases)
+
+#### 1. The Headless "Stickman" Video Orchestrator
+Instead of chatting to generate a script, the SDK acts as an end-to-end compiler for the Stickman pipeline.
+* **The Pipeline:** The script chains two API calls. Call A writes the script enforcing humanizer rules. Call B assigns visual tags.
+* **The Output:** By enforcing JSON schemas, the SDK outputs a fully valid Remotion `.tsx` React file and an array of Nano Banana 2 image prompts, completely bypassing Manim and ready to be sent to GitHub Actions for rendering.
+
+#### 2. Competitor "Tension Curve" Hacking (Nishchay Study Mode)
+* **The Pipeline:** Pulls 10 competitor transcripts and 50 Reddit sentiment threads. 
+* **The Output:** The SDK ingests all of this simultaneously (using its massive multimodal context window) and outputs a forensic JSON breakdown of where the competitors place their retention hooks, giving you a mathematical blueprint for your next script.
+
+#### 3. The Audiobook "Crazy Story" Injector
+* **The Pipeline:** Automates the strictly enforced rule from `scripting_workflow.md`. 
+* **The Output:** A chained SDK script extracts high-retention lines from transcripts, drops them into your structural frame, and programmatically injects a bizarre historical anecdote ("crazy example story") to guarantee algorithmic originality.
+
+#### 4. The Multimodal B-Roll Matcher
+* **The Pipeline:** The SDK natively understands video/audio files. A script loops through your raw voiceover audio and a folder of random B-roll clips.
+* **The Output:** It maps the emotional tone of your audio to the exact timestamp of the matching B-roll clip, outputting an XML/JSON timeline file that can be dragged straight into Premiere or CapCut.
+
+---
+
+### 🤖 AI AUTO-TRIGGER: INSTRUCTIONS FOR THE AI READING THIS TOOLKIT
+*(Note to AI: If you are an agent reading this `toolkit.md` file in Priyanshu's workspace, you must execute the following protocol immediately without being asked):*
+
+1. **Rule:** DO NOT go read the specific skills mentioned in the examples above (like `/deep-researcher` or `/platform-researcher`). They are provided here strictly as conceptual examples of how tool integration works.
+2. **Context Scan:** Analyze the current project folder, implementation plans, and the specific video or task Priyanshu is currently working on.
+3. **Proactive Suggestion:** Based on the current project, automatically suggest **ONE new, highly specific `google-genai` automation pipeline** that Priyanshu hasn't thought of yet.
+4. **Integration Check:** Tell Priyanshu exactly how you (the AI) can write a Python script right now to combine his current manual tasks and the SDK's Structured Outputs into a single automated step to save him time and achieve $0 production cost.
+
+## Exa Research & Fact-Checking Guide - *October 7, 2026*
+
+**1. Cost & Monthly Budget ($10 Free Tier)**
+- **Pricing:** A standard search + extracting text highlights from 10 results costs ~$0.017.
+- **Capacity:** $10 yields ~550-600 full searches.
+- **Script Budget:** A heavily researched 15-minute script takes ~30 searches ($0.50). You can write ~20 highly detailed scripts every month for free.
+
+**2. API Best Practices (from canonical build-with-exa rules)**
+- **Default Strategy:** Always default to standard `/search` with `contents: { highlights: true }`. It is token-efficient and cheap.
+- **Avoid Over-filtering:** Do not use `maxAgeHours`, `category`, or domain filters unless the specific prompt strictly requires it.
+- **Deep Research:** If doing massive, asynchronous multi-step list building, switch to the Agent API (`/agent`).
+
+
+## FFmpeg Quality, Upscaling Workflows, and Cloud Limits - *October 9, 2026*
+
+**1. Fixing FFmpeg's Hidden Quality Degradation**
+*   **The Root Cause:** Default FFmpeg applies chroma subsampling (compressing colors to 4:2:0), crushing color data on sharp edges/graphics.
+*   **Re-encoding/Stitching:** Always apply `-pix_fmt yuv444p -crf 17` to preserve 100% color data (lossless).
+*   **Stream Extraction:** Use `-c copy` to bypass re-encoding entirely.
+*   **RGB Edge Case:** Use `libx264rgb` for flawless mathematical RGB preservation.
+
+**2. WinGet FFmpeg Path & The Global Rule**
+*   **Primary Path Mandate:** Exclusively use: `C:\Users\renu5\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.0.1-full_build\bin\ffmpeg.exe`
+*   **Global Rule:** Generic `ffmpeg` alias is banned. The absolute WinGet path and zero-degradation flags are permanently hardcoded globally via `GEMINI.md`.
+
+**3. AI Upscaling Tools**
+*   **Anime/Graphics:** Video2X (using Real-ESRGAN) is superior for line art and flat colors.
+*   **Live-Action:** SUPIR generates hyper-realistic textures (pores/hair). Real-ESRGAN ruins real people (plastic mannequins). SUPIR demands massive VRAM.
+*   **Fast/Lightweight:** The `libplacebo` filter (with `ewa_lanczos`) is best for fast FFmpeg native enhancements.
+
+**4. Cloud Upscaling Infrastructure**
+*   **Fal.ai:** Best for instant, free, watermark-less image upscaling.
+*   **Hugging Face Spaces:** Free cloud option for AI video upscaling (open-source models on huge GPUs), but has server queues.
+*   **CapCut Online:** Reliable zero-setup fallback for video upscaling up to 4K.
+
+**5. Google Colab Limits & Faceless Strategy**
+*   **The 12-Hour Colab Myth:** Realistically provides 2 to 4 hours before preemption.
+*   **The 90-Minute Timeout:** Silent kill if the browser tab is idle.
+*   **The 15GB Drive Trap:** Saving rendered video to free Google Drive quota causes "Disk Full" crashes.
+*   **OOM on SUPIR:** Free-tier T4 GPUs (15GB VRAM) crash on SUPIR. Needs Colab Pro A100.
+*   **Faceless Channel Strategy:** Use Colab to upscale low-quality B-Roll, generate free voiceovers, generate thumbnails via SDXL/Flux, and act as a remote render farm to free up local laptops.
+
+---
+
+## 🎬 Documentary Style Tools Required
+
+> Added: 2026-10-13 | Purpose: Programmatic documentary/commentary-style video editing
+> These tools enable keyframe animation, word-synced text, color grading, film grain, and cinematic transitions — all controlled from terminal via Remotion. No manual editing required.
+
+### NPM Packages (Remotion Ecosystem)
+
+| Package | Install | Purpose |
+|---|---|---|
+| `@remotion/effects` | `npm install @remotion/effects` | Color grading (3D LUTs, sepia, desaturation), film grain overlay, cinematic vignette, paper texture shader |
+| `@remotion/transitions` | `npm install @remotion/transitions` | Hard cuts, crossfade/dissolve, slide/wipe, glitch flash transitions between shots |
+| `@remotion/captions` | `npm install @remotion/captions` | Word-level text sync from ElevenLabs timestamps — triggers text popups on spoken keywords |
+
+### Font
+
+| Font | Source | Purpose |
+|---|---|---|
+| **Montserrat** (Black, Bold, ExtraBold) | [fonts.google.com/specimen/Montserrat](https://fonts.google.com/specimen/Montserrat) | Bold geometric sans-serif for keyword text, stat callouts, date stamps, title cards |
+
+### Project Location
+
+| Item | Path |
+|---|---|
+| Remotion Project | `C:\Users\renu5\.gemini\antigravity\scratch\documentary-style\documentary-template` |
+| Template Compositions | Inside the Remotion project `src/` folder |
+
+### What Each Tool Does in the Documentary Pipeline
+
+- **@remotion/effects**: Applies the two-LUT color grading system (warm sepia for historical → cool blue-grey for crisis moments), adds procedural film grain that flickers per-frame (so AI images look like archival footage), adds soft vignette (darkened edges) to direct focus, and provides a paper texture shader for newspaper/document overlays.
+- **@remotion/transitions**: Handles all scene-to-scene transitions. Hard cuts are default. Crossfades (0.25-0.4s) reserved for era/tone changes. Slide/wipe for graphic-to-graphic moves. Glitch flashes for dramatic keyword reveals.
+- **@remotion/captions**: Takes the word-level timestamps from ElevenLabs' `with-timestamps` API and connects them to Remotion's `useCurrentFrame()` — so bold yellow text pops onto screen with a spring bounce animation at the exact millisecond the narrator speaks each keyword.
+- **Montserrat**: The font family used for all on-screen text. Yellow for emphasis keywords, white for neutral labels, red for failure/negative, cyan-on-black for end cards.
+
+### Key Remotion Component Libraries (Optional Installs)
+
+| Library | GitHub | Stars | Purpose |
+|---|---|---|---|
+| Remocn | [Remocn/remocn](https://github.com/Remocn/remocn) | ~1,600 | Copy-paste animated components — Typewriter, RGB Glitch Text, Kinetic Type, VHS filter |
+| remotion-bits | [av/remotion-bits](https://github.com/av/remotion-bits) | ~480 | Modular animation bits — Ken Burns presets, text effects |
+| @remotion/rough-notation | Official Remotion | Built-in | Hand-drawn highlight markers on documents/text (circle, underline, box) |
+

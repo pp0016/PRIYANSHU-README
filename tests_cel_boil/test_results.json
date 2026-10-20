@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-10-10T18:46:04Z",
+  "summary": {
+    "total": 28,
+    "passed": 26,
+    "failed": 1,
+    "errors": 0,
+    "skipped": 1,
+    "pass_rate_pct": 96.3,
+    "total_elapsed_seconds": 6.859
+  },
+  "tiers": [
+    {
+      "tier_name": "Tier 1: Feature Coverage",
+      "total": 11,
+      "passed": 10,
+      "failed": 1,
+      "errors": 0,
+      "skipped": 0,
+      "elapsed": 3.032259300001897,
+      "failure_details": [
+        {
+          "test": "test_10_clean_slate_omission_in_source_code (test_tier1_feature_coverage.TestTier1FeatureCoverage.test_10_clean_slate_omission_in_source_code)",
+          "type": "FAIL",
+          "trace": "Traceback (most recent call last):\n  File \"C:\\Users\\renu5\\Downloads\\priyanshu readme\\tests_cel_boil\\test_tier1_feature_coverage.py\", line 196, in test_10_clean_slate_omission_in_source_code\n    self.assertEqual(\nAssertionError: 2 != 0 : Found forbidden slate/counter strings in source code: [{'file': 'C:\\\\Users\\\\renu5\\\\Downloads\\\\mg-styles-15-test\\\\manim-port\\\\visual_beats.py', 'line': 13, 'banned': 'AUDIOBOOK SUMMARY', 'text': '- Strict clean-slate presentation: zero production slates (\"AUDIOBOOK SUMMARY\"),'}, {'file': 'C:\\\\Users\\\\renu5\\\\Downloads\\\\mg-styles-15-test\\\\manim-port\\\\visual_beats.py', 'line': 14, 'banned': 'No. 074', 'text': 'zero exposure counters (\"No. 074\", \"CEL BOIL\"), and zero police siren graphics.'}]\n"
+        }
+      ]
+    },
+    {
+      "tier_name": "Tier 2: Boundary & Corner Cases",
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0,
+      "elapsed": 2.6507567000226118,
+      "failure_details": []
+    },
+    {
+      "tier_name": "Tier 3: Cross-Feature Integration",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0,
+      "elapsed": 0.8397448000032455,
+      "failure_details": []
+    },
+    {
+      "tier_name": "Tier 4: Acceptance / Real-World",
+      "total": 4,
+      "passed": 3,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 1,
+      "elapsed": 0.3361455000122078,
+      "failure_details": []
+    }
+  ]
+}
