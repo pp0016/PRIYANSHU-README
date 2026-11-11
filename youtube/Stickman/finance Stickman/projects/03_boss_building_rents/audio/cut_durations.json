@@ -1,0 +1,3980 @@
+[
+  {
+    "cut_id": "IMG_001",
+    "file": "images/img_001.png",
+    "start": 0.0,
+    "end": 2.44,
+    "duration": 2.44,
+    "clause": "It's twelve forty-seven on a Tuesday.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_002",
+    "file": "images/img_002.png",
+    "start": 2.44,
+    "end": 3.31,
+    "duration": 0.87,
+    "clause": "You're standing at the",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_003",
+    "file": "images/img_003.png",
+    "start": 3.31,
+    "end": 4.54,
+    "duration": 1.23,
+    "clause": "breakroom microwave, and your",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_004",
+    "file": "images/img_004.png",
+    "start": 4.54,
+    "end": 5.48,
+    "duration": 0.94,
+    "clause": "boss is reading your",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_005",
+    "file": "images/img_005.png",
+    "start": 5.48,
+    "end": 7.24,
+    "duration": 1.76,
+    "clause": "phone over your shoulder.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_006",
+    "file": "images/img_006.png",
+    "start": 7.24,
+    "end": 8.52,
+    "duration": 1.28,
+    "clause": "\"On your pay?",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_007",
+    "file": "images/img_007.png",
+    "start": 8.52,
+    "end": 9.4,
+    "duration": 0.88,
+    "clause": "You'll never afford a",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_008",
+    "file": "images/img_008.png",
+    "start": 9.4,
+    "end": 10.78,
+    "duration": 1.38,
+    "clause": "home in this town.\"",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_009",
+    "file": "images/img_009.png",
+    "start": 10.78,
+    "end": 11.48,
+    "duration": 0.7,
+    "clause": "The listing on your",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_010",
+    "file": "images/img_010.png",
+    "start": 11.48,
+    "end": 12.82,
+    "duration": 1.34,
+    "clause": "screen is a two-bedroom",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_011",
+    "file": "images/img_011.png",
+    "start": 12.82,
+    "end": 15.048,
+    "duration": 2.228,
+    "clause": "condo on Cedar Street.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_012",
+    "file": "images/img_012.png",
+    "start": 15.048,
+    "end": 17.68,
+    "duration": 2.632,
+    "clause": "One hundred eighty-nine thousand dollars.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_013",
+    "file": "images/img_013.png",
+    "start": 17.68,
+    "end": 19.38,
+    "duration": 1.7,
+    "clause": "Behind the microwave door,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_014",
+    "file": "images/img_014.png",
+    "start": 19.38,
+    "end": 20.5,
+    "duration": 1.12,
+    "clause": "rice and beans turn",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_015",
+    "file": "images/img_015.png",
+    "start": 20.5,
+    "end": 21.56,
+    "duration": 1.06,
+    "clause": "slowly in a chipped",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_016",
+    "file": "images/img_016.png",
+    "start": 21.56,
+    "end": 22.98,
+    "duration": 1.42,
+    "clause": "plastic container with a",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_017",
+    "file": "images/img_017.png",
+    "start": 22.98,
+    "end": 24.34,
+    "duration": 1.36,
+    "clause": "crack along the lid,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_018",
+    "file": "images/img_018.png",
+    "start": 24.34,
+    "end": 25.06,
+    "duration": 0.72,
+    "clause": "the same one you've",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_019",
+    "file": "images/img_019.png",
+    "start": 25.06,
+    "end": 26.16,
+    "duration": 1.1,
+    "clause": "carried to work every",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_020",
+    "file": "images/img_020.png",
+    "start": 26.16,
+    "end": 28.12,
+    "duration": 1.96,
+    "clause": "day for three years.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_021",
+    "file": "images/img_021.png",
+    "start": 28.12,
+    "end": 29.6,
+    "duration": 1.48,
+    "clause": "Burke laughs, loud enough",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_022",
+    "file": "images/img_022.png",
+    "start": 29.6,
+    "end": 30.84,
+    "duration": 1.24,
+    "clause": "for the room.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_023",
+    "file": "images/img_023.png",
+    "start": 30.84,
+    "end": 32.4,
+    "duration": 1.56,
+    "clause": "\"Renting's your lane.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_024",
+    "file": "images/img_024.png",
+    "start": 32.4,
+    "end": 34.32,
+    "duration": 1.92,
+    "clause": "Nothing wrong with knowing your lane.\"",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_025",
+    "file": "images/img_025.png",
+    "start": 34.32,
+    "end": 35.08,
+    "duration": 0.76,
+    "clause": "Two guys from the",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_026",
+    "file": "images/img_026.png",
+    "start": 35.08,
+    "end": 36.96,
+    "duration": 1.88,
+    "clause": "loading dock laugh with him.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_027",
+    "file": "images/img_027.png",
+    "start": 36.96,
+    "end": 38.22,
+    "duration": 1.26,
+    "clause": "A woman named Elaine,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_028",
+    "file": "images/img_028.png",
+    "start": 38.22,
+    "end": 39.4,
+    "duration": 1.18,
+    "clause": "fifteen years in accounts",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_029",
+    "file": "images/img_029.png",
+    "start": 39.4,
+    "end": 40.84,
+    "duration": 1.44,
+    "clause": "payable, looks down at",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_030",
+    "file": "images/img_030.png",
+    "start": 40.84,
+    "end": 43.02,
+    "duration": 2.18,
+    "clause": "her sandwich and says nothing.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_031",
+    "file": "images/img_031.png",
+    "start": 43.02,
+    "end": 44.56,
+    "duration": 1.54,
+    "clause": "The microwave beeps.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_032",
+    "file": "images/img_032.png",
+    "start": 44.56,
+    "end": 45.52,
+    "duration": 0.96,
+    "clause": "The container comes out",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_033",
+    "file": "images/img_033.png",
+    "start": 45.52,
+    "end": 46.62,
+    "duration": 1.1,
+    "clause": "too hot, and you",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_034",
+    "file": "images/img_034.png",
+    "start": 46.62,
+    "end": 47.5,
+    "duration": 0.88,
+    "clause": "pass it from hand",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_035",
+    "file": "images/img_035.png",
+    "start": 47.5,
+    "end": 48.22,
+    "duration": 0.72,
+    "clause": "to hand the way",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_036",
+    "file": "images/img_036.png",
+    "start": 48.22,
+    "end": 49.58,
+    "duration": 1.36,
+    "clause": "you always do, because",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_037",
+    "file": "images/img_037.png",
+    "start": 49.58,
+    "end": 50.68,
+    "duration": 1.1,
+    "clause": "the lid always heats",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_038",
+    "file": "images/img_038.png",
+    "start": 50.68,
+    "end": 53.06,
+    "duration": 2.38,
+    "clause": "up first and you never remember.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_039",
+    "file": "images/img_039.png",
+    "start": 53.06,
+    "end": 56.36,
+    "duration": 3.3,
+    "clause": "Ten years from now, Burke will sign a rent check every month,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_040",
+    "file": "images/img_040.png",
+    "start": 56.36,
+    "end": 59.74,
+    "duration": 3.38,
+    "clause": "made out to a company called Cedar Street Holdings.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_041",
+    "file": "images/img_041.png",
+    "start": 59.74,
+    "end": 63.3,
+    "duration": 3.56,
+    "clause": "He'll sign it without reading the name. And one Monday morning,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_042",
+    "file": "images/img_042.png",
+    "start": 63.3,
+    "end": 64.96,
+    "duration": 1.66,
+    "clause": "holding a box of donuts in the lobby",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_043",
+    "file": "images/img_043.png",
+    "start": 64.96,
+    "end": 66.54,
+    "duration": 1.58,
+    "clause": "of a brick building on Fourth and Main,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_044",
+    "file": "images/img_044.png",
+    "start": 66.54,
+    "end": 68.94,
+    "duration": 2.4,
+    "clause": "he'll find out who has been cashing it.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_045",
+    "file": "images/img_045.png",
+    "start": 68.94,
+    "end": 71.56,
+    "duration": 2.62,
+    "clause": "This is how a man who earns three",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_046",
+    "file": "images/img_046.png",
+    "start": 71.56,
+    "end": 77.09,
+    "duration": 5.53,
+    "clause": "times your salary ends up paying you rent. No lottery ticket. No inheritance.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_047",
+    "file": "images/img_047.png",
+    "start": 77.09,
+    "end": 83.25,
+    "duration": 6.16,
+    "clause": "A pay stub, a county website, and ten years of being underestimated on purpose.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_048",
+    "file": "images/manim_math/anim_048.mp4",
+    "start": 83.25,
+    "end": 87.61,
+    "duration": 4.36,
+    "clause": "The worst part of that Tuesday is the arithmetic. With five percent down,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_049",
+    "file": "images/manim_math/anim_049.mp4",
+    "start": 87.61,
+    "end": 92.75,
+    "duration": 5.14,
+    "clause": "that condo costs about fifteen hundred sixty a month once taxes and insurance are in.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_050",
+    "file": "images/img_050.png",
+    "start": 92.75,
+    "end": 96.93,
+    "duration": 4.18,
+    "clause": "On your paycheck, that's more than half of everything you bring home.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_051",
+    "file": "images/img_051.png",
+    "start": 96.93,
+    "end": 101.17,
+    "duration": 4.24,
+    "clause": "He isn't wrong about the condo. That's why the sentence sticks.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_052",
+    "file": "images/img_052.png",
+    "start": 101.17,
+    "end": 104.63,
+    "duration": 3.46,
+    "clause": "You're twenty-seven. You make nineteen dollars and forty cents an",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_053",
+    "file": "images/img_053.png",
+    "start": 104.63,
+    "end": 107.71,
+    "duration": 3.08,
+    "clause": "hour as the office clerk at Kessler Building Supply,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_054",
+    "file": "images/manim_math/anim_054.mp4",
+    "start": 107.71,
+    "end": 111.527,
+    "duration": 3.817,
+    "clause": "which comes to forty thousand three hundred fifty dollars a year.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_055",
+    "file": "images/img_055.png",
+    "start": 111.527,
+    "end": 114.77,
+    "duration": 3.243,
+    "clause": "Take-home: two thousand six hundred eighty a month.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_056",
+    "file": "images/img_056.png",
+    "start": 114.77,
+    "end": 116.99,
+    "duration": 2.22,
+    "clause": "Rent on a one-bedroom with a window unit that",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_057",
+    "file": "images/img_057.png",
+    "start": 116.99,
+    "end": 120.91,
+    "duration": 3.92,
+    "clause": "rattles when the compressor kicks on: eight hundred seventy-five.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_058",
+    "file": "images/img_058.png",
+    "start": 120.91,
+    "end": 128.03,
+    "duration": 7.12,
+    "clause": "Insurance on a twelve-year-old Corolla: a hundred forty-two. Student loan: two hundred twenty.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_059",
+    "file": "images/img_059.png",
+    "start": 128.03,
+    "end": 131.01,
+    "duration": 2.98,
+    "clause": "In savings, you have fifteen hundred dollars.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_060",
+    "file": "images/manim_math/anim_060.mp4",
+    "start": 131.01,
+    "end": 135.29,
+    "duration": 4.28,
+    "clause": "If the paychecks stopped tomorrow, you'd last nineteen days.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_061",
+    "file": "images/img_061.png",
+    "start": 135.29,
+    "end": 136.91,
+    "duration": 1.62,
+    "clause": "You know Burke's number too,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_062",
+    "file": "images/img_062.png",
+    "start": 136.91,
+    "end": 140.431,
+    "duration": 3.521,
+    "clause": "because the clerk at Kessler is also the person who keys payroll.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_063",
+    "file": "images/img_063.png",
+    "start": 140.431,
+    "end": 143.358,
+    "duration": 2.927,
+    "clause": "One hundred twenty-eight thousand a year.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_064",
+    "file": "images/img_064.png",
+    "start": 143.358,
+    "end": 148.39,
+    "duration": 5.032,
+    "clause": "Four thousand nine hundred twenty-three dollars every other Friday, before taxes.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_065",
+    "file": "images/img_065.png",
+    "start": 148.39,
+    "end": 153.32,
+    "duration": 4.93,
+    "clause": "The payroll desk has one unwritten rule, and you learn it your first week.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_066",
+    "file": "images/img_066.png",
+    "start": 153.32,
+    "end": 156.48,
+    "duration": 3.16,
+    "clause": "Know everything. Repeat nothing.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_067",
+    "file": "images/img_067.png",
+    "start": 156.48,
+    "end": 159.48,
+    "duration": 3.0,
+    "clause": "So you don't repeat it. You just notice.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_068",
+    "file": "images/img_068.png",
+    "start": 159.48,
+    "end": 163.42,
+    "duration": 3.94,
+    "clause": "Burke bought a house last August for five hundred sixty thousand dollars,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_069",
+    "file": "images/manim_math/anim_069.mp4",
+    "start": 163.42,
+    "end": 166.52,
+    "duration": 3.1,
+    "clause": "with five percent down, at seven point one percent.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_070",
+    "file": "images/manim_math/anim_070.mp4",
+    "start": 166.52,
+    "end": 171.52,
+    "duration": 5.0,
+    "clause": "Principal and interest alone come to three thousand five hundred seventy-five a month.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_071",
+    "file": "images/img_071.png",
+    "start": 171.52,
+    "end": 176.18,
+    "duration": 4.66,
+    "clause": "Add taxes, insurance, and the mortgage insurance that comes with a small down payment,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_072",
+    "file": "images/manim_math/anim_072.mp4",
+    "start": 176.18,
+    "end": 178.5,
+    "duration": 2.32,
+    "clause": "and it's closer to forty-five hundred.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_073",
+    "file": "images/img_073.png",
+    "start": 178.5,
+    "end": 182.6,
+    "duration": 4.1,
+    "clause": "The Silverado in the lot is a lease, six hundred eighty-nine a month.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_074",
+    "file": "images/img_074.png",
+    "start": 182.6,
+    "end": 186.28,
+    "duration": 3.68,
+    "clause": "The bass boat in his driveway is another four hundred twelve.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_075",
+    "file": "images/img_075.png",
+    "start": 186.28,
+    "end": 191.4,
+    "duration": 5.12,
+    "clause": "Thousands of people watch our stories, but not even one percent of them subscribe.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_076",
+    "file": "images/img_076.png",
+    "start": 191.4,
+    "end": 195.72,
+    "duration": 4.32,
+    "clause": "Your one click is what lets us bring you a new story every day.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_077",
+    "file": "images/img_077.png",
+    "start": 195.72,
+    "end": 197.82,
+    "duration": 2.1,
+    "clause": "If you've ever been handed the worst of everything",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_078",
+    "file": "images/img_078.png",
+    "start": 197.82,
+    "end": 202.46,
+    "duration": 4.64,
+    "clause": "and decided to build anyway, please subscribe right now.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_079",
+    "file": "images/img_079.png",
+    "start": 202.46,
+    "end": 206.42,
+    "duration": 3.96,
+    "clause": "That night, after second shift, you sit alone at the breakroom table with",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_080",
+    "file": "images/img_080.png",
+    "start": 206.42,
+    "end": 209.14,
+    "duration": 2.72,
+    "clause": "a napkin and a pen from the vendor cup.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_081",
+    "file": "images/img_081.png",
+    "start": 209.14,
+    "end": 211.574,
+    "duration": 2.434,
+    "clause": "Between Burke's paycheck and his wife's,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_082",
+    "file": "images/manim_math/anim_082.mp4",
+    "start": 211.574,
+    "end": 215.333,
+    "duration": 3.759,
+    "clause": "about ten thousand four hundred dollars land in that house every month.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_083",
+    "file": "images/manim_math/anim_083.mp4",
+    "start": 215.333,
+    "end": 219.46,
+    "duration": 4.127,
+    "clause": "About ten thousand one hundred leave it. His checking account,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_084",
+    "file": "images/img_084.png",
+    "start": 219.46,
+    "end": 223.031,
+    "duration": 3.571,
+    "clause": "judging by what he complains about at lunch the week the mortgage is due,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_085",
+    "file": "images/img_085.png",
+    "start": 223.031,
+    "end": 225.911,
+    "duration": 2.88,
+    "clause": "rarely holds more than thirty-three hundred.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_086",
+    "file": "images/manim_math/anim_086.mp4",
+    "start": 225.911,
+    "end": 227.251,
+    "duration": 1.34,
+    "clause": "Ten days.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_087",
+    "file": "images/manim_math/anim_087.mp4",
+    "start": 227.251,
+    "end": 229.811,
+    "duration": 2.56,
+    "clause": "You earn less than a third of what he earns,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_088",
+    "file": "images/manim_math/anim_088.mp4",
+    "start": 229.811,
+    "end": 232.871,
+    "duration": 3.06,
+    "clause": "and you own nearly twice as many tomorrows.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_089",
+    "file": "images/img_089.png",
+    "start": 232.871,
+    "end": 236.511,
+    "duration": 3.64,
+    "clause": "A pay stub is just a list of who gets paid before you.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_090",
+    "file": "images/img_090.png",
+    "start": 236.511,
+    "end": 240.431,
+    "duration": 3.92,
+    "clause": "The government. The insurer. The lender. The landlord.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_091",
+    "file": "images/img_091.png",
+    "start": 240.431,
+    "end": 244.251,
+    "duration": 3.82,
+    "clause": "Whatever is left at the bottom, the line nobody else has claimed yet,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_092",
+    "file": "images/img_092.png",
+    "start": 244.251,
+    "end": 247.671,
+    "duration": 3.42,
+    "clause": "is the only part that was ever actually yours.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_093",
+    "file": "images/manim_math/anim_093.mp4",
+    "start": 247.671,
+    "end": 250.871,
+    "duration": 3.2,
+    "clause": "Burke's bottom line is thirty-three hundred dollars wide.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_094",
+    "file": "images/img_094.png",
+    "start": 250.871,
+    "end": 255.291,
+    "duration": 4.42,
+    "clause": "Maybe ten days with a boat is a better life than nineteen without one.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_095",
+    "file": "images/img_095.png",
+    "start": 255.291,
+    "end": 259.451,
+    "duration": 4.16,
+    "clause": "People argue about that. The boat never weighs in.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_096",
+    "file": "images/img_096.png",
+    "start": 259.451,
+    "end": 264.131,
+    "duration": 4.68,
+    "clause": "You fold the napkin into your back pocket and carry it until the creases tear.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_097",
+    "file": "images/img_097.png",
+    "start": 264.131,
+    "end": 266.805,
+    "duration": 2.674,
+    "clause": "The following April you get a raise.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_098",
+    "file": "images/img_098.png",
+    "start": 266.805,
+    "end": 270.051,
+    "duration": 3.246,
+    "clause": "Two hundred forty dollars a month after tax.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_099",
+    "file": "images/img_099.png",
+    "start": 270.051,
+    "end": 274.271,
+    "duration": 4.22,
+    "clause": "It's the kind of raise that disappears into a Tuesday. A tank of gas.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_100",
+    "file": "images/img_100.png",
+    "start": 274.271,
+    "end": 277.931,
+    "duration": 3.66,
+    "clause": "A better phone plan. Takeout once a week instead of never.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_101",
+    "file": "images/img_101.png",
+    "start": 277.931,
+    "end": 280.551,
+    "duration": 2.62,
+    "clause": "You're sitting in the Corolla after your shift with",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_102",
+    "file": "images/img_102.png",
+    "start": 280.551,
+    "end": 283.291,
+    "duration": 2.74,
+    "clause": "the dome light on and rain streaking the windshield.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_103",
+    "file": "images/img_103.png",
+    "start": 283.291,
+    "end": 287.551,
+    "duration": 4.26,
+    "clause": "You open a brokerage app you downloaded three days ago and never touched,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_104",
+    "file": "images/img_104.png",
+    "start": 287.551,
+    "end": 290.803,
+    "duration": 3.252,
+    "clause": "and you set an automatic transfer.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_105",
+    "file": "images/img_105.png",
+    "start": 290.803,
+    "end": 293.191,
+    "duration": 2.388,
+    "clause": "One hundred twenty dollars, on the second of every month,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_106",
+    "file": "images/img_106.png",
+    "start": 293.191,
+    "end": 296.161,
+    "duration": 2.97,
+    "clause": "before your checking account learns to expect it.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_107",
+    "file": "images/manim_math/anim_107.mp4",
+    "start": 296.161,
+    "end": 301.521,
+    "duration": 5.36,
+    "clause": "By December, there's nine hundred seventy-one dollars in a total-market index fund.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_108",
+    "file": "images/img_108.png",
+    "start": 301.521,
+    "end": 305.121,
+    "duration": 3.6,
+    "clause": "You check it more often than the number deserves. You don't tell anyone,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_109",
+    "file": "images/img_109.png",
+    "start": 305.121,
+    "end": 307.981,
+    "duration": 2.86,
+    "clause": "because \"I'm investing a hundred and twenty dollars a",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_110",
+    "file": "images/img_110.png",
+    "start": 307.981,
+    "end": 311.741,
+    "duration": 3.76,
+    "clause": "month\" isn't a sentence that means anything at twenty-seven.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_111",
+    "file": "images/img_111.png",
+    "start": 311.741,
+    "end": 313.681,
+    "duration": 1.94,
+    "clause": "Elaine notices anyway.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_112",
+    "file": "images/img_112.png",
+    "start": 313.681,
+    "end": 317.561,
+    "duration": 3.88,
+    "clause": "She's the one who writes Kessler's rent check on the first of every month,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_113",
+    "file": "images/img_113.png",
+    "start": 317.561,
+    "end": 320.001,
+    "duration": 2.44,
+    "clause": "eighteen thousand four hundred dollars to a landlord",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_114",
+    "file": "images/img_114.png",
+    "start": 320.001,
+    "end": 324.121,
+    "duration": 4.12,
+    "clause": "in Ohio nobody at the company has ever met. She's fifty-three,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_115",
+    "file": "images/img_115.png",
+    "start": 324.121,
+    "end": 326.321,
+    "duration": 2.2,
+    "clause": "she has the kind of quiet that makes",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_116",
+    "file": "images/img_116.png",
+    "start": 326.321,
+    "end": 331.781,
+    "duration": 5.46,
+    "clause": "people assume she isn't paying attention, and she is. One afternoon at the printer,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_117",
+    "file": "images/img_117.png",
+    "start": 331.781,
+    "end": 335.461,
+    "duration": 3.68,
+    "clause": "she sees the green number on your phone and says one thing.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_118",
+    "file": "images/img_118.png",
+    "start": 335.461,
+    "end": 339.661,
+    "duration": 4.2,
+    "clause": "\"Everybody in this building pays rent to somebody. Find out who.\"",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_119",
+    "file": "images/img_119.png",
+    "start": 339.661,
+    "end": 343.481,
+    "duration": 3.82,
+    "clause": "You don't understand what she means yet. You will.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_120",
+    "file": "images/manim_math/anim_120.mp4",
+    "start": 343.481,
+    "end": 347.861,
+    "duration": 4.38,
+    "clause": "Half of every raise disappears before your life learns how to spend it.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_121",
+    "file": "images/img_121.png",
+    "start": 347.861,
+    "end": 351.241,
+    "duration": 3.38,
+    "clause": "That becomes the rule, and it isn't a decision you make every month.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_122",
+    "file": "images/manim_math/anim_122.mp4",
+    "start": 351.241,
+    "end": 355.501,
+    "duration": 4.26,
+    "clause": "It's a transfer that runs on the second and never asks your opinion.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_123",
+    "file": "images/manim_math/anim_123.mp4",
+    "start": 355.501,
+    "end": 361.501,
+    "duration": 6.0,
+    "clause": "Your four-oh-one-k contribution climbs from six percent to ten, then twelve, then fifteen,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_124",
+    "file": "images/manim_math/anim_124.mp4",
+    "start": 361.501,
+    "end": 365.161,
+    "duration": 3.66,
+    "clause": "and every bump lands the pay period before a raise does,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_125",
+    "file": "images/img_125.png",
+    "start": 365.161,
+    "end": 368.381,
+    "duration": 3.22,
+    "clause": "so your take-home never drops and never grows.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_126",
+    "file": "images/img_126.png",
+    "start": 368.381,
+    "end": 371.522,
+    "duration": 3.141,
+    "clause": "In year two you add a Roth I-R-A at two",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_127",
+    "file": "images/img_127.png",
+    "start": 371.522,
+    "end": 375.051,
+    "duration": 3.529,
+    "clause": "hundred fifty a month and an emergency fund at four hundred.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_128",
+    "file": "images/img_128.png",
+    "start": 375.051,
+    "end": 376.504,
+    "duration": 1.453,
+    "clause": "By the end of year three,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_129",
+    "file": "images/manim_math/anim_129.mp4",
+    "start": 376.504,
+    "end": 381.951,
+    "duration": 5.447,
+    "clause": "twenty-eight thousand seven hundred dollars is invested and eleven thousand sits in cash.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_130",
+    "file": "images/img_130.png",
+    "start": 381.951,
+    "end": 383.511,
+    "duration": 1.56,
+    "clause": "Nobody has noticed.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_131",
+    "file": "images/img_131.png",
+    "start": 383.511,
+    "end": 386.991,
+    "duration": 3.48,
+    "clause": "You drive the same Corolla, you heat the same rice and beans,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_132",
+    "file": "images/img_132.png",
+    "start": 386.991,
+    "end": 389.751,
+    "duration": 2.76,
+    "clause": "and the window unit still rattles.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_133",
+    "file": "images/img_133.png",
+    "start": 389.751,
+    "end": 393.771,
+    "duration": 4.02,
+    "clause": "That same year, a four-oh-one-k loan request for fifteen thousand dollars",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_134",
+    "file": "images/img_134.png",
+    "start": 393.771,
+    "end": 398.751,
+    "duration": 4.98,
+    "clause": "crosses your desk with Burke's signature on it. Tuition for his daughter.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_135",
+    "file": "images/img_135.png",
+    "start": 398.751,
+    "end": 404.231,
+    "duration": 5.48,
+    "clause": "He catches you at the printer and grins. \"Retirement can wait. Tuition can't.\"",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_136",
+    "file": "images/img_136.png",
+    "start": 404.231,
+    "end": 407.031,
+    "duration": 2.8,
+    "clause": "You key it in, and you file it.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_137",
+    "file": "images/img_137.png",
+    "start": 407.031,
+    "end": 411.871,
+    "duration": 4.84,
+    "clause": "Four years pass the way years pass when nothing looks different from the outside.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_138",
+    "file": "images/img_138.png",
+    "start": 411.871,
+    "end": 416.051,
+    "duration": 4.18,
+    "clause": "In year three you meet Nadia, an E-R nurse who works nights and laughs",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_139",
+    "file": "images/img_139.png",
+    "start": 416.051,
+    "end": 418.631,
+    "duration": 2.58,
+    "clause": "at your container the first time she sees it.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_140",
+    "file": "images/img_140.png",
+    "start": 418.631,
+    "end": 422.791,
+    "duration": 4.16,
+    "clause": "In year four you're promoted to office manager at fifty-two thousand dollars,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_141",
+    "file": "images/manim_math/anim_141.mp4",
+    "start": 422.791,
+    "end": 426.851,
+    "duration": 4.06,
+    "clause": "and the extra money goes exactly where the rule says it goes.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_142",
+    "file": "images/img_142.png",
+    "start": 426.851,
+    "end": 430.751,
+    "duration": 3.9,
+    "clause": "Burke's wife throws a dinner party, and half the office is invited.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_143",
+    "file": "images/img_143.png",
+    "start": 430.751,
+    "end": 432.651,
+    "duration": 1.9,
+    "clause": "You stand by the wine fridge in his kitchen,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_144",
+    "file": "images/img_144.png",
+    "start": 432.651,
+    "end": 434.971,
+    "duration": 2.32,
+    "clause": "a glass you didn't pay for in your hand,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_145",
+    "file": "images/img_145.png",
+    "start": 434.971,
+    "end": 438.511,
+    "duration": 3.54,
+    "clause": "and quietly do the math you can't stop doing.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_146",
+    "file": "images/manim_math/anim_146.mp4",
+    "start": 438.511,
+    "end": 443.991,
+    "duration": 5.48,
+    "clause": "The mortgage, the equity line he opened in the spring, the truck, the boat.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_147",
+    "file": "images/img_147.png",
+    "start": 443.991,
+    "end": 449.482,
+    "duration": 5.491,
+    "clause": "You are standing inside someone else's money. Burke asks how you like the place.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_148",
+    "file": "images/img_148.png",
+    "start": 449.482,
+    "end": 453.342,
+    "duration": 3.86,
+    "clause": "\"It's beautiful,\" you say, and you mean it.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_149",
+    "file": "images/img_149.png",
+    "start": 453.342,
+    "end": 455.262,
+    "duration": 1.92,
+    "clause": "At a coworker's wedding that June,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_150",
+    "file": "images/img_150.png",
+    "start": 455.262,
+    "end": 457.862,
+    "duration": 2.6,
+    "clause": "a groomsman who has known you for six minutes looks",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_151",
+    "file": "images/img_151.png",
+    "start": 457.862,
+    "end": 461.342,
+    "duration": 3.48,
+    "clause": "at your shoes and asks when you're going to upgrade something.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_152",
+    "file": "images/img_152.png",
+    "start": 461.342,
+    "end": 463.162,
+    "duration": 1.82,
+    "clause": "\"I'm good,\" you tell him.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_153",
+    "file": "images/img_153.png",
+    "start": 463.162,
+    "end": 466.762,
+    "duration": 3.6,
+    "clause": "You mean that too, and you hate how it sounds.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_154",
+    "file": "images/img_154.png",
+    "start": 466.762,
+    "end": 470.242,
+    "duration": 3.48,
+    "clause": "It's the first thing this life costs you that isn't money.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_155",
+    "file": "images/img_155.png",
+    "start": 470.242,
+    "end": 475.182,
+    "duration": 4.94,
+    "clause": "It costs you conversations, because there's no honest way to join them.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_156",
+    "file": "images/img_156.png",
+    "start": 475.182,
+    "end": 477.062,
+    "duration": 1.88,
+    "clause": "Burke has a side business now,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_157",
+    "file": "images/img_157.png",
+    "start": 477.062,
+    "end": 481.262,
+    "duration": 4.2,
+    "clause": "a tile showroom his wife runs out of the corner storefront of the Mercer Building,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_158",
+    "file": "images/img_158.png",
+    "start": 481.262,
+    "end": 484.202,
+    "duration": 2.94,
+    "clause": "a tired three-story brick block on Fourth and Main",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_159",
+    "file": "images/img_159.png",
+    "start": 484.202,
+    "end": 488.562,
+    "duration": 4.36,
+    "clause": "with twelve apartments upstairs and two storefronts at street level.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_160",
+    "file": "images/img_160.png",
+    "start": 488.562,
+    "end": 494.042,
+    "duration": 5.48,
+    "clause": "The owner is a seventy-nine-year-old man named Harlan Mercer. \"I'm buying that building someday,\"",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_161",
+    "file": "images/img_161.png",
+    "start": 494.042,
+    "end": 497.602,
+    "duration": 3.56,
+    "clause": "Burke tells everyone at lunch. \"Harlan likes me.\"",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_162",
+    "file": "images/img_162.png",
+    "start": 497.602,
+    "end": 499.522,
+    "duration": 1.92,
+    "clause": "You happen to know what the banks think,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_163",
+    "file": "images/img_163.png",
+    "start": 499.522,
+    "end": 504.922,
+    "duration": 5.4,
+    "clause": "because lenders call payroll to verify employment, and those calls land on your desk.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_164",
+    "file": "images/img_164.png",
+    "start": 504.922,
+    "end": 508.962,
+    "duration": 4.04,
+    "clause": "Two lenders call about Burke that year. Neither calls back.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_165",
+    "file": "images/manim_math/anim_165.mp4",
+    "start": 508.962,
+    "end": 512.902,
+    "duration": 3.94,
+    "clause": "When more than half of a man's income is already promised to other lenders,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_166",
+    "file": "images/img_166.png",
+    "start": 512.902,
+    "end": 515.702,
+    "duration": 2.8,
+    "clause": "a commercial loan officer stops returning his messages,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_167",
+    "file": "images/img_167.png",
+    "start": 515.702,
+    "end": 522.313,
+    "duration": 6.611,
+    "clause": "no matter how much Harlan likes him. Burke's showroom lease quietly rolls month-to-month.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_168",
+    "file": "images/img_168.png",
+    "start": 522.313,
+    "end": 526.113,
+    "duration": 3.8,
+    "clause": "In year four, the Corolla starts whining in second gear.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_169",
+    "file": "images/img_169.png",
+    "start": 526.113,
+    "end": 530.333,
+    "duration": 4.22,
+    "clause": "A friend of a coworker is selling a two-year-old Tacoma for thirty-four thousand,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_170",
+    "file": "images/manim_math/anim_170.mp4",
+    "start": 530.333,
+    "end": 535.093,
+    "duration": 4.76,
+    "clause": "and the financing works out to six hundred twenty-two a month for six years.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_171",
+    "file": "images/img_171.png",
+    "start": 535.093,
+    "end": 538.165,
+    "duration": 3.072,
+    "clause": "At a red light you run the other version in your head.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_172",
+    "file": "images/manim_math/anim_172.mp4",
+    "start": 538.165,
+    "end": 540.133,
+    "duration": 1.968,
+    "clause": "Six hundred twenty-two a month,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_173",
+    "file": "images/manim_math/anim_173.mp4",
+    "start": 540.133,
+    "end": 544.213,
+    "duration": 4.08,
+    "clause": "invested for fifteen years at the market's long-run average after inflation,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_174",
+    "file": "images/manim_math/anim_174.mp4",
+    "start": 544.213,
+    "end": 549.053,
+    "duration": 4.84,
+    "clause": "becomes something close to a hundred ninety-two thousand dollars in today's money,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_175",
+    "file": "images/img_175.png",
+    "start": 549.053,
+    "end": 552.613,
+    "duration": 3.56,
+    "clause": "which is more than a truck and less than a fantasy, and which is,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_176",
+    "file": "images/img_176.png",
+    "start": 552.613,
+    "end": 554.973,
+    "duration": 2.36,
+    "clause": "if you're honest with yourself at the light,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_177",
+    "file": "images/manim_math/anim_177.mp4",
+    "start": 554.973,
+    "end": 558.053,
+    "duration": 3.08,
+    "clause": "roughly the price of the condo Burke laughed at.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_178",
+    "file": "images/img_178.png",
+    "start": 558.053,
+    "end": 561.793,
+    "duration": 3.74,
+    "clause": "You pay a mechanic three hundred forty dollars to fix the whine.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_179",
+    "file": "images/img_179.png",
+    "start": 561.793,
+    "end": 563.813,
+    "duration": 2.02,
+    "clause": "You keep the Corolla.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_180",
+    "file": "images/img_180.png",
+    "start": 563.813,
+    "end": 565.442,
+    "duration": 1.629,
+    "clause": "By the end of year five,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_181",
+    "file": "images/manim_math/anim_181.mp4",
+    "start": 565.442,
+    "end": 571.053,
+    "duration": 5.611,
+    "clause": "sixty-six thousand dollars is invested and twenty thousand seven hundred sits in cash.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_182",
+    "file": "images/manim_math/anim_182.mp4",
+    "start": 571.053,
+    "end": 575.093,
+    "duration": 4.04,
+    "clause": "Burke has ten days. You have something like nine months,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_183",
+    "file": "images/img_183.png",
+    "start": 575.093,
+    "end": 578.053,
+    "duration": 2.96,
+    "clause": "and you're starting to wonder whether money that only sits there is",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_184",
+    "file": "images/img_184.png",
+    "start": 578.053,
+    "end": 582.293,
+    "duration": 4.24,
+    "clause": "A retired surveyor named Linus sits on the bench outside the county assessor's",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_185",
+    "file": "images/img_185.png",
+    "start": 582.293,
+    "end": 587.233,
+    "duration": 4.94,
+    "clause": "office every Thursday morning with a thermos of black coffee and a bad knee.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_186",
+    "file": "images/img_186.png",
+    "start": 587.233,
+    "end": 589.913,
+    "duration": 2.68,
+    "clause": "You meet him because you're there reading tax maps,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_187",
+    "file": "images/img_187.png",
+    "start": 589.913,
+    "end": 592.213,
+    "duration": 2.3,
+    "clause": "after a library book about real estate that cost",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_188",
+    "file": "images/img_188.png",
+    "start": 592.213,
+    "end": 594.943,
+    "duration": 2.73,
+    "clause": "you nothing and took you three weeks to finish.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_189",
+    "file": "images/img_189.png",
+    "start": 594.943,
+    "end": 598.043,
+    "duration": 3.1,
+    "clause": "He sees the book under your arm and taps the cover.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_190",
+    "file": "images/img_190.png",
+    "start": 598.043,
+    "end": 602.583,
+    "duration": 4.54,
+    "clause": "\"The county writes everything down,\" he says. \"Almost nobody reads it.\"",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_191",
+    "file": "images/img_191.png",
+    "start": 602.583,
+    "end": 605.883,
+    "duration": 3.3,
+    "clause": "He shows you the delinquent tax list on the county portal.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_192",
+    "file": "images/img_192.png",
+    "start": 605.883,
+    "end": 612.103,
+    "duration": 6.22,
+    "clause": "Free, public, updated every quarter. Most of it is junk. One line isn't.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_193",
+    "file": "images/img_193.png",
+    "start": 612.103,
+    "end": 615.743,
+    "duration": 3.64,
+    "clause": "A bank-owned duplex on Delmar Street, forty minutes out,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_194",
+    "file": "images/img_194.png",
+    "start": 615.743,
+    "end": 622.583,
+    "duration": 6.84,
+    "clause": "two bedrooms on each side, sound roof, bad plumbing. Asking price, fifty-eight thousand dollars.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_195",
+    "file": "images/img_195.png",
+    "start": 622.583,
+    "end": 625.103,
+    "duration": 2.52,
+    "clause": "A credit union lends you eighty percent.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_196",
+    "file": "images/manim_math/anim_196.mp4",
+    "start": 625.103,
+    "end": 628.828,
+    "duration": 3.725,
+    "clause": "The other twenty percent, eleven thousand six hundred dollars,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_197",
+    "file": "images/manim_math/anim_197.mp4",
+    "start": 628.828,
+    "end": 630.723,
+    "duration": 1.895,
+    "clause": "plus twenty-two thousand for the rehab,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_198",
+    "file": "images/img_198.png",
+    "start": 630.723,
+    "end": 634.463,
+    "duration": 3.74,
+    "clause": "comes out of everything you have that isn't locked in a retirement account.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_199",
+    "file": "images/manim_math/anim_199.mp4",
+    "start": 634.463,
+    "end": 637.703,
+    "duration": 3.24,
+    "clause": "The cash. The brokerage. All of it.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_200",
+    "file": "images/manim_math/anim_200.mp4",
+    "start": 637.703,
+    "end": 642.343,
+    "duration": 4.64,
+    "clause": "For six months, the person who built a life around runway has none.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_201",
+    "file": "images/img_201.png",
+    "start": 642.343,
+    "end": 644.583,
+    "duration": 2.24,
+    "clause": "You spend those months in a respirator,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_202",
+    "file": "images/img_202.png",
+    "start": 644.583,
+    "end": 649.263,
+    "duration": 4.68,
+    "clause": "hauling rotted cabinets to a dumpster that costs a hundred ninety dollars a load.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_203",
+    "file": "images/img_203.png",
+    "start": 649.263,
+    "end": 652.323,
+    "duration": 3.06,
+    "clause": "What you can't fix, a quiet handyman named Teo fixes,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_204",
+    "file": "images/img_204.png",
+    "start": 652.323,
+    "end": 654.663,
+    "duration": 2.34,
+    "clause": "a man who also keeps the boiler running",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_205",
+    "file": "images/img_205.png",
+    "start": 654.663,
+    "end": 656.763,
+    "duration": 2.1,
+    "clause": "in the Mercer Building for Harlan and mentions,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_206",
+    "file": "images/img_206.png",
+    "start": 656.763,
+    "end": 660.883,
+    "duration": 4.12,
+    "clause": "while sweating a copper joint, that Harlan pays him three months late.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_207",
+    "file": "images/img_207.png",
+    "start": 660.883,
+    "end": 662.683,
+    "duration": 1.8,
+    "clause": "You move into the left side.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_208",
+    "file": "images/img_208.png",
+    "start": 662.683,
+    "end": 666.863,
+    "duration": 4.18,
+    "clause": "The right side rents in nine days for twelve hundred a month.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_209",
+    "file": "images/img_209.png",
+    "start": 666.863,
+    "end": 668.863,
+    "duration": 2.0,
+    "clause": "Burke hears about it at work and tilts his",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_210",
+    "file": "images/img_210.png",
+    "start": 668.863,
+    "end": 673.271,
+    "duration": 4.408,
+    "clause": "head exactly the way he did at the microwave. \"You bought on Delmar?",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_211",
+    "file": "images/img_211.png",
+    "start": 673.271,
+    "end": 677.351,
+    "duration": 4.08,
+    "clause": "I said you couldn't afford a home, and you bought that?\"",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_212",
+    "file": "images/img_212.png",
+    "start": 677.351,
+    "end": 679.151,
+    "duration": 1.8,
+    "clause": "You let it sit there.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_213",
+    "file": "images/img_213.png",
+    "start": 679.151,
+    "end": 682.051,
+    "duration": 2.9,
+    "clause": "Six months later, the earliest the bank will allow,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_214",
+    "file": "images/img_214.png",
+    "start": 682.051,
+    "end": 687.391,
+    "duration": 5.34,
+    "clause": "an appraiser walks both units with a clipboard. One hundred five thousand dollars.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_215",
+    "file": "images/manim_math/anim_215.mp4",
+    "start": 687.391,
+    "end": 690.48,
+    "duration": 3.089,
+    "clause": "You refinance at seventy-five percent of the new value,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_216",
+    "file": "images/manim_math/anim_216.mp4",
+    "start": 690.48,
+    "end": 692.331,
+    "duration": 1.851,
+    "clause": "seventy-eight thousand seven hundred fifty dollars.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_217",
+    "file": "images/img_217.png",
+    "start": 692.331,
+    "end": 696.606,
+    "duration": 4.275,
+    "clause": "It pays off the first loan and the closing costs and",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_218",
+    "file": "images/img_218.png",
+    "start": 696.606,
+    "end": 700.544,
+    "duration": 3.938,
+    "clause": "puts thirty thousand one hundred sixty dollars back in your account.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_219",
+    "file": "images/manim_math/anim_219.mp4",
+    "start": 700.544,
+    "end": 704.871,
+    "duration": 4.327,
+    "clause": "Three thousand four hundred forty of your own money is still inside the building.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_220",
+    "file": "images/img_220.png",
+    "start": 704.871,
+    "end": 707.811,
+    "duration": 2.94,
+    "clause": "The loan isn't income, so it isn't taxed.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_221",
+    "file": "images/manim_math/anim_221.mp4",
+    "start": 707.811,
+    "end": 712.171,
+    "duration": 4.36,
+    "clause": "The tenant's rent covers the whole mortgage, taxes and insurance included,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_222",
+    "file": "images/img_222.png",
+    "start": 712.171,
+    "end": 716.631,
+    "duration": 4.46,
+    "clause": "plus a repair reserve, and leaves three hundred fifty-one dollars a month.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_223",
+    "file": "images/img_223.png",
+    "start": 716.631,
+    "end": 722.391,
+    "duration": 5.76,
+    "clause": "Your own housing now costs you nothing. Groceries, the phone, the student loan,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_224",
+    "file": "images/img_224.png",
+    "start": 722.391,
+    "end": 724.706,
+    "duration": 2.315,
+    "clause": "the Corolla's insurance come to about seven hundred",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_225",
+    "file": "images/manim_math/anim_225.mp4",
+    "start": 724.706,
+    "end": 727.491,
+    "duration": 2.785,
+    "clause": "dollars a month that the building doesn't cover.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_226",
+    "file": "images/img_226.png",
+    "start": 727.491,
+    "end": 730.154,
+    "duration": 2.663,
+    "clause": "You rebuild the cash to twenty-eight thousand.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_227",
+    "file": "images/manim_math/anim_227.mp4",
+    "start": 730.154,
+    "end": 735.071,
+    "duration": 4.917,
+    "clause": "Twenty-eight thousand dollars, seven hundred a month. Forty months.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_228",
+    "file": "images/img_228.png",
+    "start": 735.071,
+    "end": 737.211,
+    "duration": 2.14,
+    "clause": "Burke still has ten days.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_229",
+    "file": "images/manim_math/anim_229.mp4",
+    "start": 737.211,
+    "end": 739.671,
+    "duration": 2.46,
+    "clause": "Ten days or forty months.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_230",
+    "file": "images/img_230.png",
+    "start": 739.671,
+    "end": 744.151,
+    "duration": 4.48,
+    "clause": "That's the real salary gap, and it doesn't show up on a pay stub.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_231",
+    "file": "images/img_231.png",
+    "start": 744.151,
+    "end": 746.86,
+    "duration": 2.709,
+    "clause": "The honest version of this part is that you were careful,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_232",
+    "file": "images/img_232.png",
+    "start": 746.86,
+    "end": 749.82,
+    "duration": 2.96,
+    "clause": "but you were also lucky. The roof held.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_233",
+    "file": "images/img_233.png",
+    "start": 749.82,
+    "end": 752.08,
+    "duration": 2.26,
+    "clause": "The first tenant paid on the first.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_234",
+    "file": "images/img_234.png",
+    "start": 752.08,
+    "end": 756.06,
+    "duration": 3.98,
+    "clause": "A furnace in January, or one tenant who stops paying,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_235",
+    "file": "images/img_235.png",
+    "start": 756.06,
+    "end": 759.5,
+    "duration": 3.44,
+    "clause": "and those six months without runway end very differently.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_236",
+    "file": "images/img_236.png",
+    "start": 759.5,
+    "end": 762.46,
+    "duration": 2.96,
+    "clause": "Plenty of first rentals end exactly there.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_237",
+    "file": "images/manim_math/anim_237.mp4",
+    "start": 762.46,
+    "end": 767.3,
+    "duration": 4.84,
+    "clause": "Yours didn't. And in March of year six, your accounts read eighty-one thousand dollars,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_238",
+    "file": "images/manim_math/anim_238.mp4",
+    "start": 767.3,
+    "end": 772.58,
+    "duration": 5.28,
+    "clause": "and the market starts to fall, and it doesn't stop for seven months,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_239",
+    "file": "images/img_239.png",
+    "start": 772.58,
+    "end": 777.9,
+    "duration": 5.32,
+    "clause": "and on a Thursday in October Burke leans into your office doorway, smiling, and asks",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_240",
+    "file": "images/img_240.png",
+    "start": 777.9,
+    "end": 779.0,
+    "duration": 1.1,
+    "clause": "\"You getting killed?\"",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_241",
+    "file": "images/manim_math/anim_241.mp4",
+    "start": 779.0,
+    "end": 784.862,
+    "duration": 5.862,
+    "clause": "Your accounts read sixty-three thousand dollars. Seven months ago they read eighty-one.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_242",
+    "file": "images/manim_math/anim_242.mp4",
+    "start": 784.862,
+    "end": 787.36,
+    "duration": 2.498,
+    "clause": "Eighteen thousand dollars gone,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_243",
+    "file": "images/img_243.png",
+    "start": 787.36,
+    "end": 790.28,
+    "duration": 2.92,
+    "clause": "more than you made in your first five months at Kessler,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_244",
+    "file": "images/img_244.png",
+    "start": 790.28,
+    "end": 792.24,
+    "duration": 1.96,
+    "clause": "and you didn't spend a cent of it.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_245",
+    "file": "images/img_245.png",
+    "start": 792.24,
+    "end": 794.08,
+    "duration": 1.84,
+    "clause": "\"A little,\" you say.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_246",
+    "file": "images/img_246.png",
+    "start": 794.08,
+    "end": 798.46,
+    "duration": 4.38,
+    "clause": "What Burke doesn't say is that he's getting killed too, in a different way.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_247",
+    "file": "images/img_247.png",
+    "start": 798.46,
+    "end": 802.96,
+    "duration": 4.5,
+    "clause": "Orders are down a third. To keep the warehouse crew from being laid off,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_248",
+    "file": "images/img_248.png",
+    "start": 802.96,
+    "end": 806.14,
+    "duration": 3.18,
+    "clause": "Burke takes a ten percent pay cut himself, quietly,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_249",
+    "file": "images/img_249.png",
+    "start": 806.14,
+    "end": 808.14,
+    "duration": 2.0,
+    "clause": "and you're the one who keys it in.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_250",
+    "file": "images/img_250.png",
+    "start": 808.14,
+    "end": 812.6,
+    "duration": 4.46,
+    "clause": "It's the most decent thing you'll ever watch him do. To cover the gap,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_251",
+    "file": "images/manim_math/anim_251.mp4",
+    "start": 812.6,
+    "end": 819.268,
+    "duration": 6.668,
+    "clause": "he stops his own four-oh-one-k contributions and opens an eighty-five-thousand-dollar equity line against the house.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_252",
+    "file": "images/img_252.png",
+    "start": 819.268,
+    "end": 824.248,
+    "duration": 4.98,
+    "clause": "Then a second four-oh-one-k loan crosses your desk. Twenty thousand dollars.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_253",
+    "file": "images/img_253.png",
+    "start": 824.248,
+    "end": 827.668,
+    "duration": 3.42,
+    "clause": "Your transfers keep running, mostly because they're automatic,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_254",
+    "file": "images/img_254.png",
+    "start": 827.668,
+    "end": 831.768,
+    "duration": 4.1,
+    "clause": "and stopping them would take a phone call you never quite get around to making.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_255",
+    "file": "images/img_255.png",
+    "start": 831.768,
+    "end": 835.368,
+    "duration": 3.6,
+    "clause": "What saves you is not strength. It's friction.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_256",
+    "file": "images/manim_math/anim_256.mp4",
+    "start": 835.368,
+    "end": 839.148,
+    "duration": 3.78,
+    "clause": "Every transfer that winter buys more shares than the one before it,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_257",
+    "file": "images/manim_math/anim_257.mp4",
+    "start": 839.148,
+    "end": 842.508,
+    "duration": 3.36,
+    "clause": "because the same dollars buy more of a falling price.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_258",
+    "file": "images/img_258.png",
+    "start": 842.508,
+    "end": 844.948,
+    "duration": 2.44,
+    "clause": "The market isn't taking anything from you.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_259",
+    "file": "images/img_259.png",
+    "start": 844.948,
+    "end": 849.308,
+    "duration": 4.36,
+    "clause": "It's having a sale, and you're the only one at Kessler still shopping.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_260",
+    "file": "images/img_260.png",
+    "start": 849.308,
+    "end": 853.228,
+    "duration": 3.92,
+    "clause": "Houses go on sale too. Sellers get scared in a slump.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_261",
+    "file": "images/img_261.png",
+    "start": 853.228,
+    "end": 858.702,
+    "duration": 5.474,
+    "clause": "That spring you buy a second duplex, on Garnet Avenue, for sixty-four thousand dollars,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_262",
+    "file": "images/img_262.png",
+    "start": 858.702,
+    "end": 863.128,
+    "duration": 4.426,
+    "clause": "put nineteen thousand into it with Teo's help, and wait out the six months.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_263",
+    "file": "images/img_263.png",
+    "start": 863.128,
+    "end": 865.268,
+    "duration": 2.14,
+    "clause": "It appraises at a hundred ten.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_264",
+    "file": "images/manim_math/anim_264.mp4",
+    "start": 865.268,
+    "end": 870.968,
+    "duration": 5.7,
+    "clause": "The refinance hands back almost everything you put in. Same math, different street.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_265",
+    "file": "images/img_265.png",
+    "start": 870.968,
+    "end": 874.228,
+    "duration": 3.26,
+    "clause": "The first thing this life costs you was conversation.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_266",
+    "file": "images/img_266.png",
+    "start": 874.228,
+    "end": 877.788,
+    "duration": 3.56,
+    "clause": "The second thing costs money, and it isn't yours.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_267",
+    "file": "images/img_267.png",
+    "start": 877.788,
+    "end": 883.588,
+    "duration": 5.8,
+    "clause": "Your younger brother Cal calls in March. His transmission is gone, nineteen hundred dollars,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_268",
+    "file": "images/img_268.png",
+    "start": 883.588,
+    "end": 885.488,
+    "duration": 1.9,
+    "clause": "and he can't get to work without it.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_269",
+    "file": "images/img_269.png",
+    "start": 885.488,
+    "end": 888.668,
+    "duration": 3.18,
+    "clause": "You could pay it from one month of rent and never notice.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_270",
+    "file": "images/img_270.png",
+    "start": 888.668,
+    "end": 891.188,
+    "duration": 2.52,
+    "clause": "You can't pay it without explaining how.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_271",
+    "file": "images/img_271.png",
+    "start": 891.188,
+    "end": 894.176,
+    "duration": 2.988,
+    "clause": "So you tell him you have some savings, and you send it.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_272",
+    "file": "images/img_272.png",
+    "start": 894.176,
+    "end": 899.556,
+    "duration": 5.38,
+    "clause": "Cal goes quiet on the phone. \"Since when do you have nineteen hundred dollars?\"",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_273",
+    "file": "images/img_273.png",
+    "start": 899.556,
+    "end": 902.776,
+    "duration": 3.22,
+    "clause": "He never asks you for advice again.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_274",
+    "file": "images/img_274.png",
+    "start": 902.776,
+    "end": 905.596,
+    "duration": 2.82,
+    "clause": "He asks for money twice more that year.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_275",
+    "file": "images/img_275.png",
+    "start": 905.596,
+    "end": 906.776,
+    "duration": 1.18,
+    "clause": "In year eight,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_276",
+    "file": "images/img_276.png",
+    "start": 906.776,
+    "end": 911.456,
+    "duration": 4.68,
+    "clause": "Teo is fixing a leak on Garnet when he mentions that Harlan Mercer wants out.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_277",
+    "file": "images/img_277.png",
+    "start": 911.456,
+    "end": 915.036,
+    "duration": 3.58,
+    "clause": "Harlan is seventy-nine. His kids live in Arizona and don't want a",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_278",
+    "file": "images/img_278.png",
+    "start": 915.036,
+    "end": 918.416,
+    "duration": 3.38,
+    "clause": "brick building with a boiler older than they are.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_279",
+    "file": "images/img_279.png",
+    "start": 918.416,
+    "end": 921.536,
+    "duration": 3.12,
+    "clause": "He's had offers from investors, and he's turned them all down,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_280",
+    "file": "images/img_280.png",
+    "start": 921.536,
+    "end": 923.656,
+    "duration": 2.12,
+    "clause": "because every one of them wants to raise",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_281",
+    "file": "images/img_281.png",
+    "start": 923.656,
+    "end": 926.976,
+    "duration": 3.32,
+    "clause": "the rents on tenants he's known for twenty years.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_282",
+    "file": "images/img_282.png",
+    "start": 926.976,
+    "end": 931.936,
+    "duration": 4.96,
+    "clause": "\"Your boss keeps saying he'll buy it,\" Teo says. \"Handshake deal, he calls it.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_283",
+    "file": "images/img_283.png",
+    "start": 931.936,
+    "end": 935.836,
+    "duration": 3.9,
+    "clause": "Never brought Harlan a pre-approval. Not once.\"",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_284",
+    "file": "images/img_284.png",
+    "start": 935.836,
+    "end": 937.976,
+    "duration": 2.14,
+    "clause": "You go see Harlan on a Sunday.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_285",
+    "file": "images/img_285.png",
+    "start": 937.976,
+    "end": 941.596,
+    "duration": 3.62,
+    "clause": "He has ledgers going back to nineteen eighty-eight on the kitchen table,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_286",
+    "file": "images/img_286.png",
+    "start": 941.596,
+    "end": 945.036,
+    "duration": 3.44,
+    "clause": "and he reads your numbers the way Linus reads a plat.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_287",
+    "file": "images/manim_math/anim_287.mp4",
+    "start": 945.036,
+    "end": 947.916,
+    "duration": 2.88,
+    "clause": "Twelve apartments at about nine hundred dollars a month,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_288",
+    "file": "images/manim_math/anim_288.mp4",
+    "start": 947.916,
+    "end": 951.556,
+    "duration": 3.64,
+    "clause": "rents he hasn't raised in years. Two storefronts.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_289",
+    "file": "images/manim_math/anim_289.mp4",
+    "start": 951.556,
+    "end": 955.096,
+    "duration": 3.54,
+    "clause": "After taxes, insurance, the boiler, and vacancies,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_290",
+    "file": "images/manim_math/anim_290.mp4",
+    "start": 955.096,
+    "end": 958.056,
+    "duration": 2.96,
+    "clause": "the building earns about ninety thousand dollars a year.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_291",
+    "file": "images/img_291.png",
+    "start": 958.056,
+    "end": 963.496,
+    "duration": 5.44,
+    "clause": "One million one hundred fifty thousand is fair. Harlan doesn't want a bank.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_292",
+    "file": "images/manim_math/anim_292.mp4",
+    "start": 963.496,
+    "end": 967.996,
+    "duration": 4.5,
+    "clause": "He wants his tax bill spread out over years instead of landing all at once,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_293",
+    "file": "images/img_293.png",
+    "start": 967.996,
+    "end": 974.236,
+    "duration": 6.24,
+    "clause": "and a sale he finances himself does exactly that. So he carries the loan.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_294",
+    "file": "images/manim_math/anim_294.mp4",
+    "start": 974.236,
+    "end": 977.562,
+    "duration": 3.326,
+    "clause": "Six percent. Ninety-five thousand dollars down.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_295",
+    "file": "images/manim_math/anim_295.mp4",
+    "start": 977.562,
+    "end": 981.313,
+    "duration": 3.751,
+    "clause": "Forty-one thousand comes from the brokerage account nobody knows about.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_296",
+    "file": "images/manim_math/anim_296.mp4",
+    "start": 981.313,
+    "end": 987.363,
+    "duration": 6.05,
+    "clause": "Thirty-three thousand comes from refinancing both duplexes. Twenty-one thousand is saved rent.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_297",
+    "file": "images/img_297.png",
+    "start": 987.363,
+    "end": 991.143,
+    "duration": 3.78,
+    "clause": "Your retirement accounts stay untouched, and so does your runway.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_298",
+    "file": "images/img_298.png",
+    "start": 991.143,
+    "end": 996.583,
+    "duration": 5.44,
+    "clause": "The deed goes into a land trust with an out-of-state trustee, held for an L-L-C.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_299",
+    "file": "images/img_299.png",
+    "start": 996.583,
+    "end": 998.363,
+    "duration": 1.78,
+    "clause": "You name it Cedar Street Holdings,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_300",
+    "file": "images/img_300.png",
+    "start": 998.363,
+    "end": 1001.463,
+    "duration": 3.1,
+    "clause": "after a condo you were told you'd never afford.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_301",
+    "file": "images/img_301.png",
+    "start": 1001.463,
+    "end": 1005.343,
+    "duration": 3.88,
+    "clause": "Your name appears nowhere a curious person would look.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_302",
+    "file": "images/img_302.png",
+    "start": 1005.343,
+    "end": 1007.743,
+    "duration": 2.4,
+    "clause": "On the first business day of the following month,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_303",
+    "file": "images/img_303.png",
+    "start": 1007.743,
+    "end": 1010.443,
+    "duration": 2.7,
+    "clause": "an envelope arrives at the post office box.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_304",
+    "file": "images/img_304.png",
+    "start": 1010.443,
+    "end": 1015.283,
+    "duration": 4.84,
+    "clause": "Inside is a check for nineteen hundred dollars, rent for the corner storefront,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_305",
+    "file": "images/img_305.png",
+    "start": 1015.283,
+    "end": 1019.403,
+    "duration": 4.12,
+    "clause": "made out to Cedar Street Holdings. Burke's signature is at the bottom.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_306",
+    "file": "images/img_306.png",
+    "start": 1019.403,
+    "end": 1021.003,
+    "duration": 1.6,
+    "clause": "He didn't read the name.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_307",
+    "file": "images/manim_math/anim_307.mp4",
+    "start": 1021.003,
+    "end": 1025.883,
+    "duration": 4.88,
+    "clause": "The building's payment to Harlan is six thousand seven hundred ninety-seven dollars a month.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_308",
+    "file": "images/manim_math/anim_308.mp4",
+    "start": 1025.883,
+    "end": 1029.896,
+    "duration": 4.013,
+    "clause": "After it, the building leaves you about seven hundred twenty-nine a month.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_309",
+    "file": "images/img_309.png",
+    "start": 1029.896,
+    "end": 1033.843,
+    "duration": 3.947,
+    "clause": "On one point one five million dollars, that's all.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_310",
+    "file": "images/img_310.png",
+    "start": 1033.843,
+    "end": 1035.943,
+    "duration": 2.1,
+    "clause": "Anyone who promises you a fortune from a",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_311",
+    "file": "images/img_311.png",
+    "start": 1035.943,
+    "end": 1038.423,
+    "duration": 2.48,
+    "clause": "building like this one is selling a course.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_312",
+    "file": "images/manim_math/anim_312.mp4",
+    "start": 1038.423,
+    "end": 1042.703,
+    "duration": 4.28,
+    "clause": "But something else happens inside the payment that doesn't show up as cash.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_313",
+    "file": "images/manim_math/anim_313.mp4",
+    "start": 1042.703,
+    "end": 1045.55,
+    "duration": 2.847,
+    "clause": "Every month, part of it pays down the loan.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_314",
+    "file": "images/manim_math/anim_314.mp4",
+    "start": 1045.55,
+    "end": 1050.17,
+    "duration": 4.62,
+    "clause": "In the first year, that's eighteen thousand seven hundred seventy-nine dollars,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_315",
+    "file": "images/img_315.png",
+    "start": 1050.17,
+    "end": 1054.67,
+    "duration": 4.5,
+    "clause": "paid by people who rent apartments from a company whose owner they've never met.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_316",
+    "file": "images/img_316.png",
+    "start": 1054.67,
+    "end": 1057.85,
+    "duration": 3.18,
+    "clause": "The following February, you sit at the kitchen table on Delmar",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_317",
+    "file": "images/img_317.png",
+    "start": 1057.85,
+    "end": 1063.11,
+    "duration": 5.26,
+    "clause": "with leftovers going cold and do the year-end paperwork. Two numbers.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_318",
+    "file": "images/manim_math/anim_318.mp4",
+    "start": 1063.11,
+    "end": 1068.31,
+    "duration": 5.2,
+    "clause": "Your take-home pay from Kessler last year: thirty-nine thousand six hundred dollars.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_319",
+    "file": "images/img_319.png",
+    "start": 1068.31,
+    "end": 1071.05,
+    "duration": 2.74,
+    "clause": "What your money and your buildings earned without you:",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_320",
+    "file": "images/manim_math/anim_320.mp4",
+    "start": 1071.05,
+    "end": 1074.083,
+    "duration": 3.033,
+    "clause": "seven thousand seven hundred in market growth,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_321",
+    "file": "images/manim_math/anim_321.mp4",
+    "start": 1074.083,
+    "end": 1078.634,
+    "duration": 4.551,
+    "clause": "eighteen thousand seven hundred seventy-nine in loan paydown on the Mercer Building,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_322",
+    "file": "images/manim_math/anim_322.mp4",
+    "start": 1078.634,
+    "end": 1081.03,
+    "duration": 2.396,
+    "clause": "eight thousand seven hundred in its cash flow,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_323",
+    "file": "images/manim_math/anim_323.mp4",
+    "start": 1081.03,
+    "end": 1084.507,
+    "duration": 3.477,
+    "clause": "and about eight thousand more from the two duplexes.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_324",
+    "file": "images/manim_math/anim_324.mp4",
+    "start": 1084.507,
+    "end": 1086.65,
+    "duration": 2.143,
+    "clause": "Forty-three thousand one hundred seventy-nine dollars.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_325",
+    "file": "images/manim_math/anim_325.mp4",
+    "start": 1086.65,
+    "end": 1091.67,
+    "duration": 5.02,
+    "clause": "For the first time, by about thirty-five hundred dollars,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_326",
+    "file": "images/img_326.png",
+    "start": 1091.67,
+    "end": 1094.09,
+    "duration": 2.42,
+    "clause": "the money works harder than you do.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_327",
+    "file": "images/img_327.png",
+    "start": 1094.09,
+    "end": 1098.41,
+    "duration": 4.32,
+    "clause": "Now there are two engines, and one of them never gets tired.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_328",
+    "file": "images/img_328.png",
+    "start": 1098.41,
+    "end": 1101.49,
+    "duration": 3.08,
+    "clause": "Your tax return, meanwhile, shows a loss.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_329",
+    "file": "images/img_329.png",
+    "start": 1101.49,
+    "end": 1103.99,
+    "duration": 2.5,
+    "clause": "Depreciation on an old brick building writes off",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_330",
+    "file": "images/manim_math/anim_330.mp4",
+    "start": 1103.99,
+    "end": 1106.95,
+    "duration": 2.96,
+    "clause": "thousands a year that you never actually spent,",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_331",
+    "file": "images/img_331.png",
+    "start": 1106.95,
+    "end": 1110.37,
+    "duration": 3.42,
+    "clause": "so on paper, you look poorer than the year before.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_332",
+    "file": "images/img_332.png",
+    "start": 1110.37,
+    "end": 1113.51,
+    "duration": 3.14,
+    "clause": "On paper, a smaller man than the last.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_333",
+    "file": "images/img_333.png",
+    "start": 1113.51,
+    "end": 1117.73,
+    "duration": 4.22,
+    "clause": "That April, Kessler offers you regional operations manager.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_334",
+    "file": "images/img_334.png",
+    "start": 1117.73,
+    "end": 1122.457,
+    "duration": 4.727,
+    "clause": "Fourteen thousand more a year, three Saturdays a month, and a lot of driving.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_335",
+    "file": "images/img_335.png",
+    "start": 1122.457,
+    "end": 1127.237,
+    "duration": 4.78,
+    "clause": "You ask about the hours, think about it for a day, and say no.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_336",
+    "file": "images/img_336.png",
+    "start": 1127.237,
+    "end": 1131.517,
+    "duration": 4.28,
+    "clause": "Burke stops you in the hallway. \"Who turns down fourteen grand?\"",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_337",
+    "file": "images/img_337.png",
+    "start": 1131.517,
+    "end": 1134.577,
+    "duration": 3.06,
+    "clause": "Freedom doesn't announce itself like a lottery win.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_338",
+    "file": "images/img_338.png",
+    "start": 1134.577,
+    "end": 1137.397,
+    "duration": 2.82,
+    "clause": "It shows up as a Tuesday where you say no to something reasonable,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_339",
+    "file": "images/img_339.png",
+    "start": 1137.397,
+    "end": 1142.197,
+    "duration": 4.8,
+    "clause": "for reasons that would have sounded insane to you five years earlier.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_340",
+    "file": "images/img_340.png",
+    "start": 1142.197,
+    "end": 1144.657,
+    "duration": 2.46,
+    "clause": "Nadia finds the binder in October.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_341",
+    "file": "images/img_341.png",
+    "start": 1144.657,
+    "end": 1147.617,
+    "duration": 2.96,
+    "clause": "She's looking for a stapler in the hall closet on Delmar,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_342",
+    "file": "images/img_342.png",
+    "start": 1147.617,
+    "end": 1150.157,
+    "duration": 2.54,
+    "clause": "and there it is, three inches thick,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_343",
+    "file": "images/img_343.png",
+    "start": 1150.157,
+    "end": 1155.537,
+    "duration": 5.38,
+    "clause": "a closing package with Cedar Street Holdings on the cover and an address she recognizes.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_344",
+    "file": "images/img_344.png",
+    "start": 1155.537,
+    "end": 1158.637,
+    "duration": 3.1,
+    "clause": "She's driven past that building a hundred times.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_345",
+    "file": "images/img_345.png",
+    "start": 1158.637,
+    "end": 1161.997,
+    "duration": 3.36,
+    "clause": "She stands in the hallway in her scrubs, turning pages,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_346",
+    "file": "images/img_346.png",
+    "start": 1161.997,
+    "end": 1165.097,
+    "duration": 3.1,
+    "clause": "and you watch her do the math faster than you ever did.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_347",
+    "file": "images/img_347.png",
+    "start": 1165.097,
+    "end": 1170.797,
+    "duration": 5.7,
+    "clause": "\"Is this ours?\" she asks. Then, quieter, \"Why didn't you tell me?\"",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_348",
+    "file": "images/img_348.png",
+    "start": 1170.797,
+    "end": 1172.557,
+    "duration": 1.76,
+    "clause": "You don't have a good answer.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_349",
+    "file": "images/img_349.png",
+    "start": 1172.557,
+    "end": 1176.497,
+    "duration": 3.94,
+    "clause": "For three years she split groceries with you down to the dollar.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_350",
+    "file": "images/img_350.png",
+    "start": 1176.497,
+    "end": 1178.577,
+    "duration": 2.08,
+    "clause": "She paid for half of a trip to the coast you",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_351",
+    "file": "images/manim_math/anim_351.mp4",
+    "start": 1178.577,
+    "end": 1182.077,
+    "duration": 3.5,
+    "clause": "could have paid for with one month of the building's cash flow.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_352",
+    "file": "images/img_352.png",
+    "start": 1182.077,
+    "end": 1184.397,
+    "duration": 2.32,
+    "clause": "She told her mother not to worry about you,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_353",
+    "file": "images/img_353.png",
+    "start": 1184.397,
+    "end": 1187.317,
+    "duration": 2.92,
+    "clause": "that you were careful and you'd get there eventually.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_354",
+    "file": "images/img_354.png",
+    "start": 1187.317,
+    "end": 1190.817,
+    "duration": 3.5,
+    "clause": "The first thing this life cost you was conversation.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_355",
+    "file": "images/img_355.png",
+    "start": 1190.817,
+    "end": 1194.397,
+    "duration": 3.58,
+    "clause": "Then it cost money, Cal's and yours.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_356",
+    "file": "images/img_356.png",
+    "start": 1194.397,
+    "end": 1198.864,
+    "duration": 4.467,
+    "clause": "This is the third price, and it's the one nobody puts in the brochure.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_357",
+    "file": "images/img_357.png",
+    "start": 1198.864,
+    "end": 1200.724,
+    "duration": 1.86,
+    "clause": "Somewhere in those ten years,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_358",
+    "file": "images/img_358.png",
+    "start": 1200.724,
+    "end": 1205.884,
+    "duration": 5.16,
+    "clause": "being underestimated stopped being a strategy and turned into something you enjoyed.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_359",
+    "file": "images/img_359.png",
+    "start": 1205.884,
+    "end": 1208.104,
+    "duration": 2.22,
+    "clause": "You liked that Burke didn't know.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_360",
+    "file": "images/img_360.png",
+    "start": 1208.104,
+    "end": 1212.504,
+    "duration": 4.4,
+    "clause": "You liked the silence at the dinner party and the groomsman's question about your shoes.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_361",
+    "file": "images/img_361.png",
+    "start": 1212.504,
+    "end": 1216.184,
+    "duration": 3.68,
+    "clause": "And standing in that hallway, it lands on you, plainly,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_362",
+    "file": "images/img_362.png",
+    "start": 1216.184,
+    "end": 1219.144,
+    "duration": 2.96,
+    "clause": "that if you need everyone to think you're poor,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_363",
+    "file": "images/img_363.png",
+    "start": 1219.144,
+    "end": 1224.284,
+    "duration": 5.14,
+    "clause": "you're still letting their opinion run your life. You just flipped the direction.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_364",
+    "file": "images/img_364.png",
+    "start": 1224.284,
+    "end": 1229.824,
+    "duration": 5.54,
+    "clause": "Nadia closes the binder. She doesn't leave. She doesn't say it's fine, either.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_365",
+    "file": "images/img_365.png",
+    "start": 1229.824,
+    "end": 1232.084,
+    "duration": 2.26,
+    "clause": "She sets it on the kitchen table, sits down",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_366",
+    "file": "images/img_366.png",
+    "start": 1232.084,
+    "end": 1236.204,
+    "duration": 4.12,
+    "clause": "across from you, and says, \"Start from the beginning.\"",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_367",
+    "file": "images/img_367.png",
+    "start": 1236.204,
+    "end": 1240.584,
+    "duration": 4.38,
+    "clause": "It takes until two in the morning. Some of it she forgives that night.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_368",
+    "file": "images/img_368.png",
+    "start": 1240.584,
+    "end": 1242.224,
+    "duration": 1.64,
+    "clause": "Some of it she",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_369",
+    "file": "images/img_369.png",
+    "start": 1242.224,
+    "end": 1244.344,
+    "duration": 2.12,
+    "clause": "Burke's year goes the other way.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_370",
+    "file": "images/img_370.png",
+    "start": 1244.344,
+    "end": 1247.504,
+    "duration": 3.16,
+    "clause": "Kessler is sold to a regional chain in the spring.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_371",
+    "file": "images/img_371.png",
+    "start": 1247.504,
+    "end": 1250.084,
+    "duration": 2.58,
+    "clause": "Burke keeps his job, but not his title,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_372",
+    "file": "images/manim_math/anim_372.mp4",
+    "start": 1250.084,
+    "end": 1252.944,
+    "duration": 2.86,
+    "clause": "and his salary drops to eighty-four thousand.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_373",
+    "file": "images/img_373.png",
+    "start": 1252.944,
+    "end": 1257.104,
+    "duration": 4.16,
+    "clause": "The showroom falls two months behind on rent, thirty-eight hundred dollars,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_374",
+    "file": "images/img_374.png",
+    "start": 1257.104,
+    "end": 1261.304,
+    "duration": 4.2,
+    "clause": "and for the first time the checks stop arriving on the first.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_375",
+    "file": "images/img_375.png",
+    "start": 1261.304,
+    "end": 1266.684,
+    "duration": 5.38,
+    "clause": "Then an email reaches Renata Cole, the attorney who handles Cedar Street Holdings.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_376",
+    "file": "images/img_376.png",
+    "start": 1266.684,
+    "end": 1270.244,
+    "duration": 3.56,
+    "clause": "It's from Burke. He's heard the building changed hands.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_377",
+    "file": "images/img_377.png",
+    "start": 1270.244,
+    "end": 1273.384,
+    "duration": 3.14,
+    "clause": "He'd like to manage it for the new owners for eight percent of the rents,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_378",
+    "file": "images/img_378.png",
+    "start": 1273.384,
+    "end": 1279.693,
+    "duration": 6.309,
+    "clause": "and he has attached a rent optimization plan. Five apartments he calls under market.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_379",
+    "file": "images/img_379.png",
+    "start": 1279.693,
+    "end": 1284.333,
+    "duration": 4.64,
+    "clause": "Raise them three hundred fifty dollars, or don't renew. One of them is two-B,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_380",
+    "file": "images/img_380.png",
+    "start": 1284.333,
+    "end": 1289.253,
+    "duration": 4.92,
+    "clause": "which has rented for seven hundred eighty dollars a month for eleven years.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_381",
+    "file": "images/img_381.png",
+    "start": 1289.253,
+    "end": 1291.933,
+    "duration": 2.68,
+    "clause": "Two-B is Elaine's apartment.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_382",
+    "file": "images/img_382.png",
+    "start": 1291.933,
+    "end": 1294.273,
+    "duration": 2.34,
+    "clause": "Renata schedules a tenants' meeting for Monday at",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_383",
+    "file": "images/img_383.png",
+    "start": 1294.273,
+    "end": 1297.353,
+    "duration": 3.08,
+    "clause": "nine in the lobby to introduce the new management.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_384",
+    "file": "images/img_384.png",
+    "start": 1297.353,
+    "end": 1302.293,
+    "duration": 4.94,
+    "clause": "Burke arrives early in a navy blazer with two boxes of donuts and a folder.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_385",
+    "file": "images/img_385.png",
+    "start": 1302.293,
+    "end": 1306.513,
+    "duration": 4.22,
+    "clause": "When he sees you near the mailboxes, he frowns, then laughs.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_386",
+    "file": "images/img_386.png",
+    "start": 1306.513,
+    "end": 1310.193,
+    "duration": 3.68,
+    "clause": "\"Didn't know you rented here.\" He points you toward the back.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_387",
+    "file": "images/img_387.png",
+    "start": 1310.193,
+    "end": 1311.773,
+    "duration": 1.58,
+    "clause": "You go to the back.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_388",
+    "file": "images/img_388.png",
+    "start": 1311.773,
+    "end": 1316.753,
+    "duration": 4.98,
+    "clause": "At nine sharp, Renata walks in. Burke stands, straightens his blazer,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_389",
+    "file": "images/img_389.png",
+    "start": 1316.753,
+    "end": 1321.793,
+    "duration": 5.04,
+    "clause": "and steps forward to shake hands with whoever is following her. Nobody is.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_390",
+    "file": "images/img_390.png",
+    "start": 1321.793,
+    "end": 1324.533,
+    "duration": 2.74,
+    "clause": "\"The owner is already here,\" she says.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_391",
+    "file": "images/img_391.png",
+    "start": 1324.533,
+    "end": 1327.233,
+    "duration": 2.7,
+    "clause": "She walks through the folding chairs, past Burke,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_392",
+    "file": "images/img_392.png",
+    "start": 1327.233,
+    "end": 1329.313,
+    "duration": 2.08,
+    "clause": "and hands you a ring of keys.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_393",
+    "file": "images/img_393.png",
+    "start": 1329.313,
+    "end": 1335.213,
+    "duration": 5.9,
+    "clause": "The lobby goes quiet. Burke's face goes red, and then it goes white.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_394",
+    "file": "images/img_394.png",
+    "start": 1335.213,
+    "end": 1339.193,
+    "duration": 3.98,
+    "clause": "You don't make a speech. You read from one sheet of paper.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_395",
+    "file": "images/img_395.png",
+    "start": 1339.193,
+    "end": 1344.933,
+    "duration": 5.74,
+    "clause": "Every rent increase on Burke's plan is canceled. Every non-renewal is void.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_396",
+    "file": "images/img_396.png",
+    "start": 1344.933,
+    "end": 1348.673,
+    "duration": 3.74,
+    "clause": "\"Elaine, your rent stays exactly where it is.\"",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_397",
+    "file": "images/img_397.png",
+    "start": 1348.673,
+    "end": 1351.153,
+    "duration": 2.48,
+    "clause": "The boiler gets replaced this month, paid from",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_398",
+    "file": "images/img_398.png",
+    "start": 1351.153,
+    "end": 1354.627,
+    "duration": 3.474,
+    "clause": "money Harlan set aside at closing, not from rent.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_399",
+    "file": "images/img_399.png",
+    "start": 1354.627,
+    "end": 1358.222,
+    "duration": 3.595,
+    "clause": "Teo, who kept this building warm for years on late paychecks,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_400",
+    "file": "images/img_400.png",
+    "start": 1358.222,
+    "end": 1362.982,
+    "duration": 4.76,
+    "clause": "is the new building manager, with a salary, benefits, and his back pay.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_401",
+    "file": "images/img_401.png",
+    "start": 1362.982,
+    "end": 1366.482,
+    "duration": 3.5,
+    "clause": "Then you turn to Burke. No eight percent contract.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_402",
+    "file": "images/img_402.png",
+    "start": 1366.482,
+    "end": 1370.042,
+    "duration": 3.56,
+    "clause": "His back rent goes on a twelve-month payment plan with no late fees,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_403",
+    "file": "images/img_403.png",
+    "start": 1370.042,
+    "end": 1373.442,
+    "duration": 3.4,
+    "clause": "and his lease renews at the same rent he pays now.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_404",
+    "file": "images/img_404.png",
+    "start": 1373.442,
+    "end": 1375.762,
+    "duration": 2.32,
+    "clause": "You slide it across the folding table.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_405",
+    "file": "images/img_405.png",
+    "start": 1375.762,
+    "end": 1379.722,
+    "duration": 3.96,
+    "clause": "He looks at it for a long time. He doesn't ask why.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_406",
+    "file": "images/img_406.png",
+    "start": 1379.722,
+    "end": 1381.382,
+    "duration": 1.66,
+    "clause": "You don't explain.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_407",
+    "file": "images/img_407.png",
+    "start": 1381.382,
+    "end": 1384.962,
+    "duration": 3.58,
+    "clause": "In the second row, Elaine is holding a paper cup of coffee.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_408",
+    "file": "images/img_408.png",
+    "start": 1384.962,
+    "end": 1386.322,
+    "duration": 1.36,
+    "clause": "She looks down at it the way she",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_409",
+    "file": "images/img_409.png",
+    "start": 1386.322,
+    "end": 1391.482,
+    "duration": 5.16,
+    "clause": "looked down at her sandwich ten years ago. Then she looks up, at you.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_410",
+    "file": "images/img_410.png",
+    "start": 1391.482,
+    "end": 1395.962,
+    "duration": 4.48,
+    "clause": "Everybody in this building pays rent to somebody. Find out who.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_411",
+    "file": "images/img_411.png",
+    "start": 1395.962,
+    "end": 1398.122,
+    "duration": 2.16,
+    "clause": "She wasn't talking about apartments.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_412",
+    "file": "images/manim_math/anim_412.mp4",
+    "start": 1398.122,
+    "end": 1403.762,
+    "duration": 5.64,
+    "clause": "She was talking about the truck, the boat, the equity line, the four-oh-one-k loans.",
+    "is_manim": true
+  },
+  {
+    "cut_id": "IMG_413",
+    "file": "images/img_413.png",
+    "start": 1403.762,
+    "end": 1408.462,
+    "duration": 4.7,
+    "clause": "Burke paid rent on his whole life, every month, to people he never met,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_414",
+    "file": "images/img_414.png",
+    "start": 1408.462,
+    "end": 1413.562,
+    "duration": 5.1,
+    "clause": "and he called it success. You paid rent on one rattling window unit,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_415",
+    "file": "images/img_415.png",
+    "start": 1413.562,
+    "end": 1416.962,
+    "duration": 3.4,
+    "clause": "and you spent ten years finding out who collects.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_416",
+    "file": "images/img_416.png",
+    "start": 1416.962,
+    "end": 1419.282,
+    "duration": 2.32,
+    "clause": "It turns out the answer was always whoever",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_417",
+    "file": "images/img_417.png",
+    "start": 1419.282,
+    "end": 1422.302,
+    "duration": 3.02,
+    "clause": "owns the thing everyone else is paying for.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_418",
+    "file": "images/img_418.png",
+    "start": 1422.302,
+    "end": 1427.042,
+    "duration": 4.74,
+    "clause": "And on a Monday morning on Fourth and Main, that happens to be you.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_419",
+    "file": "images/img_419.png",
+    "start": 1427.042,
+    "end": 1432.062,
+    "duration": 5.02,
+    "clause": "It's twelve forty-seven on a Tuesday. You're standing at a microwave in apartment three-A,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_420",
+    "file": "images/img_420.png",
+    "start": 1432.062,
+    "end": 1436.511,
+    "duration": 4.449,
+    "clause": "the smallest unit in the Mercer Building. You and Nadia moved in this spring,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_421",
+    "file": "images/img_421.png",
+    "start": 1436.511,
+    "end": 1440.551,
+    "duration": 4.04,
+    "clause": "because it came vacant and because nobody looks twice at a tenant.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_422",
+    "file": "images/img_422.png",
+    "start": 1440.551,
+    "end": 1442.811,
+    "duration": 2.26,
+    "clause": "Rice and beans turn slowly in a chipped",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_423",
+    "file": "images/img_423.png",
+    "start": 1442.811,
+    "end": 1447.491,
+    "duration": 4.68,
+    "clause": "plastic container with a crack along the lid. The microwave beeps.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_424",
+    "file": "images/img_424.png",
+    "start": 1447.491,
+    "end": 1450.951,
+    "duration": 3.46,
+    "clause": "The container comes out too hot, and you pass it from hand to hand,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_425",
+    "file": "images/img_425.png",
+    "start": 1450.951,
+    "end": 1455.611,
+    "duration": 4.66,
+    "clause": "because the lid always heats up first and you still never remember.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_426",
+    "file": "images/img_426.png",
+    "start": 1455.611,
+    "end": 1461.771,
+    "duration": 6.16,
+    "clause": "Downstairs, a new sign hangs by the mailboxes. Problem with your unit? Call Teo.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_427",
+    "file": "images/img_427.png",
+    "start": 1461.771,
+    "end": 1465.111,
+    "duration": 3.34,
+    "clause": "Problem with Teo? Knock on three-A.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_428",
+    "file": "images/img_428.png",
+    "start": 1465.111,
+    "end": 1468.591,
+    "duration": 3.48,
+    "clause": "In the corner storefront, Burke is unlocking the showroom.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_429",
+    "file": "images/img_429.png",
+    "start": 1468.591,
+    "end": 1470.611,
+    "duration": 2.02,
+    "clause": "His check came on the first.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_430",
+    "file": "images/img_430.png",
+    "start": 1470.611,
+    "end": 1475.611,
+    "duration": 5.0,
+    "clause": "Renting was your lane. Turns out, lanes have owners.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_431",
+    "file": "images/img_431.png",
+    "start": 1475.611,
+    "end": 1479.151,
+    "duration": 3.54,
+    "clause": "The people in this story are composites, and the numbers are illustrative,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_432",
+    "file": "images/img_432.png",
+    "start": 1479.151,
+    "end": 1480.911,
+    "duration": 1.76,
+    "clause": "but the path is real.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_433",
+    "file": "images/img_433.png",
+    "start": 1480.911,
+    "end": 1483.191,
+    "duration": 2.28,
+    "clause": "If you've ever eaten lunch out of a",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_434",
+    "file": "images/img_434.png",
+    "start": 1483.191,
+    "end": 1486.191,
+    "duration": 3.0,
+    "clause": "container while someone told you where your lane was,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_435",
+    "file": "images/img_435.png",
+    "start": 1486.191,
+    "end": 1489.851,
+    "duration": 3.66,
+    "clause": "you already know which side of that lobby you'd want to stand on.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_436",
+    "file": "images/img_436.png",
+    "start": 1489.851,
+    "end": 1491.711,
+    "duration": 1.86,
+    "clause": "If this story earned your time,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_437",
+    "file": "images/img_437.png",
+    "start": 1491.711,
+    "end": 1495.791,
+    "duration": 4.08,
+    "clause": "a like helps it reach whoever is standing at that microwave right now.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_438",
+    "file": "images/img_438.png",
+    "start": 1495.791,
+    "end": 1499.051,
+    "duration": 3.26,
+    "clause": "And tell me in the comments: if you were holding that lease,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_439",
+    "file": "images/img_439.png",
+    "start": 1499.051,
+    "end": 1500.971,
+    "duration": 1.92,
+    "clause": "would you have renewed Burke at the same rent,",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_440",
+    "file": "images/img_440.png",
+    "start": 1500.971,
+    "end": 1503.651,
+    "duration": 2.68,
+    "clause": "or let his month-to-month run out?",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_441",
+    "file": "images/img_441.png",
+    "start": 1503.651,
+    "end": 1507.311,
+    "duration": 3.66,
+    "clause": "If you want the stories that come after this one, subscribe.",
+    "is_manim": false
+  },
+  {
+    "cut_id": "IMG_442",
+    "file": "images/img_442.png",
+    "start": 1507.311,
+    "end": 1510.391,
+    "duration": 3.08,
+    "clause": "Thanks for spending this time with me. There's another one tomorrow.",
+    "is_manim": false
+  }
+]

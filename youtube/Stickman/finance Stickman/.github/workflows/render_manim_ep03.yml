@@ -1,0 +1,117 @@
+name: Manim Render Farm — Episode 03 (72 clips)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'youtube/Stickman/finance Stickman/projects/03_boss_building_rents/images/manim_math/scenes.py'
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # 72 clips split across 12 runners (6 clips each)
+        chunk:
+          - {start: 0,  end: 6,  id: "00"}
+          - {start: 6,  end: 12, id: "01"}
+          - {start: 12, end: 18, id: "02"}
+          - {start: 18, end: 24, id: "03"}
+          - {start: 24, end: 30, id: "04"}
+          - {start: 30, end: 36, id: "05"}
+          - {start: 36, end: 42, id: "06"}
+          - {start: 42, end: 48, id: "07"}
+          - {start: 48, end: 54, id: "08"}
+          - {start: 54, end: 60, id: "09"}
+          - {start: 60, end: 66, id: "10"}
+          - {start: 66, end: 72, id: "11"}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg libcairo2-dev libpango1.0-dev \
+            texlive texlive-latex-extra texlive-fonts-extra \
+            texlive-latex-recommended texlive-science tipa
+
+      - name: Install Python dependencies
+        run: pip install manim==0.21.0
+
+      - name: Render scenes ${{ matrix.chunk.start }}–${{ matrix.chunk.end }}
+        working-directory: "youtube/Stickman/finance Stickman"
+        run: |
+          SCENES=(
+            "Anim048" "Anim049" "Anim054" "Anim060" "Anim069" "Anim070"
+            "Anim072" "Anim082" "Anim083" "Anim086" "Anim087" "Anim088"
+            "Anim093" "Anim107" "Anim120" "Anim122" "Anim123" "Anim124"
+            "Anim129" "Anim141" "Anim146" "Anim165" "Anim170" "Anim172"
+            "Anim173" "Anim174" "Anim177" "Anim181" "Anim182" "Anim196"
+            "Anim197" "Anim199" "Anim200" "Anim215" "Anim216" "Anim219"
+            "Anim221" "Anim225" "Anim227" "Anim229" "Anim237" "Anim238"
+            "Anim241" "Anim242" "Anim251" "Anim256" "Anim257" "Anim264"
+            "Anim287" "Anim288" "Anim289" "Anim290" "Anim292" "Anim294"
+            "Anim295" "Anim296" "Anim307" "Anim308" "Anim312" "Anim313"
+            "Anim314" "Anim318" "Anim320" "Anim321" "Anim322" "Anim323"
+            "Anim324" "Anim325" "Anim330" "Anim351" "Anim372" "Anim412"
+          )
+          START=${{ matrix.chunk.start }}
+          END=${{ matrix.chunk.end }}
+          SCENES_DIR="projects/03_boss_building_rents/images/manim_math"
+          mkdir -p rendered_chunk_${{ matrix.chunk.id }}
+
+          for i in $(seq $START $((END-1))); do
+            SCENE="${SCENES[$i]}"
+            CUT_NUM="${SCENE//Anim/}"
+            OUT="anim_${CUT_NUM}.mp4"
+            echo "=== Rendering $SCENE -> $OUT ==="
+            manim render -qm --fps 25 --format mp4 "${SCENES_DIR}/scenes.py" "$SCENE" || true
+            # Find the rendered mp4 and copy to output
+            FOUND=$(find . -name "${SCENE}.mp4" -o -name "${SCENE}_ManimCE*.mp4" 2>/dev/null | head -1)
+            if [ -n "$FOUND" ]; then
+              cp "$FOUND" "rendered_chunk_${{ matrix.chunk.id }}/$OUT"
+              echo "  OK: $OUT"
+            else
+              echo "  WARN: $OUT not found"
+            fi
+          done
+
+      - name: Upload chunk ${{ matrix.chunk.id }} artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: manim-chunk-${{ matrix.chunk.id }}
+          path: "youtube/Stickman/finance Stickman/rendered_chunk_${{ matrix.chunk.id }}/"
+          retention-days: 7
+
+  collect:
+    needs: render
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download all rendered chunks
+        uses: actions/download-artifact@v4
+        with:
+          path: all_manim_clips/
+
+      - name: Flatten into single directory
+        run: |
+          mkdir -p final_manim_clips
+          find all_manim_clips/ -name "*.mp4" -exec cp {} final_manim_clips/ \;
+          echo "Total clips collected:"
+          ls final_manim_clips/*.mp4 | wc -l
+          ls final_manim_clips/
+
+      - name: Upload all 72 clips as single artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: manim-all-72-clips
+          path: final_manim_clips/
+          retention-days: 14
