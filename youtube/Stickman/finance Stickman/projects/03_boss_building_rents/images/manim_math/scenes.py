@@ -126,7 +126,7 @@ class Anim070(Scene):
         ax = Axes(x_range=[0,1,1], y_range=[0,5000,1000],
                   x_length=4, y_length=5,
                   axis_config={"color": GRAY, "stroke_width": 1},
-                  y_axis_config={"include_numbers": True, "numbers_to_include": [1000,2000,3000,4000,5000]})
+                  y_axis_config={"include_numbers": False})
         bar = ax.get_riemann_rectangles(ax.plot(lambda x: 3575*x, x_range=[0,1]),
                                         x_range=[0,1], dx=1, color=RED, fill_opacity=0.85)
         label = label_text("P&I / month: $3,575", color=RED).next_to(ax, UP)
@@ -155,7 +155,7 @@ class Anim072(Scene):
             bars.add(g)
             total += amt
         bars.arrange(DOWN, aligned_edge=LEFT, buff=0.2).center()
-        grand = label_text(f"Total ≈ ${total:,}/mo", color=CREAM).scale(1.2).next_to(bars, DOWN, buff=0.5)
+        grand = label_text(f"Total ≈ ${total:}/mo", color=CREAM).scale(1.2).next_to(bars, DOWN, buff=0.5)
         self.play(LaggedStart(*[FadeIn(b) for b in bars], lag_ratio=0.3), run_time=1.4)
         self.play(Write(grand), run_time=0.5)
         self.wait(0.59)
@@ -211,8 +211,7 @@ class Anim087(Scene):
         ax = Axes(x_range=[0,3,1], y_range=[0,150000,50000],
                   x_length=5, y_length=5,
                   axis_config={"color": GRAY, "stroke_width": 1},
-                  y_axis_config={"include_numbers": True,
-                                 "numbers_to_include": [50000, 100000, 150000],
+                  y_axis_config={"include_numbers": False,
                                  "decimal_number_config": {"num_decimal_places": 0}})
         b_burke = ax.get_riemann_rectangles(ax.plot(lambda x: 128000, x_range=[0.1,1.0]),
                                             x_range=[0.1,1.0], dx=0.9, color=RED, fill_opacity=0.8)
@@ -259,8 +258,8 @@ class Anim107(Scene):
         ax = Axes(x_range=[1,13,1], y_range=[0,1200,200],
                   x_length=9, y_length=5,
                   axis_config={"color": GRAY, "stroke_width": 1},
-                  x_axis_config={"include_numbers": True, "numbers_to_include": list(range(1,13,2))},
-                  y_axis_config={"include_numbers": True, "numbers_to_include": [200,400,600,800,1000]})
+                  x_axis_config={"include_numbers": False},
+                  y_axis_config={"include_numbers": False})
         def growth(x):
             return max(0, 971*(x-1)/11)
         curve = ax.plot(growth, x_range=[1,12], color=GREEN, stroke_width=3)
@@ -316,7 +315,7 @@ class Anim123(Scene):
         ax = Axes(x_range=[0,5,1], y_range=[0,20,5],
                   x_length=7, y_length=5,
                   axis_config={"color": GRAY, "stroke_width": 1},
-                  y_axis_config={"include_numbers": True, "numbers_to_include": [5,10,15,20]})
+                  y_axis_config={"include_numbers": False})
         y_lab = label_text("401k Contribution %", color=GRAY).next_to(ax.y_axis, LEFT).scale(0.65)
         self.play(Create(ax), Write(y_lab), run_time=1.0)
         prev_x = 0.5
@@ -397,7 +396,7 @@ class Anim146(Scene):
         for label, amt, col in debts:
             w = amt / 55000
             b = Rectangle(width=w, height=0.6, fill_color=col, fill_opacity=0.85, stroke_width=0)
-            t = label_text(f"{label}: ${amt:,}", color=col, scale=0.6).next_to(b, RIGHT, buff=0.2)
+            t = label_text(f"{label}: ${amt:}", color=col, scale=0.6).next_to(b, RIGHT, buff=0.2)
             bars.add(VGroup(b, t))
         bars.arrange(DOWN, aligned_edge=LEFT, buff=0.3).center()
         head = label_text("Burke's Liabilities", color=RED).scale(1.1).next_to(bars, UP, buff=0.4)
@@ -455,8 +454,8 @@ class Anim173(Scene):
         ax = Axes(x_range=[0,15,5], y_range=[0,220000,50000],
                   x_length=9, y_length=5,
                   axis_config={"color": GRAY, "stroke_width": 1},
-                  x_axis_config={"include_numbers": True, "numbers_to_include": [5,10,15]},
-                  y_axis_config={"include_numbers": True, "numbers_to_include": [50000,100000,150000,200000],
+                  x_axis_config={"include_numbers": False},
+                  y_axis_config={"include_numbers": False,
                                  "decimal_number_config": {"num_decimal_places": 0}})
         def fv(x):
             r = 0.0669/12
@@ -477,8 +476,8 @@ class Anim174(Scene):
         ax = Axes(x_range=[0,15,5], y_range=[0,220000,50000],
                   x_length=9, y_length=5,
                   axis_config={"color": GRAY, "stroke_width": 1},
-                  x_axis_config={"include_numbers": True},
-                  y_axis_config={"include_numbers": True,
+                  x_axis_config={"include_numbers": False},
+                  y_axis_config={"include_numbers": False,
                                  "decimal_number_config": {"num_decimal_places": 0}})
         def fv(x):
             r = 0.0669/12
@@ -700,8 +699,8 @@ class Anim237(Scene):
         ax = Axes(x_range=[0,8,2], y_range=[0,100000,20000],
                   x_length=9, y_length=5,
                   axis_config={"color": GRAY, "stroke_width": 1},
-                  x_axis_config={"include_numbers": True, "numbers_to_include": [2,4,6]},
-                  y_axis_config={"include_numbers": True, "numbers_to_include": [20000,40000,60000,80000],
+                  x_axis_config={"include_numbers": False},
+                  y_axis_config={"include_numbers": False,
                                  "decimal_number_config": {"num_decimal_places": 0}})
         curve = ax.plot(lambda x: min(81000, 12000*x**0.9), x_range=[0,6.5], color=GREEN, stroke_width=3)
         plateau = ax.plot(lambda x: 81000, x_range=[6.5,7.5], color=GOLD, stroke_width=3)
@@ -720,8 +719,8 @@ class Anim238(Scene):
         ax = Axes(x_range=[0,9,1], y_range=[50000,90000,10000],
                   x_length=9, y_length=5,
                   axis_config={"color": GRAY, "stroke_width": 1},
-                  x_axis_config={"include_numbers": True},
-                  y_axis_config={"include_numbers": True,
+                  x_axis_config={"include_numbers": False},
+                  y_axis_config={"include_numbers": False,
                                  "decimal_number_config": {"num_decimal_places": 0}})
         plateau = ax.plot(lambda x: 81000, x_range=[0,1.5], color=GOLD, stroke_width=3)
         fall    = ax.plot(lambda x: 81000 - (x-1.5)*2571, x_range=[1.5,8.5], color=RED, stroke_width=3)
@@ -879,7 +878,7 @@ class Anim289(Scene):
         for label, amt in items:
             w = amt / 1000 * 1.2
             b = Rectangle(width=w, height=0.6, fill_color=RED, fill_opacity=0.8, stroke_width=0)
-            t = label_text(f"{label}: ${amt:,}/yr", color=RED, scale=0.6).next_to(b, RIGHT, buff=0.15)
+            t = label_text(f"{label}: ${amt:}/yr", color=RED, scale=0.6).next_to(b, RIGHT, buff=0.15)
             bars.add(VGroup(b, t))
         bars.arrange(DOWN, aligned_edge=LEFT, buff=0.3).center()
         head = label_text("Annual Expenses", color=GRAY).scale(0.9).next_to(bars, UP, buff=0.4)
@@ -965,11 +964,11 @@ class Anim296(Scene):
         for label, amt, col in sources:
             w = amt / 10000 * 0.9
             b = Rectangle(width=w, height=0.75, fill_color=col, fill_opacity=0.85, stroke_width=0)
-            t = label_text(f"{label}: ${amt:,}", color=col, scale=0.65).next_to(b, RIGHT, buff=0.15)
+            t = label_text(f"{label}: ${amt:}", color=col, scale=0.65).next_to(b, RIGHT, buff=0.15)
             bars.add(VGroup(b, t))
             total += amt
         bars.arrange(DOWN, aligned_edge=LEFT, buff=0.3).center()
-        total_lab = Text(f"Total: ${total:,}", font="Helvetica Neue", weight=BOLD, color=GOLD).scale(1.4).next_to(bars, DOWN, buff=0.5)
+        total_lab = Text(f"Total: ${total:}", font="Helvetica Neue", weight=BOLD, color=GOLD).scale(1.4).next_to(bars, DOWN, buff=0.5)
         for b in bars:
             self.play(FadeIn(b), run_time=1.2)
         self.play(Write(total_lab), run_time=1.0)
@@ -1018,8 +1017,8 @@ class Anim312(Scene):
             Rectangle(width=interest/900,  height=1.2, fill_color=RED,   fill_opacity=0.85, stroke_width=0),
             Rectangle(width=principal/900, height=1.2, fill_color=GREEN, fill_opacity=0.85, stroke_width=0),
         ).arrange(RIGHT, buff=0).center()
-        t_int = label_text(f"Interest: ${interest:,}", color=RED,   scale=0.75).next_to(pie[0], DOWN, buff=0.15)
-        t_pri = label_text(f"Principal: ${principal:,}", color=GREEN, scale=0.75).next_to(pie[1], DOWN, buff=0.15)
+        t_int = label_text(f"Interest: ${interest:}", color=RED,   scale=0.75).next_to(pie[0], DOWN, buff=0.15)
+        t_pri = label_text(f"Principal: ${principal:}", color=GREEN, scale=0.75).next_to(pie[1], DOWN, buff=0.15)
         head  = label_text("Monthly Payment: $6,797", color=CREAM).scale(1.0).next_to(pie, UP, buff=0.4)
         self.play(Write(head), run_time=0.5)
         self.play(Create(pie), run_time=1.5)
@@ -1051,8 +1050,8 @@ class Anim314(Scene):
         ax = Axes(x_range=[0,13,1], y_range=[0,22000,5000],
                   x_length=9, y_length=4.5,
                   axis_config={"color": GRAY, "stroke_width": 1},
-                  x_axis_config={"include_numbers": True, "numbers_to_include": list(range(1,13,2))},
-                  y_axis_config={"include_numbers": True, "numbers_to_include": [5000,10000,15000,20000],
+                  x_axis_config={"include_numbers": False},
+                  y_axis_config={"include_numbers": False,
                                  "decimal_number_config": {"num_decimal_places": 0}})
         def paydown(x):
             return 18779 * (x / 12) if x <= 12 else 18779
@@ -1148,8 +1147,7 @@ class Anim325(Scene):
         ax = Axes(x_range=[0,3,1], y_range=[0,50000,10000],
                   x_length=5, y_length=5,
                   axis_config={"color": GRAY, "stroke_width": 1},
-                  y_axis_config={"include_numbers": True,
-                                 "numbers_to_include": [10000,20000,30000,40000,50000],
+                  y_axis_config={"include_numbers": False,
                                  "decimal_number_config": {"num_decimal_places": 0}})
         b1 = ax.get_riemann_rectangles(ax.plot(lambda x: 39600, x_range=[0.2,1.1]),
                                        x_range=[0.2,1.1], dx=0.9, color=GRAY, fill_opacity=0.7)
@@ -1203,8 +1201,7 @@ class Anim372(Scene):
         ax = Axes(x_range=[0,3,1], y_range=[0,160000,40000],
                   x_length=4, y_length=4,
                   axis_config={"color": GRAY, "stroke_width": 1},
-                  y_axis_config={"include_numbers": True,
-                                 "numbers_to_include": [40000,80000,120000,160000],
+                  y_axis_config={"include_numbers": False,
                                  "decimal_number_config": {"num_decimal_places": 0}})
         b1 = ax.get_riemann_rectangles(ax.plot(lambda x: 128000, x_range=[0.2,1.1]),
                                        x_range=[0.2,1.1], dx=0.9, color=GRAY, fill_opacity=0.7)
