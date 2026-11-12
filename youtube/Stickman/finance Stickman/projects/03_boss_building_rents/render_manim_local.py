@@ -3,18 +3,18 @@ Local batch render script for all 72 Manim math clips.
 Runs using the venv manim executable.
 Output destination: projects/03_boss_building_rents/images/manim_math/
 
-Usage: python projects/03_boss_building_rents/render_manim_local.py
+Usage: python projects/03_boss_building_rents/render_manim_local.py [start_idx] [end_idx]
 """
 
 import subprocess
 import sys
 import os
-import json
 import shutil
 
 MANIM_EXE = r"C:\Users\renu5\.gemini\antigravity\scratch\manim-projects\venv\Scripts\manim.exe"
-SCENES_FILE = os.path.abspath("projects/03_boss_building_rents/images/manim_math/scenes.py")
-OUTPUT_DIR  = os.path.abspath("projects/03_boss_building_rents/images/manim_math")
+WORKSPACE_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+SCENES_FILE = os.path.join(WORKSPACE_ROOT, "projects", "03_boss_building_rents", "images", "manim_math", "scenes.py")
+OUTPUT_DIR  = os.path.join(WORKSPACE_ROOT, "projects", "03_boss_building_rents", "images", "manim_math")
 
 # All 72 scene class names in render order
 SCENES = [
@@ -35,44 +35,45 @@ def render_scene(scene_name):
     cut_num = scene_name.replace("Anim","")
     out_name = f"anim_{cut_num}.mp4"
     out_path = os.path.join(OUTPUT_DIR, out_name)
-    if os.path.exists(out_path):
+    if os.path.exists(out_path) and os.path.getsize(out_path) > 1000:
         print(f"[SKIP] {out_name} already exists.")
         return True
 
     cmd = [
         MANIM_EXE, "render",
-        "-qm",           # medium quality, 1920x1080
+        "-qm",           # medium quality, 720p / 25fps (fast, crisp)
         "--fps", "25",
         "--format", "mp4",
         SCENES_FILE,
         scene_name,
     ]
     print(f"[RENDER] {scene_name} -> {out_name}")
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    result = subprocess.run(cmd, cwd=WORKSPACE_ROOT, capture_output=True, text=True)
 
     if result.returncode != 0:
         print(f"[ERROR] {scene_name}: {result.stderr[-500:]}")
         return False
 
-    # Manim outputs to media/videos/scenes/720p25/<ClassName>.mp4
-    # Find and move it to our output dir
-    search_root = os.path.join(os.path.dirname(SCENES_FILE), "media")
-    for root, dirs, files in os.walk(search_root):
+    # Check root workspace media directory first
+    root_media = os.path.join(WORKSPACE_ROOT, "media")
+    for root, dirs, files in os.walk(root_media):
         for f in files:
-            if f == f"{scene_name}.mp4" or f == f"{scene_name}_ManimCE_v0.21.0.mp4":
+            if f.startswith(scene_name) and f.endswith(".mp4"):
                 src = os.path.join(root, f)
                 shutil.move(src, out_path)
-                print(f"  [OK] Saved -> {out_path}")
+                print(f"  [OK] Saved -> {out_path} ({os.path.getsize(out_path)} bytes)")
                 return True
 
-    # Fallback: search media anywhere relative to scenes.py parent
-    for root, dirs, files in os.walk(os.path.dirname(SCENES_FILE)):
-        for f in files:
-            if f.endswith(".mp4") and scene_name in f:
-                src = os.path.join(root, f)
-                shutil.move(src, out_path)
-                print(f"  [OK] Saved -> {out_path}")
-                return True
+    # Search local project media directory as fallback
+    proj_media = os.path.join(os.path.dirname(SCENES_FILE), "media")
+    if os.path.exists(proj_media):
+        for root, dirs, files in os.walk(proj_media):
+            for f in files:
+                if f.startswith(scene_name) and f.endswith(".mp4"):
+                    src = os.path.join(root, f)
+                    shutil.move(src, out_path)
+                    print(f"  [OK] Saved -> {out_path} ({os.path.getsize(out_path)} bytes)")
+                    return True
 
     print(f"  [WARN] Could not locate output mp4 for {scene_name}")
     return False

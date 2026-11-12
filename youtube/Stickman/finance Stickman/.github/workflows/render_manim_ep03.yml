@@ -1,10 +1,10 @@
-name: Manim Render Farm — Episode 03 (72 clips)
+name: Manim Render Farm — Episode 03 (Clips 24 to 71)
 
 on:
   workflow_dispatch:
   push:
     paths:
-      - 'youtube/Stickman/finance Stickman/projects/03_boss_building_rents/images/manim_math/scenes.py'
+      - 'youtube/Stickman/finance Stickman/.github/workflows/render_manim_ep03.yml'
 
 jobs:
   render:
@@ -12,12 +12,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # 72 clips split across 12 runners (6 clips each)
+        # 48 clips (scenes 24 to 71) split across 8 parallel GitHub runners (6 clips each)
         chunk:
-          - {start: 0,  end: 6,  id: "00"}
-          - {start: 6,  end: 12, id: "01"}
-          - {start: 12, end: 18, id: "02"}
-          - {start: 18, end: 24, id: "03"}
           - {start: 24, end: 30, id: "04"}
           - {start: 30, end: 36, id: "05"}
           - {start: 36, end: 42, id: "06"}
@@ -37,12 +33,10 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      - name: Install system dependencies
+      - name: Install system dependencies (no bloated TeX - pure Pango/Cairo)
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y ffmpeg libcairo2-dev libpango1.0-dev \
-            texlive texlive-latex-extra texlive-fonts-extra \
-            texlive-latex-recommended texlive-science tipa
+          sudo apt-get install -y ffmpeg libcairo2-dev libpango1.0-dev
 
       - name: Install Python dependencies
         run: pip install manim==0.21.0
@@ -75,7 +69,6 @@ jobs:
             OUT="anim_${CUT_NUM}.mp4"
             echo "=== Rendering $SCENE -> $OUT ==="
             manim render -qm --fps 25 --format mp4 "${SCENES_DIR}/scenes.py" "$SCENE" || true
-            # Find the rendered mp4 and copy to output
             FOUND=$(find . -name "${SCENE}.mp4" -o -name "${SCENE}_ManimCE*.mp4" 2>/dev/null | head -1)
             if [ -n "$FOUND" ]; then
               cp "$FOUND" "rendered_chunk_${{ matrix.chunk.id }}/$OUT"
@@ -105,13 +98,13 @@ jobs:
         run: |
           mkdir -p final_manim_clips
           find all_manim_clips/ -name "*.mp4" -exec cp {} final_manim_clips/ \;
-          echo "Total clips collected:"
+          echo "Total clips collected from GitHub Farm:"
           ls final_manim_clips/*.mp4 | wc -l
-          ls final_manim_clips/
+          ls -lh final_manim_clips/
 
-      - name: Upload all 72 clips as single artifact
+      - name: Upload render farm clips as single artifact
         uses: actions/upload-artifact@v4
         with:
-          name: manim-all-72-clips
+          name: manim-farm-clips-24-to-71
           path: final_manim_clips/
           retention-days: 14
